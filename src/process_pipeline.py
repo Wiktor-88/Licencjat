@@ -277,6 +277,20 @@ def process_all_reports(
 if __name__ == '__main__':
     INPUT_DIRECTORY = os.path.abspath(os.path.join("data", "raw", "sec-edgar-filings"))
     OUTPUT_DIRECTORY = os.path.abspath(os.path.join("data", "processed", "cleaned_texts"))
-    TARGET_TICKERS = ["AAPL", "MSFT", "NVDA"]
+    TARGET_TICKERS = [
+        "AAPL",
+        "MSFT",
+        "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "NFLX",
+        "ADBE",
+        "QCOM",
+    ]
     
     process_all_reports(INPUT_DIRECTORY, OUTPUT_DIRECTORY, TARGET_TICKERS)

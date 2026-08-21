@@ -48,6 +48,21 @@ MARKET_FEATURE_COLUMNS = [
     "Daily_Range",
 ]
 
+############### ROLLING Z SCORE FEATURES ###############
+
+ROLLING_Z_FEATURE_COLUMNS = [
+    "Log_Return_1D_Z60",
+    "Log_Return_3D_Z60",
+    "Log_Return_5D_Z60",
+    "Volatility_14D_Z60",
+    "Relative_Volume_20D_Z60",
+    "Price_to_SMA20_Z60",
+    "Intraday_Return_Z60",
+    "Daily_Range_Z60",
+]
+
+
+
 # ============================================================
 # BENCHMARK RYNKOWY
 # ============================================================
@@ -176,7 +191,7 @@ def validate_market_data(
         "Ticker",
         "Date",
         "Adj_Close",
-    ] + MARKET_FEATURE_COLUMNS
+    ] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
 
     missing_columns = [
         column
@@ -474,7 +489,7 @@ def merge_cutoff_market_features(
             "Date",
             "Adj_Close",
         ]
-        + MARKET_FEATURE_COLUMNS
+        + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
     ].copy()
 
     cutoff_market = cutoff_market.rename(
@@ -1225,6 +1240,19 @@ if __name__ == "__main__":
     print(
         df_model[
             sentiment_columns
+        ]
+        .isna()
+        .sum()
+    )
+
+
+    print(
+        "\nBraki w rolling Z-score dla filingów:"
+    )
+
+    print(
+        df_model[
+            ROLLING_Z_FEATURE_COLUMNS
         ]
         .isna()
         .sum()

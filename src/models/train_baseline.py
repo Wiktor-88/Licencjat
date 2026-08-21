@@ -17,6 +17,7 @@ from sklearn.metrics import (
 )
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.impute import SimpleImputer
 
 
 # ============================================================
@@ -45,23 +46,74 @@ TARGET_COLUMN = "Target_Abnormal_1D"
 # ============================================================
 
 MARKET_FEATURES = [
-    "Log_Return_1D",
-    "Log_Return_3D",
-    "Log_Return_5D",
+    # Relatywna siła spółki względem rynku
+    "Stock_vs_QQQ_1D",
+    "Stock_vs_QQQ_3D",
+    "Stock_vs_QQQ_5D",
+
+    # Stan spółki
     "Volatility_14D",
     "Relative_Volume_20D",
     "RSI_14",
     "Price_to_SMA20",
     "Intraday_Return",
     "Daily_Range",
+
+    # Stan szerokiego rynku
     "QQQ_Log_Return_1D",
     "QQQ_Log_Return_3D",
     "QQQ_Log_Return_5D",
     "QQQ_Volatility_14D",
-    "Stock_vs_QQQ_1D",
-    "Stock_vs_QQQ_3D",
-    "Stock_vs_QQQ_5D",
 ]
+
+
+
+###### CECHY Z ROLLING Z-SCORE (60 dni) ######
+
+
+
+MARKET_Z_FEATURES = [
+    "Log_Return_1D_Z60",
+    "Log_Return_3D_Z60",
+    "Log_Return_5D_Z60",
+    "Volatility_14D_Z60",
+    "Relative_Volume_20D_Z60",
+    "RSI_14",
+    "Price_to_SMA20_Z60",
+    "Intraday_Return_Z60",
+    "Daily_Range_Z60",
+
+    "QQQ_Log_Return_1D",
+    "QQQ_Log_Return_3D",
+    "QQQ_Log_Return_5D",
+    "QQQ_Volatility_14D",
+]
+
+
+
+######## CECHY DLA MODELU A3 Z VIF ##########
+
+MARKET_COMPACT_FEATURES = [
+    # Krótki i szerszy horyzont zwrotu spółki
+    "Log_Return_1D_Z60",
+    "Log_Return_5D_Z60",
+
+    # Stan / reżim spółki
+    "Volatility_14D_Z60",
+    "Relative_Volume_20D_Z60",
+    "RSI_14",
+    "Price_to_SMA20_Z60",
+    "Intraday_Return_Z60",
+    "Daily_Range_Z60",
+
+    # Benchmark - krótki i szerszy horyzont
+    "QQQ_Log_Return_1D",
+    "QQQ_Log_Return_5D",
+    "QQQ_Volatility_14D",
+]
+
+
+
 
 
 # ============================================================
@@ -91,6 +143,20 @@ SEC_BINARY_CANDIDATES = [
     "Has_Item_7_01",
     "Has_Item_8_01",
 ]
+######## CECHY FINBERT ###########
+
+SENTIMENT_FEATURES = [
+    "Mean_Net_Sentiment",
+    "Sentiment_Momentum_3",
+]
+
+SENTIMENT_CONTEXT_FEATURES = [
+    "Mean_Net_Sentiment",
+    "Sentiment_Momentum_3",
+    "Abs_Sentiment",
+    "Sentiment_x_Prior_Return_5D",
+]
+
 
 
 # Minimalna liczba wystąpień flagi w TRAIN.
@@ -199,7 +265,12 @@ def build_logistic_pipeline(
     numeric_features: list[str],
     categorical_features: list[str],
     binary_features: list[str],
+    sentiment_features: list[str] | None = None,
 ) -> Pipeline:
+
+    if sentiment_features is None:
+        sentiment_features = []
+
 
     transformers = []
 
@@ -238,6 +309,35 @@ def build_logistic_pipeline(
             )
         )
 
+
+    if sentiment_features:
+
+        sentiment_pipeline = Pipeline(
+            steps=[
+                (
+                    "imputer",
+                    SimpleImputer(
+                        strategy="constant",
+                        fill_value=0.0,
+                    ),
+                ),
+                (
+                    "scaler",
+                    StandardScaler(),
+                ),
+            ]
+        )
+
+        transformers.append(
+            (
+                "sentiment",
+                sentiment_pipeline,
+                sentiment_features,
+            )
+        )
+
+
+
     preprocessor = ColumnTransformer(
         transformers=transformers,
         remainder="drop",
@@ -274,13 +374,19 @@ def evaluate_logistic_model(
     numeric_features: list[str],
     binary_features: list[str],
     test_year: int,
+    sentiment_features: list[str] | None = None,
 ):
 
+
+    if sentiment_features is None:
+        sentiment_features = []
+
     input_features = (
-        numeric_features
-        + CATEGORICAL_FEATURES
-        + binary_features
-    )
+    numeric_features
+    + CATEGORICAL_FEATURES
+    + binary_features
+    + sentiment_features
+)
 
     X_train = train_df[
         input_features
@@ -299,15 +405,65 @@ def evaluate_logistic_model(
     ].astype(int)
 
     model = build_logistic_pipeline(
-        numeric_features=numeric_features,
-        categorical_features=CATEGORICAL_FEATURES,
-        binary_features=binary_features,
-    )
+    numeric_features=numeric_features,
+    categorical_features=CATEGORICAL_FEATURES,
+    binary_features=binary_features,
+    sentiment_features=sentiment_features,
+)
 
     model.fit(
         X_train,
         y_train,
     )
+
+    if (
+        model_name
+        == "MODEL C - MARKET + SEC + FINBERT"
+        and test_year == 2026
+    ):
+
+        preprocessor = model.named_steps[
+            "preprocessor"
+        ]
+
+        classifier = model.named_steps[
+            "classifier"
+        ]
+
+        feature_names = (
+            preprocessor
+            .get_feature_names_out()
+        )
+
+        coefficients = pd.DataFrame(
+            {
+                "Feature": feature_names,
+                "Coefficient":
+                    classifier.coef_[0],
+            }
+        )
+
+        coefficients["Abs_Coefficient"] = (
+            coefficients["Coefficient"]
+            .abs()
+        )
+
+        print(
+            "\nMODEL C 2026 - "
+            "współczynniki:"
+        )
+
+        print(
+            coefficients
+            .sort_values(
+                "Abs_Coefficient",
+                ascending=False,
+            )
+            .to_string(index=False)
+        )
+
+
+
 
     y_pred = model.predict(
         X_test
@@ -316,6 +472,22 @@ def evaluate_logistic_model(
     y_prob = model.predict_proba(
         X_test
     )[:, 1]
+
+
+    predictions = test_df[
+        [
+            "Ticker",
+            "Event_Session",
+            "Accession",
+            "Abnormal_Event_Return_1D",
+        ]
+    ].copy()
+
+    predictions["Test_Year"] = test_year
+    predictions["Model"] = model_name
+    predictions["y_true"] = y_test.to_numpy()
+    predictions["y_pred"] = y_pred
+    predictions["y_prob"] = y_prob
 
     metrics = calculate_metrics(
         y_true=y_test,
@@ -338,6 +510,7 @@ def evaluate_logistic_model(
             y_test,
             y_pred,
         ),
+        predictions,
     )
 
 
@@ -431,6 +604,8 @@ def main():
         df["Event_Session"]
     )
 
+
+
     # ========================================================
     # PRIMARY MODEL ONLY
     # ========================================================
@@ -485,8 +660,11 @@ def main():
 
     required_features = (
         MARKET_FEATURES
+        + MARKET_Z_FEATURES
+        + MARKET_COMPACT_FEATURES
         + CATEGORICAL_FEATURES
         + SEC_BINARY_CANDIDATES
+        + SENTIMENT_FEATURES
     )
 
     missing_columns = [
@@ -515,6 +693,10 @@ def main():
             f"{market_nan[market_nan > 0]}"
         )
 
+
+    results = []
+    all_predictions = []
+    
     # ========================================================
     # WALK-FORWARD
     # ========================================================
@@ -597,6 +779,53 @@ def main():
             .sort_index()
         )
 
+
+        # ====================================================
+        # MODEL A2
+        # MARKET Z-SCORE + TICKER
+        # ====================================================
+
+        model_a2_result, model_a2_cm, model_a2_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL A2 - MARKET Z60",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_Z_FEATURES,
+                binary_features=[],
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_a2_result
+        )   
+
+
+
+
+
+        # ====================================================
+        # MODEL A3
+        # COMPACT MARKET Z-SCORE + TICKER
+        # ====================================================
+
+        model_a3_result, model_a3_cm, model_a3_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL A3 - MARKET COMPACT",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_COMPACT_FEATURES,
+                binary_features=[],
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_a3_result
+        )
+
+
+
         # ====================================================
         # DUMMY
         # ====================================================
@@ -616,7 +845,7 @@ def main():
         # MARKET + TICKER
         # ====================================================
 
-        model_a_result, model_a_cm = (
+        model_a_result, model_a_cm, model_a_predictions = (
             evaluate_logistic_model(
                 model_name="MODEL A - MARKET",
                 train_df=train_df,
@@ -653,7 +882,7 @@ def main():
                 f"  {feature}: {count}"
             )
 
-        model_b_result, model_b_cm = (
+        model_b_result, model_b_cm, model_b_predictions = (
             evaluate_logistic_model(
                 model_name="MODEL B - MARKET + SEC",
                 train_df=train_df,
@@ -668,6 +897,170 @@ def main():
             model_b_result
         )
 
+
+        # ====================================================
+        # DODATKOWE CECHY KONTEKSTOWE SENTYMENTU
+        # ====================================================
+        #
+        # Wszystkie informacje są dostępne przed Event_Session:
+        #
+        # Mean_Net_Sentiment:
+        # sentiment bieżącego komunikatu.
+        #
+        # Stock_vs_QQQ_5D:
+        # wcześniejszy 5-dniowy ruch spółki względem QQQ,
+        # liczony na Feature_Cutoff_Session.
+        #
+        # Brak sentimentu pozostaje NaN.
+        # Później istniejący preprocessing sentimentu
+        # imputuje go wartością 0.
+        # ====================================================
+
+        for frame in [
+            train_df,
+            test_df,
+        ]:
+
+            frame["Abs_Sentiment"] = (
+                pd.to_numeric(
+                    frame["Mean_Net_Sentiment"],
+                    errors="coerce",
+                )
+                .abs()
+            )
+
+            frame["Sentiment_x_Prior_Return_5D"] = (
+                pd.to_numeric(
+                    frame["Mean_Net_Sentiment"],
+                    errors="coerce",
+                )
+                *
+                pd.to_numeric(
+                    frame["Stock_vs_QQQ_5D"],
+                    errors="coerce",
+                )
+            )
+
+
+
+        # ====================================================
+        # MODEL C2
+        # MARKET + SEC + FINBERT + CONTEXT
+        # ====================================================
+
+        model_c2_result, model_c2_cm, model_c2_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL C2 - MARKET + SEC + FINBERT CONTEXT",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_FEATURES,
+                binary_features=selected_sec,
+                sentiment_features=SENTIMENT_CONTEXT_FEATURES,
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_c2_result
+        )
+
+
+
+        # ====================================================
+        # MODEL C
+        # MARKET + SEC + FINBERT
+        # ====================================================
+
+        model_c_binary_features = (
+            selected_sec
+        )
+
+        model_c_result, model_c_cm, model_c_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL C - MARKET + SEC + FINBERT",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_FEATURES,
+                binary_features=model_c_binary_features,
+                sentiment_features=SENTIMENT_FEATURES,
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_c_result
+        )
+
+
+
+
+
+        ####################### INNE MODELE ####################
+
+        # ====================================================
+        # MODEL B3
+        # MARKET COMPACT + SEC
+        # ====================================================
+
+        model_b3_result, model_b3_cm, model_b3_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL B3 - COMPACT + SEC",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_COMPACT_FEATURES,
+                binary_features=selected_sec,
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_b3_result
+        )
+
+
+
+
+
+        # ====================================================
+        # MODEL C3
+        # MARKET COMPACT + SEC + FINBERT
+        # ====================================================
+
+        model_c3_result, model_c3_cm, model_c3_predictions = (
+            evaluate_logistic_model(
+                model_name="MODEL C3 - COMPACT + SEC + FINBERT",
+                train_df=train_df,
+                test_df=test_df,
+                numeric_features=MARKET_COMPACT_FEATURES,
+                binary_features=selected_sec,
+                sentiment_features=SENTIMENT_FEATURES,
+                test_year=test_year,
+            )
+        )
+
+        results.append(
+            model_c3_result
+        )
+
+
+
+        # PREDYKSZONS#
+        all_predictions.append(model_a_predictions)
+        all_predictions.append(model_a2_predictions)
+        all_predictions.append(model_a3_predictions)
+        all_predictions.append(model_b_predictions)
+        all_predictions.append(model_b3_predictions)
+        all_predictions.append(model_c_predictions)
+        all_predictions.append(model_c2_predictions)
+        all_predictions.append(model_c3_predictions)
+
+
+
+
+
+
+
+
         # ====================================================
         # PODGLĄD FOLDU
         # ====================================================
@@ -680,7 +1073,13 @@ def main():
             [
                 dummy_result,
                 model_a_result,
+                model_a2_result,
+                model_a3_result,
                 model_b_result,
+                model_b3_result,
+                model_c_result,
+                model_c2_result,
+                model_c3_result,
             ]
         )
 
@@ -714,6 +1113,47 @@ def main():
             model_b_cm
         )
 
+        print(
+            "\nConfusion Matrix - Model A2:"
+        )
+
+        print(
+            model_a2_cm
+        )
+
+
+        print(
+            "\nConfusion Matrix - Model A3:"
+        )
+
+        print(
+            model_a3_cm
+        )
+
+        print(
+            "\nConfusion Matrix - Model C:"
+        )
+
+        print(
+            model_c_cm
+        )
+
+        print(
+            "\nConfusion Matrix - Model B3:"
+        )
+
+        print(
+            model_b3_cm
+        )
+
+        print(
+            "\nConfusion Matrix - Model C3:"
+        )
+
+        print(
+            model_c3_cm
+)
+
     # ========================================================
     # WSZYSTKIE FOLDY
     # ========================================================
@@ -740,6 +1180,35 @@ def main():
             index=False
         )
     )
+
+    # LOL# 
+
+    predictions_df = pd.concat(
+        all_predictions,
+        ignore_index=True,
+    )
+
+    predictions_path = (
+        PROJECT_ROOT
+        / "data"
+        / "processed"
+        / "oos_predictions.csv"
+    )
+
+    predictions_df.to_csv(
+        predictions_path,
+        index=False,
+    )
+
+    print(
+        "\nPredykcje OOS zapisano do:"
+    )
+
+    print(
+        predictions_path
+    )
+
+
 
     # ========================================================
     # ŚREDNIE WALK-FORWARD

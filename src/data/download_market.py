@@ -20,10 +20,20 @@ TICKERS = [
     "AAPL",
     "MSFT",
     "NVDA",
-    'QQQ'
+    "AMZN",
+    "GOOGL",
+    "META",
+    "TSLA",
+    "AMD",
+    "INTC",
+    "AVGO",
+    "NFLX",
+    "ADBE",
+    "QCOM",
+    "QQQ",
 ]
 
-START_DATE = "2019-10-01"
+START_DATE = "2019-06-01"
 
 # yfinance traktuje end jako datę WYŁĄCZNĄ.
 # Czyli end="2026-08-17" pobiera dane maksymalnie

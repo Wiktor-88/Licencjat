@@ -476,6 +476,95 @@ def create_market_features(
     return features_df
 
 
+###### Z - SCORE ##########
+def add_rolling_zscore_features(
+    df: pd.DataFrame,
+    window: int = 60,
+) -> pd.DataFrame:
+    """
+    Dodaje rolling Z-score dla wybranych cech rynkowych.
+
+    Każda wartość jest porównywana do poprzednich `window`
+    sesji tej samej spółki.
+
+    shift(1) zapobiega użyciu bieżącej obserwacji
+    do wyliczenia jej własnej średniej i odchylenia.
+    """
+
+    df = df.copy()
+
+    zscore_source_columns = [
+        "Log_Return_1D",
+        "Log_Return_3D",
+        "Log_Return_5D",
+        "Volatility_14D",
+        "Relative_Volume_20D",
+        "Price_to_SMA20",
+        "Intraday_Return",
+        "Daily_Range",
+    ]
+
+    df = df.sort_values(
+        by=[
+            "Ticker",
+            "Date",
+        ]
+    ).copy()
+
+    for column in zscore_source_columns:
+
+        rolling_mean = (
+            df
+            .groupby("Ticker")[column]
+            .transform(
+                lambda series: (
+                    series
+                    .shift(1)
+                    .rolling(
+                        window=window,
+                        min_periods=window,
+                    )
+                    .mean()
+                )
+            )
+        )
+
+        rolling_std = (
+            df
+            .groupby("Ticker")[column]
+            .transform(
+                lambda series: (
+                    series
+                    .shift(1)
+                    .rolling(
+                        window=window,
+                        min_periods=window,
+                    )
+                    .std()
+                )
+            )
+        )
+
+        zscore_column = (
+            f"{column}_Z{window}"
+        )
+
+        df[zscore_column] = (
+            df[column]
+            - rolling_mean
+        ) / rolling_std
+
+        # zabezpieczenie przed dzieleniem przez 0
+        df.loc[
+            rolling_std == 0,
+            zscore_column,
+        ] = np.nan
+
+    return df
+
+
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -530,6 +619,11 @@ if __name__ == "__main__":
 
     df_features = create_market_features(
         df_market
+    )
+
+    df_features = add_rolling_zscore_features(
+        df_features,
+        window=60
     )
 
     # ========================================================

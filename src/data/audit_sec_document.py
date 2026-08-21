@@ -198,6 +198,16 @@ if __name__ == "__main__":
         "AAPL",
         "MSFT",
         "NVDA",
+        "AMZN",
+        "GOOGL",
+        "META",
+        "TSLA",
+        "AMD",
+        "INTC",
+        "AVGO",
+        "NFLX",
+        "ADBE",
+        "QCOM",
     ]
 
     audit_sec_documents(
