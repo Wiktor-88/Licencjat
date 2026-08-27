@@ -1,23 +1,63 @@
 import re
-import os
-import glob
+
+import logging
+
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 
 
+logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+# Zdania po któreych usuwamy dalej
+BOILERPLATE_PATTERNS = [
+    re.compile(r"\bForward-Looking Statements\b", re.IGNORECASE),
+    re.compile(r"\bForward Looking Statements\b", re.IGNORECASE),
+    re.compile(
+        r"\bCautionary Statement Regarding Forward-Looking Statements\b",
+        re.IGNORECASE,
+    ),
+    re.compile(
+        r"\bCautionary Note Regarding Forward-Looking Statements\b",
+        re.IGNORECASE,
+    ),
+    re.compile(r"\bSafe Harbor Statement\b", re.IGNORECASE),
+    re.compile(r"\bSafe Harbor\b", re.IGNORECASE),
+
+    # Informacje organizacyjne
+    re.compile(r"\bConference Call and Webcast Information\b", re.IGNORECASE),
+    re.compile(r"\bConference Call Information\b", re.IGNORECASE),
+    re.compile(r"\bWebcast Information\b", re.IGNORECASE),
+]
+
+# Na razie dla tych tylko firm
+COMPANY_NAMES = [
+    "Apple",
+    "Microsoft",
+    "NVIDIA",
+]
+
+ABOUT_COMPANY_PATTERN = re.compile(
+    rf"\bAbout ({'|'.join(map(re.escape, COMPANY_NAMES))})\b",
+    re.IGNORECASE,
+)
+
+BOILERPLATE_PATTERNS.append(ABOUT_COMPANY_PATTERN)
+
+
+
+##############################
+# Wydobywanie dokumentów 8-K oraz EX-99.x
+##############################
+
 def extract_relevant_documents(raw_content: str) -> list[dict]:
     """
-    Wyciąga z pełnego submission SEC tylko dokumenty istotne
-    dla naszego pipeline'u:
-
-    - główny dokument 8-K,
-    - załączniki EX-99.x.
-
-    Zwraca listę słowników:
-        {
-            "source_type": "...",
-            "raw_text": "..."
-        }
+    Wyciąga z całęgo SEC tylko rzeczy ważne dla pipelinu
+    - 8-K,
+    - załączniki EX-99.x
+    Zwraca listę słowników
     """
 
     document_blocks = re.findall(
@@ -39,41 +79,25 @@ def extract_relevant_documents(raw_content: str) -> list[dict]:
         if not type_match:
             continue
 
-        document_type = type_match.group(1).strip()
+        ##################################
+        # Zmiana nazwy na zwykłe EX-99.x
+        ##################################
 
-        # ====================================================
-        # NORMALIZACJA EX-99
-        # ====================================================
-        #
-        # Przykład znaleziony w historycznych danych NVDA:
-        #
-        #   EX-99.1 PRESS RELEAS
-        #
-        # normalizujemy do:
-        #
-        #   EX-99.1
-        #
-        # Dzięki temu cały dalszy pipeline ma spójne
-        # Source_Type.
-        # ====================================================
+        document_type = type_match.group(1).strip().upper()
 
-        if document_type.upper().startswith("EX-99"):
+        if document_type.startswith("EX-99"):
             ex99_match = re.match(
                 r"^(EX-99(?:\.\d+)?)",
                 document_type,
-                flags=re.IGNORECASE,
             )
 
             if ex99_match:
-                document_type = ex99_match.group(1).upper()
-
-        # ====================================================
-        # INTERESUJĄ NAS TYLKO 8-K ORAZ EX-99.x
-        # ====================================================
-
+                document_type = ex99_match.group(1)
+      
+        # Wybiernie 8-K i EX-99
         if not (
-            document_type.upper() == "8-K"
-            or document_type.upper().startswith("EX-99")
+            document_type == "8-K"
+            or document_type.startswith("EX-99")
         ):
             continue
 
@@ -98,24 +122,16 @@ def extract_relevant_documents(raw_content: str) -> list[dict]:
     return relevant_documents
 
 
-# ============================================================
-# CZYSZCZENIE GŁÓWNEGO 8-K
-# ============================================================
+############################
+# Czyszczenie 8-K
+#############################
 
 def extract_8k_items(text: str) -> str:
     """
-    Usuwa standardowy boilerplate formularza 8-K
-    znajdujący się przed pierwszą sekcją ITEM oraz
-    formalną sekcję SIGNATURE na końcu.
-
-    Dzięki temu do FinBERT-a trafia głównie właściwa,
-    merytoryczna część raportu.
+    Usuwa boilerplate formularza 8-K
     """
 
-    # ========================================================
-    # 1. Usunięcie wszystkiego przed pierwszym ITEM
-    # ========================================================
-
+    # Usunięcie wszytkiego przed pierwszym item
     item_match = re.search(
         r"\bITEM\s+\d+\.\d+\.?",
         text,
@@ -127,10 +143,8 @@ def extract_8k_items(text: str) -> str:
             item_match.start():
         ].strip()
 
-    # ========================================================
-    # 2. Usunięcie sekcji SIGNATURE / SIGNATURES
-    # ========================================================
 
+    # Usunięcie ssekcji signatures
     text = re.sub(
         r"\bSIGNATURES?\b.*$",
         "",
@@ -141,59 +155,23 @@ def extract_8k_items(text: str) -> str:
     return text.strip()
 
 
+############################################
+# Czyszczenie boilerplate EX-99.x
+############################################
 
-# ============================================================
-# CZYSZCZENIE ŚMIECI
-# ============================================================
-
-def clean_exhibit_boilerplate(
-    text: str,
-) -> str:
+def clean_exhibit_boilerplate(text: str) -> str:
     """
-    Usuwa końcowy, powtarzalny boilerplate z komunikatów EX-99.x,
-    pozostawiając główną treść finansową.
+    Funkcja ta usuwa boilerplate z EX-99.x
     """
-
-    boilerplate_markers = [
-        # Disclaimer prawny
-        r"\bForward-Looking Statements\b",
-        r"\bForward Looking Statements\b",
-        r"\bCautionary Statement Regarding Forward-Looking Statements\b",
-
-        # Informacje o firmie / marketingowe stopki
-        r"\bAbout Apple\b",
-        r"\bAbout Microsoft\b",
-        r"\bAbout NVIDIA\b",
-
-        # Informacje organizacyjne
-        r"\bConference Call and Webcast Information\b",
-        r"\bConference Call Information\b",
-        r"\bWebcast Information\b",
-
-        # Kontakty
-        r"\bInvestor Relations\b",
-        r"\bMedia Relations\b",
-        r"\bMedia Contact\b",
-        r"\bFor further information, contact\b",
-        r"\bFor more information, contact\b",
-    ]
 
     earliest_match = None
 
-    for pattern in boilerplate_markers:
+    for pattern in BOILERPLATE_PATTERNS:
 
-        match = re.search(
-            pattern,
-            text,
-            flags=re.IGNORECASE,
-        )
-
+        match = pattern.search(text)
         if match:
-            if (
-                earliest_match is None
-                or match.start() < earliest_match
-            ):
-                earliest_match = match.start()
+           if earliest_match is None or match.start() < earliest_match:
+               earliest_match = match.start()
 
     if earliest_match is not None:
         text = text[:earliest_match]
@@ -209,29 +187,24 @@ def clean_exhibit_boilerplate(
 
 
 
-# ============================================================
-# CZYSZCZENIE HTML
-# ============================================================
+########################################
+# Czyszczenie HTML
+########################################
 
-def clean_html_text(
-    html_text: str,
-) -> str:
+def clean_html_text(html_text: str) -> str:
     """
-    Czyści pojedynczy dokument HTML/tekst SEC.
+    Czyści pojedynczy dokument HTML, czyli tutaj tekst SEC z użyciem lxml
     """
 
-    soup = BeautifulSoup(
-        html_text,
-        "html.parser",
-    )
+    soup = BeautifulSoup(html_text, "lxml",)
 
-    # Usuwamy elementy techniczne.
+
     for tag in soup.find_all(
         ["script", "style", "noscript"]
     ):
         tag.decompose()
 
-    # Usuwamy ukryte elementy Inline XBRL.
+
     for tag in soup.find_all(
         lambda element:
             element.name
@@ -239,43 +212,33 @@ def clean_html_text(
     ):
         tag.decompose()
 
+    # Nie usuwamy nagłówka, tylko tabulatoory, wiele spacji, ale znak nowej lini zostaje
     clean_text = soup.get_text(
-        separator=" ",
+        separator="\n",
         strip=True,
     )
 
-    # Normalizacja whitespace.
     clean_text = re.sub(
-        r"\s+",
+        r"[ \t]",
         " ",
         clean_text,
-    ).strip()
+    )
+
+    clean_text = re.sub(
+        r"\n{2,}",
+        "\n"
+    )
 
     return clean_text
 
 
-# ============================================================
-# GŁÓWNA FUNKCJA CZYSZCZĄCA SUBMISSION
-# ============================================================
+#################################
+# Główne czyszsczenie
+#################################
 
-def clean_html_document(
-    file_path: str,
-) -> list[dict[str, str]]:
+def clean_html_document(file_path: Path) -> list[dict[str, str]]:
     """
-    Czyści wszystkie istotne dokumenty z submission SEC.
-
-    Przykładowy wynik:
-
-    [
-        {
-            "source_type": "8-K",
-            "text": "Item 2.02 ..."
-        },
-        {
-            "source_type": "EX-99.1",
-            "text": "Apple today announced..."
-        }
-    ]
+    Czyści wszystkie istotne dokumenty z submission SEC
     """
 
     try:
@@ -288,50 +251,30 @@ def clean_html_document(
             raw_content = file.read()
 
     except Exception as error:
-        print(
-            f"Błąd odczytu pliku "
-            f"{file_path}: {error}"
-        )
+        logging.error('błąd odczytu pliku: %s', file_path)
 
         return []
 
-    relevant_documents = extract_relevant_documents(
-        raw_content
-    )
+    relevant_documents = extract_relevant_documents(raw_content)
 
     cleaned_documents = []
 
     for document in relevant_documents:
 
-        source_type = document[
-            "source_type"
-        ]
+        source_type = document["source_type"]
 
-        raw_text = document[
-            "raw_text"
-        ]
+        raw_text = document["raw_text"]
 
-        clean_text = clean_html_text(
-            raw_text
-        )
+        clean_text = clean_html_text(raw_text)
 
-        # Tylko główny 8-K posiada strukturę ITEM,
-        # którą chcemy specjalnie oczyścić.
-        #
-        # EX-99.x zostawiamy jako pełną treść,
-        # ponieważ może zawierać earnings release,
-        # guidance, CFO commentary itd.
+        # Tylko 8-K posiada strukturę ITEM, którą chcemy czyścić
         if source_type == "8-K":
 
-            clean_text = extract_8k_items(
-                clean_text
-            )
+            clean_text = extract_8k_items(clean_text)
 
         elif source_type.startswith("EX-99"):
 
-            clean_text = clean_exhibit_boilerplate(
-                clean_text
-            )
+            clean_text = clean_exhibit_boilerplate(clean_text)
 
         if not clean_text:
             continue
@@ -344,39 +287,29 @@ def clean_html_document(
     return cleaned_documents
 
 
-# ============================================================
-# TEST
-# ============================================================
+##### MAIN ###### plus testy
 
 if __name__ == "__main__":
 
-    search_pattern = os.path.join(
-        "data",
-        "raw",
-        "sec-edgar-filings",
-        "MSFT",
-        "8-K",
-        "0001193125-25-256310",
-        "full-submission.txt",
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
     )
 
-    files = sorted(
-        glob.glob(search_pattern)
+    test_path = (
+        PROJECT_ROOT
+        / "data"
+        / "raw"
+        / "sec-edgar-filings"
+        / "MSFT"
+        / "8-K"
+        / "0001193125-25-256310"
+        / "full-submission.txt"
     )
 
-    print(
-        f"Znaleziono plików: {len(files)}"
-    )
-
-    if not files:
-        print(
-            "Nie znaleziono żadnych raportów "
-            "8-K dla NVDA."
-        )
-
+    if not test_path.exists():
+        logger.error("Nie znaleziono pliku testowego: %s", test_path)
         raise SystemExit(1)
-
-    test_path = search_pattern
 
     print(
         f"\nRozpoczynam test ekstrakcji dla pliku:\n"

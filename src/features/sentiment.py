@@ -1,7 +1,15 @@
-import os
-import glob
+############################################################################
+# Ten plik odpowiada za dużo rzeczy, w tym najważniejsze analzie sentymentów
+# Więc został on podzielony na 12 różnych częśći
+############################################################################
+
+
+
+############## CZĘŚĆ I - IMPORTY ###################
+from pathlib import Path
 import time
 import re
+import logging
 
 import pandas as pd
 import nltk
@@ -10,140 +18,138 @@ import torch
 from nltk.tokenize import sent_tokenize
 from transformers import (
     pipeline,
-    BertTokenizer,
-    BertForSequenceClassification,
+    AutoTokenizer,
+    AutoModelForSequenceClassification,
 )
 
 
-# ============================================================
-# KONFIGURACJA
-# ============================================================
+logger = logging.getLogger(__name__)
+
+############# CZĘŚĆ II - KONFIGURACJA I ŚCIEŻKI #################
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+INPUT_DIRECTORY = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "cleaned_texts"
+)
+
+OUTPUT_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "sentiment_blocks.csv"
+)
+
+CHECKPOINT_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "processed"
+    / "sentiment_checkpoint.csv"
+)
+
 
 MODEL_NAME = "yiyanghkust/finbert-tone"
 
-# FinBERT/BERT ma limit 512 tokenów.
-# Używamy 450, żeby zostawić bezpieczny margines.
+# FinBERT/BERT ma limit 512 tokenów
 MAX_TOKENS_PER_BLOCK = 450
 
-# Liczba zdań przenoszonych z poprzedniego bloku.
-SENTENCE_OVERLAP = 2
+# Ile zdań przenoszonych z poprzedniego bloku - aby zachowac kontekst
+SENTENCE_OVERLAP = 0
 
-# ZMIANA:
-# FinBERT będzie analizował do 16 bloków jednocześnie na GPU.
-# Przy Twojej RTX 5070 Ti później możesz spróbować 32.
+# FinBERT będzie analizował do 32 bloków na raz na GPU
 BATCH_SIZE = 32
 
-# Co ile plików zapisujemy częściowe wyniki.
+# Co ile plików jest checkpoint
 CHECKPOINT_EVERY = 50
 
-
-# ============================================================
-# GPU / CPU
-# ============================================================
-
-# ZMIANA:
-# Nie ustawiamy device=0 na sztywno.
-# Jeśli CUDA działa -> GPU.
-# Jeśli nie -> automatycznie CPU.
+# CPU/Cuda
 DEVICE = 0 if torch.cuda.is_available() else -1
 
-if DEVICE == 0:
-    print(f"FinBERT na GPU: {torch.cuda.get_device_name(0)}")
-else:
-    print("FinBERT na CPU")
+# Limit
+MODEL_MAX_LENGTH = 512
+
+EXPECTED_LABELS = {
+    "positive",
+    "negative",
+    "neutral",
+}
+
+################# CZESSC III - NLTK ##########################
 
 def ensure_nltk_resource(
     resource_path: str,
     download_name: str,
 ) -> None:
     """
-    Sprawdza, czy wymagany zasób NLTK jest dostępny lokalnie.
-    Pobiera go tylko wtedy, gdy go brakuje.
+    Sprawdza czy dany zasób NLTK jest dostępny lokalnie, gdy nie ma to pobiera
     """
 
     try:
         nltk.data.find(resource_path)
 
     except LookupError:
-        print(
-            f"Brakuje zasobu NLTK: {download_name}. "
-            "Próba pobrania..."
+        logger.info('Brak zassobu NLTK %s przy pobiernaiu: ', download_name)
+
+    success = nltk.download(
+        download_name,
+        quiet=True,
+    )
+
+    if not success:
+        raise RuntimeError(
+            "Nie udało się pobrać zasobu NLTK: "
+            f"{download_name}"
         )
 
-        success = nltk.download(
-            download_name,
-            quiet=False,
-        )
 
-        if not success:
-            raise RuntimeError(
-                f"Nie udało się pobrać zasobu NLTK: "
-                f"{download_name}"
-            )
+# Wywołanie powyżesz funkcji, aby nie było problemu przy imporcie tergo pliku
+def ensure_nltk_resources() -> None:
+    ensure_nltk_resource(
+        "tokenizers/punkt",
+        "punkt",
+    )
 
-
-ensure_nltk_resource(
-    "tokenizers/punkt",
-    "punkt",
-)
-
-ensure_nltk_resource(
-    "tokenizers/punkt_tab/english",
-    "punkt_tab",
-)
-
-ensure_nltk_resource(
-    "tokenizers/punkt",
-    "punkt",
-)
-
-ensure_nltk_resource(
-    "tokenizers/punkt_tab/english",
-    "punkt_tab",
-)
+    ensure_nltk_resource(
+        "tokenizers/punkt_tab/english",
+        "punkt_tab",
+    )
 
 
-def parse_file_metadata(
-    filename: str,
-) -> tuple[str, str, str, str]:
+
+##################### CZESC IV - METADANE #######################
+def parse_file_metadata(file_path: Path) -> tuple[str, str, str, str]:
     """
-    Wyciąga:
+    Wyciąga z nazwy:
     - ticker
     - datę filing
     - accession number
     - typ dokumentu
-
-    Przykłady:
-
-    AAPL_2026-01-29_0000320193-26-000005_8-K.txt
-
-    AAPL_2026-01-29_0000320193-26-000005_EX-99-1.txt
     """
 
-    filename_without_extension = os.path.splitext(
-        filename
-    )[0]
+    filename_without_extension = file_path.stem
 
-    parts = filename_without_extension.split(
-        "_",
-        3,
-    )
+    # dokładnie 3 podziały, wiec zwraca 4 elementy
+    parts = filename_without_extension.split("_", 3)
 
     if len(parts) != 4:
         raise ValueError(
-            f"Nieprawidłowy format nazwy pliku: "
-            f"{filename}"
+            "Nieprawidłowy format nazwy pliku: "
+            f"{file_path.name}"
         )
 
-    ticker = parts[0]
-    filing_date = parts[1]
-    accession_number = parts[2]
-    source_type = parts[3]
+    (
+        ticker,
+        filing_date,
+        accession_number,
+        source_type
+    ) = parts
 
-    # process_pipeline zapisuje np.:
-    # EX-99.1 -> EX-99-1
-    #
-    # Tutaj przywracamy oryginalną nazwę SEC.
+
+    # zmiana formatu na EX-99.x
     if source_type.startswith("EX-99-"):
         source_type = source_type.replace(
             "EX-99-",
@@ -159,90 +165,65 @@ def parse_file_metadata(
     )
 
 
+####################### CZESC V - DZIELENIE 8K ########################
 
-def split_into_8k_items(
-    text: str,
-) -> list[tuple[str, str]]:
+def split_into_8k_items(text: str) -> list[tuple[str, str]]:
     """
-    Dzieli oczyszczony raport 8-K na osobne sekcje ITEM.
+    Dzieli oczyszczony raport 8-K na osobne sekcje ITEM,
+    dzięki temu każdy późniejszy blok FinBERT-a można jednoznacznie
+    powiązać z daną sekcją raportu
 
-    Przykład:
-
-        Item 2.02. Results of Operations...
-        ...
-        Item 8.01. Other Events...
-        ...
-
-    zostanie zamienione na:
-
-        [
-            ("2.02", "Item 2.02 ..."),
-            ("8.01", "Item 8.01 ..."),
-        ]
-
-    Dzięki temu każdy późniejszy blok FinBERT-a
-    można jednoznacznie powiązać z sekcją raportu.
+    Zwraca liste krotek:
+    (Item_number, tekst)
     """
 
-    # Szukamy wszystkich nagłówków typu:
-    #
-    # Item 1.01
-    # ITEM 2.02.
-    # item 5.02
+    # Szukanie nagłówków typu: Item 1.01, ITEM 2.02.  czy item 5.02
     item_matches = list(
         re.finditer(
-            r"\bITEM\s+(\d+\.\d+)\.?",
+            r"^\s*ITEM\s+(\d+\.\d+)\.?",
             text,
-            flags=re.IGNORECASE,
+            flags=(
+                re.IGNORECASE
+                | re.MULTILINE
+            ),
         )
     )
 
-    # Teoretycznie clean_text.py powinien już zapewnić
-    # przynajmniej jeden ITEM.
-    #
-    # Zostawiamy jednak fallback dla bezpieczeństwa.
+
+    # fallback dla bezpieczeństwa (teoretycznie juz powinno działac w clean_text.py)
     if not item_matches:
-        return [
-            ("UNKNOWN", text)
-        ]
+        return [("UNKNOWN", text)]
 
-    item_sections = []
 
-    for index, match in enumerate(
-        item_matches
-    ):
+    item_sections : list[tuple[str, str]] = []
+
+    for index, match in enumerate(item_matches):
         item_number = match.group(1)
 
         section_start = match.start()
 
-        # Koniec sekcji = początek następnego ITEM.
+        # Koniec sekcji to początek następnego ITEM
         if index + 1 < len(item_matches):
-            section_end = (
-                item_matches[index + 1].start()
-            )
+            section_end = item_matches[index + 1].start()
+
+        # Chyba ze dla ostatniego - tam nieistnieje item_matches[index + 1]
         else:
             section_end = len(text)
 
-        section_text = text[
-            section_start:section_end
-        ].strip()
+        # Wyciecie tekstu
+        section_text = text[section_start:section_end].strip()
 
+        # Dodjaemy kiedy cos wogóle zostało
         if section_text:
             item_sections.append(
-                (
-                    item_number,
-                    section_text,
-                )
+                (item_number, section_text)
             )
 
     return item_sections
 
 
 
-# ============================================================
-# TWORZENIE BLOKÓW
-# ============================================================
-
+####################### CZESC VI - BLOKI ####################
 def create_sentence_blocks(
     text: str,
     tokenizer,
@@ -250,23 +231,12 @@ def create_sentence_blocks(
     overlap_sentences: int = SENTENCE_OVERLAP,
 ) -> list[str]:
     """
-    Dzieli dokument na bloki składające się z pełnych zdań.
+    Dzieli dokument na bloki składające się z pełnych zdań
+    Każdy blok ma maksymalnie około max_tokens tokenów FinBERT-a 
+    (troche mniej aby na pewno sie zmiesiło w limicie)
 
-    Każdy blok ma maksymalnie około max_tokens tokenów FinBERT-a.
-
-    Między kolejnymi blokami zachowywany jest overlap kilku zdań.
-
-    ZMIANA:
-    Poprzednia wersja używała:
-        while i < len(sentences)
-
-    i w pewnych sytuacjach indeks i nie był zwiększany.
-    Mogło to prowadzić do nieskończonej pętli.
-
-    Tutaj używamy zwykłego:
-        for sentence in sentences
-
-    dzięki czemu nie ma możliwości utknięcia na jednym zdaniu.
+    Między kolejnymi blokami zachowywany jest overlap kilku zdań
+    (obecnie 0)
     """
 
     sentences = sent_tokenize(
@@ -274,16 +244,14 @@ def create_sentence_blocks(
         language="english",
     )
 
-    blocks = []
-
-    current_block = []
-    current_lengths = []
+    blocks: list[str] = []
+    current_block: list[str] = []
+    current_lengths: list[int] = []
     current_token_count = 0
 
     for sentence in sentences:
 
-        # Tokenizujemy zdanie tokenizerem FinBERT-a,
-        # a NIE tokenizerem NLTK.
+        # Tokenizujemy zdanie tokenizerem FinBERT-a, a nie tokenizerem NLTK
         sentence_token_ids = tokenizer.encode(
             sentence,
             add_special_tokens=False,
@@ -291,14 +259,10 @@ def create_sentence_blocks(
 
         sentence_length = len(sentence_token_ids)
 
-        # ====================================================
-        # PRZYPADEK 1:
-        # pojedyncze zdanie samo ma > 450 tokenów
-        # ====================================================
-
+        ########## Przypadek I - jedno długie zdanie ##########
         if sentence_length > max_tokens:
 
-            # Najpierw zapisujemy aktualnie budowany blok.
+            # Zapis aktualnie budowanego bloku
             if current_block:
                 blocks.append(
                     " ".join(current_block)
@@ -308,17 +272,13 @@ def create_sentence_blocks(
                 current_lengths = []
                 current_token_count = 0
 
-            # ZMIANA:
-            # Bardzo długiego zdania nie wysyłamy w całości.
-            # Dzielimy je bezpośrednio według tokenów.
+            # Cięcie tego zdania
             for start in range(
                 0,
                 sentence_length,
                 max_tokens,
             ):
-                token_fragment = sentence_token_ids[
-                    start:start + max_tokens
-                ]
+                token_fragment = sentence_token_ids[start:start + max_tokens]
 
                 fragment_text = tokenizer.decode(
                     token_fragment,
@@ -330,11 +290,8 @@ def create_sentence_blocks(
 
             continue
 
-        # ====================================================
-        # PRZYPADEK 2:
-        # zdanie mieści się w aktualnym bloku
-        # ====================================================
-
+        
+        ####### Przyapdek II - zwyczjane zdanie ########3
         if (
             current_token_count + sentence_length
             <= max_tokens
@@ -346,40 +303,27 @@ def create_sentence_blocks(
 
             continue
 
-        # ====================================================
-        # PRZYPADEK 3:
-        # dodanie zdania przekroczyłoby limit
-        # ====================================================
+        
+        ####### Przypadek 3 - dodarnie zadnia przekrzacza limnit ###########
 
+        # Najpierw zapis
         if current_block:
             blocks.append(
                 " ".join(current_block)
             )
 
-        # ZMIANA:
-        # Zachowujemy ostatnie np. 2 zdania jako overlap.
+        # Overlap zdan 
         if overlap_sentences > 0:
-            overlap = current_block[
-                -overlap_sentences:
-            ]
+            overlap = current_block[ -overlap_sentences:]
 
-            overlap_lengths = current_lengths[
-                -overlap_sentences:
-            ]
+            overlap_lengths = current_lengths[ -overlap_sentences:]
         else:
             overlap = []
             overlap_lengths = []
 
-        overlap_token_count = sum(
-            overlap_lengths
-        )
+        overlap_token_count = sum(overlap_lengths)
 
-        # ZMIANA:
-        # Jeżeli overlap + nowe zdanie nadal przekracza 450,
-        # zmniejszamy overlap.
-        #
-        # To właśnie zabezpiecza przypadek, który wcześniej
-        # mógł doprowadzić do nieskończonej pętli.
+        # jeżeli overlap i nowe zdanie nadal przekracza 450 to zmiejszamy overlap
         while (
             overlap
             and overlap_token_count + sentence_length
@@ -390,24 +334,18 @@ def create_sentence_blocks(
 
             overlap_token_count -= removed_length
 
-        # Nowe zdanie ZAWSZE zostaje dodane.
-        # Nie cofamy żadnego indeksu.
+
         current_block = overlap + [sentence]
 
-        current_lengths = (
-            overlap_lengths
-            + [sentence_length]
-        )
+        current_lengths = (overlap_lengths + [sentence_length])
 
         current_token_count = (
             overlap_token_count
             + sentence_length
         )
 
-    # ========================================================
-    # OSTATNI BLOK
-    # ========================================================
-
+    
+    ####### Przypadek IV - ostatni blok #############
     if current_block:
         blocks.append(
             " ".join(current_block)
@@ -416,34 +354,53 @@ def create_sentence_blocks(
     return blocks
 
 
+########### CZEŚĆ VII - Analiza sentymentów ##################
+############# JESZCZE DO SPRAWDZENIA ######################
+
 # ============================================================
-# ANALIZA SENTYMENTU
+# ŁADOWANIE FINBERT-A
 # ============================================================
 
-def analyze_sentiment_sentence_block(
-    input_dir: str,
-    checkpoint_path: str | None = None,
-    limit_files: int | None = None,
-    test_files_per_ticker: int | None = None,
-) -> pd.DataFrame:
+def load_finbert():
+    """
+    Ładuje tokenizer, model FinBERT
+    oraz pipeline do analizy sentymentu.
+    """
 
-    # ========================================================
-    # ŁADOWANIE MODELU
-    # ========================================================
+    if DEVICE == 0:
+        logger.info(
+            "FinBERT działa na GPU: %s",
+            torch.cuda.get_device_name(0),
+        )
+    else:
+        logger.info(
+            "FinBERT działa na CPU."
+        )
 
-
-    tokenizer = BertTokenizer.from_pretrained(
+    tokenizer = AutoTokenizer.from_pretrained(
         MODEL_NAME
     )
 
-    model = BertForSequenceClassification.from_pretrained(
-        MODEL_NAME,
-        num_labels=3,
+    model = (
+        AutoModelForSequenceClassification
+        .from_pretrained(
+            MODEL_NAME
+        )
     )
 
-    # ZMIANA:
-    # Model i tokenizer są ładowane tylko RAZ,
-    # przed rozpoczęciem analizy plików.
+    model_labels = {
+        str(label).lower()
+        for label
+        in model.config.id2label.values()
+    }
+
+    if model_labels != EXPECTED_LABELS:
+        raise ValueError(
+            "Nieoczekiwane klasy modelu FinBERT. "
+            f"Otrzymano: {sorted(model_labels)}, "
+            f"oczekiwano: {sorted(EXPECTED_LABELS)}."
+        )
+
     sentiment_pipeline = pipeline(
         task="sentiment-analysis",
         model=model,
@@ -452,512 +409,682 @@ def analyze_sentiment_sentence_block(
         top_k=None,
     )
 
-    print("Model załadowany.\n")
-
-    ##################################################
-    # TESTY POTEM USNAC
-    ##################################################
-
-    test_sentences = [
-    "The company reported record revenue and strong profit growth.",
-    "The company reported significant losses and warned about declining demand.",
-    "The company filed a Form 8-K with the Securities and Exchange Commission.",
-    ]
-
-    test_predictions = sentiment_pipeline(
-        test_sentences,
-        top_k=None,
+    logger.info(
+        "Model FinBERT został załadowany."
     )
 
-    print("\n--- TEST FINBERT ---")
-
-    for sentence, prediction in zip(
-        test_sentences,
-        test_predictions,
-    ):
-        print(f"\nTekst: {sentence}")
-
-        for item in prediction:
-            print(
-                f"{item['label']}: "
-                f"{item['score']:.4f}"
-            )
+    return tokenizer, sentiment_pipeline
 
 
+# ============================================================
+# WYBÓR PLIKÓW
+# ============================================================
 
+def select_input_files(
+    input_dir: Path,
+    limit_files: int | None = None,
+    test_files_per_ticker: int | None = None,
+) -> list[Path]:
+    """
+    Zwraca posortowaną listę plików wejściowych.
 
-    results = []
+    Opcjonalnie ogranicza liczbę plików globalnie
+    albo wybiera określoną liczbę plików per ticker.
+    """
 
-    # ========================================================
-    # WYSZUKIWANIE PLIKÓW
-    # ========================================================
-
-    # sorted() daje powtarzalną kolejność.
-    file_paths = sorted(
-        glob.glob(
-            os.path.join(
-                input_dir,
-                "*.txt",
-            )
+    if not input_dir.exists():
+        raise FileNotFoundError(
+            f"Nie istnieje katalog wejściowy: "
+            f"{input_dir}"
         )
-    )
 
-    # ========================================================
-    # TRYB TESTOWY:
-    # określona liczba raportów dla każdego tickera
-    # ========================================================
+    if not input_dir.is_dir():
+        raise NotADirectoryError(
+            f"Ścieżka wejściowa nie jest katalogiem: "
+            f"{input_dir}"
+        )
+
+    if (
+        limit_files is not None
+        and test_files_per_ticker is not None
+    ):
+        raise ValueError(
+            "Nie można jednocześnie używać "
+            "limit_files i test_files_per_ticker."
+        )
+
+    if (
+        limit_files is not None
+        and limit_files <= 0
+    ):
+        raise ValueError(
+            "limit_files musi być większe od 0."
+        )
+
+    if (
+        test_files_per_ticker is not None
+        and test_files_per_ticker <= 0
+    ):
+        raise ValueError(
+            "test_files_per_ticker musi być większe od 0."
+        )
+
+    file_paths = sorted(
+        input_dir.glob("*.txt")
+    )
 
     if test_files_per_ticker is not None:
 
-        files_by_ticker = {}
+        files_by_ticker: dict[
+            str,
+            list[Path],
+        ] = {}
 
         for file_path in file_paths:
 
-            filename = os.path.basename(
-                file_path
-            )
-
             try:
-                ticker, _, _, _ = parse_file_metadata(
-                    filename
+                ticker, _, _, _ = (
+                    parse_file_metadata(
+                        file_path
+                    )
                 )
 
-            except ValueError:
+            except ValueError as error:
+                logger.warning(
+                    "Pominięto plik %s: %s",
+                    file_path.name,
+                    error,
+                )
                 continue
 
-            if ticker not in files_by_ticker:
-                files_by_ticker[ticker] = []
-
-            files_by_ticker[ticker].append(
+            files_by_ticker.setdefault(
+                ticker,
+                [],
+            ).append(
                 file_path
             )
 
-        selected_files = []
+        selected_files: list[Path] = []
 
-        for ticker in sorted(files_by_ticker):
-
-            ticker_files = files_by_ticker[
-                ticker
-            ]
-
+        for ticker in sorted(
+            files_by_ticker
+        ):
             selected_files.extend(
-                ticker_files[
+                files_by_ticker[ticker][
                     :test_files_per_ticker
                 ]
             )
 
-        file_paths = selected_files
+        return selected_files
 
-    # Klasyczny limit globalny zostawiamy
-    # jako dodatkową możliwość.
-    elif limit_files is not None:
-
-        file_paths = file_paths[
+    if limit_files is not None:
+        return file_paths[
             :limit_files
         ]
 
+    return file_paths
 
 
-    number_of_files = len(file_paths)
+# ============================================================
+# TWORZENIE BLOKÓW DOKUMENTU
+# ============================================================
 
-    print(
-        f"Liczba znalezionych plików: "
-        f"{number_of_files}\n"
+def create_document_blocks(
+    text: str,
+    source_type: str,
+    tokenizer,
+) -> list[dict]:
+    """
+    Dzieli dokument na logiczne sekcje,
+    a następnie na bloki wejściowe FinBERT-a.
+    """
+
+    if source_type == "8-K":
+
+        item_sections = split_into_8k_items(
+            text
+        )
+
+    elif source_type.startswith("EX-99"):
+
+        item_sections = [
+            ("N/A", text)
+        ]
+
+    else:
+        raise ValueError(
+            "Nieobsługiwany typ dokumentu: "
+            f"{source_type}"
+        )
+
+    blocks_with_metadata: list[dict] = []
+
+    global_block_id = 0
+
+    for item_number, item_text in item_sections:
+
+        item_blocks = create_sentence_blocks(
+            text=item_text,
+            tokenizer=tokenizer,
+            max_tokens=MAX_TOKENS_PER_BLOCK,
+            overlap_sentences=SENTENCE_OVERLAP,
+        )
+
+        for item_block_id, block_text in enumerate(
+            item_blocks
+        ):
+
+            blocks_with_metadata.append({
+                "Block_ID":
+                    global_block_id,
+
+                "Item_Number":
+                    item_number,
+
+                "Item_Block_ID":
+                    item_block_id,
+
+                "Text":
+                    block_text,
+            })
+
+            global_block_id += 1
+
+    return blocks_with_metadata
+
+
+# ============================================================
+# INFERENCJA FINBERT
+# ============================================================
+
+def predict_sentiment(
+    blocks: list[str],
+    sentiment_pipeline,
+):
+    """
+    Przeprowadza batched inference FinBERT-a
+    dla wszystkich bloków jednego dokumentu.
+    """
+
+    if not blocks:
+        return []
+
+    try:
+        return sentiment_pipeline(
+            blocks,
+            truncation=True,
+            max_length=MODEL_MAX_LENGTH,
+            batch_size=BATCH_SIZE,
+        )
+
+    except RuntimeError as error:
+
+        if (
+            "out of memory"
+            in str(error).lower()
+        ):
+
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+
+            logger.exception(
+                "Brak pamięci GPU podczas inferencji "
+                "FinBERT. Aktualny BATCH_SIZE=%d.",
+                BATCH_SIZE,
+            )
+
+        else:
+            logger.exception(
+                "RuntimeError podczas inferencji "
+                "FinBERT."
+            )
+
+        raise
+
+
+# ============================================================
+# INTERPRETACJA PREDYKCJI
+# ============================================================
+
+def parse_sentiment_prediction(
+    predictions: list[dict],
+) -> dict:
+    """
+    Zamienia wynik jednego bloku FinBERT-a
+    na cechy sentymentu.
+    """
+
+    if not predictions:
+        raise ValueError(
+            "FinBERT zwrócił pustą predykcję."
+        )
+
+    scores = {
+        item["label"].lower():
+            float(item["score"])
+        for item in predictions
+    }
+
+    received_labels = set(
+        scores
+    )
+
+    if received_labels != EXPECTED_LABELS:
+
+        missing_labels = (
+            EXPECTED_LABELS
+            - received_labels
+        )
+
+        unexpected_labels = (
+            received_labels
+            - EXPECTED_LABELS
+        )
+
+        raise ValueError(
+            "Niepoprawny zestaw klas FinBERT. "
+            f"Brakujące: {sorted(missing_labels)}, "
+            f"nieoczekiwane: "
+            f"{sorted(unexpected_labels)}."
+        )
+
+    prob_positive = (
+        scores["positive"]
+    )
+
+    prob_negative = (
+        scores["negative"]
+    )
+
+    prob_neutral = (
+        scores["neutral"]
+    )
+
+    net_sentiment = (
+        prob_positive
+        - prob_negative
+    )
+
+    predicted_label = max(
+        scores,
+        key=lambda label: scores[label],
+    )
+
+    confidence = (
+        scores[predicted_label]
+    )
+
+    return {
+        "Prob_Positive":
+            prob_positive,
+
+        "Prob_Negative":
+            prob_negative,
+
+        "Prob_Neutral":
+            prob_neutral,
+
+        "Net_Sentiment":
+            net_sentiment,
+
+        "Predicted_Label":
+            predicted_label.capitalize(),
+
+        "Confidence":
+            confidence,
+    }
+
+
+# ============================================================
+# TWORZENIE WIERSZA WYNIKOWEGO
+# ============================================================
+
+def create_result_row(
+    ticker: str,
+    filing_date: str,
+    accession_number: str,
+    source_type: str,
+    filename: str,
+    block_metadata: dict,
+    predictions: list[dict],
+) -> dict:
+    """
+    Łączy metadane bloku z wynikami FinBERT-a.
+    """
+
+    sentiment_features = (
+        parse_sentiment_prediction(
+            predictions
+        )
+    )
+
+    result = {
+        "Ticker":
+            ticker,
+
+        "Date":
+            filing_date,
+
+        "Accession":
+            accession_number,
+
+        "Source_Type":
+            source_type,
+
+        "File":
+            filename,
+
+        "Item_Number":
+            block_metadata["Item_Number"],
+
+        "Block_ID":
+            block_metadata["Block_ID"],
+
+        "Item_Block_ID":
+            block_metadata["Item_Block_ID"],
+
+        "Text_Snippet":
+            block_metadata["Text"],
+    }
+
+    result.update(
+        sentiment_features
+    )
+
+    return result
+
+
+# ============================================================
+# ANALIZA JEDNEGO PLIKU
+# ============================================================
+
+def process_sentiment_file(
+    file_path: Path,
+    tokenizer,
+    sentiment_pipeline,
+) -> list[dict]:
+    """
+    Przeprowadza pełną analizę sentymentu
+    jednego oczyszczonego dokumentu SEC.
+    """
+
+    file_start_time = (
+        time.perf_counter()
+    )
+
+    (
+        ticker,
+        filing_date,
+        accession_number,
+        source_type,
+    ) = parse_file_metadata(
+        file_path
+    )
+
+    text = file_path.read_text(
+        encoding="utf-8"
+    )
+
+    if not text.strip():
+
+        logger.warning(
+            "Pusty plik: %s",
+            file_path.name,
+        )
+
+        return []
+
+    # --------------------------------------------------------
+    # CHUNKING
+    # --------------------------------------------------------
+
+    chunk_start = (
+        time.perf_counter()
+    )
+
+    blocks_with_metadata = (
+        create_document_blocks(
+            text=text,
+            source_type=source_type,
+            tokenizer=tokenizer,
+        )
+    )
+
+    chunk_time = (
+        time.perf_counter()
+        - chunk_start
+    )
+
+    blocks = [
+        block["Text"]
+        for block in blocks_with_metadata
+    ]
+
+    if not blocks:
+
+        logger.warning(
+            "Nie utworzono bloków dla %s",
+            file_path.name,
+        )
+
+        return []
+
+    # --------------------------------------------------------
+    # FINBERT
+    # --------------------------------------------------------
+
+    finbert_start = (
+        time.perf_counter()
+    )
+
+    all_predictions = predict_sentiment(
+        blocks=blocks,
+        sentiment_pipeline=sentiment_pipeline,
+    )
+
+    finbert_time = (
+        time.perf_counter()
+        - finbert_start
+    )
+
+    if (
+        len(all_predictions)
+        != len(blocks_with_metadata)
+    ):
+        raise ValueError(
+            "Liczba predykcji FinBERT "
+            "nie zgadza się z liczbą bloków. "
+            f"Predykcje={len(all_predictions)}, "
+            f"bloki={len(blocks_with_metadata)}."
+        )
+
+    # --------------------------------------------------------
+    # WYNIKI
+    # --------------------------------------------------------
+
+    file_results: list[dict] = []
+
+    for block_metadata, predictions in zip(
+        blocks_with_metadata,
+        all_predictions,
+    ):
+
+        result_row = create_result_row(
+            ticker=ticker,
+            filing_date=filing_date,
+            accession_number=accession_number,
+            source_type=source_type,
+            filename=file_path.name,
+            block_metadata=block_metadata,
+            predictions=predictions,
+        )
+
+        file_results.append(
+            result_row
+        )
+
+    # --------------------------------------------------------
+    # STATYSTYKI CZASOWE
+    # --------------------------------------------------------
+
+    file_time = (
+        time.perf_counter()
+        - file_start_time
+    )
+
+    blocks_per_second = (
+        len(blocks) / finbert_time
+        if finbert_time > 0
+        else 0.0
+    )
+
+    logger.info(
+        "%s | bloki=%d | chunking=%.2fs | "
+        "FinBERT=%.2fs | %.2f bloków/s | "
+        "całość=%.2fs",
+        file_path.name,
+        len(blocks),
+        chunk_time,
+        finbert_time,
+        blocks_per_second,
+        file_time,
+    )
+
+    return file_results
+
+
+# ============================================================
+# CHECKPOINT
+# ============================================================
+
+def save_checkpoint(
+    results: list[dict],
+    checkpoint_path: Path,
+) -> None:
+    """
+    Zapisuje dotychczasowe wyniki analizy.
+    """
+
+    checkpoint_path.parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    checkpoint_df = pd.DataFrame(
+        results
+    )
+
+    checkpoint_df.to_csv(
+        checkpoint_path,
+        index=False,
+    )
+
+    logger.info(
+        "Zapisano checkpoint: %s",
+        checkpoint_path,
+    )
+
+
+# ============================================================
+# ANALIZA CAŁEGO KATALOGU
+# ============================================================
+
+def analyze_sentiment_directory(
+    input_dir: Path,
+    checkpoint_path: Path | None = None,
+    limit_files: int | None = None,
+    test_files_per_ticker: int | None = None,
+) -> pd.DataFrame:
+    """
+    Przeprowadza analizę sentymentu
+    wszystkich wybranych dokumentów SEC.
+    """
+
+    ensure_nltk_resources()
+
+    tokenizer, sentiment_pipeline = (
+        load_finbert()
+    )
+
+    file_paths = select_input_files(
+        input_dir=input_dir,
+        limit_files=limit_files,
+        test_files_per_ticker=(
+            test_files_per_ticker
+        ),
+    )
+
+    number_of_files = len(
+        file_paths
+    )
+
+    logger.info(
+        "Liczba plików do analizy: %d",
+        number_of_files,
     )
 
     if number_of_files == 0:
-        print(
-            "Nie znaleziono żadnych plików .txt."
+
+        logger.warning(
+            "Nie znaleziono plików do analizy."
         )
 
         return pd.DataFrame()
 
-    # ========================================================
-    # ANALIZA PLIKÓW
-    # ========================================================
+    results: list[dict] = []
 
-    total_start_time = time.perf_counter()
+    total_start_time = (
+        time.perf_counter()
+    )
 
     for file_index, file_path in enumerate(
         file_paths,
         start=1,
     ):
 
-        file_start_time = time.perf_counter()
-
-        filename = os.path.basename(
-            file_path
+        logger.info(
+            "Przetwarzanie %d/%d: %s",
+            file_index,
+            number_of_files,
+            file_path.name,
         )
 
-        try:
-            (ticker, filing_date, accession_number, source_type) = parse_file_metadata(
-                filename
-            )
-        except ValueError as error:
-            print(
-                f"  Błąd parsowania metadanych: {error}"
-            )
-            continue
-
-        # ====================================================
-        # WCZYTANIE TEKSTU
-        # ====================================================
-
-        try:
-            with open(
-                file_path,
-                "r",
-                encoding="utf-8",
-            ) as file:
-                text = file.read()
-
-        except Exception as error:
-            print(
-                f"  Błąd odczytu pliku: {error}"
-            )
-            continue
-
-        # Pomijamy puste pliki.
-        if not text.strip():
-            print("  Pusty plik - pominięto.")
-            continue
-
-        # ====================================================
-        # CHUNKING
-        # ====================================================
-
-        chunk_start = time.perf_counter()
-
-        # ====================================================
-        # PODZIAŁ LOGICZNY DOKUMENTU
-        # ====================================================
-
-        if source_type == "8-K":
-
-            # Główny formularz 8-K ma strukturę:
-            #
-            # Item 2.02
-            # Item 5.02
-            # Item 8.01
-            # Item 9.01
-            #
-            # Dlatego dzielimy go według Item_Number.
-            item_sections = split_into_8k_items(
-                text
-            )
-
-        else:
-
-            # EX-99.1 / EX-99.2 to np.:
-            #
-            # earnings release
-            # press release
-            # CFO commentary
-            #
-            # Nie posiadają struktury ITEM formularza 8-K.
-            #
-            # Cały exhibit traktujemy jako jedną logiczną
-            # sekcję, którą później dzielimy na bloki.
-            item_sections = [
-                ("N/A", text)
-            ]
-
-        blocks_with_metadata = []
-
-        global_block_id = 0
-
-        for item_number, item_text in item_sections:
-
-            # Każdy ITEM dzielimy osobno na bloki FinBERT-a
-            item_blocks = create_sentence_blocks(
-                text=item_text,
-                tokenizer=tokenizer,
-                max_tokens=MAX_TOKENS_PER_BLOCK,
-                overlap_sentences=SENTENCE_OVERLAP,
-            )
-
-            for item_block_id, block_text in enumerate(item_blocks):
-
-                blocks_with_metadata.append({
-                    "Block_ID": global_block_id,
-                    "Item_Number": item_number,
-                    "Item_Block_ID": item_block_id,
-                    "Text": block_text,
-                })
-
-                global_block_id += 1
-
-
-        # Lista samych tekstów przekazywana do FinBERT-a
-        blocks = [
-            block["Text"]
-            for block in blocks_with_metadata
-        ]
-
-
-        chunk_time = (
-            time.perf_counter()
-            - chunk_start
+        file_results = process_sentiment_file(
+            file_path=file_path,
+            tokenizer=tokenizer,
+            sentiment_pipeline=sentiment_pipeline,
         )
 
-        print(
-            f"  Bloki: {len(blocks)} "
-            f"| chunking: {chunk_time:.2f}s"
+        results.extend(
+            file_results
         )
 
-        if not blocks:
-            print(
-                "  Nie utworzono żadnych bloków."
-            )
-            continue
-
-        # ====================================================
-        # FINBERT
-        # ====================================================
-
-        finbert_start = time.perf_counter()
-
-        try:
-
-            # ZMIANA KLUCZOWA:
-            #
-            # STARA WERSJA:
-            #
-            # for block in blocks:
-            #     sentiment_pipeline(block)
-            #
-            # czyli każda inferencja osobno.
-            #
-            #
-            # NOWA WERSJA:
-            #
-            # przekazujemy CAŁĄ LISTĘ.
-            #
-            # pipeline sam tworzy batch'e po 16.
-            all_predictions = sentiment_pipeline(
-                blocks,
-                truncation=True,
-                max_length=512,
-                batch_size=BATCH_SIZE,
-            )
-
-        except RuntimeError as error:
-
-            # Osobna informacja dla typowego błędu GPU.
-            if "out of memory" in str(error).lower():
-
-                print(
-                    "  CUDA OUT OF MEMORY!"
-                )
-
-                print(
-                    "  Zmniejsz BATCH_SIZE, "
-                    "np. z 16 do 8."
-                )
-
-                if torch.cuda.is_available():
-                    torch.cuda.empty_cache()
-
-            else:
-                print(
-                    f"  RuntimeError: {error}"
-                )
-
-            continue
-
-        except Exception as error:
-            print(
-                f"  Błąd FinBERT: {error}"
-            )
-            continue
-
-        finbert_time = (
-            time.perf_counter()
-            - finbert_start
-        )
-
-        # ====================================================
-        # ZAPIS WYNIKÓW BLOKÓW
-        # ====================================================
-
-        for block_metadata, predictions in zip(
-            blocks_with_metadata,
-            all_predictions,
-        ):
-
-            try:
-
-                scores = {
-                    item["label"].lower():
-                        float(item["score"])
-                    for item in predictions
-                }
-
-                prob_positive = scores["positive"]
-                prob_negative = scores["negative"]
-                prob_neutral = scores["neutral"]
-
-                # Wynik od około -1 do +1
-                net_sentiment = (
-                    prob_positive
-                    - prob_negative
-                )
-
-                # Etykieta klasy o najwyższym prawdopodobieństwie
-                predicted_label = max(
-                    scores,
-                    key=scores.get,
-                )
-
-                # Pewność modelu dla wybranej klasy
-                confidence = scores[
-                    predicted_label
-                ]
-
-                results.append({
-
-                    # ==========================================
-                    # METADANE RAPORTU
-                    # ==========================================
-
-                    "Ticker": ticker,
-                    "Date": filing_date,
-                    "Accession": accession_number,
-                    "Source_Type": source_type,
-                    "File": filename,
-
-                    # ==========================================
-                    # STRUKTURA RAPORTU
-                    # ==========================================
-
-                    "Item_Number":
-                        block_metadata["Item_Number"],
-
-                    "Block_ID":
-                        block_metadata["Block_ID"],
-
-                    "Item_Block_ID":
-                        block_metadata["Item_Block_ID"],
-
-                    # ==========================================
-                    # TEKST
-                    # ==========================================
-
-                    "Text_Snippet":
-                        block_metadata["Text"],
-
-                    # ==========================================
-                    # FINBERT
-                    # ==========================================
-
-                    "Prob_Positive":
-                        prob_positive,
-
-                    "Prob_Negative":
-                        prob_negative,
-
-                    "Prob_Neutral":
-                        prob_neutral,
-
-                    "Net_Sentiment":
-                        net_sentiment,
-
-                    "Predicted_Label":
-                        predicted_label.capitalize(),
-
-                    "Confidence":
-                        confidence,
-                                    })
-
-            except Exception as error:
-                print(
-                    f"  Błąd zapisu bloku "
-                    f"{block_metadata['Block_ID']}: "
-                    f"{error}"
-                )
-
-        # ====================================================
-        # CZAS
-        # ====================================================
-
-        file_time = (
-            time.perf_counter()
-            - file_start_time
-        )
-
-        blocks_per_second = (
-            len(blocks) / finbert_time
-            if finbert_time > 0
-            else 0
-        )
-
-        print(
-            f"  FinBERT: {finbert_time:.2f}s "
-            f"| {blocks_per_second:.2f} bloków/s"
-        )
-
-        print(
-            f"  Cały plik: {file_time:.2f}s"
-        )
-
-        # ====================================================
-        # CHECKPOINT
-        # ====================================================
-
-        # ZMIANA:
-        # Co np. 50 plików zapisujemy wyniki.
-        #
-        # Jeżeli skrypt padnie po kilku tysiącach plików,
-        # nie tracisz całej pracy.
         if (
             checkpoint_path is not None
             and file_index % CHECKPOINT_EVERY == 0
         ):
-            checkpoint_df = pd.DataFrame(
-                results
+            save_checkpoint(
+                results=results,
+                checkpoint_path=checkpoint_path,
             )
-
-            checkpoint_df.to_csv(
-                checkpoint_path,
-                index=False,
-            )
-
-            print(
-                f"  CHECKPOINT zapisany: "
-                f"{checkpoint_path}"
-            )
-
-        print()
-
-    # ========================================================
-    # KONIEC
-    # ========================================================
 
     total_time = (
         time.perf_counter()
         - total_start_time
     )
 
-    print(
-        "=" * 60
-    )
+    if checkpoint_path is not None:
+        save_checkpoint(
+            results=results,
+            checkpoint_path=checkpoint_path,
+        )
 
-    print(
-        f"Zakończono analizę."
-    )
-
-    print(
-        f"Łączny czas: "
-        f"{total_time:.2f}s"
-    )
-
-    print(
-        f"Liczba wynikowych bloków: "
-        f"{len(results)}"
-    )
-
-    print(
-        "=" * 60
+    logger.info(
+        "Analiza zakończona | "
+        "pliki=%d | bloki=%d | czas=%.2fs",
+        number_of_files,
+        len(results),
+        total_time,
     )
 
     return pd.DataFrame(
@@ -965,197 +1092,51 @@ def analyze_sentiment_sentence_block(
     )
 
 
-# ============================================================
-# MAIN
-# ============================================================
+###################### CZESC - MAIN ######################
+def main() -> None:
+    """
+    Uruchamia pełną analizę sentymentu oczyszczonych dokumentów SEC
+    i zapisuje wyniki do pliku CSV
+    """
 
-if __name__ == "__main__":
-
-    INPUT_DIRECTORY = os.path.abspath(
-        os.path.join(
-            "data",
-            "processed",
-            "cleaned_texts",
-        )
+    df_sentiment = analyze_sentiment_directory(
+        input_dir=INPUT_DIRECTORY,
+        checkpoint_path=CHECKPOINT_FILE,
     )
 
-    OUTPUT_DIRECTORY = os.path.abspath(
-        os.path.join(
-            "data",
-            "processed",
+    if df_sentiment.empty:
+        raise RuntimeError(
+            "Analiza nie wygenerowała żadnych "
+            "wyników sentymentu."
         )
-    )
 
-    # Tworzymy katalog, jeśli nie istnieje.
-    os.makedirs(
-        OUTPUT_DIRECTORY,
+    OUTPUT_FILE.parent.mkdir(
+        parents=True,
         exist_ok=True,
     )
-
-    OUTPUT_FILE = os.path.join(
-        OUTPUT_DIRECTORY,
-        "sentiment_blocks.csv",
-    )
-
-    CHECKPOINT_FILE = os.path.join(
-        OUTPUT_DIRECTORY,
-        "sentiment_checkpoint.csv",
-    )
-
-    # ========================================================
-    # TEST
-    # ========================================================
-
-
-    df_sentiment = (
-        analyze_sentiment_sentence_block(
-            input_dir=INPUT_DIRECTORY,
-            checkpoint_path=CHECKPOINT_FILE,
-            test_files_per_ticker=None,
-            limit_files=None
-        )
-    )
-
-    # ========================================================
-    # PODGLĄD
-    # ========================================================
-
-    print(
-        "\n--- Wygenerowana Ramka Danych ---"
-    )
-
-    columns_to_show = [
-        "Ticker",
-        "Date",
-        "Source_Type",
-        "Item_Number",
-        "Block_ID",
-        "Item_Block_ID",
-        "Predicted_Label",
-        "Confidence",
-        "Prob_Positive",
-        "Prob_Negative",
-        "Prob_Neutral",
-        "Net_Sentiment",
-    ]
-
-    print(
-        df_sentiment[
-            columns_to_show
-        ].to_string(
-            index=False
-        )
-    )
-
-    # PODGLAD
-    print(
-        "\n--- ROZKŁAD KLAS ---"
-    )
-
-    print(
-        df_sentiment[
-            "Predicted_Label"
-        ].value_counts()
-    )
-
-
-    print(
-        "\n--- ROZKŁAD KLAS DLA SPÓŁEK ---"
-    )
-
-    print(
-        pd.crosstab(
-            df_sentiment["Ticker"],
-            df_sentiment["Predicted_Label"],
-        )
-    )   
-
-
-
-    #### SREDNIE PRAWDOPODOBIENSTWA
-    print(
-        "\n--- ŚREDNIE PRAWDOPODOBIEŃSTWA ---"
-    )
-
-    print(
-        df_sentiment.groupby("Ticker")[
-            [
-                "Prob_Positive",
-                "Prob_Negative",
-                "Prob_Neutral",
-            ]
-        ].mean()
-    )
-
-    # BLKOKI NIE NEUTRLANE
-    non_neutral = df_sentiment[
-        df_sentiment["Predicted_Label"]
-        != "Neutral"
-    ]
-
-    print(
-        "\n--- BLOKI NIE-NEUTRALNE ---\n"
-    )
-
-    for _, row in non_neutral.iterrows():
-
-        print(
-            f"{row['Ticker']} | "
-            f"{row['Date']} | "
-            f"Item {row['Item_Number']}"
-        )
-
-        print(
-            f"Label: {row['Predicted_Label']} "
-            f"| Confidence: {row['Confidence']:.4f}"
-        )
-
-        print(
-            row["Text_Snippet"][:500]
-        )
-
-        print("-" * 80)
-
-        print(
-        "\n--- ROZKŁAD KLAS WG SOURCE TYPE ---"
-    )
-
-    print(
-        pd.crosstab(
-            df_sentiment["Source_Type"],
-            df_sentiment["Predicted_Label"],
-        )
-    )
-
-    print(
-        "\n--- ŚREDNIE PRAWDOPODOBIEŃSTWA WG SOURCE TYPE ---"
-    )
-
-    print(
-        df_sentiment.groupby(
-            "Source_Type"
-        )[
-            [
-                "Prob_Positive",
-                "Prob_Negative",
-                "Prob_Neutral",
-            ]
-        ].mean()
-    )
-
-    
-    
-
-    # ========================================================
-    # FINALNY ZAPIS
-    # ========================================================
 
     df_sentiment.to_csv(
         OUTPUT_FILE,
         index=False,
     )
 
-    print(
-        f"\nWyniki zapisano do:\n"
-        f"{OUTPUT_FILE}"
+    logger.info(
+        "Zapisano %d bloków sentymentu do %s",
+        len(df_sentiment),
+        OUTPUT_FILE,
     )
+
+
+if __name__ == "__main__":
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format=(
+            "%(asctime)s - "
+            "%(levelname)s - "
+            "%(name)s - "
+            "%(message)s"
+        ),
+    )
+
+    main()

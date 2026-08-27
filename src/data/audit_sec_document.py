@@ -1,200 +1,133 @@
-import os
-import glob
+########################################################
+# Audyt typów różnych dokumnwntow z raportów 8-K
+########################################################
+
+import json
+import logging
 import re
+
 from collections import Counter, defaultdict
+from pathlib import Path
 
 
-def extract_document_types(
-    file_path: str,
-) -> list[str]:
+logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+INPUT_DIRECTORY = PROJECT_ROOT / "data" / "raw" / "sec-edgar-filings"
+OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "audit_summary.json"
+
+TYPE_PATTERN = re.compile(
+    r"<TYPE>\s*([^\r\n<]+)",
+    flags=re.IGNORECASE,
+)
+
+
+def extract_document_types(file_path: Path) -> list[str]:
     """
-    Zwraca wszystkie wartości <TYPE> znalezione
-    w full-submission.txt.
+    Zwraca wszystkie typy dokumentów oznaczone <TYPE> ,
+    znalezione w pliku full-submission.txt
     """
+
+    document_types = []
 
     try:
-        with open(
-            file_path,
+        with file_path.open(
             "r",
             encoding="utf-8",
             errors="ignore",
         ) as file:
-            raw_content = file.read()
 
-    except Exception as error:
-        print(
-            f"Błąd odczytu {file_path}: {error}"
+            for line in file:
+                match = TYPE_PATTERN.search(line)
+
+                if match:
+                    document_type = match.group(1).strip().upper()
+                    document_types.append(document_type)
+
+    except Exception:
+        logger.exception(
+            "Błąd odczytu pliku %s",
+            file_path,
         )
-        return []
 
-    document_types = re.findall(
-        r"<TYPE>\s*([^\r\n<]+)",
-        raw_content,
-        flags=re.IGNORECASE,
-    )
-
-    return [
-        document_type.strip().upper()
-        for document_type in document_types
-    ]
+    return document_types
 
 
 def audit_sec_documents(
-    base_input_dir: str,
+    base_input_dir: Path,
     tickers: list[str],
+    output_file: Path,
 ) -> None:
+    """
+    Spsiuje typy dokumentów w 8-K i zapisuje do pliku JSON
+    """
 
     global_counter = Counter()
-
-    types_by_ticker = defaultdict(
-        Counter
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "AUDYT DOKUMENTÓW SEC"
-    )
-
-    print(
-        "=" * 80
-    )
+    types_by_ticker = defaultdict(Counter)
 
     for ticker in tickers:
+        ticker_path = base_input_dir / ticker / "8-K"
 
-        search_pattern = os.path.join(
-            base_input_dir,
-            ticker,
-            "8-K",
-            "*",
-            "full-submission.txt",
-        )
+        if not ticker_path.exists():
+            logger.warning(
+                "Brak folderu dla %s",
+                ticker,
+            )
+            continue
 
         file_paths = sorted(
-            glob.glob(
-                search_pattern
-            )
+            ticker_path.rglob("full-submission.txt")
         )
 
-        print(
-            f"\n\n{'#' * 80}"
-        )
-
-        print(
-            f"{ticker} | liczba filingów: "
-            f"{len(file_paths)}"
-        )
-
-        print(
-            f"{'#' * 80}"
+        logger.info(
+            "Audyt %s,  liczba filingów: %d",
+            ticker,
+            len(file_paths),
         )
 
         for file_path in file_paths:
+            document_types = extract_document_types(file_path)
 
-            accession_number = os.path.basename(
-                os.path.dirname(
-                    file_path
-                )
-            )
+            global_counter.update(document_types)
+            types_by_ticker[ticker].update(document_types)
 
-            document_types = (
-                extract_document_types(
-                    file_path
-                )
-            )
+    summary_data = {
+        "global_summary": dict(global_counter),
+        "ticker_summary": {
+            ticker: dict(counts)
+            for ticker, counts in types_by_ticker.items()
+        },
+    }
 
-            global_counter.update(
-                document_types
-            )
-
-            types_by_ticker[
-                ticker
-            ].update(
-                document_types
-            )
-
-            print(
-                f"\n{accession_number}"
-            )
-
-            for document_type in document_types:
-                print(
-                    f"  - {document_type}"
-                )
-
-    # ========================================================
-    # PODSUMOWANIE GLOBALNE
-    # ========================================================
-
-    print(
-        "\n\n"
-        + "=" * 80
+    output_file.parent.mkdir(
+        parents=True,
+        exist_ok=True,
     )
 
-    print(
-        "PODSUMOWANIE GLOBALNE"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    for document_type, count in (
-        global_counter.most_common()
-    ):
-        print(
-            f"{document_type:<20} "
-            f"{count}"
+    with output_file.open(
+        "w",
+        encoding="utf-8",
+    ) as file:
+        json.dump(
+            summary_data,
+            file,
+            indent=4,
+            ensure_ascii=False,
         )
 
-    # ========================================================
-    # PODSUMOWANIE PER TICKER
-    # ========================================================
-
-    print(
-        "\n\n"
-        + "=" * 80
+    logger.info(
+        "Koniec, wyniki są w %s",
+        output_file,
     )
-
-    print(
-        "PODSUMOWANIE PER TICKER"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    for ticker in tickers:
-
-        print(
-            f"\n{ticker}"
-        )
-
-        for document_type, count in (
-            types_by_ticker[
-                ticker
-            ].most_common()
-        ):
-            print(
-                f"  {document_type:<20} "
-                f"{count}"
-            )
 
 
 if __name__ == "__main__":
-
-    INPUT_DIRECTORY = os.path.abspath(
-        os.path.join(
-            "data",
-            "raw",
-            "sec-edgar-filings",
-        )
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
     )
 
-    TARGET_TICKERS = [
+    target_tickers = [
         "AAPL",
         "MSFT",
         "NVDA",
@@ -212,5 +145,6 @@ if __name__ == "__main__":
 
     audit_sec_documents(
         base_input_dir=INPUT_DIRECTORY,
-        tickers=TARGET_TICKERS,
+        tickers=target_tickers,
+        output_file=OUTPUT_FILE,
     )

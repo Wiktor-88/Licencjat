@@ -1,12 +1,15 @@
+#####################################################################
+# Ten plik odpowiada za połączenie analizy sentyemntów z danymi SEC
+#####################################################################
+
+
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import logging
 
-
-# ============================================================
-# ŚCIEŻKI
-# ============================================================
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -32,10 +35,7 @@ OUTPUT_FILE = (
 )
 
 
-# ============================================================
-# WYMAGANE KOLUMNY
-# ============================================================
-
+# Wymagane kolumny z sentiment
 REQUIRED_COLUMNS = [
     "Ticker",
     "Date",
@@ -51,13 +51,9 @@ REQUIRED_COLUMNS = [
 ]
 
 
-# ============================================================
-# WALIDACJA
-# ============================================================
+###### Wadlidacja #####
 
-def validate_dataframe(
-    df: pd.DataFrame,
-) -> None:
+def validate_dataframe(df: pd.DataFrame) -> None:
 
     missing_columns = [
         column
@@ -67,28 +63,33 @@ def validate_dataframe(
 
     if missing_columns:
         raise ValueError(
-            "Brakuje wymaganych kolumn w "
-            "sentiment_blocks.csv:\n"
-            + "\n".join(missing_columns)
+            "Brakuje wymaganych kolumn "
+            "w sentiment_blocks.csv: "
+            f"{missing_columns}"
         )
 
 
-# ============================================================
-# AGREGACJA JEDNEGO FILINGU
-# ============================================================
 
-def aggregate_single_filing(
-    filing_df: pd.DataFrame,
-) -> dict:
+# Agregacja pojedyńczego filingu
+def aggregate_single_filing(filing_df: pd.DataFrame) -> dict:
+
+    # Sprawdzamy pustość
+    if filing_df.empty:
+        raise ValueError(
+            "Nie można agregować pustego filingu"
+        )
+
+    if filing_df["Accession"].nunique() != 1:
+        raise ValueError(
+            "DataFrame zawiera więcej niż jeden filing"
+        )
 
     ticker = filing_df["Ticker"].iloc[0]
     filing_date = filing_df["Date"].iloc[0]
     accession = filing_df["Accession"].iloc[0]
 
-    # --------------------------------------------------------
-    # PODZIAŁ NA 8-K I EX-99
-    # --------------------------------------------------------
 
+    # Podział na 8K i EX99
     blocks_8k = filing_df[
         filing_df["Source_Type"] == "8-K"
     ].copy()
@@ -100,10 +101,8 @@ def aggregate_single_filing(
         )
     ].copy()
 
-    # --------------------------------------------------------
-    # ITEMY Z GŁÓWNEGO 8-K
-    # --------------------------------------------------------
 
+    # Itemy z głównego 8K
     item_numbers = sorted(
         {
             str(item_number)
@@ -117,55 +116,33 @@ def aggregate_single_filing(
     )
 
     source_types = sorted(
-        filing_df[
-            "Source_Type"
-        ].dropna().unique()
+        filing_df["Source_Type"].dropna().unique()
     )
 
-    # --------------------------------------------------------
-    # PODSTAWOWE METADANE
-    # --------------------------------------------------------
 
+    # Metadane
     result = {
         "Ticker": ticker,
         "Date": filing_date,
         "Accession": accession,
 
-        "Has_8K": int(
-            not blocks_8k.empty
-        ),
+        "Has_8K": int(not blocks_8k.empty),
 
-        "Has_EX99": int(
-            not blocks_ex99.empty
-        ),
+        "Has_EX99": int(not blocks_ex99.empty),
 
-        "Filing_Block_Count":
-            len(filing_df),
+        "Filing_Block_Count": len(filing_df),
 
-        "EightK_Block_Count":
-            len(blocks_8k),
+        "EightK_Block_Count": len(blocks_8k),
 
-        "EX99_Block_Count":
-            len(blocks_ex99),
+        "EX99_Block_Count": len(blocks_ex99),
 
-        "Item_Numbers":
-            "|".join(item_numbers),
+        "Item_Numbers": "|".join(item_numbers),
 
-        "Source_Types":
-            "|".join(source_types),
+        "Source_Types": "|".join(source_types),
     }
 
-    # ========================================================
-    # BRAK EX-99
-    # ========================================================
-    #
-    # To bardzo ważne:
-    #
-    # brak komunikatu EX-99 NIE oznacza neutralnego sentymentu.
-    #
-    # Dlatego wartości sentymentowe zostawiamy jako NaN.
-    # ========================================================
-
+    
+    # Gdy nie ma EX99 = nan
     if blocks_ex99.empty:
 
         result.update({
@@ -198,197 +175,169 @@ def aggregate_single_filing(
 
         return result
 
-    # ========================================================
-    # LICZEBNOŚĆ KLAS
-    # ========================================================
+    ##################################
+    # Liczebność klas
+    ##################################
 
     labels = (
-        blocks_ex99[
-            "Predicted_Label"
-        ]
-        .astype(str)
-        .str.lower()
+        blocks_ex99["Predicted_Label"].str.lower()
     )
 
-    positive_count = int(
-        (labels == "positive").sum()
+
+    valid_labels = {
+        "positive",
+        "negative",
+        "neutral",
+    }
+
+    unexpected_labels = (
+        set(labels.dropna().unique())
+        - valid_labels
     )
 
-    negative_count = int(
-        (labels == "negative").sum()
+    if labels.isna().any() or unexpected_labels:
+        raise ValueError(
+            "Niepoprawne etykiety sentymentu "
+            f"dla filingu {accession}."
+        )
+
+    
+
+    positive_count = int((labels == "positive").sum())
+
+    negative_count = int((labels == "negative").sum())
+
+    neutral_count = int((labels == "neutral").sum())
+
+    sentiment_block_count = len(blocks_ex99)
+
+
+    # Szybjke sprawdzenie:
+    classified_block_count = (
+        positive_count
+        + negative_count
+        + neutral_count
     )
 
-    neutral_count = int(
-        (labels == "neutral").sum()
+    if classified_block_count != sentiment_block_count:
+        raise ValueError(
+            "Nie wszystkie bloki EX-99 mają "
+            "poprawną etykietę sentymentu. "
+            f"Accession: {accession}."
+        )
+
+
+
+    # Sprawdzenie czy nie ma samych Nanów
+    probability_columns = [
+        "Prob_Positive",
+        "Prob_Negative",
+        "Prob_Neutral",
+        "Net_Sentiment",
+    ]
+
+    if blocks_ex99[probability_columns].isna().any().any():
+        raise ValueError(
+            "Brakujące wartości sentymentu "
+            f"dla filingu {accession}."
     )
 
-    sentiment_block_count = len(
-        blocks_ex99
-    )
-
-    # ========================================================
-    # NAJBARDZIEJ POZYTYWNY BLOK
-    # ========================================================
-
+    # Najbardziej pozytywny blok
     most_positive_index = (
-        blocks_ex99[
-            "Prob_Positive"
-        ].idxmax()
+        blocks_ex99["Prob_Positive"].idxmax()
     )
 
     most_positive_row = (
-        blocks_ex99.loc[
-            most_positive_index
-        ]
+        blocks_ex99.loc[most_positive_index]
     )
 
-    # ========================================================
-    # NAJBARDZIEJ NEGATYWNY BLOK
-    # ========================================================
-
+    # Najbardziej negatywny blok
     most_negative_index = (
-        blocks_ex99[
-            "Prob_Negative"
-        ].idxmax()
+        blocks_ex99["Prob_Negative"].idxmax()
     )
 
     most_negative_row = (
-        blocks_ex99.loc[
-            most_negative_index
-        ]
+        blocks_ex99.loc[most_negative_index]
     )
 
-    # ========================================================
-    # CECHY SENTYMENTU
-    # ========================================================
-
+    ###############################
+    # Dodanie cech sentymentowych
+    ###############################
     result.update({
 
-        # ----------------------------------------------------
-        # LICZEBNOŚCI
-        # ----------------------------------------------------
+        # Cechy zwizaze z liczebnościa
+        "Positive_Block_Count": positive_count,
 
-        "Positive_Block_Count":
-            positive_count,
+        "Negative_Block_Count": negative_count,
 
-        "Negative_Block_Count":
-            negative_count,
+        "Neutral_Block_Count": neutral_count,
 
-        "Neutral_Block_Count":
-            neutral_count,
 
-        # ----------------------------------------------------
-        # UDZIAŁY KLAS
-        # ----------------------------------------------------
-
+        # Udziały każdych z klas
         "Positive_Ratio":
-            positive_count
-            / sentiment_block_count,
+            positive_count / sentiment_block_count,
 
         "Negative_Ratio":
-            negative_count
-            / sentiment_block_count,
+            negative_count / sentiment_block_count,
 
         "Neutral_Ratio":
-            neutral_count
-            / sentiment_block_count,
+            neutral_count / sentiment_block_count,
 
-        # ----------------------------------------------------
-        # ŚREDNIE PRAWDOPODOBIEŃSTWA FINBERT
-        # ----------------------------------------------------
 
+        # Średnie prawdopodobieństwa
         "Mean_Positive":
-            blocks_ex99[
-                "Prob_Positive"
-            ].mean(),
+            blocks_ex99["Prob_Positive"].mean(),
 
         "Mean_Negative":
-            blocks_ex99[
-                "Prob_Negative"
-            ].mean(),
+            blocks_ex99["Prob_Negative"].mean(),
 
         "Mean_Neutral":
-            blocks_ex99[
-                "Prob_Neutral"
-            ].mean(),
+            blocks_ex99["Prob_Neutral"].mean(),
 
-        # ----------------------------------------------------
-        # NET SENTIMENT
-        # ----------------------------------------------------
-
+        
+        # Cechy związane z Net-Sentiment
         "Mean_Net_Sentiment":
-            blocks_ex99[
-                "Net_Sentiment"
-            ].mean(),
+            blocks_ex99["Net_Sentiment"].mean(),
 
         "Median_Net_Sentiment":
-            blocks_ex99[
-                "Net_Sentiment"
-            ].median(),
+            blocks_ex99["Net_Sentiment"].median(),
 
         "Min_Net_Sentiment":
-            blocks_ex99[
-                "Net_Sentiment"
-            ].min(),
+            blocks_ex99["Net_Sentiment"].min(),
 
         "Max_Net_Sentiment":
-            blocks_ex99[
-                "Net_Sentiment"
-            ].max(),
+            blocks_ex99["Net_Sentiment"].max(),
 
-        # ----------------------------------------------------
-        # EKSTREMALNY SENTYMENT
-        # ----------------------------------------------------
-
+        
+        # Ekstremalny sentyment
         "Max_Positive_Probability":
-            blocks_ex99[
-                "Prob_Positive"
-            ].max(),
+            blocks_ex99["Prob_Positive"].max(),
 
         "Max_Negative_Probability":
-            blocks_ex99[
-                "Prob_Negative"
-            ].max(),
+            blocks_ex99["Prob_Negative"].max(),
 
-        # ----------------------------------------------------
-        # TRACEABILITY / XAI
-        # ----------------------------------------------------
-
+        # Śledzenie najbardziej ekstremlanych bloków - potem do XAI bedzie 
         "Most_Positive_Source_Type":
-            most_positive_row[
-                "Source_Type"
-            ],
+            most_positive_row["Source_Type"],
 
         "Most_Positive_Block_ID":
-            int(
-                most_positive_row[
-                    "Block_ID"
-                ]
-            ),
+            int(most_positive_row["Block_ID"]),
 
         "Most_Negative_Source_Type":
-            most_negative_row[
-                "Source_Type"
-            ],
+            most_negative_row["Source_Type"],
 
         "Most_Negative_Block_ID":
-            int(
-                most_negative_row[
-                    "Block_ID"
-                ]
-            ),
+            int(most_negative_row["Block_ID"]),
     })
 
     return result
 
 
-# ============================================================
-# CECHY ITEMÓW 8-K
-# ============================================================
+##################################
+# Cechy dla Itemków z 8-K
+###############################
 
-def create_item_features(
-    df: pd.DataFrame,
-) -> pd.DataFrame:
+def create_item_features(df: pd.DataFrame) -> pd.DataFrame:
 
     key_columns = [
         "Ticker",
@@ -396,65 +345,32 @@ def create_item_features(
         "Accession",
     ]
 
-    item_df = df[
-        df["Source_Type"] == "8-K"
-    ].copy()
+    item_df = df[df["Source_Type"] == "8-K"].copy()
 
+    item_df["Item_Number"] = (
+        item_df["Item_Number"]
+        .astype("string")
+    )
+    # Pominięcie 9.01 bo to informacja techiniczna
     item_df = item_df[
-        item_df[
-            "Item_Number"
-        ].notna()
-    ]
-
-    item_df = item_df[
-        ~item_df[
-            "Item_Number"
-        ].astype(str).isin(
-            [
-                "N/A",
-                "UNKNOWN",
-            ]
+        item_df["Item_Number"].notna()
+        & ~item_df["Item_Number"].isin(
+            ["N/A", "UNKNOWN", "9.01"]
         )
     ]
 
-    # Item 9.01 to techniczna sekcja
-    # Financial Statements and Exhibits.
-    # Zachowujemy ją w Item_Numbers,
-    # ale nie tworzymy z niej cechy modelowej.
-    item_df = item_df[
-        item_df[
-            "Item_Number"
-        ].astype(str) != "9.01"
-    ]
 
     if item_df.empty:
-        return pd.DataFrame(
-            columns=key_columns
-        )
+        return pd.DataFrame(columns=key_columns)
 
-    # Przykład:
-    #
-    # 2.02 -> Has_Item_2_02
-    # 5.02 -> Has_Item_5_02
-
-    item_df[
-        "Item_Feature"
-    ] = (
+    # Tworzsenie nazwy cechy
+    item_df["Item_Feature"] = (
         "Has_Item_"
-        + item_df[
-            "Item_Number"
-        ]
-        .astype(str)
-        .str.replace(
-            ".",
-            "_",
-            regex=False,
-        )
+        + item_df["Item_Number"].str.replace(".","_",regex=False)
     )
 
-    item_df[
-        "Feature_Value"
-    ] = 1
+
+    item_df["Feature_Value"] = 1
 
     item_features = (
         item_df.pivot_table(
@@ -463,8 +379,7 @@ def create_item_features(
             values="Feature_Value",
             aggfunc="max",
             fill_value=0,
-        )
-        .reset_index()
+        ).reset_index()
     )
 
     item_features.columns.name = None
@@ -473,23 +388,14 @@ def create_item_features(
 
 
 
-def load_filing_metadata(
-    metadata_file: Path,
-) -> pd.DataFrame:
+def load_filing_metadata(metadata_file: Path) -> pd.DataFrame:
     """
-    Wczytuje metadane SEC i redukuje je
-    do jednego wiersza na filing.
-
-    Jeden accession może posiadać kilka dokumentów:
-    8-K, EX-99.1, EX-99.2 itd.,
-    ale wszystkie mają ten sam Acceptance_DateTime_ET.
+    Wczytuje metadane SEC i redukuje jedo jednego wiersza na filing
     """
 
-    metadata_df = pd.read_csv(
-        metadata_file
-    )
+    metadata_df = pd.read_csv(metadata_file)
 
-    required_columns = [
+    requiered_col = [
         "Ticker",
         "Filing_Date",
         "Acceptance_DateTime_ET",
@@ -498,7 +404,7 @@ def load_filing_metadata(
 
     missing_columns = [
         column
-        for column in required_columns
+        for column in requiered_col
         if column not in metadata_df.columns
     ]
 
@@ -509,66 +415,52 @@ def load_filing_metadata(
             f"{missing_columns}"
         )
 
-    # --------------------------------------------------------
-    # SPRAWDZENIE SPÓJNOŚCI TIMESTAMPÓW
-    # --------------------------------------------------------
 
-    timestamp_counts = (
-        metadata_df.groupby(
-            [
-                "Ticker",
-                "Accession",
-            ]
-        )[
-            "Acceptance_DateTime_ET"
-        ]
-        .nunique(
-            dropna=False
-        )
-    )
+    consistency_columns = [
+        "Filing_Date",
+        "Acceptance_DateTime_ET",
+    ]
 
-    invalid_filings = (
-        timestamp_counts[
-            timestamp_counts > 1
-        ]
-    )
-
-    if not invalid_filings.empty:
-        raise ValueError(
-            "Jeden filing posiada więcej niż jeden "
-            "Acceptance_DateTime_ET:\n"
-            f"{invalid_filings}"
+    for column in consistency_columns:
+        value_counts = (
+            metadata_df.groupby(
+                ["Ticker","Accession"])[column].nunique(dropna=False)
         )
 
-    # --------------------------------------------------------
-    # JEDEN WIERSZ NA FILING
-    # --------------------------------------------------------
+        invalid_filings = value_counts[value_counts > 1]
 
+        if not invalid_filings.empty:
+            raise ValueError(
+                "Jeden filing posiada więcej niż jedną "
+                f"wartość {column}:\n"
+                f"{invalid_filings}"
+            )
+
+
+
+    # Jeden wiersz na filing jako obserwacja
     filing_metadata = (
-        metadata_df[
-            required_columns
-        ]
-        .drop_duplicates(
+        metadata_df[requiered_col].drop_duplicates(
             subset=[
                 "Ticker",
                 "Accession",
             ]
-        )
-        .reset_index(
-            drop=True
-        )
+        ).reset_index(drop=True)
     )
 
     return filing_metadata
 
 
-# ============================================================
-# AGREGACJA CAŁEGO DATASETU
-# ============================================================
+######################################
+# Agregacja datasetu
+######################################
+def aggregate_sentiment(df: pd.DataFrame) -> pd.DataFrame:
 
-def aggregate_sentiment(
-    df: pd.DataFrame,
-) -> pd.DataFrame:
+    if df.empty:
+        raise ValueError("Pusty DataFrame")
+
+    validate_dataframe(df)
+    
 
     key_columns = [
         "Ticker",
@@ -576,7 +468,7 @@ def aggregate_sentiment(
         "Accession",
     ]
 
-    aggregated_rows = []
+    aggregated_rows: list[dict] = []
 
     grouped = df.groupby(
         key_columns,
@@ -587,33 +479,16 @@ def aggregate_sentiment(
     for _, filing_df in grouped:
 
         aggregated_row = (
-            aggregate_single_filing(
-                filing_df
-            )
+            aggregate_single_filing(filing_df)
         )
 
-        aggregated_rows.append(
-            aggregated_row
-        )
+        aggregated_rows.append(aggregated_row)
 
-    aggregated_df = pd.DataFrame(
-        aggregated_rows
-    )
-
-    
+    aggregated_df = pd.DataFrame(aggregated_rows)
 
 
-
-
-    # ========================================================
-    # DODAJEMY ITEM FEATURES
-    # ========================================================
-
-    item_features_df = (
-        create_item_features(
-            df
-        )
-    )
+    # Dodatnie cech z item
+    item_features_df = create_item_features(df)
 
     if not item_features_df.empty:
 
@@ -625,120 +500,62 @@ def aggregate_sentiment(
             )
         )
 
-    # ========================================================
-    # BRAKUJĄCE ITEM FEATURES -> 0
-    # ========================================================
-
+    
+    # Brakujące cechy item
     item_columns = [
-        column
-        for column
-        in aggregated_df.columns
-        if column.startswith(
-            "Has_Item_"
-        )
-    ]
-
-    for column in item_columns:
-
-        aggregated_df[column] = (
-            aggregated_df[
-                column
-            ]
-            .fillna(0)
-            .astype(int)
-        )
-
-    aggregated_df = (
-        aggregated_df.sort_values(
-            by=[
-                "Ticker",
-                "Date",
-                "Accession",
-            ]
-        )
-        .reset_index(
-            drop=True
-        )
+    column
+    for column in aggregated_df.columns
+    if column.startswith(
+        "Has_Item_"
     )
+]
+
+    if item_columns:
+        aggregated_df[item_columns] = aggregated_df[item_columns].fillna(0).astype(int)
+        
+
+    # Sortowanie wyników
+    aggregated_df = aggregated_df.sort_values(by=key_columns).reset_index(drop=True)
+    
 
     return aggregated_df
 
 
-# ============================================================
-# MAIN
-# ============================================================
 
-if __name__ == "__main__":
-
-    print(
-        "\n"
-        + "=" * 70
-    )
-
-    print(
-        "AGREGACJA SENTYMENTU FINBERT"
-    )
-
-    print(
-        "=" * 70
-    )
-
-    print(
-        f"\nPlik wejściowy:\n{INPUT_FILE}"
-    )
+def main() -> None:
+    """
+    Agrguje wyniki na filingi, dołącza metadane SEC i zapisuje końcowy dataset
+    """
 
     if not INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku:\n"
-            f"{INPUT_FILE}"
-        )
+        raise FileNotFoundError(f"Nie znaleziono pliku: {INPUT_FILE}")
 
     if not METADATA_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku:\n"
-            f"{METADATA_FILE}"
-        )
+        raise FileNotFoundError(f"Nie znaleziono pliku: {METADATA_FILE}")
 
-    # ========================================================
-    # WCZYTANIE
-    # ========================================================
+    
+    # Wczytanie
+    df_blocks = pd.read_csv(INPUT_FILE)
 
-    df_blocks = pd.read_csv(
-        INPUT_FILE
+    df_metadata = load_filing_metadata(METADATA_FILE)
+
+    logger.info(
+        "Liczba bloków wejściowych: %d",
+        len(df_blocks),
     )
 
-    df_metadata = load_filing_metadata(
-        METADATA_FILE
-    )
 
-    validate_dataframe(
-        df_blocks
-    )
-
-    print(
-        f"\nLiczba bloków wejściowych: "
-        f"{len(df_blocks)}"
-    )
-
-    print(
-        f"Liczba unikalnych filingów: "
-        f"{df_blocks[
-            ['Ticker', 'Date', 'Accession']
-        ].drop_duplicates().shape[0]}"
-    )
-
-    # ========================================================
-    # AGREGACJA
-    # ========================================================
-
+    # Agregacja
     df_features = aggregate_sentiment(
         df_blocks
     )
 
-    # ============================================================
-    # DODANIE DOKŁADNEGO CZASU PUBLIKACJI SEC
-    # ============================================================
+    logger.info(
+        "Liczba zagregowanych filingów: %d",
+        len(df_features),
+    )
 
+    # Metadane
     df_features = df_features.merge(
         df_metadata[
             [
@@ -756,42 +573,65 @@ if __name__ == "__main__":
         validate="one_to_one",
     )
 
+    # Sprawdzenie braku metadanych
+    missing_metadata = (df_features["Filing_Date"].isna())
 
+    if missing_metadata.any():
 
+        missing_filings = df_features.loc[
+            missing_metadata,
+            [
+                "Ticker",
+                "Accession",
+            ],
+        ]
 
+        raise ValueError(
+            "Nie znaleziono metadanych SEC "
+            "dla części filingów:\n"
+            f"{missing_filings.to_string(index=False)}"
+        )
 
-    # ============================================================
-    # SPRAWDZENIE ZGODNOŚCI DAT
-    # ============================================================
+    # Zgodność dat
+    sentiment_dates = pd.to_datetime(
+        df_features["Date"],
+        errors="raise",
+    ).dt.date
+
+    metadata_dates = pd.to_datetime(
+        df_features["Filing_Date"],
+        errors="raise",
+    ).dt.date
 
     date_mismatch = (
-        pd.to_datetime(
-            df_features["Date"]
-        ).dt.date
-        !=
-        pd.to_datetime(
-            df_features["Filing_Date"]
-        ).dt.date
+        sentiment_dates
+        != metadata_dates
     )
 
     if date_mismatch.any():
+
+        mismatched_filings = df_features.loc[
+            date_mismatch,
+            [
+                "Ticker",
+                "Accession",
+                "Date",
+                "Filing_Date",
+            ],
+        ]
+
         raise ValueError(
             "Date z sentiment_blocks.csv "
             "nie zgadza się z Filing_Date "
-            "z metadanych SEC."
+            "z metadanych SEC:\n"
+            f"{mismatched_filings.to_string(index=False)}"
         )
 
-    # Stara kolumna Date nie jest już potrzebna.
     df_features = df_features.drop(
-        columns=[
-            "Date",
-        ]
+        columns=["Date"]
     )
 
-    # ============================================================
-    # KOLEJNOŚĆ KOLUMN
-    # ============================================================
-
+    # Kolejnośćkolumn
     first_columns = [
         "Ticker",
         "Filing_Date",
@@ -805,82 +645,29 @@ if __name__ == "__main__":
         if column not in first_columns
     ]
 
-    df_features = df_features[
-        first_columns
-        + remaining_columns
-    ]
+    df_features = df_features[first_columns + remaining_columns]
 
-    # ========================================================
-    # ZAPIS
-    # ========================================================
+    # Końcowy zapis
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    df_features.to_csv(OUTPUT_FILE, index=False)
 
-    df_features.to_csv(
+    logger.info(
+        "Zapisano %d filingów do %s",
+        len(df_features),
         OUTPUT_FILE,
-        index=False,
     )
 
-    # ========================================================
-    # PODGLĄD
-    # ========================================================
+if __name__ == "__main__":
 
-    print(
-        "\n"
-        + "=" * 70
+    logging.basicConfig(
+        level=logging.INFO,
+        format=(
+            "%(asctime)s - "
+            "%(levelname)s - "
+            "%(name)s - "
+            "%(message)s"
+        ),
     )
 
-    print(
-        "WYNIK AGREGACJI"
-    )
-
-    print(
-        "=" * 70
-    )
-
-    columns_to_show = [
-        "Ticker",
-        "Filing_Date",
-        "Acceptance_DateTime_ET",
-        "Accession",
-        "Has_8K",
-        "Has_EX99",
-        "EX99_Block_Count",
-        "Positive_Ratio",
-        "Negative_Ratio",
-        "Neutral_Ratio",
-        "Mean_Net_Sentiment",
-        "Max_Positive_Probability",
-        "Max_Negative_Probability",
-        "Item_Numbers",
-    ]
-
-    print(
-        df_features[
-            columns_to_show
-        ].to_string(
-            index=False
-        )
-    )
-
-    print(
-        "\n"
-        + "=" * 70
-    )
-
-    print(
-        f"Liczba wynikowych filingów: "
-        f"{len(df_features)}"
-    )
-
-    print(
-        f"\nWyniki zapisano do:\n"
-        f"{OUTPUT_FILE}"
-    )
-
-    print(
-        "=" * 70
-    )
+    main()

@@ -1,72 +1,86 @@
-import os                                       # Moduł służacy do interakcji z systemem plików i ścieżkami
+###############################################################
+# Pobieranie danych z SEC EDGAR
+###############################################################
 
-from sec_edgar_downloader import Downloader     # Moduł do pobierania dokumentów z bazy SEC EDGAR
-from dotenv import load_dotenv                  # Moduł do wczytywania zmiennych środowiskowych z pliku .env
+import logging
+import os
+from pathlib import Path
 
-load_dotenv()                                   # Wczytuje zmienne środowiskowe z pliku .env
+from dotenv import load_dotenv
+from sec_edgar_downloader import Downloader
+
+
+load_dotenv()
+
+logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_RAW_DIR = PROJECT_ROOT / "data" / "raw"
+
 
 def fetch_8k_reports(
-    tickers: list,
+    tickers: list[str],
     start_date: str,
     end_date: str,
-) -> str:
+) -> Path:
     """
-    Pobiera raporty 8-K dla podanej listy tickerów
-    z określonego zakresu dat.
+    Pobiera raporty 8-K z SEC EDGAR dla podanych tickerów
+    i zakresu dat oraz zwraca ścieżkę do katalogu z pobranymi filingami
     """
 
     company_name = os.getenv("SEC_COMPANY_NAME")
     email = os.getenv("SEC_EMAIL")
 
     if not company_name or not email:
+        logger.critical(
+            "Brak SEC_COMPANY_NAME lub SEC_EMAIL"
+        )
         raise ValueError(
-            "Błąd: Zmienne środowiskowe "
-            "nie zostały załadowane prawidłowo."
+            "Brak wymaganych zmiennych srodowiskowych SEC"
         )
 
-    download_root = os.path.abspath(
-        os.path.join("data", "raw")
-    )
+    download_root = DATA_RAW_DIR.resolve()
 
-    dl = Downloader(
+    downloader = Downloader(
         company_name,
         email,
         download_root,
     )
 
     for ticker in tickers:
-        print(
-            f"Pobieram raporty 8-K dla spółki "
-            f"{ticker}..."
-        )
+        logger.info("Pobieranie 8-K dla %s", ticker)
 
-        downloaded_count = dl.get(
-            "8-K",
-            ticker,
-            after=start_date,
-            before=end_date,
-            include_amends=False,
-        )
+        try:
+            count = downloader.get(
+                "8-K",
+                ticker,
+                after=start_date,
+                before=end_date,
+                include_amends=False,
+            )
 
-        print(
-            f"  Pobrano filingów: "
-            f"{downloaded_count}"
-        )
+            logger.info(
+                "Zakończono pobieranie dla %s, liczba raportów: %s",
+                ticker,
+                count,
+            )
 
-    download_path = os.path.join(
-        download_root,
-        "sec-edgar-filings",
-    )
+        except Exception:
+            logger.exception(
+                "Błąd pobierania dla %s",
+                ticker,
+            )
 
-    print(
-        "Gotowe! Pliki zostały zapisane "
-        f"w folderze: {download_path}"
-    )
+    return download_root / "sec-edgar-filings"
 
-    return download_path
 
 if __name__ == "__main__":
-    my_tickers = [
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+    )
+
+    tickers = [
         "AAPL",
         "MSFT",
         "NVDA",
@@ -83,7 +97,7 @@ if __name__ == "__main__":
     ]
 
     fetch_8k_reports(
-        tickers=my_tickers,
+        tickers=tickers,
         start_date="2020-01-01",
         end_date="2026-08-13",
     )
