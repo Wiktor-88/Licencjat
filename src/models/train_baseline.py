@@ -1,372 +1,126 @@
-from pathlib import Path
+# Pierwszy lik do trenowania modelu bazowego, czyli regreji logistycznej w kilu różnych wariantach
 
 import numpy as np
 import pandas as pd
+import logging
 
 from sklearn.compose import ColumnTransformer
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import (
-    accuracy_score,
-    balanced_accuracy_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    roc_auc_score,
-    confusion_matrix,
-)
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.impute import SimpleImputer
+from pathlib import Path
+
+from src.models.model_utils import (add_confusion_metrics, calculate_metrics,
+    create_summary, log_repeated_events, prepare_model_dataset, select_sec_features,
+    validate_target, add_sentiment_context)
+
+from src.models.model_config import (
+    CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MARKET_FEATURES, MARKET_Z_FEATURES,
+    MIN_SEC_COUNT, SEC_BINARY_CANDIDATES, SENTIMENT_CONTEXT_FEATURES, SENTIMENT_FEATURES,
+    SENTIMENT_HISTORY_FLAG, TARGET, TEST_YEARS)
 
 
-# ============================================================
-# ŚCIEŻKI
-# ============================================================
+# Zmiana nazwy
+MIN_SEC_OCCURRENCES = MIN_SEC_COUNT
+
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_FILE = PROJECT_ROOT / "data" / "processed" / "model_dataset.csv"
 
-DATA_PATH = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "model_dataset.csv"
-)
-
-
-# ============================================================
-# TARGET
-# ============================================================
-
-TARGET_COLUMN = "Target_Abnormal_1D"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
+PREDICTIONS_FILE = OUTPUT_DIR / "oos_predictions.csv"
+FOLD_METRICS_FILE = OUTPUT_DIR / "logistic_fold_metrics.csv"
+SUMMARY_FILE = OUTPUT_DIR / "logistic_summary.csv"
+COEFFICIENTS_FILE = OUTPUT_DIR / "logistic_coefficients.csv"
 
 
-# ============================================================
-# CECHY RYNKOWE
-# ============================================================
+def validate_market_features(df: pd.DataFrame) -> None:
+    feature_sets = {"MARKET": MARKET_FEATURES,
+                    "MARKET_Z60": MARKET_Z_FEATURES,
+                    "MARKET_COMPACT": MARKET_COMPACT_FEATURES}
 
-MARKET_FEATURES = [
-    # Relatywna siła spółki względem rynku
-    "Stock_vs_QQQ_1D",
-    "Stock_vs_QQQ_3D",
-    "Stock_vs_QQQ_5D",
+    for name, features in feature_sets.items():
+        values = df[features].apply(pd.to_numeric, errors="coerce")
 
-    # Stan spółki
-    "Volatility_14D",
-    "Relative_Volume_20D",
-    "RSI_14",
-    "Price_to_SMA20",
-    "Intraday_Return",
-    "Daily_Range",
+        missing = values.isna().sum()
+        missing = missing[missing > 0]
 
-    # Stan szerokiego rynku
-    "QQQ_Log_Return_1D",
-    "QQQ_Log_Return_3D",
-    "QQQ_Log_Return_5D",
-    "QQQ_Volatility_14D",
-]
+        if not missing.empty:
+            raise ValueError(f"Braki w {name}:\n{missing}")
+
+        if not np.isfinite(values.to_numpy()).all():
+            raise ValueError(f"{name} zawiera wartości inf lub -inf")
 
 
-
-###### CECHY Z ROLLING Z-SCORE (60 dni) ######
-
-
-
-MARKET_Z_FEATURES = [
-    "Log_Return_1D_Z60",
-    "Log_Return_3D_Z60",
-    "Log_Return_5D_Z60",
-    "Volatility_14D_Z60",
-    "Relative_Volume_20D_Z60",
-    "RSI_14",
-    "Price_to_SMA20_Z60",
-    "Intraday_Return_Z60",
-    "Daily_Range_Z60",
-
-    "QQQ_Log_Return_1D",
-    "QQQ_Log_Return_3D",
-    "QQQ_Log_Return_5D",
-    "QQQ_Volatility_14D",
-]
-
-
-
-######## CECHY DLA MODELU A3 Z VIF ##########
-
-MARKET_COMPACT_FEATURES = [
-    # Krótki i szerszy horyzont zwrotu spółki
-    "Log_Return_1D_Z60",
-    "Log_Return_5D_Z60",
-
-    # Stan / reżim spółki
-    "Volatility_14D_Z60",
-    "Relative_Volume_20D_Z60",
-    "RSI_14",
-    "Price_to_SMA20_Z60",
-    "Intraday_Return_Z60",
-    "Daily_Range_Z60",
-
-    # Benchmark - krótki i szerszy horyzont
-    "QQQ_Log_Return_1D",
-    "QQQ_Log_Return_5D",
-    "QQQ_Volatility_14D",
-]
-
-
-
-
-
-# ============================================================
-# CECHY KATEGORYCZNE
-# ============================================================
-
-CATEGORICAL_FEATURES = [
-    "Ticker",
-]
-
-
-# ============================================================
-# STRUKTURALNE CECHY SEC
-# ============================================================
-
-SEC_BINARY_CANDIDATES = [
-    "Has_EX99",
-    "Has_Item_1_01",
-    "Has_Item_1_02",
-    "Has_Item_1_05",
-    "Has_Item_2_01",
-    "Has_Item_2_02",
-    "Has_Item_2_03",
-    "Has_Item_5_02",
-    "Has_Item_5_03",
-    "Has_Item_5_07",
-    "Has_Item_7_01",
-    "Has_Item_8_01",
-]
-######## CECHY FINBERT ###########
-
-SENTIMENT_FEATURES = [
-    "Mean_Net_Sentiment",
-    "Sentiment_Momentum_3",
-]
-
-SENTIMENT_CONTEXT_FEATURES = [
-    "Mean_Net_Sentiment",
-    "Sentiment_Momentum_3",
-    "Abs_Sentiment",
-    "Sentiment_x_Prior_Return_5D",
-]
-
-
-
-# Minimalna liczba wystąpień flagi w TRAIN.
-MIN_SEC_OCCURRENCES = 5
-
-
-# ============================================================
-# FOLDY WALK-FORWARD
-# ============================================================
-
-TEST_YEARS = [
-    2023,
-    2024,
-    2025,
-    2026,
-]
-
-
-# ============================================================
-# METRYKI
-# ============================================================
-
-def calculate_metrics(
-    y_true,
-    y_pred,
-    y_prob=None,
-):
-    metrics = {
-        "Accuracy": accuracy_score(
-            y_true,
-            y_pred,
-        ),
-        "Balanced_Accuracy": balanced_accuracy_score(
-            y_true,
-            y_pred,
-        ),
-        "Precision": precision_score(
-            y_true,
-            y_pred,
-            zero_division=0,
-        ),
-        "Recall": recall_score(
-            y_true,
-            y_pred,
-            zero_division=0,
-        ),
-        "F1": f1_score(
-            y_true,
-            y_pred,
-            zero_division=0,
-        ),
-    }
-
-    if (
-        y_prob is not None
-        and pd.Series(y_true).nunique() == 2
-    ):
-        metrics["ROC_AUC"] = roc_auc_score(
-            y_true,
-            y_prob,
-        )
-    else:
-        metrics["ROC_AUC"] = np.nan
-
-    return metrics
-
-
-# ============================================================
-# SELEKCJA FLAG SEC
-# ============================================================
-
-def select_sec_features(
-    train_df: pd.DataFrame,
-) -> list[str]:
-    """
-    Zachowuje Has_EX99 oraz tylko te flagi Item,
-    które wystąpiły co najmniej MIN_SEC_OCCURRENCES
-    razy w aktualnym zbiorze treningowym.
-
-    Selekcja jest wykonywana osobno w każdym foldzie,
-    więc nie zaglądamy do przyszłości.
-    """
-
-    selected = []
-
+def validate_sec_features(df: pd.DataFrame) -> None:
     for feature in SEC_BINARY_CANDIDATES:
+        if df[feature].isna().any():
+            raise ValueError(f"Cecha {feature} zawiera NaN")
 
-        count = int(
-            train_df[feature].sum()
-        )
+        values = set(df[feature].unique())
 
-        if feature == "Has_EX99":
-            selected.append(feature)
-
-        elif count >= MIN_SEC_OCCURRENCES:
-            selected.append(feature)
-
-    return selected
+        if not values.issubset({0, 1}):
+            raise ValueError(f"Cecha {feature} nie jest binarna: {sorted(values)}")
 
 
-# ============================================================
-# LOGISTIC REGRESSION PIPELINE
-# ============================================================
+def validate_sentiment(df: pd.DataFrame) -> None:
+    if df["Mean_Net_Sentiment"].isna().any():
+        raise ValueError("Brak Mean_Net_Sentiment")
 
-def build_logistic_pipeline(
-    numeric_features: list[str],
-    categorical_features: list[str],
-    binary_features: list[str],
-    sentiment_features: list[str] | None = None,
-) -> Pipeline:
+    invalid_momentum = df["Sentiment_Momentum_3"].isna() & (df[SENTIMENT_HISTORY_FLAG] == 1)
+    
 
-    if sentiment_features is None:
-        sentiment_features = []
+    if invalid_momentum.any():
+        rows = df.loc[invalid_momentum, ["Ticker", "Accession", "Sentiment_History_Count_3"]]
+
+        raise ValueError(f"Brak Sentiment_Momentum_3 mimo dostępnej historii:\n{rows.to_string(index=False)}")
 
 
+
+# Model - regresja logstyczna
+def build_logistic_pipeline(numeric_features: list[str],
+                            binary_features: list[str],
+                            sentiment_features: list[str] | None = None) -> Pipeline:
+
+    sentiment_features = sentiment_features or []
     transformers = []
 
-    # Cechy ciągłe:
-    # skalowanie Z-score liczone WYŁĄCZNIE na TRAIN.
+    # StandardScaler jest trenowany tylko na train w danym foldzie
     if numeric_features:
-        transformers.append(
-            (
-                "numeric",
-                StandardScaler(),
-                numeric_features,
-            )
-        )
+        transformers.append(("numeric", StandardScaler(), numeric_features))
 
-    # Ticker:
-    # one-hot encoding.
-    if categorical_features:
-        transformers.append(
-            (
-                "categorical",
-                OneHotEncoder(
-                    handle_unknown="ignore",
-                ),
-                categorical_features,
-            )
-        )
+    transformers.append(("categorical",
+                        OneHotEncoder(handle_unknown="ignore", drop="first", sparse_output=False),
+                        CATEGORICAL_FEATURES))
 
-    # Flagi SEC:
-    # pozostają dokładnie 0/1.
     if binary_features:
-        transformers.append(
-            (
-                "binary",
-                "passthrough",
-                binary_features,
-            )
-        )
-
+        transformers.append(("binary", "passthrough", binary_features))
 
     if sentiment_features:
-
         sentiment_pipeline = Pipeline(
-            steps=[
-                (
-                    "imputer",
-                    SimpleImputer(
-                        strategy="constant",
-                        fill_value=0.0,
-                    ),
-                ),
-                (
-                    "scaler",
-                    StandardScaler(),
-                ),
-            ]
-        )
+            steps=[("imputer", SimpleImputer(strategy="constant", fill_value=0.0)),
+                ("scaler", StandardScaler())
+                ])
 
-        transformers.append(
-            (
-                "sentiment",
-                sentiment_pipeline,
-                sentiment_features,
-            )
-        )
+        transformers.append(("sentiment", sentiment_pipeline, sentiment_features))
+
+    preprocessor = ColumnTransformer(transformers=transformers, remainder="drop")
+
+    classifier = LogisticRegression(l1_ratio=0.0,
+                                    C=1.0,
+                                    solver="lbfgs",
+                                    max_iter=5000,
+                                    class_weight=None)
+
+    return Pipeline(steps=[("preprocessor", preprocessor),
+                            ("classifier", classifier),
+        ])
 
 
-
-    preprocessor = ColumnTransformer(
-        transformers=transformers,
-        remainder="drop",
-    )
-
-    model = Pipeline(
-        steps=[
-            (
-                "preprocessor",
-                preprocessor,
-            ),
-            (
-                "classifier",
-                LogisticRegression(
-                    max_iter=2000,
-                    random_state=42,
-                    class_weight=None,
-                ),
-            ),
-        ]
-    )
-
-    return model
-
-
-# ============================================================
-# POJEDYNCZY MODEL / FOLD
-# ============================================================
-
+# Pojedyńczy model - fold
 def evaluate_logistic_model(
     model_name: str,
     train_df: pd.DataFrame,
@@ -374,114 +128,49 @@ def evaluate_logistic_model(
     numeric_features: list[str],
     binary_features: list[str],
     test_year: int,
-    sentiment_features: list[str] | None = None,
-):
+    sentiment_features: list[str] | None = None
+) -> tuple[dict, pd.DataFrame, pd.DataFrame]:
 
+    sentiment_features = sentiment_features or []
 
-    if sentiment_features is None:
-        sentiment_features = []
+    input_features = list(dict.fromkeys(numeric_features
+                                        + CATEGORICAL_FEATURES
+                                        + binary_features
+                                        + sentiment_features))
 
-    input_features = (
-    numeric_features
-    + CATEGORICAL_FEATURES
-    + binary_features
-    + sentiment_features
-)
+    X_train = train_df[input_features].copy()
+    X_test = test_df[input_features].copy()
 
-    X_train = train_df[
-        input_features
-    ].copy()
+    y_train = train_df[TARGET].astype(int)
+    y_test = test_df[TARGET].astype(int)
 
-    y_train = train_df[
-        TARGET_COLUMN
-    ].astype(int)
+    if y_train.nunique() != 2:
+        raise ValueError(f"TRAIN dla testu {test_year} nie zawiera obu klas targetu")
 
-    X_test = test_df[
-        input_features
-    ].copy()
+    model = build_logistic_pipeline(numeric_features=numeric_features,
+                                    binary_features=binary_features,
+                                    sentiment_features=sentiment_features)
 
-    y_test = test_df[
-        TARGET_COLUMN
-    ].astype(int)
+    model.fit(X_train, y_train)
 
-    model = build_logistic_pipeline(
-    numeric_features=numeric_features,
-    categorical_features=CATEGORICAL_FEATURES,
-    binary_features=binary_features,
-    sentiment_features=sentiment_features,
-)
+    y_pred = model.predict(X_test)
+    y_prob = model.predict_proba(X_test)[:, 1]
 
-    model.fit(
-        X_train,
-        y_train,
-    )
+    metrics = calculate_metrics(y_true=y_test, y_pred=y_pred, y_prob=y_prob)
 
-    if (
-        model_name
-        == "MODEL C - MARKET + SEC + FINBERT"
-        and test_year == 2026
-    ):
+    feature_names = model.named_steps["preprocessor"].get_feature_names_out()
 
-        preprocessor = model.named_steps[
-            "preprocessor"
-        ]
+    classifier = model.named_steps["classifier"]
 
-        classifier = model.named_steps[
-            "classifier"
-        ]
+    coefficients = pd.DataFrame({"Test_Year": test_year,
+                                 "Model": model_name,
+                                 "Feature": feature_names,
+                                 "Coefficient": classifier.coef_[0]})
 
-        feature_names = (
-            preprocessor
-            .get_feature_names_out()
-        )
-
-        coefficients = pd.DataFrame(
-            {
-                "Feature": feature_names,
-                "Coefficient":
-                    classifier.coef_[0],
-            }
-        )
-
-        coefficients["Abs_Coefficient"] = (
-            coefficients["Coefficient"]
-            .abs()
-        )
-
-        print(
-            "\nMODEL C 2026 - "
-            "współczynniki:"
-        )
-
-        print(
-            coefficients
-            .sort_values(
-                "Abs_Coefficient",
-                ascending=False,
-            )
-            .to_string(index=False)
-        )
-
-
-
-
-    y_pred = model.predict(
-        X_test
-    )
-
-    y_prob = model.predict_proba(
-        X_test
-    )[:, 1]
-
+    coefficients["Abs_Coefficient"] = coefficients["Coefficient"].abs()
 
     predictions = test_df[
-        [
-            "Ticker",
-            "Event_Session",
-            "Accession",
-            "Abnormal_Event_Return_1D",
-        ]
-    ].copy()
+        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name
@@ -489,769 +178,250 @@ def evaluate_logistic_model(
     predictions["y_pred"] = y_pred
     predictions["y_prob"] = y_prob
 
-    metrics = calculate_metrics(
-        y_true=y_test,
-        y_pred=y_pred,
-        y_prob=y_prob,
-    )
-
     result = {
         "Test_Year": test_year,
         "Model": model_name,
         "Train_Size": len(train_df),
         "Test_Size": len(test_df),
-        "Num_Features_Raw": len(input_features),
-        **metrics,
+        "Num_Input_Features": len(input_features),
+        "Num_Encoded_Features": len(feature_names),
+        "Selected_SEC_Features": "|".join(feature for feature in binary_features if feature in SEC_BINARY_CANDIDATES),
+        **metrics
     }
 
-    return (
-        result,
-        confusion_matrix(
-            y_test,
-            y_pred,
-        ),
-        predictions,
-    )
+    add_confusion_metrics(result=result, y_true=y_test, y_pred=y_pred,)
+
+    return result, predictions, coefficients
 
 
-# ============================================================
-# DUMMY
-# ============================================================
+# Model Dummy
+def evaluate_dummy(train_df: pd.DataFrame, test_df: pd.DataFrame, test_year: int) -> tuple[dict, pd.DataFrame]:
 
-def evaluate_dummy(
-    train_df: pd.DataFrame,
-    test_df: pd.DataFrame,
-    test_year: int,
-):
+    y_train = train_df[TARGET].astype(int)
+    y_test = test_df[TARGET].astype(int)
 
-    # Dummy potrzebuje dowolnego X.
-    X_train = train_df[
-        ["Log_Return_1D"]
-    ]
+    # DummyClassifier dostaje dowolnego X
+    X_train = np.zeros((len(train_df), 1))
+    X_test = np.zeros((len(test_df), 1))
 
-    X_test = test_df[
-        ["Log_Return_1D"]
-    ]
+    model = DummyClassifier(strategy="most_frequent")
+    model.fit(X_train, y_train)
 
-    y_train = train_df[
-        TARGET_COLUMN
-    ].astype(int)
+    y_pred = model.predict(X_test)
 
-    y_test = test_df[
-        TARGET_COLUMN
-    ].astype(int)
+    positive_index = int(np.where(model.classes_ == 1)[0][0])
 
-    model = DummyClassifier(
-        strategy="most_frequent",
-    )
+    y_prob = model.predict_proba(X_test)[:, positive_index]
 
-    model.fit(
-        X_train,
-        y_train,
-    )
-
-    y_pred = model.predict(
-        X_test
-    )
-
-    metrics = calculate_metrics(
-        y_true=y_test,
-        y_pred=y_pred,
-        y_prob=None,
-    )
-
-    return {
+    result = {
         "Test_Year": test_year,
         "Model": "DUMMY",
         "Train_Size": len(train_df),
         "Test_Size": len(test_df),
-        "Num_Features_Raw": 0,
-        **metrics,
+        "Num_Input_Features": 0,
+        "Num_Encoded_Features": 0,
+        "Selected_SEC_Features": "",
+        **calculate_metrics(y_test, y_pred, y_prob),
     }
 
+    add_confusion_metrics(result=result, y_true=y_test, y_pred=y_pred)
 
-# ============================================================
-# MAIN
-# ============================================================
+    predictions = test_df[
+        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
 
-def main():
+    predictions["Test_Year"] = test_year
+    predictions["Model"] = "DUMMY"
+    predictions["y_true"] = y_test.to_numpy()
+    predictions["y_pred"] = y_pred
+    predictions["y_prob"] = y_prob
 
-    print(
-        "=" * 80
-    )
-
-    print(
-        "WALK-FORWARD BASELINES"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        f"\nTarget: {TARGET_COLUMN}"
-    )
-
-    # ========================================================
-    # WCZYTANIE
-    # ========================================================
-
-    df = pd.read_csv(
-        DATA_PATH
-    )
-
-    df["Event_Session"] = pd.to_datetime(
-        df["Event_Session"]
-    )
+    return result, predictions
 
 
+# Konfiguracja modeli
+def build_model_configs(selected_sec: list[str]) -> list[dict]:
+    return [{"name": "MODEL A - MARKET",
+            "numeric": MARKET_FEATURES,
+            "binary": [],
+            "sentiment": []},
 
-    # ========================================================
-    # PRIMARY MODEL ONLY
-    # ========================================================
+            {"name": "MODEL A2 - MARKET Z60",
+            "numeric": MARKET_Z_FEATURES,
+            "binary": [],
+            "sentiment": []},
 
-    df = df[
-        (df["Use_In_Primary_Model"] == 1)
-        & df[TARGET_COLUMN].notna()
-    ].copy()
+            {"name": "MODEL A3 - MARKET COMPACT",
+            "numeric": MARKET_COMPACT_FEATURES,
+            "binary": [],
+            "sentiment": []},
 
-    df[TARGET_COLUMN] = (
-        df[TARGET_COLUMN]
-        .astype(int)
-    )
+            {"name": "MODEL B - MARKET + SEC",
+            "numeric": MARKET_FEATURES,
+            "binary": selected_sec,
+            "sentiment": []},
 
-    df.sort_values(
-        by=[
-            "Event_Session",
-            "Ticker",
-            "Accession",
-        ],
-        inplace=True,
-        ignore_index=True,
-    )
+            {"name": "MODEL B3 - COMPACT + SEC",
+            "numeric": MARKET_COMPACT_FEATURES,
+            "binary": selected_sec,
+            "sentiment": []},
 
-    print(
-        f"\nLiczba obserwacji: {len(df)}"
-    )
+            {"name": "MODEL C - MARKET + SEC + FINBERT",
+            "numeric": MARKET_FEATURES,
+            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
+            "sentiment": SENTIMENT_FEATURES},
 
-    print(
-        "\nRozkład targetu:"
-    )
+            {"name": "MODEL C2 - MARKET + SEC + FINBERT CONTEXT",
+            "numeric": MARKET_FEATURES,
+            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
+            "sentiment": SENTIMENT_CONTEXT_FEATURES},
 
-    print(
-        df[TARGET_COLUMN]
-        .value_counts()
-        .sort_index()
-    )
+            {"name": "MODEL C3 - COMPACT + SEC + FINBERT",
+            "numeric": MARKET_COMPACT_FEATURES,
+            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
+            "sentiment": SENTIMENT_FEATURES}]
 
-    print(
-        "\nZakres danych:"
-    )
 
-    print(
-        df["Event_Session"].min(),
-        "->",
-        df["Event_Session"].max(),
-    )
+# Main
+def main() -> None:
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f'Nie znaleziono pliku: {DATA_FILE}')
 
-    # ========================================================
-    # KONTROLA BRAKÓW DLA MODELI A/B
-    # ========================================================
+    df = pd.read_csv(DATA_FILE)
+    df = prepare_model_dataset(df, TARGET)
+    df = add_sentiment_context(df)
 
-    required_features = (
-        MARKET_FEATURES
-        + MARKET_Z_FEATURES
-        + MARKET_COMPACT_FEATURES
-        + CATEGORICAL_FEATURES
-        + SEC_BINARY_CANDIDATES
-        + SENTIMENT_FEATURES
-    )
+    validate_target(df, TARGET)
+    validate_market_features(df)
+    validate_sec_features(df)
+    validate_sentiment(df)
+    log_repeated_events(df)
 
-    missing_columns = [
-        column
-        for column in required_features
-        if column not in df.columns
-    ]
-
-    if missing_columns:
-        raise ValueError(
-            "Brak wymaganych kolumn:\n"
-            + "\n".join(missing_columns)
-        )
-
-    market_nan = (
-        df[MARKET_FEATURES]
-        .isna()
-        .sum()
-    )
-
-    if market_nan.any():
-
-        raise ValueError(
-            "Model A/B ma braki w cechach "
-            "rynkowych:\n"
-            f"{market_nan[market_nan > 0]}"
-        )
-
+    logger.info("Target: %s", TARGET)
+    logger.info("Liczba obserwacji primary: %d", len(df))
+    logger.info("Zakres danych: %s -> %s", df["Event_Session"].min().date(), df["Event_Session"].max().date())
+    logger.info("Rozkład targetu:\n%s", df[TARGET].value_counts().sort_index().to_string())
 
     results = []
     all_predictions = []
-    
-    # ========================================================
-    # WALK-FORWARD
-    # ========================================================
-
-    results = []
+    all_coefficients = []
 
     for test_year in TEST_YEARS:
+        train_df = df[df["Event_Session"].dt.year < test_year].copy()
 
-        train_df = df[
-            df["Event_Session"].dt.year
-            < test_year
-        ].copy()
-
-        test_df = df[
-            df["Event_Session"].dt.year
-            == test_year
-        ].copy()
+        test_df = df[df["Event_Session"].dt.year == test_year].copy()
 
         if train_df.empty or test_df.empty:
+            logger.warning("Pominięcie foldu dla roku %d - pusty TRAIN lub TEST", test_year)
             continue
 
-        print(
-            "\n"
-            + "=" * 80
-        )
+        if train_df[TARGET].nunique() != 2:
+            raise ValueError(f'TRAIN przed {test_year} nie zawiera obu klas')
 
-        print(
-            f"FOLD: TEST {test_year}"
-        )
+        logger.info("FOLD %d | TRAIN=%d (%s -> %s) | TEST=%d (%s -> %s)",
+                    test_year,
+                    len(train_df),
+                    train_df["Event_Session"].min().date(),
+                    train_df["Event_Session"].max().date(),
+                    len(test_df),
+                    test_df["Event_Session"].min().date(),
+                    test_df["Event_Session"].max().date())
 
-        print(
-            "=" * 80
-        )
+        logger.info("Target TRAIN:\n%s", train_df[TARGET].value_counts().sort_index().to_string(),)
 
-        print(
-            "\nTRAIN:"
-        )
+        logger.info("Target TEST:\n%s", test_df[TARGET].value_counts().sort_index().to_string(),)
 
-        print(
-            train_df["Event_Session"].min(),
-            "->",
-            train_df["Event_Session"].max(),
-        )
+        # Dummy
+        dummy_result, dummy_predictions = evaluate_dummy(train_df=train_df, test_df=test_df, test_year=test_year)
+        results.append(dummy_result)
+        all_predictions.append(dummy_predictions)
 
-        print(
-            f"Liczba: {len(train_df)}"
-        )
-
-        print(
-            "\nTarget TRAIN:"
-        )
-
-        print(
-            train_df[TARGET_COLUMN]
-            .value_counts()
-            .sort_index()
-        )
-
-        print(
-            "\nTEST:"
-        )
-
-        print(
-            test_df["Event_Session"].min(),
-            "->",
-            test_df["Event_Session"].max(),
-        )
-
-        print(
-            f"Liczba: {len(test_df)}"
-        )
-
-        print(
-            "\nTarget TEST:"
-        )
-
-        print(
-            test_df[TARGET_COLUMN]
-            .value_counts()
-            .sort_index()
-        )
+        logger.info("DUMMY | TEST %d | BA=%.4f | ROC-AUC=%.4f",
+                     test_year,
+                     dummy_result["Balanced_Accuracy"],
+                    dummy_result["ROC_AUC"])
 
 
-        # ====================================================
-        # MODEL A2
-        # MARKET Z-SCORE + TICKER
-        # ====================================================
+        # Sekcja SEC tylko dla TRIAN
+        selected_sec = select_sec_features(train_df, candidates=SEC_BINARY_CANDIDATES, min_count=MIN_SEC_OCCURRENCES)
 
-        model_a2_result, model_a2_cm, model_a2_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL A2 - MARKET Z60",
+        sec_counts = {feature: int(train_df[feature].sum()) for feature in selected_sec}
+
+        logger.info("SEC features dla TEST %d:\n%s",
+                     test_year,
+                     pd.Series(sec_counts).to_string())
+
+
+        # Modele regresji logistyczej
+        model_configs = build_model_configs(selected_sec=selected_sec)
+
+        for config in model_configs:
+            result, predictions, coefficients = evaluate_logistic_model(
+                model_name=config["name"],
                 train_df=train_df,
                 test_df=test_df,
-                numeric_features=MARKET_Z_FEATURES,
-                binary_features=[],
-                test_year=test_year,
-            )
-        )
-
-        results.append(
-            model_a2_result
-        )   
-
-
-
-
-
-        # ====================================================
-        # MODEL A3
-        # COMPACT MARKET Z-SCORE + TICKER
-        # ====================================================
-
-        model_a3_result, model_a3_cm, model_a3_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL A3 - MARKET COMPACT",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_COMPACT_FEATURES,
-                binary_features=[],
-                test_year=test_year,
-            )
-        )
-
-        results.append(
-            model_a3_result
-        )
-
-
-
-        # ====================================================
-        # DUMMY
-        # ====================================================
-
-        dummy_result = evaluate_dummy(
-            train_df=train_df,
-            test_df=test_df,
-            test_year=test_year,
-        )
-
-        results.append(
-            dummy_result
-        )
-
-        # ====================================================
-        # MODEL A
-        # MARKET + TICKER
-        # ====================================================
-
-        model_a_result, model_a_cm, model_a_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL A - MARKET",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_FEATURES,
-                binary_features=[],
-                test_year=test_year,
-            )
-        )
-
-        results.append(
-            model_a_result
-        )
-
-        # ====================================================
-        # MODEL B
-        # MARKET + SEC + TICKER
-        # ====================================================
-
-        selected_sec = select_sec_features(
-            train_df
-        )
-
-        print(
-            "\nSEC features użyte w tym foldzie:"
-        )
-
-        for feature in selected_sec:
-            count = int(
-                train_df[feature].sum()
+                numeric_features=config["numeric"],
+                binary_features=config["binary"],
+                sentiment_features=config["sentiment"],
+                test_year=test_year
             )
 
-            print(
-                f"  {feature}: {count}"
-            )
-
-        model_b_result, model_b_cm, model_b_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL B - MARKET + SEC",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_FEATURES,
-                binary_features=selected_sec,
-                test_year=test_year,
-            )
-        )
-
-        results.append(
-            model_b_result
-        )
-
-
-        # ====================================================
-        # DODATKOWE CECHY KONTEKSTOWE SENTYMENTU
-        # ====================================================
-        #
-        # Wszystkie informacje są dostępne przed Event_Session:
-        #
-        # Mean_Net_Sentiment:
-        # sentiment bieżącego komunikatu.
-        #
-        # Stock_vs_QQQ_5D:
-        # wcześniejszy 5-dniowy ruch spółki względem QQQ,
-        # liczony na Feature_Cutoff_Session.
-        #
-        # Brak sentimentu pozostaje NaN.
-        # Później istniejący preprocessing sentimentu
-        # imputuje go wartością 0.
-        # ====================================================
-
-        for frame in [
-            train_df,
-            test_df,
-        ]:
-
-            frame["Abs_Sentiment"] = (
-                pd.to_numeric(
-                    frame["Mean_Net_Sentiment"],
-                    errors="coerce",
-                )
-                .abs()
-            )
-
-            frame["Sentiment_x_Prior_Return_5D"] = (
-                pd.to_numeric(
-                    frame["Mean_Net_Sentiment"],
-                    errors="coerce",
-                )
-                *
-                pd.to_numeric(
-                    frame["Stock_vs_QQQ_5D"],
-                    errors="coerce",
-                )
-            )
-
-
-
-        # ====================================================
-        # MODEL C2
-        # MARKET + SEC + FINBERT + CONTEXT
-        # ====================================================
-
-        model_c2_result, model_c2_cm, model_c2_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL C2 - MARKET + SEC + FINBERT CONTEXT",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_FEATURES,
-                binary_features=selected_sec,
-                sentiment_features=SENTIMENT_CONTEXT_FEATURES,
-                test_year=test_year,
-            )
-        )
-
-        results.append(
-            model_c2_result
-        )
-
-
-
-        # ====================================================
-        # MODEL C
-        # MARKET + SEC + FINBERT
-        # ====================================================
-
-        model_c_binary_features = (
-            selected_sec
-        )
-
-        model_c_result, model_c_cm, model_c_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL C - MARKET + SEC + FINBERT",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_FEATURES,
-                binary_features=model_c_binary_features,
-                sentiment_features=SENTIMENT_FEATURES,
-                test_year=test_year,
-            )
-        )
+            results.append(result)
+            all_predictions.append(predictions)
+            all_coefficients.append(coefficients)
 
-        results.append(
-            model_c_result
-        )
+            logger.info("%s | TEST %d | ACC=%.4f | BA=%.4f | F1=%.4f | ROC-AUC=%.4f",
+                        config["name"],
+                        test_year,
+                        result["Accuracy"],
+                        result["Balanced_Accuracy"],
+                        result["F1"],
+                        result["ROC_AUC"])
 
+            logger.info("%s | TEST %d | TN=%d FP=%d FN=%d TP=%d",
+                         config["name"],
+                        test_year,
+                        result["TN"],
+                        result["FP"],
+                        result["FN"],
+                        result["TP"])
 
+    if not results:
+        raise RuntimeError("Nie udało sie wytrenowac modelu")
 
+    if not all_predictions:
+        raise RuntimeError("Nie udało sie wygenerowac predykcji")
 
+    results_df = pd.DataFrame(results)
 
-        ####################### INNE MODELE ####################
+    predictions_df = pd.concat(all_predictions, ignore_index=True,)
 
-        # ====================================================
-        # MODEL B3
-        # MARKET COMPACT + SEC
-        # ====================================================
+    coefficients_df = (pd.concat(all_coefficients, ignore_index=True)
+                        if all_coefficients else pd.DataFrame())
 
-        model_b3_result, model_b3_cm, model_b3_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL B3 - COMPACT + SEC",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_COMPACT_FEATURES,
-                binary_features=selected_sec,
-                test_year=test_year,
-            )
-        )
+    summary_df = create_summary(results_df=results_df, predictions_df=predictions_df)
 
-        results.append(
-            model_b3_result
-        )
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    results_df.to_csv(FOLD_METRICS_FILE, index=False)
 
+    predictions_df.to_csv(PREDICTIONS_FILE, index=False,)
 
+    summary_df.to_csv(SUMMARY_FILE, index=False)
 
+    if not coefficients_df.empty:
+        coefficients_df.to_csv(COEFFICIENTS_FILE, index=False)
 
-        # ====================================================
-        # MODEL C3
-        # MARKET COMPACT + SEC + FINBERT
-        # ====================================================
+    logger.info("Średnie wyniki walk-forward:\n%s", summary_df.to_string(index=False))
 
-        model_c3_result, model_c3_cm, model_c3_predictions = (
-            evaluate_logistic_model(
-                model_name="MODEL C3 - COMPACT + SEC + FINBERT",
-                train_df=train_df,
-                test_df=test_df,
-                numeric_features=MARKET_COMPACT_FEATURES,
-                binary_features=selected_sec,
-                sentiment_features=SENTIMENT_FEATURES,
-                test_year=test_year,
-            )
-        )
+    logger.info("Metryki foldów: %s", FOLD_METRICS_FILE)
+    logger.info("Predykcje OOS: %s", PREDICTIONS_FILE)
+    logger.info("Podsumowanie: %s", SUMMARY_FILE)
 
-        results.append(
-            model_c3_result
-        )
-
-
-
-        # PREDYKSZONS#
-        all_predictions.append(model_a_predictions)
-        all_predictions.append(model_a2_predictions)
-        all_predictions.append(model_a3_predictions)
-        all_predictions.append(model_b_predictions)
-        all_predictions.append(model_b3_predictions)
-        all_predictions.append(model_c_predictions)
-        all_predictions.append(model_c2_predictions)
-        all_predictions.append(model_c3_predictions)
-
-
-
-
-
-
-
-
-        # ====================================================
-        # PODGLĄD FOLDU
-        # ====================================================
-
-        print(
-            "\nWyniki:"
-        )
-
-        fold_results = pd.DataFrame(
-            [
-                dummy_result,
-                model_a_result,
-                model_a2_result,
-                model_a3_result,
-                model_b_result,
-                model_b3_result,
-                model_c_result,
-                model_c2_result,
-                model_c3_result,
-            ]
-        )
-
-        print(
-            fold_results[
-                [
-                    "Model",
-                    "Accuracy",
-                    "Balanced_Accuracy",
-                    "F1",
-                    "ROC_AUC",
-                ]
-            ].to_string(
-                index=False
-            )
-        )
-
-        print(
-            "\nConfusion Matrix - Model A:"
-        )
-
-        print(
-            model_a_cm
-        )
-
-        print(
-            "\nConfusion Matrix - Model B:"
-        )
-
-        print(
-            model_b_cm
-        )
-
-        print(
-            "\nConfusion Matrix - Model A2:"
-        )
-
-        print(
-            model_a2_cm
-        )
-
-
-        print(
-            "\nConfusion Matrix - Model A3:"
-        )
-
-        print(
-            model_a3_cm
-        )
-
-        print(
-            "\nConfusion Matrix - Model C:"
-        )
-
-        print(
-            model_c_cm
-        )
-
-        print(
-            "\nConfusion Matrix - Model B3:"
-        )
-
-        print(
-            model_b3_cm
-        )
-
-        print(
-            "\nConfusion Matrix - Model C3:"
-        )
-
-        print(
-            model_c3_cm
-)
-
-    # ========================================================
-    # WSZYSTKIE FOLDY
-    # ========================================================
-
-    results_df = pd.DataFrame(
-        results
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "WSZYSTKIE WYNIKI"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        results_df.to_string(
-            index=False
-        )
-    )
-
-    # LOL# 
-
-    predictions_df = pd.concat(
-        all_predictions,
-        ignore_index=True,
-    )
-
-    predictions_path = (
-        PROJECT_ROOT
-        / "data"
-        / "processed"
-        / "oos_predictions.csv"
-    )
-
-    predictions_df.to_csv(
-        predictions_path,
-        index=False,
-    )
-
-    print(
-        "\nPredykcje OOS zapisano do:"
-    )
-
-    print(
-        predictions_path
-    )
-
-
-
-    # ========================================================
-    # ŚREDNIE WALK-FORWARD
-    # ========================================================
-
-    metric_columns = [
-        "Accuracy",
-        "Balanced_Accuracy",
-        "Precision",
-        "Recall",
-        "F1",
-        "ROC_AUC",
-    ]
-
-    summary = (
-        results_df
-        .groupby(
-            "Model"
-        )[metric_columns]
-        .mean()
-        .sort_values(
-            "Balanced_Accuracy",
-            ascending=False,
-        )
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "ŚREDNIE WALK-FORWARD"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        summary.to_string()
-    )
+    if not coefficients_df.empty:
+        logger.info("Współczynniki regresji: %s", COEFFICIENTS_FILE)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     main()

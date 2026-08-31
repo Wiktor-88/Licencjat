@@ -1,0 +1,12 @@
+{
+    "rows_all": 968,
+    "rows_primary": 955,
+    "rows_excluded": 13,
+    "tickers": 13,
+    "duplicates": 0,
+    "target_0": 521,
+    "target_1": 434,
+    "target_1_ratio": 0.4544502617801047,
+    "missing_values_primary": 30,
+    "infinite_numeric_values": 0
+}

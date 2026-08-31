@@ -1,49 +1,34 @@
+# Plik szósty - słuzy on głównie do tworzenia cech ML z dostępnych rzeczy
+
 from pathlib import Path
 
+import logging
 import numpy as np
 import pandas as pd
 
+logger = logging.getLogger(__name__)
 
-# ============================================================
-# ŚCIEŻKI
-# ============================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "market_data.csv"
+OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "market_features.csv"
 
-INPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "market_data.csv"
-)
-
-OUTPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "market_features.csv"
-)
-
-
-# ============================================================
-# KOLUMNY WYMAGANE
-# ============================================================
-
-REQUIRED_COLUMNS = [
+IDENTIFIER_COLUMNS = [
     "Ticker",
     "Date",
+]
+
+PRICE_COLUMNS = [
     "Open",
     "High",
     "Low",
     "Close",
     "Adj_Close",
-    "Volume",
 ]
 
+NUMERIC_COLUMNS = PRICE_COLUMNS + ["Volume"]
+REQUIRED_COLUMNS = IDENTIFIER_COLUMNS + NUMERIC_COLUMNS
 
-# ============================================================
-# CECHY, KTÓRE PÓŹNIEJ MOŻEMY PODAĆ DO MODELU
-# ============================================================
 
 MODEL_FEATURE_COLUMNS = [
     "Log_Return_1D",
@@ -58,440 +43,223 @@ MODEL_FEATURE_COLUMNS = [
 ]
 
 
-# ============================================================
-# WALIDACJA
-# ============================================================
+# Walidacja
+def validate_market_data(df: pd.DataFrame) -> None:
+    """Sprawdza poprawność danych rynkowych przed tworzeniem cech"""
 
-def validate_market_data(
-    df: pd.DataFrame,
-) -> None:
+    if df.empty:
+        raise ValueError('market_data.csv nie zawiera żadnych rekordów')
+    
 
-    missing_columns = [
-        column
-        for column in REQUIRED_COLUMNS
-        if column not in df.columns
-    ]
+    missing_columns = [column for column in REQUIRED_COLUMNS if column not in df.columns]
 
     if missing_columns:
-        raise ValueError(
-            "Brakuje wymaganych kolumn "
-            "w market_data.csv:\n"
-            + "\n".join(missing_columns)
-        )
+        raise ValueError("Brakuje wymaganych kolumn w market_data.csv:\n \n".join(missing_columns))
 
-    # --------------------------------------------------------
-    # DUPLIKATY TICKER + DATE
-    # --------------------------------------------------------
 
-    duplicate_mask = df.duplicated(
-        subset=[
-            "Ticker",
-            "Date",
-        ],
-        keep=False,
-    )
+    missing_identifiers = df[IDENTIFIER_COLUMNS].isna().any(axis=1)
+
+    if missing_identifiers.any():
+        invalid_rows = df.loc[missing_identifiers, IDENTIFIER_COLUMNS].head(10)
+        raise ValueError(f"Znaleziono brakujące wartości Ticker lub Date Liczba rekordów: "
+                        f'{missing_identifiers.sum()}{invalid_rows.to_string(index=False)}')
+
+
+   
+    duplicate_mask = df.duplicated(subset=["Ticker", "Date"], keep=False)
 
     if duplicate_mask.any():
+        duplicates = df.loc[duplicate_mask, ["Ticker", "Date"]]
+        raise ValueError(f"Znaleziono duplikaty Ticker + Date:\n {duplicates}")
 
-        duplicates = df.loc[
-            duplicate_mask,
-            [
-                "Ticker",
-                "Date",
-            ],
-        ]
 
-        raise ValueError(
-            "Znaleziono duplikaty "
-            "Ticker + Date:\n"
-            f"{duplicates}"
-        )
+    non_numeric_columns = [column for column in NUMERIC_COLUMNS if not pd.api.types.is_numeric_dtype(df[column])]
 
-    # --------------------------------------------------------
-    # BRAKI W DANYCH ŹRÓDŁOWYCH
-    # --------------------------------------------------------
+    if non_numeric_columns:
+        raise ValueError("Kolumny powinny zawierać dane numeryczne:" + "\n".join(non_numeric_columns))
+    
 
-    numeric_columns = [
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Adj_Close",
-        "Volume",
-    ]
+    missing_counts = df[NUMERIC_COLUMNS].isna().sum()
 
-    if df[numeric_columns].isna().any().any():
+    missing_counts = missing_counts[missing_counts > 0]
 
-        missing_counts = (
-            df[numeric_columns]
-            .isna()
-            .sum()
-        )
+    if not missing_counts.empty:
+        raise ValueError(f"Znaleziono braki w danych OHLCV:\n {missing_counts}")
 
-        raise ValueError(
-            "Znaleziono braki w danych OHLCV:\n"
-            f"{missing_counts}"
-        )
 
-    # --------------------------------------------------------
-    # CENY MUSZĄ BYĆ DODATNIE
-    # --------------------------------------------------------
+    # Nieskończone wartości
+    finite_mask = np.isfinite(df[NUMERIC_COLUMNS]).all(axis=1)
 
-    price_columns = [
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Adj_Close",
-    ]
+    if not finite_mask.all():
+        invalid_rows = df.loc[~finite_mask, IDENTIFIER_COLUMNS + NUMERIC_COLUMNS].head(10)
 
-    invalid_prices = (
-        df[price_columns] <= 0
-    ).any(
-        axis=1
-    )
+        raise ValueError("Znaleziono wartości inf lub -inf w danych"
+                        f"Liczba rekordów: {(~finite_mask).sum()}\n {invalid_rows.to_string(index=False)}")
+
+
+    # Ceny musza byc dodatnie
+    price_columns = ["Open", "High", "Low", "Close", "Adj_Close"]
+
+    invalid_prices = (df[price_columns] <= 0).any(axis=1)
 
     if invalid_prices.any():
 
-        invalid_rows = df.loc[
-            invalid_prices,
-            [
-                "Ticker",
-                "Date",
-            ]
-            + price_columns
-        ]
+        invalid_rows = df.loc[invalid_prices, ["Ticker","Date"] + price_columns]
+        raise ValueError(f"Znaleziono ujemne ceny: {invalid_rows}")
 
-        raise ValueError(
-            "Znaleziono niepoprawne ceny "
-            "(<= 0):\n"
-            f"{invalid_rows}"
-        )
+    
+    # Ujemny wolumen
+    invalid_volume = df["Volume"] < 0
 
-    # --------------------------------------------------------
-    # WOLUMEN NIE MOŻE BYĆ UJEMNY
-    # --------------------------------------------------------
-
-    if (df["Volume"] < 0).any():
-        raise ValueError(
-            "Znaleziono ujemny wolumen."
-        )
+    if invalid_volume.any():
+        invalid_rows = df.loc[invalid_volume, IDENTIFIER_COLUMNS + ["Volume"]].head(10)
+        raise ValueError(f"Znaleziono ujemny wolumen {invalid_rows.to_string(index=False)}")
 
 
-# ============================================================
+    # Spójność OHCL
+    invalid_ohlc = (
+        (df["High"] < df["Low"])
+        | (df["Open"] > df["High"])
+        | (df["Open"] < df["Low"])
+        | (df["Close"] > df["High"])
+        | (df["Close"] < df["Low"])
+    )
+
+    if invalid_ohlc.any():
+        invalid_rows = df.loc[invalid_ohlc, IDENTIFIER_COLUMNS + ["Open","High","Low","Close"]].head(10)
+
+        raise ValueError(f"Znaleziono niespójne wartości OHLC {invalid_rows.to_string(index=False)}")
+
+
 # RSI
-# ============================================================
+def calculate_rsi(prices: pd.Series, window: int = 14) -> pd.Series:
+    """Oblicza RSI metodą wygładzania Wildera"""
 
-def calculate_rsi(
-    prices: pd.Series,
-    window: int = 14,
-) -> pd.Series:
-    """
-    RSI liczone metodą wygładzania Wildera.
-
-    Wynik:
-    0   -> bardzo słabe momentum
-    100 -> bardzo silne momentum
-    """
+    if window <= 0:
+        raise ValueError('Okno RSI musi być większe od 0')
 
     delta = prices.diff()
+    gains = delta.clip(lower=0)
+    losses = -delta.clip(upper=0)
 
-    gains = delta.clip(
-        lower=0
-    )
+    average_gain = pd.Series(np.nan, index=prices.index, dtype=float)
 
-    losses = (
-        -delta.clip(
-            upper=0
-        )
-    )
+    average_loss = pd.Series(np.nan, index=prices.index, dtype=float,)
 
-    average_gain = gains.ewm(
-        alpha=1 / window,
-        adjust=False,
-        min_periods=window,
-    ).mean()
+    if len(prices) <= window:
+        return average_gain
 
-    average_loss = losses.ewm(
-        alpha=1 / window,
-        adjust=False,
-        min_periods=window,
-    ).mean()
+    # Pierwsza wartość zgodnie z metodą Wildera:
+    # średnia z pierwszych window zmian cen
+    average_gain.iloc[window] = gains.iloc[1 : window + 1].mean()
+    average_loss.iloc[window] = losses.iloc[1 : window + 1].mean()
+    
 
-    relative_strength = (
-        average_gain
-        / average_loss
-    )
+    # Kolejne wartości są wygładzane metodą Wildera
+    for i in range(window + 1, len(prices)):
+        average_gain.iloc[i] = ((average_gain.iloc[i - 1] * (window - 1))+ gains.iloc[i]) / window
 
-    rsi = (
-        100
-        - (
-            100
-            / (
-                1
-                + relative_strength
-            )
-        )
-    )
+        average_loss.iloc[i] = ((average_loss.iloc[i - 1] * (window - 1)) + losses.iloc[i]) / window
 
-    # Jeżeli przez całe okno nie było
-    # ani wzrostów, ani spadków,
-    # przyjmujemy neutralne RSI = 50.
-    neutral_mask = (
-        (average_gain == 0)
-        &
-        (average_loss == 0)
-    )
+    relative_strength = (average_gain / average_loss)
 
-    rsi = rsi.mask(
-        neutral_mask,
-        50.0,
-    )
+    rsi = (100 - (100 / (1 + relative_strength)))
+
+    # Brak zmian ceny przez całe okno oznacza neutralne RSI
+    neutral_mask = ((average_gain == 0) & (average_loss == 0))
+
+    rsi = rsi.mask(neutral_mask, 50.0)
 
     return rsi
 
 
-# ============================================================
-# CECHY DLA JEDNEGO TICKERA
-# ============================================================
 
-def calculate_ticker_features(
-    ticker_df: pd.DataFrame,
-) -> pd.DataFrame:
+# Cechy dla jednej firmy (tickera)
+def calculate_ticker_features(ticker_df: pd.DataFrame) -> pd.DataFrame:
 
     df = ticker_df.copy()
 
-    df = df.sort_values(
-        by="Date"
-    ).reset_index(
-        drop=True
-    )
+    df = df.sort_values(by="Date").reset_index(drop=True)
 
-    # ========================================================
-    # 1. LOGARYTMICZNE STOPY ZWROTU
-    # ========================================================
+    # Logarytmiczne stopy zwrotu
+    df["Log_Return_1D"] = np.log(df["Adj_Close"] / df["Adj_Close"].shift(1))
+    df["Log_Return_3D"] = np.log(df["Adj_Close"] / df["Adj_Close"].shift(3))
+    df["Log_Return_5D"] = np.log(df["Adj_Close"] / df["Adj_Close"].shift(5))
 
-    df["Log_Return_1D"] = np.log(
-        df["Adj_Close"]
-        /
-        df["Adj_Close"].shift(1)
-    )
+    # Zmienność 14 - dniowa
+    df["Volatility_14D"] = df["Log_Return_1D"].rolling(window=14, min_periods=14).std()
+    
 
-    df["Log_Return_3D"] = np.log(
-        df["Adj_Close"]
-        /
-        df["Adj_Close"].shift(3)
-    )
+    # Średni wolumen z 20 ostatnich sesji
+    df["Avg_Volume_20D_Previous"] = df["Volume"].shift(1).rolling(window=20, min_periods=20).mean()
+    df["Relative_Volume_20D"] = df["Volume"] / df["Avg_Volume_20D_Previous"]
+    
 
-    df["Log_Return_5D"] = np.log(
-        df["Adj_Close"]
-        /
-        df["Adj_Close"].shift(5)
-    )
+    # SMA 20
+    df["SMA_20"] = df["Adj_Close"].rolling(window=20, min_periods=20).mean()
+    df["Price_to_SMA20"] = df["Adj_Close"] / df["SMA_20"] - 1
+    
 
-    # ========================================================
-    # 2. ZMIENNOŚĆ 14-DNIOWA
-    # ========================================================
+    # RSi 14
+    df["RSI_14"] = calculate_rsi(prices=df["Adj_Close"], window=14,)
 
-    df["Volatility_14D"] = (
-        df["Log_Return_1D"]
-        .rolling(
-            window=14,
-            min_periods=14,
-        )
-        .std()
-    )
 
-    # ========================================================
-    # 3. ŚREDNI WOLUMEN Z POPRZEDNICH 20 SESJI
-    # ========================================================
-    #
-    # shift(1) jest tutaj bardzo ważny.
-    #
-    # Średnia bazowa nie zawiera wolumenu
-    # aktualnej sesji.
-    # ========================================================
+    # Zwrto w trkacie sesji
+    df["Intraday_Return"] = df["Close"] / df["Open"] - 1
+    
 
-    df["Avg_Volume_20D_Previous"] = (
-        df["Volume"]
-        .shift(1)
-        .rolling(
-            window=20,
-            min_periods=20,
-        )
-        .mean()
-    )
-
-    df["Relative_Volume_20D"] = (
-        df["Volume"]
-        /
-        df["Avg_Volume_20D_Previous"]
-    )
-
-    # ========================================================
-    # 4. SMA 20
-    # ========================================================
-
-    df["SMA_20"] = (
-        df["Adj_Close"]
-        .rolling(
-            window=20,
-            min_periods=20,
-        )
-        .mean()
-    )
-
-    df["Price_to_SMA20"] = (
-        df["Adj_Close"]
-        /
-        df["SMA_20"]
-        - 1
-    )
-
-    # ========================================================
-    # 5. RSI 14
-    # ========================================================
-
-    df["RSI_14"] = calculate_rsi(
-        prices=df["Adj_Close"],
-        window=14,
-    )
-
-    # ========================================================
-    # 6. ZWROT W TRAKCIE SESJI
-    # ========================================================
-
-    df["Intraday_Return"] = (
-        df["Close"]
-        /
-        df["Open"]
-        - 1
-    )
-
-    # ========================================================
-    # 7. ZAKRES RUCHU PODCZAS SESJI
-    # ========================================================
-
-    df["Daily_Range"] = (
-        (
-            df["High"]
-            - df["Low"]
-        )
-        /
-        df["Close"]
-    )
+    # Zakres ruchu podczas sesji
+    df["Daily_Range"] = (df["High"] - df["Low"]) / df["Close"]
 
     return df
 
 
-# ============================================================
-# CECHY DLA CAŁEGO DATASETU
-# ============================================================
 
-def create_market_features(
-    df: pd.DataFrame,
-) -> pd.DataFrame:
+# Cechy dla całego datasetu
+def create_market_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Tworzy cechy rynkowe dla wszystkich firm"""
 
     df = df.copy()
 
-    # --------------------------------------------------------
-    # FORMAT DAT
-    # --------------------------------------------------------
+    missing_columns = [column for column in REQUIRED_COLUMNS if column not in df.columns]
 
-    df["Date"] = pd.to_datetime(
-        df["Date"]
-    )
+    if missing_columns:
+        raise ValueError("Brakuje wymaganych kolumn :\n" + "\n".join(missing_columns))
 
-    # --------------------------------------------------------
-    # FORMAT LICZB
-    # --------------------------------------------------------
 
-    numeric_columns = [
-        "Open",
-        "High",
-        "Low",
-        "Close",
-        "Adj_Close",
-        "Volume",
-    ]
+    # Format danych 
+    df["Date"] = pd.to_datetime(df["Date"], errors="raise")
 
-    for column in numeric_columns:
+    for column in NUMERIC_COLUMNS:
+        df[column] = pd.to_numeric(df[column], errors="coerce")
 
-        df[column] = pd.to_numeric(
-            df[column],
-            errors="coerce",
-        )
+   
+    validate_market_data(df)
 
-    # --------------------------------------------------------
-    # WALIDACJA
-    # --------------------------------------------------------
 
-    validate_market_data(
-        df
-    )
-
-    # --------------------------------------------------------
-    # OBLICZENIA OSOBNO DLA KAŻDEGO TICKERA
-    # --------------------------------------------------------
-
+    # Cechy dla każdego tickera
     feature_frames = []
 
-    for ticker, ticker_df in df.groupby(
-        "Ticker",
-        sort=False,
-    ):
+    for ticker, ticker_df in df.groupby("Ticker", sort=False):
+        logger.info("Liczenie cech dla: %s", ticker)
+        feature_frames.append(calculate_ticker_features(ticker_df))
 
-        print(
-            f"  Liczenie cech dla: {ticker}"
-        )
+    
+    # Ostateczne łączenie
+    features_df = pd.concat(feature_frames, ignore_index=True)
 
-        ticker_features = (
-            calculate_ticker_features(
-                ticker_df
-            )
-        )
-
-        feature_frames.append(
-            ticker_features
-        )
-
-    # --------------------------------------------------------
-    # ŁĄCZENIE
-    # --------------------------------------------------------
-
-    features_df = pd.concat(
-        feature_frames,
-        ignore_index=True,
-    )
-
-    features_df = features_df.sort_values(
-        by=[
-            "Ticker",
-            "Date",
-        ]
-    ).reset_index(
-        drop=True
-    )
-
-    return features_df
+    return features_df.sort_values(["Ticker", "Date"]).reset_index(drop=True)
+    
 
 
-###### Z - SCORE ##########
-def add_rolling_zscore_features(
-    df: pd.DataFrame,
-    window: int = 60,
-) -> pd.DataFrame:
-    """
-    Dodaje rolling Z-score dla wybranych cech rynkowych.
+# Cechy rolling Z-60
+def add_rolling_zscore_features(df: pd.DataFrame, window: int = 60) -> pd.DataFrame:
+    """Dodaje rolling Z-score względem poprzednich sesji"""
 
-    Każda wartość jest porównywana do poprzednich `window`
-    sesji tej samej spółki.
+    if window < 2:
+        raise ValueError("Okno Z-score musi być co najmniej 2")
 
-    shift(1) zapobiega użyciu bieżącej obserwacji
-    do wyliczenia jej własnej średniej i odchylenia.
-    """
-
-    df = df.copy()
+    df = df.copy().sort_values(["Ticker", "Date"])
 
     zscore_source_columns = [
         "Log_Return_1D",
@@ -504,248 +272,73 @@ def add_rolling_zscore_features(
         "Daily_Range",
     ]
 
-    df = df.sort_values(
-        by=[
-            "Ticker",
-            "Date",
-        ]
-    ).copy()
-
     for column in zscore_source_columns:
+        grouped = df.groupby("Ticker")[column]
 
-        rolling_mean = (
-            df
-            .groupby("Ticker")[column]
-            .transform(
-                lambda series: (
-                    series
-                    .shift(1)
-                    .rolling(
-                        window=window,
-                        min_periods=window,
-                    )
-                    .mean()
-                )
-            )
-        )
+        rolling_mean = grouped.transform(lambda s: s.shift(1).rolling(window, min_periods=window).mean())
 
-        rolling_std = (
-            df
-            .groupby("Ticker")[column]
-            .transform(
-                lambda series: (
-                    series
-                    .shift(1)
-                    .rolling(
-                        window=window,
-                        min_periods=window,
-                    )
-                    .std()
-                )
-            )
-        )
+        rolling_std = grouped.transform(lambda s: s.shift(1).rolling(window, min_periods=window).std())
 
-        zscore_column = (
-            f"{column}_Z{window}"
-        )
+        zscore_column = f"{column}_Z{window}"
 
-        df[zscore_column] = (
-            df[column]
-            - rolling_mean
-        ) / rolling_std
-
-        # zabezpieczenie przed dzieleniem przez 0
-        df.loc[
-            rolling_std == 0,
-            zscore_column,
-        ] = np.nan
+        df[zscore_column] = (df[column] - rolling_mean) / rolling_std.replace(0, np.nan)
 
     return df
 
 
 
+def main() -> None:
 
-# ============================================================
-# MAIN
-# ============================================================
-
-if __name__ == "__main__":
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "TWORZENIE CECH RYNKOWYCH"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        f"\nPlik wejściowy:\n"
-        f"{INPUT_FILE}"
-    )
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
 
     if not INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku:\n"
-            f"{INPUT_FILE}"
-        )
+        raise FileNotFoundError(f"Nie znaleziono pliku:\n{INPUT_FILE}")
 
-    # ========================================================
-    # WCZYTANIE
-    # ========================================================
 
-    df_market = pd.read_csv(
-        INPUT_FILE
-    )
+    print("Robienie cech rynkowych")
+    df_market = pd.read_csv(INPUT_FILE)
 
-    print(
-        f"\nLiczba wierszy wejściowych: "
-        f"{len(df_market)}"
-    )
+    print(f"\nLiczba wierszy: {len(df_market)}")
 
-    print(
-        f"Liczba tickerów: "
-        f"{df_market['Ticker'].nunique()}"
-    )
+    if "Ticker" in df_market.columns:
+        print(f"Liczba tickerów: {df_market['Ticker'].nunique()}")
 
-    # ========================================================
-    # FEATURE ENGINEERING
-    # ========================================================
 
-    df_features = create_market_features(
-        df_market
-    )
+    
+    df_features = create_market_features(df_market)
+    df_features = add_rolling_zscore_features(df_features, window=60)
 
-    df_features = add_rolling_zscore_features(
-        df_features,
-        window=60
-    )
+    
+    ready_mask = df_features[MODEL_FEATURE_COLUMNS].notna().all(axis=1)
+    ready_count = int(ready_mask.sum())
 
-    # ========================================================
-    # INFORMACJA O GOTOWYCH WIERSZACH
-    # ========================================================
+    
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    df_features.to_csv(OUTPUT_FILE, index=False)
 
-    ready_mask = (
-        df_features[
-            MODEL_FEATURE_COLUMNS
-        ]
-        .notna()
-        .all(
-            axis=1
-        )
-    )
+    
+    print("\n" + "-" * 80)
+    print("Podsuwmoanie")
 
-    ready_count = int(
-        ready_mask.sum()
-    )
+    print(f"\nLiczba wierszy: {len(df_features)}")
+    print(f"Liczba wierszy z kompletem cech modelowych: {ready_count}")
 
-    # ========================================================
-    # ZAPIS
-    # ========================================================
-
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    df_features.to_csv(
-        OUTPUT_FILE,
-        index=False,
-    )
-
-    # ========================================================
-    # PODSUMOWANIE
-    # ========================================================
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "PODSUMOWANIE"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        f"\nLiczba wszystkich wierszy: "
-        f"{len(df_features)}"
-    )
-
-    print(
-        f"Liczba wierszy z kompletem "
-        f"cech modelowych: {ready_count}"
-    )
-
-    print(
-        "\nBraki w cechach:"
-    )
-
-    print(
-        df_features[
-            MODEL_FEATURE_COLUMNS
-        ]
-        .isna()
-        .sum()
-    )
-
-    # ========================================================
-    # PODGLĄD OSTATNICH WIERSZY DLA KAŻDEGO TICKERA
-    # ========================================================
+    print("\nBraki w cechach:")
+    print(df_features[MODEL_FEATURE_COLUMNS].isna().sum())
 
     columns_to_show = [
-        "Ticker",
-        "Date",
-        "Adj_Close",
-        "Log_Return_1D",
-        "Log_Return_3D",
-        "Log_Return_5D",
-        "Volatility_14D",
-        "Relative_Volume_20D",
-        "RSI_14",
-        "Price_to_SMA20",
-        "Intraday_Return",
-        "Daily_Range",
+        "Ticker", "Date", "Adj_Close",
+        "Log_Return_1D", "Log_Return_3D", "Log_Return_5D",
+        "Volatility_14D", "Relative_Volume_20D", "RSI_14",
+        "Price_to_SMA20", "Intraday_Return", "Daily_Range",
     ]
 
-    preview = (
-        df_features.groupby(
-            "Ticker",
-            group_keys=False,
-        )
-        .tail(3)
-    )
+    preview = df_features.groupby("Ticker", group_keys=False).tail(3)
 
-    print(
-        "\nOstatnie 3 sesje każdego tickera:"
-    )
+    print("\nOstatnie 3 sesje każdego tickera:")
+    print(preview[columns_to_show].to_string(index=False))
 
-    print(
-        preview[
-            columns_to_show
-        ].to_string(
-            index=False
-        )
-    )
 
-    print(
-        "\n"
-        + "=" * 80
-    )
 
-    print(
-        f"Wyniki zapisano do:\n"
-        f"{OUTPUT_FILE}"
-    )
-
-    print(
-        "=" * 80
-    )
+if __name__ == "__main__":
+    main()

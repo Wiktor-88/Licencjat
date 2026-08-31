@@ -1,107 +1,43 @@
-from pathlib import Path
+# Plik odpowiedzialny za piąty model - Tabnet
+
+import logging
 import random
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
 import torch
-
 from pytorch_tabnet.tab_model import TabNetClassifier
+from sklearn.compose import ColumnTransformer
+from sklearn.impute import SimpleImputer
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from sklearn.metrics import (
-    accuracy_score,
-    balanced_accuracy_score,
-    confusion_matrix,
-    f1_score,
-    precision_score,
-    recall_score,
-    roc_auc_score,
-)
-
-from sklearn.preprocessing import StandardScaler
+from src.models.model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MIN_SEC_COUNT,
+    RANDOM_STATE, SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG,
+    TARGET, TEST_YEARS)
+from src.models.model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
+    log_repeated_events, prepare_model_dataset, select_sec_features, validate_target)
 
 
-# ============================================================
-# PATHS
-# ============================================================
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_FILE = PROJECT_ROOT / "data" / "processed" / "model_dataset.csv"
 
-DATA_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "model_dataset.csv"
-)
-
-OUTPUT_RESULTS = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "tabnet_walk_forward_results.csv"
-)
-
-OUTPUT_PREDICTIONS = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "tabnet_oos_predictions.csv"
-)
-
-
-# ============================================================
-# SETTINGS
-# ============================================================
-
-TARGET = "Target_Abnormal_1D"
-
-TEST_YEARS = [
-    2023,
-    2024,
-    2025,
-    2026,
-]
-
-RANDOM_STATE = 42
-
-MIN_SEC_COUNT = 5
+OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
+FOLD_METRICS_FILE = OUTPUT_DIR / "tabnet_fold_metrics.csv"
+PREDICTIONS_FILE = OUTPUT_DIR / "tabnet_oos_predictions.csv"
+SUMMARY_FILE = OUTPUT_DIR / "tabnet_summary.csv"
+IMPORTANCE_FILE = OUTPUT_DIR / "tabnet_feature_importance.csv"
 
 MAX_EPOCHS = 100
 PATIENCE = 10
-
 BATCH_SIZE = 256
 VIRTUAL_BATCH_SIZE = 64
 
 
-# ============================================================
-# FEATURES
-# ============================================================
-
-MARKET_FEATURES = [
-    "Log_Return_1D_Z60",
-    "Log_Return_5D_Z60",
-    "Volatility_14D_Z60",
-    "Relative_Volume_20D_Z60",
-    "RSI_14",
-    "Price_to_SMA20_Z60",
-    "Intraday_Return_Z60",
-    "Daily_Range_Z60",
-    "QQQ_Log_Return_1D",
-    "QQQ_Log_Return_5D",
-    "QQQ_Volatility_14D",
-]
-
-SENTIMENT_FEATURES = [
-    "Mean_Net_Sentiment",
-    "Sentiment_Momentum_3",
-]
-
-
-# ============================================================
-# RANDOM SEED
-# ============================================================
-
-def set_seed(seed):
-
+def set_seed(seed: int) -> None:
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
@@ -110,1067 +46,310 @@ def set_seed(seed):
         torch.cuda.manual_seed_all(seed)
 
 
-# ============================================================
-# SEC FEATURES
-# ============================================================
+def build_preprocessor(binary_features: list[str],
+                       sentiment_features: list[str] | None = None) -> ColumnTransformer:
+
+    sentiment_features = sentiment_features or []
 
-def select_sec_features(train_df):
+    transformers = [("market", StandardScaler(), MARKET_COMPACT_FEATURES),
+                    ("ticker", OneHotEncoder(handle_unknown="ignore", sparse_output=False),
+                    CATEGORICAL_FEATURES)]
 
-    selected = []
+    if binary_features:
+        transformers.append(("binary", "passthrough", binary_features))
 
-    if "Has_EX99" in train_df.columns:
-        selected.append("Has_EX99")
+    if sentiment_features:
+        sentiment_pipe = Pipeline(steps=[
+            ("imputer", SimpleImputer(strategy="mean")),
+            ("scaler", StandardScaler()),
+        ])
+        transformers.append(("sentiment", sentiment_pipe, sentiment_features))
 
-    item_columns = sorted(
-        column
-        for column in train_df.columns
-        if column.startswith("Has_Item_")
-    )
+    return ColumnTransformer(transformers=transformers, remainder="drop")
 
-    for column in item_columns:
+
+def build_tabnet_model(seed: int, width: int = 16, n_steps: int = 4, lr: float = 0.005177401218093385,
+    lambda_sparse: float = 5.87541610476001e-06) -> TabNetClassifier:
 
-        count = int(
-            train_df[column]
-            .fillna(0)
-            .sum()
-        )
+    return TabNetClassifier(n_d=width,
+                            n_a=width,
+                            n_steps=n_steps,
+                            gamma=1.3,
+                            n_independent=2,
+                            n_shared=2,
+                            lambda_sparse=lambda_sparse,
+                            optimizer_fn=torch.optim.Adam,
+                            optimizer_params={"lr": lr, "weight_decay": 1e-5},
+                            mask_type="entmax",
+                            seed=seed,
+                            verbose=0,
+                            device_name="cuda" if torch.cuda.is_available() else "cpu")
+
+
+def build_model_configs(selected_sec: list[str]) -> list[dict]:
+    return [{"name": "TABNET A - COMPACT MARKET",
+            "binary": [],
+            "sentiment": []},
+
+            {"name": "TABNET B - COMPACT + SEC",
+            "binary": selected_sec,
+            "sentiment": []},
 
-        if count >= MIN_SEC_COUNT:
-            selected.append(column)
+            {"name": "TABNET C - COMPACT + SEC + FINBERT",
+            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
+            "sentiment": SENTIMENT_FEATURES}]
 
-    return selected
+
+def prepare_xy(train_df: pd.DataFrame,
+               other_df: pd.DataFrame,
+               binary_features: list[str],
+               sentiment_features: list[str]):
+    input_features = list(dict.fromkeys(MARKET_COMPACT_FEATURES + CATEGORICAL_FEATURES
+                                        + binary_features + sentiment_features))
 
+    preprocessor = build_preprocessor(binary_features, sentiment_features)
+
+    X_train = preprocessor.fit_transform(train_df[input_features]).astype(np.float32)
+    X_other = preprocessor.transform(other_df[input_features]).astype(np.float32)
+
+    if not np.isfinite(X_train).all() or not np.isfinite(X_other).all():
+        raise ValueError("NaN lub Inf po preprocessingu TabNet")
+
+    return X_train, X_other, preprocessor
+
+
+def find_best_epochs(subtrain_df: pd.DataFrame,
+                    val_df: pd.DataFrame,
+                    binary_features: list[str],
+                    sentiment_features: list[str],
+                    seed: int) -> tuple[int, float]:
+
+    X_train, X_val, _ = prepare_xy(subtrain_df,
+                                   val_df,
+                                   binary_features,
+                                   sentiment_features)
 
-# ============================================================
-# PREPROCESSOR
-# ============================================================
+    y_train = subtrain_df[TARGET].to_numpy(dtype=np.int64)
+    y_val = val_df[TARGET].to_numpy(dtype=np.int64)
 
-def fit_preprocessor(
-    train_df,
-    sec_features,
-    include_sec,
-    include_sentiment,
-):
+    model = build_tabnet_model(seed)
 
-    ticker_categories = sorted(
-        train_df["Ticker"]
-        .astype(str)
-        .unique()
-    )
+    model.fit(X_train=X_train,
+              y_train=y_train,
+              eval_set=[(X_val, y_val)],
+              eval_name=["validation"],
+              eval_metric=["logloss"],
+              max_epochs=MAX_EPOCHS,
+              patience=PATIENCE,
+              batch_size=BATCH_SIZE,
+              virtual_batch_size=VIRTUAL_BATCH_SIZE,
+              num_workers=0,
+              drop_last=False)
 
-    market_scaler = StandardScaler()
+    final_epochs = int(model.best_epoch) + 1
+    best_loss = float(model.best_cost)
 
-    market_scaler.fit(
-        train_df[MARKET_FEATURES]
-        .astype(float)
-    )
+    del model
 
-    sentiment_stats = {}
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
 
-    if include_sentiment:
+    return final_epochs, best_loss
 
-        for column in SENTIMENT_FEATURES:
 
-            values = pd.to_numeric(
-                train_df[column],
-                errors="coerce",
-            )
+def evaluate_tabnet(model_name: str,
+                    train_df: pd.DataFrame,
+                    test_df: pd.DataFrame,
+                    binary_features: list[str],
+                    sentiment_features: list[str],
+                    final_epochs: int,
+                    best_val_loss: float,
+                    validation_year: int,
+                    validation_size: int,
+                    test_year: int,
+                    seed: int) -> tuple[dict, pd.DataFrame, pd.DataFrame]:
 
-            mean = values.mean()
-            std = values.std(ddof=0)
+    X_train, X_test, preprocessor = prepare_xy(train_df,
+                                               test_df,
+                                               binary_features,
+                                               sentiment_features)
 
-            if pd.isna(mean):
-                mean = 0.0
+    y_train = train_df[TARGET].to_numpy(dtype=np.int64)
+    y_test = test_df[TARGET].to_numpy(dtype=np.int64)
 
-            if pd.isna(std) or std < 1e-8:
-                std = 1.0
+    model = build_tabnet_model(seed)
 
-            sentiment_stats[column] = (
-                float(mean),
-                float(std),
-            )
+    model.fit(X_train=X_train,
+              y_train=y_train,
+              max_epochs=final_epochs,
+              patience=0,
+              batch_size=BATCH_SIZE,
+              virtual_batch_size=VIRTUAL_BATCH_SIZE,
+              num_workers=0,
+              drop_last=False)
 
-    return {
-        "ticker_categories":
-            ticker_categories,
+    y_prob = model.predict_proba(X_test)[:, 1]
+    y_pred = (y_prob >= 0.5).astype(int)
 
-        "market_scaler":
-            market_scaler,
+    feature_names = preprocessor.get_feature_names_out()
 
-        "sec_features":
-            sec_features,
-
-        "include_sec":
-            include_sec,
+    importance = pd.DataFrame({"Test_Year": test_year,
+                               "Model": model_name,
+                               "Feature": feature_names,
+                               "Importance": model.feature_importances_}).sort_values("Importance", ascending=False)
 
-        "include_sentiment":
-            include_sentiment,
-
-        "sentiment_stats":
-            sentiment_stats,
-    }
-
-
-def transform_data(
-    df,
-    preprocessor,
-):
-
-    arrays = []
-
-    feature_names = []
-
-    # --------------------------------------------------------
-    # MARKET
-    # --------------------------------------------------------
-
-    market = (
-        preprocessor[
-            "market_scaler"
-        ]
-        .transform(
-            df[MARKET_FEATURES]
-            .astype(float)
-        )
-        .astype(np.float32)
-    )
-
-    arrays.append(market)
-
-    feature_names.extend(
-        MARKET_FEATURES
-    )
-
-    # --------------------------------------------------------
-    # TICKER ONE-HOT
-    # --------------------------------------------------------
-
-    categories = (
-        preprocessor[
-            "ticker_categories"
-        ]
-    )
-
-    ticker_values = (
-        df["Ticker"]
-        .astype(str)
-    )
-
-    unknown = (
-        set(ticker_values.unique())
-        - set(categories)
-    )
-
-    if unknown:
-
-        raise ValueError(
-            "Ticker w validation/test "
-            "niewidziany w train: "
-            f"{sorted(unknown)}"
-        )
-
-    ticker_matrix = np.column_stack(
-        [
-            (
-                ticker_values
-                == ticker
-            )
-            .astype(np.float32)
-            .to_numpy()
-            for ticker in categories
-        ]
-    )
-
-    arrays.append(
-        ticker_matrix
-    )
-
-    feature_names.extend(
-        [
-            f"Ticker_{ticker}"
-            for ticker in categories
-        ]
-    )
-
-    # --------------------------------------------------------
-    # SEC
-    # --------------------------------------------------------
-
-    if preprocessor[
-        "include_sec"
-    ]:
-
-        sec_features = (
-            preprocessor[
-                "sec_features"
-            ]
-        )
-
-        sec = (
-            df[sec_features]
-            .fillna(0)
-            .astype(np.float32)
-            .to_numpy()
-        )
-
-        arrays.append(sec)
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
 
-        feature_names.extend(
-            sec_features
-        )
+    predictions["Test_Year"] = test_year
+    predictions["Model"] = model_name
+    predictions["y_true"] = y_test
+    predictions["y_pred"] = y_pred
+    predictions["y_prob"] = y_prob
 
-    # --------------------------------------------------------
-    # FINBERT
-    # --------------------------------------------------------
-
-    if preprocessor[
-        "include_sentiment"
-    ]:
+    result = {"Test_Year": test_year,
+              "Validation_Year": validation_year,
+              "Model": model_name,
+              "Train_Size": len(train_df),
+              "Validation_Size": validation_size,
+              "Test_Size": len(test_df),
+              "Num_Encoded_Features": X_train.shape[1],
+              "Final_Epochs": final_epochs,
+              "Best_Val_Loss": best_val_loss,
+              "Selected_SEC_Features": "|".join(feature for feature in binary_features if feature in SEC_BINARY_CANDIDATES),
+              **calculate_metrics(y_test, y_pred, y_prob)}
 
-        sentiment_arrays = []
+    add_confusion_metrics(result, y_test, y_pred)
 
-        for column in SENTIMENT_FEATURES:
+    del model
 
-            mean, std = (
-                preprocessor[
-                    "sentiment_stats"
-                ][column]
-            )
-
-            values = pd.to_numeric(
-                df[column],
-                errors="coerce",
-            )
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
 
-            standardized = (
-                (values - mean)
-                / std
-            )
+    return result, predictions, importance
 
-            # Brak EX99 pozostaje rozpoznawalny
-            # przez Has_EX99 w wariancie C.
-            standardized = (
-                standardized
-                .fillna(0.0)
-            )
-
-            sentiment_arrays.append(
-                standardized
-                .astype(np.float32)
-                .to_numpy()
-            )
-
-        sentiment = np.column_stack(
-            sentiment_arrays
-        )
-
-        arrays.append(sentiment)
-
-        feature_names.extend(
-            SENTIMENT_FEATURES
-        )
-
-    X = np.concatenate(
-        arrays,
-        axis=1,
-    ).astype(np.float32)
-
-    if not np.isfinite(X).all():
-
-        raise ValueError(
-            "NaN lub Inf po preprocessing."
-        )
-
-    return X, feature_names
-
-
-# ============================================================
-# MODEL
-# ============================================================
-
-def create_model(seed):
-
-    return TabNetClassifier(
-
-        n_d=8,
-        n_a=8,
-        n_steps=3,
-
-        gamma=1.3,
-
-        n_independent=2,
-        n_shared=2,
-
-        lambda_sparse=1e-4,
-
-        optimizer_fn=torch.optim.Adam,
-
-        optimizer_params={
-            "lr": 0.01,
-            "weight_decay": 1e-5,
-        },
-
-        mask_type="entmax",
-
-        seed=seed,
-
-        verbose=0,
-
-        device_name=(
-            "cuda"
-            if torch.cuda.is_available()
-            else "cpu"
-        ),
-    )
-
-
-# ============================================================
-# METRICS
-# ============================================================
-
-def calculate_metrics(
-    y_true,
-    y_prob,
-):
-
-    y_pred = (
-        y_prob >= 0.5
-    ).astype(int)
-
-    return {
-
-        "Accuracy":
-            accuracy_score(
-                y_true,
-                y_pred,
-            ),
-
-        "Balanced_Accuracy":
-            balanced_accuracy_score(
-                y_true,
-                y_pred,
-            ),
-
-        "Precision":
-            precision_score(
-                y_true,
-                y_pred,
-                zero_division=0,
-            ),
-
-        "Recall":
-            recall_score(
-                y_true,
-                y_pred,
-                zero_division=0,
-            ),
-
-        "F1":
-            f1_score(
-                y_true,
-                y_pred,
-                zero_division=0,
-            ),
-
-        "ROC_AUC":
-            roc_auc_score(
-                y_true,
-                y_prob,
-            ),
-
-        "y_pred":
-            y_pred,
-
-        "Confusion_Matrix":
-            confusion_matrix(
-                y_true,
-                y_pred,
-            ),
-    }
-
-
-# ============================================================
-# MAIN
-# ============================================================
-
-if __name__ == "__main__":
-
-    set_seed(
-        RANDOM_STATE
-    )
-
-    print(
-        "\nTABNET WALK-FORWARD"
-    )
-
-    print(
-        "\nDevice:"
-    )
-
-    print(
-        "cuda"
-        if torch.cuda.is_available()
-        else "cpu"
-    )
-
-    df = pd.read_csv(
-        DATA_FILE
-    )
-
-    df["Event_Session"] = (
-        pd.to_datetime(
-            df["Event_Session"]
-        )
-    )
-
-    df = df[
-        (
-            df[
-                "Use_In_Primary_Model"
-            ]
-            == 1
-        )
-        &
-        (
-            df[TARGET]
-            .notna()
-        )
-    ].copy()
-
-    df[TARGET] = (
-        df[TARGET]
-        .astype(int)
-    )
-
-    df = df.sort_values(
-        [
-            "Event_Session",
-            "Ticker",
-            "Accession",
-        ]
-    ).reset_index(
-        drop=True
-    )
-
-    print(
-        "\nDataset:"
-    )
-
-    print(
-        len(df)
-    )
-
-    print(
-        "\nTarget:"
-    )
-
-    print(
-        df[TARGET]
-        .value_counts()
-        .sort_index()
-    )
-
-    variants = [
-
-        {
-            "name":
-                "TABNET A - MARKET",
-
-            "include_sec":
-                False,
-
-            "include_sentiment":
-                False,
-        },
-
-        {
-            "name":
-                "TABNET B - MARKET + SEC",
-
-            "include_sec":
-                True,
-
-            "include_sentiment":
-                False,
-        },
-
-        {
-            "name":
-                "TABNET C - MARKET + SEC + FINBERT",
-
-            "include_sec":
-                True,
-
-            "include_sentiment":
-                True,
-        },
-    ]
-
-    all_results = []
 
+def main() -> None:
+    set_seed(RANDOM_STATE)
+
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f"Nie znaleziono pliku: {DATA_FILE}")
+
+    df = pd.read_csv(DATA_FILE)
+    df = prepare_model_dataset(df, TARGET)
+
+    validate_target(df, TARGET)
+    log_repeated_events(df)
+
+    logger.info("TabNet działa na: %s", "GPU" if torch.cuda.is_available() else "CPU")
+    logger.info("Target: %s", TARGET)
+    logger.info("Liczba obserwacji primary: %d", len(df))
+    logger.info("Zakres danych: %s -> %s",
+                df["Event_Session"].min().date(),
+                df["Event_Session"].max().date())
+    logger.info("Rozkład targetu:\n%s", df[TARGET].value_counts().sort_index().to_string())
+
+    results = []
     all_predictions = []
-
-    # ========================================================
-    # OUTER WALK-FORWARD
-    # ========================================================
+    all_importances = []
 
     for test_year in TEST_YEARS:
-
-        print(
-            "\n"
-            + "=" * 80
-        )
-
-        print(
-            f"TEST YEAR: {test_year}"
-        )
-
-        print(
-            "=" * 80
-        )
-
-        train_df = df[
-            df["Event_Session"]
-            .dt.year
-            < test_year
-        ].copy()
-
-        test_df = df[
-            df["Event_Session"]
-            .dt.year
-            == test_year
-        ].copy()
-
-        validation_year = (
-            test_year - 1
-        )
-
-        subtrain_df = train_df[
-            train_df["Event_Session"]
-            .dt.year
-            < validation_year
-        ].copy()
-
-        val_df = train_df[
-            train_df["Event_Session"]
-            .dt.year
-            == validation_year
-        ].copy()
-
-        print(
-            "\nTrain:",
-            len(train_df),
-        )
-
-        print(
-            "Subtrain:",
-            len(subtrain_df),
-        )
-
-        print(
-            f"Validation {validation_year}:",
-            len(val_df),
-        )
-
-        print(
-            "Test:",
-            len(test_df),
-        )
-
-        y_train = (
-            train_df[TARGET]
-            .to_numpy(
-                dtype=np.int64
-            )
-        )
-
-        y_subtrain = (
-            subtrain_df[TARGET]
-            .to_numpy(
-                dtype=np.int64
-            )
-        )
-
-        y_val = (
-            val_df[TARGET]
-            .to_numpy(
-                dtype=np.int64
-            )
-        )
-
-        y_test = (
-            test_df[TARGET]
-            .to_numpy(
-                dtype=np.int64
-            )
-        )
-
-        for variant_id, variant in enumerate(
-            variants
-        ):
-
-            print(
-                "\n"
-                + "-" * 80
-            )
-
-            print(
-                variant["name"]
-            )
-
-            # =================================================
-            # INNER TRAIN / VALIDATION
-            # =================================================
-
-            inner_sec_features = (
-                select_sec_features(
-                    subtrain_df
-                )
-            )
-
-            inner_preprocessor = (
-                fit_preprocessor(
-                    train_df=subtrain_df,
-                    sec_features=(
-                        inner_sec_features
-                    ),
-                    include_sec=(
-                        variant[
-                            "include_sec"
-                        ]
-                    ),
-                    include_sentiment=(
-                        variant[
-                            "include_sentiment"
-                        ]
-                    ),
-                )
-            )
-
-            X_subtrain, _ = (
-                transform_data(
-                    subtrain_df,
-                    inner_preprocessor,
-                )
-            )
-
-            X_val, _ = (
-                transform_data(
-                    val_df,
-                    inner_preprocessor,
-                )
-            )
-
-            seed = (
-                RANDOM_STATE
-                + test_year
-                + variant_id
-            )
-
-            inner_model = (
-                create_model(
-                    seed
-                )
-            )
-
-            inner_model.fit(
-
-                X_train=X_subtrain,
-                y_train=y_subtrain,
-
-                eval_set=[
-                    (
-                        X_val,
-                        y_val,
-                    )
-                ],
-
-                eval_name=[
-                    "validation"
-                ],
-
-                eval_metric=[
-                    "logloss"
-                ],
-
-                max_epochs=MAX_EPOCHS,
-
-                patience=PATIENCE,
-
-                batch_size=BATCH_SIZE,
-
-                virtual_batch_size=(
-                    VIRTUAL_BATCH_SIZE
-                ),
-
-                num_workers=0,
-
-                drop_last=False,
-            )
-
-            best_epoch = int(
-                inner_model.best_epoch
-            )
-
-            # pytorch-tabnet liczy epoki od 0.
-            final_epochs = (
-                best_epoch + 1
-            )
-
-            best_val_loss = (
-                float(
-                    inner_model.best_cost
-                )
-            )
-
-            print(
-                "\nBest epoch:",
-                best_epoch,
-            )
-
-            print(
-                "Final epochs:",
-                final_epochs,
-            )
-
-            print(
-                "Best validation loss:",
-                f"{best_val_loss:.6f}",
-            )
-
-            del inner_model
-
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-
-            # =================================================
-            # FINAL OUTER TRAIN PREPROCESSOR
-            # =================================================
-
-            sec_features = (
-                select_sec_features(
-                    train_df
-                )
-            )
-
-            final_preprocessor = (
-                fit_preprocessor(
-                    train_df=train_df,
-                    sec_features=(
-                        sec_features
-                    ),
-                    include_sec=(
-                        variant[
-                            "include_sec"
-                        ]
-                    ),
-                    include_sentiment=(
-                        variant[
-                            "include_sentiment"
-                        ]
-                    ),
-                )
-            )
-
-            X_train, feature_names = (
-                transform_data(
-                    train_df,
-                    final_preprocessor,
-                )
-            )
-
-            X_test, _ = (
-                transform_data(
-                    test_df,
-                    final_preprocessor,
-                )
-            )
-
-            print(
-                "Features:",
-                X_train.shape[1],
-            )
-
-            # =================================================
-            # FINAL TRAIN
-            # =================================================
-
-            final_model = (
-                create_model(
-                    seed
-                )
-            )
-
-            final_model.fit(
-
-                X_train=X_train,
-                y_train=y_train,
-
-                max_epochs=final_epochs,
-
-                patience=0,
-
-                batch_size=BATCH_SIZE,
-
-                virtual_batch_size=(
-                    VIRTUAL_BATCH_SIZE
-                ),
-
-                num_workers=0,
-
-                drop_last=False,
-            )
-
-            # =================================================
-            # TEST
-            # =================================================
-
-            y_prob = (
-                final_model
-                .predict_proba(
-                    X_test
-                )[:, 1]
-            )
-
-            metrics = (
-                calculate_metrics(
-                    y_true=y_test,
-                    y_prob=y_prob,
-                )
-            )
-
-            print(
-                "\nAccuracy:",
-                f"{metrics['Accuracy']:.6f}",
-            )
-
-            print(
-                "Balanced Accuracy:",
-                f"{metrics['Balanced_Accuracy']:.6f}",
-            )
-
-            print(
-                "Precision:",
-                f"{metrics['Precision']:.6f}",
-            )
-
-            print(
-                "Recall:",
-                f"{metrics['Recall']:.6f}",
-            )
-
-            print(
-                "F1:",
-                f"{metrics['F1']:.6f}",
-            )
-
-            print(
-                "ROC-AUC:",
-                f"{metrics['ROC_AUC']:.6f}",
-            )
-
-            print(
-                "\nConfusion Matrix:"
-            )
-
-            print(
-                metrics[
-                    "Confusion_Matrix"
-                ]
-            )
-
-            all_results.append(
-                {
-                    "Test_Year":
+        train_df = df[df["Event_Session"].dt.year < test_year].copy()
+        test_df = df[df["Event_Session"].dt.year == test_year].copy()
+
+        validation_year = test_year - 1
+        subtrain_df = train_df[train_df["Event_Session"].dt.year < validation_year].copy()
+        val_df = train_df[train_df["Event_Session"].dt.year == validation_year].copy()
+
+        if train_df.empty or test_df.empty or subtrain_df.empty or val_df.empty:
+            logger.warning("Pominięcie foldu %d - pusty zbiór", test_year)
+            continue
+
+        logger.info("FOLD %d | TRAIN=%d | SUBTRAIN=%d | VAL %d=%d | TEST=%d",
+                    test_year,
+                    len(train_df),
+                    len(subtrain_df),
+                    validation_year,
+                    len(val_df),
+                    len(test_df))
+
+        inner_sec = select_sec_features(subtrain_df,
+                                        candidates=SEC_BINARY_CANDIDATES,
+                                        min_count=MIN_SEC_COUNT)
+
+        final_sec = select_sec_features(train_df,
+                                        candidates=SEC_BINARY_CANDIDATES,
+                                        min_count=MIN_SEC_COUNT)
+
+        inner_configs = build_model_configs(inner_sec)
+        final_configs = build_model_configs(final_sec)
+
+        for variant_id, (inner_config, final_config) in enumerate(zip(inner_configs, final_configs)):
+            seed = RANDOM_STATE + test_year + variant_id
+            set_seed(seed)
+
+            final_epochs, best_val_loss = find_best_epochs(subtrain_df=subtrain_df,
+                                                           val_df=val_df,
+                                                           binary_features=inner_config["binary"],
+                                                           sentiment_features=inner_config["sentiment"],
+                                                           seed=seed)
+
+            result, predictions, importance = evaluate_tabnet(model_name=final_config["name"],
+                                                              train_df=train_df,
+                                                              test_df=test_df,
+                                                              binary_features=final_config["binary"],
+                                                              sentiment_features=final_config["sentiment"],
+                                                              final_epochs=final_epochs,
+                                                              best_val_loss=best_val_loss,
+                                                              validation_year=validation_year,
+                                                              validation_size=len(val_df),
+                                                              test_year=test_year,
+                                                              seed=seed)
+
+            results.append(result)
+            all_predictions.append(predictions)
+            all_importances.append(importance)
+
+            logger.info("%s | TEST %d | epochs=%d | ACC=%.4f | BA=%.4f | F1=%.4f | AUC=%.4f",
+                        final_config["name"],
                         test_year,
-
-                    "Validation_Year":
-                        validation_year,
-
-                    "Model":
-                        variant["name"],
-
-                    "Train_Size":
-                        len(train_df),
-
-                    "Validation_Size":
-                        len(val_df),
-
-                    "Test_Size":
-                        len(test_df),
-
-                    "Features":
-                        X_train.shape[1],
-
-                    "Best_Epoch":
-                        best_epoch,
-
-                    "Final_Epochs":
                         final_epochs,
+                        result["Accuracy"],
+                        result["Balanced_Accuracy"],
+                        result["F1"],
+                        result["ROC_AUC"])
 
-                    "Best_Val_Loss":
-                        best_val_loss,
+            logger.info("%s | TEST %d | TN=%d FP=%d FN=%d TP=%d",
+                        final_config["name"],
+                        test_year,
+                        result["TN"],
+                        result["FP"],
+                        result["FN"],
+                        result["TP"])
 
-                    "Accuracy":
-                        metrics["Accuracy"],
+    if not results:
+        raise RuntimeError("Nie udało się wytrenować TabNet")
 
-                    "Balanced_Accuracy":
-                        metrics[
-                            "Balanced_Accuracy"
-                        ],
+    results_df = pd.DataFrame(results)
+    predictions_df = pd.concat(all_predictions, ignore_index=True)
+    importance_df = pd.concat(all_importances, ignore_index=True)
 
-                    "Precision":
-                        metrics["Precision"],
+    summary_df = create_summary(results_df, predictions_df)
 
-                    "Recall":
-                        metrics["Recall"],
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-                    "F1":
-                        metrics["F1"],
+    results_df.to_csv(FOLD_METRICS_FILE, index=False)
+    predictions_df.to_csv(PREDICTIONS_FILE, index=False)
+    importance_df.to_csv(IMPORTANCE_FILE, index=False)
+    summary_df.to_csv(SUMMARY_FILE, index=False)
 
-                    "ROC_AUC":
-                        metrics["ROC_AUC"],
-                }
-            )
+    logger.info("Średnie wyniki walk-forward:\n%s", summary_df.to_string(index=False))
+    logger.info("Metryki foldów: %s", FOLD_METRICS_FILE)
+    logger.info("Predykcje OOS: %s", PREDICTIONS_FILE)
+    logger.info("Feature importance: %s", IMPORTANCE_FILE)
+    logger.info("Podsumowanie: %s", SUMMARY_FILE)
 
-            predictions = (
-                test_df[
-                    [
-                        "Ticker",
-                        "Accession",
-                        "Event_Session",
-                        "Abnormal_Event_Return_1D",
-                    ]
-                ]
-                .copy()
-            )
 
-            predictions[
-                "Test_Year"
-            ] = test_year
-
-            predictions[
-                "Model"
-            ] = variant["name"]
-
-            predictions[
-                "y_true"
-            ] = y_test
-
-            predictions[
-                "y_pred"
-            ] = metrics[
-                "y_pred"
-            ]
-
-            predictions[
-                "y_prob"
-            ] = y_prob
-
-            all_predictions.append(
-                predictions
-            )
-
-            del final_model
-
-            if torch.cuda.is_available():
-                torch.cuda.empty_cache()
-
-    # ========================================================
-    # RESULTS
-    # ========================================================
-
-    results_df = pd.DataFrame(
-        all_results
-    )
-
-    results_df.to_csv(
-        OUTPUT_RESULTS,
-        index=False,
-    )
-
-    metric_columns = [
-        "Accuracy",
-        "Balanced_Accuracy",
-        "Precision",
-        "Recall",
-        "F1",
-        "ROC_AUC",
-    ]
-
-    summary = (
-        results_df
-        .groupby(
-            "Model"
-        )[metric_columns]
-        .mean()
-        .sort_values(
-            "Balanced_Accuracy",
-            ascending=False,
-        )
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "ŚREDNIE OOS"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        summary
-    )
-
-    predictions_df = (
-        pd.concat(
-            all_predictions,
-            ignore_index=True,
-        )
-    )
-
-    predictions_df.to_csv(
-        OUTPUT_PREDICTIONS,
-        index=False,
-    )
-
-    print(
-        "\nLiczba predykcji OOS:"
-    )
-
-    print(
-        len(predictions_df)
-    )
-
-    print(
-        "\nPredykcje per model:"
-    )
-
-    print(
-        predictions_df[
-            "Model"
-        ]
-        .value_counts()
-        .sort_index()
-    )
-
-    print(
-        "\nWyniki:"
-    )
-
-    print(
-        OUTPUT_RESULTS
-    )
-
-    print(
-        "\nPredykcje:"
-    )
-
-    print(
-        OUTPUT_PREDICTIONS
-    )
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
+    main()

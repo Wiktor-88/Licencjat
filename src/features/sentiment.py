@@ -1,63 +1,36 @@
-############################################################################
-# Ten plik odpowiada za dużo rzeczy, w tym najważniejsze analzie sentymentów
-# Więc został on podzielony na 12 różnych częśći
-############################################################################
+# Czwarty plik odpowiada za dużo rzeczy, w tym  analze sentymentów
+# Zostal on podzielony na 12 różnych częśći
 
 
 
-############## CZĘŚĆ I - IMPORTY ###################
-from pathlib import Path
+# Czesc I - importy
 import time
 import re
 import logging
-
 import pandas as pd
 import nltk
 import torch
 
+from pathlib import Path
 from nltk.tokenize import sent_tokenize
-from transformers import (
-    pipeline,
-    AutoTokenizer,
-    AutoModelForSequenceClassification,
-)
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 
 
+# Część II - konfguracja
 logger = logging.getLogger(__name__)
-
-############# CZĘŚĆ II - KONFIGURACJA I ŚCIEŻKI #################
-
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-INPUT_DIRECTORY = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "cleaned_texts"
-)
-
-OUTPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "sentiment_blocks.csv"
-)
-
-CHECKPOINT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "sentiment_checkpoint.csv"
-)
-
+INPUT_DIRECTORY = PROJECT_ROOT / "data" / "processed" / "cleaned_texts"
+OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "sentiment_blocks.csv"
+CHECKPOINT_FILE = PROJECT_ROOT / "data" / "processed" / "sentiment_checkpoint.csv"
 
 MODEL_NAME = "yiyanghkust/finbert-tone"
 
-# FinBERT/BERT ma limit 512 tokenów
+# FinBERT ma limit 512 tokenów, wiec podzielimy tekst na bloki po 450 tokenów
 MAX_TOKENS_PER_BLOCK = 450
 
-# Ile zdań przenoszonych z poprzedniego bloku - aby zachowac kontekst
+# Ile zdań jest przenoszonych z poprzedniego bloku - aby zachowac kontekst
 SENTENCE_OVERLAP = 0
 
 # FinBERT będzie analizował do 32 bloków na raz na GPU
@@ -69,23 +42,16 @@ CHECKPOINT_EVERY = 50
 # CPU/Cuda
 DEVICE = 0 if torch.cuda.is_available() else -1
 
-# Limit
+# Limit FinBerta
 MODEL_MAX_LENGTH = 512
 
-EXPECTED_LABELS = {
-    "positive",
-    "negative",
-    "neutral",
-}
+EXPECTED_LABELS = {"positive", "negative", "neutral"}
 
-################# CZESSC III - NLTK ##########################
 
-def ensure_nltk_resource(
-    resource_path: str,
-    download_name: str,
-) -> None:
+# Czesc III - NLTK
+def ensure_nltk_resource(resource_path: str, download_name: str) -> None:
     """
-    Sprawdza czy dany zasób NLTK jest dostępny lokalnie, gdy nie ma to pobiera
+    Sprawdza czy dany zasób NLTK jest dostępny, gdy nie ma to pobiera
     """
 
     try:
@@ -94,33 +60,21 @@ def ensure_nltk_resource(
     except LookupError:
         logger.info('Brak zassobu NLTK %s przy pobiernaiu: ', download_name)
 
-    success = nltk.download(
-        download_name,
-        quiet=True,
-    )
+    success = nltk.download(download_name, quiet=True)
 
     if not success:
-        raise RuntimeError(
-            "Nie udało się pobrać zasobu NLTK: "
-            f"{download_name}"
-        )
+        raise RuntimeError(f"Nie udało się pobrać zasobu NLTK: {download_name}")
 
 
-# Wywołanie powyżesz funkcji, aby nie było problemu przy imporcie tergo pliku
+# Wywołanie powyżesz funkcji, aby nie było problemu przy imporcie tego pliku
 def ensure_nltk_resources() -> None:
-    ensure_nltk_resource(
-        "tokenizers/punkt",
-        "punkt",
-    )
+    ensure_nltk_resource("tokenizers/punkt", "punkt")
 
-    ensure_nltk_resource(
-        "tokenizers/punkt_tab/english",
-        "punkt_tab",
-    )
+    ensure_nltk_resource("tokenizers/punkt_tab/english", "punkt_tab")
 
 
 
-##################### CZESC IV - METADANE #######################
+# Czesc IV - wydobycie meatadanych
 def parse_file_metadata(file_path: Path) -> tuple[str, str, str, str]:
     """
     Wyciąga z nazwy:
@@ -136,58 +90,29 @@ def parse_file_metadata(file_path: Path) -> tuple[str, str, str, str]:
     parts = filename_without_extension.split("_", 3)
 
     if len(parts) != 4:
-        raise ValueError(
-            "Nieprawidłowy format nazwy pliku: "
-            f"{file_path.name}"
-        )
+        raise ValueError(f"Nieprawidłowy format nazwy pliku: {file_path.name}")
 
-    (
-        ticker,
-        filing_date,
-        accession_number,
-        source_type
-    ) = parts
-
+    (ticker, filing_date, accession_number, source_type) = parts
 
     # zmiana formatu na EX-99.x
     if source_type.startswith("EX-99-"):
-        source_type = source_type.replace(
-            "EX-99-",
-            "EX-99.",
-            1,
-        )
+        source_type = source_type.replace("EX-99-", "EX-99.", 1)
 
-    return (
-        ticker,
-        filing_date,
-        accession_number,
-        source_type,
-    )
+    return (ticker, filing_date, accession_number, source_type)
 
 
-####################### CZESC V - DZIELENIE 8K ########################
-
+# Czesc V - dzielenie dokumentów 8K
 def split_into_8k_items(text: str) -> list[tuple[str, str]]:
     """
-    Dzieli oczyszczony raport 8-K na osobne sekcje ITEM,
-    dzięki temu każdy późniejszy blok FinBERT-a można jednoznacznie
-    powiązać z daną sekcją raportu
+    Dzieli oczyszczony raport 8-K na osobne sekcje ITEM, dzięki temu każdy późniejszy
+    blok z FinBERTa można jednoznacznie powiązać z daną sekcją raportu
 
-    Zwraca liste krotek:
-    (Item_number, tekst)
+    Zwraca liste krotek: (Item_number, tekst)
     """
 
     # Szukanie nagłówków typu: Item 1.01, ITEM 2.02.  czy item 5.02
     item_matches = list(
-        re.finditer(
-            r"^\s*ITEM\s+(\d+\.\d+)\.?",
-            text,
-            flags=(
-                re.IGNORECASE
-                | re.MULTILINE
-            ),
-        )
-    )
+        re.finditer(r"^\s*ITEM\s+(\d+\.\d+)\.?", text, flags=(re.IGNORECASE | re.MULTILINE)))
 
 
     # fallback dla bezpieczeństwa (teoretycznie juz powinno działac w clean_text.py)
@@ -206,7 +131,7 @@ def split_into_8k_items(text: str) -> list[tuple[str, str]]:
         if index + 1 < len(item_matches):
             section_end = item_matches[index + 1].start()
 
-        # Chyba ze dla ostatniego - tam nieistnieje item_matches[index + 1]
+        # Chyba ze dla ostatniego - tam nie istnieje item_matches[index + 1]
         else:
             section_end = len(text)
 
@@ -215,15 +140,13 @@ def split_into_8k_items(text: str) -> list[tuple[str, str]]:
 
         # Dodjaemy kiedy cos wogóle zostało
         if section_text:
-            item_sections.append(
-                (item_number, section_text)
-            )
+            item_sections.append((item_number, section_text))
 
     return item_sections
 
 
 
-####################### CZESC VI - BLOKI ####################
+# Czesc VI - tworzenie bloków
 def create_sentence_blocks(
     text: str,
     tokenizer,
@@ -232,17 +155,13 @@ def create_sentence_blocks(
 ) -> list[str]:
     """
     Dzieli dokument na bloki składające się z pełnych zdań
-    Każdy blok ma maksymalnie około max_tokens tokenów FinBERT-a 
+    Każdy blok ma maksymalnie około 'max_tokens' tokenów FinBERT-a 
     (troche mniej aby na pewno sie zmiesiło w limicie)
 
-    Między kolejnymi blokami zachowywany jest overlap kilku zdań
-    (obecnie 0)
+    Między kolejnymi blokami zachowywany jest overlap kilku zdań (obecnie 0)
     """
 
-    sentences = sent_tokenize(
-        text,
-        language="english",
-    )
+    sentences = sent_tokenize(text, language="english")
 
     blocks: list[str] = []
     current_block: list[str] = []
@@ -252,38 +171,26 @@ def create_sentence_blocks(
     for sentence in sentences:
 
         # Tokenizujemy zdanie tokenizerem FinBERT-a, a nie tokenizerem NLTK
-        sentence_token_ids = tokenizer.encode(
-            sentence,
-            add_special_tokens=False,
-        )
+        sentence_token_ids = tokenizer.encode(sentence, add_special_tokens=False)
 
         sentence_length = len(sentence_token_ids)
 
-        ########## Przypadek I - jedno długie zdanie ##########
+        # Przypadek I - jedno bardzo dlugie zdanie
         if sentence_length > max_tokens:
 
             # Zapis aktualnie budowanego bloku
             if current_block:
-                blocks.append(
-                    " ".join(current_block)
-                )
+                blocks.append(" ".join(current_block))
 
                 current_block = []
                 current_lengths = []
                 current_token_count = 0
 
             # Cięcie tego zdania
-            for start in range(
-                0,
-                sentence_length,
-                max_tokens,
-            ):
+            for start in range(0, sentence_length, max_tokens):
                 token_fragment = sentence_token_ids[start:start + max_tokens]
 
-                fragment_text = tokenizer.decode(
-                    token_fragment,
-                    skip_special_tokens=True,
-                )
+                fragment_text = tokenizer.decode(token_fragment, skip_special_tokens=True)
 
                 if fragment_text.strip():
                     blocks.append(fragment_text)
@@ -291,26 +198,21 @@ def create_sentence_blocks(
             continue
 
         
-        ####### Przyapdek II - zwyczjane zdanie ########3
-        if (
-            current_token_count + sentence_length
-            <= max_tokens
-        ):
+        # Przypadek II - zwyczajne zdanie mieszczące sie w limicie
+        if current_token_count + sentence_length <= max_tokens:
+
             current_block.append(sentence)
             current_lengths.append(sentence_length)
-
             current_token_count += sentence_length
 
             continue
 
         
-        ####### Przypadek 3 - dodarnie zadnia przekrzacza limnit ###########
+        # Przypadek III - dodanie zdania przekracza limit
 
         # Najpierw zapis
         if current_block:
-            blocks.append(
-                " ".join(current_block)
-            )
+            blocks.append(" ".join(current_block))
 
         # Overlap zdan 
         if overlap_sentences > 0:
@@ -324,11 +226,7 @@ def create_sentence_blocks(
         overlap_token_count = sum(overlap_lengths)
 
         # jeżeli overlap i nowe zdanie nadal przekracza 450 to zmiejszamy overlap
-        while (
-            overlap
-            and overlap_token_count + sentence_length
-            > max_tokens
-        ):
+        while (overlap and overlap_token_count + sentence_length > max_tokens):
             removed_length = overlap_lengths.pop(0)
             overlap.pop(0)
 
@@ -339,60 +237,33 @@ def create_sentence_blocks(
 
         current_lengths = (overlap_lengths + [sentence_length])
 
-        current_token_count = (
-            overlap_token_count
-            + sentence_length
-        )
+        current_token_count = overlap_token_count + sentence_length
+
 
     
-    ####### Przypadek IV - ostatni blok #############
+    # Przyapdek IV - ostatni blok
     if current_block:
-        blocks.append(
-            " ".join(current_block)
-        )
+        blocks.append(" ".join(current_block))
 
     return blocks
 
 
-########### CZEŚĆ VII - Analiza sentymentów ##################
-############# JESZCZE DO SPRAWDZENIA ######################
-
-# ============================================================
-# ŁADOWANIE FINBERT-A
-# ============================================================
-
+# Częsci VII - Analiza sentymentów
 def load_finbert():
     """
-    Ładuje tokenizer, model FinBERT
-    oraz pipeline do analizy sentymentu.
+    Ładuje potrzbne rzeczy: tokenzier, FinBert i pipeline
     """
 
     if DEVICE == 0:
-        logger.info(
-            "FinBERT działa na GPU: %s",
-            torch.cuda.get_device_name(0),
-        )
+        logger.info("FinBERT działa na GPU: %s", torch.cuda.get_device_name(0))
     else:
-        logger.info(
-            "FinBERT działa na CPU."
-        )
+        logger.info("FinBERT działa na CPU")
 
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_NAME
-    )
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
-    model = (
-        AutoModelForSequenceClassification
-        .from_pretrained(
-            MODEL_NAME
-        )
-    )
-
-    model_labels = {
-        str(label).lower()
-        for label
-        in model.config.id2label.values()
-    }
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+    
+    model_labels = {str(label).lower() for label in model.config.id2label.values()}
 
     if model_labels != EXPECTED_LABELS:
         raise ValueError(
@@ -409,134 +280,71 @@ def load_finbert():
         top_k=None,
     )
 
-    logger.info(
-        "Model FinBERT został załadowany."
-    )
+    logger.info("FinBERT został załadowany")
 
     return tokenizer, sentiment_pipeline
 
 
-# ============================================================
-# WYBÓR PLIKÓW
-# ============================================================
-
-def select_input_files(
-    input_dir: Path,
-    limit_files: int | None = None,
-    test_files_per_ticker: int | None = None,
-) -> list[Path]:
+# Wybieranie plików
+def select_input_files(input_dir: Path,
+                       limit_files: int | None = None,
+                       test_files_per_ticker: int | None = None) -> list[Path]:
     """
-    Zwraca posortowaną listę plików wejściowych.
+    Zwraca posortowaną listę plików wejściowych
 
-    Opcjonalnie ogranicza liczbę plików globalnie
-    albo wybiera określoną liczbę plików per ticker.
+    Opcjonalnie ogranicza liczbę plików globalnie albo wybiera określoną liczbę plików per ticker
     """
 
     if not input_dir.exists():
-        raise FileNotFoundError(
-            f"Nie istnieje katalog wejściowy: "
-            f"{input_dir}"
-        )
+        raise FileNotFoundError(f"Nie istnieje katalog wejściowy: {input_dir}")
 
     if not input_dir.is_dir():
-        raise NotADirectoryError(
-            f"Ścieżka wejściowa nie jest katalogiem: "
-            f"{input_dir}"
-        )
+        raise NotADirectoryError(f"Ścieżka wejściowa nie jest katalogiem: {input_dir}")
 
-    if (
-        limit_files is not None
-        and test_files_per_ticker is not None
-    ):
-        raise ValueError(
-            "Nie można jednocześnie używać "
-            "limit_files i test_files_per_ticker."
-        )
+    if (limit_files is not None and test_files_per_ticker is not None):
+        raise ValueError('Nie można jednocześnie używać limit_files i test_files_per_ticker')
 
-    if (
-        limit_files is not None
-        and limit_files <= 0
-    ):
-        raise ValueError(
-            "limit_files musi być większe od 0."
-        )
+    if (limit_files is not None and limit_files <= 0):
+        raise ValueError("limit_files musi być większe od 0")
 
-    if (
-        test_files_per_ticker is not None
-        and test_files_per_ticker <= 0
-    ):
-        raise ValueError(
-            "test_files_per_ticker musi być większe od 0."
-        )
+    if (test_files_per_ticker is not None and test_files_per_ticker <= 0):
+        raise ValueError("test_files_per_ticker musi być większe od 0")
 
-    file_paths = sorted(
-        input_dir.glob("*.txt")
-    )
+    file_paths = sorted(input_dir.glob("*.txt"))
 
     if test_files_per_ticker is not None:
 
-        files_by_ticker: dict[
-            str,
-            list[Path],
-        ] = {}
+        files_by_ticker: dict[str, list[Path]] = {}
 
         for file_path in file_paths:
 
             try:
-                ticker, _, _, _ = (
-                    parse_file_metadata(
-                        file_path
-                    )
-                )
+                ticker, _, _, _ = parse_file_metadata(file_path)
 
             except ValueError as error:
-                logger.warning(
-                    "Pominięto plik %s: %s",
-                    file_path.name,
-                    error,
-                )
+                logger.warning("Pominięto plik %s: %s", file_path.name, error)
                 continue
 
-            files_by_ticker.setdefault(
-                ticker,
-                [],
-            ).append(
-                file_path
-            )
+            files_by_ticker.setdefault(ticker, []).append(file_path)
 
         selected_files: list[Path] = []
 
-        for ticker in sorted(
-            files_by_ticker
-        ):
-            selected_files.extend(
-                files_by_ticker[ticker][
-                    :test_files_per_ticker
-                ]
-            )
+        for ticker in sorted(files_by_ticker):
+            selected_files.extend(files_by_ticker[ticker][:test_files_per_ticker])
 
         return selected_files
 
     if limit_files is not None:
-        return file_paths[
-            :limit_files
-        ]
+        return file_paths[:limit_files]
 
     return file_paths
 
 
-# ============================================================
-# TWORZENIE BLOKÓW DOKUMENTU
-# ============================================================
 
-def create_document_blocks(
-    text: str,
-    source_type: str,
-    tokenizer,
-) -> list[dict]:
+# Tworzenie bloków na dokumentach
+def create_document_blocks(text: str, source_type: str, tokenizer,) -> list[dict]:
     """
-    Dzieli dokument na logiczne sekcje,
-    a następnie na bloki wejściowe FinBERT-a.
+    Dzieli dokument na logiczne sekcje, a następnie na bloki wejściowe FinBERT-a
     """
 
     if source_type == "8-K":
@@ -1087,56 +895,27 @@ def analyze_sentiment_directory(
         total_time,
     )
 
-    return pd.DataFrame(
-        results
-    )
+    return pd.DataFrame(results)
 
 
 ###################### CZESC - MAIN ######################
 def main() -> None:
-    """
-    Uruchamia pełną analizę sentymentu oczyszczonych dokumentów SEC
-    i zapisuje wyniki do pliku CSV
-    """
 
-    df_sentiment = analyze_sentiment_directory(
-        input_dir=INPUT_DIRECTORY,
-        checkpoint_path=CHECKPOINT_FILE,
-    )
+    df_sentiment = analyze_sentiment_directory(input_dir=INPUT_DIRECTORY,
+                                               checkpoint_path=CHECKPOINT_FILE)
 
     if df_sentiment.empty:
-        raise RuntimeError(
-            "Analiza nie wygenerowała żadnych "
-            "wyników sentymentu."
-        )
+        raise RuntimeError('błąd - analiza nie wygenerowała żadnych wyników sentymentu')
 
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    df_sentiment.to_csv(
-        OUTPUT_FILE,
-        index=False,
-    )
+    df_sentiment.to_csv(OUTPUT_FILE, index=False)
 
-    logger.info(
-        "Zapisano %d bloków sentymentu do %s",
-        len(df_sentiment),
-        OUTPUT_FILE,
-    )
+    logger.info("Zapisano %d bloków sentymentu do %s", len(df_sentiment), OUTPUT_FILE)
 
 
 if __name__ == "__main__":
 
-    logging.basicConfig(
-        level=logging.INFO,
-        format=(
-            "%(asctime)s - "
-            "%(levelname)s - "
-            "%(name)s - "
-            "%(message)s"
-        ),
-    )
+    logging.basicConfig(level=logging.INFO, format=("%(asctime)s - %(levelname)s - %(name)s - %(message)s"))
 
     main()

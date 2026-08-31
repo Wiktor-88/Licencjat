@@ -1,836 +1,216 @@
+# Ten plik odpowiada ze trnowanie czartwego modelu - Catoboosta
+
+import logging
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
-
 from catboost import CatBoostClassifier
 
-from sklearn.metrics import (
-    accuracy_score,
-    balanced_accuracy_score,
-    confusion_matrix,
-    f1_score,
-    precision_score,
-    recall_score,
-    roc_auc_score,
-)
+from model_config import (MARKET_COMPACT_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
+    SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG, TARGET, TEST_YEARS,)
+from model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
+    log_repeated_events, prepare_model_dataset, select_sec_features, validate_target)
 
 
-# ============================================================
-# ŚCIEŻKI
-# ============================================================
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_FILE = PROJECT_ROOT / "data" / "processed" / "model_dataset.csv"
 
-INPUT_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "model_dataset.csv"
-)
-
-OUTPUT_PREDICTIONS_FILE = (
-    PROJECT_ROOT
-    / "data"
-    / "processed"
-    / "catboost_oos_predictions.csv"
-)
-
-
-# ============================================================
-# USTAWIENIA
-# ============================================================
-
-TARGET = "Target_Abnormal_1D"
-
-TEST_YEARS = [
-    2023,
-    2024,
-    2025,
-    2026,
-]
-
-RANDOM_STATE = 42
-
-MIN_SEC_COUNT = 5
-
-
-# ============================================================
-# CECHY RYNKOWE
-# ============================================================
-
-MARKET_COMPACT_FEATURES = [
-    "Log_Return_1D_Z60",
-    "Log_Return_5D_Z60",
-    "Volatility_14D_Z60",
-    "Relative_Volume_20D_Z60",
-    "RSI_14",
-    "Price_to_SMA20_Z60",
-    "Intraday_Return_Z60",
-    "Daily_Range_Z60",
-    "QQQ_Log_Return_1D",
-    "QQQ_Log_Return_5D",
-    "QQQ_Volatility_14D",
-]
-
-
-# ============================================================
-# FINBERT
-# ============================================================
-
-SENTIMENT_FEATURES = [
-    "Mean_Net_Sentiment",
-    "Sentiment_Momentum_3",
-]
-
-
-# ============================================================
-# POMOCNICZE
-# ============================================================
-
-def select_sec_features(
-    train_df: pd.DataFrame,
-) -> list[str]:
-    """
-    Wybiera cechy strukturalne SEC wyłącznie
-    na podstawie TRAIN.
-
-    Has_EX99 zawsze zostaje.
-
-    Has_Item_* zostaje, jeżeli występuje
-    co najmniej MIN_SEC_COUNT razy w TRAIN.
-    """
-
-    selected = []
-
-    if "Has_EX99" in train_df.columns:
-        selected.append(
-            "Has_EX99"
-        )
-
-    item_columns = sorted(
-        [
-            column
-            for column in train_df.columns
-            if column.startswith(
-                "Has_Item_"
-            )
-        ]
-    )
-
-    for column in item_columns:
-
-        count = int(
-            train_df[column]
-            .fillna(0)
-            .sum()
-        )
-
-        if count >= MIN_SEC_COUNT:
-            selected.append(
-                column
-            )
-
-    return selected
-
-
-def build_feature_list(
-    sec_features: list[str],
-    include_sec: bool,
-    include_sentiment: bool,
-) -> list[str]:
-
-    features = [
-        "Ticker",
-        *MARKET_COMPACT_FEATURES,
-    ]
-
-    if include_sec:
-        features.extend(
-            sec_features
-        )
-
-    if include_sentiment:
-        features.extend(
-            SENTIMENT_FEATURES
-        )
-
-    return features
-
-
-def prepare_features(
-    df: pd.DataFrame,
-    feature_columns: list[str],
-) -> pd.DataFrame:
-    """
-    CatBoost może obsługiwać NaN
-    w cechach numerycznych natywnie.
-
-    Ticker pozostaje kategorią tekstową.
-    """
-
-    x = df[
-        feature_columns
-    ].copy()
-
-    x["Ticker"] = (
-        x["Ticker"]
-        .astype(str)
-    )
-
-    # Pozostałe kolumny jawnie numeryczne.
-    numeric_columns = [
-        column
-        for column in feature_columns
-        if column != "Ticker"
-    ]
-
-    for column in numeric_columns:
-        x[column] = pd.to_numeric(
-            x[column],
-            errors="coerce",
-        )
-
-    return x
-
-
-def create_model() -> CatBoostClassifier:
-    """
-    Konserwatywny CatBoost.
-
-    Brak early stoppingu na foldzie TEST,
-    żeby nie stroić modelu na przyszłości.
-    """
-
-    return CatBoostClassifier(
-        iterations=250,
-        depth=4,
-        learning_rate=0.03,
-        l2_leaf_reg=5.0,
-        loss_function="Logloss",
-        eval_metric="AUC",
-        random_seed=RANDOM_STATE,
-        verbose=False,
-        allow_writing_files=False,
-        thread_count=-1,
-    )
-
-
-def evaluate_model(
-    model_name: str,
-    train_df: pd.DataFrame,
-    test_df: pd.DataFrame,
-    feature_columns: list[str],
-    test_year: int,
-):
-    """
-    Trenuje jeden wariant CatBoost
-    i zwraca:
-    - metryki,
-    - confusion matrix,
-    - predykcje OOS.
-    """
-
-    x_train = prepare_features(
-        train_df,
-        feature_columns,
-    )
-
-    x_test = prepare_features(
-        test_df,
-        feature_columns,
-    )
-
-    y_train = (
-        train_df[TARGET]
-        .astype(int)
-    )
-
-    y_test = (
-        test_df[TARGET]
-        .astype(int)
-    )
-
-    model = create_model()
-
-    ticker_index = (
-        feature_columns.index(
-            "Ticker"
-        )
-    )
-
-    model.fit(
-        x_train,
-        y_train,
-        cat_features=[
-            ticker_index
-        ],
-    )
-
-    y_prob = (
-        model.predict_proba(
-            x_test
-        )[:, 1]
-    )
-
-    y_pred = (
-        y_prob >= 0.5
-    ).astype(int)
-
-    accuracy = accuracy_score(
-        y_test,
-        y_pred,
-    )
-
-    balanced_accuracy = (
-        balanced_accuracy_score(
-            y_test,
-            y_pred,
-        )
-    )
-
-    precision = precision_score(
-        y_test,
-        y_pred,
-        zero_division=0,
-    )
-
-    recall = recall_score(
-        y_test,
-        y_pred,
-        zero_division=0,
-    )
-
-    f1 = f1_score(
-        y_test,
-        y_pred,
-        zero_division=0,
-    )
-
-    if y_test.nunique() == 2:
-        roc_auc = roc_auc_score(
-            y_test,
-            y_prob,
-        )
-    else:
-        roc_auc = np.nan
-
-    cm = confusion_matrix(
-        y_test,
-        y_pred,
-    )
-
-    result = {
-        "Test_Year": test_year,
-        "Model": model_name,
-        "Train_Size": len(train_df),
-        "Test_Size": len(test_df),
-        "Num_Features_Raw":
-            len(feature_columns),
-        "Accuracy":
-            accuracy,
-        "Balanced_Accuracy":
-            balanced_accuracy,
-        "Precision":
-            precision,
-        "Recall":
-            recall,
-        "F1":
-            f1,
-        "ROC_AUC":
-            roc_auc,
-    }
-
-    prediction_columns = [
-        "Ticker",
-        "Event_Session",
-        "Accession",
-        "Abnormal_Event_Return_1D",
-    ]
-
-    predictions = (
-        test_df[
-            prediction_columns
-        ]
-        .copy()
-    )
-
-    predictions[
-        "Test_Year"
-    ] = test_year
-
-    predictions[
-        "Model"
-    ] = model_name
-
-    predictions[
-        "y_true"
-    ] = y_test.to_numpy()
-
-    predictions[
-        "y_pred"
-    ] = y_pred
-
-    predictions[
-        "y_prob"
-    ] = y_prob
-
-    return (
-        result,
-        cm,
-        predictions,
-    )
-
-
-# ============================================================
-# MAIN
-# ============================================================
-
-if __name__ == "__main__":
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "CATBOOST WALK-FORWARD"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    if not INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku:\n"
-            f"{INPUT_FILE}"
-        )
-
-    df = pd.read_csv(
-        INPUT_FILE
-    )
-
-    df["Event_Session"] = (
-        pd.to_datetime(
-            df["Event_Session"]
-        )
-    )
-
-    # ========================================================
-    # GŁÓWNY ZBIÓR
-    # ========================================================
-
-    df = df[
-        (
-            df[
-                "Use_In_Primary_Model"
-            ]
-            == 1
-        )
-        &
-        (
-            df[TARGET]
-            .notna()
-        )
-    ].copy()
-
-    df[TARGET] = (
-        df[TARGET]
-        .astype(int)
-    )
-
-    df = df.sort_values(
-        [
-            "Event_Session",
-            "Ticker",
-            "Accession",
-        ]
-    ).reset_index(
-        drop=True
-    )
-
-    print(
-        f"\nTarget: {TARGET}"
-    )
-
-    print(
-        "\nLiczba obserwacji:",
-        len(df),
-    )
-
-    print(
-        "\nRozkład targetu:"
-    )
-
-    print(
-        df[TARGET]
-        .value_counts()
-        .sort_index()
-    )
-
-    print(
-        "\nZakres danych:"
-    )
-
-    print(
-        df["Event_Session"].min(),
-        "->",
-        df["Event_Session"].max(),
-    )
+OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
+PREDICTIONS_FILE = OUTPUT_DIR / "catboost_oos_predictions.csv"
+FOLD_METRICS_FILE = OUTPUT_DIR / "catboost_fold_metrics.csv"
+SUMMARY_FILE = OUTPUT_DIR / "catboost_summary.csv"
+IMPORTANCE_FILE = OUTPUT_DIR / "catboost_feature_importance.csv"
+
+
+def build_catboost_model() -> CatBoostClassifier:
+    return CatBoostClassifier(iterations=150,
+                            depth=4,
+                            learning_rate=0.09067703270954058,
+                            l2_leaf_reg=2.791075410796539,
+                            loss_function="Logloss",
+                            eval_metric="AUC",
+                            random_seed=42,
+                            verbose=False,
+                            allow_writing_files=False,
+                            thread_count=-1)
+
+def evaluate_catboost(model_name: str,
+                      train_df: pd.DataFrame,
+                      test_df: pd.DataFrame,
+                      feature_columns: list[str],
+                      binary_features: list[str],
+                      test_year: int) -> tuple[dict, pd.DataFrame, pd.DataFrame]:
+
+    X_train = train_df[feature_columns].copy()
+    X_test = test_df[feature_columns].copy()
+
+    # CatBoost dostaje ticker bezpośrednio jako kategorię
+    X_train["Ticker"] = X_train["Ticker"].astype(str)
+    X_test["Ticker"] = X_test["Ticker"].astype(str)
+
+    y_train = train_df[TARGET].astype(int)
+    y_test = test_df[TARGET].astype(int)
+
+    if y_train.nunique() != 2:
+        raise ValueError(f"TRAIN dla testu {test_year} nie zawiera obu klas targetu")
+
+    model = build_catboost_model()
+
+    model.fit(X_train, y_train, cat_features=["Ticker"])
+
+    y_prob = model.predict_proba(X_test)[:, 1]
+    y_pred = (y_prob >= 0.5).astype(int)
+
+    importance = pd.DataFrame({"Test_Year": test_year,
+                                "Model": model_name,
+                                "Feature": feature_columns,
+                                "Importance": model.get_feature_importance()}).sort_values("Importance", ascending=False)
+
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+
+    predictions["Test_Year"] = test_year
+    predictions["Model"] = model_name
+    predictions["y_true"] = y_test.to_numpy()
+    predictions["y_pred"] = y_pred
+    predictions["y_prob"] = y_prob
+
+    result = {"Test_Year": test_year,
+             "Model": model_name,
+             "Train_Size": len(train_df),
+             "Test_Size": len(test_df),
+             "Num_Input_Features": len(feature_columns),
+             "Num_Encoded_Features": len(feature_columns),
+             "Selected_SEC_Features": "|".join(feature for feature in binary_features if feature in SEC_BINARY_CANDIDATES),
+             **calculate_metrics(y_test, y_pred, y_prob)}
+
+    add_confusion_metrics(result=result, y_true=y_test, y_pred=y_pred)
+
+    return result, predictions, importance
+
+
+def build_model_configs(selected_sec: list[str]) -> list[dict]:
+    return [{"name": "CAT A - COMPACT MARKET",
+            "features": ["Ticker"] + MARKET_COMPACT_FEATURES,
+            "binary": []},
+
+            {"name": "CAT B - COMPACT + SEC",
+            "features": ["Ticker"] + MARKET_COMPACT_FEATURES + selected_sec,
+            "binary": selected_sec},
+
+            {"name": "CAT C - COMPACT + SEC + FINBERT",
+            "features": (["Ticker"] + MARKET_COMPACT_FEATURES + selected_sec +
+                          [SENTIMENT_HISTORY_FLAG] + SENTIMENT_FEATURES),
+            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG]}]
+
+
+
+def main() -> None:
+    if not DATA_FILE.exists():
+        raise FileNotFoundError(f"Nie znaleziono pliku: {DATA_FILE}")
+
+    df = pd.read_csv(DATA_FILE)
+    df = prepare_model_dataset(df, TARGET)
+
+    validate_target(df, TARGET)
+    log_repeated_events(df)
+
+    logger.info("Target: %s", TARGET)
+    logger.info("Liczba obserwacji primary: %d", len(df))
+    logger.info("Zakres danych: %s -> %s",
+                df["Event_Session"].min().date(),
+                df["Event_Session"].max().date())
+    logger.info("Rozkład targetu:\n%s", df[TARGET].value_counts().sort_index().to_string())
 
     results = []
     all_predictions = []
-
-    # ========================================================
-    # WALK-FORWARD
-    # ========================================================
+    all_importances = []
 
     for test_year in TEST_YEARS:
+        train_df = df[df["Event_Session"].dt.year < test_year].copy()
 
-        train_df = df[
-            df[
-                "Event_Session"
-            ].dt.year
-            < test_year
-        ].copy()
+        test_df = df[df["Event_Session"].dt.year == test_year].copy()
 
-        test_df = df[
-            df[
-                "Event_Session"
-            ].dt.year
-            == test_year
-        ].copy()
-
-        if train_df.empty:
+        if train_df.empty or test_df.empty:
+            logger.warning("Pominięcie foldu dla roku %d - pusty TRAIN lub TEST", test_year)
             continue
 
-        if test_df.empty:
-            continue
+        logger.info("FOLD %d | TRAIN=%d (%s -> %s) | TEST=%d (%s -> %s)",
+                    test_year,
+                    len(train_df),
+                    train_df["Event_Session"].min().date(),
+                    train_df["Event_Session"].max().date(),
+                    len(test_df),
+                    test_df["Event_Session"].min().date(),
+                    test_df["Event_Session"].max().date())
 
-        print(
-            "\n"
-            + "=" * 80
-        )
+        logger.info("Target TRAIN:\n%s", train_df[TARGET].value_counts().sort_index().to_string())
+        logger.info("Target TEST:\n%s", test_df[TARGET].value_counts().sort_index().to_string())
 
-        print(
-            f"TEST YEAR: {test_year}"
-        )
+        selected_sec = select_sec_features(train_df,
+                                           candidates=SEC_BINARY_CANDIDATES,
+                                           min_count=MIN_SEC_COUNT)
 
-        print(
-            "=" * 80
-        )
+        sec_counts = {feature: int(train_df[feature].sum()) for feature in selected_sec}
 
-        print(
-            "\nTrain size:",
-            len(train_df),
-        )
+        logger.info("SEC features dla TEST %d:\n%s",
+                    test_year,
+                    pd.Series(sec_counts).to_string())
 
-        print(
-            "Test size:",
-            len(test_df),
-        )
+        for config in build_model_configs(selected_sec):
+            result, predictions, importance = evaluate_catboost(model_name=config["name"],
+                                                                train_df=train_df,
+                                                                test_df=test_df,
+                                                                feature_columns=config["features"],
+                                                                binary_features=config["binary"],
+                                                                test_year=test_year)
 
-        print(
-            "\nTarget TRAIN:"
-        )
+            results.append(result)
+            all_predictions.append(predictions)
+            all_importances.append(importance)
 
-        print(
-            train_df[TARGET]
-            .value_counts()
-            .sort_index()
-        )
+            logger.info("%s | TEST %d | ACC=%.4f | BA=%.4f | F1=%.4f | ROC-AUC=%.4f",
+                        config["name"],
+                        test_year,
+                        result["Accuracy"],
+                        result["Balanced_Accuracy"],
+                        result["F1"],
+                        result["ROC_AUC"])
 
-        print(
-            "\nTarget TEST:"
-        )
+            logger.info("%s | TEST %d | TN=%d FP=%d FN=%d TP=%d",
+                        config["name"],
+                        test_year,
+                        result["TN"],
+                        result["FP"],
+                        result["FN"],
+                        result["TP"])
 
-        print(
-            test_df[TARGET]
-            .value_counts()
-            .sort_index()
-        )
+    if not results:
+        raise RuntimeError("Nie udało się wytrenować CatBoosta")
 
-        # ====================================================
-        # SEC FEATURE SELECTION TYLKO NA TRAIN
-        # ====================================================
+    results_df = pd.DataFrame(results)
+    predictions_df = pd.concat(all_predictions, ignore_index=True)
+    importance_df = pd.concat(all_importances, ignore_index=True)
 
-        sec_features = (
-            select_sec_features(
-                train_df
-            )
-        )
+    summary_df = create_summary(results_df=results_df, predictions_df=predictions_df)
 
-        print(
-            "\nSEC features:"
-        )
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-        for feature in sec_features:
+    results_df.to_csv(FOLD_METRICS_FILE, index=False)
+    predictions_df.to_csv(PREDICTIONS_FILE, index=False)
+    importance_df.to_csv(IMPORTANCE_FILE, index=False)
+    summary_df.to_csv(SUMMARY_FILE, index=False)
 
-            print(
-                f"{feature}: "
-                f"{int(train_df[feature].fillna(0).sum())}"
-            )
+    logger.info("Średnie wyniki walk-forward:\n%s", summary_df.to_string(index=False))
 
-        # ====================================================
-        # A
-        # ====================================================
+    logger.info("Metryki foldów: %s", FOLD_METRICS_FILE)
+    logger.info("Predykcje OOS: %s", PREDICTIONS_FILE)
+    logger.info("Feature importance: %s", IMPORTANCE_FILE)
+    logger.info("Podsumowanie: %s", SUMMARY_FILE)
 
-        features_a = (
-            build_feature_list(
-                sec_features=[],
-                include_sec=False,
-                include_sentiment=False,
-            )
-        )
 
-        (
-            result_a,
-            cm_a,
-            predictions_a,
-        ) = evaluate_model(
-            model_name=(
-                "CAT A - COMPACT MARKET"
-            ),
-            train_df=train_df,
-            test_df=test_df,
-            feature_columns=features_a,
-            test_year=test_year,
-        )
-
-        # ====================================================
-        # B
-        # ====================================================
-
-        features_b = (
-            build_feature_list(
-                sec_features=sec_features,
-                include_sec=True,
-                include_sentiment=False,
-            )
-        )
-
-        (
-            result_b,
-            cm_b,
-            predictions_b,
-        ) = evaluate_model(
-            model_name=(
-                "CAT B - COMPACT + SEC"
-            ),
-            train_df=train_df,
-            test_df=test_df,
-            feature_columns=features_b,
-            test_year=test_year,
-        )
-
-        # ====================================================
-        # C
-        # ====================================================
-
-        features_c = (
-            build_feature_list(
-                sec_features=sec_features,
-                include_sec=True,
-                include_sentiment=True,
-            )
-        )
-
-        (
-            result_c,
-            cm_c,
-            predictions_c,
-        ) = evaluate_model(
-            model_name=(
-                "CAT C - COMPACT + SEC + FINBERT"
-            ),
-            train_df=train_df,
-            test_df=test_df,
-            feature_columns=features_c,
-            test_year=test_year,
-        )
-
-        results.extend(
-            [
-                result_a,
-                result_b,
-                result_c,
-            ]
-        )
-
-        all_predictions.extend(
-            [
-                predictions_a,
-                predictions_b,
-                predictions_c,
-            ]
-        )
-
-        # ====================================================
-        # RAPORT FOLDU
-        # ====================================================
-
-        fold_results = pd.DataFrame(
-            [
-                result_a,
-                result_b,
-                result_c,
-            ]
-        )
-
-        print(
-            "\nWyniki:"
-        )
-
-        print(
-            fold_results[
-                [
-                    "Model",
-                    "Accuracy",
-                    "Balanced_Accuracy",
-                    "Precision",
-                    "Recall",
-                    "F1",
-                    "ROC_AUC",
-                ]
-            ].to_string(
-                index=False
-            )
-        )
-
-        print(
-            "\nConfusion Matrix - CAT A:"
-        )
-        print(
-            cm_a
-        )
-
-        print(
-            "\nConfusion Matrix - CAT B:"
-        )
-        print(
-            cm_b
-        )
-
-        print(
-            "\nConfusion Matrix - CAT C:"
-        )
-        print(
-            cm_c
-        )
-
-    # ========================================================
-    # WYNIKI WSZYSTKICH FOLDÓW
-    # ========================================================
-
-    results_df = pd.DataFrame(
-        results
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "WSZYSTKIE FOLDY"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        results_df.to_string(
-            index=False
-        )
-    )
-
-    # ========================================================
-    # ŚREDNIE
-    # ========================================================
-
-    metric_columns = [
-        "Accuracy",
-        "Balanced_Accuracy",
-        "Precision",
-        "Recall",
-        "F1",
-        "ROC_AUC",
-    ]
-
-    summary = (
-        results_df
-        .groupby(
-            "Model"
-        )[metric_columns]
-        .mean()
-        .sort_values(
-            by="Balanced_Accuracy",
-            ascending=False,
-        )
-    )
-
-    print(
-        "\n"
-        + "=" * 80
-    )
-
-    print(
-        "ŚREDNIE OOS"
-    )
-
-    print(
-        "=" * 80
-    )
-
-    print(
-        summary
-    )
-
-    # ========================================================
-    # PREDYKCJE
-    # ========================================================
-
-    predictions_df = pd.concat(
-        all_predictions,
-        ignore_index=True,
-    )
-
-    OUTPUT_PREDICTIONS_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
-
-    predictions_df.to_csv(
-        OUTPUT_PREDICTIONS_FILE,
-        index=False,
-    )
-
-    print(
-        "\nLiczba predykcji OOS:"
-    )
-
-    print(
-        len(predictions_df)
-    )
-
-    print(
-        "\nPredykcje per model:"
-    )
-
-    print(
-        predictions_df[
-            "Model"
-        ]
-        .value_counts()
-        .sort_index()
-    )
-
-    print(
-        "\nPredykcje zapisano do:"
-    )
-
-    print(
-        OUTPUT_PREDICTIONS_FILE
-    )
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
+    main()

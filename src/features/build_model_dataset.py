@@ -1,8 +1,4 @@
-##############################################################################
-# Ten plik odpowiada za budowe głównej ramki danych, ktróej
-# będą używaly już modele ML
-###############################################################################
-
+# Plik siódmy - tworzenie datasetu danych dla modeli ML
 
 from pathlib import Path
 import logging
@@ -20,7 +16,7 @@ MARKET_INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "market_features.csv"
 OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "model_dataset.csv"
 
 
-# Cechy rynkowe 
+# Cechy rynkowe
 MARKET_FEATURE_COLUMNS = [
     "Log_Return_1D",
     "Log_Return_3D",
@@ -33,8 +29,7 @@ MARKET_FEATURE_COLUMNS = [
     "Daily_Range",
 ]
 
-# Cechy Rolling Z-score
-
+# Cechy rolling Z-score
 ROLLING_Z_FEATURE_COLUMNS = [
     "Log_Return_1D_Z60",
     "Log_Return_3D_Z60",
@@ -56,35 +51,36 @@ BENCHMARK_FEATURE_COLUMNS = [
 ]
 
 
-# DODANIE CECH BENCHMARKU Z FEATURE CUTOFF SESSION
-def merge_benchmark_cutoff_features(
-    df: pd.DataFrame,
-    market_df: pd.DataFrame,
-) -> pd.DataFrame:
-    """
-    Dla każdego filingu zajduje stan benchmarku QQQ
-    """
-    
-    # Wybór QQQ
-    benchmark_df = market_df.loc[
-        market_df["Ticker"] == BENCHMARK_TICKER,
-        ["Date", "Adj_Close"] + BENCHMARK_FEATURE_COLUMNS,
-    ].copy()
+# Dodanie cech benchmarku
+def merge_benchmark_cutoff_features(df: pd.DataFrame, market_df: pd.DataFrame,) -> pd.DataFrame:
+    """Dodaje stan benchmarku QQQ z sesji Feature_Cutoff_Session"""
+
+    required_columns = ["Ticker", "Date", "Adj_Close"] + BENCHMARK_FEATURE_COLUMNS
+    missing_columns = [col for col in required_columns if col not in market_df.columns]
+
+    if missing_columns:
+        raise ValueError(f"Brakuje wymaganych kolumn: {missing_columns}")
+
+    market_df = market_df.copy()
+    market_df["Date"] = pd.to_datetime(market_df["Date"], errors="raise")
+
+    df = df.copy()
+    df["Feature_Cutoff_Session"] = pd.to_datetime(df["Feature_Cutoff_Session"], errors="raise")
+
+    benchmark_df = market_df.loc[market_df["Ticker"] == BENCHMARK_TICKER,
+                                 ["Date", "Adj_Close"] + BENCHMARK_FEATURE_COLUMNS].copy()
 
     if benchmark_df.empty:
-        raise ValueError(
-            f"Nie znaleziono benchmarku {BENCHMARK_TICKER} "
-            "w market_features.csv."
-        )
+        raise ValueError(f"Nie znaleziono benchmarku {BENCHMARK_TICKER}")
 
     benchmark_df = benchmark_df.rename(columns={
-            "Date": "Feature_Cutoff_Session",
-            "Adj_Close": "QQQ_Cutoff_Adj_Close",
-            "Log_Return_1D": "QQQ_Log_Return_1D",
-            "Log_Return_3D": "QQQ_Log_Return_3D",
-            "Log_Return_5D": "QQQ_Log_Return_5D",
-            "Volatility_14D": "QQQ_Volatility_14D",
-        })
+        "Date": "Feature_Cutoff_Session",
+        "Adj_Close": "QQQ_Cutoff_Adj_Close",
+        "Log_Return_1D": "QQQ_Log_Return_1D",
+        "Log_Return_3D": "QQQ_Log_Return_3D",
+        "Log_Return_5D": "QQQ_Log_Return_5D",
+        "Volatility_14D": "QQQ_Volatility_14D",
+    })
 
     result = df.merge(
         benchmark_df,
@@ -93,25 +89,18 @@ def merge_benchmark_cutoff_features(
         validate="many_to_one",
     )
 
-    # Sprawdzenie czy QQQ dopassowało sie do każdego filingu
     missing_benchmark = result["QQQ_Cutoff_Adj_Close"].isna()
 
     if missing_benchmark.any():
-        missing_rows = result.loc[
-            missing_benchmark,
-            ["Ticker", "Accession", "Feature_Cutoff_Session"],
-        ]
+        missing_rows = result.loc[missing_benchmark,["Ticker", "Accession", "Feature_Cutoff_Session"]]
 
-        raise ValueError(
-            "Brak danych QQQ dla części Feature_Cutoff_Session:\n"
-            f"{missing_rows.to_string(index=False)}"
-        )
+        raise ValueError(f"Brak danych QQQ dla części Feature_Cutoff_Session:\n{missing_rows.to_string(index=False)}")
 
     return result
 
 
 # Walidacja danych SEC
-def validate_sec_data(df: pd.DataFrame,) -> None:
+def validate_sec_data(df: pd.DataFrame) -> None:
 
     required_columns = [
         "Ticker",
@@ -124,58 +113,37 @@ def validate_sec_data(df: pd.DataFrame,) -> None:
         "Mean_Net_Sentiment",
     ]
 
-    missing_columns = [
-        column
-        for column in required_columns
-        if column not in df.columns
-    ]
+    missing_columns = [col for col in required_columns if col not in df.columns]
 
     if missing_columns:
-        raise ValueError(
-            "Brakuje wymaganych kolumn w "
-            f"sec_event_features.csv: {missing_columns}"
-        )
+        raise ValueError(f"Brakuje wymaganych kolumn: {missing_columns}")
 
-    # Każdy accession powinien występować dokładnie raz
-    duplicate_mask = df.duplicated(
-        subset=["Ticker", "Accession"],
-        keep=False,
-    )
+    # Każdy filing powinien występować dokładnie raz
+    duplicate_mask = df.duplicated(subset=["Ticker", "Accession"], keep=False,)
 
     if duplicate_mask.any():
-        duplicates = df.loc[
-            duplicate_mask,
-            ["Ticker", "Accession"],
-        ]
+        duplicates = df.loc[duplicate_mask, ["Ticker", "Accession"]]
 
-        raise ValueError(
-            "Znaleziono zduplikowane filingi:\n"
-            f"{duplicates.to_string(index=False)}"
-        )
+        raise ValueError(f"Znaleziono zduplikowane filingi:\n{duplicates.to_string(index=False)}")
 
-    # Kontrola czy nie ma nanów dla kluczowych wartości
+    # Kluczowe kolumny potrzebne do budowy datasetu
     critical_columns = [
         "Ticker",
         "Accession",
         "Publication_Period",
         "Feature_Cutoff_Session",
-        "Event_Session",
+        "Event_Session"
     ]
 
     missing_critical = df[critical_columns].isna().any(axis=1)
 
     if missing_critical.any():
-        invalid_rows = df.loc[
-            missing_critical,
-            ["Ticker", "Accession"] + critical_columns[2:],
-        ]
+        invalid_rows = df.loc[missing_critical,
+                              ["Ticker", "Accession", "Publication_Period",
+                                "Feature_Cutoff_Session", "Event_Session", "Mean_Net_Sentiment"]]
 
-        raise ValueError(
-            "Znaleziono filing z brakującymi danymi "
-            "wymaganymi do budowy datasetu:\n"
-            f"{invalid_rows.to_string(index=False)}"
-        )
-
+        raise ValueError("Znaleziono filing z brakującymi danymi wymaganymi do budowy datasetu:\n"
+                         f"{invalid_rows.to_string(index=False)}")
 
     valid_periods = {
         "PRE_MARKET",
@@ -187,96 +155,47 @@ def validate_sec_data(df: pd.DataFrame,) -> None:
     unexpected_periods = set(df["Publication_Period"].unique()) - valid_periods
 
     if unexpected_periods:
-        raise ValueError(
-            "Niepoprawne wartości Publication_Period: "
-            f"{unexpected_periods}"
-        )
+        raise ValueError(f"Niepoprawne wartości: {unexpected_periods}")
 
     cutoff_dates = pd.to_datetime(df["Feature_Cutoff_Session"], errors="raise")
+
     event_dates = pd.to_datetime(df["Event_Session"], errors="raise")
 
     if (cutoff_dates >= event_dates).any():
-        raise ValueError(
-            "Feature_Cutoff_Session musi być wcześniejsza "
-            "niż Event_Session."
-        )
+        raise ValueError("Feature_Cutoff_Session musi być wcześniejsza niż Event_Session")
 
 
 
-# WALIDACJA DANYCH RYNKOWYCH
-def validate_market_data(df: pd.DataFrame,) -> None:
+# sprawdzamy dane rynkowe
+def validate_market_features(df: pd.DataFrame) -> None:
 
-    required_columns = [
-        "Ticker",
-        "Date",
-        "Adj_Close",
-    ] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
-
-    missing_columns = [
-        column
-        for column in required_columns
-        if column not in df.columns
-    ]
+    required_columns = ["Ticker", "Date", "Adj_Close"] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
+    
+    missing_columns = [column for column in required_columns if column not in df.columns]
 
     if missing_columns:
-        raise ValueError(
-            "Brakuje wymaganych kolumn "
-            "w market_features.csv:\n"
-            + f"{missing_columns})"
-        )
+        raise ValueError(f"Brakuje wymaganych kolumn w market_features.csv: {missing_columns}")
 
-    duplicate_mask = df.duplicated(
-        subset=["Ticker", "Date"],
-        keep=False,
-    )
+    duplicate_mask = df.duplicated(subset=["Ticker", "Date"], keep=False,)
 
     if duplicate_mask.any():
+        duplicates = df.loc[duplicate_mask, ["Ticker", "Date"]]
 
-        duplicates = df.loc[
-            duplicate_mask,
-            ["Ticker", "Date"]
-        ]
+        raise ValueError("Znaleziono zduplikowane Ticker + Date:\n"
+                        f"{duplicates.to_string(index=False)}")
 
-        raise ValueError(
-            "Znaleziono zduplikowane "
-            "Ticker + Date w market_features.csv:\n"
-            f"{duplicates}"
-        )
+    adj_close = pd.to_numeric(df["Adj_Close"], errors="coerce")
 
-
-    adj_close = pd.to_numeric(
-        df["Adj_Close"],
-        errors="coerce",
-    )
-
-    # Zła cena <0, Nan lub inf , -inf
-    invalid_price_mask = (
-        adj_close.isna()
-        | ~np.isfinite(adj_close)
-        | (adj_close <= 0)
-    )
+    invalid_price_mask = (adj_close.isna() | ~np.isfinite(adj_close) | (adj_close <= 0))
 
     if invalid_price_mask.any():
-        invalid_rows = df.loc[
-            invalid_price_mask,
-            ["Ticker", "Date", "Adj_Close"],
-        ]
+        invalid_rows = df.loc[invalid_price_mask, ["Ticker", "Date", "Adj_Close"]]
 
-        raise ValueError(
-            "Znaleziono niepoprawne wartości Adj_Close:\n"
-            f"{invalid_rows.to_string(index=False)}"
-        )
+        raise ValueError(f"Znaleziono niepoprawne wartości:\n{invalid_rows.to_string(index=False)}")
 
 
 def parse_acceptance_utc(series: pd.Series) -> pd.Series:
-    """
-    Parsuje Acceptance_DateTime_ET do UTC
-
-    Wymagamy jawnej informacji o strefie czasowej np.:
-    2026-05-20T16:21:19-04:00
-
-    Nie bierzemy naive datetime bo nie chcemy zgadywać strefy czasowej
-    """
+    """Parsuje Acceptance_DateTime_ET do UTC"""
 
     timestamp_text = series.astype("string").str.strip()
 
@@ -289,11 +208,8 @@ def parse_acceptance_utc(series: pd.Series) -> pd.Series:
     if not has_timezone.all():
         invalid_values = timestamp_text[~has_timezone]
 
-        raise ValueError(
-            "Znaleziono brakujące Acceptance_DateTime_ET "
-            "lub wartości bez jawnego offsetu strefy czasowej:\n"
-            f"{invalid_values.to_string()}"
-        )
+        raise ValueError("Znaleziono brakujące Acceptance_DateTime_ET lub wartości bez jawnego offsetu strefy czasowej:\n"
+            f"{invalid_values.to_string()}")
 
     return pd.to_datetime(
         timestamp_text,
@@ -303,8 +219,6 @@ def parse_acceptance_utc(series: pd.Series) -> pd.Series:
     )
 
 
-
-########## WALIDACJA MARKET MATCHES ###############
 def validate_market_matches(df: pd.DataFrame) -> None:
     required_price_columns = [
         "Cutoff_Adj_Close",
@@ -313,339 +227,168 @@ def validate_market_matches(df: pd.DataFrame) -> None:
         "QQQ_Event_Adj_Close",
     ]
 
-    missing_columns = [
-        column for column in required_price_columns
-        if column not in df.columns
-    ]
+    required_columns = [
+        "Ticker",
+        "Accession",
+        "Feature_Cutoff_Session",
+        "Event_Session",
+    ] + required_price_columns
+
+    missing_columns = [column for column in required_columns if column not in df.columns]
 
     if missing_columns:
-        raise ValueError(
-            "Brakuje kolumn wymaganych do walidacji "
-            f"danych rynkowych: {missing_columns}"
-        )
+        raise ValueError(f"Brakuje kolumn wymaganych do walidacji danych rynkowych: {missing_columns}")
 
-    price_data = df[required_price_columns].apply(
-        pd.to_numeric,
-        errors="coerce",
-    )
+    price_data = df[required_price_columns].apply(pd.to_numeric, errors="coerce")
 
-    invalid_price_mask = (
-        price_data.isna()
-        | ~np.isfinite(price_data)
-        | (price_data <= 0)
-    ).any(axis=1)
+    invalid_price_mask = (price_data.isna() | ~np.isfinite(price_data) | (price_data <= 0)).any(axis=1)
 
     if invalid_price_mask.any():
-        invalid_rows = df.loc[
-            invalid_price_mask,
-            [
-                "Ticker",
-                "Accession",
-                "Feature_Cutoff_Session",
-                "Event_Session",
-            ] + required_price_columns,
-        ]
+        invalid_rows = df.loc[invalid_price_mask,
+            ["Ticker", "Accession", "Feature_Cutoff_Session", "Event_Session"] + required_price_columns]
 
-        raise ValueError(
-            "Znaleziono brakujące lub niepoprawne "
-            "dane cenowe spółki lub QQQ:\n"
-            f"{invalid_rows.to_string(index=False)}"
-        )
+        raise ValueError("Znaleziono brakujące lub niepoprawne dane cenowe spółki lub QQQ:\n"
+            f"{invalid_rows.to_string(index=False)}")
 
 
-
-# Momentum dla sentymentów
-def add_sentiment_momentum(
-    df: pd.DataFrame,
-) -> pd.DataFrame:
+# Momentum sentymentu
+def add_sentiment_momentum(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Liczy różnicę między sentymentem bieżącego filingu a średnim sentymentem
-    maksymalnie 3 wcześniejszych filingów z dostępnym sentymentem
-
-    Finingi bez Mean_Net_Sentiment nie są traktowane jako neutralne i nie wchodzą
-    do historii sentymentu
+    Porównuje sentyment bieżącego filingu ze średnim sentymentem maksymalnie 3 wcześniejszych filingów
+    tej samej spółki
     """
-
 
     df = df.copy()
-
-    # pomocnicza kolumna - pozniej jest usuwana
     df["_Acceptance_UTC"] = parse_acceptance_utc(df["Acceptance_DateTime_ET"])
 
-    # Sprowadznie na ten sam czas
-    same_time_mask = df.duplicated(
-        subset=["Ticker", "_Acceptance_UTC"],
-        keep=False,
-    )
+    # Ten sam czas publikacji uniemożliwia ustalenie kolejności
+    same_time_mask = df.duplicated(subset=["Ticker", "_Acceptance_UTC"], keep=False)
 
     if same_time_mask.any():
-        same_time_rows = df.loc[
-            same_time_mask,
-            ["Ticker", "Accession", "_Acceptance_UTC"],
-        ]
+        same_time_rows = df.loc[same_time_mask, ["Ticker", "Accession", "_Acceptance_UTC"]]
 
-        raise ValueError(
-            "Znaleziono kilka filingów tego samego tickera "
-            "z identycznym Acceptance_DateTime_ET:\n"
-            f"{same_time_rows.to_string(index=False)}"
-        )
+        raise ValueError("Znaleziono kilka filingów tego samego tickera z identycznym Acceptance_DateTime_ET:\n"
+            f"{same_time_rows.to_string(index=False)}")
 
-
-
-    df.sort_values(
-        by=["Ticker", "_Acceptance_UTC", "Accession"],
-        inplace=True,
-        ignore_index=True,
-    )
+    df = df.sort_values(["Ticker", "_Acceptance_UTC", "Accession"]).reset_index(drop=True)
 
     df["Previous_Sentiment_Mean_3"] = np.nan
+    df["Sentiment_History_Count_3"] = pd.Series(pd.NA, index=df.index, dtype="Int64")
 
-    df["Sentiment_History_Count_3"] = pd.Series(
-        pd.NA,
-        index=df.index,
-        dtype="Int64",
-    )
-
-
-    # TYLKO FILINGI Z DOSTĘPNYM SENTYMENTEM
+    # Do historii trafiają tylko filingi z dostępnym sentymentem
     valid_mask = df["Mean_Net_Sentiment"].notna()
 
-    sentiment_history = df.loc[
-        valid_mask,
-        ["Ticker", "Mean_Net_Sentiment"]
-    ].copy()
+    sentiment_history = df.loc[valid_mask, ["Ticker", "Mean_Net_Sentiment"]].copy()
 
-   
-    # Poprzedni sentyment - shift(1) nie bierze obecnego tylko poprzednie
-    shifted_sentiment = (
-        sentiment_history
-        .groupby("Ticker", sort=False)["Mean_Net_Sentiment"].shift(1)
-    )
+    grouped = sentiment_history.groupby("Ticker", sort=False)["Mean_Net_Sentiment"]
 
-    # srednia z poprzenich
-    previous_mean = (
-        shifted_sentiment
-        .groupby(sentiment_history["Ticker"], sort=False)
-        .rolling(window=3, min_periods=1)
-        .mean()
-        .reset_index(level=0, drop=True)
-    )
+    sentiment_history["Previous_Sentiment_Mean_3"] = grouped.transform(
+        lambda s: s.shift(1).rolling(3, min_periods=1).mean())
 
-    # zliczanie
-    previous_count = (
-        shifted_sentiment
-        .groupby(sentiment_history["Ticker"], sort=False)
-        .rolling(window=3, min_periods=1)
-        .count()
-        .reset_index(level=0, drop=True)
-        .astype("Int64")
-    )
+    sentiment_history["Sentiment_History_Count_3"] = grouped.transform(
+        lambda s: s.shift(1).rolling(3, min_periods=1).count()).astype("Int64")
 
-    df.loc[
-        sentiment_history.index,
-        "Previous_Sentiment_Mean_3",
-    ] = previous_mean
+    # Liczenie momentum
+    df.loc[sentiment_history.index, "Previous_Sentiment_Mean_3"] = sentiment_history["Previous_Sentiment_Mean_3"]
 
-    df.loc[
-        sentiment_history.index,
-        "Sentiment_History_Count_3",
-    ] = previous_count
+    df.loc[sentiment_history.index, "Sentiment_History_Count_3"] = sentiment_history["Sentiment_History_Count_3"]
 
-
-    ##### Momentum ####
     df["Sentiment_Momentum_3"] = df["Mean_Net_Sentiment"] - df["Previous_Sentiment_Mean_3"]
     
-
-    df.drop(
-        columns=["_Acceptance_UTC"],
-        inplace=True,
-    )
-
-    return df
+    return df.drop(columns="_Acceptance_UTC")
 
 
+# Łączenie cech rynkowych z feature cutoff season
+def merge_cutoff_market_features(sec_df: pd.DataFrame, market_df: pd.DataFrame) -> pd.DataFrame:
 
-# ŁĄCZENIE CECH RYNKOWYCH Z FEATURE CUTOFF SESSION
-def merge_cutoff_market_features(
-    sec_df: pd.DataFrame,
-    market_df: pd.DataFrame,
-) -> pd.DataFrame:
-
-    cutoff_market = market_df[
-        ["Ticker", "Date", "Adj_Close"]
-        + MARKET_FEATURE_COLUMNS
-        + ROLLING_Z_FEATURE_COLUMNS
-    ].copy()
+    cutoff_market = market_df[["Ticker", "Date", "Adj_Close"] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS].copy()
 
     cutoff_market = cutoff_market.rename(columns={
-            "Date": "Feature_Cutoff_Session",
-            "Adj_Close": "Cutoff_Adj_Close",
-        })
+        "Date": "Feature_Cutoff_Session",
+        "Adj_Close": "Cutoff_Adj_Close",
+    })
 
-    result = sec_df.merge(
+    return sec_df.merge(
         cutoff_market,
         on=["Ticker", "Feature_Cutoff_Session"],
         how="left",
         validate="many_to_one",
     )
 
-    return result
 
+# Dodanie cechy z event session
+def merge_event_price(df: pd.DataFrame, market_df: pd.DataFrame) -> pd.DataFrame:
 
-
-# DODANIE CENY Z EVENT SESSION
-def merge_event_price(
-    df: pd.DataFrame,
-    market_df: pd.DataFrame,
-) -> pd.DataFrame:
-
-    event_prices = market_df[
-        ["Ticker", "Date", "Adj_Close"]
-    ].copy()
+    event_prices = market_df[["Ticker", "Date", "Adj_Close"]].copy()
 
     event_prices = event_prices.rename(columns={
         "Date": "Event_Session",
         "Adj_Close": "Event_Adj_Close",
     })
 
-    result = df.merge(
+    return df.merge(
         event_prices,
         on=["Ticker", "Event_Session"],
         how="left",
         validate="many_to_one",
     )
 
-    return result
-
-
 
 # DODANIE CENY BENCHMARKU Z EVENT SESSION
-def merge_benchmark_event_price(
-    df: pd.DataFrame,
-    market_df: pd.DataFrame,
-) -> pd.DataFrame:
+def merge_benchmark_event_price(df: pd.DataFrame, market_df: pd.DataFrame,) -> pd.DataFrame:
 
-    df = df.copy()
-
-    benchmark_prices = market_df.loc[
-        market_df["Ticker"] == BENCHMARK_TICKER,
-        ["Date", "Adj_Close"]
-    ].copy()
+    benchmark_prices = market_df.loc[market_df["Ticker"] == BENCHMARK_TICKER, ["Date", "Adj_Close"]].copy()
 
     if benchmark_prices.empty:
-        raise ValueError(
-            f"Nie znaleziono benchmarku {BENCHMARK_TICKER} "
-            "w market_features.csv."
-        )
+        raise ValueError(f"Nie znaleziono benchmarku {BENCHMARK_TICKER}")
 
     benchmark_prices = benchmark_prices.rename(columns={
-            "Date": "Event_Session",
-            "Adj_Close": "QQQ_Event_Adj_Close",
-        })
+        "Date": "Event_Session",
+        "Adj_Close": "QQQ_Event_Adj_Close",
+    })
 
-    result = df.merge(
+    return df.merge(
         benchmark_prices,
         on="Event_Session",
         how="left",
         validate="many_to_one",
     )
 
-    return result
 
-
-# RELATYWNE CECHY SPÓŁKA VS QQQ
+# Relatywne cechy vs QQQ
 def add_relative_market_features(df: pd.DataFrame) -> pd.DataFrame:
-
     df = df.copy()
 
-    df["Stock_vs_QQQ_1D"] = df["Log_Return_1D"]- df["QQQ_Log_Return_1D"]
+    df["Stock_vs_QQQ_1D"] = df["Log_Return_1D"] - df["QQQ_Log_Return_1D"]
     df["Stock_vs_QQQ_3D"] = df["Log_Return_3D"] - df["QQQ_Log_Return_3D"]
     df["Stock_vs_QQQ_5D"] = df["Log_Return_5D"] - df["QQQ_Log_Return_5D"]
-    return df
-
-
-# REAKCJA SPÓŁKI WZGLĘDEM BENCHMARKU
-def add_benchmark_event_metrics( df: pd.DataFrame) -> pd.DataFrame:
-
-    qqq_cutoff_price = pd.to_numeric(
-        df["QQQ_Cutoff_Adj_Close"],
-        errors="coerce",
-    )
-
-    qqq_event_price = pd.to_numeric(
-        df["QQQ_Event_Adj_Close"],
-        errors="coerce",
-    )
-
-    valid_mask = (
-        df["Event_Return_1D"].notna()
-        & qqq_cutoff_price.notna()
-        & qqq_event_price.notna()
-        & np.isfinite(qqq_cutoff_price)
-        & np.isfinite(qqq_event_price)
-        & (qqq_cutoff_price > 0)
-        & (qqq_event_price > 0)
-    )
-
-    df["QQQ_Event_Return_1D"] = np.nan
-
-    df.loc[valid_mask, "QQQ_Event_Return_1D"] = (
-        qqq_event_price[valid_mask] / qqq_cutoff_price[valid_mask] - 1
-    )
-
-    df["Abnormal_Event_Return_1D"] = df["Event_Return_1D"]- df["QQQ_Event_Return_1D"]
 
     return df
 
 
-
-# TARGET
-def create_target(df: pd.DataFrame) -> pd.DataFrame:
-
+# Reakcja spółki względem Benchmarku
+def add_benchmark_event_metrics(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
-    cutoff_price = pd.to_numeric(
-        df["Cutoff_Adj_Close"],
-        errors="coerce",
-    )
+    df["QQQ_Event_Return_1D"] = df["QQQ_Event_Adj_Close"] / df["QQQ_Cutoff_Adj_Close"] - 1
+    df["Abnormal_Event_Return_1D"] =  df["Event_Return_1D"] - df["QQQ_Event_Return_1D"]
 
-    event_price = pd.to_numeric(
-        df["Event_Adj_Close"],
-        errors="coerce",
-    )
+    return df
 
-    # Walidacja ceny
-    valid_price_mask = (
-        cutoff_price.notna()
-        & event_price.notna()
-        & np.isfinite(cutoff_price)
-        & np.isfinite(event_price)
-        & (cutoff_price > 0)
-        & (event_price > 0)
-        & (df["Publication_Period"] != "INTRADAY")
-    )
 
-    # EVENT RETURN
+
+# Tworzenie Targetu 
+def create_target(df: pd.DataFrame) -> pd.DataFrame:
+    df = df.copy()
+
+    valid_mask = df["Publication_Period"] != "INTRADAY"
+
     df["Event_Return_1D"] = np.nan
+    df.loc[valid_mask, "Event_Return_1D"] = (
+        df.loc[valid_mask, "Event_Adj_Close"] / df.loc[valid_mask, "Cutoff_Adj_Close"] - 1)
 
-    df.loc[valid_price_mask, "Event_Return_1D"] = (
-        event_price[valid_price_mask] / cutoff_price[valid_price_mask] - 1
-    )
-
-    # TARGET BINARNY
-    # Domyślnie NA, 0/1 przypisujemy tylko tam, gdzie mamy policzony Event_Return_1D
-
-    target = pd.Series(
-        pd.NA,
-        index=df.index,
-        dtype="Int64",
-    )
-
-    target.loc[valid_price_mask] = (
-        df.loc[valid_price_mask, "Event_Return_1D"]
-        .gt(0)
-        .astype(int)
-    )
+    target = pd.Series(pd.NA, index=df.index, dtype="Int64")
+    target.loc[valid_mask] = (df.loc[valid_mask, "Event_Return_1D"] > 0).astype(int)
 
     df["Target_Event_1D"] = target
 
@@ -656,11 +399,7 @@ def create_abnormal_target(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
     if "Abnormal_Event_Return_1D" not in df.columns:
-        raise KeyError(
-            "Brak kolumny: Abnormal_Event_Return_1D "
-        )
-
-    df["Target_Abnormal_1D"] = pd.NA
+        raise KeyError("Brak kolumny: Abnormal_Event_Return_1D")
 
     abnormal_return = pd.to_numeric(
         df["Abnormal_Event_Return_1D"],
@@ -673,20 +412,12 @@ def create_abnormal_target(df: pd.DataFrame) -> pd.DataFrame:
         & (df["Publication_Period"] != "INTRADAY")
     )
 
-    df.loc[
-        valid_mask,
-        "Target_Abnormal_1D"
-    ] = (
-        df.loc[
-            valid_mask,
-            "Abnormal_Event_Return_1D"
-        ] > 0
+    target = pd.Series(pd.NA, index=df.index, dtype="Int64")
+    target.loc[valid_mask] = (
+        abnormal_return.loc[valid_mask] > 0
     ).astype(int)
 
-    df["Target_Abnormal_1D"] = (
-        df["Target_Abnormal_1D"]
-        .astype("Int64")
-    )
+    df["Target_Abnormal_1D"] = target
 
     return df
 
@@ -696,58 +427,38 @@ def validate_temporal_order(df: pd.DataFrame,) -> None:
 
     df = df.copy()
 
-    cutoff = pd.to_datetime(
-        df["Feature_Cutoff_Session"],
-        errors="coerce",
-    )
+    cutoff = pd.to_datetime(df["Feature_Cutoff_Session"], errors="coerce")
 
-    event = pd.to_datetime(
-        df["Event_Session"],
-        errors="coerce",
-    )
+    event = pd.to_datetime(df["Event_Session"], errors="coerce")
 
-    missing_mask = (
-        cutoff.isna()
-        | event.isna()
-    )
+    missing_mask = (cutoff.isna() | event.isna())
 
     if missing_mask.any():
-        invalid_rows = df.loc[
-            missing_mask,
-            ["Ticker", "Accession", "Feature_Cutoff_Session", "Event_Session"],
-        ]
+        invalid_rows = df.loc[missing_mask, ["Ticker", "Accession", "Feature_Cutoff_Session", "Event_Session"]]
 
-        raise ValueError(
-            "Brak wymaganej daty sesji:\n"
-            f"{invalid_rows.to_string(index=False)}"
-        )
+        raise ValueError(f"Brak wymaganej daty sesji:\n{invalid_rows.to_string(index=False)}")
 
     invalid_mask = cutoff >= event
 
     if invalid_mask.any():
-        invalid_rows = df.loc[
-            invalid_mask,
-            ["Ticker", "Accession", "Publication_Period", "Feature_Cutoff_Session", "Event_Session"]
-        ]
+        invalid_rows = df.loc[invalid_mask,
+            ["Ticker", "Accession", "Publication_Period", "Feature_Cutoff_Session", "Event_Session"]]
 
-        raise ValueError(
-            "Feature_Cutoff_Session musi być "
-            "wcześniejsza niż Event_Session:\n"
-            f"{invalid_rows.to_string(index=False)}"
-        )
+        raise ValueError("Feature_Cutoff_Session musi być wcześniejsza niż Event_Session:\n"
+            f"{invalid_rows.to_string(index=False)}")
 
 
-###################################
-# Budowa datasetu
-###################################
-def build_model_dataset(
-    sec_df: pd.DataFrame,
-    market_df: pd.DataFrame,
-) -> pd.DataFrame:
+# Tworzenie końcowej ramki danych
+def build_model_dataset(sec_df: pd.DataFrame, market_df: pd.DataFrame) -> pd.DataFrame:
 
     result = sec_df.copy()
     market_work = market_df.copy()
 
+    # Walidacja danych
+    validate_sec_data(result)
+    validate_market_features(market_work)
+
+    # Formatowanie dat
     sec_date_columns = [
         "Filing_Date",
         "Feature_Cutoff_Session",
@@ -755,173 +466,105 @@ def build_model_dataset(
     ]
 
     for column in sec_date_columns:
-        result[column] = pd.to_datetime(
-            result[column],
-            errors="raise",
-        ).dt.normalize()
+        result[column] = pd.to_datetime(result[column], errors="raise").dt.normalize()
 
-    market_work["Date"] = pd.to_datetime(
-        market_work["Date"],
-        errors="raise",
-    ).dt.normalize()
+    market_work["Date"] = pd.to_datetime(market_work["Date"], errors="raise").dt.normalize()
 
-    validate_sec_data(result)
-    validate_market_data(market_work)
-
+    # Dodadawanie cech
+    # Momentum
     result = add_sentiment_momentum(result)
 
+    # Cechy spółki z Cutoff
+    result = merge_cutoff_market_features(result, market_work)
 
-    # CECHY SPÓŁKI Z CUTOFF
-    result = merge_cutoff_market_features(
-        sec_df=result,
-        market_df=market_work,
-    )
+    # Cena spółki z Session
+    result = merge_event_price(result, market_work)
 
-    # CENA SPÓŁKI Z EVENT SESSION
-    result = merge_event_price(
-        df=result,
-        market_df=market_work,
-    )
+    # QQQ z feature cutoff season
+    result = merge_benchmark_cutoff_features(result, market_work)
 
+    # QQQ z event season
+    result = merge_benchmark_event_price(result, market_work)
 
-    # QQQ Z FEATURE CUTOFF SESSION
-    result = merge_benchmark_cutoff_features(
-        df=result,
-        market_df=market_work,
-    )
-
-    # QQQ Z EVENT SESSION
-    result = merge_benchmark_event_price(
-        df=result,
-        market_df=market_work,
-    )
-
-    # WALIDACJA MERGE
+    # walidacja złączenia ramek danych
     validate_market_matches(result)
 
-    # RELATYWNE CECHY RYNKOWE
+    # relatywne cechy
     result = add_relative_market_features(result)
 
-    # TARGET SPÓŁKI
+    # target
     result = create_target(result)
 
-    # REAKCJA WZGLĘDEM QQQ
+    # rekacja wzgledem qqq
     result = add_benchmark_event_metrics(result)
 
-    # TARGET ABNORMAL RETURN
+    # target abnormal
     result = create_abnormal_target(result)
 
-    # Nie usuwamy INTERDAY, ale zostawimay bez udzialu
-    result["Use_In_Primary_Model"] = (
-        result["Publication_Period"] != "INTRADAY"
-    ).astype(int)
+    # Pominięcie INTERDAY
+    has_sentiment = result["Mean_Net_Sentiment"].notna()
 
-
+    result["Use_In_Primary_Model"] = ((result["Publication_Period"] != "INTRADAY")
+                                    & has_sentiment).astype(int)
     primary_mask = result["Use_In_Primary_Model"] == 1
 
+    # Sprawdzenie czy kazda obserwacja ma y
     if result.loc[primary_mask, "Target_Abnormal_1D"].isna().any():
-        raise ValueError(
-            "Znaleziono obserwację primary model bez Target_Abnormal_1D"
-        )
+        raise ValueError("Znaleziono obserwację primary model bez Target_Abnormal_1D")
 
     validate_temporal_order(result)
 
+    # Format dat do zapisu CSV
     for column in sec_date_columns:
-        result[column] = pd.to_datetime(
-            result[column],
-            errors="raise"
-        ).dt.date
+        result[column] = pd.to_datetime(result[column], errors="raise").dt.date
 
-    result.sort_values(
-        by=["Ticker", "Filing_Date", "Accession"],
-        inplace=True,
-        ignore_index=True,
-    )
-
-    return result
+    return result.sort_values(["Ticker", "Filing_Date", "Accession"]).reset_index(drop=True)
+    
 
 
 
 def main() -> None:
 
     if not SEC_INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku: {SEC_INPUT_FILE}"
-        )
+        raise FileNotFoundError(f"Nie znaleziono pliku: {SEC_INPUT_FILE}")
 
     if not MARKET_INPUT_FILE.exists():
-        raise FileNotFoundError(
-            f"Nie znaleziono pliku: {MARKET_INPUT_FILE}"
-        )
+        raise FileNotFoundError(f"Nie znaleziono pliku: {MARKET_INPUT_FILE}")
 
-    # wczytanie danych
+    # Wczytanie danych
     df_sec = pd.read_csv(SEC_INPUT_FILE)
     df_market = pd.read_csv(MARKET_INPUT_FILE)
 
-    logger.info(
-        "Wczytano %d filingów SEC i %d obserwacji rynkowych.",
-        len(df_sec),
-        len(df_market),
-    )
+    logger.info("Wczytano %d filingów SEC i %d obserwacji rynkowych", len(df_sec), len(df_market))
 
-  
-    # Budowa datasetu
-    
+    # Tworzenie ramki danych
+    df_model = build_model_dataset(sec_df=df_sec, market_df=df_market,)
 
-    df_model = build_model_dataset(
-        sec_df=df_sec,
-        market_df=df_market,
-    )
 
-   
-    # Walidacja 
+    missing_sentiment_count = int(df_model["Mean_Net_Sentiment"].isna().sum())
+    logger.info("Filingi bez dostępnego sentymentu : %d", missing_sentiment_count)
+
+    # Sprawdzenie
     if len(df_model) != len(df_sec):
-        raise ValueError(
-            "Budowa datasetu zmieniła liczbę filingów: "
-            f"SEC={len(df_sec)}, model={len(df_model)}."
-        )
+        raise ValueError(f"Budowa datasetu zmieniła liczbę filingów: SEC={len(df_sec)}, model={len(df_model)}")
 
     primary_mask = df_model["Use_In_Primary_Model"] == 1
     primary_count = int(primary_mask.sum())
+    excluded_count = len(df_model) - primary_count
 
-    primary_target_counts = (
-        df_model.loc[primary_mask, "Target_Abnormal_1D"]
-        .value_counts(dropna=False)
-        .sort_index()
-    )
+    primary_target_counts = df_model.loc[primary_mask, "Target_Abnormal_1D"].value_counts(dropna=False).sort_index()
 
-    logger.info(
-        "Dataset: %d filingów, primary model: %d filingów.",
-        len(df_model),
-        primary_count,
-    )
+    logger.info("Dataset: %d filingów, primary model: %d, wyłączone: %d.", len(df_model), primary_count, excluded_count)
 
-    logger.info(
-        "Rozkład Target_Abnormal_1D w primary model:\n%s",
-        primary_target_counts.to_string(),
-    )
+    logger.info("Rozkład Target_Abnormal_1D w primary model:\n%s", primary_target_counts.to_string())
 
-    # Zapisywanie
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    # Zapis
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    df_model.to_csv(OUTPUT_FILE, index=False)
 
-    df_model.to_csv(
-        OUTPUT_FILE,
-        index=False,
-    )
-
-    logger.info(
-        "Zapisano dataset modelowy do %s",
-        OUTPUT_FILE,
-    )
+    logger.info("Zapisano dataset modelowy do %s", OUTPUT_FILE)
 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
-    )
-
+    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
     main()
