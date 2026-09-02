@@ -5,6 +5,7 @@ import logging
 
 import numpy as np
 import pandas as pd
+import pandas_market_calendars as mcal
 
 logger = logging.getLogger(__name__)
 
@@ -42,6 +43,8 @@ ROLLING_Z_FEATURE_COLUMNS = [
 ]
 
 BENCHMARK_TICKER = "QQQ"
+MARKET_CALENDAR_NAME = "NASDAQ"
+MIN_SIGNAL_LEAD_MINUTES = 15
 
 BENCHMARK_FEATURE_COLUMNS = [
     "Log_Return_1D",
@@ -169,7 +172,7 @@ def validate_sec_data(df: pd.DataFrame) -> None:
 # sprawdzamy dane rynkowe
 def validate_market_features(df: pd.DataFrame) -> None:
 
-    required_columns = ["Ticker", "Date", "Adj_Close"] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
+    required_columns = ["Ticker", "Date", "Open", "Close", "Adj_Close"] + MARKET_FEATURE_COLUMNS + ROLLING_Z_FEATURE_COLUMNS
     
     missing_columns = [column for column in required_columns if column not in df.columns]
 
@@ -223,8 +226,12 @@ def validate_market_matches(df: pd.DataFrame) -> None:
     required_price_columns = [
         "Cutoff_Adj_Close",
         "Event_Adj_Close",
+        "Event_Open",
+        "Event_Close",
         "QQQ_Cutoff_Adj_Close",
         "QQQ_Event_Adj_Close",
+        "QQQ_Event_Open",
+        "QQQ_Event_Close",
     ]
 
     required_columns = [
@@ -254,48 +261,33 @@ def validate_market_matches(df: pd.DataFrame) -> None:
 # Momentum sentymentu
 def add_sentiment_momentum(df: pd.DataFrame) -> pd.DataFrame:
     """
-    Porównuje sentyment bieżącego filingu ze średnim sentymentem maksymalnie 3 wcześniejszych filingów
-    tej samej spółki
+    Porównuje sentyment bieżącej sesji ze średnim sentymentem maksymalnie
+    3 wcześniejszych sesji z komunikatami tej samej spółki.
     """
-
     df = df.copy()
-    df["_Acceptance_UTC"] = parse_acceptance_utc(df["Acceptance_DateTime_ET"])
+    weights = (pd.to_numeric(df["Sentiment_Total_Tokens"], errors="coerce")
+        if "Sentiment_Total_Tokens" in df.columns else pd.Series(1.0, index=df.index))
+    df["_Sentiment_Weight"] = weights.where(weights.gt(0), 1.0)
+    df["_Weighted_Sentiment"] = df["Mean_Net_Sentiment"] * df["_Sentiment_Weight"]
 
-    # Ten sam czas publikacji uniemożliwia ustalenie kolejności
-    same_time_mask = df.duplicated(subset=["Ticker", "_Acceptance_UTC"], keep=False)
+    valid = df["Mean_Net_Sentiment"].notna()
+    sessions = df.loc[valid].groupby(["Ticker", "Event_Session"], as_index=False).agg(
+        _Weighted_Sentiment=("_Weighted_Sentiment", "sum"),
+        _Sentiment_Weight=("_Sentiment_Weight", "sum"))
+    sessions["Session_Mean_Net_Sentiment"] = sessions["_Weighted_Sentiment"] / sessions["_Sentiment_Weight"]
+    sessions = sessions.sort_values(["Ticker", "Event_Session"]).reset_index(drop=True)
+    grouped = sessions.groupby("Ticker", sort=False)["Session_Mean_Net_Sentiment"]
+    sessions["Previous_Sentiment_Mean_3"] = grouped.transform(
+        lambda values: values.shift(1).rolling(3, min_periods=1).mean())
+    sessions["Sentiment_History_Count_3"] = grouped.transform(
+        lambda values: values.shift(1).rolling(3, min_periods=1).count()).astype("Int64")
+    sessions["Sentiment_Momentum_3"] = (
+        sessions["Session_Mean_Net_Sentiment"] - sessions["Previous_Sentiment_Mean_3"])
 
-    if same_time_mask.any():
-        same_time_rows = df.loc[same_time_mask, ["Ticker", "Accession", "_Acceptance_UTC"]]
-
-        raise ValueError("Znaleziono kilka filingów tego samego tickera z identycznym Acceptance_DateTime_ET:\n"
-            f"{same_time_rows.to_string(index=False)}")
-
-    df = df.sort_values(["Ticker", "_Acceptance_UTC", "Accession"]).reset_index(drop=True)
-
-    df["Previous_Sentiment_Mean_3"] = np.nan
-    df["Sentiment_History_Count_3"] = pd.Series(pd.NA, index=df.index, dtype="Int64")
-
-    # Do historii trafiają tylko filingi z dostępnym sentymentem
-    valid_mask = df["Mean_Net_Sentiment"].notna()
-
-    sentiment_history = df.loc[valid_mask, ["Ticker", "Mean_Net_Sentiment"]].copy()
-
-    grouped = sentiment_history.groupby("Ticker", sort=False)["Mean_Net_Sentiment"]
-
-    sentiment_history["Previous_Sentiment_Mean_3"] = grouped.transform(
-        lambda s: s.shift(1).rolling(3, min_periods=1).mean())
-
-    sentiment_history["Sentiment_History_Count_3"] = grouped.transform(
-        lambda s: s.shift(1).rolling(3, min_periods=1).count()).astype("Int64")
-
-    # Liczenie momentum
-    df.loc[sentiment_history.index, "Previous_Sentiment_Mean_3"] = sentiment_history["Previous_Sentiment_Mean_3"]
-
-    df.loc[sentiment_history.index, "Sentiment_History_Count_3"] = sentiment_history["Sentiment_History_Count_3"]
-
-    df["Sentiment_Momentum_3"] = df["Mean_Net_Sentiment"] - df["Previous_Sentiment_Mean_3"]
-    
-    return df.drop(columns="_Acceptance_UTC")
+    columns = ["Ticker", "Event_Session", "Session_Mean_Net_Sentiment", "Previous_Sentiment_Mean_3",
+        "Sentiment_History_Count_3", "Sentiment_Momentum_3"]
+    df = df.merge(sessions[columns], on=["Ticker", "Event_Session"], how="left", validate="many_to_one")
+    return df.drop(columns=["_Sentiment_Weight", "_Weighted_Sentiment"])
 
 
 # Łączenie cech rynkowych z feature cutoff season
@@ -319,10 +311,12 @@ def merge_cutoff_market_features(sec_df: pd.DataFrame, market_df: pd.DataFrame) 
 # Dodanie cechy z event session
 def merge_event_price(df: pd.DataFrame, market_df: pd.DataFrame) -> pd.DataFrame:
 
-    event_prices = market_df[["Ticker", "Date", "Adj_Close"]].copy()
+    event_prices = market_df[["Ticker", "Date", "Open", "Close", "Adj_Close"]].copy()
 
     event_prices = event_prices.rename(columns={
         "Date": "Event_Session",
+        "Open": "Event_Open",
+        "Close": "Event_Close",
         "Adj_Close": "Event_Adj_Close",
     })
 
@@ -337,13 +331,16 @@ def merge_event_price(df: pd.DataFrame, market_df: pd.DataFrame) -> pd.DataFrame
 # DODANIE CENY BENCHMARKU Z EVENT SESSION
 def merge_benchmark_event_price(df: pd.DataFrame, market_df: pd.DataFrame,) -> pd.DataFrame:
 
-    benchmark_prices = market_df.loc[market_df["Ticker"] == BENCHMARK_TICKER, ["Date", "Adj_Close"]].copy()
+    benchmark_prices = market_df.loc[
+        market_df["Ticker"] == BENCHMARK_TICKER, ["Date", "Open", "Close", "Adj_Close"]].copy()
 
     if benchmark_prices.empty:
         raise ValueError(f"Nie znaleziono benchmarku {BENCHMARK_TICKER}")
 
     benchmark_prices = benchmark_prices.rename(columns={
         "Date": "Event_Session",
+        "Open": "QQQ_Event_Open",
+        "Close": "QQQ_Event_Close",
         "Adj_Close": "QQQ_Event_Adj_Close",
     })
 
@@ -419,6 +416,38 @@ def create_abnormal_target(df: pd.DataFrame) -> pd.DataFrame:
 
     df["Target_Abnormal_1D"] = target
 
+    return df
+
+
+def add_tradable_target(df: pd.DataFrame) -> pd.DataFrame:
+    """Tworzy target zgodny z transakcją możliwą do zawarcia na otwarciu sesji."""
+    df = df.copy()
+    df["Event_Return_Open_Close"] = df["Event_Close"] / df["Event_Open"] - 1
+    df["QQQ_Event_Return_Open_Close"] = df["QQQ_Event_Close"] / df["QQQ_Event_Open"] - 1
+    df["Tradable_Abnormal_Return_1D"] = df["Event_Return_Open_Close"] - df["QQQ_Event_Return_Open_Close"]
+
+    valid = df["Tradable_Abnormal_Return_1D"].notna() & np.isfinite(df["Tradable_Abnormal_Return_1D"])
+    target = pd.Series(pd.NA, index=df.index, dtype="Int64")
+    target.loc[valid] = df.loc[valid, "Tradable_Abnormal_Return_1D"].gt(0).astype(int)
+    df["Target_Tradable_Abnormal_1D"] = target
+    return df
+
+
+def add_signal_timing(df: pd.DataFrame) -> pd.DataFrame:
+    """Sprawdza, czy komunikat był publiczny co najmniej 15 minut przed otwarciem."""
+    df = df.copy()
+    event_sessions = pd.to_datetime(df["Event_Session"], errors="raise").dt.normalize()
+    schedule = mcal.get_calendar(MARKET_CALENDAR_NAME).schedule(
+        start_date=event_sessions.min(), end_date=event_sessions.max())
+    openings = pd.DataFrame({
+        "Event_Session": pd.to_datetime(schedule.index).tz_localize(None).normalize(),
+        "Event_Market_Open_UTC": pd.to_datetime(schedule["market_open"].to_numpy(), utc=True)})
+
+    df["Event_Session"] = event_sessions
+    df = df.merge(openings, on="Event_Session", how="left", validate="many_to_one")
+    acceptance_utc = parse_acceptance_utc(df["Acceptance_DateTime_ET"])
+    df["Signal_Lead_Minutes"] = (df["Event_Market_Open_UTC"] - acceptance_utc).dt.total_seconds() / 60
+    df["Signal_Available_Before_Open"] = df["Signal_Lead_Minutes"].ge(MIN_SIGNAL_LEAD_MINUTES).astype(int)
     return df
 
 
@@ -501,16 +530,22 @@ def build_model_dataset(sec_df: pd.DataFrame, market_df: pd.DataFrame) -> pd.Dat
     # target abnormal
     result = create_abnormal_target(result)
 
-    # Pominięcie INTERDAY
+    # Target możliwy do wykorzystania od otwarcia sesji
+    result = add_tradable_target(result)
+    result = add_signal_timing(result)
+
+    # Pominięcie raportów intraday i sygnałów opublikowanych zbyt blisko otwarcia
     has_sentiment = result["Mean_Net_Sentiment"].notna()
 
     result["Use_In_Primary_Model"] = ((result["Publication_Period"] != "INTRADAY")
-                                    & has_sentiment).astype(int)
+                                    & has_sentiment
+                                    & result["Signal_Available_Before_Open"].eq(1)
+                                    & result["Target_Tradable_Abnormal_1D"].notna()).astype(int)
     primary_mask = result["Use_In_Primary_Model"] == 1
 
     # Sprawdzenie czy kazda obserwacja ma y
-    if result.loc[primary_mask, "Target_Abnormal_1D"].isna().any():
-        raise ValueError("Znaleziono obserwację primary model bez Target_Abnormal_1D")
+    if result.loc[primary_mask, "Target_Tradable_Abnormal_1D"].isna().any():
+        raise ValueError("Znaleziono obserwację primary model bez Target_Tradable_Abnormal_1D")
 
     validate_temporal_order(result)
 
@@ -552,11 +587,12 @@ def main() -> None:
     primary_count = int(primary_mask.sum())
     excluded_count = len(df_model) - primary_count
 
-    primary_target_counts = df_model.loc[primary_mask, "Target_Abnormal_1D"].value_counts(dropna=False).sort_index()
+    primary_target_counts = df_model.loc[
+        primary_mask, "Target_Tradable_Abnormal_1D"].value_counts(dropna=False).sort_index()
 
     logger.info("Dataset: %d filingów, primary model: %d, wyłączone: %d.", len(df_model), primary_count, excluded_count)
 
-    logger.info("Rozkład Target_Abnormal_1D w primary model:\n%s", primary_target_counts.to_string())
+    logger.info("Rozkład Target_Tradable_Abnormal_1D w primary model:\n%s", primary_target_counts.to_string())
 
     # Zapis
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)

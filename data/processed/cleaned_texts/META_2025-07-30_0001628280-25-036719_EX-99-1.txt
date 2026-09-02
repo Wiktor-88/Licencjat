@@ -1,1 +1,102 @@
-Document Meta Reports Second Quarter 2025 Results MENLO PARK, Calif. – July 30, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended June 30, 2025. "We've had a strong quarter both in terms of our business and community," said Mark Zuckerberg, Meta founder and CEO. "I'm excited to build personal superintelligence for everyone in the world." Second Quarter 2025 Financial Highlights Three Months Ended June 30, % Change In millions, except percentages and per share amounts 2025 2024 Revenue $ 47,516 $ 39,071 22 % Costs and expenses 27,075 24,224 12 % Income from operations $ 20,441 $ 14,847 38 % Operating margin 43 % 38 % Provision for income taxes $ 2,197 $ 1,641 34 % Effective tax rate 11 % 11 % Net income $ 18,337 $ 13,465 36 % Diluted earnings per share (EPS) $ 7.14 $ 5.16 38 % Second Quarter 2025 Operational and Other Financial Highlights • Family daily active people (DAP) – DAP was 3.48 billion on average for June 2025, an increase of 6% year-over-year. • Ad impressions – Ad impressions delivered across our Family of Apps increased by 11% year-over-year. • Average price per ad – Average price per ad increased by 9% year-over-year. • Revenue – Revenue was $47.52 billion, which increased by 22% year-over-year on both a reported and constant currency basis. • Costs and expenses – Total costs and expenses were $27.07 billion, an increase of 12% year-over-year. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $17.01 billion. • Capital return program – Share repurchases of our Class A common stock were $9.76 billion and total dividend and dividend equivalent payments were $1.33 billion. • Cash, cash equivalents, and marketable securities – Cash, cash equivalents, and marketable securities were $47.07 billion as of June 30, 2025. Cash flow from operating activities was $25.56 billion and free cash flow was $8.55 billion. (1) • Headcount – Headcount was 75,945 as of June 30, 2025, an increase of 7% year-over-year. ____________________________________ (1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release. 1 CFO Outlook Commentary We expect third quarter 2025 total revenue to be in the range of $47.5-50.5 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates. While we are not providing an outlook for fourth quarter revenue, we would expect our year-over-year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024. We expect full year 2025 total expenses to be in the range of $114-118 billion, narrowed from our prior outlook of $113-118 billion and reflecting a growth rate of 20-24% year-over-year. While we are still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs, driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year-over-year expense growth rate that is above the 2025 expense growth rate. We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point. While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant capital expenditures dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our artificial intelligence efforts and business operations. With the enactment of the new U.S. tax law, we anticipate a reduction in our U.S. federal cash tax for the remainder of the current year and future years. There are several alternative ways of implementing the provisions of the Act, which we are currently evaluating. While we estimate that the 2025 tax rate will be higher than our second quarter rate, we cannot quantify the magnitude at this time. In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission (EC) on our Less Personalized Ads offering (LPA), which we introduced in November 2024 based on feedback from the EC in connection with the Digital Markets Act (DMA). As the EC provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue, as early as later this quarter. We have appealed the EC's DMA decision but any modifications to our model may be imposed during the appeal process. 2 Webcast and
+Document
+Meta Reports Second Quarter 2025 Results
+MENLO PARK, Calif. – July 30, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended June 30, 2025.
+"We've had a strong quarter both in terms of our business and community," said Mark Zuckerberg, Meta founder and CEO. "I'm excited to build personal superintelligence for everyone in the world."
+Second Quarter 2025 Financial Highlights
+Three Months Ended June 30,
+% Change
+In millions, except percentages and per share amounts
+2025
+2024
+Revenue
+$
+47,516
+$
+39,071
+22
+%
+Costs and expenses
+27,075
+24,224
+12
+%
+Income from operations
+$
+20,441
+$
+14,847
+38
+%
+Operating margin
+43
+%
+38
+%
+Provision for income taxes
+$
+2,197
+$
+1,641
+34
+%
+Effective tax rate
+11
+%
+11
+%
+Net income
+$
+18,337
+$
+13,465
+36
+%
+Diluted earnings per share (EPS)
+$
+7.14
+$
+5.16
+38
+%
+Second Quarter 2025 Operational and Other Financial Highlights
+•
+Family daily active people (DAP)
+– DAP was 3.48 billion on average for June 2025, an increase of 6% year-over-year.
+•
+Ad impressions
+– Ad impressions delivered across our Family of Apps increased by 11% year-over-year.
+•
+Average price per ad
+– Average price per ad increased by 9% year-over-year.
+•
+Revenue
+– Revenue was $47.52 billion, which increased by 22% year-over-year on both a reported and constant currency basis.
+•
+Costs and expenses
+– Total costs and expenses were $27.07 billion, an increase of 12% year-over-year.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $17.01 billion.
+•
+Capital return program
+– Share repurchases of our Class A common stock were $9.76 billion and total dividend and dividend equivalent payments were $1.33 billion.
+•
+Cash, cash equivalents, and marketable securities
+– Cash, cash equivalents, and marketable securities were $47.07 billion as of June 30, 2025. Cash flow from operating activities was $25.56 billion and free cash flow was $8.55 billion.
+(1)
+•
+Headcount
+– Headcount
+was 75,945 as of June 30, 2025, an increase of 7% year-over-year.
+____________________________________
+(1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release.
+1
+CFO Outlook Commentary
+We expect third quarter 2025 total revenue to be in the range of $47.5-50.5 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates. While we are not providing an outlook for fourth quarter revenue, we would expect our year-over-year growth rate in the fourth quarter of 2025 to be slower than the third quarter as we lap a period of stronger growth in the fourth quarter of 2024.
+We expect full year 2025 total expenses to be in the range of $114-118 billion, narrowed from our prior outlook of $113-118 billion and reflecting a growth rate of 20-24% year-over-year.
+While we are still very early in planning for next year, there are a few factors we expect will provide meaningful upward pressure on our 2026 total expense growth rate. The largest single driver of growth will be infrastructure costs, driven by a sharp acceleration in depreciation expense growth and higher operating costs as we continue to scale up our infrastructure fleet. Aside from infrastructure, we expect the second largest driver of growth to be employee compensation as we add technical talent in priority areas and recognize a full year of compensation expenses for employees hired throughout 2025. We expect these factors will result in a 2026 year-over-year expense growth rate that is above the 2025 expense growth rate.
+We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $66-72 billion, narrowed from our prior outlook of $64-72 billion and up approximately $30 billion year-over-year at the mid-point. While the infrastructure planning process remains highly dynamic, we currently expect another year of similarly significant capital expenditures dollar growth in 2026 as we continue aggressively pursuing opportunities to bring additional capacity online to meet the needs of our artificial intelligence efforts and business operations.
+With the enactment of the new U.S. tax law, we anticipate a reduction in our U.S. federal cash tax for the remainder of the current year and future years. There are several alternative ways of implementing the provisions of the Act, which we are currently evaluating. While we estimate that the 2025 tax rate will be higher than our second quarter rate, we cannot quantify the magnitude at this time.
+In addition, we continue to monitor an active regulatory landscape, including the increasing legal and regulatory headwinds in the EU that could significantly impact our business and our financial results. For example, we continue to engage with the European Commission (EC) on our Less Personalized Ads offering (LPA), which we introduced in November 2024 based on feedback from the EC in connection with the Digital Markets Act (DMA). As the EC provides further feedback on LPA, we cannot rule out that it may seek to impose further modifications to it that would result in a materially worse user and advertiser experience. This could have a significant negative impact on our European revenue, as early as later this quarter. We have appealed the EC's DMA decision but any modifications to our model may be imposed during the appeal process.
+2
+Webcast and

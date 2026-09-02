@@ -1,1 +1,721 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Phil Hughes
+AMD Communications
+512-865-9697
+phil.hughes@amd.com
+Investor Contact:
+Liz Stine
+AMD Investor Relations
+720-652-3965
+liz.stine@amd.com
+AMD Reports Fourth Quarter and Full Year 2025 Financial Results
+SANTA CLARA, Calif. ― February 3, 2026 ―
+AMD (NASDAQ:AMD) today announced financial results for the fourth quarter and full year of 2025. Fourth quarter revenue was a record $10.3 billion, gross margin was 54%, operating income was $1.8 billion, net income was $1.5 billion and diluted earnings per share was $0.92. On a non-GAAP
+(*)
+basis, gross margin was 57%, operating income was a record $2.9 billion, net income was a record $2.5 billion and diluted earnings per share was a record $1.53.
+For the full year 2025, AMD reported record revenue of $34.6 billion, gross margin of 50%, operating income of $3.7 billion, net income of $4.3 billion, and diluted earnings per share of $2.65. On a non-GAAP
+(*)
+basis, gross margin was 52%, operating income was a record $7.8 billion, net income was a record $6.8 billion and diluted earnings per share was a record $4.17.
+“2025 was a defining year for AMD, with record revenue and earnings driven by strong execution and broad-based demand for our high-performance and AI platforms,” said Dr. Lisa Su, AMD chair and CEO. “We are entering 2026 with strong momentum across our business, led by accelerating adoption of our high-performance EPYC and Ryzen CPUs and the rapid scaling of our data center AI franchise.”
+“Our record fourth quarter and full-year results demonstrate AMD’s ability to deliver profitable growth at scale,” said Jean Hu, AMD executive vice president, CFO and treasurer. “We achieved record non-GAAP operating income and free cash flow, while increasing our strategic investments to support long-term growth across our high-performance and adaptive computing product portfolio.”
+1
+GAAP Quarterly Financial Results
+Q4 2025
+Q4 2024
+Y/Y
+Q3 2025
+Q/Q
+Revenue ($M)
+$10,270
+$7,658
+Up 34%
+$9,246
+Up 11%
+Gross profit ($M)
+$5,577
+$3,882
+Up 44%
+$4,780
+Up 17%
+Gross margin
+54%
+51%
+Up 3 ppts
+52%
+Up 2 ppts
+Operating expenses ($M)
+$3,825
+$3,011
+Up 27%
+$3,510
+Up 9%
+Operating income ($M)
+$1,752
+$871
+Up 101%
+$1,270
+Up 38%
+Operating margin
+17%
+11%
+Up 6 ppts
+14%
+Up 3 ppts
+Net income ($M)
+$1,511
+$482
+Up 213%
+$1,243
+Up 22%
+Diluted earnings per share
+$0.92
+$0.29
+Up 217%
+$0.75
+Up 23%
+Non-GAAP(*) Quarterly Financial Results
+Q4 2025
+Q4 2024
+Y/Y
+Q3 2025
+Q/Q
+Revenue ($M)
+$10,270
+$7,658
+Up 34%
+$9,246
+Up 11%
+Gross profit ($M)
+$5,855
+$4,140
+Up 41%
+$4,992
+Up 17%
+Gross margin
+57%
+54%
+Up 3 ppts
+54%
+Up 3 ppts
+Operating expenses ($M)
+$3,001
+$2,114
+Up 42%
+$2,754
+Up 9%
+Operating income ($M)
+$2,854
+$2,026
+Up 41%
+$2,238
+Up 28%
+Operating margin
+28%
+26%
+Up 2 ppts
+24%
+Up 4 ppts
+Net income ($M)
+$2,519
+$1,777
+Up 42%
+$1,965
+Up 28%
+Diluted earnings per share
+$1.53
+$1.09
+Up 40%
+$1.20
+Up 28%
+Annual Financial Results
+GAAP
+Non-GAAP
+(*)
+2025
+(1)
+2024
+Y/Y
+2025
+(1)
+2024
+Y/Y
+Revenue ($M)
+$34,639
+$25,785
+Up 34%
+$34,639
+$25,785
+Up 34%
+Gross profit ($M)
+$17,152
+$12,725
+Up 35%
+$18,165
+$13,759
+Up 32%
+Gross margin %
+50%
+49%
+Up 1 ppt
+52%
+53%
+Down 1 ppt
+Operating expenses ($M)
+$13,458
+$10,825
+Up 24%
+$10,397
+$7,621
+Up 36%
+Operating income ($M)
+$3,694
+$1,900
+Up 94%
+$7,768
+$6,138
+Up 27%
+Operating margin %
+11%
+7%
+Up 4 ppts
+22%
+24%
+Down 2 ppts
+Net income ($M)
+$4,335
+$1,641
+Up 164%
+$6,831
+$5,420
+Up 26%
+Diluted earnings per share
+$2.65
+$1.00
+Up 165%
+$4.17
+$3.31
+Up 26%
+(1) Full year 2025 results included approximately $440 million in net inventory and related charges as a result of the U.S. Government's export control on AMD Instinct™ MI308 data center GPU products.
+In the fourth quarter, AMD benefited from an approximate $360 million release of previously reserved AMD Instinct™ MI308 inventory and related charges. Fourth quarter AMD Instinct MI308 revenue to China was approximately $390 million. Excluding the inventory reserve reversal and AMD Instinct MI308 sales to China, fourth quarter non-GAAP gross margin would have been approximately 55%.
+2
+Segment Summary
+•
+Data Center segment revenue in the quarter was a record $5.4 billion, up 39% year-over-year, driven by strong demand for AMD EPYC™ processors and the continued ramp of AMD Instinct GPU shipments.
+◦
+For the full year 2025, Data Center segment revenue was a record $16.6 billion, up 32% year-over-year, reflecting growth across both EPYC CPUs and AMD Instinct GPUs
+•
+Client and Gaming segment revenue in the quarter was $3.9 billion, up 37% year-over-year. Client business revenue in the quarter was a record $3.1 billion, up 34% year-over-year, driven primarily by strong demand for leadership AMD Ryzen™ processors and continued market share gains. Gaming business revenue in the quarter was $843 million, up 50% year-over-year, primarily driven by higher semi-custom revenue and strong demand for AMD Radeon™ GPUs.
+◦
+For the full year 2025, Client and Gaming segment revenue was a record $14.6 billion, up 51% year-over-year. Client business revenue was a record $10.6 billion, up 51% year-over-year, driven by continued revenue share gains and a richer product mix. Gaming business revenue was $3.9 billion, up 51% year-over-year, driven by improved semi-custom sales and strong demand for AMD Radeon GPUs.
+•
+Embedded segment revenue in the quarter was $950 million, up 3% year-over-year, as demand strengthened across several end markets.
+◦
+For the full year 2025, Embedded segment revenue was $3.5 billion, down 3% year-over-year, reflecting the impact of customer inventory level adjustments earlier in the year.
+Recent PR Highlights
+•
+At CES 2026, AMD detailed how deep cross-industry collaborations and full-stack AI solutions are driving AI advances, including:
+◦
+An early look at the AMD Helios rack-scale platform, the blueprint for yotta-scale AI infrastructure.
+◦
+Announcing the AMD Instinct MI440X GPU for enterprise AI.
+◦
+New AMD Ryzen AI 400 and PRO 400 Series platforms, Ryzen AI Max+ SKUs and the AMD Ryzen AI Halo developer platform.
+◦
+New AMD Ryzen AI Embedded Processor portfolio, designed to power AI-driven applications across automotive, industrial automation and physical AI.
+•
+Strategic AMD partners announced AI and high-performance computing infrastructure and services powered by AMD EPYC CPUs and AMD Instinct GPUs:
+3
+◦
+HPE announced it will be one of the first system providers to adopt the AMD Helios rack-scale platform and deliver the Herder supercomputer powered by next-gen AMD Instinct MI430X GPUs and EPYC “Venice” CPUs.
+◦
+AMD, Cisco and HUMAIN announced plans to form a joint venture to deliver 1 GW of AI infrastructure by 2030.
+◦
+AMD announced a strategic partnership with Tata Consultancy Services to co-develop and deploy enterprise AI solutions.
+◦
+Zyphra’s ZAYA1 is the first large-scale mixture-of-experts model trained entirely on AMD Instinct MI300X GPUs, AMD Pensando™ networking and AMD ROCm™ open software.
+◦
+AWS launched new instances powered by 5th Gen AMD EPYC CPUs, delivering the highest x86 performance in the AWS cloud.
+•
+AMD delivered new capabilities for the most demanding PC and gaming workloads with:
+◦
+The new Ryzen 7 9850X3D, the fastest gaming processor, powered by the “Zen 5” architecture and AMD 3D V-Cache™ technology.
+◦
+AMD FSR™ “Redstone,” a suite of new machine-learning based features delivering more immersive visuals for AMD Radeon graphics cards, including AMD FSR Upscaling, Frame Generation, Ray Regeneration and Radiance Caching.
+•
+AMD expanded its embedded processor portfolio, including:
+◦
+New additions to the AMD space-grade portfolio; the AMD Versal™ RF Series and Versal AI Edge Series Gen 2 adaptive SoCs for extreme space environments.
+◦
+New AMD EPYC Embedded 2005 Series processors delivering enhanced performance, efficiency and high-speed connectivity for networking, storage and industrial applications.
+4
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2026, AMD expects revenue to be approximately $9.8 billion, plus or minus $300 million, including approximately $100 million of AMD Instinct MI308 sales to China. The mid-point of the revenue range represents year-over-year growth of approximately 32% and a sequential decline of approximately 5%. Non-GAAP gross margin is expected to be approximately 55%.
+AMD Teleconference
+AMD will hold a conference call at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its fourth quarter and full year 2025 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+5
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 27,
+2025
+September 27,
+2025
+December 28,
+2024
+December 27,
+2025
+December 28,
+2024
+GAAP gross profit
+$
+5,577
+$
+4,780
+$
+3,882
+$
+17,152
+$
+12,725
+GAAP gross margin
+54
+%
+52
+%
+51
+%
+50
+%
+49
+%
+Stock-based compensation
+8
+7
+6
+26
+22
+Amortization of acquisition-related intangibles
+260
+260
+252
+1,031
+946
+Acquisition-related and other costs
+(1)
+1
+—
+—
+2
+1
+Inventory loss at (recovery from) contract manufacturer
+(2)
+—
+(67)
+—
+(67)
+65
+Loss contingency on legal matter
+9
+12
+—
+21
+—
+Non-GAAP gross profit
+$
+5,855
+$
+4,992
+$
+4,140
+$
+18,165
+$
+13,759
+Non-GAAP gross margin
+57
+%
+54
+%
+54
+%
+52
+%
+53
+%
+GAAP operating expenses
+(3)
+$
+3,825
+$
+3,510
+$
+3,011
+$
+13,458
+$
+10,825
+GAAP operating expenses/revenue %
+37
+%
+38
+%
+39
+%
+39
+%
+42
+%
+Stock-based compensation
+478
+412
+333
+1,612
+1,385
+Amortization of acquisition-related intangibles
+297
+302
+332
+1,223
+1,448
+Acquisition-related and other costs
+(1)
+49
+42
+46
+226
+185
+Restructuring charges
+(4)
+—
+—
+186
+—
+186
+Non-GAAP operating expenses
+(3)
+$
+3,001
+$
+2,754
+$
+2,114
+$
+10,397
+$
+7,621
+Non-GAAP operating expenses/revenue %
+29
+%
+30
+%
+28
+%
+30
+%
+30
+%
+GAAP operating income
+$
+1,752
+$
+1,270
+$
+871
+$
+3,694
+$
+1,900
+GAAP operating margin
+17
+%
+14
+%
+11
+%
+11
+%
+7
+%
+Stock-based compensation
+486
+419
+339
+1,638
+1,407
+Amortization of acquisition-related intangibles
+557
+562
+584
+2,254
+2,394
+Acquisition-related and other costs
+(1)
+50
+42
+46
+228
+186
+Inventory loss at (recovery from) contract manufacturer
+(2)
+—
+(67)
+—
+(67)
+65
+Loss contingency on legal matter
+9
+12
+—
+21
+—
+Restructuring charges
+(4)
+—
+—
+186
+—
+186
+Non-GAAP operating income
+$
+2,854
+$
+2,238
+$
+2,026
+$
+7,768
+$
+6,138
+Non-GAAP operating margin
+28
+%
+24
+%
+26
+%
+22
+%
+24
+%
+6
+Three Months Ended
+Year Ended
+December 27,
+2025
+September 27, 2025
+December 28,
+2024
+December 27,
+2025
+December 28,
+2024
+GAAP net income / earnings per share
+$
+1,511
+$
+0.92
+$
+1,243
+$
+0.75
+$
+482
+$
+0.29
+$
+4,335
+$
+2.65
+$
+1,641
+$
+1.00
+Stock-based compensation
+486
+0.29
+419
+0.26
+339
+0.21
+1,638
+1.00
+1,407
+0.86
+Amortization of acquisition-related intangibles
+557
+0.34
+562
+0.34
+584
+0.36
+2,254
+1.38
+2,394
+1.46
+Acquisition-related and other costs
+(1)
+50
+0.03
+43
+0.03
+46
+0.03
+231
+0.14
+187
+0.11
+Inventory loss at (recovery from) contract manufacturer
+(2)
+—
+—
+(67)
+(0.04)
+—
+—
+(67)
+(0.04)
+65
+0.04
+Loss contingency on legal matter
+9
+0.01
+12
+0.01
+—
+—
+21
+0.01
+—
+—
+Gains on long-term investments, net
+(280)
+(0.17)
+(26)
+(0.02)
+—
+—
+(365)
+(0.22)
+2
+—
+Equity income in investee
+(1)
+—
+(10)
+—
+(12)
+(0.01)
+(26)
+(0.02)
+(33)
+(0.02)
+Restructuring charges
+(4)
+—
+—
+—
+—
+186
+0.11
+—
+—
+186
+0.11
+Release of reserves for uncertain tax positions
+(5)
+—
+—
+—
+—
+—
+—
+(853)
+(0.52)
+—
+—
+Income tax provision
+78
+0.04
+(140)
+(0.09)
+152
+0.10
+(271)
+(0.17)
+(429)
+(0.25)
+Loss (Income) from discontinued operations, net of tax
+(6)
+109
+0.07
+(71)
+(0.04)
+—
+—
+(66)
+(0.04)
+—
+—
+Non-GAAP net income / earnings per share
+$
+2,519
+$
+1.53
+$
+1,965
+$
+1.20
+$
+1,777
+$
+1.09
+$
+6,831
+$
+4.17
+$
+5,420
+$
+3.31
+(1)
+Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges.
+(2)
+Inventory loss at (recovery from) contract manufacturer is related to losses due to an incident at a third-party contract manufacturing facility and the corresponding recovery.
+(3)
+Effective first quarter of 2025, licensing gain is reclassified against Marketing, general and administrative expenses as the amounts were immaterial.
+(4)
+Restructuring charges are related to the 2024 Restructuring Plan which comprised of employee severance charges and non-cash asset impairments.
+(5)
+Release of reserves for uncertain tax positions pertains to the reasonable cause relief related to dual consolidated losses approved by the IRS in the second quarter of 2025.
+(6)
+Loss (Income) from discontinued operations relates to ZT Systems' manufacturing business which was divested in the fourth quarter of 2025.
+RECONCILIATION OF GAAP TO ADJUSTED NON-GAAP FINANCIAL MEASURES
+(Millions) (Unaudited)
+Three Months Ended
+December 27,
+2025
+GAAP gross profit
+$
+5,577
+GAAP gross margin
+54
+%
+Stock-based compensation, amortization of acquisition-related intangibles, acquisition-related and other costs
+278
+Impact from the release of inventory and related charges associated with U.S. export restrictions and AMD Instinct MI308 revenue to China
+(430)
+Adjusted Non-GAAP gross profit
+$
+5,425
+Adjusted Non-GAAP gross margin
+55
+%
+7

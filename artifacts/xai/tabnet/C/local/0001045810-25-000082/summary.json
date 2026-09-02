@@ -1,0 +1,17 @@
+{
+  "event": {
+    "Ticker": "NVDA",
+    "Accession": "0001045810-25-000082",
+    "Filing_Date": "2025-04-15",
+    "Feature_Cutoff_Session": "2025-04-15",
+    "Event_Session": "2025-04-16T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Probability_Class_1": 0.999077320098877,
+    "Prediction": 1
+  }
+}

@@ -1,1 +1,395 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports Third Quarter 2020 Financial Results
+― Record revenue grew 56 percent and net income and EPS more than doubled year-over-year —
+SANTA CLARA, Calif. ― October 27, 2020 ―
+AMD (NASDAQ: AMD) today announced record revenue for the third quarter of 2020 of $2.80 billion, operating income of $449 million, net income of $390 million and diluted earnings per share of $0.32. On a non-GAAP* basis, operating income was $525 million, net income was $501 million and diluted earnings per share was $0.41.
+GAAP Quarterly Financial Results
+Q3 2020
+Q3 2019
+Y/Y
+Q2 2020
+Q/Q
+Revenue ($M)
+$2,801
+$1,801
+Up 56%
+$1,932
+Up 45%
+Gross profit ($M)
+$1,230
+$777
+Up 58%
+$848
+Up 45%
+Gross margin
+44%
+43%
+Up 1pp
+44%
+Flat
+Operating expenses ($M)
+$781
+$591
+Up 32%
+$675
+Up 16%
+Operating income ($M)
+$449
+$186
+Up 141%
+$173
+Up 160%
+Net income ($M)
+$390
+$120
+Up 225%
+$157
+Up 148%
+Earnings per share
+$0.32
+$0.11
+Up 191%
+$0.13
+Up 146%
+Non-GAAP* Quarterly Financial Results
+Q3 2020
+Q3 2019
+Y/Y
+Q2 2020
+Q/Q
+Revenue ($M)
+$2,801
+$1,801
+Up 56%
+$1,932
+Up 45%
+Gross profit ($M)
+$1,231
+$779
+Up 58%
+$850
+Up 45%
+Gross margin
+44%
+43%
+Up 1pp
+44%
+Flat
+Operating expenses ($M)
+$706
+$539
+Up 31%
+$617
+Up 14%
+Operating income ($M)
+$525
+$240
+Up 119%
+$233
+Up 125%
+Net income ($M)
+$501
+$219
+Up 129%
+$216
+Up 132%
+Earnings per share
+$0.41
+$0.18
+Up 128%
+$0.18
+Up 128%
+“Our business accelerated in the third quarter as strong demand for our PC, gaming and data center products drove record quarterly revenue,” said Dr. Lisa Su, AMD president and CEO. “We reported our fourth straight quarter with greater than 25 percent year-over-year revenue growth, highlighting our significant customer momentum. We are well positioned to continue delivering best-in-class growth as we further extend our leadership product portfolio with the launches of our next generation Ryzen, Radeon and EPYC processors.”
+1
+Q3 2020 Results
+•
+Revenue was $2.80 billion, up 56 percent year-over-year and 45 percent quarter-over-quarter driven by higher revenue in both the Enterprise, Embedded and Semi-Custom and Computing and Graphics segments.
+•
+Gross margin was 44 percent, up 1 percentage point year-over-year and flat quarter-over-quarter. The year-over-year increase was primarily driven by EPYC
+™
+and Ryzen
+™
+processor sales. Gross margin was flat quarter-over-quarter as an increase of Ryzen and EPYC processor sales was offset by a higher percentage of semi-custom revenue.
+•
+Operating income was $449 million compared to $186 million a year ago and $173 million in the prior quarter. Non-GAAP operating income was $525 million compared to $240 million a year ago and $233 million in the prior quarter. Operating income improvements were primarily driven by revenue growth, including an increase in Ryzen and EPYC processor sales and semi-custom product sales.
+•
+Net income was $390 million compared to $120 million a year ago and $157 million in the prior quarter. Non-GAAP net income was $501 million compared to $219 million a year ago and $216 million in the prior quarter.
+•
+Diluted earnings per share was $0.32 compared to $0.11 a year ago and $0.13 in the prior quarter. Non-GAAP diluted earnings per share was $0.41 compared to $0.18 a year ago and $0.18 in the prior quarter.
+•
+Cash, cash equivalents and short-term investments were $1.77 billion at the end of the quarter.
+Quarterly Financial Segment Summary
+•
+Computing and Graphics segment revenue was $1.67 billion, up 31 percent year-over-year and 22 percent quarter-over-quarter. Revenue was higher year-over-year driven by a significant increase in Ryzen processor sales partially offset by lower graphics revenue. Revenue was higher quarter-over-quarter driven by a significant increase in Ryzen processor sales and an increase in graphics revenue.
+◦
+Client processor average selling price (ASP) was lower year-over-year due to a higher mix of mobile processor sales. Client processor ASP was higher quarter-over-quarter driven by higher desktop and mobile processor ASPs.
+◦
+GPU ASP was lower year-over-year due to product cycle timing and higher quarter-over-quarter due to product mix.
+◦
+Operating income was $384 million compared to $179 million a year ago and $200 million in the prior quarter. The year-over-year and quarter-over-quarter increases were driven by higher Ryzen revenue.
+•
+Enterprise, Embedded and Semi-Custom segment revenue was $1.13 billion, up 116 percent year-over-year and 101 percent quarter-over-quarter. Revenue was higher year-over-year and quarter-over-quarter due to higher semi-custom product sales and increased EPYC processor sales.
+◦
+Operating income was $141 million compared to $61 million a year ago and $33 million in the prior quarter. The year-over-year and quarter-over-quarter increases were primarily driven by higher revenue.
+•
+All Other operating loss was $76 million compared to operating losses of $54 million a year ago and $60 million in the prior quarter.
+2
+Recent PR Highlights
+•
+AMD introduced the AMD Ryzen 5000 Series desktop processors, extending AMD leadership across gaming, single-threaded, and multi-threaded performance as well as power efficiency. Powered by the new “Zen 3” core architecture, the new processors deliver a 19 percent generational increase in instructions per cycle (IPC), the largest since the introduction of “Zen” processors in 2017.
+•
+AMD EPYC processor adoption continues to grow as data center customers harness our differentiated performance and features for cloud computing, high-performance computing (HPC), hyperconverged infrastructure (HCI), virtualization and more.
+◦
+AMD EPYC processors are now being used by the Azure Data Explorer data analytics platform to improve real-time analysis on large volumes of data streaming from applications, websites, IoT devices and more.
+◦
+Oracle announced plans to offer cloud instances based on next-generation AMD EPYC processors, codenamed “Milan.”
+◦
+Cloud service providers continued to announce the availability of new instances based on AMD EPYC processors, including AWS C5ad instances for compute intensive workloads, Google Cloud Confidential VMs featuring AMD Secure Encrypted Virtualization, and Microsoft Azure VMs which use AMD EPYC processors to power Office 365 applications.
+◦
+AMD announced growing ecosystem support for virtualization solutions based on VMware® and Nutanix
+™
+software from Dell, HPE and Lenovo.
+◦
+VMware announced support for AMD Secure Encrypted Virtualization – Encrypted State technology in its latest version of vSphere®.
+◦
+Northern Data is leveraging AMD EPYC and AMD Radeon Instinct
+™
+processors for one of the world's largest GPU-based distributed computing clusters for HPC applications at sites across Norway, Sweden and Canada.
+•
+AMD expanded its position in the consumer and commercial client markets with new products and growing adoption of AMD Ryzen processors by leading OEMs.
+◦
+OEM partners continued to launch new AMD-powered notebooks, desktops and Chromebooks, including new HP and Lenovo notebooks and desktops for the commercial, consumer and gaming markets and the first “Zen”-based Chromebooks.
+◦
+AMD announced new AMD Ryzen 4000 Series Desktop Processors with Radeon Graphics and AMD Athlon
+™
+3000 Series Desktop Processors with Radeon Graphics for the consumer market, as well as the new AMD Ryzen PRO 4000 Series and AMD Athlon PRO 3000 Series Desktop Processors for the commercial market.
+•
+AMD and Apple announced the availability of new AMD Radeon Pro 5000 series GPUs for the updated 27-inch iMac, bringing compute performance, energy efficiency and features to a wide variety of graphically intensive applications and workloads.
+•
+AMD announced additional high-performance technology contributions to assist in the global fight against the COVID-19 pandemic, including high-performance computing systems or access to cloud-based clusters powered by 2
+nd
+Gen AMD EPYC and AMD Radeon Instinct processors for 21 institutions and research facilities around the world.
+3
+•
+AMD announced its annual corporate responsibility update, highlighting how AMD and its technologies are addressing sustainable technological and scientific advancement, environmental and supply chain responsibility, workplace inclusion and community support.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking, and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the fourth quarter of 2020, AMD expects revenue to be approximately $3.0 billion, plus or minus $100 million, an increase of approximately 41 percent year-over-year and 7 percent sequentially. The year-over-year increase is expected to be primarily driven by the ramp of new Ryzen, EPYC and semi-custom products and growing customer momentum.  AMD expects non-GAAP gross margin to be approximately 45 percent in the fourth quarter of 2020.
+AMD now expects 2020 revenue to grow by approximately 41 percent compared to 2019, up from prior guidance of 32 percent. Non-GAAP gross margin is expected to be approximately 45 percent, consistent with prior guidance.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 8:00 a.m. ET (5:00 a.m. PT) today to discuss its third quarter 2020 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com. The webcast will be available for 12 months after the conference call.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data)
+Three Months Ended
+September 26,
+2020
+June 27,
+2020
+September 28,
+2019
+GAAP gross profit
+$
+1,230
+$
+848
+$
+777
+GAAP gross margin %
+44
+%
+44
+%
+43
+%
+Stock-based compensation
+1
+2
+2
+Non-GAAP gross profit
+$
+1,231
+$
+850
+$
+779
+Non-GAAP gross margin %
+44
+%
+44
+%
+43
+%
+GAAP operating expenses
+$
+781
+$
+675
+$
+591
+GAAP operating expenses/revenue %
+28
+%
+35
+%
+33
+%
+Stock-based compensation
+75
+58
+52
+Non-GAAP operating expenses
+$
+706
+$
+617
+$
+539
+Non-GAAP operating expenses/revenue%
+25
+%
+32
+%
+30
+%
+GAAP operating income
+$
+449
+$
+173
+$
+186
+GAAP operating margin %
+16
+%
+9
+%
+10
+%
+Stock-based compensation
+76
+60
+54
+Non-GAAP operating income
+$
+525
+$
+233
+$
+240
+Non-GAAP operating margin %
+19
+%
+12
+%
+13
+%
+Three Months Ended
+September 26,
+2020
+June 27,
+2020
+September 28,
+2019
+GAAP net income / earnings per share
+$
+390
+$
+0.32
+$
+157
+$
+0.13
+$
+120
+$
+0.11
+Loss on debt redemption/conversion
+38
+0.03
+—
+—
+40
+0.03
+Non-cash interest expense related to convertible debt
+2
+—
+2
+—
+6
+—
+Stock-based compensation
+76
+0.06
+60
+0.05
+54
+0.04
+Equity income in investee
+(1)
+—
+(1)
+—
+(1)
+—
+Income tax provision
+(4)
+—
+(2)
+—
+—
+—
+Non-GAAP net income / earnings per share
+$
+501
+$
+0.41
+$
+216
+$
+0.18
+$
+219
+$
+0.18
+Shares used and net income adjustment in
+earnings per share calculation
+(1)
+Shares used in per share calculation (GAAP)
+1,215
+1,227
+1,117
+Interest expense add-back to GAAP net income
+$
+1
+$
+3
+$
+—
+Shares used in per share calculation (Non-GAAP)
+1,230
+1,227
+1,212
+Interest expense add-back to Non-GAAP net income
+$
+1
+$
+1
+$
+4
+(1)
+For the three months ended September 26, 2020 and June 27, 2020, GAAP diluted EPS calculations include 11 million and 31 million shares, respectively, related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $1 million and $3 million interest expense, respectively, add-back to net income under the "if converted" method. For the three months ended September 26, 2020, 15 million shares related to the assumed conversion of the Company's 2026 Convertible Notes were not included in the GAAP diluted EPS calculations as their inclusion would have been anti-dilutive.
+For the three months ended September 28, 2019, 95 million shares related to the assumed conversion of the Company's 2026 Convertible Notes were not included in the GAAP diluted EPS calculations as their inclusion would have been anti-dilutive.
+For the three months ended September 26, 2020, June 27, 2020 and September 28, 2019, Non-GAAP diluted EPS calculations include 26 million, 31 million and 95 million shares, respectively, related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $1 million, $1 million and $4 million interest expense, respectively, add-back to net income under the "if converted" method.
+5

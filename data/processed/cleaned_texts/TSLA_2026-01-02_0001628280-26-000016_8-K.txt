@@ -1,1 +1,18 @@
-Item 2.02 Results of Operations and Financial Condition. On January 2, 2026, Tesla, Inc. published the press release which is attached hereto as Exhibit 99.1 and is incorporated herein by reference. This information is intended to be furnished under Item 2.02 of Form 8-K and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act as shall be expressly set forth by specific reference in such a filing . Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 99.1 Press release of Tesla, Inc., dated January 2, 20 26 . 104 Cover Page Interactive Data File (embedded within the Inline XBRL document).
+Item 2.02    Results of Operations and Financial Condition.
+On January 2, 2026, Tesla, Inc. published the press release which is attached hereto as Exhibit 99.1 and is incorporated herein by reference.
+This
+information is intended to be furnished under Item 2.02 of Form 8-K and shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “
+Exchange Act
+”), or incorporated by reference in any filing under the Securities Act of 1933, as amended, or the Exchange Act as shall be expressly set forth by specific reference in such a filing
+.
+Item 9.01    Financial Statements and Exhibits.
+(d)
+Exhibits.
+Exhibit No.
+Description
+99.1
+Press release of Tesla, Inc., dated January 2, 20
+26
+.
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document).

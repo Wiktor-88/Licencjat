@@ -1,1 +1,122 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces First Quarter Fiscal 2022 Results
+Revenues: $10.7 billion
+GAAP EPS: $2.98, Non-GAAP EPS: $3.23
+—Record Quarterly Revenues and EPS—
+—QCT: Second Consecutive Quarter of Record Results and Greater Than 60% Year-Over-Year EBT Growth—
+—Connected Intelligent Edge Drives 41% Year-Over-Year Growth in QCT IoT Revenues—
+SAN DIEGO - February 2, 2022
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal first quarter ended December 26, 2021.
+“Our record quarterly results reflect the strong demand for our products and technologies, with QCT revenues exceeding those of any fabless semiconductor company,” said Cristiano Amon, President and CEO of Qualcomm Incorporated.
+1
+“We are at the beginning of one of the largest opportunities in our history, with our addressable market expanding by more than seven times to approximately $700 billion in the next decade. Our one technology roadmap positions us as the partner of choice for both mobile and the connected intelligent edge.”
+First Quarter Results
+2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q1 Fiscal 2022
+Q1 Fiscal 2021
+Change
+Q1 Fiscal 2022
+Q1 Fiscal 2021
+Change
+Revenues
+$10,705
+$8,235
++30%
+$10,697
+$8,226
++30%
+Earnings before taxes (EBT)
+$3,865
+$2,604
++48%
+$4,306
+$2,912
++48%
+Net income
+$3,399
+$2,455
++38%
+$3,686
+$2,510
++47%
+Diluted earnings per share (EPS)
+$2.98
+$2.12
++41%
+$3.23
+$2.17
++49%
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q1 Fiscal 2022
+Q1 Fiscal 2021
+Change
+Q1 Fiscal 2022
+Q1 Fiscal 2021
+Change
+Revenues
+$8,847
+$6,533
++35%
+$1,818
+$1,660
++10%
+EBT
+$3,114
+$1,919
++62%
+$1,406
+$1,270
++11%
+EBT as % of revenues
+35%
+29%
++6 points
+77%
+77%
+—
+(1)  Based on review of fabless, public semiconductor and semiconductor equipment companies’ (according to GICS 4530 classification) most recent quarterly financial results released prior to February 2, 2022.  Our analysis is based on QCT revenues, including products manufactured in our RF front-end internal fabrication facilities.
+(2)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Qualcomm Announces First Quarter Fiscal 2022 Results
+Page 2 of 8
+QCT Revenue Streams
+We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+(in millions, except percentages)
+Q1 Fiscal 2022
+Q1 Fiscal 2021
+Change
+Handsets
+$5,983
+$4,216
++42%
+RF front-end
+1,132
+1,061
++7%
+Automotive
+256
+212
++21%
+IoT
+1,476
+1,044
++41%
+Total QCT revenues
+$8,847
+$6,533
++35%
+Return of Capital to Stockholders
+During the first quarter of fiscal 2022, we returned $1.9 billion to stockholders, including $765 million, or $0.68 per share, of cash dividends paid and $1.2 billion through repurchases of 8 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially.  The “Note Regarding

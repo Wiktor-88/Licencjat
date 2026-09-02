@@ -1,1 +1,233 @@
-Exhibit Exhibit 99.1 Alphabet Announces Fourth Quarter and Fiscal Year 2019 Results MOUNTAIN VIEW, Calif. – February 3, 2020 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter and fiscal year ended December 31, 2019 . “Our investments in deep computer science, including artificial intelligence, ambient computing and cloud computing, provide a strong base for continued growth and new opportunities across Alphabet,” said Sundar Pichai, Chief Executive Officer of Alphabet and Google. “I’m really pleased with our continued progress in Search and in building two of our newer growth areas — YouTube, already at $15 billion in annual ad revenue, and Cloud, which is now on a $10 billion revenue run rate." “In 2019 we again delivered strong revenue growth, with revenues of $162 billion, up 18% year over year and up 20% on a constant currency basis,” said Ruth Porat, Chief Financial Officer of Alphabet and Google. “To provide further insight into our business and the opportunities ahead, we’re now disclosing our revenue on a more granular basis, including for Search, YouTube ads and Cloud.” Expanded revenue disclosures The table below shows our expanded revenue disclosures for the quarters ended December 31, 2018 and 2019 and the years ended December 31, 2017, 2018 and 2019 (in millions, unaudited): Q4 Fiscal Year 2018 2019 2017 2018 2019 Google Search & other $23,320 $27,185 $69,811 $85,296 $98,115 YouTube ads (1) 3,605 4,717 8,150 11,155 15,149 Google properties 26,925 31,902 77,961 96,451 113,264 Google Network Members' properties 5,593 6,032 17,616 20,010 21,547 Google advertising 32,518 37,934 95,577 116,461 134,811 Google Cloud 1,709 2,614 4,056 5,838 8,918 Google other (1) 4,771 5,264 10,914 14,063 17,014 Google revenues 38,998 45,812 110,547 136,362 160,743 Other Bets revenues 154 172 477 595 659 Hedging gains (losses) (2) 124 91 (169 ) (138 ) 455 Total revenues $39,276 $46,075 $110,855 $136,819 $161,857 (1) YouTube non-advertising revenues are included in Google other revenues. (2) Hedging gains (losses) were previously included in Google revenues. Q4 and full year 2018 and 2019 financial highlights The following table summarizes our consolidated financial results for the quarters and years ended December 31, 2018 and 2019 (in millions, except for per share information and percentages; unaudited): Quarter Ended December 31, Year Ended December 31, 2018 2019 2018 2019 Revenues $39,276 $46,075 $136,819 $161,857 Increase in revenues year over year 22 % 17 % 23 % 18 % Increase in constant currency revenues year over year 23 % 19 % 22 % 20 % Operating income $8,221 $9,266 $27,524 $34,231 Operating margin 21 % 20 % 20 % 21 % Other income (expense), net $1,851 $1,438 $7,389 $5,394 Net income (1) $8,948 $10,671 $30,736 $34,343 Diluted EPS $12.77 $15.35 $43.70 $49.16 (1) Included in net income is the provision for income taxes. Our effective tax rate was 12% and 13% for the years ended December 31, 2018 and 2019, respectively, and was 11% and 0% (reflective of discrete items, including the resolution of multi-year audits) for the quarters ended December 31, 2018 and 2019, respectively. Q4 2019 supplemental information (in millions, except for number of employees; unaudited) Revenues, Traffic Acquisition Costs (TAC) and number of employees The following table summarizes our revenues, total TAC and number of employees. Hedging gains (losses), which were previously included in Google revenues, are presented separately. Quarter Ended December 31, 2018 2019 Google Search & other $23,320 $27,185 YouTube ads (1) 3,605 4,717 Google properties 26,925 31,902 Google Network Members' properties 5,593 6,032 Google advertising 32,518 37,934 Google Cloud 1,709 2,614 Google other (1) 4,771 5,264 Google revenues 38,998 45,812 Other Bets revenues 154 172 Hedging gains (losses) 124 91 Total revenues $39,276 $46,075 Total TAC $7,436 $8,501 Number of employees 98,771 118,899 (1) YouTube non-advertising revenues are included in Google other revenues. Segment operating results Quarter Ended December 31, 2018 2019 Google operating income $9,576 $11,459 Other Bets operating loss ($1,328 ) ($2,026 ) Webcast and
+Exhibit
+Exhibit 99.1
+Alphabet Announces
+Fourth Quarter and Fiscal Year
+2019
+Results
+MOUNTAIN VIEW, Calif. –
+February 3, 2020
+– Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the
+quarter and fiscal year ended
+December 31, 2019
+.
+“Our investments in deep computer science, including artificial intelligence, ambient computing and cloud computing, provide a strong base for continued growth and new opportunities across Alphabet,” said Sundar Pichai, Chief Executive Officer of Alphabet and Google. “I’m really pleased with our continued progress in Search and in building two of our newer growth areas — YouTube, already at $15 billion in annual ad revenue, and Cloud, which is now on a $10 billion revenue run rate."
+“In 2019 we again delivered strong revenue growth, with revenues of $162 billion, up 18% year over year and up 20% on a constant currency basis,” said Ruth Porat, Chief Financial Officer of Alphabet and Google. “To provide further insight into our business and the opportunities ahead, we’re now disclosing our revenue on a more granular basis, including for Search, YouTube ads and Cloud.”
+Expanded revenue disclosures
+The table below shows our expanded revenue disclosures for the quarters ended December 31, 2018 and 2019 and the years ended December 31, 2017, 2018 and 2019 (in millions, unaudited):
+Q4
+Fiscal Year
+2018
+2019
+2017
+2018
+2019
+Google Search & other
+$23,320
+$27,185
+$69,811
+$85,296
+$98,115
+YouTube ads
+(1)
+3,605
+4,717
+8,150
+11,155
+15,149
+Google properties
+26,925
+31,902
+77,961
+96,451
+113,264
+Google Network Members' properties
+5,593
+6,032
+17,616
+20,010
+21,547
+Google advertising
+32,518
+37,934
+95,577
+116,461
+134,811
+Google Cloud
+1,709
+2,614
+4,056
+5,838
+8,918
+Google other
+(1)
+4,771
+5,264
+10,914
+14,063
+17,014
+Google revenues
+38,998
+45,812
+110,547
+136,362
+160,743
+Other Bets revenues
+154
+172
+477
+595
+659
+Hedging gains (losses)
+(2)
+124
+91
+(169
+)
+(138
+)
+455
+Total revenues
+$39,276
+$46,075
+$110,855
+$136,819
+$161,857
+(1)
+YouTube non-advertising revenues are included in Google other revenues.
+(2)
+Hedging gains (losses) were previously included in Google revenues.
+Q4
+and full year 2018 and
+2019
+financial highlights
+The following table summarizes our consolidated financial results for the quarters and years ended December 31, 2018 and
+2019
+(in millions, except for per share information and percentages; unaudited):
+Quarter Ended
+December 31,
+Year Ended
+December 31,
+2018
+2019
+2018
+2019
+Revenues
+$39,276
+$46,075
+$136,819
+$161,857
+Increase in revenues year over year
+22
+%
+17
+%
+23
+%
+18
+%
+Increase in constant currency revenues year over year
+23
+%
+19
+%
+22
+%
+20
+%
+Operating income
+$8,221
+$9,266
+$27,524
+$34,231
+Operating margin
+21
+%
+20
+%
+20
+%
+21
+%
+Other income (expense), net
+$1,851
+$1,438
+$7,389
+$5,394
+Net income
+(1)
+$8,948
+$10,671
+$30,736
+$34,343
+Diluted EPS
+$12.77
+$15.35
+$43.70
+$49.16
+(1)
+Included in net income is the provision for income taxes. Our effective tax rate was 12% and 13% for the years ended December 31, 2018 and 2019, respectively, and was 11% and 0% (reflective of discrete items, including the resolution of multi-year audits) for the quarters ended December 31, 2018 and 2019, respectively.
+Q4
+2019
+supplemental information
+(in millions, except for number of employees; unaudited)
+Revenues, Traffic Acquisition Costs (TAC) and number of employees
+The following table summarizes our revenues, total TAC and number of employees. Hedging gains (losses), which were previously included in Google revenues, are presented separately.
+Quarter Ended December 31,
+2018
+2019
+Google Search & other
+$23,320
+$27,185
+YouTube ads
+(1)
+3,605
+4,717
+Google properties
+26,925
+31,902
+Google Network Members' properties
+5,593
+6,032
+Google advertising
+32,518
+37,934
+Google Cloud
+1,709
+2,614
+Google other
+(1)
+4,771
+5,264
+Google revenues
+38,998
+45,812
+Other Bets revenues
+154
+172
+Hedging gains (losses)
+124
+91
+Total revenues
+$39,276
+$46,075
+Total TAC
+$7,436
+$8,501
+Number of employees
+98,771
+118,899
+(1)
+YouTube non-advertising revenues are included in Google other revenues.
+Segment operating results
+Quarter Ended December 31,
+2018
+2019
+Google operating income
+$9,576
+$11,459
+Other Bets operating loss
+($1,328
+)
+($2,026
+)
+Webcast and

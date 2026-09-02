@@ -1,1 +1,97 @@
-Document Facebook Reports Second Quarter 2021 Results MENLO PARK, Calif. – July 28, 2021 – Facebook, Inc. (Nasdaq: FB) today reported financial results for the quarter ended June 30, 2021. "We had a strong quarter as we continue to help businesses grow and people stay connected," said Mark Zuckerberg, Facebook founder and CEO. "I'm excited to see our major initiatives around creators and community, commerce, and building the next computing platform coming together to start to bring the vision of the metaverse to life." Second Quarter 2021 Financial Highlights Three Months Ended June 30, Year-over-Year % Change In millions, except percentages and per share amounts 2021 2020 Revenue: Advertising $ 28,580 $ 18,321 56% Other 497 366 36% Total revenue 29,077 18,687 56% Total costs and expenses 16,710 12,724 31% Income from operations $ 12,367 $ 5,963 107% Operating margin 43 % 32 % Provision for income taxes $ 2,119 $ 953 122% Effective tax rate 17 % 16 % Net income $ 10,394 $ 5,178 101% Diluted earnings per share (EPS) $ 3.61 $ 1.80 101% Second Quarter 2021 Operational and Other Financial Highlights • Facebook daily active users (DAUs) – DAUs were 1.91 billion on average for June 2021, an increase of 7% year-over-year. • Facebook monthly active users (MAUs) – MAUs were 2.90 billion as of June 30, 2021, an increase of 7% year-over-year. • Family daily active people (DAP) – DAP was 2.76 billion on average for June 2021, an increase of 12% year-over-year. • Family monthly active people (MAP) – MAP was 3.51 billion as of June 30, 2021, an increase of 12% year-over-year. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $4.74 billion for the second quarter of 2021. • Cash and cash equivalents and marketable securities – Cash and cash equivalents and marketable securities were $64.08 billion as of June 30, 2021. • Headcount – Headcount was 63,404 as of June 30, 2021, an increase of 21% year-over-year. 1 CFO Outlook Commentary Advertising revenue growth in the second quarter of 2021 was driven by a 47% year-over-year increase in the average price per ad and a 6% increase in the number of ads delivered. Similar to the second quarter, we expect that advertising revenue growth will be driven primarily by year-over-year advertising price increases during the rest of 2021. In the third and fourth quarters of 2021, we expect year-over-year total revenue growth rates to decelerate significantly on a sequential basis as we lap periods of increasingly strong growth. When viewing growth on a two-year basis to exclude the impacts from lapping the COVID-19 recovery, we expect year-over-two-year total revenue growth to decelerate modestly in the second half of 2021 compared to the second quarter growth rate. We continue to expect increased ad targeting headwinds in 2021 from regulatory and platform changes, notably the recent iOS updates, which we expect to have a greater impact in the third quarter compared to the second quarter. This is factored into our outlook. As noted in recent earnings calls, we continue to monitor developments regarding the viability of transatlantic data transfers and their potential impact on our European operations. We expect 2021 total expenses to be in the range of $70-73 billion, unchanged from our prior outlook. The year-over-year growth in expenses is driven primarily by investments in technical and product talent, infrastructure, and consumer hardware-related costs. Our expense outlook reflects our commitment to invest ahead of the compelling long-term growth opportunities we see across our product portfolio. We expect 2021 capital expenditures to be in the range of $19-21 billion, unchanged from our prior estimate. Our capital expenditures are driven primarily by our investments in data centers, servers, network infrastructure, and office facilities. We expect our full-year 2021 tax rate to be in the high-teens. 2 Webcast and
+Document
+Facebook Reports Second Quarter 2021 Results
+MENLO PARK, Calif. – July 28, 2021 – Facebook, Inc. (Nasdaq: FB) today reported financial results for the quarter ended June 30, 2021.
+"We had a strong quarter as we continue to help businesses grow and people stay connected," said Mark Zuckerberg, Facebook founder and CEO. "I'm excited to see our major initiatives around creators and community, commerce, and building the next computing platform coming together to start to bring the vision of the metaverse to life."
+Second Quarter 2021 Financial Highlights
+Three Months Ended June 30,
+Year-over-Year % Change
+In millions, except percentages and per share amounts
+2021
+2020
+Revenue:
+Advertising
+$
+28,580
+$
+18,321
+56%
+Other
+497
+366
+36%
+Total revenue
+29,077
+18,687
+56%
+Total costs and expenses
+16,710
+12,724
+31%
+Income from operations
+$
+12,367
+$
+5,963
+107%
+Operating margin
+43
+%
+32
+%
+Provision for income taxes
+$
+2,119
+$
+953
+122%
+Effective tax rate
+17
+%
+16
+%
+Net income
+$
+10,394
+$
+5,178
+101%
+Diluted earnings per share (EPS)
+$
+3.61
+$
+1.80
+101%
+Second Quarter 2021 Operational and Other Financial Highlights
+•
+Facebook daily active users (DAUs)
+– DAUs were 1.91 billion on average for June 2021, an increase of 7% year-over-year.
+•
+Facebook monthly active users (MAUs)
+– MAUs were 2.90 billion as of June 30, 2021, an increase of 7% year-over-year.
+•
+Family daily active people (DAP)
+– DAP was 2.76 billion on average for June 2021, an increase of 12% year-over-year.
+•
+Family monthly active people (MAP)
+– MAP was 3.51 billion as of June 30, 2021, an increase of 12% year-over-year.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $4.74 billion for the second quarter of 2021.
+•
+Cash and cash equivalents and marketable securities
+– Cash and cash equivalents and marketable securities were $64.08 billion as of June 30, 2021.
+•
+Headcount
+– Headcount
+was 63,404 as of June 30, 2021, an increase of 21% year-over-year.
+1
+CFO Outlook Commentary
+Advertising revenue growth in the second quarter of 2021 was driven by a 47% year-over-year increase in the average price per ad and a 6% increase in the number of ads delivered. Similar to the second quarter, we expect that advertising revenue growth will be driven primarily by year-over-year advertising price increases during the rest of 2021.
+In the third and fourth quarters of 2021, we expect year-over-year total revenue growth rates to decelerate significantly on a sequential basis as we lap periods of increasingly strong growth. When viewing growth on a two-year basis to exclude the impacts from lapping the COVID-19 recovery, we expect year-over-two-year total revenue growth to decelerate modestly in the second half of 2021 compared to the second quarter growth rate.
+We continue to expect increased ad targeting headwinds in 2021 from regulatory and platform changes, notably the recent iOS updates, which we expect to have a greater impact in the third quarter compared to the second quarter. This is factored into our outlook.
+As noted in recent earnings calls, we continue to monitor developments regarding the viability of transatlantic data transfers and their potential impact on our European operations.
+We expect 2021 total expenses to be in the range of $70-73 billion, unchanged from our prior outlook. The year-over-year growth in expenses is driven primarily by investments in technical and product talent, infrastructure, and consumer hardware-related costs. Our expense outlook reflects our commitment to invest ahead of the compelling long-term growth opportunities we see across our product portfolio.
+We expect 2021 capital expenditures to be in the range of $19-21 billion, unchanged from our prior estimate. Our capital expenditures are driven primarily by our investments in data centers, servers, network infrastructure, and office facilities.
+We expect our full-year 2021 tax rate to be in the high-teens.
+2
+Webcast and

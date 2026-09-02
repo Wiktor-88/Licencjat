@@ -1,1 +1,81 @@
-EX-99.1 Exhibit 99.1
+EX-99.1
+Exhibit 99.1
+Media Contact:
+Drew Prairie
+AMD
+Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Mitch
+Haws
+AMD Investor Relations
+408-749-3124
+mitch.haws@amd.com
+AMD to Significantly Expand Data Center AI Systems Capabilities with Acquisition of Hyperscale Solutions Provider ZT Systems
+ Strategic acquisition to provide AMD with industry-leading systems expertise to accelerate deployment of optimized rack-scale
+solutions addressing $400 billion data center AI accelerator opportunity in 2027 
+
+ZT Systems, a leading provider of AI and general purpose compute infrastructure for the worlds largest
+hyperscale providers, brings extensive AI systems expertise that complements AMD silicon and software capabilities
+
+Addition of world-class design and customer enablement teams to accelerate deployment of AMD AI rack scale
+systems with cloud and enterprise customers
+
+AMD to seek strategic partner to acquire ZT Systems industry-leading manufacturing
+business
+
+Transaction expected to be accretive on a
+non-GAAP
+basis by the end of
+2025
+SANTA CLARA, Calif.  August
+19, 2024 
+AMD
+(NASDAQ: AMD) today
+announced the signing of a definitive agreement to acquire
+ZT Systems
+, a leading provider of AI infrastructure for the worlds largest hyperscale computing companies. The strategic transaction marks the next major step in AMDs AI
+strategy to deliver leadership AI training and inferencing solutions based on innovating across silicon, software and systems. ZT Systems extensive experience designing and optimizing cloud computing solutions will also help cloud and
+enterprise customers significantly accelerate the deployment of
+AMD-powered
+AI infrastructure at scale.
+AMD has agreed to acquire ZT Systems in a cash and stock transaction valued at $4.9 billion, inclusive of a contingent payment of up to
+$400 million based on certain post-closing milestones. AMD expects the transaction to be accretive on a
+non-GAAP
+basis by the end of 2025.
+Our acquisition of ZT Systems is the next major step in our long-term AI strategy to deliver leadership training and inferencing
+solutions that can be rapidly deployed at scale across cloud and enterprise customers, said AMD Chair and CEO
+Dr.
+Lisa Su
+. ZT adds world-class systems design and rack-scale solutions expertise that will
+significantly strengthen our data center AI systems and customer enablement capabilities. This acquisition also builds on the investments we have made to accelerate our AI hardware and software roadmaps. Combining our high-performance Instinct AI
+accelerator, EPYC CPU, and networking product portfolios with ZT Systems industry-leading data center systems expertise will enable AMD to deliver
+end-to-end
+data
+center AI infrastructure at scale with our ecosystem of OEM and ODM partners.
+Headquartered in Secaucus, New Jersey, ZT Systems has more than 15 years of experience
+designing and deploying data center AI compute and storage infrastructure at scale for the largest global cloud companies. ZT Systems design, integration, manufacturing and deployment capabilities have made them one of the leading providers of
+AI training and inference infrastructure.
+We are excited to join AMD and together play an even larger role designing the AI
+infrastructure that is defining the future of computing, said Frank Zhang, CEO of ZT Systems. For almost 30 years we have evolved our business to become a leading provider of critical computing and storage infrastructure for the
+worlds largest cloud companies. AMD shares our vision for the important role our technology and our people play designing and building the computing infrastructure powering the largest data centers in the world.
+Following transaction close, ZT Systems will join the AMD Data Center Solutions Business Group. ZT CEO Frank Zhang will lead the manufacturing
+business and ZT President Doug Huang will lead the design and customer enablement teams, both reporting to AMD Executive Vice President and General Manager
+Forrest Norrod
+. AMD will seek a strategic partner to acquire ZT Systems
+industry-leading U.S.-based data center infrastructure manufacturing business.
+The acquisition of ZT Systems marks the latest in a series
+of investments by AMD to significantly strengthen the companys AI capabilities. In the last 12 months, in addition to increasing organic R&D activities, AMD has invested more than $1 billion to expand the AMD AI ecosystem and
+strengthen the companys AI software capabilities.
+Additional Transaction Details
+The transaction has been unanimously approved by the AMD Board of Directors. The acquisition is currently expected to close in the first half
+of 2025, subject to certain regulatory approvals and other customary closing conditions.
+Conference Call and Webcast Details
+AMD will hold a conference call for the financial community at 8:30 am EDT today to discuss the transaction. AMD will provide a real-time audio
+broadcast of the teleconference on the Investor Relations page of its website at
+ir.amd.com
+. The webcast will be available for 12 months after the conference call.
+Advisors
+Citi is acting as exclusive
+financial advisor to AMD and Latham & Watkins LLP is serving as its legal advisor. Goldman Sachs & Co. LLC is acting as exclusive financial advisor to ZT Systems and Paul, Weiss, LLP is serving as its legal advisor.

@@ -1,1 +1,191 @@
-Document Exhibit 99.1 Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1549 News Release Intel Reports Third-Quarter 2021 Financial Results News Summary ▪ Third-quarter GAAP revenue of $19.2 billion, up 5% year over year (YoY), and non-GAAP revenue of $18.1 billion, up 5% YoY. Achieved all-time record revenue in Intel's Internet of Things Group (IOTG) and record third-quarter revenue in the Data Center Group (DCG) and Mobileye businesses. ▪ Third-quarter GAAP earnings-per-share (EPS) was $1.67; non-GAAP EPS was $1.71, which exceeded July guidance by $0.61. Exceeded July guidance for EPS and gross margin. ▪ Raising full-year 2021 EPS and gross margin guida nce. Now expecting GAAP EPS of $4.50 and non-GAAP EPS of $5.28 and GAAP gross margin of 55% and non-GAAP gross margin of 57% 1 . ▪ Intel CFO George Davis announced plans to retire in May 2022. SANTA CLARA, Calif., October 21, 2021 -- Intel Corporation today reported third-quarter 2021 financial results. “Q3 shone an even greater spotlight on the global demand for semiconductors, where Intel has the unique breadth and scale to lead. Our focus on execution continued as we started delivering on our IDM 2.0 commitments. We broke ground on new fabs, shared our accelerated path to regain process performance leadership, and unveiled our most dramatic architectural innovations in a decade. We also announced major customer wins across every part of our business,” said Pat Gelsinger, Intel CEO. “We are still in the early stages of our journey, but I see the enormous opportunity ahead, and I couldn’t be prouder of the progress we are making towards that opportunity.” Q3 2021 Financial Highlights GAAP Non-GAAP Q3 2021 Q3 2020 vs. Q3 2020 Q3 2021 Q3 2020 vs. Q3 2020 Revenue ($B) $19.2 $18.3 up 5% $18.1 $17.3 up 5% Gross Margin 56.0% 53.1% up 2.9 ppt 57.8% 56.5% up 1.3 ppt R&D and MG&A ($B) $5.5 $4.7 up 16% $5.3 $4.5 up 17% Operating Margin 27.2% 27.6% down 0.4 ppt 28.8% 30.4% down 1.7 ppt Tax Rate 0.5% 15.2% down 14.7 ppt 0.4% 15.4% down 15 ppt Net Income ($B) $6.8 $4.3 up 60% $7.0 $4.5 up 54% Earnings Per Share $1.67 $1.02 up 64% $1.71 $1.08 up 59% In the third quarter, the company generated $9.9 billion in cash from operations and paid dividends of $1.4 billion. Intel CFO George Davis announced plans to retire from Intel in May 2022. He will continue to serve in his current role while Intel conducts a search for a new CFO and until his successor is appointed. 1 Non-GAAP results and business outlook exclude the NAND memory business, which is subject to a pending divestiture. Year-over-year non-GAAP comparisons also exclude NAND from 2020 results. Full reconciliations between GAAP and non-GAAP measures are provided below. Intel/Page 2 Business Unit Summary Key Business Unit Revenue and Trends Q3 2021 vs. Q3 2020 CCG $9.7 billion down 2% DCG $6.5 billion up 10% Internet of Things IOTG $1.0 billion up 54% Mobileye $326 million up 39% NSG $1.1 billion down 4% PSG $478 million up 16% Third-quarter revenue was led by strong recovery in the Enterprise portion of DCG and in IOTG, which saw higher demand amid recovery from the economic impacts of COVID-19. The Client Computing Group (CCG) was down due to lower notebook volumes due to industry-wide component shortages, and on lower adjacent revenue, partially offset by higher average selling prices (ASPs) and strength in desktop. Business Highlights ▪ Selected by the U.S. government to provide commercial foundry services for the government’s RAMP-C program. ▪ Announced Amazon as first customer to use Intel Foundry Services’ packaging services, and a partnership with Qualcomm to use the future Intel 20A process technology. ▪ Broke ground on two new leading-edge chip factories at Intel’s Ocotillo campus in Chandler, Arizona, three months ahead of schedule. ▪ Shared process and packaging roadmap updates for delivering five nodes within four years, putting Intel on a path to restore process performance per watt parity in 2024 and leadership in 2025 with key process innovations, including RibbonFET and PowerVia. Also introduced new advanced packaging technologies, Foveros Omni and Foveros Direct, for 2023. ▪ Detailed Intel’s biggest architectural shifts in a generation with the first in-depth look at Alder Lake, our first performance hybrid architecture with two new generations of x86 cores; Sapphire Rapids, our new standard-setting data center architecture; our new discrete gaming graphics processing unit architecture; new infrastructure processing units; and Ponte Vecchio, our tour-de-force GPU architecture with Intel’s highest ever compute density to accelerate AI, HPC, and advanced analytics workloads. ▪ Introduced the new Intel Arc brand for our upcoming high-performance graphics products, covering hardware and software, and services. ▪ Introduced four new Intel Core processor-based Surface design wins with Microsoft, including the first Surface device to be Intel® Evo™ platform verified, and two designs that bring Thunderbolt connectivity to the Surface lineup. ▪ Announced availability of the 3rd Gen Intel® Xeon® Scalable processor (Ice Lake) for AWS customers via the new Amazon Elastic Compute Cloud (Amazon EC2) M6i instances and for Google Cloud customers via the new Compute Engine N2 ▪ Announced U.S. Department of Energy selected next-generation Intel Xeon Scalable processors (Sapphire Rapids) to power supercomputers. ▪ Announced strategic global partnerships with ZEEKR and Sixt SE and additional plans to unveil Mobileye’s robotaxi equipped with the Mobileye Drive™ system. ▪ Introduced second-generation neuromorphic research chip, Loihi 2, fabricated with a pre-production version of the Intel 4 process. As part of its IDM 2.0 strategy, Intel w ill be making a series of product and technology announcements at its upcoming Innovation virtual event on October 27-28, 2021. The conference is designed for developers, industry insiders, and will feature technical sessions on Intel's AI, 5G, edge, cloud connectivity, and client applications. Join the public webcast and follow the news at newsroom.intel.com at 9 a.m. PDT on Wednesday, October 27th, 2021. Additional information regarding Intel’s results can be found in the Q3'21 Earnings Presentation available at: www.intc.com . Intel/Page 3 Business Outlook Intel's guidance for the fourth quarter and full year includes both GAAP and non-GAAP estimates. Our non-GAAP measures exclude the NAND memory business, which is subject to a previously-announced pending sale, as well as certain other items. Reconciliations between GAAP and non-GAAP financial measures are included below. Q4 2021 GAAP Non-GAAP Approximately Approximately Revenue $19.2 billion $18.3 billion Gross Margin 51.4% 53.5% Tax rate 37% 13% Earnings per share $0.78 $0.90 Full-Year 2021 GAAP Non-GAAP Approximately Approximately Revenue $77.7 billion $73.5 billion Gross Margin 55% 57% Tax rate 15% 9% Earnings per share $4.50 $5.28 Full-year capital spending $18.0-19.0 billion $18.0-19.0 billion^ Free cash flow N/A $12.5 billion Actual results may differ materially from Intel’s Business Outlook as a result of, among other things, the factors described under “
+Document
+Exhibit 99.1
+Intel Corporation
+2200 Mission College Blvd.
+Santa Clara, CA 95054-1549
+News Release
+Intel Reports Third-Quarter 2021 Financial Results
+News Summary
+▪
+Third-quarter GAAP revenue of $19.2 billion, up 5% year over year (YoY), and non-GAAP revenue of $18.1 billion, up 5% YoY.  Achieved all-time record revenue in Intel's Internet of Things Group (IOTG) and record third-quarter revenue in the Data Center Group (DCG) and Mobileye businesses.
+▪
+Third-quarter GAAP earnings-per-share (EPS) was $1.67; non-GAAP EPS was $1.71, which exceeded July guidance by $0.61. Exceeded July guidance for EPS and gross margin.
+▪
+Raising full-year 2021
+EPS and gross margin guida
+nce. Now expecting GAAP EPS of $4.50 and non-GAAP EPS of $5.28 and GAAP gross margin of 55% and non-GAAP gross margin of 57%
+1
+.
+▪
+Intel CFO George Davis announced plans to retire in May 2022.
+SANTA CLARA, Calif., October 21, 2021 -- Intel Corporation today reported third-quarter 2021 financial results.
+“Q3 shone an even greater spotlight on the global demand for semiconductors, where Intel has the unique breadth and scale to lead. Our focus on execution continued as we started delivering on our IDM 2.0 commitments. We broke ground on new fabs, shared our accelerated path to regain process performance leadership, and unveiled our most dramatic architectural innovations in a decade. We also announced major customer wins across every part of our business,” said Pat Gelsinger, Intel CEO. “We are still in the early stages of our journey, but I see the enormous opportunity ahead, and I couldn’t be prouder of the progress we are making towards that opportunity.”
+Q3 2021 Financial Highlights
+GAAP
+Non-GAAP
+Q3 2021
+Q3 2020
+vs. Q3 2020
+Q3 2021
+Q3 2020
+vs. Q3 2020
+Revenue ($B)
+$19.2
+$18.3
+up 5%
+$18.1
+$17.3
+up 5%
+Gross Margin
+56.0%
+53.1%
+up 2.9 ppt
+57.8%
+56.5%
+up 1.3 ppt
+R&D and MG&A ($B)
+$5.5
+$4.7
+up 16%
+$5.3
+$4.5
+up 17%
+Operating Margin
+27.2%
+27.6%
+down 0.4 ppt
+28.8%
+30.4%
+down 1.7 ppt
+Tax Rate
+0.5%
+15.2%
+down 14.7 ppt
+0.4%
+15.4%
+down 15 ppt
+Net Income ($B)
+$6.8
+$4.3
+up 60%
+$7.0
+$4.5
+up 54%
+Earnings Per Share
+$1.67
+$1.02
+up 64%
+$1.71
+$1.08
+up 59%
+In the third quarter, the company generated $9.9 billion in cash from operations and paid dividends of $1.4 billion.
+Intel CFO George Davis announced plans to retire from Intel in May 2022. He will continue to serve in his current role while Intel conducts a search for a new CFO and until his successor is appointed.
+1
+Non-GAAP results and business outlook exclude the NAND memory business, which is subject to a pending divestiture. Year-over-year non-GAAP comparisons also exclude NAND from 2020 results. Full reconciliations between GAAP and non-GAAP measures are provided below.
+Intel/Page 2
+Business Unit Summary
+Key Business Unit Revenue and Trends
+Q3 2021
+vs. Q3 2020
+CCG
+$9.7 billion
+down
+2%
+DCG
+$6.5 billion
+up
+10%
+Internet of Things
+IOTG
+$1.0 billion
+up
+54%
+Mobileye
+$326 million
+up
+39%
+NSG
+$1.1 billion
+down
+4%
+PSG
+$478 million
+up
+16%
+Third-quarter revenue was led by strong recovery in the Enterprise portion of DCG and in IOTG, which saw higher demand amid recovery from the economic impacts of COVID-19.  The Client Computing Group (CCG) was down due to lower notebook volumes due to industry-wide component shortages, and on lower adjacent revenue, partially offset by higher average selling prices (ASPs) and strength in desktop.
+Business Highlights
+▪
+Selected by the U.S. government to provide commercial foundry services for the government’s RAMP-C program.
+▪
+Announced Amazon as first customer to use Intel Foundry Services’ packaging services, and a partnership with Qualcomm to use the future Intel 20A process technology.
+▪
+Broke ground on
+two new leading-edge chip factories at Intel’s Ocotillo campus in Chandler, Arizona, three months ahead of schedule.
+▪
+Shared process and packaging roadmap updates for delivering five nodes within four years, putting Intel on a path to restore process performance per watt parity in 2024 and leadership in 2025 with key process innovations, including RibbonFET and PowerVia. Also introduced new advanced packaging technologies, Foveros Omni and Foveros Direct, for 2023.
+▪
+Detailed Intel’s biggest architectural shifts in a generation with
+the first in-depth look at Alder Lake, our first performance hybrid architecture with two new generations of x86 cores; Sapphire Rapids, our new standard-setting data center architecture; our new discrete gaming graphics processing unit architecture; new infrastructure processing units; and Ponte Vecchio, our tour-de-force GPU architecture with Intel’s highest ever compute density
+to accelerate AI, HPC, and advanced analytics workloads.
+▪
+Introduced the new Intel Arc brand for our upcoming high-performance graphics products, covering hardware and software, and services.
+▪
+Introduced four new Intel Core processor-based Surface design wins with Microsoft, including the first Surface device to be Intel® Evo™ platform verified, and two designs that bring Thunderbolt connectivity to the Surface lineup.
+▪
+Announced availability of the 3rd Gen Intel® Xeon® Scalable processor (Ice Lake) for AWS customers via the new Amazon Elastic Compute Cloud (Amazon EC2) M6i instances and for Google Cloud customers via the new Compute Engine N2
+▪
+Announced U.S. Department of Energy selected next-generation Intel Xeon Scalable processors (Sapphire Rapids) to power supercomputers.
+▪
+Announced strategic global partnerships with ZEEKR and Sixt SE and additional plans to unveil Mobileye’s robotaxi equipped with the Mobileye Drive™ system.
+▪
+Introduced second-generation neuromorphic research chip, Loihi 2, fabricated with a pre-production version of the Intel 4 process.
+As part of its IDM 2.0 strategy, Intel w
+ill be making a series of product and technology announcements at
+its upcoming Innovation virtual event on October 27-28, 2021. The conference is designed for developers, industry insiders, and will feature technical sessions on Intel's AI, 5G, edge, cloud connectivity, and client applications. Join the public webcast and follow the news at newsroom.intel.com at 9 a.m. PDT on Wednesday, October 27th, 2021.
+Additional information regarding Intel’s results can be found in the Q3'21 Earnings Presentation available at:
+www.intc.com
+.
+Intel/Page 3
+Business Outlook
+Intel's guidance for the fourth quarter and full year includes both GAAP and non-GAAP estimates. Our non-GAAP measures exclude the NAND memory business, which is subject to a previously-announced pending sale, as well as certain other items. Reconciliations between GAAP and non-GAAP financial measures are included below.
+Q4 2021
+GAAP
+Non-GAAP
+Approximately
+Approximately
+Revenue
+$19.2 billion
+$18.3 billion
+Gross Margin
+51.4%
+53.5%
+Tax rate
+37%
+13%
+Earnings per share
+$0.78
+$0.90
+Full-Year 2021
+GAAP
+Non-GAAP
+Approximately
+Approximately
+Revenue
+$77.7 billion
+$73.5 billion
+Gross Margin
+55%
+57%
+Tax rate
+15%
+9%
+Earnings per share
+$4.50
+$5.28
+Full-year capital spending
+$18.0-19.0 billion
+$18.0-19.0 billion^
+Free cash flow
+N/A
+$12.5 billion
+Actual results may differ materially from Intel’s Business Outlook as a result of, among other things, the factors described under “

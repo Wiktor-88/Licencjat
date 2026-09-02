@@ -1,1 +1,26 @@
-Item 7.01 Regulation FD Disclosure. On January 18, 2022, Microsoft Corporation (“ Microsoft ”) issued a press release announcing that it had entered into a definitive agreement pursuant to which Microsoft will acquire Activision Blizzard, Inc. (“ Activision Blizzard ”) for $95.00 per share in an all-cash transaction valued at $68.7 billion, inclusive of Activision Blizzard’s net cash. The full text of the press release is attached as Exhibit 99.1 and is incorporated by reference herein. On and after January 18, 2022, representatives of Microsoft and Activision Blizzard will present information about the transaction to various investors. The presentation will include the slides attached hereto as Exhibit 99.2 and incorporated by reference herein. In accordance with General Instruction B.2 of Form 8-K, the information in this Current Report on Form 8-K, including Exhibit 99.1 and Exhibit 99.2, shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liability of that section, and shall not be incorporated by reference into any registration statement or other document filed under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such filing. Item 9.01 Financial Statements and Exhibits. (d) Exhibits . Exhibit No. Description 99.1 Press Release, dated January 18, 2022 99.2 Investor Presentation 104 Cover Page Interactive Data File (embedded within the Inline XBRL document)
+Item 7.01 Regulation FD Disclosure.
+On January 18, 2022, Microsoft Corporation (“
+Microsoft
+”) issued a press release announcing that it had entered into a definitive agreement pursuant to which Microsoft will acquire Activision Blizzard, Inc. (“
+Activision Blizzard
+”) for $95.00 per share in an
+all-cash
+transaction valued at $68.7 billion, inclusive of Activision Blizzard’s net cash. The full text of the press release is attached as Exhibit 99.1 and is incorporated by reference herein.
+On and after January 18, 2022, representatives of Microsoft and Activision Blizzard will present information about the transaction to various investors. The presentation will include the slides attached hereto as Exhibit 99.2 and incorporated by reference herein.
+In accordance with General Instruction B.2
+of Form 8-K, the information
+in this Current Report
+on Form 8-K, including Exhibit
+99.1 and Exhibit 99.2, shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”), or otherwise subject to the liability of that section, and shall not be incorporated by reference into any registration statement or other document filed under the Securities Act of 1933, as amended, or the Exchange Act, except as shall be expressly set forth by specific reference in such filing.
+Item 9.01 Financial Statements and Exhibits.
+(d)
+Exhibits
+.
+Exhibit No.
+Description
+99.1
+Press Release, dated January 18, 2022
+99.2
+Investor Presentation
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document)

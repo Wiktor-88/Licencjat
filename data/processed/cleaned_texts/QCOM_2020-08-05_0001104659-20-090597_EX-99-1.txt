@@ -1,1 +1,222 @@
-Exhibit 99.1 Qualcomm Contacts: Pete Lancia Corporate Communications Phone: 1-858-845-5959 email: corpcomm@qualcomm.com Mauricio Lopez-Hodoyan
+Exhibit 99.1
+Qualcomm Contacts:
+Pete Lancia
+Corporate Communications
+Phone: 1-858-845-5959
+email: corpcomm@qualcomm.com
+Mauricio Lopez-Hodoyan
+Investor Relations
+Phone: 1-858-658-4813
+email: ir@qualcomm.com
+Information Agent Contact:
+Global Bondholder Services Corporation
+Phone: 1-866-470-3900 (toll free)
+1-212-430-3774 (collect)
+Qualcomm Announces Private Exchange Offers
+for Four Series of Notes Open to Certain Investors
+SAN DIEGO – August 5, 2020
+– Qualcomm Incorporated
+(NASDAQ: QCOM) announced today the commencement of a transaction to exchange four series of its outstanding notes totaling $7.0
+billion. The exchange transaction consists of four separate private offers to exchange (each, an “Exchange Offer,”
+and collectively, the “Exchange Offers”) any and all of the outstanding notes listed in the table below (collectively,
+the “Old Notes”). Qualcomm is offering to certain holders of such notes the opportunity to exchange each of the four
+series of Old Notes for two new series of Qualcomm’s senior notes, on the terms and subject to the conditions set forth in
+the Offering Memorandum dated August 5, 2020 (the “Offering Memorandum” and, together with the eligibility letter,
+the Canadian holder form and the notice of guaranteed delivery, the “Exchange Offer Documents”). No consents are being
+solicited as part of the Exchange Offers. The Exchange Offers are subject to minimum conditions as set forth in the table below.
+Only holders who are “qualified institutional buyers”
+or who are non-U.S. persons (other than “retail investors” in the European Economic Area or in the United Kingdom and
+investors in any province or territory of Canada that are individuals or that are institutions or other entities that do not qualify
+as both “accredited investors” and “permitted clients”) are eligible to participate in this transaction,
+as more fully described below. Concurrently with this transaction, Qualcomm also announced today the commencement of a transaction
+to repurchase such four series of notes pursuant to cash tender offers (each, a “Cash Offer” and collectively, the
+“Cash Offers”), which are open only to Ineligible Holders (as defined below).
+The Exchange Offers will expire at 5:00 p.m., New York City
+time, on August 11, 2020, unless extended or earlier terminated by Qualcomm (the “Exchange Offer Expiration Date”).
+Tenders of Old Notes submitted in the Exchange Offers may be validly withdrawn at any time at or prior to 5:00 p.m., New York City
+time, on August 11, 2020, subject to any extension by Qualcomm, but thereafter will be irrevocable, except in certain limited
+circumstances where additional withdrawal rights are required by law (as determined by Qualcomm). The “Exchange Offer Settlement
+Date” will be promptly following the Exchange Offer Expiration Date and is expected to be August 14, 2020.
+The tables below summarize the terms of the Old Notes and the
+consideration of each Exchange Offer.
+The Old 2022 Notes and the Old 2023 Notes may be exchanged for
+the New 2028 Notes.
+Title of Series of
+Old Notes to be
+Exchanged
+CUSIP/
+ISIN
+Principal
+Amount
+Outstanding
+(mm)
+Reference U.S.
+Treasury Security
+Fixed Spread (basis
+points)
+Bloomberg
+Reference Screen
+3.000% Notes due 2022 (“Old 2022 Notes”)
+747525AE3; US747525AE30
+$
+2,000.00
+1.750% U.S. Treasury Notes due May 15, 2022
+15
+PX4
+2.600% Notes due 2023 (“Old 2023 Notes”)
+747525AR4; US747525AR43
+$
+1,500.00
+2.125% U.S. Treasury Notes due December 31, 2022
+15
+PX5
+The Old 2024 Notes and the Old 2025 Notes may be exchanged for
+the New 2032 Notes.
+Title of Series of
+Old Notes to be
+Exchanged
+CUSIP/
+ISIN
+Principal
+Amount
+Outstanding
+(mm)
+Reference U.S.
+Treasury Security
+Fixed Spread (basis
+points)
+Bloomberg
+Reference Screen
+2.900% Notes due 2024 (“Old 2024 Notes”)
+747525AT0; US747525AT09
+$
+1,500.00
+2.125% U.S. Treasury Notes due March 31, 2024
+15
+PX5
+3.450% Notes due 2025 (“Old 2025 Notes”)
+747525AF0; US747525AF05
+$
+2,000.00
+2.000% U.S. Treasury Notes due February 15, 2025
+20
+PX6
+The table below summarizes the terms of the New Notes.
+Title of Series of New
+Notes
+New Notes Maturity
+Date
+Reference U.S.
+Treasury Security
+Fixed Spread (basis
+points)
+Bloomberg
+Reference Screen
+Minimum
+Condition (mm)
+Notes due 2028 (“New 2028 Notes”)
+May 20, 2028
+0.375% U.S. Treasury Notes due July 31,
+    2027
+85
+PX1
+$
+500
+Notes due 2032 (“New 2032 Notes”)
+May 20, 2032
+0.625% U.S. Treasury Notes due May 15, 2030
+100
+PX1
+$
+500
+Holders whose Old Notes are accepted for exchange will receive
+in cash accrued and unpaid interest from the last applicable interest payment date to, but excluding, the date on which the exchange
+of such Old Notes is settled (the “Accrued Coupon Payment”), and amounts due in lieu of fractional amounts of New Notes.
+Qualcomm will deliver New Notes in exchange for Old Notes accepted for exchange in the Exchange Offers on the Exchange Offer Settlement
+Date.
+Upon the terms and subject to the conditions set forth in the
+Exchange Offer Documents, Eligible Holders (as defined below) who (i) validly tender and who do not validly withdraw Old Notes
+at or prior to the Exchange Offer Expiration Date or (ii) deliver a properly completed and duly executed notice of guaranteed delivery
+and all other required documents at or prior to the Exchange Offer Expiration Date and tender their Old Notes pursuant to the Exchange
+Offers at or prior to 5:00 p.m., New York City time, on the second business day after the applicable Exchange Offer Expiration
+Date pursuant to guaranteed delivery procedures, expected to be August 13, 2020, subject in each case to tendering the applicable
+minimum denominations, and whose Old Notes are accepted for exchange by Qualcomm, will receive consideration in the Exchange Offers
+equal to the applicable Total Exchange Consideration (as defined in the Exchange Offer Documents).
+The complete terms and conditions of the Exchange Offer will
+be set forth in the Exchange Offer Documents, each of which will be distributed to Eligible Holders in connection with the proposed
+Exchange Offers. Each Exchange Offer is subject to certain conditions, including (i) that the aggregate principal amount of New
+2028 Notes to be issued under the Exchange Offer must be equal to or greater than $500 million (the “New 2028 Notes Minimum
+Condition”) and that the aggregate principal amount of New 2032 Notes to be issued under the Exchange Offer must be equal
+to or greater than $500 million (the “New 2032 Notes Minimum Condition,” and together with the New 2028 Notes Minimum
+Condition, the “Minimum Condition Requirements”), (ii) the timely satisfaction or waiver of all of the conditions
+precedent to the completion of the corresponding Cash Offers for such series of Old Notes (with respect to each Cash Offer, the
+“Cash Offer Completion Condition”) and (iii) that the aggregate principal amount of cash payable by Qualcomm to Ineligible
+Holders participating in the Cash Offers is no greater than $300 million before giving effect to the Accrued Coupon Payment (the
+“Aggregate Maximum Cash Offer Condition”). Qualcomm will terminate an Exchange Offer for a given series of Old Notes
+if it terminates the Cash Offer for such series of Old Notes, and Qualcomm will terminate the Cash Offer for a given series of
+Old Notes if it terminates the Exchange Offer for such series of Old Notes. The Cash Offer Completion Condition may not be waived
+by Qualcomm; however, Qualcomm reserves the right, in its sole discretion, to waive the other conditions, including either Minimum
+Condition Requirement and the Aggregate Maximum Cash Offer Condition. If (i) the New 2028 Notes Minimum Condition is not satisfied,
+Qualcomm will not accept any Old 2022 Notes or Old 2023 Notes for exchange and (ii) the New 2032 Notes Minimum Condition is not
+satisfied, Qualcomm will not accept any Old 2024 Notes or Old 2025 Notes for exchange, in each case unless Qualcomm waives the
+applicable Minimum Condition Requirement. If the Aggregate Maximum Cash Offer Condition is not satisfied or waived, Qualcomm will
+terminate the Exchange Offers and the Cash Offers.
+The Exchange Offers are only made, the New Notes are only being
+offered and will only be issued, and copies of the Offering Memorandum will only be made available, to a holder of Old Notes who
+has certified its status as either (a) a “qualified institutional buyer” as defined in Rule 144A under the Securities
+Act of 1933, as amended (the “Securities Act”) or (b) (i) a person who is not a “U.S. person” as defined
+under Regulation S under the Securities Act, or a dealer or other professional fiduciary organized, incorporated or (if an individual)
+residing in the United States holding a discretionary account or similar account (other than an estate or trust) for the benefit
+or account of a non-“U.S. person,” (ii) if located or resident in the European Economic Area or the United Kingdom,
+a person other than a “retail investor” (for these purposes, a retail investor means a person who is one (or more)
+of: (x) a retail client as defined in point (11) of Article 4(1) of Directive 2014/65/EU (as amended, “MiFID II”);
+or (y) a customer within the meaning of Directive 2002/92/EC (as amended, the “Insurance Mediation Directive”), where
+that customer would not qualify as a professional client as defined in point (10) of Article 4(1) of MiFID II; or (z) not
+a qualified investor as defined in Regulation (EU) 2017/1129 (as amended, the “Prospectus Regulation”)) and (iii)
+if located or resident in Canada, an “accredited investor” as such term is defined in National Instrument 45-106 -
+Prospectus Exemptions
+(“NI 45-106”), and, if  located or resident in Ontario, as such term is defined in
+section 73.3(1) of the
+Securities Act
+(Ontario), and in each case, is not an individual, and such “accredited investor”
+is also a “permitted client,” as such term is defined in National Instrument 31-103 -
+Registration Requirements,
+Exemptions and Ongoing Registrant Obligations
+(“NI 31-103”) (“Canadian Eligible Holders”). Qualcomm
+refers to holders of Old Notes who certify to Qualcomm that they are eligible to participate in the Exchange Offers pursuant to
+at least one of the foregoing conditions as “Eligible Holders.” Qualcomm refers to holders of Old Notes who are not
+Eligible Holders as “Ineligible Holders.”
+Only Eligible Holders who have confirmed they are Eligible
+Holders via the eligibility letter are authorized to receive or review the Exchange Offer Documents or to participate in the Exchange
+Offers. For Canadian Eligible Holders, such participation is also conditioned upon the receipt of the Canadian holder form. There
+is no separate letter of transmittal in connection with the Offering Memorandum.
+The New Notes have not been registered under the Securities
+Act or any state securities laws. Therefore, the New Notes may not be offered or sold in the United States absent registration
+or an applicable exemption from the registration requirements of the Securities Act and any applicable state securities laws.
+Holders are advised to check with any bank, securities broker
+or other intermediary through which they hold Old Notes as to when such intermediary needs to receive instructions from a holder
+in order for that holder to be able to participate in, or (in the circumstances in which revocation is permitted) revoke their
+instruction to participate in the Exchange Offers before the deadlines specified herein and in the Exchange Offer Documents. The
+deadlines set by each clearing system for the submission and withdrawal of exchange instructions will also be earlier than the
+relevant deadlines specified herein and in the Exchange Offer Documents.
+This press release is not an offer to sell or a solicitation
+of an offer to buy any of the securities described herein. The Exchange Offers are being made solely by the Exchange Offer Documents
+and only to such persons and in such jurisdictions as is permitted under applicable law.
+MiFID II professionals/ECPs-only / No PRIIPs KID
+–
+Manufacturer target market (MIFID II product governance) is eligible counterparties and professional clients only (all distribution
+channels). No PRIIPs key information document (KID) has been prepared as not available to retail in the EEA or the United Kingdom.
+In the United Kingdom, this press release is only being communicated
+to, and any other documents or materials relating to the Exchange Offers are only being distributed to and are only directed at,
+(i) persons who are outside the United Kingdom, (ii) investment professionals falling within Article 19(5) of the Financial Services
+and Markets Act (Financial Promotion) Order 2005, as amended (the “Order”) or (iii) high net worth entities, and other
+persons to whom it may lawfully be communicated, falling within Articles 49(2)(a) to (d) of the Order (all such persons together
+being referred to as “relevant persons”). Any investment or investment activity to which this press release relates
+is available only to relevant persons and will be engaged in only with relevant persons. Any person who is not a relevant person
+should not act or rely on this press release or any of its contents.
+Global Bondholder Services Corporation will act as the exchange
+agent and information agent for the Old Notes in the Exchange Offers. Documents relating to the Exchange Offers will only be distributed
+to holders of Old Notes who certify that they are Eligible Holders. Questions or requests for assistance related to the Exchange
+Offers or for additional copies of the Exchange Offer Documents may be directed to Global Bondholder Services Corporation at (866)
+470-3900 (toll free) or (212) 430-3774 (collect). You may also contact your broker, dealer, commercial bank, trust company or other
+nominee for assistance concerning the Exchange Offers. The Exchange Offer Documents can be accessed at the following link: http://gbsc-usa.com/eligibility/QUALCOMM.

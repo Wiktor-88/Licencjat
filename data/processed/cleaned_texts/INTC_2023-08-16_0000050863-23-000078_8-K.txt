@@ -1,1 +1,15 @@
-Item 7.01 Regulation FD Disclosure. On August 16, 2023, Intel Corporation (“Intel”) issued a press release announcing that it is terminating the Agreement and Plan of Merger, dated February 15, 2022, by and among Intel, Tower Semiconductor Ltd. and the other parties thereto. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated in its entirety herein by reference. The information in Item 7.01 of this Current Report on Form 8-K and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. The following exhibits are provided as part of this Report: Exhibit Number Description 99.1 Press Release, dated August 16, 2023 . 104 Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.
+Item 7.01 Regulation FD Disclosure.
+On August 16, 2023, Intel Corporation (“Intel”) issued a press release announcing that it is terminating the Agreement and Plan of Merger, dated February 15, 2022, by and among Intel, Tower Semiconductor Ltd. and the other parties thereto. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated in its entirety herein by reference.
+The information in Item 7.01 of this Current Report on Form 8-K and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended.
+Item 9.01
+Financial Statements and Exhibits.
+(d)
+Exhibits.
+The following exhibits are provided as part of this Report:
+Exhibit Number
+Description
+99.1
+Press Release, dated August 16, 2023
+.
+104
+Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.

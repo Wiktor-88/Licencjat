@@ -1,1 +1,117 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces First Quarter Fiscal 2023 Results
+Revenues: $9.5 billion
+GAAP EPS: $1.98, Non-GAAP EPS: $2.37
+—EPS Above Midpoint of Guidance Range—
+—QCT Automotive: 58% Year-Over-Year Growth in Revenues—
+—QCT IoT: 7% Year-Over-Year Growth in Revenues—
+SAN DIEGO - February 2, 2023
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal first quarter ended December 25, 2022.
+“In a challenging environment, we delivered results consistent with guidance, including year-over-year growth in QCT Automotive and IoT,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “The long-term trends driving demand for our differentiated technologies and solutions that enable digital transformation are intact. We are confident in our ability to navigate the near term and remain focused on executing our diversification strategy.”
+First Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q1 Fiscal 2023
+Q1 Fiscal 2022
+Change
+Q1 Fiscal 2023
+Q1 Fiscal 2022
+Change
+Revenues
+$9,463
+$10,705
+(12%)
+$9,456
+$10,697
+(12%)
+Earnings before taxes (EBT)
+$2,371
+$3,865
+(39%)
+$3,166
+$4,306
+(26%)
+Net income
+$2,235
+$3,399
+(34%)
+$2,684
+$3,686
+(27%)
+Diluted earnings per share (EPS)
+$1.98
+$2.98
+(34%)
+$2.37
+$3.23
+(27%)
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q1 Fiscal 2023
+Q1 Fiscal 2022
+Change
+Q1 Fiscal 2023
+Q1 Fiscal 2022
+Change
+Revenues
+$7,892
+$8,847
+(11%)
+$1,524
+$1,818
+(16%)
+EBT
+$2,183
+$3,114
+(30%)
+$1,117
+$1,406
+(21%)
+EBT as % of revenues
+28%
+35%
+-7 points
+73%
+77%
+-4 points
+Qualcomm Announces First Quarter Fiscal 2023 Results
+Page 2 of 8
+QCT Revenue Streams
+1, 2
+(in millions, except percentages)
+Q1 Fiscal 2023
+Q1 Fiscal 2022
+Change
+Handsets
+$5,754
+$6,989
+(18%)
+Automotive
+456
+288
++58%
+IoT
+1,682
+1,570
++7%
+Total QCT revenues
+$7,892
+$8,847
+(11%)
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+(2) Beginning the first quarter of fiscal 2023, QCT RFFE (radio frequency front-end) revenues, which were previously presented as a separate revenue stream, are now included within our Handsets, Automotive and internet of things (IoT) revenue streams as applicable. Prior period information has been recast to reflect this change.
+Return of Capital to Stockholders
+During the first quarter of fiscal 2023, we returned $2.1 billion to stockholders, including $842 million, or $0.75 per share, of cash dividends paid and $1.3 billion through repurchases of 11 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

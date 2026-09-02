@@ -1,0 +1,6 @@
+Node,Feature,Model_Input_Value,Threshold,Decision,Next_Node
+0,numeric__Price_to_SMA20_Z60,-0.6518095415611846,0.9825928211212158,<=,1.0
+1,numeric__QQQ_Log_Return_1D,-0.0099213129308922,-0.007420330075547099,<=,2.0
+2,numeric__QQQ_Log_Return_1D,-0.0099213129308922,-0.011014916934072971,>,6.0
+6,numeric__Intraday_Return_Z60,-0.999474931922774,-0.3192553445696831,<=,7.0
+7,,,,leaf,

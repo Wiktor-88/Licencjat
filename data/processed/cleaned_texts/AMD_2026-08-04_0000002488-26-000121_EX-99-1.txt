@@ -1,1 +1,472 @@
-Document NEWS RELEASE Contact Carolyn Guss AMD Communications corporate.pressinquiry@amd.com Liz Stine AMD
+Document
+NEWS RELEASE
+Contact
+Carolyn Guss
+AMD Communications
+corporate.pressinquiry@amd.com
+Liz Stine
+AMD Investor Relations
+investor.relations@amd.com
+AMD Reports Second Quarter 2026 Financial Results
+SANTA CLARA, Calif. ― August 4, 2026 ―
+AMD (NASDAQ:AMD) today announced financial results for the second quarter of 2026. Second quarter revenue was $11.5 billion, gross margin was 54%, operating income was $2.0 billion, net income was $2.3 billion and diluted earnings per share was $1.38. On a non-GAAP(*) basis, gross margin was 56%, operating income was $3.1 billion, net income was $2.8 billion and diluted earnings per share was $1.66.
+“We delivered an excellent quarter, with record revenue and profitability as Data Center revenue more than doubled year-over-year,” said Dr. Lisa Su, AMD chair and CEO. “We enter the second half with strong momentum as EPYC demand accelerates, Instinct deployments scale and Helios begins to ramp. More broadly, AI is driving a significant expansion in demand for compute across all of our markets, and our leadership portfolio and growing customer visibility position us exceptionally well to capture this expanding opportunity and deliver substantial revenue and earnings growth in the years ahead.”
+“Revenue increased 50% year-over-year to a record $11.5 billion, driven by continued strength in our Data Center business, which represented 58% of company revenue in the quarter,” said Jean Hu, AMD executive vice president, chief financial officer and treasurer. “We expect Data Center sales to accelerate in the second half of 2026, driving stronger overall revenue growth and continued earnings expansion.”
+1
+GAAP Quarterly Financial Results
+Q2'26
+Q2'25
+(1)
+Y/Y
+(1)
+Q1'26
+Q/Q
+Revenue ($M)
+$11,536
+$7,685
+Up 50%
+$10,253
+Up 13%
+Gross profit ($M)
+$6,203
+$3,059
+Up 103%
+$5,416
+Up 15%
+Gross margin
+54%
+40%
+Up 14 ppts
+53%
+Up 1 ppt
+Operating expenses ($M)
+$4,213
+$3,193
+Up 32%
+$3,940
+Up 7%
+Operating income ($M)
+$1,990
+$(134)
+Up 1585%
+$1,476
+Up 35%
+Operating margin
+17%
+(2)%
+Up 19 ppts
+14%
+Up 3 ppts
+Net income ($M)
+$2,297
+$872
+Up 163%
+$1,383
+Up 66%
+Diluted earnings per share
+$1.38
+$0.54
+Up 156%
+$0.84
+Up 64%
+(1) Q2’25 results included $800 million in inventory and related charges due to the U.S. Government's export control on AMD Instinct™ MI308 data center GPU products
+Non-GAAP(*) Quarterly Financial Results
+Q2'26
+Q2'25
+(2)
+Y/Y
+(2)
+Q1'26
+Q/Q
+Revenue ($M)
+$11,536
+$7,685
+Up 50%
+$10,253
+Up 13%
+Gross profit ($M)
+$6,488
+$3,326
+Up 95%
+$5,685
+Up 14%
+Gross margin
+56%
+43%
+Up 13 ppts
+55%
+Up 1 ppt
+Operating expenses ($M)
+$3,394
+$2,429
+Up 40%
+$3,145
+Up 8%
+Operating income ($M)
+$3,094
+$897
+Up 245%
+$2,540
+Up 22%
+Operating margin
+27%
+12%
+Up 15 ppts
+25%
+Up 2 ppts
+Net income ($M)
+$2,760
+$781
+Up 253%
+$2,265
+Up 22%
+Diluted earnings per share
+$1.66
+$0.48
+Up 246%
+$1.37
+Up 21%
+(2) Q2’25 results included $800 million in inventory and related charges due to the U.S. Government's export control on AMD Instinct™ MI308 data center GPU products
+Segment Summary
+•
+Data Center segment revenue was $6.7 billion, up 107% year-over-year, driven by strong demand for AMD EPYC™ processors and AMD Instinct™ GPUs.
+•
+Client and Gaming segment revenue was $3.8 billion, up 6% year-over-year. Client business revenue was $3.1 billion, up 23% year-over-year, primarily driven by strong demand for AMD Ryzen™ processors. Gaming business revenue was $779 million, down 31% year-over-year, due to lower semi-custom revenue.
+•
+Embedded segment revenue was $977 million, up 19% year-over-year, as demand strengthened across multiple end markets.
+Recent Highlights
+•
+AMD
+announced
+a broad portfolio of high-performance and AI computing solutions and strategic partnerships to accelerate AI deployments at scale:
+◦
+Launched the AMD Helios™ rackscale solution, the world’s most powerful AI server rack. AMD Helios delivers leadership inference tokens per dollar and is being deployed by leading AI labs and cloud providers including Anthropic, Cirrascale, HUMAIN, Meta, Microsoft, OpenAI, Oracle, Tensorwave, Vultr and others.
+◦
+Launched the
+AMD Instinct MI400 Series GPU family
+, including MI455X, bringing leadership compute, memory capacity and bandwidth for large-scale AI training and
+2
+inference, and MI430X, the most advanced accelerator for HPC and sovereign AI workloads.
+◦
+Introduced
+6th Gen AMD EPYC server CPUs
+, built to deliver leadership performance across the full range of agentic AI, general-purpose and enterprise workloads.
+◦
+Released
+ROCm.ai
+, an AI-native developer experience designed to help developers build, deploy and optimize faster across AMD platforms.
+◦
+Announced a strategic
+partnership with Anthropic
+to deploy up to 2 gigawatts of MI450 Series GPUs in AMD Helios racks and a multiyear collaboration to optimize AMD Instinct GPUs and ROCm software development using Claude.
+◦
+Expanded
+collaboration with Microsoft
+to deploy AMD Helios racks at scale on Azure to power frontier model inference. Azure will also add two new AMD EPYC CPU-powered VM series and broaden its deployment of Pensando™ DPUs to support Azure networking services.
+◦
+Announced a
+collaboration with Cerebras
+to bring together AMD Helios and Cerebras Wafer-Scale Engine to improve efficiency, scalability and economics for ultra-low-latency inference serving.
+◦
+Launched the
+AMD Instinct MI350P GPU
+, designed to bring seamless AI acceleration to existing infrastructure with leadership token economics.
+◦
+Acquired
+MEXT
+, adding AI-powered predictive memory technology designed to optimize memory use and expand usable capacity for AI workloads.
+•
+AMD extended its PC offerings for enterprises, developers and gamers:
+◦
+Released
+Ryzen AI Halo
+systems, purpose-built for developers to build, test and run agentic AI workflows locally with leadership performance optimized by AMD ROCm™ open software support.
+◦
+Expanded the
+AMD Ryzen PRO 9000 Series processor lineup
+, bringing AMD 3D V-Cache™ technology to enterprise workstations for the first time.
+◦
+Launched
+AMD Ryzen 7700X3D
+processors and extended support for Socket AM5 platforms through 2029, giving gamers more performance and longevity.
+◦
+Cisco and AMD are
+collaborating
+to bring together AMD Ryzen AI Halo systems with Cisco networking, observability and security capabilities, so enterprises can deploy, govern and manage hybrid and local agentic AI at scale.
+◦
+Expanded global availability of
+AMD Radeon RX 9070 GRE graphics cards
+, extending performance and advanced ray tracing capabilities to more gamers.
+•
+AMD expanded its adaptive and embedded AI portfolio:
+◦
+Introduced
+AMD Ryzen™ AI Embedded X100 Series processors
+, a new family of embedded x86 processors integrating CPU, GPU and AI acceleration to power robotics, industrial automation and intelligent embedded systems.
+◦
+Announced AMD Kria™ AI solutions, including
+AMD Kria AI system-on-modules
+and the
+AMD Kria AI Robotics Developer Platform
+to accelerate the development of next-generation physical AI systems.
+◦
+Launched
+Versal™ Premium Series Gen 2 Memory on Package adaptive SoCs
+, to speed data transfer for test and measurement, professional video editing, communications and aerospace and defense workloads.
+3
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the third quarter of 2026, AMD expects revenue to be approximately $13 billion, plus or minus $300 million. The mid-point of the revenue range represents year-over-year growth of approximately 41% and a sequential increase of approximately 13%. Non-GAAP gross margin is expected to be approximately 56%.
+AMD Teleconference
+AMD will hold a conference call at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its second quarter 2026 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data and percentages) (Unaudited)
+Three Months Ended
+June 27,
+2026
+March 28,
+2026
+June 28,
+2025
+GAAP gross profit
+$
+6,203
+$
+5,416
+$
+3,059
+GAAP gross margin
+54
+%
+53
+%
+40
+%
+Stock-based compensation
+8
+8
+6
+Amortization of acquisition-related intangibles
+260
+261
+260
+Acquisition-related and other costs
+(1)
+—
+—
+1
+Loss contingency on legal matters
+17
+—
+—
+Non-GAAP gross profit
+$
+6,488
+$
+5,685
+$
+3,326
+Non-GAAP gross margin
+56
+%
+55
+%
+43
+%
+GAAP operating expenses
+$
+4,213
+$
+3,940
+$
+3,193
+GAAP operating expenses/revenue %
+37
+%
+38
+%
+42
+%
+Stock-based compensation
+495
+479
+363
+Amortization of acquisition-related intangibles
+284
+290
+308
+Acquisition-related and other costs
+(1)
+40
+26
+93
+Non-GAAP operating expenses
+$
+3,394
+$
+3,145
+$
+2,429
+Non-GAAP operating expenses/revenue %
+29
+%
+31
+%
+32
+%
+GAAP operating income (loss)
+$
+1,990
+$
+1,476
+$
+(134)
+GAAP operating margin
+17
+%
+14
+%
+(2)
+%
+Stock-based compensation
+503
+487
+369
+Amortization of acquisition-related intangibles
+544
+551
+568
+Acquisition-related and other costs
+(1)
+40
+26
+94
+Loss contingency on legal matters
+17
+—
+—
+Non-GAAP operating income
+$
+3,094
+$
+2,540
+$
+897
+Non-GAAP operating margin
+27
+%
+25
+%
+12
+%
+Three Months Ended
+June 27,
+2026
+March 28,
+2026
+June 28,
+2025
+GAAP net income / earnings per share
+$
+2,297
+$
+1.38
+$
+1,383
+$
+0.84
+$
+872
+$
+0.54
+Stock-based compensation
+503
+0.30
+487
+0.30
+369
+0.23
+Amortization of acquisition-related intangibles
+544
+0.33
+551
+0.33
+568
+0.35
+Acquisition-related and other costs
+(1)
+41
+0.02
+27
+0.02
+96
+0.05
+Loss contingency on legal matters
+17
+0.01
+—
+—
+—
+—
+(Gains) loss on long-term investments, net
+(483)
+(0.29)
+(66)
+(0.04)
+(61)
+(0.04)
+Equity income in investee
+(6)
+—
+(6)
+—
+(8)
+—
+Release of reserves for uncertain tax positions
+(2)
+—
+—
+—
+—
+(853)
+(0.52)
+Income tax provision
+(161)
+(0.10)
+(100)
+(0.07)
+(98)
+(0.06)
+Loss (income) from discontinued operations, net of tax
+(3)
+8
+0.01
+(11)
+(0.01)
+(104)
+(0.07)
+Non-GAAP net income / earnings per share
+$
+2,760
+$
+1.66
+$
+2,265
+$
+1.37
+$
+781
+$
+0.48
+5
+(1)
+Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges.
+(2)
+Release of reserves for uncertain tax positions pertains to the reasonable cause relief related to dual consolidated losses approved by the Internal Revenue Service in Q2'25.
+(3)
+Loss (income) from discontinued operations relates to ZT Systems' manufacturing business which was divested in Q4'25, and includes impact from measurement period adjustments in Q1'26.

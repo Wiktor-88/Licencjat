@@ -1,1 +1,556 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports First Quarter 2022 Financial Results
+― Record quarterly revenue of $5.9 billion grew 71% year-over-year;
+Gross margin grew 2 percentage points and
+non-GAAP gross margin grew 7 percentage points year-over-year ―
+SANTA CLARA, Calif. ― May 3, 2022 ―
+AMD (NASDAQ:AMD) today announced revenue for the first quarter of 2022 of $5.9 billion, gross margin of 48%, operating income of $951 million, operating margin of 16%, net income of $786 million and diluted earnings per share of $0.56. On a non-GAAP
+(*)
+basis, gross margin was 53%, operating income was $1.8 billion, net income was $1.6 billion and diluted earnings per share was $1.13. First quarter 2022 results include partial quarter financial results from the recently completed acquisition of Xilinx which closed February 14, 2022.
+Excluding Xilinx, AMD had record quarterly revenue of $5.3 billion, non-GAAP gross margin of 51% and non-GAAP operating margin of 30%.
+“The first quarter marked a significant inflection point in our journey to scale and transform AMD as we delivered record revenue and closed our strategic acquisition of Xilinx,” said AMD Chair and CEO Dr. Lisa Su. “Each of our businesses grew by a significant double digit percentage year-over-year, led by EPYC server processor revenue more than doubling for the third straight quarter. Demand remains strong for our leadership products, with our increased full-year guidance reflecting higher AMD organic growth and the addition of the growing Xilinx business.”
+GAAP Quarterly Financial Results
+1
+Q1 2022
+Q1 2021
+Y/Y
+Q4 2021
+Q/Q
+Revenue ($M)
+$5,887
+$3,445
+Up 71%
+$4,826
+Up 22%
+Gross profit ($M)
+$2,818
+$1,587
+Up 78%
+$2,426
+Up 16%
+Gross margin %
+48%
+46%
+Up 190 bps
+50%
+Down 240 bps
+Operating expenses ($M)
+$1,950
+$929
+Up 110%
+$1,223
+Up 59%
+Operating income ($M)
+$951
+$662
+Up 44%
+$1,207
+Down 21%
+Operating margin %
+16%
+19%
+Down 3pp
+25%
+Down 9pp
+Net income ($M)
+$786
+$555
+Up 42%
+$974
+Down 19%
+Earnings per share
+$0.56
+$0.45
+Up 24%
+$0.80
+Down 30%
+Non-GAAP(*) Quarterly Financial Results
+Q1 2022
+Q1 2021
+Y/Y
+Q4 2021
+Q/Q
+Revenue ($M)
+$5,887
+$3,445
+Up 71%
+$4,826
+Up 22%
+Gross profit ($M)
+$3,100
+$1,588
+Up 95%
+$2,427
+Up 28%
+Gross margin %
+53%
+46%
+Up 660 bps
+50%
+Up 240 bps
+Operating expenses ($M)
+$1,346
+$830
+Up 62%
+$1,103
+Up 22%
+Operating income ($M)
+$1,837
+$762
+Up 141%
+$1,328
+Up 38%
+Operating margin %
+31%
+22%
+Up 9pp
+27%
+Up 4pp
+Net income ($M)
+$1,589
+$642
+Up 148%
+$1,122
+Up 42%
+Earnings per share
+$1.13
+$0.52
+Up 117%
+$0.92
+Up 23%
+Non-GAAP(*) Quarterly Financial Results (Excluding Xilinx)
+Q1 2022
+Q1 2021
+Y/Y
+Q4 2021
+Q/Q
+Revenue ($M)
+$5,328
+$3,445
+Up 55%
+$4,826
+Up 10%
+Gross profit ($M)
+$2,712
+$1,588
+Up 71%
+$2,427
+Up 12%
+Gross margin %
+51%
+46%
+Up 480 bps
+50%
+Up 60 bps
+Operating income ($M)
+$1,604
+$762
+Up 110%
+$1,328
+Up 21%
+Operating margin %
+30%
+22%
+Up 8pp
+27%
+Up 3pp
+Q1 2022 Results
+•
+Revenue of $5.9 billion was up 71% year-over-year and 22% quarter-over-quarter driven by higher revenue in the Computing and Graphics and Enterprise, Embedded and Semi-Custom segments and the inclusion of Xilinx revenue.
+•
+Gross margin was 48%, an increase of 2 percentage points year-over-year and a decrease of 2 percentage points quarter-over-quarter. The year-over-year increase was primarily driven by higher server processor revenue and high margin Xilinx revenue, partially offset by amortization of intangible assets and acquisition-related costs. The quarter-over-quarter decrease was primarily due to amortization of intangible assets and acquisition-related costs.
+•
+Non-GAAP gross margin was 53%, an increase of 7 percentage points year-over-year and 3 percentage points quarter-over-quarter. The year-over-year increase was primarily driven by higher server processor revenue and high margin Xilinx revenue. The quarter-over-quarter increase was primarily driven by high margin Xilinx revenue, higher server processor revenue and richer client product mix.
+2
+•
+Operating income was $951 million compared to $662 million a year ago and $1.2 billion in the prior quarter. The year-over-year increase was primarily driven by higher revenue and gross profit, partially offset by amortization of intangible assets and acquisition-related costs. The quarter-over-quarter decrease was primarily due to amortization of intangible assets and acquisition-related costs.
+•
+Record non-GAAP operating income was $1.8 billion compared to $762 million a year ago and $1.3 billion in the prior quarter. The year-over-year and quarter-over-quarter increases were primarily driven by higher gross profit.
+•
+Net income was $786 million compared to $555 million a year ago and $974 million in the prior quarter. The year-over-year increase was primarily driven by higher operating income. The quarter-over-quarter decrease was primarily due to lower operating income related to amortization of intangible assets and acquisition-related costs.
+•
+Record non-GAAP net income was $1.6 billion compared to $642 million a year ago and $1.1 billion in the prior quarter. The year-over-year and quarter-over-quarter increases were primarily driven by higher operating income.
+•
+Diluted earnings per share was $0.56 compared to $0.45 a year ago and $0.80 in the prior quarter. Record non-GAAP diluted earnings per share was $1.13 compared to $0.52 a year ago and $0.92 in the prior quarter.
+•
+Cash
+,
+cash equivalents and short-term investments were $6.5 billion at the end of the quarter. The company repurchased $1.9 billion of common stock during the quarter.
+•
+Record cash from operations was $995 million in the quarter compared to $898 million a year ago and $822 million in the prior quarter. Record free cash flow was $924 million in the quarter compared to $832 million a year ago and $736 million in the prior quarter.
+•
+AMD’s balance sheet reflects $49.6 billion of goodwill and acquisition-related intangible assets associated with the acquisition of Xilinx.
+Quarterly Financial Segment Summary
+•
+Record Computing and Graphics segment revenue was $2.8 billion, up 33% year-over-year and 8% quarter-over-quarter. The year-over-year increase was driven by Ryzen™
+and Radeon
+™
+processor sales.
+The quarter-over-quarter increase was driven by Ryzen™
+processor sales.
+◦
+Client processor average selling price (ASP) increased year-over-year and quarter-over-quarter driven by a richer mix of Ryzen processor sales.
+◦
+GPU ASP increased year-over-year driven by high end Radeon processor sales and decreased quarter-over-quarter due to a lower mix of data center GPU revenue.
+◦
+Record operating income was $723 million compared to $485
+million a year ago and $566 million in the prior quarter. Operating income improvements were primarily driven by higher revenue, partially offset by higher operating expenses.
+3
+•
+Record Enterprise, Embedded and Semi-Custom segment revenue was $2.5 billion, up 88% year-over-year and 13% quarter-over-quarter driven by higher EPYC™ processor revenue, semi-custom and embedded product sales.
+◦
+Record operating income was $881 million compared to $277 million a year ago and $762 million in the prior quarter. Operating income improvements were primarily driven by higher revenue and an $83 million licensing gain.
+•
+Xilinx partial quarter revenue was $559 million with operating income of $233 million. On a pro-forma basis for the full quarter, Xilinx generated over $1 billion of revenue, up 22% year-over-year, driven by growth across all Xilinx major end market categories.
+•
+All Other operating loss was $886 million as compared to operating losses of $100 million a year ago and $121 million in the prior quarter. Higher operating loss was primarily due to amortization of intangible assets and acquisition-related costs.
+Recent PR Highlights
+•
+AMD completed the largest acquisition in the history of the semiconductor industry by acquiring Xilinx to create the industry’s high-performance and adaptive computing leader with significantly expanded scale and the strongest portfolio of leadership computing, graphics and adaptive SoC products.
+•
+AMD announced a definitive agreement to acquire Pensando for approximately $1.9 billion before working capital and other adjustments. Pensando’s distributed services platform will expand AMD’s data center product portfolio with a high-performance data center processing unit (DPU) and software stack that are already deployed at scale across cloud and enterprise customers including Goldman Sachs, IBM Cloud, Microsoft Azure and Oracle Cloud.
+•
+AMD announced the general availability of 3rd Gen AMD EPYC processors with AMD 3D V-Cache™ technology, delivering leadership performance in technical computing workloads, the industry’s largest L3 cache and modern security features.
+•
+Cloud customers continued to expand their AMD EPYC processor-powered offerings, with 465 cloud instances now delivering powerful performance for today’s most important workloads.
+◦
+Microsoft Azure upgraded its HBv3 virtual machines (VMs) to 3
+rd
+Gen AMD EPYC processors with AMD 3D V-Cache technology, driving the fastest adopted addition to the Azure high performance computing (HPC) platform ever.
+◦
+AMD EPYC processors now power the new, compute optimized, Google Cloud C2D VMs, bringing customers strong performance for HPC workloads in areas like electronic design automation and computational fluid dynamics.
+◦
+AMD powers new Amazon EC2 Hpc6a instances for HPC workloads and Amazon EC2 6a instances for compute-intensive workloads, delivering better price performance than the prior generation.
+4
+•
+AMD expanded its lineup of high-performance AMD Ryzen desktop processors for gamers and creators.
+◦
+AMD announced the Ryzen 7 5800X3D processor, the first Ryzen processor to feature AMD 3D V-Cache technology and the industry’s first x86 PC processor with 3D stacked chiplets. The Ryzen 7 5800X3D processor delivers leadership gaming performance in select titles compared to the competitive processor without stacked cache technology.
+◦
+Lenovo expanded its line of ThinkStation P620 workstations with the new Ryzen Threadripper
+TM
+PRO 5000 WX-Series processors, which bring dominant, full-spectrum performance leadership for the most demanding professional workloads.
+◦
+AMD also expanded the Ryzen desktop processor portfolio with six new “Zen 3” and “Zen 2” processors, giving PC enthusiasts even more options to create a customized gaming experience.
+•
+AMD expanded the Versal product lineup with first customer shipments of the flagship Versal HBM adaptive SoC with integrated HBM2e memory and Versal Premium product series with AI Engines optimized for signal processing-intensive applications like next-generation radar and wireless system and device testing.
+•
+AMD announced that its board of directors approved a new $8 billion share repurchase program. This program is in addition to the $4 billion share repurchase program announced last year.
+•
+AMD entered into a $3 billion sustainability-linked credit facility to replace its existing $500 million revolving credit facility and reinforces commitment to the company’s environmental, social and governance (ESG) goals.
+•
+AMD announced that its board of directors elected President and CEO Dr. Lisa Su as the chair of the board and John E. Caldwell as lead independent director. Former Xilinx board members Jon Olson and Elizabeth Vanderslice also joined the AMD board in conjunction with the acquisition of Xilinx.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the second quarter of 2022, AMD expects revenue to be approximately $6.5 billion, plus or minus $200 million, an increase of approximately 69% year-over-year and approximately 10% quarter-over-quarter. The year-over-year increase is expected to be driven by the addition of Xilinx and higher server, semi-custom and client revenue. The quarter-over-quarter increase is expected to be primarily driven by Xilinx and higher server revenue.  AMD expects non-GAAP gross margin to be approximately 54% in the second quarter of 2022.
+5
+For the full year 2022, AMD now expects revenue to be approximately $26.3 billion, an increase of approximately 60% over 2021, up from prior guidance of approximately 31%, driven by the addition of Xilinx and higher server and semi-custom revenue. AMD expects non-GAAP gross margin to be approximately 54% for 2022, up from prior guidance of approximately 51%.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its first quarter 2022 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com.
+6
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+March 26,
+2022
+December 25,
+2021
+March 27,
+2021
+GAAP gross profit
+$
+2,818
+$
+2,426
+$
+1,587
+GAAP gross margin %
+48
+%
+50
+%
+46
+%
+Stock-based compensation
+4
+1
+1
+Acquisition-related costs
+(1)
+92
+—
+—
+Amortization of acquired intangible assets
+186
+—
+—
+Non-GAAP gross profit
+$
+3,100
+$
+2,427
+$
+1,588
+Non-GAAP gross margin %
+53
+%
+50
+%
+46
+%
+GAAP operating expenses
+$
+1,950
+$
+1,223
+$
+929
+GAAP operating expenses/revenue %
+33
+%
+25
+%
+27
+%
+Stock-based compensation
+170
+111
+84
+Acquisition-related costs
+(1)
+141
+9
+15
+Amortization of acquired intangible assets
+293
+—
+—
+Non-GAAP operating expenses
+$
+1,346
+$
+1,103
+$
+830
+Non-GAAP operating expenses/revenue %
+23
+%
+23
+%
+24
+%
+GAAP operating income
+$
+951
+$
+1,207
+$
+662
+GAAP operating margin %
+16
+%
+25
+%
+19
+%
+Stock-based compensation
+174
+112
+85
+Acquisition-related costs
+(1)
+233
+9
+15
+Amortization of acquired intangible assets
+479
+—
+—
+Non-GAAP operating income
+$
+1,837
+$
+1,328
+$
+762
+Non-GAAP operating margin %
+31
+%
+27
+%
+22
+%
+Three Months Ended
+March 26,
+2022
+December 25,
+2021
+March 27,
+2021
+GAAP net income / earnings per share
+$
+786
+$
+0.56
+$
+974
+$
+0.80
+$
+555
+$
+0.45
+Loss on debt redemption/conversion
+—
+—
+—
+—
+6
+0.01
+(Gains) losses on equity investments, net
+44
+0.03
+(4)
+—
+8
+0.01
+Stock-based compensation
+174
+0.12
+112
+0.09
+85
+0.07
+Equity income in investee
+(3)
+—
+—
+—
+(2)
+—
+Acquisition-related costs
+(1)
+233
+0.17
+9
+—
+15
+0.01
+Amortization of acquired intangible assets
+479
+0.34
+—
+—
+—
+—
+Income tax provision
+(124)
+(0.09)
+31
+0.03
+(25)
+(0.03)
+Non-GAAP net income / earnings per share
+$
+1,589
+$
+1.13
+$
+1,122
+$
+0.92
+$
+642
+$
+0.52
+(1)
+Acquisition-related costs primarily comprised of transaction costs, purchase price adjustments for inventory and certain compensation charges
+7
+RECONCILIATION OF AMD GAAP TO AMD NON-GAAP EXCLUDING XILINX
+(in millions) (Unaudited)
+Three Months Ended March 26, 2022
+Revenue
+Gross
+Profit
+Gross
+Margin %
+Operating
+Income
+Operating
+Margin %
+AMD GAAP
+$
+5,887
+$
+2,818
+48%
+$
+951
+16%
+Stock-based compensation
+—
+4
+174
+Acquisition-related costs
+(1)
+—
+92
+233
+Amortization of acquired intangible assets
+—
+186
+479
+AMD Non-GAAP
+5,887
+3,100
+53%
+1,837
+31%
+Xilinx segment
+559
+388
+233
+AMD Non-GAAP Excluding Xilinx
+$
+5,328
+$
+2,712
+51%
+$
+1,604
+30%
+(1)
+Acquisition-related costs primarily comprised of transaction costs, purchase price adjustments for inventory and certain compensation charges
+RECONCILIATION OF XILINX SEGMENT REVENUE TO XILINX PRO FORMA REVENUE
+(in millions) (Unaudited)
+Three Months Ended
+March 26, 2022
+Revenue
+Xilinx Segment
+(1)
+$
+559
+Xilinx Pre-Acquisition
+(2)
+477
+Xilinx Pro Forma
+(3)
+$
+1,036
+(1)
+Represents unaudited Xilinx revenue from the date of acquisition, February 14, 2022, through March 26, 2022
+(2)
+Represents unaudited Xilinx revenue from January 2, 2022 to February 13, 2022
+(3)
+The unaudited Xilinx pro forma revenue represents the three-month period beginning January 2, 2022 through March 26, 2022. The pro forma revenue is presented for informational purposes only.

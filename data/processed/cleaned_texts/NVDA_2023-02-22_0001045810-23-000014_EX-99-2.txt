@@ -1,1 +1,509 @@
-Document CFO Commentary on Fourth Quarter and Fiscal 2023 Results Q4 Fiscal 2023 Summary GAAP ($ in millions, except earnings per share) Q4 FY23 Q3 FY23 Q4 FY22 Q/Q Y/Y Revenue $6,051 $5,931 $7,643 Up 2% Down 21% Gross margin 63.3 % 53.6 % 65.4 % Up 9.7 pts Down 2.1 pts Operating expenses $2,576 $2,576 $2,029 -- Up 27% Operating income $1,257 $601 $2,970 Up 109% Down 58% Net income $1,414 $680 $3,003 Up 108% Down 53% Diluted earnings per share $0.57 $0.27 $1.18 Up 111% Down 52% Non-GAAP ($ in millions, except earnings per share) Q4 FY23 Q3 FY23 Q4 FY22 Q/Q Y/Y Revenue $6,051 $5,931 $7,643 Up 2% Down 21% Gross margin 66.1 % 56.1 % 67.0 % Up 10.0 pts Down 0.9 pts Operating expenses $1,775 $1,793 $1,447 Down 1% Up 23% Operating income $2,224 $1,536 $3,677 Up 45% Down 40% Net income $2,174 $1,456 $3,350 Up 49% Down 35% Diluted earnings per share $0.88 $0.58 $1.32 Up 52% Down 33% Revenue by Reportable Segments ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 Q/Q Y/Y Compute & Networking $3,673 $3,816 $3,225 Down 4% Up 14% Graphics 2,378 2,115 4,418 Up 12% Down 46% Total $6,051 $5,931 $7,643 Up 2% Down 21% Revenue by Market Platform ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 Q/Q Y/Y Data Center $3,616 $3,833 $3,263 Down 6% Up 11% Gaming 1,831 1,574 3,420 Up 16% Down 46% Professional Visualization 226 200 643 Up 13% Down 65% Automotive 294 251 125 Up 17% Up 135% OEM and Other 84 73 192 Up 15% Down 56% Total $6,051 $5,931 $7,643 Up 2% Down 21% Fiscal 2023 Summary GAAP ($ in millions, except earnings per share) FY23 FY22 Y/Y Revenue $26,974 $26,914 -- Gross margin 56.9 % 64.9 % Down 8.0 pts Operating expenses $11,132 $7,434 Up 50% Operating income $4,224 $10,041 Down 58% Net income $4,368 $9,752 Down 55% Diluted earnings per share $1.74 $3.85 Down 55% Non-GAAP ($ in millions, except earnings per share) FY23 FY22 Y/Y Revenue $26,974 $26,914 -- Gross margin 59.2 % 66.8 % Down 7.6 pts Operating expenses $6,925 $5,279 Up 31% Operating income $9,040 $12,690 Down 29% Net income $8,366 $11,259 Down 26% Diluted earnings per share $3.34 $4.44 Down 25% Revenue by Reportable Segments ($ in millions) FY23 FY22 Y/Y Compute & Networking $15,068 $11,046 Up 36% Graphics 11,906 15,868 Down 25% Total $26,974 $26,914 -- Revenue by Market Platform ($ in millions) FY23 FY22 Y/Y Data Center $15,005 $10,613 Up 41% Gaming 9,067 12,462 Down 27% Professional Visualization 1,544 2,111 Down 27% Automotive 903 566 Up 60% OEM and Other 455 1,162 Down 61% Total $26,974 $26,914 -- We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive. Revenue Revenue for the fourth quarter was $6.05 billion, down 21% from a year ago and up 2% sequentially. Fiscal-year revenue was $26.97 billion, flat compared with a year ago. Data Center revenue for the fourth quarter was up 11% from a year ago and down 6% sequentially. Fiscal-year revenue was up 41%. The year-on-year increase for the quarter was driven by U.S. cloud service providers (CSPs), while the year-on-year and sequential quarter changes also reflect reduced sales in China. The fiscal-year increase was led by strong growth from hyperscale customers and also reflects purchases made by several CSP partners to support multi-year cloud service agreements for our new NVIDIA AI cloud service offerings and our research and development activities. Gaming revenue was down 46% from a year ago and up 16% sequentially. Fiscal-year revenue was down 27%. The year-on-year decreases for the quarter and fiscal year reflect lower sell-in to partners to help reduce channel inventory levels as global macro-economic conditions and COVID-19 related disruptions in China weighed on gaming demand. The sequential increase was driven by the ramp of our new GeForce RTX GPUs based on the Ada Lovelace architecture, partially offset by lower shipments of SOCs for game consoles. Professional Visualization revenue was down 65% from a year ago and up 13% sequentially. Fiscal-year revenue was down 27%. The year-on-year decreases for the quarter and fiscal year reflect lower sell-in to partners to help reduce channel inventory levels. The sequential increase was driven by desktop workstation GPUs. Automotive revenue was a record, up 135% from a year ago and up 17% sequentially. Fiscal-year revenue was up 60%. These increases reflect growth in sales of self-driving solutions, computing solutions for electric vehicle makers and strength in sales of AI cockpit solutions. The increase also included growth in automotive development arrangements. OEM and Other revenue was down 56% from a year ago and up 15% sequentially. Fiscal-year revenue was down 61%. The year-on-year decreases for the quarter and fiscal year were driven by notebook OEM and Cryptocurrency Mining Processor (CMP). CMP revenue was nominal in fiscal 2023 and $550 million in fiscal 2022. Gross Margin Reconciliation of GAAP to Non-GAAP Gross Margin ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 FY23 FY22 GAAP gross profit $3,833 $3,177 $4,999 $15,356 $17,475 GAAP gross margin 63.3 % 53.6 % 65.4 % 56.9 % 64.9 % Acquisition-related and other costs 120 120 86 455 344 Stock-based compensation expense 30 32 39 138 141 IP-related costs 16 -- -- 16 9 Non-GAAP gross profit $3,999 $3,329 $5,124 $15,965 $17,969 Non-GAAP gross margin 66.1 % 56.1 % 67.0 % 59.2 % 66.8 % GAAP and Non-GAAP gross margin for the fourth quarter declined from a year earlier, reflecting lower Gaming margins and a higher contribution from Automotive, partially offset by a higher contribution from Data Center. Sequentially, GAAP and Non-GAAP gross margin increased, primarily due to lower inventory charges. Fiscal-year GAAP and Non-GAAP gross margin declined, driven by $2.17 billion of inventory charges largely relating to excess supply of NVIDIA Ampere architecture Gaming and Data Center products as compared to the demand expectations for these products, particularly for the expected demand in China. The inventory charges were comprised of $1.04 billion for inventory on hand and $1.13 billion for inventory purchase obligations in excess of our demand expectations. Expenses Reconciliation of GAAP to Non-GAAP Operating Expenses ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 FY23 FY22 GAAP operating expenses $2,576 $2,576 $2,029 $11,132 $7,434 Stock-based compensation expense (709) (713) (512) (2,572) (1,863) Acquisition-related and other costs (54) (54) (70) (219) (292) Restructuring costs and other (38) (16) -- (54) -- Acquisition termination cost -- -- -- (1,353) -- Legal settlement costs -- -- -- (7) -- Contributions -- -- -- (2) -- Non-GAAP operating expenses $1,775 $1,793 $1,447 $6,925 $5,279 GAAP operating expenses were up 27% from a year ago and flat sequentially. The year-on-year increase for the quarter reflects compensation and data center infrastructure. Fiscal-year GAAP operating expenses, which included a $1.35 billion acquisition termination charge related to the Arm transaction, were up 50% from a year ago. The fiscal-year increase also reflects compensation, data center infrastructure, and engineering development costs. Non-GAAP operating expenses were up 23% from a year ago and down 1% sequentially. Fiscal-year non-GAAP operating expenses were up 31% from a year ago. Other Income & Expense and Income Tax GAAP OI&E ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 FY23 FY22 Interest income $115 $88 $9 $267 $29 Interest expense (65) (65) (61) (262) (236) Gains (losses) from non-affiliated investments (10) (11) (53) (45) 99 Other (8) -- -- (3) 8 Total $32 $12 ($105) ($43) ($100) Non-GAAP OI&E ($ in millions) Q4 FY23 Q3 FY23 Q4 FY22 FY23 FY22 Interest income $115 $88 $9 $267 $29 Interest expense (64) (64) (61) (257) (233) Other (8) -- -- (3) 8 Total $43 $24 ($52) $7 ($196) GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments. Interest income for the fourth quarter was $115 million, up from a year ago and sequentially, due to higher yields on investments. Fiscal-year interest income was $267 million, up from $29 million in the prior year. Net loss from non-affiliated investments for the fourth quarter was $10 million due to the mark-to-market of publicly traded equity investments and changes in value from our non-affiliated private investments. The fiscal-year net loss from non-affiliated investments was $45 million compared with a net gain of $99 million in the prior year. GAAP effective tax rate for the fourth quarter was a benefit of 9.7% and for the fiscal year was a benefit of 4.5%, which reflect the foreign-derived intangible income deduction, tax benefits related to stock-based compensation, and the U.S. federal research tax credit. Non-GAAP effective tax rate for the fourth quarter and fiscal year was 4.1% and 7.5%, respectively. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities were $13.30 billion and accounts receivable was $3.83 billion, or DSO of 58. Inventory was $5.16 billion, or DSI of 212, primarily to support the ramp of new products in Data Center and Gaming. Gross inventory purchase and long-term supply obligations were $4.92 billion and prepaid supply agreements were $3.45 billion. Other purchase obligations, inclusive of $2.23 billion of multi-year cloud service agreements, were $3.14 billion. The cloud service agreements will allow us to leverage GPU capacity in public clouds that will be deployed through fiscal 2024, over terms of four to six years. We expect to use this capacity for our NVIDIA AI cloud service offerings and for research and development activities. Cash flow from operating activities was $2.25 billion, down from $3.03 billion a year ago and up from $392 million a quarter ago. Fiscal-year cash flow from operating activities was $5.64 billion, down from $9.11 billion a year ago. The year-on-year decreases for the quarter and fiscal year reflect lower operating income and timing of supplier payments and inventory deliveries, partially offset by lower accounts receivable due to strong collections. The sequential increase reflects timing of supplier payments and lower accounts receivable due to improved shipment linearity. Free cash flow was $1.74 billion compared with $2.74 billion a year ago and negative $156 million a quarter ago. Fiscal-year free cash flow was $3.75 billion, down from $8.05 billion a year ago. Depreciation and amortization expense was $426 million for the fourth quarter and $1.54 billion for the fiscal year, including amortization of acquisition-related intangible assets. Starting in fiscal 2024, we are extending the useful lives of a majority of our servers, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five to seven years. As a result, we expect favorable impact to operating income of approximately $26 million in the first quarter and $133 million in fiscal 2024 from a reduction in depreciation expense based on equipment balances as of January 29, 2023. The favorable impact will be primarily in operating expense, and to a lesser extent in cost of goods sold. Capital expenditures were $513 million for the fourth quarter and $1.89 billion for the fiscal year, including principal payments on property and equipment. During the fourth quarter and fiscal 2023, we returned $1.15 billion and $10.44 billion to shareholders in the form of share repurchases and cash dividends, respectively. As of the end of the fourth quarter, we had $7.23 billion remaining under our share repurchase authorization through December 2023. First Quarter of Fiscal 2024 Outlook Outlook for the first quarter of fiscal 2024 is as follows: • Revenue is expected to be $6.50 billion, plus or minus 2%. • GAAP and non-GAAP gross margins are expected to be 64.1% and 66.5%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.53 billion and $1.78 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an income of approximately $50 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 13.0%, plus or minus 1%, excluding any discrete items. • Capital expenditures are expected to be approximately $350 million to $400 million, including principal payments on property and equipment. For full year fiscal 2024, capital expenditures are expected to be approximately $1.10 billion to $1.30 billion, including principal payments on property and equipment.
+Document
+CFO Commentary on Fourth Quarter and Fiscal 2023 Results
+Q4 Fiscal 2023 Summary
+GAAP
+($ in millions, except earnings per share)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+Q/Q
+Y/Y
+Revenue
+$6,051
+$5,931
+$7,643
+Up 2%
+Down 21%
+Gross margin
+63.3
+%
+53.6
+%
+65.4
+%
+Up 9.7 pts
+Down 2.1 pts
+Operating expenses
+$2,576
+$2,576
+$2,029
+--
+Up 27%
+Operating income
+$1,257
+$601
+$2,970
+Up 109%
+Down 58%
+Net income
+$1,414
+$680
+$3,003
+Up 108%
+Down 53%
+Diluted earnings per share
+$0.57
+$0.27
+$1.18
+Up 111%
+Down 52%
+Non-GAAP
+($ in millions, except earnings per share)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+Q/Q
+Y/Y
+Revenue
+$6,051
+$5,931
+$7,643
+Up 2%
+Down 21%
+Gross margin
+66.1
+%
+56.1
+%
+67.0
+%
+Up 10.0 pts
+Down 0.9 pts
+Operating expenses
+$1,775
+$1,793
+$1,447
+Down 1%
+Up 23%
+Operating income
+$2,224
+$1,536
+$3,677
+Up 45%
+Down 40%
+Net income
+$2,174
+$1,456
+$3,350
+Up 49%
+Down 35%
+Diluted earnings per share
+$0.88
+$0.58
+$1.32
+Up 52%
+Down 33%
+Revenue by Reportable Segments
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+Q/Q
+Y/Y
+Compute & Networking
+$3,673
+$3,816
+$3,225
+Down 4%
+Up 14%
+Graphics
+2,378
+2,115
+4,418
+Up 12%
+Down 46%
+Total
+$6,051
+$5,931
+$7,643
+Up 2%
+Down 21%
+Revenue by Market Platform
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+Q/Q
+Y/Y
+Data Center
+$3,616
+$3,833
+$3,263
+Down 6%
+Up 11%
+Gaming
+1,831
+1,574
+3,420
+Up 16%
+Down 46%
+Professional Visualization
+226
+200
+643
+Up 13%
+Down 65%
+Automotive
+294
+251
+125
+Up 17%
+Up 135%
+OEM and Other
+84
+73
+192
+Up 15%
+Down 56%
+Total
+$6,051
+$5,931
+$7,643
+Up 2%
+Down 21%
+Fiscal 2023 Summary
+GAAP
+($ in millions, except earnings per share)
+FY23
+FY22
+Y/Y
+Revenue
+$26,974
+$26,914
+--
+Gross margin
+56.9
+%
+64.9
+%
+Down 8.0 pts
+Operating expenses
+$11,132
+$7,434
+Up 50%
+Operating income
+$4,224
+$10,041
+Down 58%
+Net income
+$4,368
+$9,752
+Down 55%
+Diluted earnings per share
+$1.74
+$3.85
+Down 55%
+Non-GAAP
+($ in millions, except earnings per share)
+FY23
+FY22
+Y/Y
+Revenue
+$26,974
+$26,914
+--
+Gross margin
+59.2
+%
+66.8
+%
+Down 7.6 pts
+Operating expenses
+$6,925
+$5,279
+Up 31%
+Operating income
+$9,040
+$12,690
+Down 29%
+Net income
+$8,366
+$11,259
+Down 26%
+Diluted earnings per share
+$3.34
+$4.44
+Down 25%
+Revenue by Reportable Segments
+($ in millions)
+FY23
+FY22
+Y/Y
+Compute & Networking
+$15,068
+$11,046
+Up 36%
+Graphics
+11,906
+15,868
+Down 25%
+Total
+$26,974
+$26,914
+--
+Revenue by Market Platform
+($ in millions)
+FY23
+FY22
+Y/Y
+Data Center
+$15,005
+$10,613
+Up 41%
+Gaming
+9,067
+12,462
+Down 27%
+Professional Visualization
+1,544
+2,111
+Down 27%
+Automotive
+903
+566
+Up 60%
+OEM and Other
+455
+1,162
+Down 61%
+Total
+$26,974
+$26,914
+--
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive.
+Revenue
+Revenue for the fourth quarter was $6.05 billion, down 21% from a year ago and up 2% sequentially. Fiscal-year revenue was $26.97 billion, flat compared with a year ago.
+Data Center revenue for the fourth quarter was up 11% from a year ago and down 6% sequentially. Fiscal-year revenue was up 41%. The year-on-year increase for the quarter was driven by U.S. cloud service providers (CSPs), while the year-on-year and sequential quarter changes also reflect reduced sales in China. The fiscal-year increase was led by strong growth from hyperscale customers and also
+reflects purchases made by several CSP partners to support multi-year cloud service agreements for our new NVIDIA AI cloud service offerings and our research and development activities.
+Gaming revenue was down 46% from a year ago and up 16% sequentially. Fiscal-year revenue was down 27%. The year-on-year decreases for the quarter and fiscal year reflect lower sell-in to partners to help reduce channel inventory levels as global macro-economic conditions and COVID-19 related disruptions in China weighed on gaming demand.  The sequential increase was driven by the ramp of our new GeForce RTX GPUs based on the Ada Lovelace architecture, partially offset by lower shipments of SOCs for game consoles.
+Professional Visualization revenue was down 65% from a year ago and up 13% sequentially. Fiscal-year revenue was down 27%. The year-on-year decreases for the quarter and fiscal year reflect lower sell-in to partners to help reduce channel inventory levels. The sequential increase was driven by desktop workstation GPUs.
+Automotive revenue was a record, up 135% from a year ago and up 17% sequentially. Fiscal-year revenue was up 60%. These increases reflect growth in sales of self-driving solutions, computing solutions for electric vehicle makers and strength in sales of AI cockpit solutions. The increase also included growth in automotive development arrangements.
+OEM and Other revenue was down 56% from a year ago and up 15% sequentially. Fiscal-year revenue was down 61%. The year-on-year decreases for the quarter and fiscal year were driven by notebook OEM and Cryptocurrency Mining Processor (CMP). CMP revenue was nominal in fiscal 2023 and $550 million in fiscal 2022.
+Gross Margin
+Reconciliation of GAAP to Non-GAAP Gross Margin
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+FY23
+FY22
+GAAP gross profit
+$3,833
+$3,177
+$4,999
+$15,356
+$17,475
+GAAP gross margin
+63.3
+%
+53.6
+%
+65.4
+%
+56.9
+%
+64.9
+%
+Acquisition-related and other costs
+120
+120
+86
+455
+344
+Stock-based compensation expense
+30
+32
+39
+138
+141
+IP-related costs
+16
+--
+--
+16
+9
+Non-GAAP gross profit
+$3,999
+$3,329
+$5,124
+$15,965
+$17,969
+Non-GAAP gross margin
+66.1
+%
+56.1
+%
+67.0
+%
+59.2
+%
+66.8
+%
+GAAP and Non-GAAP gross margin for the fourth quarter declined from a year earlier, reflecting lower Gaming margins and a higher contribution from Automotive, partially offset by a higher contribution from Data Center.  Sequentially, GAAP and Non-GAAP gross margin increased, primarily due to lower inventory charges.
+Fiscal-year GAAP and Non-GAAP gross margin declined, driven by $2.17 billion of inventory charges largely relating to excess supply of NVIDIA Ampere architecture Gaming and Data Center products   as compared to the demand expectations for these products, particularly for the expected demand in China.  The inventory charges were comprised of $1.04 billion for inventory on hand and $1.13 billion for inventory purchase obligations in excess of our demand expectations.
+Expenses
+Reconciliation of GAAP to Non-GAAP Operating Expenses
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+FY23
+FY22
+GAAP operating expenses
+$2,576
+$2,576
+$2,029
+$11,132
+$7,434
+Stock-based compensation expense
+(709)
+(713)
+(512)
+(2,572)
+(1,863)
+Acquisition-related and other costs
+(54)
+(54)
+(70)
+(219)
+(292)
+Restructuring costs and other
+(38)
+(16)
+--
+(54)
+--
+Acquisition termination cost
+--
+--
+--
+(1,353)
+--
+Legal settlement costs
+--
+--
+--
+(7)
+--
+Contributions
+--
+--
+--
+(2)
+--
+Non-GAAP operating expenses
+$1,775
+$1,793
+$1,447
+$6,925
+$5,279
+GAAP operating expenses were up 27% from a year ago and flat sequentially. The year-on-year increase for the quarter reflects compensation and data center infrastructure.  Fiscal-year GAAP operating expenses, which included a $1.35 billion acquisition termination charge related to the Arm transaction, were up 50% from a year ago.  The fiscal-year increase also reflects compensation, data center infrastructure, and engineering development costs.
+Non-GAAP operating expenses were up 23% from a year ago and down 1% sequentially. Fiscal-year non-GAAP operating expenses were up 31% from a year ago.
+Other Income & Expense and Income Tax
+GAAP OI&E
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+FY23
+FY22
+Interest income
+$115
+$88
+$9
+$267
+$29
+Interest expense
+(65)
+(65)
+(61)
+(262)
+(236)
+Gains (losses) from non-affiliated investments
+(10)
+(11)
+(53)
+(45)
+99
+Other
+(8)
+--
+--
+(3)
+8
+Total
+$32
+$12
+($105)
+($43)
+($100)
+Non-GAAP OI&E
+($ in millions)
+Q4 FY23
+Q3 FY23
+Q4 FY22
+FY23
+FY22
+Interest income
+$115
+$88
+$9
+$267
+$29
+Interest expense
+(64)
+(64)
+(61)
+(257)
+(233)
+Other
+(8)
+--
+--
+(3)
+8
+Total
+$43
+$24
+($52)
+$7
+($196)
+GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments.
+Interest income for the fourth quarter was $115 million, up from a year ago and sequentially, due to higher yields on investments. Fiscal-year interest income was $267 million, up from $29 million in the prior year. Net loss from non-affiliated investments for the fourth quarter was $10 million due to the mark-to-market of publicly traded equity investments and changes in value from our non-affiliated private investments. The fiscal-year net loss from non-affiliated investments was $45 million compared with a net gain of $99 million in the prior year.
+GAAP effective tax rate for the fourth quarter was a benefit of 9.7% and for the fiscal year was a benefit of 4.5%, which reflect the foreign-derived intangible income deduction, tax benefits related to stock-based compensation, and the U.S. federal research tax credit. Non-GAAP effective tax rate for the fourth quarter and fiscal year was 4.1% and 7.5%, respectively.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities were $13.30 billion and accounts receivable was $3.83 billion, or DSO of 58.
+Inventory was $5.16 billion, or DSI of 212, primarily to support the ramp of new products in Data Center and Gaming. Gross inventory purchase and long-term supply obligations were $4.92 billion and prepaid supply agreements were $3.45 billion.
+Other purchase obligations, inclusive of $2.23 billion of multi-year cloud service agreements, were $3.14 billion.  The cloud service agreements will allow us to leverage GPU capacity in public clouds that will be deployed through fiscal 2024, over terms of four to six years.  We expect to use this capacity for our NVIDIA AI cloud service offerings and for research and development activities.
+Cash flow from operating activities was $2.25 billion, down from $3.03 billion a year ago and up from $392 million a quarter ago. Fiscal-year cash flow from operating activities was $5.64 billion, down from $9.11 billion a year ago. The year-on-year decreases for the quarter and fiscal year reflect lower operating income and timing of supplier payments and inventory deliveries, partially offset by lower accounts receivable due to strong collections. The sequential increase reflects timing of supplier payments and lower accounts receivable due to improved shipment linearity.
+Free cash flow was $1.74 billion compared with $2.74 billion a year ago and negative $156 million a quarter ago.  Fiscal-year free cash flow was $3.75 billion, down from $8.05 billion a year ago.
+Depreciation and amortization expense was $426 million for the fourth quarter and $1.54 billion for the fiscal year, including amortization of acquisition-related intangible assets. Starting in fiscal 2024, we are extending the useful lives of a majority of our servers, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five to seven years. As a result, we expect favorable impact to operating income of approximately $26 million in the first quarter and $133 million in fiscal 2024 from a reduction in depreciation expense based on equipment balances as of January 29, 2023.  The favorable impact will be primarily in operating expense, and to a lesser extent in cost of goods sold.
+Capital expenditures were $513 million for the fourth quarter and $1.89 billion for the fiscal year, including principal payments on property and equipment.
+During the fourth quarter and fiscal 2023, we returned $1.15 billion and $10.44 billion to shareholders in the form of share repurchases and cash dividends, respectively. As of the end of the fourth quarter, we had $7.23 billion remaining under our share repurchase authorization through December 2023.
+First Quarter of Fiscal 2024 Outlook
+Outlook for the first quarter of fiscal 2024 is as follows:
+•
+Revenue is expected to be $6.50 billion, plus or minus 2%.
+•
+GAAP and non-GAAP gross margins are expected to be 64.1% and 66.5%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.53 billion and $1.78 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an income of approximately $50 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 13.0%, plus or minus 1%, excluding any discrete items.
+•
+Capital expenditures are expected to be approximately $350 million to $400 million, including principal payments on property and equipment. For full year fiscal 2024, capital expenditures are expected to be approximately $1.10 billion to $1.30 billion, including principal payments on property and equipment.
+___________________________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude acquisition termination costs, stock-based compensation expense, acquisition-related and other costs, contributions, IP-related costs, legal settlement costs, restructuring costs and other, gains and losses from non-affiliated investments, interest expense related to amortization of debt discount, the associated tax impact of these items where applicable, foreign tax benefit, and domestication tax adjustments. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases of property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: our computing platforms providing tremendous acceleration for applications and delivering unique value; cloud service agreements allowing us to leverage GPU capacity in public clouds that will be deployed through fiscal 2024; our expectation to use data center capacity for our NVIDIA AI cloud service offerings and for research and development activities; extending the useful lives of a majority of servers, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five to seven years; the expected favorable impact on fiscal 2024 operating income, primarily in operating expense, and to a lesser extent in cost of goods sold; our financial outlook and expected tax rates for the first quarter of fiscal 2024; and our expected capital expenditures for the first quarter and full year of fiscal 2024 are

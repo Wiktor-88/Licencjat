@@ -1,6 +1,6 @@
 # Wspólne ustawienia i listy cech dla modeli
 
-TARGET = "Target_Abnormal_1D"
+TARGET = "Target_Tradable_Abnormal_1D"
 TEST_YEARS = [2023, 2024, 2025, 2026]
 MIN_SEC_COUNT = 5
 RANDOM_STATE = 67
@@ -55,6 +55,9 @@ MARKET_COMPACT_FEATURES = [
 
 SEC_BINARY_CANDIDATES = [
     "Has_EX99",
+    "Has_Event_Earnings",
+    "Has_Event_Guidance",
+    "Has_Event_Buyback",
     "Has_Item_1_01",
     "Has_Item_1_02",
     "Has_Item_1_05",
@@ -81,3 +84,6 @@ SENTIMENT_CONTEXT_FEATURES = [
     "Abs_Sentiment",
     "Sentiment_x_Prior_Return_5D",
 ]
+
+# Ten sam zestaw wejściowy pozwala uczciwie porównywać modele tabularne.
+TABULAR_MARKET_FEATURES = MARKET_FEATURES

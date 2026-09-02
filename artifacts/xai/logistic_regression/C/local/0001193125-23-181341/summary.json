@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "MSFT",
+    "Accession": "0001193125-23-181341",
+    "Filing_Date": "2023-07-03",
+    "Feature_Cutoff_Session": "2023-07-03",
+    "Event_Session": "2023-07-05T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2023,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "true_positive"
+  },
+  "prediction": {
+    "Intercept_Log_Odds": 0.7687935700268667,
+    "Final_Log_Odds": 1.5835589526478868,
+    "Probability_Class_1": 0.8297079620806198,
+    "Prediction": 1
+  }
+}

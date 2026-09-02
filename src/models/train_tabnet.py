@@ -13,7 +13,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
-from src.models.model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MIN_SEC_COUNT,
+from src.models.model_config import (CATEGORICAL_FEATURES, TABULAR_MARKET_FEATURES, MIN_SEC_COUNT,
     RANDOM_STATE, SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG,
     TARGET, TEST_YEARS)
 from src.models.model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
@@ -51,7 +51,7 @@ def build_preprocessor(binary_features: list[str],
 
     sentiment_features = sentiment_features or []
 
-    transformers = [("market", StandardScaler(), MARKET_COMPACT_FEATURES),
+    transformers = [("market", StandardScaler(), TABULAR_MARKET_FEATURES),
                     ("ticker", OneHotEncoder(handle_unknown="ignore", sparse_output=False),
                     CATEGORICAL_FEATURES)]
 
@@ -87,15 +87,15 @@ def build_tabnet_model(seed: int, width: int = 16, n_steps: int = 4, lr: float =
 
 
 def build_model_configs(selected_sec: list[str]) -> list[dict]:
-    return [{"name": "TABNET A - COMPACT MARKET",
+    return [{"name": "TABNET A - MARKET",
             "binary": [],
             "sentiment": []},
 
-            {"name": "TABNET B - COMPACT + SEC",
+            {"name": "TABNET B - MARKET + SEC",
             "binary": selected_sec,
             "sentiment": []},
 
-            {"name": "TABNET C - COMPACT + SEC + FINBERT",
+            {"name": "TABNET C - MARKET + SEC + FINBERT",
             "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
             "sentiment": SENTIMENT_FEATURES}]
 
@@ -104,7 +104,7 @@ def prepare_xy(train_df: pd.DataFrame,
                other_df: pd.DataFrame,
                binary_features: list[str],
                sentiment_features: list[str]):
-    input_features = list(dict.fromkeys(MARKET_COMPACT_FEATURES + CATEGORICAL_FEATURES
+    input_features = list(dict.fromkeys(TABULAR_MARKET_FEATURES + CATEGORICAL_FEATURES
                                         + binary_features + sentiment_features))
 
     preprocessor = build_preprocessor(binary_features, sentiment_features)
@@ -198,7 +198,8 @@ def evaluate_tabnet(model_name: str,
                                "Feature": feature_names,
                                "Importance": model.feature_importances_}).sort_values("Importance", ascending=False)
 
-    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+        "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name

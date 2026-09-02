@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.metrics import balanced_accuracy_score, roc_auc_score
 from xgboost import XGBClassifier
 
-from src.models.model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MIN_SEC_COUNT,
+from src.models.model_config import (CATEGORICAL_FEATURES, TABULAR_MARKET_FEATURES, MIN_SEC_COUNT,
     SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG, TARGET)
 from src.models.model_utils import prepare_model_dataset, select_sec_features
 from src.models.train_xgboost import build_preprocessor
@@ -39,10 +39,10 @@ def objective(trial, df):
                                            min_count=MIN_SEC_COUNT)
 
         binary_features = selected_sec + [SENTIMENT_HISTORY_FLAG]
-        features = MARKET_COMPACT_FEATURES + CATEGORICAL_FEATURES + binary_features + SENTIMENT_FEATURES
+        features = TABULAR_MARKET_FEATURES + CATEGORICAL_FEATURES + binary_features + SENTIMENT_FEATURES
     
 
-        preprocessor = build_preprocessor(numeric_features=MARKET_COMPACT_FEATURES,
+        preprocessor = build_preprocessor(numeric_features=TABULAR_MARKET_FEATURES,
                                           binary_features=binary_features,
                                           sentiment_features=SENTIMENT_FEATURES)
 

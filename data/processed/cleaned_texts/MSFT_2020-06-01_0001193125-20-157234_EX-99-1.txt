@@ -1,1 +1,193 @@
-EX-99.1 Exhibit 99.1 Microsoft announces expiration of its exchange offers May 29, 2020 REDMOND, Wash. — May 29, 2020 — Microsoft Corp. (NASDAQ: MSFT) (“Microsoft”) today announced the expiration of its offers to (i) exchange (the “Pool 1 Offer”) the ten series of notes described in the table below (collectively, the “Pool 1 Notes”) for a new series of Microsoft’s 2.525% Notes due June 1, 2050 (the “New 2050 Notes”) and a cash payment, as applicable, and (ii) exchange (the “Pool 2 Offer” and, together with the Pool 1 Offer, the “Exchange Offers”) the four series of notes described in the table below (collectively, the “Pool 2 Notes” and, together with the Pool 1 Notes, the “Existing Notes”) for a new series of Microsoft’s 2.675% Notes due June 1, 2060 (the “New 2060 Notes” and, together with the New 2050 Notes, the “New Notes”) and a cash payment, as applicable. A Registration Statement on Form S-4 (File No. 333-237925), as amended by Amendment No. 1 thereto (the “Registration Statement”), relating to the issuance of the New Notes has been filed with the Securities and Exchange Commission (the “SEC”) and has become effective. The New Notes, upon issuance, will be registered under the Securities Act of 1933, as amended, pursuant to the Registration Statement. The table below identifies the aggregate principal amount of each series of Pool 1 Notes validly tendered (and not validly withdrawn) in the Pool 1 Offer and the principal amount of each series of Pool 1 Notes, based on the order of acceptance priority for such series, that Microsoft expects to accept on the Settlement Date (as defined below): Pool 1 Table Title of Security CUSIP Number Consideration Exchanged for Acceptance Priority Level Principal Amount Tendered (1) Principal Amount Microsoft Expects to Accept 4.875% Notes due 2043 594918AX2 New 2050 Notes 1 $ 325,428,000 $ 325,428,000 5.300% Notes due 2041 594918AM6 New 2050 Notes 2 $ 229,661,000 $ 229,661,000 4.450% Notes due 2045 594918BL7 New 2050 Notes 3 $ 1,711,663,000 $ 1,711,663,000 4.250% Notes due 2047 594918CA0 New 2050 Notes 4 $ 1,415,370,000 $ 1,415,370,000 5.200% Notes due 2039 594918AD6 New 2050 Notes 5 $ 191,455,000 $ 191,455,000 4.500% Notes due 2040 594918AJ3 New 2050 Notes 6 $ 428,829,000 $ 428,829,000 3.750% Notes due 2043 594918AU8 New 2050 Notes 7 $ 255,985,000 $ 255,985,000 3.750% Notes due 2045 594918BD5 New 2050 Notes 8 $ 1,109,437,000 $ 1,109,433,000 4.100% Notes due 2037 594918BZ6 New 2050 Notes 9 $ 1,569,224,000 $ 583,533,000 4.200% Notes due 2035 594918BK9 New 2050 Notes 10 $ 325,218,000 $ 0 (1) The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as of 11:59 p.m., New York City time, on May 28, 2020 (the “Expiration Time”), based on information provided by the exchange agent to Microsoft. The table below identifies the aggregate principal amount of each series of Pool 2 Notes validly tendered (and not validly withdrawn) in the Pool 2 Offer and the principal amount of each series of Pool 2 Notes, based on the order of acceptance priority for such series, that Microsoft expects to accept on the Settlement Date: Pool 2 Table Title of Security CUSIP Number Consideration Exchanged for Acceptance Priority Level Principal Amount Tendered (1) Principal Amount Microsoft Expects to Accept 4.750% Notes due 2055 594918BM5 New 2060 Notes 1 $ 673,265,000 $ 673,265,000 4.000% Notes due 2055 594918BE3 New 2060 Notes 2 $ 1,456,150,000 $ 1,456,150,000 4.500% Notes due 2057 594918CB8 New 2060 Notes 3 $ 1,116,223,000 $ 1,116,223,000 3.950% Notes due 2056 594918BU7 New 2060 Notes 4 $ 1,693,876,000 $ 295,490,000 (1) The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as of the Expiration Time, based on information provided by the exchange agent to Microsoft. In the Exchange Offers, according to the information provided by D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, $7,562,270,000 aggregate principal amount of Pool 1 Notes and $4,939,514,000 aggregate principal amount of Pool 2 Notes were validly tendered and not validly withdrawn at or prior to the Expiration Time, as more fully set forth above. The Exchange Offers expired at 11:59 p.m., New York City time, on May 28, 2020. Following the Expiration Time, tenders of the Existing Notes may not be validly withdrawn. As of the Expiration Time, all conditions to the Exchange Offers were satisfied. Microsoft currently anticipates that the settlement date of the Exchange Offers will be June 1, 2020 (the “Settlement Date”). Based on the amount of Existing Notes tendered in the Exchange Offers and in accordance with the terms of the Exchange Offers, Microsoft expects to accept, on the Settlement Date, (a) the following Pool 1 Notes validly tendered (and not validly withdrawn): (i) all of the Pool 1 Notes listed in the Pool 1 Table above at Acceptance Priority Levels 1 through 7, (ii) $1,109,433,000 aggregate principal amount of its 3.750% Notes due 2045 (which is less than the amount tendered (and not validly withdrawn) due to minimum denomination requirements of the Exchange Offers) and (iii) $583,533,000 aggregate principal amount of its 4.100% Notes due 2037 with a proration factor for such notes equal to approximately 37.19% of such notes validly tendered (and not validly withdrawn) and (b) the following Pool 2 Notes validly tendered (and not validly withdrawn): (i) all of the Pool 2 Notes listed in the Pool 2 Table at Acceptance Priority Levels 1 through 3 and (ii) $295,490,000 aggregate principal amount of its 3.950% Notes due 2056 with a proration factor for such notes equal to approximately 17.44% of such notes validly tendered (and not validly withdrawn) as set forth above. Microsoft does not expect to accept any of the Pool 1 Notes listed in the Pool 1 Table at Acceptance Priority Level 10. On the Settlement Date, Microsoft expects to deliver an aggregate principal amount of $6,249,997,000 of New 2050 Notes and an aggregate principal amount of $3,750,000,000 of New 2060 Notes and cash payments, as applicable, pursuant to Microsoft’s prospectus dated May 19, 2020 (the “Prospectus”), filed with the SEC on May 19, 2020, relating to the New Notes.
+EX-99.1
+Exhibit 99.1
+Microsoft announces expiration of its exchange offers
+May 29, 2020
+REDMOND, Wash.  May
+29, 2020 
+Microsoft Corp. (NASDAQ: MSFT)
+(Microsoft)
+today
+announced the expiration of its offers to (i) exchange (the Pool 1 Offer) the ten series of notes described in the table below (collectively, the Pool 1 Notes) for a new series of Microsofts 2.525%
+Notes due June 1, 2050 (the New 2050 Notes) and a cash payment, as applicable, and (ii) exchange (the Pool 2 Offer and, together with the Pool 1 Offer, the Exchange Offers) the four series of notes
+described in the table below (collectively, the Pool 2 Notes and, together with the Pool 1 Notes, the Existing Notes) for a new series of Microsofts 2.675% Notes due June 1, 2060 (the New 2060 Notes
+and, together with the New 2050 Notes, the New Notes) and a cash payment, as applicable.
+A Registration Statement on Form
+S-4
+(File
+No. 333-237925),
+as amended by Amendment No. 1 thereto (the Registration Statement), relating to the issuance of the New Notes has been filed
+with the Securities and Exchange Commission (the SEC) and has become effective. The New Notes, upon issuance, will be registered under the Securities Act of 1933, as amended, pursuant to the Registration Statement.
+The table below identifies the aggregate principal amount of each series of Pool 1 Notes validly
+tendered (and not validly withdrawn) in the Pool 1 Offer and the principal amount of each series of Pool 1 Notes, based on the order of acceptance priority for such series, that Microsoft expects to accept on the Settlement Date (as defined below):
+Pool 1 Table
+Title of
+Security
+CUSIP
+Number
+Consideration
+Exchanged for
+Acceptance
+Priority
+Level
+Principal
+Amount
+Tendered
+(1)
+Principal
+Amount
+Microsoft Expects
+to Accept
+4.875% Notes due 2043
+594918AX2
+New 2050 Notes
+1
+$
+325,428,000
+$
+325,428,000
+5.300% Notes due 2041
+594918AM6
+New 2050 Notes
+2
+$
+229,661,000
+$
+229,661,000
+4.450% Notes due 2045
+594918BL7
+New 2050 Notes
+3
+$
+1,711,663,000
+$
+1,711,663,000
+4.250% Notes due 2047
+594918CA0
+New 2050 Notes
+4
+$
+1,415,370,000
+$
+1,415,370,000
+5.200% Notes due 2039
+594918AD6
+New 2050 Notes
+5
+$
+191,455,000
+$
+191,455,000
+4.500% Notes due 2040
+594918AJ3
+New 2050 Notes
+6
+$
+428,829,000
+$
+428,829,000
+3.750% Notes due 2043
+594918AU8
+New 2050 Notes
+7
+$
+255,985,000
+$
+255,985,000
+3.750% Notes due 2045
+594918BD5
+New 2050 Notes
+8
+$
+1,109,437,000
+$
+1,109,433,000
+4.100% Notes due 2037
+594918BZ6
+New 2050 Notes
+9
+$
+1,569,224,000
+$
+583,533,000
+4.200% Notes due 2035
+594918BK9
+New 2050 Notes
+10
+$
+325,218,000
+$
+0
+(1)
+The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as
+of 11:59 p.m., New York City time, on May 28, 2020 (the Expiration Time), based on information provided by the exchange agent to Microsoft.
+The table below identifies the aggregate principal amount of each series of Pool 2 Notes validly
+tendered (and not validly withdrawn) in the Pool 2 Offer and the principal amount of each series of Pool 2 Notes, based on the order of acceptance priority for such series, that Microsoft expects to accept on the Settlement Date:
+Pool 2 Table
+Title of
+Security
+CUSIP
+Number
+Consideration
+Exchanged for
+Acceptance
+Priority
+Level
+Principal
+Amount
+Tendered
+(1)
+Principal
+Amount
+Microsoft Expects
+to Accept
+4.750% Notes due 2055
+594918BM5
+New 2060 Notes
+1
+$
+673,265,000
+$
+673,265,000
+4.000% Notes due 2055
+594918BE3
+New 2060 Notes
+2
+$
+1,456,150,000
+$
+1,456,150,000
+4.500% Notes due 2057
+594918CB8
+New 2060 Notes
+3
+$
+1,116,223,000
+$
+1,116,223,000
+3.950% Notes due 2056
+594918BU7
+New 2060 Notes
+4
+$
+1,693,876,000
+$
+295,490,000
+(1)
+The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as
+of the Expiration Time, based on information provided by the exchange agent to Microsoft.
+In the Exchange Offers, according to
+the information provided by D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, $7,562,270,000 aggregate principal amount of Pool 1 Notes and $4,939,514,000 aggregate principal amount of Pool 2 Notes
+were validly tendered and not validly withdrawn at or prior to the Expiration Time, as more fully set forth above.
+The Exchange Offers expired at
+11:59 p.m., New York City time, on May 28, 2020. Following the Expiration Time, tenders of the Existing Notes may not be validly withdrawn. As of the Expiration Time, all conditions to the Exchange Offers were satisfied. Microsoft currently
+anticipates that the settlement date of the Exchange Offers will be June 1, 2020 (the Settlement Date).
+Based on the amount of
+Existing Notes tendered in the Exchange Offers and in accordance with the terms of the Exchange Offers, Microsoft expects to accept, on the Settlement Date, (a) the following Pool 1 Notes validly tendered (and not validly withdrawn): (i) all of
+the Pool 1 Notes listed in the Pool 1 Table above at Acceptance Priority Levels 1 through 7, (ii) $1,109,433,000 aggregate principal amount of its 3.750% Notes due 2045 (which is less than the amount tendered (and not validly withdrawn) due to
+minimum denomination requirements of the Exchange Offers) and (iii) $583,533,000 aggregate principal amount of its 4.100% Notes due 2037 with a proration factor for such notes equal to approximately 37.19% of such notes validly tendered (and not
+validly withdrawn) and (b) the following Pool 2 Notes validly tendered (and not validly withdrawn): (i) all of the Pool 2 Notes listed in the Pool 2 Table at Acceptance Priority Levels 1 through 3 and (ii) $295,490,000 aggregate principal
+amount of its 3.950% Notes due 2056 with a proration factor for such notes equal to approximately 17.44% of such notes validly tendered (and not validly withdrawn) as set forth above. Microsoft does not expect to accept any of the Pool 1 Notes
+listed in the Pool 1 Table at Acceptance Priority Level 10.
+On the Settlement Date, Microsoft expects to deliver an aggregate principal amount of $6,249,997,000
+of New 2050 Notes and an aggregate principal amount of $3,750,000,000 of New 2060 Notes and cash payments, as applicable, pursuant to Microsofts prospectus dated May 19, 2020 (the Prospectus), filed with the SEC on
+May 19, 2020, relating to the New Notes.

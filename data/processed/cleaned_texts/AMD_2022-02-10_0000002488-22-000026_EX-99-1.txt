@@ -1,1 +1,26 @@
-Document NEWS RELEASE Contact: AMD Investor Contact: Laura Graves 408-749-5467 Laura.graves@amd.com AMD
+Document
+NEWS RELEASE
+Contact:
+AMD Investor Contact:
+Laura Graves
+408-749-5467
+Laura.graves@amd.com
+AMD Media Contact:
+Drew Prairie
+512-602-4425
+Drew.prairie@amd.com
+Xilinx Investor Contact:
+Suresh Bhaskaran
+408-879-4784
+ir@xilinx.com
+Xilinx Media Contact:
+Tara Sims
+415-713-5986
+taras@xilinx.com
+AMD Receives All Necessary Approvals for Proposed Acquisition of Xilinx
+—
+Transaction expected to close on or about February 14, 2022 —
+Silicon Valley, Calif. — Feb. 10, 2022 —
+AMD (NASDAQ: AMD) today announced that it has received approval from all necessary authorities to proceed with the acquisition of Xilinx, Inc. (NASDAQ: XLNX).
+With the exception of the remaining customary closing conditions, all conditions to the transaction closing have been satisfied and the company expects the transaction to close on or about February 14, 2022.
+AMD announced its intention to acquire Xilinx in an all-stock transaction on October 27, 2020. The transaction brings together two industry leaders with complementary product portfolios and customers, combining CPUs, GPUs, FPGAs, Adaptive SoCs and deep software expertise to enable leadership computing platforms for cloud, edge and intelligent end devices.

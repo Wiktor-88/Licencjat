@@ -5,11 +5,15 @@ import logging
 
 import numpy as np
 import pandas as pd
-from sklearn.metrics import (accuracy_score, balanced_accuracy_score, confusion_matrix,
-    f1_score, precision_score, recall_score, roc_auc_score)
+from sklearn.metrics import (accuracy_score, balanced_accuracy_score, brier_score_loss,
+    confusion_matrix, f1_score, log_loss, precision_score, recall_score, roc_auc_score)
 
 
 logger = logging.getLogger(__name__)
+
+TARGET_RETURN_COLUMNS = {
+    "Target_Abnormal_1D": "Abnormal_Event_Return_1D",
+    "Target_Tradable_Abnormal_1D": "Tradable_Abnormal_Return_1D"}
 
 # Liczenie metryk
 def calculate_metrics(y_true, y_pred, y_prob=None) -> dict:
@@ -18,10 +22,14 @@ def calculate_metrics(y_true, y_pred, y_prob=None) -> dict:
                 "Precision": precision_score(y_true, y_pred, zero_division=0),
                 "Recall": recall_score(y_true, y_pred, zero_division=0),
                 "F1": f1_score(y_true, y_pred, zero_division=0),
-                "ROC_AUC": np.nan}
+                "ROC_AUC": np.nan,
+                "Brier_Score": np.nan,
+                "Log_Loss": np.nan}
 
     if y_prob is not None and pd.Series(y_true).nunique() == 2:
         metrics["ROC_AUC"] = roc_auc_score(y_true, y_prob)
+        metrics["Brier_Score"] = brier_score_loss(y_true, y_prob)
+        metrics["Log_Loss"] = log_loss(y_true, y_prob, labels=[0, 1])
 
     return metrics
 
@@ -33,6 +41,46 @@ def add_confusion_metrics(result: dict, y_true, y_pred) -> None:
                     "FP": int(fp),
                     "FN": int(fn),
                     "TP": int(tp)})
+
+
+def aggregate_model_events(df: pd.DataFrame, target: str) -> pd.DataFrame:
+    """Łączy kilka filingów spółki prowadzących do tej samej decyzji sesyjnej."""
+    rows = []
+    consistency_columns = [target, "Tradable_Abnormal_Return_1D", "Feature_Cutoff_Session"]
+
+    for (_, _), event_df in df.groupby(["Ticker", "Event_Session"], sort=True):
+        for column in consistency_columns:
+            if column in event_df.columns and event_df[column].nunique(dropna=False) > 1:
+                raise ValueError(f"Niespójna kolumna {column} wewnątrz jednego Ticker + Event_Session")
+
+        event_df = event_df.copy()
+        event_df["_Acceptance_UTC"] = pd.to_datetime(
+            event_df["Acceptance_DateTime_ET"], format="mixed", errors="raise", utc=True)
+        event_df = event_df.sort_values(["_Acceptance_UTC", "Accession"])
+        row = event_df.iloc[-1].copy()
+        row["Grouped_Accessions"] = " | ".join(event_df["Accession"].astype(str))
+        row["Event_Filing_Count"] = len(event_df)
+
+        binary_columns = [column for column in event_df.columns if column.startswith("Has_")]
+        for column in binary_columns:
+            row[column] = int(pd.to_numeric(event_df[column], errors="coerce").fillna(0).max())
+
+        weights = (pd.to_numeric(event_df["Sentiment_Total_Tokens"], errors="coerce")
+            if "Sentiment_Total_Tokens" in event_df.columns else pd.Series(1.0, index=event_df.index))
+        weights = weights.where(weights.gt(0), 1.0)
+        if "Session_Mean_Net_Sentiment" in event_df.columns:
+            row["Mean_Net_Sentiment"] = event_df["Session_Mean_Net_Sentiment"].iloc[0]
+        else:
+            row["Mean_Net_Sentiment"] = np.average(event_df["Mean_Net_Sentiment"], weights=weights)
+        if "Sentiment_Total_Tokens" in event_df.columns:
+            row["Sentiment_Total_Tokens"] = float(weights.sum())
+
+        rows.append(row.drop(labels="_Acceptance_UTC"))
+
+    result = pd.DataFrame(rows).reset_index(drop=True)
+    if result.duplicated(["Ticker", "Event_Session"]).any():
+        raise ValueError("Agregacja nie utworzyła unikalnych decyzji Ticker + Event_Session")
+    return result
 
 
 def prepare_model_dataset(df: pd.DataFrame, target: str) -> pd.DataFrame:
@@ -56,6 +104,8 @@ def prepare_model_dataset(df: pd.DataFrame, target: str) -> pd.DataFrame:
         raise ValueError(f"Znaleziono zduplikowane filingi:\n"
                          f"{duplicates.to_string(index=False)}")
 
+    df = aggregate_model_events(df, target)
+
     # Rozróżnia brak historii od tego, że momentum = 0
     history_count = pd.to_numeric(df["Sentiment_History_Count_3"], errors="coerce",).fillna(0)
 
@@ -78,19 +128,21 @@ def add_sentiment_context(df: pd.DataFrame) -> pd.DataFrame:
 
 # Sprawdzenie poprwności targetu
 def validate_target(df: pd.DataFrame, target: str) -> None:
+    return_column = TARGET_RETURN_COLUMNS.get(target)
+    if return_column is None:
+        raise ValueError(f"Brak przypisanej stopy zwrotu dla targetu: {target}")
 
-    abnormal_return = pd.to_numeric(df["Abnormal_Event_Return_1D"], errors="coerce")
+    abnormal_return = pd.to_numeric(df[return_column], errors="coerce")
 
     if abnormal_return.isna().any():
-        raise ValueError("Brakujące Abnormal_Event_Return_1D")
+        raise ValueError(f"Brakujące wartości {return_column}")
 
     expected_target = (abnormal_return > 0).astype(int)
 
     invalid = expected_target != df[target]
 
     if invalid.any():
-        rows = df.loc[invalid,
-                     ["Ticker", "Accession", "Abnormal_Event_Return_1D", target]]
+        rows = df.loc[invalid, ["Ticker", "Accession", return_column, target]]
 
         raise ValueError("Target nie zgadza się z abnormal return:\n"
                         f"{rows.to_string(index=False)}")
@@ -134,6 +186,8 @@ def create_summary(results_df: pd.DataFrame, predictions_df: pd.DataFrame) -> pd
         "Recall",
         "F1",
         "ROC_AUC",
+        "Brier_Score",
+        "Log_Loss",
     ]
 
     yearly_mean = results_df.groupby("Model")[metric_columns].mean().add_prefix("Mean_Yearly_").reset_index()

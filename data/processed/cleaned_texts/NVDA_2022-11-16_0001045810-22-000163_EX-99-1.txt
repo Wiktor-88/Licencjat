@@ -1,1 +1,182 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Third Quarter Fiscal 2023 • Data Center revenue of $3.83 billion, up 31% from a year ago • Quarterly return to shareholders of $3.75 billion SANTA CLARA, Calif.-Nov. 16, 2022- NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 30, 2022, of $5.93 billion, down 17% from a year ago and down 12% from the previous quarter. GAAP earnings per diluted share for the quarter were $0.27, down 72% from a year ago and up 4% from the previous quarter. Non-GAAP earnings per diluted share were $0.58, down 50% from a year ago and up 14% from the previous quarter. “We are quickly adapting to the macro environment, correcting inventory levels and paving the way for new products,” said Jensen Huang, founder and CEO of NVIDIA. “The ramp of our new platforms ― Ada Lovelace RTX graphics, Hopper AI computing, BlueField and Quantum networking, Orin for autonomous vehicles and robotics, and Omniverse ― is off to a great start and forms the foundation of our next phase of growth. “NVIDIA’s pioneering work in accelerated computing is more vital than ever. Limited by physics, general purpose computing has slowed to a crawl, just as AI demands more computing. Accelerated computing lets companies achieve orders-of-magnitude increases in productivity while saving money and the environment,” he said. During the third quarter of fiscal 2023, NVIDIA returned to shareholders $3.75 billion in share repurchases and cash dividends, bringing the return in the first three quarters to $9.29 billion. As of October 30, 2022, the company had $8.28 billion remaining under its share repurchase authorization through December 2023. NVIDIA will pay its next quarterly cash dividend of $0.04 per share on December 22, 2022, to all shareholders of record on December 1, 2022. Q3 Fiscal 2023 Summary GAAP ($ in millions, except earnings per share) Q3 FY23 Q2 FY23 Q3 FY22 Q/Q Y/Y Revenue $5,931 $6,704 $7,103 Down 12% Down 17% Gross margin 53.6 % 43.5 % 65.2 % Up 10.1 pts Down 11.6 pts Operating expenses $2,576 $2,416 $1,960 Up 7% Up 31% Operating income $601 $499 $2,671 Up 20% Down 77% Net income $680 $656 $2,464 Up 4% Down 72% Diluted earnings per share $0.27 $0.26 $0.97 Up 4% Down 72% Non-GAAP ($ in millions, except earnings per share) Q3 FY23 Q2 FY23 Q3 FY22 Q/Q Y/Y Revenue $5,931 $6,704 $7,103 Down 12% Down 17% Gross margin 56.1 % 45.9 % 67.0 % Up 10.2 pts Down 10.9 pts Operating expenses $1,793 $1,749 $1,375 Up 3% Up 30% Operating income $1,536 $1,325 $3,386 Up 16% Down 55% Net income $1,456 $1,292 $2,973 Up 13% Down 51% Diluted earnings per share $0.58 $0.51 $1.17 Up 14% Down 50% Outlook NVIDIA’s outlook for the fourth quarter of fiscal 2023 is as follows: • Revenue is expected to be $6.00 billion, plus or minus 2%. • GAAP and non-GAAP gross margins are expected to be 63.2% and 66.0%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.56 billion and $1.78 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an income of approximately $40 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 9.0%, plus or minus 1%, excluding any discrete items. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Data Center • Third-quarter revenue was $3.83 billion, up 31% from a year ago and up 1% from the previous quarter. • Began shipping the NVIDIA® H100 Tensor Core GPU based on the new NVIDIA Hopper™ architecture, with first systems available now. • Announced at the SC22 supercomputing conference that NVIDIA H100 and Quantum-2 systems are being broadly adopted; that NVIDIA Omniverse™ connects to leading scientific computing visualization software; and that NVIDIA powers 90% of the new systems in the latest TOP500 list of the world’s fastest supercomputers, including the H100-powered system deployed at the Flatiron Institute, in the U.S, which topped the Green500 list of the most-efficient systems. • Announced a multi-year collaboration with Microsoft to help enterprises train, deploy and scale AI, including state-of-the-art models, through Microsoft Azure, which is deploying tens of thousands of A100 and H100 GPUs. • Announced a multi-year partnership with Oracle to bring NVIDIA’s full accelerated computing stack to Oracle Cloud Infrastructure, which is deploying tens of thousands more NVIDIA GPUs, including A100 and H100 accelerators. • Announced a partnership with Nuance Communications to bring AI-based diagnostic tools to clinical radiologists. • Announced that Rescale is integrating NVIDIA AI Enterprise software into its HPC-as-a-service offering. • Announced two new large language model cloud AI services — NVIDIA NeMo™ LLM and NVIDIA BioNeMo™ LLM — enabling developers to easily adapt LLMs and deploy customized AI applications for content generation, text summarization, protein structure and biomolecular property predictions, and more. • Announced that NVIDIA H100 Tensor Core GPUs set records in both AI inference and AI training on all workloads in their first appearances on the MLPerf AI benchmarks. • Unveiled the second generation of NVIDIA OVX™, powered by the Ada Lovelace GPU architecture and enhanced networking technology, enabling the creation of 3D worlds with groundbreaking real-time graphics, AI and digital-twin simulation capabilities. • Announced a new data center solution delivering zero-trust security optimized for VMware vSphere 8 combining Dell PowerEdge servers with NVIDIA BlueField® DPUs, NVIDIA GPUs and NVIDIA AI Enterprise software. Gaming • Third-quarter revenue was $1.57 billion, down 51% from a year ago and down 23% from the previous quarter. • Launched GeForce RTX™ 4090, the first Ada Lovelace architecture GPU for gamers and creators, which quickly sold out in many locations. Sales began today of the RTX 4080. • Introduced NVIDIA DLSS 3, an AI-powered performance multiplier for a new era of NVIDIA RTX™ neural rendering. More than 240 DLSS games and applications are now available, and 35 have announced support for DLSS 3, including Marvel’s Spider-Man Remastered , Cyberpunk 2077 and Microsoft Flight Simulator . • Shipped 37 new RTX games and apps, pushing up the total available to more than 360. • Expanded the GeForce NOW™ library with 85+ games, bringing the total available games to 1,400+. Professional Visualization • Third-quarter revenue was $200 million, down 65% from a year ago and down 60% from the previous quarter. • Introduced NVIDIA Omniverse™ Cloud, the company’s first software- and infrastructure-as-a-service offering, with a comprehensive suite of cloud services for artists, developers and enterprise teams to access metaverse applications. Automotive and Embedded • Third-quarter revenue was $251 million, up 86% from a year ago and up 14% from the previous quarter. • Introduced NVIDIA DRIVE Thor™, the company’s 2,000 TFLOPS next-generation centralized computer for safe and secure autonomous vehicles, with Geely-owned ZEEKR integrating it into electric vehicles in 2025. • Marked the launch of the all-electric Volvo EX90, powered by NVIDIA DRIVE Orin and Xavier™, and Polestar 3, the brand’s first SUV, which runs on the NVIDIA DRIVE™ platform. • Announced that Hozon Auto’s Neta brand will build future electric vehicles on the NVIDIA DRIVE Orin™ platform, enabling automated driving and intelligent features. • Announced new DRIVE IX ecosystem partners that are building on the company’s open AI cockpit software stack to deliver interactive features for vehicles. • Launched Jetson Orin Nano™ system-on-modules that deliver up to 80x the performance over the prior generation for entry-level edge AI and robotics. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Third Quarter Fiscal 2023
+•
+Data Center revenue of $3.83 billion, up 31% from a year ago
+•
+Quarterly return to shareholders of $3.75 billion
+SANTA CLARA, Calif.-Nov. 16, 2022-
+NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 30, 2022, of $5.93 billion, down 17% from a year ago and down 12% from the previous quarter.
+GAAP earnings per diluted share for the quarter were $0.27, down 72% from a year ago and up 4% from the previous quarter. Non-GAAP earnings per diluted share were $0.58, down 50% from a year ago and up 14% from the previous quarter.
+“We are quickly adapting to the macro environment, correcting inventory levels and paving the way for new products,” said Jensen Huang, founder and CEO of NVIDIA.
+“The ramp of our new platforms ― Ada Lovelace RTX graphics, Hopper AI computing, BlueField and Quantum networking, Orin for autonomous vehicles and robotics, and Omniverse ― is off to a great start and forms the foundation of our next phase of growth.
+“NVIDIA’s pioneering work in accelerated computing is more vital than ever. Limited by physics, general purpose computing has slowed to a crawl, just as AI demands more computing. Accelerated computing lets companies achieve orders-of-magnitude increases in productivity while saving money and the environment,” he said.
+During the third quarter of fiscal 2023, NVIDIA returned to shareholders $3.75 billion in share repurchases and cash dividends, bringing the return in the first three quarters to $9.29 billion. As of October 30, 2022, the company had $8.28 billion remaining under its share repurchase authorization through December 2023.
+NVIDIA will pay its next quarterly cash dividend of $0.04 per share on December 22, 2022, to all shareholders of record on December 1, 2022.
+Q3 Fiscal 2023 Summary
+GAAP
+($ in millions, except earnings per share)
+Q3 FY23
+Q2 FY23
+Q3 FY22
+Q/Q
+Y/Y
+Revenue
+$5,931
+$6,704
+$7,103
+Down 12%
+Down 17%
+Gross margin
+53.6
+%
+43.5
+%
+65.2
+%
+Up 10.1 pts
+Down 11.6 pts
+Operating expenses
+$2,576
+$2,416
+$1,960
+Up 7%
+Up 31%
+Operating income
+$601
+$499
+$2,671
+Up 20%
+Down 77%
+Net income
+$680
+$656
+$2,464
+Up 4%
+Down 72%
+Diluted earnings per share
+$0.27
+$0.26
+$0.97
+Up 4%
+Down 72%
+Non-GAAP
+($ in millions, except earnings per share)
+Q3 FY23
+Q2 FY23
+Q3 FY22
+Q/Q
+Y/Y
+Revenue
+$5,931
+$6,704
+$7,103
+Down 12%
+Down 17%
+Gross margin
+56.1
+%
+45.9
+%
+67.0
+%
+Up 10.2 pts
+Down 10.9 pts
+Operating expenses
+$1,793
+$1,749
+$1,375
+Up 3%
+Up 30%
+Operating income
+$1,536
+$1,325
+$3,386
+Up 16%
+Down 55%
+Net income
+$1,456
+$1,292
+$2,973
+Up 13%
+Down 51%
+Diluted earnings per share
+$0.58
+$0.51
+$1.17
+Up 14%
+Down 50%
+Outlook
+NVIDIA’s outlook for the fourth quarter of fiscal 2023 is as follows:
+•
+Revenue is expected to be $6.00 billion, plus or minus 2%.
+•
+GAAP and non-GAAP gross margins are expected to be 63.2% and 66.0%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.56 billion and $1.78 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an income of approximately $40 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 9.0%, plus or minus 1%, excluding any discrete items.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Data Center
+•
+Third-quarter revenue was $3.83 billion, up 31% from a year ago and up 1% from the previous quarter.
+•
+Began shipping the NVIDIA® H100 Tensor Core GPU based on the new NVIDIA Hopper™ architecture, with first systems available now.
+•
+Announced at the SC22 supercomputing conference that NVIDIA H100 and Quantum-2 systems are being broadly adopted; that NVIDIA Omniverse™ connects to leading scientific computing visualization software; and that NVIDIA powers 90% of the new systems in the latest TOP500 list of the world’s fastest supercomputers, including the H100-powered system deployed at the Flatiron Institute, in the U.S, which topped the Green500 list of the most-efficient systems.
+•
+Announced a multi-year collaboration with Microsoft to help enterprises train, deploy and scale AI, including state-of-the-art models, through Microsoft Azure, which is deploying tens of thousands of A100 and H100 GPUs.
+•
+Announced a multi-year partnership with Oracle to bring NVIDIA’s full accelerated computing stack to Oracle Cloud Infrastructure, which is deploying tens of thousands more NVIDIA GPUs, including A100 and H100 accelerators.
+•
+Announced a partnership with Nuance Communications to bring AI-based diagnostic tools to clinical radiologists.
+•
+Announced that Rescale is integrating NVIDIA AI Enterprise software into its HPC-as-a-service offering.
+•
+Announced two new large language model cloud AI services — NVIDIA NeMo™ LLM and NVIDIA BioNeMo™ LLM — enabling developers to easily adapt LLMs and deploy customized AI applications for content generation, text summarization, protein structure and biomolecular property predictions, and more.
+•
+Announced that NVIDIA H100 Tensor Core GPUs set records in both AI inference and AI training on all workloads in their first appearances on the MLPerf AI benchmarks.
+•
+Unveiled the second generation of NVIDIA OVX™, powered by the Ada Lovelace GPU architecture and enhanced networking technology, enabling the creation of 3D worlds with groundbreaking real-time graphics, AI and digital-twin simulation capabilities.
+•
+Announced a new data center solution delivering zero-trust security optimized for VMware vSphere 8 combining Dell PowerEdge servers with NVIDIA BlueField® DPUs, NVIDIA GPUs and NVIDIA AI Enterprise software.
+Gaming
+•
+Third-quarter revenue was $1.57 billion, down 51% from a year ago and down 23% from the previous quarter.
+•
+Launched GeForce RTX™ 4090, the first Ada Lovelace architecture GPU for gamers and creators, which quickly sold out in many locations. Sales began today of the RTX 4080.
+•
+Introduced NVIDIA DLSS 3, an AI-powered performance multiplier for a new era of NVIDIA RTX™ neural rendering. More than 240 DLSS games and applications are now available, and 35 have announced support for DLSS 3, including
+Marvel’s Spider-Man Remastered
+,
+Cyberpunk 2077
+and
+Microsoft Flight Simulator
+.
+•
+Shipped 37 new RTX games and apps, pushing up the total available to more than 360.
+•
+Expanded the GeForce NOW™ library with 85+ games, bringing the total available games to 1,400+.
+Professional Visualization
+•
+Third-quarter revenue was $200 million, down 65% from a year ago and down 60% from the previous quarter.
+•
+Introduced NVIDIA Omniverse™ Cloud, the company’s first software- and infrastructure-as-a-service offering, with a comprehensive suite of cloud services for artists, developers and enterprise teams to access metaverse applications.
+Automotive and Embedded
+•
+Third-quarter revenue was $251 million, up 86% from a year ago and up 14% from the previous quarter.
+•
+Introduced NVIDIA DRIVE Thor™, the company’s 2,000 TFLOPS next-generation centralized computer for safe and secure autonomous vehicles, with Geely-owned ZEEKR integrating it into electric vehicles in 2025.
+•
+Marked the launch of the all-electric Volvo EX90, powered by NVIDIA DRIVE Orin and Xavier™, and Polestar 3, the brand’s first SUV, which runs on the NVIDIA DRIVE™ platform.
+•
+Announced that Hozon Auto’s Neta brand will build future electric vehicles on the NVIDIA DRIVE Orin™ platform, enabling automated driving and intelligent features.
+•
+Announced new DRIVE IX ecosystem partners that are building on the company’s open AI cockpit software stack to deliver interactive features for vehicles.
+•
+Launched Jetson Orin Nano™ system-on-modules that deliver up to 80x the performance over the prior generation for entry-level edge AI and robotics.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.

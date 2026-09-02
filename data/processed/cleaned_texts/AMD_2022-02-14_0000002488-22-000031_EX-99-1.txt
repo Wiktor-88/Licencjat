@@ -1,1 +1,28 @@
-Document NEWS RELEASE Contact: Drew Prairie AMD Communications (512) 602-4425 drew.prairie@amd.com Laura Graves AMD
+Document
+NEWS RELEASE
+Contact:
+Drew Prairie
+AMD Communications
+(512) 602-4425
+drew.prairie@amd.com
+Laura Graves
+AMD Investor Relations
+(408) 749-5467
+laura.graves@amd.com
+AMD Completes Acquisition of Xilinx
+—  Transaction creates high-performance and adaptive computing leader —
+—  AMD to offer industry’s strongest portfolio of leadership CPUs, GPUs, FPGAs and Adaptive SoCs to address approximately $135 billion market opportunity —
+SANTA CLARA, Calif. — Feb. 14, 2022 —
+AMD (NASDAQ: AMD) today announced the completion of its acquisition of Xilinx in an all-stock transaction.
+The acquisition, originally announced on October 27, 2020, creates the industry’s high-performance and adaptive computing leader with significantly expanded scale and the strongest portfolio of leadership computing, graphics and adaptive SoC products. AMD expects the acquisition to be accretive to non-GAAP margins, non-GAAP
+EPS and free cash flow generation in the first year.
+“The acquisition of Xilinx brings together a highly complementary set of products, customers and markets combined with differentiated IP and world-class talent to create the industry’s high-performance and adaptive computing leader,” said AMD President and CEO Dr. Lisa Su. “Xilinx offers industry-leading FPGAs, adaptive SoCs, AI engines and software expertise that enable AMD to offer the strongest portfolio of high-performance and adaptive computing solutions in the industry and capture a larger share of the approximately $135 billion market opportunity we see across cloud, edge and intelligent devices.”
+Former Xilinx CEO Victor Peng will join AMD as president of the newly formed Adaptive and Embedded Computing Group (AECG). AECG remains focused on driving leadership FPGA, Adaptive SoC and software roadmaps, now with the additional scale of the combined company and the ability to offer an expanded set of solutions including AMD CPUs and GPUs.
+“The rapid expansion of connected devices and data-intensive applications with embedded AI are driving the growing demand for highly efficient and adaptive high-performance computing solutions,” said Victor Peng. “Bringing AMD and Xilinx together will accelerate our ability to define this new era of computing by providing the most comprehensive portfolio of adaptive computing platforms capable of powering a wide range of intelligent applications.
+”
+Upon close, Xilinx stockholders received 1.7234 shares of AMD common stock and cash in lieu of any fractional shares of AMD common stock for each share of Xilinx common stock. Xilinx common stock will no longer be listed for trading on the NASDAQ stock market
+.
+Transaction Website
+For more information about the transaction, investors are encouraged to visit the
+AMD/Xilinx Acquisition web page
+.

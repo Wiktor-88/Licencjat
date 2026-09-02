@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "AVGO",
+    "Accession": "0001730168-23-000054",
+    "Filing_Date": "2023-05-23",
+    "Feature_Cutoff_Session": "2023-05-22",
+    "Event_Session": "2023-05-23T00:00:00",
+    "Publication_Period": "PRE_MARKET",
+    "Test_Year": 2023,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "true_positive"
+  },
+  "prediction": {
+    "Leaf_Node": 20,
+    "Probability_Class_1": 1.0,
+    "Prediction": 1,
+    "Path_Length": 4
+  }
+}

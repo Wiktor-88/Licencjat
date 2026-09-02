@@ -1,1 +1,33 @@
-Item 2.01 Completion of Acquisition or Disposition of Assets. On the Closing Date, pursuant to the terms of the Purchase Agreement, Sanmina (a) issued to the Seller 1,151,052 shares of Sanmina common stock, and (b) paid, or will cause to be paid, to the Seller $2.4 billion in cash, subject to certain purchase price adjustments (collectively, the “Closing Consideration”). In addition, pursuant to the terms of the Purchase Agreement, the Seller is eligible to receive additional consideration of up to $450 million of cash to the extent certain conditions are met following the closing of the Equity Sale (the “Contingent Consideration”). The foregoing description of the Equity Sale and the Purchase Agreement does not purport to be complete and is subject to and qualified in its entirety by reference to the full text of the Purchase Agreement, a copy of which was filed as Exhibit 2.1 to the Current Report on Form 8-K filed by AMD on May 19, 2025 and is incorporated herein by reference. Item 7.01 Regulation FD Disclosure. On October 27, 2025, AMD issued a press release announcing the completion of the Equity Sale, described above in Item 2.01. A copy of the press release is furnished as Exhibit 99.1 to this Current Report on Form 8-K and is incorporated herein by reference. The information in this report furnished pursuant to Item 7.01, including Exhibit 99.1 attached hereto, shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”), or otherwise subject to the liabilities of that section. It may only be incorporated by reference in another filing under the Exchange Act or the Securities Act, if such subsequent filing specifically references such information. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. EXHIBIT INDEX Exhibit No. Description 2.1* Equity Purchase Agreement dated as of May 18, 2025, by and among Advanced Micro Devices, Inc., AMD Design, LLC, ZT Group Int’l, Inc. and Sanmina Corporation (incorporated by reference to Exhibit 2.1 to the Current Report on Form 8-K filed by AMD with the Securities and Exchange Commission on May 19, 2025). 99.1 Press Release, dated October 27, 2025. 104 Inline XBRL for the cover page of this Current Report on Form 8-K. * Schedules and exhibits have been omitted pursuant to Item 601(a)(5) of Regulation S-K. AMD hereby undertakes to furnish supplemental copies of any of the omitted annexes, schedules and exhibits upon request by the Securities and Exchange Commission.
+Item 2.01
+Completion of Acquisition or Disposition of Assets.
+On the Closing Date, pursuant to the terms of the Purchase Agreement, Sanmina (a) issued to the Seller 1,151,052 shares of Sanmina common stock, and (b) paid, or will cause to be paid, to the Seller $2.4 billion in cash, subject to certain purchase price adjustments (collectively, the “Closing Consideration”). In addition, pursuant to the terms of the Purchase Agreement, the Seller is eligible to receive additional consideration of up to $450 million of cash to the extent certain conditions are met following the closing of the Equity Sale (the “Contingent Consideration”).
+The foregoing description of the Equity Sale and the Purchase Agreement does not purport to be complete and is subject to and qualified in its entirety by reference to the full text of the Purchase Agreement, a copy of which was filed as Exhibit 2.1 to the Current Report on Form
+8-K
+filed by AMD on May 19, 2025 and is incorporated herein by reference.
+Item 7.01
+Regulation FD Disclosure.
+On October 27, 2025, AMD issued a press release announcing the completion of the Equity Sale, described above in Item 2.01. A copy of the press release is furnished as Exhibit 99.1 to this Current Report on Form
+8-K
+and is incorporated herein by reference.
+The information in this report furnished pursuant to Item 7.01, including Exhibit 99.1 attached hereto, shall not be deemed “filed” for the purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the “
+Exchange Act
+”), or otherwise subject to the liabilities of that section. It may only be incorporated by reference in another filing under the Exchange Act or the Securities Act, if such subsequent filing specifically references such information.
+Item 9.01
+Financial Statements and Exhibits.
+(d) Exhibits.
+EXHIBIT INDEX
+Exhibit No.
+Description
+2.1*
+Equity Purchase Agreement dated as of May 18, 2025, by and among Advanced Micro Devices, Inc., AMD Design, LLC, ZT Group Int’l, Inc. and Sanmina Corporation (incorporated by reference to Exhibit 2.1 to the Current Report on Form
+8-K
+filed by AMD with the Securities and Exchange Commission on May 19, 2025).
+99.1
+Press Release, dated October 27, 2025.
+104
+Inline XBRL for the cover page of this Current Report on Form
+8-K.
+*
+Schedules and exhibits have been omitted pursuant to Item 601(a)(5) of Regulation
+S-K.
+AMD hereby undertakes to furnish supplemental copies of any of the omitted annexes, schedules and exhibits upon request by the Securities and Exchange Commission.

@@ -1,1 +1,124 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Second Quarter Fiscal 2022 Results
+Record Revenues: $11.2 billion
+GAAP EPS: $2.57, Non-GAAP EPS: $3.21
+—QCT EBT More Than Doubled Year-Over-Year in 6 of the Last 7 Quarters—
+—QCT Automotive: Design Win Pipeline Increased to More Than $16 Billion
+1
+—
+—QCT IoT: 61% Year-Over-Year Growth in Revenues—
+SAN DIEGO - April 27, 2022
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal second quarter ended March 27, 2022.
+“We are pleased to announce another quarter of record revenues, reflecting the successful execution of our growth and diversification strategy and strong demand for our wireless and high-performance, low-power processor technologies across multiple industries,” said Cristiano Amon, President and CEO of Qualcomm Incorporated.  “We are well positioned to meet our long-term targets and enable the connected intelligent edge.”
+Second Quarter Results
+2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q2 Fiscal 2022
+Q2 Fiscal 2021
+Change
+Q2 Fiscal 2022
+Q2 Fiscal 2021
+Change
+Revenues
+$11,164
+$7,935
++41%
+$11,158
+$7,925
++41%
+Earnings before taxes (EBT)
+$3,423
+$2,129
++61%
+$4,255
+$2,527
++68%
+Net income
+$2,934
+$1,762
++67%
+$3,661
+$2,185
++68%
+Diluted earnings per share (EPS)
+$2.57
+$1.53
++68%
+$3.21
+$1.90
++69%
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q2 Fiscal 2022
+Q2 Fiscal 2021
+Change
+Q2 Fiscal 2022
+Q2 Fiscal 2021
+Change
+Revenues
+$9,548
+$6,281
++52%
+$1,580
+$1,614
+(2%)
+EBT
+$3,340
+$1,584
++111%
+$1,154
+$1,191
+(3%)
+EBT as % of revenues
+35%
+25%
++10 points
+73%
+74%
+-1 point
+(1)  As of April 27, 2022.  The design win pipeline reflects the current estimated future size of awarded automaker programs, based on forecasts provided directly by automakers and Tier-1 suppliers.
+(2)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Qualcomm Announces Second Quarter Fiscal 2022 Results
+Page 2 of 9
+QCT Revenue Streams
+We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+(in millions, except percentages)
+Q2 Fiscal 2022
+Q2 Fiscal 2021
+Change
+Handsets
+$6,325
+$4,065
++56%
+RF front-end
+1,160
+903
++28%
+Automotive
+339
+240
++41%
+IoT
+1,724
+1,073
++61%
+Total QCT revenues
+$9,548
+$6,281
++52%
+Return of Capital to Stockholders
+During the second quarter of fiscal 2022, we returned $1.7 billion to stockholders, including $764 million, or $0.68 per share, of cash dividends paid and $951 million through repurchases of 6 million shares of common stock.
+Qualcomm Announces Second Quarter Fiscal 2022 Results
+Page 3 of 9
+Business Outlook
+The following statements are forward looking, and actual results may differ materially.  The “Note Regarding

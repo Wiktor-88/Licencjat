@@ -1,1 +1,185 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Second Quarter Fiscal 2021 • Record revenue of $3.87 billion, up 50 percent from a year earlier • Record Data Center revenue of $1.75 billion, up 167 percent from a year earlier • Mellanox growth accelerated in its first quarter as part of NVIDIA, contributed 14 percent of revenue SANTA CLARA, Calif.-Aug. 19, 2020- NVIDIA (NASDAQ: NVDA) today reported record revenue for the second quarter ended July 26, 2020, of $3.87 billion, up 50 percent from $2.58 billion a year earlier, and up 26 percent from $3.08 billion in the previous quarter. GAAP earnings per diluted share for the quarter were $0.99, up 10 percent from $0.90 a year ago, and down 33 percent from $1.47 in the previous quarter. Non-GAAP earnings per diluted share were $2.18, up 76 percent from $1.24 a year earlier, and up 21 percent from $1.80 in the previous quarter. NVIDIA closed its acquisition of Mellanox Technologies Ltd. on April 27, 2020. “Adoption of NVIDIA computing is accelerating, driving record revenue and exceptional growth,” said Jensen Huang, founder and CEO of NVIDIA. “Growth in GeForce gaming accelerated as gamers increasingly immerse themselves in realistic virtual worlds created by NVIDIA RTX ray tracing and AI. “Our new Ampere GPU architecture is sprinting out of the blocks, with the world’s top cloud service providers and server makers moving quickly to offer NVIDIA accelerated computing. Mellanox grew sharply, driven by the need for high-speed networking in cloud data centers to scale-out AI services. And Mercedes-Benz’s partnership with NVIDIA to power its next-generation fleet of luxury cars -- from the computer to the AI software, and from the cloud to the car -- is transformative. “Despite the pandemic’s impact on our professional visualization and automotive platforms, we are well positioned to grow, as gaming, AI, cloud computing and autonomous machines drive the next industrial revolution around the world,” he said. NVIDIA paid $99 million in quarterly cash dividends in the second quarter. It will pay its next quarterly cash dividend of $0.16 per share on September 24, 2020, to all shareholders of record on September 2, 2020. Q2 Fiscal 2021 Summary GAAP ($ in millions, except earnings per share) Q2 FY21 Q1 FY21 Q2 FY20 Q/Q Y/Y Revenue $3,866 $3,080 $2,579 Up 26% Up 50% Gross margin 58.8 % 65.1 % 59.8 % Down 630 bps Down 100 bps Operating expenses $1,624 $1,028 $970 Up 58% Up 67% Operating income $651 $976 $571 Down 33% Up 14% Net income $622 $917 $552 Down 32% Up 13% Diluted earnings per share $0.99 $1.47 $0.90 Down 33% Up 10% Non-GAAP ($ in millions, except earnings per share) Q2 FY21 Q1 FY21 Q2 FY20 Q/Q Y/Y Revenue $3,866 $3,080 $2,579 Up 26% Up 50% Gross margin 66.0 % 65.8 % 60.1 % Up 20 bps Up 590 bps Operating expenses $1,035 $821 $749 Up 26% Up 38% Operating income $1,516 $1,205 $802 Up 26% Up 89% Net income $1,366 $1,120 $762 Up 22% Up 79% Diluted earnings per share $2.18 $1.80 $1.24 Up 21% Up 76% NVIDIA’s outlook for the third quarter of fiscal 2021 is as follows: • Revenue is expected to be $4.40 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 62.5 percent and 65.5 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $1.54 billion and $1.09 billion, respectively. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million. • GAAP and non-GAAP tax rates are both expected to be 8 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter by quarter basis. Highlights Since its previous earnings report, NVIDIA has achieved progress in these areas: Data Center • Second-quarter revenue, which included Mellanox, was $1.75 billion, up 54 percent from the previous quarter and up 167 percent from a year earlier. • Announced, together with the world’s leading server makers, more than 50 NVIDIA ® A100-powered systems to tackle the most complex challenges in AI, data science and scientific computing. • Powered eight of the top 10, and two-thirds of the total systems, on the latest TOP500 list of the world’s fastest supercomputers. This includes NVIDIA Selene, an NVIDIA DGX SuperPOD™ system, which ranked No. 7 on the list and was No. 2 on the Green500 list. • Set 16 AI performance records on the latest MLPerf benchmarks, eight on a per-chip basis based on the A100 Tensor Core GPU and eight “at scale” using the DGX A100 SuperPOD system. • Made the NVIDIA A100 Tensor Core GPU available on Google Cloud just over a month after its introduction. • Provided CUDA GPU-acceleration for Apache Spark, the world’s most popular data analytics application, through the general availability release of Spark 3.0. • Unveiled the NVIDIA Mellanox ® UFM Cyber-AI Platform, which minimizes downtime in supercomputing data centers by detecting security threats and operational issues and predicting network failures. Gaming • Second-quarter revenue was $1.65 billion, up 24 percent from the previous quarter and up 26 percent from a year earlier. • Ramped 100+ new GeForce laptops to deliver outstanding performance to students, creators and gamers across a range of price points. • Announced a range of games now supporting NVIDIA RTX ray tracing and DLSS AI super resolution, including, Justice , Cyberpunk 2077 and Death Stranding . Introduced new worlds for Minecraft with RTX. • Expanded GeForce NOW™ to Chromebooks, enabling millions of users to play games in the cloud. • Announced that Square Enix is adding its extensive catalog to GeForce NOW, including franchises such as Deus Ex and Just Cause , plus Shadow of the Tomb Raider , which returned with RTX On. Professional Visualization • Second-quarter revenue was $203 million, down 34 percent from the previous quarter and down 30 percent from a year earlier. • Launched with Acer, Dell, Lenovo and Microsoft new mobile workstations for professional creators, based on NVIDIA Quadro ® graphics. Powered new AI features in the latest releases of Substance Alchemist and Blender, improving material creation and incorporating AI denoising. • Announced that NVIDIA RTX™ has been implemented in the latest application releases from Foundry, Chaos Group and Redshift by Maxon, giving creators access to faster ray tracing and accelerated performance. • Released NVIDIA Quadro View™, the latest application in the NVIDIA Quadro Experience platform, which aids in streamlining workflows with a suite of desktop management tools. Automotive • Second-quarter revenue was $111 million, down 28 percent from the previous quarter and down 47 percent from a year earlier. • Announced with Mercedes-Benz that the carmaker is integrating into every vehicle in its lineup, beginning in 2024, a new software-defined vehicle architecture that is perpetually upgradeable and built on the NVIDIA DRIVE AV autonomous driving software and NVIDIA AGX Orin™ AV computer. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at http://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Second Quarter Fiscal 2021
+•
+Record revenue of $3.87 billion, up 50 percent from a year earlier
+•
+Record Data Center revenue of $1.75 billion, up 167 percent from a year earlier
+•
+Mellanox growth accelerated in its first quarter as part of NVIDIA, contributed 14 percent of revenue
+SANTA CLARA, Calif.-Aug. 19, 2020-
+NVIDIA (NASDAQ: NVDA) today reported record revenue for the second quarter ended July 26, 2020, of $3.87 billion, up 50 percent from $2.58 billion a year earlier, and up 26 percent from $3.08 billion in the previous quarter.
+GAAP earnings per diluted share for the quarter were $0.99, up 10 percent from $0.90 a year ago, and down 33 percent from $1.47 in the previous quarter. Non-GAAP earnings per diluted share were $2.18, up 76 percent from $1.24 a year earlier, and up 21 percent from $1.80 in the previous quarter.
+NVIDIA closed its acquisition of Mellanox Technologies Ltd. on April 27, 2020.
+“Adoption of NVIDIA computing is accelerating, driving record revenue and exceptional growth,” said Jensen Huang, founder and CEO of NVIDIA. “Growth in GeForce gaming accelerated as gamers increasingly immerse themselves in realistic virtual worlds created by NVIDIA RTX ray tracing and AI.
+“Our new Ampere GPU architecture is sprinting out of the blocks, with the world’s top cloud service providers and server makers moving quickly to offer NVIDIA accelerated computing. Mellanox grew sharply, driven by the need for high-speed networking in cloud data centers to scale-out AI services. And Mercedes-Benz’s partnership with NVIDIA to power its next-generation fleet of luxury cars -- from the computer to the AI software, and from the cloud to the car -- is transformative.
+“Despite the pandemic’s impact on our professional visualization and automotive platforms, we are well positioned to grow, as gaming, AI, cloud computing and autonomous machines drive the next industrial revolution around the world,” he said.
+NVIDIA paid $99 million in quarterly cash dividends in the second quarter. It will pay its next quarterly cash dividend of $0.16 per share on September 24, 2020, to all shareholders of record on September 2, 2020.
+Q2 Fiscal 2021 Summary
+GAAP
+($ in millions, except earnings per share)
+Q2 FY21
+Q1 FY21
+Q2 FY20
+Q/Q
+Y/Y
+Revenue
+$3,866
+$3,080
+$2,579
+Up 26%
+Up 50%
+Gross margin
+58.8
+%
+65.1
+%
+59.8
+%
+Down 630 bps
+Down 100 bps
+Operating expenses
+$1,624
+$1,028
+$970
+Up 58%
+Up 67%
+Operating income
+$651
+$976
+$571
+Down 33%
+Up 14%
+Net income
+$622
+$917
+$552
+Down 32%
+Up 13%
+Diluted earnings per share
+$0.99
+$1.47
+$0.90
+Down 33%
+Up 10%
+Non-GAAP
+($ in millions, except earnings per share)
+Q2 FY21
+Q1 FY21
+Q2 FY20
+Q/Q
+Y/Y
+Revenue
+$3,866
+$3,080
+$2,579
+Up 26%
+Up 50%
+Gross margin
+66.0
+%
+65.8
+%
+60.1
+%
+Up 20 bps
+Up 590 bps
+Operating expenses
+$1,035
+$821
+$749
+Up 26%
+Up 38%
+Operating income
+$1,516
+$1,205
+$802
+Up 26%
+Up 89%
+Net income
+$1,366
+$1,120
+$762
+Up 22%
+Up 79%
+Diluted earnings per share
+$2.18
+$1.80
+$1.24
+Up 21%
+Up 76%
+NVIDIA’s outlook for the third quarter of fiscal 2021 is as follows:
+•
+Revenue is expected to be $4.40 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 62.5 percent and 65.5 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $1.54 billion and $1.09 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million.
+•
+GAAP and non-GAAP tax rates are both expected to be 8 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter by quarter basis.
+Highlights
+Since its previous earnings report, NVIDIA has achieved progress in these areas:
+Data Center
+•
+Second-quarter revenue, which included Mellanox, was $1.75 billion, up 54 percent from the previous quarter and up 167 percent from a year earlier.
+•
+Announced, together with the world’s leading server makers, more than 50 NVIDIA
+®
+A100-powered systems to tackle the most complex challenges in AI, data science and scientific computing.
+•
+Powered eight of the top 10, and two-thirds of the total systems, on the latest TOP500 list of the world’s fastest supercomputers. This includes NVIDIA Selene, an NVIDIA DGX SuperPOD™ system, which ranked No. 7 on the list and was No. 2 on the Green500 list.
+•
+Set 16 AI performance records on the latest MLPerf benchmarks, eight on a per-chip basis based on the A100 Tensor Core GPU and eight “at scale” using the DGX A100 SuperPOD system.
+•
+Made the NVIDIA A100 Tensor Core GPU available on Google Cloud just over a month after its introduction.
+•
+Provided CUDA GPU-acceleration for Apache Spark, the world’s most popular data analytics application, through the general availability release of Spark 3.0.
+•
+Unveiled the NVIDIA Mellanox
+®
+UFM Cyber-AI Platform, which minimizes downtime in supercomputing data centers by detecting security threats and operational issues and predicting network failures.
+Gaming
+•
+Second-quarter revenue was $1.65 billion, up 24 percent from the previous quarter and up 26 percent from a year earlier.
+•
+Ramped 100+ new GeForce laptops to deliver outstanding performance to students, creators and gamers across a range of price points.
+•
+Announced a range of games now supporting NVIDIA RTX ray tracing and DLSS AI super resolution, including,
+Justice
+,
+Cyberpunk 2077
+and
+Death Stranding
+. Introduced new worlds for
+Minecraft
+with RTX.
+•
+Expanded GeForce NOW™ to Chromebooks, enabling millions of users to play games in the cloud.
+•
+Announced that Square Enix is adding its extensive catalog to GeForce NOW, including franchises such as
+Deus Ex
+and
+Just Cause
+, plus
+Shadow of the Tomb Raider
+, which returned with RTX On.
+Professional Visualization
+•
+Second-quarter revenue was $203 million, down 34 percent from the previous quarter and down 30 percent from a year earlier.
+•
+Launched with Acer, Dell, Lenovo and Microsoft new mobile workstations for professional creators, based on NVIDIA Quadro
+®
+graphics. Powered new AI features in the latest releases of Substance Alchemist and Blender, improving material creation and incorporating AI denoising.
+•
+Announced that NVIDIA RTX™ has been implemented in the latest application releases from Foundry, Chaos Group and Redshift by Maxon, giving creators access to faster ray tracing and accelerated performance.
+•
+Released NVIDIA Quadro View™, the latest application in the NVIDIA Quadro Experience platform, which aids in streamlining workflows with a suite of desktop management tools.
+Automotive
+•
+Second-quarter revenue was $111 million, down 28 percent from the previous quarter and down 47 percent from a year earlier.
+•
+Announced with Mercedes-Benz that the carmaker is integrating into every vehicle in its lineup, beginning in 2024, a new software-defined vehicle architecture that is perpetually upgradeable and built on the NVIDIA DRIVE AV autonomous driving software and NVIDIA AGX Orin™ AV computer.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at http://investor.nvidia.com/.

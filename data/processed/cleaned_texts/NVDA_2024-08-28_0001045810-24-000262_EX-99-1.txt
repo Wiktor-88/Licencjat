@@ -1,1 +1,180 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Second Quarter Fiscal 2025 • Record quarterly revenue of $30.0 billion, up 15% from Q1 and up 122% from a year ago • Record quarterly Data Center revenue of $26.3 billion, up 16% from Q1 and up 154% from a year ago SANTA CLARA, Calif.—Aug. 28, 2024― NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 28, 2024, of $30.0 billion, up 15% from the previous quarter and up 122% from a year ago. For the quarter, GAAP earnings per diluted share was $0.67, up 12% from the previous quarter and up 168% from a year ago. Non-GAAP earnings per diluted share was $0.68, up 11% from the previous quarter and up 152% from a year ago. “Hopper demand remains strong, and the anticipation for Blackwell is incredible,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA achieved record revenues as global data centers are in full throttle to modernize the entire computing stack with accelerated computing and generative AI.” “Blackwell samples are shipping to our partners and customers. Spectrum-X Ethernet for AI and NVIDIA AI Enterprise software are two new product categories achieving significant scale, demonstrating that NVIDIA is a full-stack and data center-scale platform. Across the entire stack and ecosystem, we are helping frontier model makers to consumer internet services, and now enterprises. Generative AI will revolutionize every industry.” During the first half of fiscal 2025, NVIDIA returned $15.4 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the second quarter, the company had $7.5 billion remaining under its share repurchase authorization. On August 26, 2024, the Board of Directors approved an additional $50.0 billion in share repurchase authorization, without expiration. NVIDIA will pay its next quarterly cash dividend of $0.01 per share on October 3, 2024, to all shareholders of record on September 12, 2024. On June 7, 2024, NVIDIA completed a ten-for-one forward stock split. All share and per-share amounts presented have been retroactively adjusted to reflect the stock split. Q2 Fiscal 2025 Summary GAAP ($ in millions, except earnings per share) Q2 FY25 Q1 FY25 Q2 FY24 Q/Q Y/Y Revenue $30,040 $26,044 $13,507 Up 15% Up 122% Gross margin 75.1 % 78.4 % 70.1 % Down 3.3 pts Up 5.0 pts Operating expenses $3,932 $3,497 $2,662 Up 12% Up 48% Operating income $18,642 $16,909 $6,800 Up 10% Up 174% Net income $16,599 $14,881 $6,188 Up 12% Up 168% Diluted earnings per share $0.67 $0.60 $0.25 Up 12% Up 168% Non-GAAP ($ in millions, except earnings per share) Q2 FY25 Q1 FY25 Q2 FY24 Q/Q Y/Y Revenue $30,040 $26,044 $13,507 Up 15% Up 122% Gross margin 75.7 % 78.9 % 71.2 % Down 3.2 pts Up 4.5 pts Operating expenses $2,792 $2,501 $1,838 Up 12% Up 52% Operating income $19,937 $18,059 $7,776 Up 10% Up 156% Net income $16,952 $15,238 $6,740 Up 11% Up 152% Diluted earnings per share $0.68 $0.61 $0.27 Up 11% Up 152% Outlook NVIDIA’s outlook for the third quarter of fiscal 2025 is as follows: • Revenue is expected to be $32.5 billion, plus or minus 2%. • GAAP and non-GAAP gross margins are expected to be 74.4% and 75.0%, respectively, plus or minus 50 basis points. For the full year, gross margins are expected to be in the mid-70% range. • GAAP and non-GAAP operating expenses are expected to be approximately $4.3 billion and $3.0 billion, respectively. Full-year operating expenses are expected to grow in the mid- to upper-40% range. • GAAP and non-GAAP other income and expense are expected to be an income of approximately $350 million, excluding gains and losses from non-affiliated investments and publicly-held equity securities. • GAAP and non-GAAP tax rates are expected to be 17%, plus or minus 1%, excluding any discrete items. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Data Center • Second-quarter revenue was a record $26.3 billion, up 16% from the previous quarter and up 154% from a year ago. • Announced that the combination of NVIDIA H200 Tensor Core and NVIDIA Blackwell architecture B200 Tensor Core processors swept the latest industry-standard MLPerf benchmark results for inference. • Revealed that H200 GPU-powered systems are now available on CoreWeave, the first cloud service provider to announce general availability. • Unveiled an array of Blackwell systems featuring NVIDIA Grace™ CPUs, networking and infrastructure from top manufacturers such as GIGABYTE, QCT and Wiwynn. • Reported broad adoption of the NVIDIA Spectrum-X™ Ethernet networking platform by cloud service providers, GPU cloud providers and enterprises, as well as partners incorporating it into their offerings. • Released NVIDIA NIM™ for broad availability to developers globally and announced more than 150 companies are integrating microservices into their platforms to speed generative AI application development. • Unveiled an inference service with Hugging Face powered by NIM microservices on NVIDIA DGX™ Cloud to enable developers to deploy popular large language models. • Introduced an NVIDIA AI Foundry service and NIM inference microservices to accelerate generative AI for the world’s enterprises with the Llama 3.1 collection of models. • Announced Japan advanced its sovereign AI capabilities with its ABCI 3.0 supercomputer, integrating H200 GPUs and NVIDIA Quantum-2 InfiniBand networking. • Accelerated quantum computing efforts at national supercomputing centers around the world with the open-source NVIDIA CUDA-Q™ platform. Gaming and AI PC • Second-quarter Gaming revenue was $2.9 billion, up 9% from the previous quarter and up 16% from a year ago. • Announced NVIDIA ACE, a suite of generative AI technologies that bring digital humans to life, now includes NVIDIA Nemotron-4 4B, a small language model for on-device inference, and is available in early access for RTX AI PCs. • Introduced Project G-Assist, a technology preview demonstrating the power of AI agents to assist gamers and creators in real time. • Announced new NVIDIA GeForce RTX and DLSS titles, including Indiana Jones and the Great Circle , Dune: Awakening and Dragon Age: The Veilguard , bringing the total number of RTX games and apps to over 600. • Surpassed 2,000 games on GeForce NOW, expanded the service into Japan and announced launches of Black Myth: Wukong and Star Wars Outlaws . Professional Visualization • Second-quarter revenue was $454 million, up 6% from the previous quarter and up 20% from a year ago. • Introduced generative AI models and NIM microservices for OpenUSD to accelerate workflows and the development of industrial digital twins and robotics. • Announced major Taiwanese electronics makers are creating more autonomous factories with a new reference workflow that combines NVIDIA Metropolis vision AI, NVIDIA Omniverse™ simulation and NVIDIA Isaac™ AI robot development. Automotive and Robotics • Second-quarter Automotive revenue was $346 million, up 5% from the previous quarter and up 37% from a year ago. • Unveiled the world’s leaders in robot development, including BYD Electronics, Siemens and Teradyne Robotics, are adopting the Isaac robotics platform for R&D and production. • Announced Omniverse Cloud Sensor RTX™ microservices to enable physically accurate sensor simulation to speed development of autonomous machines. • Won the Autonomous Grand Challenge at the Computer Vision and Pattern Recognition conference in the category of End-to-End Driving at Scale for advances in building physical, generative AI applications for autonomous vehicle development. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Second Quarter Fiscal 2025
+•
+Record quarterly revenue of $30.0 billion, up 15% from Q1 and up 122% from a year ago
+•
+Record quarterly Data Center revenue of $26.3 billion, up 16% from Q1 and up 154% from a year ago
+SANTA CLARA, Calif.—Aug. 28, 2024―
+NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 28, 2024, of $30.0 billion, up 15% from the previous quarter and up 122% from a year ago.
+For the quarter, GAAP earnings per diluted share was $0.67, up 12% from the previous quarter and up 168% from a year ago. Non-GAAP earnings per diluted share was $0.68, up 11% from the previous quarter and up 152% from a year ago.
+“Hopper demand remains strong, and the anticipation for Blackwell is incredible,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA achieved record revenues as global data centers are in full throttle to modernize the entire computing stack with accelerated computing and generative AI.”
+“Blackwell samples are shipping to our partners and customers. Spectrum-X Ethernet for AI and NVIDIA AI Enterprise software are two new product categories achieving significant scale, demonstrating that NVIDIA is a full-stack and data center-scale platform. Across the entire stack and ecosystem, we are helping frontier model makers to consumer internet services, and now enterprises. Generative AI will revolutionize every industry.”
+During the first half of fiscal 2025, NVIDIA returned $15.4 billion to shareholders in the form of shares repurchased and cash dividends. As of the end of the second quarter, the company had $7.5 billion remaining under its share repurchase authorization. On August 26, 2024, the Board of Directors approved an additional $50.0 billion in share repurchase authorization, without expiration.
+NVIDIA will pay its next quarterly cash dividend of $0.01 per share on October 3, 2024, to all shareholders of record on September 12, 2024.
+On June 7, 2024, NVIDIA completed a ten-for-one forward stock split. All share and per-share amounts presented have been retroactively adjusted to reflect the stock split.
+Q2 Fiscal 2025 Summary
+GAAP
+($ in millions, except earnings per share)
+Q2 FY25
+Q1 FY25
+Q2 FY24
+Q/Q
+Y/Y
+Revenue
+$30,040
+$26,044
+$13,507
+Up 15%
+Up 122%
+Gross margin
+75.1
+%
+78.4
+%
+70.1
+%
+Down 3.3 pts
+Up 5.0 pts
+Operating expenses
+$3,932
+$3,497
+$2,662
+Up 12%
+Up 48%
+Operating income
+$18,642
+$16,909
+$6,800
+Up 10%
+Up 174%
+Net income
+$16,599
+$14,881
+$6,188
+Up 12%
+Up 168%
+Diluted earnings per share
+$0.67
+$0.60
+$0.25
+Up 12%
+Up 168%
+Non-GAAP
+($ in millions, except earnings per share)
+Q2 FY25
+Q1 FY25
+Q2 FY24
+Q/Q
+Y/Y
+Revenue
+$30,040
+$26,044
+$13,507
+Up 15%
+Up 122%
+Gross margin
+75.7
+%
+78.9
+%
+71.2
+%
+Down 3.2 pts
+Up 4.5 pts
+Operating expenses
+$2,792
+$2,501
+$1,838
+Up 12%
+Up 52%
+Operating income
+$19,937
+$18,059
+$7,776
+Up 10%
+Up 156%
+Net income
+$16,952
+$15,238
+$6,740
+Up 11%
+Up 152%
+Diluted earnings per share
+$0.68
+$0.61
+$0.27
+Up 11%
+Up 152%
+Outlook
+NVIDIA’s outlook for the third quarter of fiscal 2025 is as follows:
+•
+Revenue is expected to be $32.5 billion, plus or minus 2%.
+•
+GAAP and non-GAAP gross margins are expected to be 74.4% and 75.0%, respectively, plus or minus 50 basis points. For the full year, gross margins are expected to be in the mid-70% range.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $4.3 billion and $3.0 billion, respectively.  Full-year operating expenses are expected to grow in the mid- to upper-40% range.
+•
+GAAP and non-GAAP other income and expense are expected to be an income of approximately $350 million, excluding gains and losses from non-affiliated investments and publicly-held equity securities.
+•
+GAAP and non-GAAP tax rates are expected to be 17%, plus or minus 1%, excluding any discrete items.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Data Center
+•
+Second-quarter revenue was a record $26.3 billion, up 16% from the previous quarter and up 154% from a year ago.
+•
+Announced that the combination of NVIDIA H200 Tensor Core and NVIDIA Blackwell architecture B200 Tensor Core processors swept the latest industry-standard MLPerf benchmark results for inference.
+•
+Revealed that H200 GPU-powered systems are now available on CoreWeave, the first cloud service provider to announce general availability.
+•
+Unveiled an array of Blackwell systems featuring NVIDIA Grace™ CPUs, networking and infrastructure from top manufacturers such as GIGABYTE, QCT and Wiwynn.
+•
+Reported broad adoption of the NVIDIA Spectrum-X™ Ethernet networking platform by cloud service providers, GPU cloud providers and enterprises, as well as partners incorporating it into their offerings.
+•
+Released NVIDIA NIM™ for broad availability to developers globally and announced more than 150 companies are integrating microservices into their platforms to speed generative AI application development.
+•
+Unveiled an inference service with Hugging Face powered by NIM microservices on NVIDIA DGX™ Cloud to enable developers to deploy popular large language models.
+•
+Introduced an NVIDIA AI Foundry service and NIM inference microservices to accelerate generative AI for the world’s enterprises with the Llama 3.1 collection of models.
+•
+Announced Japan advanced its sovereign AI capabilities with its ABCI 3.0 supercomputer, integrating H200 GPUs and NVIDIA Quantum-2 InfiniBand networking.
+•
+Accelerated quantum computing efforts at national supercomputing centers around the world with the open-source NVIDIA CUDA-Q™ platform.
+Gaming and AI PC
+•
+Second-quarter Gaming revenue was $2.9 billion, up 9% from the previous quarter and up 16% from a year ago.
+•
+Announced NVIDIA ACE, a suite of generative AI technologies that bring digital humans to life, now includes NVIDIA Nemotron-4 4B, a small language model for on-device inference, and is available in early access for RTX AI PCs.
+•
+Introduced Project G-Assist, a technology preview demonstrating the power of AI agents to assist gamers and creators in real time.
+•
+Announced new NVIDIA GeForce RTX and DLSS titles, including
+Indiana Jones and the Great Circle
+,
+Dune: Awakening and Dragon Age: The Veilguard
+, bringing the total number of RTX games and apps to over 600.
+•
+Surpassed 2,000 games on GeForce NOW, expanded the service into Japan and announced launches of
+Black Myth: Wukong
+and
+Star Wars Outlaws
+.
+Professional Visualization
+•
+Second-quarter revenue was $454 million, up 6% from the previous quarter and up 20% from a year ago.
+•
+Introduced generative AI models and NIM microservices for OpenUSD to accelerate workflows and the development of industrial digital twins and robotics.
+•
+Announced major Taiwanese electronics makers are creating more autonomous factories with a new reference workflow that combines NVIDIA Metropolis vision AI, NVIDIA Omniverse™ simulation and NVIDIA Isaac™ AI robot development.
+Automotive and Robotics
+•
+Second-quarter Automotive revenue was $346 million, up 5% from the previous quarter and up 37% from a year ago.
+•
+Unveiled the world’s leaders in robot development, including BYD Electronics, Siemens and Teradyne Robotics, are adopting the Isaac robotics platform for R&D and production.
+•
+Announced Omniverse Cloud Sensor RTX™ microservices to enable physically accurate sensor simulation to speed development of autonomous machines.
+•
+Won the Autonomous Grand Challenge at the Computer Vision and Pattern Recognition conference in the category of End-to-End Driving at Scale for advances in building physical, generative AI applications for autonomous vehicle development.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.

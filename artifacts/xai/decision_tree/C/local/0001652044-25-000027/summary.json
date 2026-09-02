@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "GOOGL",
+    "Accession": "0001652044-25-000027",
+    "Filing_Date": "2025-03-18",
+    "Feature_Cutoff_Session": "2025-03-17",
+    "Event_Session": "2025-03-18T00:00:00",
+    "Publication_Period": "PRE_MARKET",
+    "Test_Year": 2025,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "true_negative"
+  },
+  "prediction": {
+    "Leaf_Node": 7,
+    "Probability_Class_1": 0.0,
+    "Prediction": 0,
+    "Path_Length": 4
+  }
+}

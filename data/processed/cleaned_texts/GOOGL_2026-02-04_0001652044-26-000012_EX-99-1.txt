@@ -1,1 +1,194 @@
-Document Exhibit 99.1 Alphabet Announces Fourth Quarter and Fiscal Year 2025 Results MOUNTAIN VIEW, Calif. – February 4, 2026 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended December 31, 2025. • Consolidated Alphabet revenues increased 18%, or 17% in constant currency, to $113.8 billion, reflecting strong momentum across the business and acceleration in growth in both Google Services and Google Cloud. • Google Services revenues increased 14% to $95.9 billion, led by 17% growth in Google Search & other, 17% in Google subscriptions, platforms, and devices, and 9% in YouTube ads. • YouTube revenue across ads and subscriptions exceeded $60 billion for the full year 2025. • Google Cloud saw a continued increase in customer demand as revenues increased 48% to $17.7 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Infrastructure and enterprise AI Solutions, as well as core GCP products. • Consolidated Alphabet operating income increased 16% and operating margin was 31.6%. Operating income included a $2.1 billion employee compensation charge for Waymo. • Net income increased 30% and EPS increased 31% to $2.82. Sundar Pichai, CEO of Alphabet and Google, said: “It was a tremendous quarter for Alphabet and annual revenues exceeded $400 billion for the first time. The launch of Gemini 3 was a major milestone and we have great momentum. Our first party models, like Gemini, now process over 10 billion tokens per minute via direct API use by our customers, and the Gemini App has grown to over 750 million monthly active users. Search saw more usage than ever before, with AI continuing to drive an expansionary moment. We continue to drive strong growth across the business. YouTube’s annual revenues surpassed $60 billion across ads and subscriptions; we now have over 325 million paid subscriptions across consumer services, led by strong adoption for Google One and YouTube Premium. And Google Cloud ended 2025 at an annual run rate of over $70 billion, representing a wide breadth of customers, driven by demand for AI products. We’re seeing our AI investments and infrastructure drive revenue and growth across the board. To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.” Q4 2025 Financial Highlights The following table summarizes our consolidated financial results for the quarter and fiscal year ended December 31, 2024 and 2025 (in millions, except for per share information and percentages). Quarter Ended December 31, Year Ended December 31, 2024 2025 2024 2025 (unaudited) (unaudited) Revenues $ 96,469 $ 113,828 $ 350,018 $ 402,836 Change in revenues year over year 12 % 18 % 14 % 15 % Change in constant currency revenues year over year (1) 12 % 17 % 15 % 15 % Operating income $ 30,972 $ 35,934 $ 112,390 $ 129,039 Operating margin 32 % 32 % 32 % 32 % Other income (expense), net $ 1,271 $ 3,183 $ 7,425 $ 29,787 Net income $ 26,536 $ 34,455 $ 100,118 $ 132,170 Diluted net income per share $ 2.15 $ 2.82 $ 8.04 $ 10.81 (1) Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details. Q4 2025 Supplemental Information (in millions, except for number of employees; unaudited) Revenues, Traffic Acquisition Costs (TAC), and Number of Employees Quarter Ended December 31, 2024 2025 Google Search & other $ 54,034 $ 63,073 YouTube ads 10,473 11,383 Google Network 7,954 7,828 Google advertising 72,461 82,284 Google subscriptions, platforms, and devices 11,633 13,578 Google Services total 84,094 95,862 Google Cloud 11,955 17,664 Other Bets 400 370 Hedging gains (losses) 20 (68) Total revenues $ 96,469 $ 113,828 Total TAC $ 14,848 $ 16,597 Number of employees 183,323 190,820 Segment Operating Results Quarter Ended December 31, 2024 2025 Operating income (loss): Google Services $ 32,836 $ 40,132 Google Cloud 2,093 $ 5,313 Other Bets (1,174) $ (3,617) Alphabet-level activities (1) (2,783) $ (5,894) Total income from operations $ 30,972 $ 35,934 (1) Alphabet-level activities primarily reflect expenses related to our shared AI research and development. Additional Information Relating to the Quarter Ended December 31, 2025 (unaudited) Issuance of Senior Unsecured Notes In November 2025, Alphabet issued senior unsecured notes for net proceeds of $24.8 billion to be used for general corporate purposes. Waymo In February 2026, Waymo announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet. For the quarter ended December 31, 2025, we recognized a $2.1 billion employee compensation charge, primarily reflected in research and development expenses, based on estimated stock valuation. Dividend Program Alphabet’s Board of Directors declared a quarterly cash dividend of $0.21 payable on March 16, 2026 to stockholders of record for each of the Company’s Class A, Class B, and Class C shares as of March 9, 2026. 2 Webcast and
+Document
+Exhibit 99.1
+Alphabet Announces Fourth Quarter and Fiscal Year 2025 Results
+MOUNTAIN VIEW, Calif.
+– February 4, 2026 –
+Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended December 31, 2025.
+•
+Consolidated Alphabet revenues increased 18%, or 17% in constant currency, to $113.8 billion, reflecting strong momentum across the business and acceleration in growth in both Google Services and Google Cloud.
+•
+Google Services revenues increased 14% to $95.9 billion, led by 17% growth in Google Search & other, 17% in Google subscriptions, platforms, and devices, and 9% in YouTube ads.
+•
+YouTube revenue across ads and subscriptions exceeded $60 billion for the full year 2025.
+•
+Google Cloud saw a continued increase in customer demand as revenues increased 48% to $17.7 billion, led by an increase in Google Cloud Platform (GCP) across enterprise AI Infrastructure and enterprise AI Solutions, as well as core GCP products.
+•
+Consolidated Alphabet operating income increased 16% and operating margin was 31.6%. Operating income included a $2.1 billion employee compensation charge for Waymo.
+•
+Net income increased 30% and EPS increased 31% to $2.82.
+Sundar Pichai, CEO of Alphabet and Google, said: “It was a tremendous quarter for Alphabet and annual revenues exceeded $400 billion for the first time. The launch of Gemini 3 was a major milestone and we have great momentum. Our first party models, like Gemini, now process over 10 billion tokens per minute via direct API use by our customers, and the Gemini App has grown to over 750 million monthly active users. Search saw more usage than ever before, with AI continuing to drive an expansionary moment.
+We continue to drive strong growth across the business. YouTube’s annual revenues surpassed $60 billion across ads and subscriptions; we now have over 325 million paid subscriptions across consumer services, led by strong adoption for Google One and YouTube Premium. And Google Cloud ended 2025 at an annual run rate of over $70 billion, representing a wide breadth of customers, driven by demand for AI products.
+We’re seeing our AI investments and infrastructure drive revenue and growth across the board. To meet customer demand and capitalize on the growing opportunities we have ahead of us, our 2026 CapEx investments are anticipated to be in the range of $175 to $185 billion.”
+Q4 2025 Financial Highlights
+The following table summarizes our consolidated financial results for the quarter and fiscal year ended December 31, 2024 and 2025 (in millions, except for per share information and percentages).
+Quarter Ended December 31,
+Year Ended December 31,
+2024
+2025
+2024
+2025
+(unaudited)
+(unaudited)
+Revenues
+$
+96,469
+$
+113,828
+$
+350,018
+$
+402,836
+Change in revenues year over year
+12
+%
+18
+%
+14
+%
+15
+%
+Change in constant currency revenues year over year
+(1)
+12
+%
+17
+%
+15
+%
+15
+%
+Operating income
+$
+30,972
+$
+35,934
+$
+112,390
+$
+129,039
+Operating margin
+32
+%
+32
+%
+32
+%
+32
+%
+Other income (expense), net
+$
+1,271
+$
+3,183
+$
+7,425
+$
+29,787
+Net income
+$
+26,536
+$
+34,455
+$
+100,118
+$
+132,170
+Diluted net income per share
+$
+2.15
+$
+2.82
+$
+8.04
+$
+10.81
+(1)
+Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details.
+Q4 2025 Supplemental Information
+(in millions, except for number of employees; unaudited)
+Revenues, Traffic Acquisition Costs (TAC), and Number of Employees
+Quarter Ended December 31,
+2024
+2025
+Google Search & other
+$
+54,034
+$
+63,073
+YouTube ads
+10,473
+11,383
+Google Network
+7,954
+7,828
+Google advertising
+72,461
+82,284
+Google subscriptions, platforms, and devices
+11,633
+13,578
+Google Services total
+84,094
+95,862
+Google Cloud
+11,955
+17,664
+Other Bets
+400
+370
+Hedging gains (losses)
+20
+(68)
+Total revenues
+$
+96,469
+$
+113,828
+Total TAC
+$
+14,848
+$
+16,597
+Number of employees
+183,323
+190,820
+Segment Operating Results
+Quarter Ended December 31,
+2024
+2025
+Operating income (loss):
+Google Services
+$
+32,836
+$
+40,132
+Google Cloud
+2,093
+$
+5,313
+Other Bets
+(1,174)
+$
+(3,617)
+Alphabet-level activities
+(1)
+(2,783)
+$
+(5,894)
+Total income from operations
+$
+30,972
+$
+35,934
+(1)
+Alphabet-level activities primarily reflect expenses related to our shared AI research and development.
+Additional Information Relating to the Quarter Ended December 31, 2025
+(unaudited)
+Issuance of Senior Unsecured Notes
+In November 2025, Alphabet issued senior unsecured notes for net proceeds of $24.8 billion to be used for general corporate purposes.
+Waymo
+In February 2026, Waymo announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet. For the quarter ended December 31, 2025, we recognized a $2.1 billion employee compensation charge, primarily reflected in research and development expenses, based on estimated stock valuation.
+Dividend Program
+Alphabet’s Board of Directors declared a quarterly cash dividend of $0.21 payable on March 16, 2026 to stockholders of record for each of the Company’s Class A, Class B, and Class C shares as of March 9, 2026.
+2
+Webcast and

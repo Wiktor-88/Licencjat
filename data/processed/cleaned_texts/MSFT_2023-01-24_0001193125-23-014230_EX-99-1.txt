@@ -1,1 +1,341 @@
-EX-99.1 Exhibit 99.1 Microsoft Cloud Strength Drives Second Quarter Results REDMOND, Wash. — January 24, 2023 — Microsoft Corp. today announced the following results for the quarter ended December 31, 2022, as compared to the corresponding period of last fiscal year: • Revenue was $52.7 billion and increased 2% • Operating income was $20.4 billion GAAP and $21.6 billion non-GAAP, and decreased 8% and 3%, respectively • Net income was $16.4 billion GAAP and $17.4 billion non-GAAP, and decreased 12% and 7%, respectively • Diluted earnings per share was $2.20 GAAP and $2.32 non-GAAP, and decreased 11% and 6%, respectively “The next major wave of computing is being born, as the Microsoft Cloud turns the world’s most advanced AI models into a new computing platform,” said Satya Nadella, chairman and chief executive officer of Microsoft. “We are committed to helping our customers use our platforms and tools to do more with less today and innovate for the future in the new era of AI.” “We are focused on operational excellence as we continue to invest to drive growth. Microsoft Cloud revenue was $27.1 billion, up 22% (up 29% in constant currency) year-over-year as our commercial offerings continue to drive value for our customers,” said Amy Hood, executive vice president and chief financial officer of Microsoft. The following table reconciles our financial results reported in accordance with generally accepted accounting principles (GAAP) to non-GAAP financial results. Additional information regarding our non-GAAP definition is provided below. All growth comparisons relate to the corresponding period in the last fiscal year. Three Months Ended December 31, ($ in millions, except per share amounts) Revenue Operating Income Net Income Diluted Earnings per Share 2021 As Reported (GAAP) $51,728 $22,247 $18,765 $2.48 2022 As Reported (GAAP) $52,747 $20,399 $16,425 $2.20 Severance, hardware-related impairment, and lease consolidation costs — 1,171 946 0.12 2022 As Adjusted $52,747 $21,570 $17,371 $2.32 Percentage Change Y/Y (GAAP) 2% (8)% (12)% (11)% Percentage Change Y/Y Constant Currency 7% 0% (4)% (3)% Percentage Change Y/Y (As Adjusted) 2% (3)% (7)% (6)% Percentage Change Y/Y (As Adjusted) Constant Currency 7% 6% 1% 2% Business Highlights Revenue in Productivity and Business Processes was $17.0 billion and increased 7% (up 13% in constant currency), with the following business highlights: • Office Commercial products and cloud services revenue increased 7% (up 14% in constant currency) driven by Office 365 Commercial revenue growth of 11% (up 18% in constant currency) • Office Consumer products and cloud services revenue decreased 2% (up 3% in constant currency) and Microsoft 365 Consumer subscribers grew to 63.2 million • LinkedIn revenue increased 10% (up 14% in constant currency) • Dynamics products and cloud services revenue increased 13% (up 20% in constant currency) driven by Dynamics 365 revenue growth of 21% (up 29% in constant currency) Revenue in Intelligent Cloud was $21.5 billion and increased 18% (up 24% in constant currency), with the following business highlights: • Server products and cloud services revenue increased 20% (up 26% in constant currency) driven by Azure and other cloud services revenue growth of 31% (up 38% in constant currency) Revenue in More Personal Computing was $14.2 billion and decreased 19% (down 16% in constant currency), with the following business highlights: • Windows OEM revenue decreased 39% • Windows Commercial products and cloud services revenue decreased 3% (up 3% in constant currency) • Xbox content and services revenue decreased 12% (down 8% in constant currency) • Search and news advertising revenue excluding traffic acquisition costs increased 10% (up 15% in constant currency) • Devices revenue decreased 39% (down 34% in constant currency) Microsoft returned $9.7 billion to shareholders in the form of share repurchases and dividends in the second quarter of fiscal year 2023, a decrease of 11% compared to the second quarter of fiscal year 2022. Business Outlook Microsoft will provide forward-looking guidance in connection with this quarterly earnings announcement on its earnings conference call and webcast. Quarterly Highlights, Product Releases, and Enhancements Every quarter Microsoft delivers hundreds of products, either as new releases, services, or enhancements to current products and services. These releases are a result of significant research and development investments, made over multiple years, designed to help customers be more productive and secure and to deliver differentiated value across the cloud and the edge. Here are the major product releases and other highlights for the quarter, organized by product categories, to help illustrate how we are accelerating innovation across our businesses while expanding our market opportunities. Environmental, Social, and Governance (ESG) To better execute on Microsoft’s mission, we focus our Environmental, Social, and Governance (ESG) efforts where we can have the most positive impact. To learn more about our latest initiatives and priorities, please visit our
+EX-99.1
+Exhibit 99.1
+Microsoft Cloud Strength Drives Second Quarter Results
+REDMOND, Wash.  January
+24, 2023
+
+Microsoft Corp. today announced the following results for the quarter ended December 31, 2022, as compared to the corresponding period of last fiscal year:
+
+Revenue was $52.7 billion and increased 2%
+
+Operating income was $20.4 billion GAAP and $21.6 billion
+non-GAAP,
+and decreased 8% and 3%, respectively
+
+Net income was $16.4 billion GAAP and $17.4 billion
+non-GAAP,
+and decreased 12% and 7%, respectively
+
+Diluted earnings per share was $2.20 GAAP and $2.32
+non-GAAP,
+and decreased 11% and 6%, respectively
+The next major wave of computing is being born, as the Microsoft Cloud
+turns the worlds most advanced AI models into a new computing platform, said Satya Nadella, chairman and chief executive officer of Microsoft. We are committed to helping our customers use our platforms and tools to do more with
+less today and innovate for the future in the new era of AI.
+We are focused on operational excellence as we continue to
+invest to drive growth. Microsoft Cloud revenue was $27.1 billion, up 22% (up 29% in constant currency) year-over-year as our commercial offerings continue to drive value for our customers, said Amy Hood, executive vice president and
+chief financial officer of Microsoft.
+The following table reconciles our financial results reported in accordance with generally
+accepted accounting principles (GAAP) to
+non-GAAP
+financial results. Additional information regarding our
+non-GAAP
+definition is provided below. All growth comparisons
+relate to the corresponding period in the last fiscal year.
+Three Months Ended December 31,
+($ in millions, except per share amounts)
+Revenue
+Operating
+Income
+Net Income
+Diluted
+Earnings per
+Share
+2021 As
+Reported (GAAP)
+$51,728
+$22,247
+$18,765
+$2.48
+2022 As
+Reported (GAAP)
+$52,747
+$20,399
+$16,425
+$2.20
+Severance,
+hardware-related impairment, and lease consolidation costs
+
+1,171
+946
+0.12
+2022 As
+Adjusted
+$52,747
+$21,570
+$17,371
+$2.32
+Percentage Change
+Y/Y (GAAP)
+2%
+(8)%
+(12)%
+(11)%
+Percentage Change
+Y/Y Constant Currency
+7%
+0%
+(4)%
+(3)%
+Percentage Change
+Y/Y (As Adjusted)
+2%
+(3)%
+(7)%
+(6)%
+Percentage Change
+Y/Y (As Adjusted) Constant Currency
+7%
+6%
+1%
+2%
+Business Highlights
+Revenue in Productivity and Business Processes was $17.0 billion and increased 7% (up 13% in constant currency), with the following business
+highlights:
+
+Office Commercial products and cloud services revenue increased 7% (up 14% in constant currency)
+driven by Office 365 Commercial revenue growth of 11% (up 18% in constant currency)
+
+Office Consumer products and cloud services revenue decreased 2% (up 3% in constant currency) and
+Microsoft 365 Consumer subscribers grew to 63.2 million
+
+LinkedIn revenue increased 10% (up 14% in constant currency)
+
+Dynamics products and cloud services revenue increased 13% (up 20% in constant currency) driven by
+Dynamics 365 revenue growth of 21% (up 29% in constant currency)
+Revenue in Intelligent Cloud was $21.5 billion
+and increased 18% (up 24% in constant currency), with the following business highlights:
+
+Server products and cloud services revenue increased 20% (up 26% in constant currency) driven by
+Azure and other cloud services revenue growth of 31% (up 38% in constant currency)
+Revenue in More Personal
+Computing was $14.2 billion and decreased 19% (down 16% in constant currency), with the following business highlights:
+
+Windows OEM revenue decreased 39%
+
+Windows Commercial products and cloud services revenue decreased 3% (up 3% in constant currency)
+
+Xbox content and services revenue decreased 12% (down 8% in constant currency)
+
+Search and news advertising revenue excluding traffic acquisition costs increased 10% (up 15% in
+constant currency)
+
+Devices revenue decreased 39% (down 34% in constant currency)
+Microsoft returned $9.7 billion to shareholders in the form of share repurchases and dividends in the second quarter of fiscal year 2023, a
+decrease of 11% compared to the second quarter of fiscal year 2022.
+Business Outlook
+Microsoft will provide forward-looking guidance in connection with this quarterly earnings announcement on its earnings conference call and
+webcast.
+Quarterly Highlights, Product Releases, and Enhancements
+Every quarter Microsoft delivers hundreds of products, either as new releases, services, or enhancements to current products and services. These
+releases are a result of significant research and development investments, made over multiple years, designed to help customers be more productive and secure and to deliver differentiated value across the cloud and the edge.
+Here are the
+major product releases and other highlights
+for the quarter, organized by product categories, to help illustrate how we are
+accelerating innovation across our businesses while expanding our market opportunities.
+Environmental, Social, and Governance (ESG)
+To better execute on Microsofts mission, we focus our Environmental, Social, and Governance (ESG) efforts where we can have the most
+positive impact. To learn more about our latest initiatives and priorities, please visit our investor relations
+ESG website
+.
+Webcast Details
+Satya
+Nadella, chairman and chief executive officer, Amy Hood, executive vice president and chief financial officer, Alice Jolla, chief accounting officer, Keith Dolliver, deputy general counsel, and Brett Iversen, vice president of investor relations,
+will host a conference call and webcast at 2:30 p.m. Pacific time (5:30 p.m. Eastern time) today to discuss details of the companys performance for the quarter and certain forward-looking information. The session may be accessed at
+http://www.microsoft.com/en-us/investor
+. The webcast will be available for replay through the close of business on January 24, 2024.
+Non-GAAP
+Definition
+Q2 charge.
+In the second quarter of fiscal year 2023, Microsoft recorded costs related to decisions announced on January 18th, including
+employee severance expenses of $800 million, impairment charges resulting from changes to our hardware portfolio, and costs related to lease consolidation activities.
+Microsoft has provided
+non-GAAP
+financial measures related to the impact of these strategic
+reprioritization actions to aid investors in better understanding our performance. Microsoft believes these
+non-GAAP
+measures assist investors by providing additional insight into its operational performance
+and help clarify trends affecting its business. For comparability of reporting, management considers
+non-GAAP
+measures in conjunction with GAAP financial results in evaluating business performance. The
+non-GAAP
+financial measures presented in this release should not be considered as a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+Constant Currency
+Microsoft presents constant currency information to provide a framework for assessing how our underlying businesses performed excluding the effect
+of foreign currency rate fluctuations. To present this information, current and comparative prior period results for entities reporting in currencies other than United States dollars are converted into United States dollars using the average
+exchange rates from the comparative period rather than the actual exchange rates in effect during the respective periods. All growth comparisons relate to the corresponding period in the last fiscal year. Microsoft has provided this
+non-GAAP
+financial information to aid investors in better understanding our performance. The
+non-GAAP
+financial measures presented in this release should not be considered as
+a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.
+Financial Performance Constant Currency Reconciliation
+Three Months Ended December 31,
+($ in millions, except per share amounts)
+Revenue
+Operating
+Income
+Net Income
+Diluted
+Earnings per
+Share
+2021 As
+Reported (GAAP)
+$51,728
+$22,247
+$18,765
+$2.48
+2022 As
+Reported (GAAP)
+$52,747
+$20,399
+$16,425
+$2.20
+2022 As
+Adjusted
+$52,747
+$21,570
+$17,371
+$2.32
+Percentage Change
+Y/Y (GAAP)
+2%
+(8)%
+(12)%
+(11)%
+Percentage Change
+Y/Y (As Adjusted)
+2%
+(3)%
+(7)%
+(6)%
+Constant
+Currency Impact
+$(2,645)
+$(1,931)
+$(1,563)
+$(0.21)
+Percentage Change
+Y/Y Constant Currency
+7%
+0%
+(4)%
+(3)%
+Percentage Change
+Y/Y (As Adjusted) Constant Currency
+7%
+6%
+1%
+2%
+Segment Revenue Constant Currency Reconciliation
+Three Months Ended December 31,
+($ in millions)
+Productivity and
+Business Processes
+Intelligent Cloud
+More Personal
+Computing
+2021 As
+Reported (GAAP)
+$15,936
+$18,262
+$17,530
+2022 As
+Reported (GAAP)
+$17,002
+$21,508
+$14,237
+Percentage Change
+Y/Y (GAAP)
+7%
+18%
+(19)%
+Constant
+Currency Impact
+$(1,002)
+$(1,078)
+$(565)
+Percentage Change
+Y/Y Constant Currency
+13%
+24%
+(16)%
+We have recast certain prior period amounts to conform to the way we internally manage and monitor our business.
+Selected Product and Service Revenue Constant Currency
+Reconciliation
+Three Months Ended December 31, 2022
+Percentage Change
+Y/Y (GAAP)
+Constant Currency
+Impact
+Percentage Change
+Y/Y Constant
+Currency
+Microsoft
+Cloud revenue
+22%
+7%
+29%
+Office
+Commercial products and cloud services
+7%
+7%
+14%
+Office 365
+Commercial
+11%
+7%
+18%
+Office
+Consumer products and cloud services
+(2)%
+5%
+3%
+LinkedIn
+10%
+4%
+14%
+Dynamics
+products and cloud services
+13%
+7%
+20%
+Dynamics
+365
+21%
+8%
+29%
+Server
+products and cloud services
+20%
+6%
+26%
+Azure and
+other cloud services
+31%
+7%
+38%
+Windows
+OEM
+(39)%
+0%
+(39)%
+Windows
+Commercial products and cloud services
+(3)%
+6%
+3%
+Xbox content
+and services
+(12)%
+4%
+(8)%
+Search and
+news advertising excluding traffic acquisition costs
+10%
+5%
+15%
+Devices
+(39)%
+5%
+(34)%

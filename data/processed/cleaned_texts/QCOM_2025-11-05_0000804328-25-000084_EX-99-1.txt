@@ -1,1 +1,228 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Fourth Quarter and Fiscal 2025 Results
+Fiscal 2025 GAAP Revenues: $44.3 billion
+Fiscal 2025 GAAP EPS: $5.01, Non-GAAP EPS: $12.03
+—QCT: Record Fiscal Year Revenues - Executing Towards our 2024 Investor Day Targets—
+—Total QCT Non-Apple Fiscal Year Revenues Grew 18% Year-Over-Year—
+—Combined QCT Automotive and IoT Fiscal Year Revenues Grew 27% Year-Over-Year—
+SAN DIEGO - November 5, 2025
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 28, 2025.
+"Our business remains strong as demonstrated by record QCT revenues in fiscal 2025,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “We delivered 18% year-over-year growth in total QCT non‑Apple revenues, with combined fiscal year Automotive and IoT revenue growth of 27%. We are excited about our business momentum, the availability of our automated driving stack, and our expansion to data centers and advanced robotics.”
+Fourth Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q4 Fiscal 2025
+Q4 Fiscal 2024
+Change
+Q4 Fiscal 2025
+Q4 Fiscal 2024
+Change
+Revenues
+$11,270
+$10,244
++10%
+$11,270
+$10,244
++10%
+Earnings before taxes (EBT)
+$2,971
+$2,597
++14%
+$3,792
+$3,491
++9%
+Net (loss) income
+($3,117)
+$2,920
+(207%)
+$3,257
+$3,036
++7%
+Diluted (loss) earnings per share (EPS)
+($2.89)
+$2.59
+(212%)
+$3.00
+$2.69
++12%
+Fiscal 2025 Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Fiscal 2025
+Fiscal 2024
+Change
+Fiscal 2025
+Fiscal 2024
+Change
+Revenues
+$44,284
+$38,962
++14%
+$44,141
+$38,944
++13%
+EBT
+$12,663
+$10,336
++23%
+$15,458
+$13,287
++16%
+Net income
+$5,541
+$10,142
+(45%)
+$13,298
+$11,545
++15%
+EPS
+$5.01
+$8.97
+(44%)
+$12.03
+$10.22
++18%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Income Taxes
+With the enactment of recent U.S. tax legislation in the One Big Beautiful Bill Act, we now expect our effective tax rate to generally remain in the 13% to 14% range and anticipate lower cash tax payments in future periods. However, this new tax legislation resulted in a non-cash $5.7 billion charge, or $5.29 per share, in the fourth quarter of fiscal 2025 to establish a valuation allowance against our U.S. federal deferred tax assets, as we now expect to be subject to the U.S. corporate alternative minimum tax beginning in fiscal 2026. This charge was excluded from our Non-GAAP metrics but impacted our GAAP results.
+Qualcomm Announces Fourth Quarter and Fiscal 2025 Results
+Page 2 of 10
+Segment Results
+Fourth Quarter
+QCT
+QTL
+(in millions, except percentages)
+Q4 Fiscal 2025
+Q4 Fiscal 2024
+Change
+Q4 Fiscal 2025
+Q4 Fiscal 2024
+Change
+Revenues
+$9,821
+$8,678
++13%
+$1,409
+$1,521
+(7%)
+EBT
+$2,896
+$2,465
++17%
+$1,015
+$1,120
+(9%)
+EBT as % of revenues
+29%
+28%
++1 point
+72%
+74%
+-2 points
+Fiscal 2025
+QCT
+QTL
+(in millions, except percentages)
+Fiscal 2025
+Fiscal 2024
+Change
+Fiscal 2025
+Fiscal 2024
+Change
+Revenues
+$38,367
+$33,196
++16%
+$5,582
+$5,572
+—
+EBT
+$11,670
+$9,527
++22%
+$4,043
+$4,027
+—
+EBT as % of revenues
+30%
+29%
++1 point
+72%
+72%
+—
+QCT Revenue Streams
+1
+Fourth Quarter
+Fiscal
+(in millions, except percentages)
+2025
+2024
+Change
+2025
+2024
+Change
+Handsets
+$6,961
+$6,096
++14%
+$27,793
+$24,863
++12%
+Automotive
+1,053
+899
++17%
+3,957
+2,910
++36%
+IoT (internet of things)
+1,807
+1,683
++7%
+6,617
+5,423
++22%
+Total QCT revenues
+$9,821
+$8,678
++13%
+$38,367
+$33,196
++16%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+The following table summarizes our return of capital to stockholders, through stock repurchases and cash dividends, during the fourth quarter and fiscal 2025.
+Stock Repurchases
+Dividend Paid
+Total Amount
+(in millions, except per share data)
+Shares
+Amount
+Per Share
+Amount
+Q4 Fiscal 2025
+16
+$2,443
+$0.89
+$957
+$3,400
+Fiscal 2025
+56
+$8,791
+$3.48
+$3,805
+$12,596
+Qualcomm Announces Fourth Quarter and Fiscal 2025 Results
+Page 3 of 10
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

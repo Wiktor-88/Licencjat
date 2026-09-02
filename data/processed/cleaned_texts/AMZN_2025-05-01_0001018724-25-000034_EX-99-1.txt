@@ -1,1 +1,99 @@
-Document Exhibit 99.1 AMAZON.COM ANNOUNCES FIRST QUARTER RESULTS SEATTLE—(BUSINESS WIRE) May 1, 2025—Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2025. • Net sales increased 9% to $155.7 billion in the first quarter, compared with $143.3 billion in first quarter 2024. Excluding the $1.4 billion unfavorable impact from year-over-year changes in foreign exchange rates throughout the quarter, net sales increased 10% compared with first quarter 2024. • North America segment sales increased 8% year-over-year to $92.9 billion. • International segment sales increased 5% year-over-year to $33.5 billion, or increased 8% excluding changes in foreign exchange rates. • AWS segment sales increased 17% year-over-year to $29.3 billion. • Operating income increased to $18.4 billion in the first quarter, compared with $15.3 billion in first quarter 2024. • North America segment operating income was $5.8 billion, compared with $5.0 billion in first quarter 2024. • International segment operating income was $1.0 billion, compared with $0.9 billion in first quarter 2024. • AWS segment operating income was $11.5 billion, compared with $9.4 billion in first quarter 2024. • Net income increased to $17.1 billion in the first quarter, or $1.59 per diluted share, compared with $10.4 billion, or $0.98 per diluted share, in first quarter 2024. • Operating cash flow increased 15% to $113.9 billion for the trailing twelve months, compared with $99.1 billion for the trailing twelve months ended March 31, 2024. • Free cash flow decreased to $25.9 billion for the trailing twelve months, compared with $50.1 billion for the trailing twelve months ended March 31, 2024. “We’re pleased with the start to 2025, especially our pace of innovation and progress in continuing to improve customer experiences,” said Andy Jassy, President and CEO, Amazon. “From Alexa+ (our next generation of Alexa that’s meaningfully smarter, more capable, and takes actions for customers), to another delivery speed record for our Prime members, to our new Trainium2 chips and Bedrock model expansion that make it easier for AWS customers to train models and run inference more flexibly and cost-effectively, to our first Project Kuiper satellites successfully launching into low earth orbit in our quest to provide broadband access to hundreds of millions of households in rural areas without it today — we’re continuing to find meaningful ways to make customers’ lives easier and better every day.” Some other highlights since the company’s last earnings announcement include that Amazon: • Introduced Alexa+, our next-generation Alexa personal assistant who’s meaningfully smarter and more capable than her prior self, can both answer virtually any question and take actions, and is free with Prime. • Held deal events worldwide to help customers save over $500 million across Big Spring Sale in the U.S. and Canada, Spring Deal Days in Europe, and Ramadan/Eid Sale events in Egypt, Saudi Arabia, Türkiye, and UAE. • Announced Amazon’s 11th Prime Day will be in July, when customers can expect millions of deals globally on vast selection. • Announced $4 billion investment through 2026 to expand Amazon’s rural delivery network to bring even faster delivery to customers in less densely populated areas across the U.S. • Launched Amazon.ie in Ireland, offering over 200 million products with low prices, fast delivery, and local Prime membership. • Expanded selection with Michael Kors, GAME 7, The Ordinary, Laura Mercier, and tarte. • Introduced Saks on Amazon, where customers can shop a refined luxury assortment of fashion and beauty items from brands like Dolce&Gabbana, Balmain, Giambattista Valli, Erdem, and Fear of God. • Launched ‘Interests’ to find products for customers’ passions and hobbies using generative AI. • Introduced new ways to shop in the Amazon Shopping app to help customers discover and buy products from other brands’ websites even when Amazon doesn’t carry the items directly. Amazon now shows customers select products from other brands in search results and either links to their websites so customers can purchase the items there or enables customers to seamlessly purchase the products using Amazon’s new ‘Buy for Me’ feature. • Began full-scale deployment of Project Kuiper’s satellite internet network with launch and activation of first satellites. • Began testing Zoox in Los Angeles, the sixth location for Amazon’s self-driving technology. • Announced a joint venture to create the next generation of the esteemed James Bond film franchise, including naming producers Amy Pascal and David Heyman to produce the next film. • Drew 54.6 million viewers for Reacher’s Season 3 debut in first 19 days, Amazon’s biggest returning season ever. • Premiered Season 2 of LeBron James’s Mind the Game podcast, co-hosted by NBA Hall-of-Famer Steve Nash and distributed by Wondery. • Continued to grow Amazon Nova rapidly with customers such as Slack, Siemens, Coinbase, Sumo Logic, FanDuel, Blue Origin, Glean, Domo, Stats Perform, Bynder, PDI Technologies, Gradial, ASAPP, ezCater, NinjaTech AI, Jobcase, Rubbrband, Data Kinetic, Avahi, GuardianGamer, and Lennar, all starting to use Nova. Also introduced new Nova capabilities, including: • Amazon Nova Sonic: Speech-to-speech foundation model for developers to build human-like voice-based AI applications, such as customer service call automation, AI agents, and more (available in Amazon Bedrock). • Amazon Nova Act SDK: New AI model trained to perform actions within a web browser, enabling developers to build action-oriented agents by breaking down complex workflows into reliable atomic commands (like “search,” or “checkout”). • Amazon Nova Premier: Most capable of Amazon’s multimodal models for complex tasks like coding, building multi-step agents, and long-form document and video understanding. • General availability of Amazon Nova models in Europe and Asia Pacific. • Signed new AWS agreements with Adobe, Uber, Nasdaq, Ericsson, Fujitsu, Cisco, Cargill, Mitsubishi Electric Corporation, General Dynamics Information Technology, GE Vernova, Booz Allen Hamilton, NextEra Energy, Publicis Sapient, Elastic, KPN, and Netsmart. • Announced new AWS offerings, including: • AWS Outposts racks (for high throughput, network-intensive workloads) and servers (for Cloud Radio Access Network workloads) to help telecom customers build future-proof cloud infrastructure that supports 5G and beyond. • New foundation models in Amazon Bedrock, including Anthropic’s Claude 3.7 Sonnet, DeepSeek’s R1, Meta’s Llama 4 family of models, and Mistral AI’s Pixtral Large. • General availability of Amazon SageMaker Unified Studio for data engineers to easily find and access data to collaborate and build faster. • General availability of the scenarios capability of Amazon Q in QuickSight, with an advanced AI agent to help customers leverage natural language to perform expert-level data analysis. • Announced Ocelot, Amazon’s first quantum computing chip prototype that reduces resources needed for quantum error correction by up to 90%. • Ranked No. 2 on LinkedIn’s U.S. Top Companies list of the best workplaces for career growth. • Continued making significant progress on safety—improving Amazon’s recordable incident rate by 34% and lost-time incident rate by 65% across operations over past five years. Visit aboutamazon.com/news/company-news/amazon-earnings-q1-2025-report. Financial Guidance The following
+Document
+Exhibit 99.1
+AMAZON.COM ANNOUNCES FIRST QUARTER RESULTS
+SEATTLE—(BUSINESS WIRE) May 1, 2025—Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2025.
+•
+Net sales
+increased 9% to $155.7 billion in the first quarter, compared with $143.3 billion in first quarter 2024. Excluding the $1.4 billion unfavorable impact from year-over-year changes in foreign exchange rates throughout the quarter, net sales increased 10% compared with first quarter 2024.
+•
+North America segment sales increased 8% year-over-year to $92.9 billion.
+•
+International segment sales increased 5% year-over-year to $33.5 billion, or increased 8% excluding changes in foreign exchange rates.
+•
+AWS segment sales increased 17% year-over-year to $29.3 billion.
+•
+Operating income
+increased to $18.4 billion in the first quarter, compared with $15.3 billion in first quarter 2024.
+•
+North America segment operating income was $5.8 billion, compared with $5.0 billion in first quarter 2024.
+•
+International segment operating income was $1.0 billion, compared with $0.9 billion in first quarter 2024.
+•
+AWS segment operating income was $11.5 billion, compared with $9.4 billion in first quarter 2024.
+•
+Net income
+increased to $17.1 billion in the first quarter, or $1.59 per diluted share, compared with $10.4 billion, or $0.98 per diluted share, in first quarter 2024.
+•
+Operating cash flow
+increased 15% to $113.9 billion for the trailing twelve months, compared with $99.1 billion for the trailing twelve months ended March 31, 2024.
+•
+Free cash flow
+decreased to $25.9 billion for the trailing twelve months, compared with $50.1 billion for the trailing twelve months ended March 31, 2024.
+“We’re pleased with the start to 2025, especially our pace of innovation and progress in continuing to improve customer experiences,” said Andy Jassy, President and CEO, Amazon. “From Alexa+ (our next generation of Alexa that’s meaningfully smarter, more capable, and takes actions for customers), to another delivery speed record for our Prime members, to our new Trainium2 chips and Bedrock model expansion that make it easier for AWS customers to train models and run inference more flexibly and cost-effectively, to our first Project Kuiper satellites successfully launching into low earth orbit in our quest to provide broadband access to hundreds of millions of households in rural areas without it today
+—
+we’re continuing to find meaningful ways to make customers’ lives easier and better every day.”
+Some other highlights since the company’s last earnings announcement include that Amazon:
+•
+Introduced Alexa+, our next-generation Alexa personal assistant who’s meaningfully smarter and more capable than her prior self, can both answer virtually any question and take actions, and is free with Prime.
+•
+Held deal events worldwide to help customers save over $500 million across Big Spring Sale in the U.S. and Canada, Spring Deal Days in Europe, and Ramadan/Eid Sale events in Egypt, Saudi Arabia, Türkiye, and UAE.
+•
+Announced Amazon’s 11th Prime Day will be in July, when customers can expect millions of deals globally on vast selection.
+•
+Announced $4 billion investment through 2026 to expand Amazon’s rural delivery network to bring even faster delivery to customers in less densely populated areas across the U.S.
+•
+Launched Amazon.ie in Ireland, offering over 200 million products with low prices, fast delivery, and local Prime membership.
+•
+Expanded selection with Michael Kors, GAME 7, The Ordinary, Laura Mercier, and tarte.
+•
+Introduced Saks on Amazon, where customers can shop a refined luxury assortment of fashion and beauty items from brands like Dolce&Gabbana, Balmain, Giambattista Valli, Erdem, and Fear of God.
+•
+Launched ‘Interests’ to find products for customers’ passions and hobbies using generative AI.
+•
+Introduced new ways to shop in the Amazon Shopping app to help customers discover and buy products from other brands’ websites even when Amazon doesn’t carry the items directly. Amazon now shows customers select products from other brands in search results and either links to their websites so customers can purchase the items there or enables customers to seamlessly purchase the products using Amazon’s new ‘Buy for Me’ feature.
+•
+Began full-scale deployment of Project Kuiper’s satellite internet network with launch and activation of first satellites.
+•
+Began testing Zoox in Los Angeles, the sixth location for Amazon’s self-driving technology.
+•
+Announced a joint venture to create the next generation of the esteemed James Bond film franchise, including naming producers Amy Pascal and David Heyman to produce the next film.
+•
+Drew 54.6 million viewers for
+Reacher’s
+Season 3
+debut in first 19 days, Amazon’s biggest returning season ever.
+•
+Premiered Season 2 of LeBron James’s
+Mind the Game
+podcast, co-hosted by NBA Hall-of-Famer Steve Nash and distributed by Wondery.
+•
+Continued to grow Amazon Nova rapidly with customers such as Slack, Siemens, Coinbase, Sumo Logic, FanDuel, Blue Origin, Glean, Domo, Stats Perform, Bynder, PDI Technologies, Gradial, ASAPP, ezCater, NinjaTech AI, Jobcase, Rubbrband, Data Kinetic, Avahi, GuardianGamer, and Lennar, all starting to use Nova. Also introduced new Nova capabilities, including:
+•
+Amazon Nova Sonic: Speech-to-speech foundation model for developers to build human-like voice-based AI applications, such as customer service call automation, AI agents, and more (available in Amazon Bedrock).
+•
+Amazon Nova Act SDK: New AI model trained to perform actions within a web browser, enabling developers to build action-oriented agents by breaking down complex workflows into reliable atomic commands (like “search,” or “checkout”).
+•
+Amazon Nova Premier: Most capable of Amazon’s multimodal models for complex tasks like coding, building multi-step agents, and long-form document and video understanding.
+•
+General availability of Amazon Nova models in Europe and Asia Pacific.
+•
+Signed new AWS agreements with Adobe, Uber, Nasdaq, Ericsson, Fujitsu, Cisco, Cargill, Mitsubishi Electric Corporation, General Dynamics Information Technology, GE Vernova, Booz Allen Hamilton, NextEra Energy, Publicis Sapient, Elastic, KPN, and Netsmart.
+•
+Announced new AWS offerings, including:
+•
+AWS Outposts racks (for high throughput, network-intensive workloads) and servers (for Cloud Radio Access Network workloads) to help telecom customers build future-proof cloud infrastructure that supports 5G and beyond.
+•
+New foundation models in Amazon Bedrock, including Anthropic’s Claude 3.7 Sonnet, DeepSeek’s R1, Meta’s Llama 4 family of models, and Mistral AI’s Pixtral Large.
+•
+General availability of Amazon SageMaker Unified Studio for data engineers to easily find and access data to collaborate and build faster.
+•
+General availability of the scenarios capability of Amazon Q in QuickSight, with an advanced AI agent to help customers leverage natural language to perform expert-level data analysis.
+•
+Announced Ocelot, Amazon’s first quantum computing chip prototype that reduces resources needed for quantum error correction by up to 90%.
+•
+Ranked No. 2 on LinkedIn’s U.S. Top Companies list of the best workplaces for career growth.
+•
+Continued making significant progress on safety—improving Amazon’s recordable incident rate by 34% and lost-time incident rate by 65% across operations over past five years.
+Visit aboutamazon.com/news/company-news/amazon-earnings-q1-2025-report.
+Financial Guidance
+The following

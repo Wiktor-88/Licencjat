@@ -1,1 +1,18 @@
-Item 8.01 Other Events. As previously disclosed, on July 17, 2025, the parties to the stockholder derivative action in the Delaware Court of Chancery, captioned In re Facebook Inc. Derivative Litigation , Consolidated C.A. 2018-0307-KSJM (Del. Ch.) (the "Matter"), agreed to a settlement in principle to resolve all claims in the Matter, which is subject to court approval. On December 5, 2025, the Court of Chancery entered a Scheduling Order pursuant to which a settlement hearing will be held at 1:30 pm ET on April 7, 2026. The Scheduling Order requires that the parties' Stipulation and Agreement of Settlement, Compromise, and Release (the "Stipulation") and the Notice of Pendency of the Matter, Proposed Settlement of the Matter, and Settlement Hearing (the "Notice") be distributed to stockholders of Meta Platforms, Inc. (the "Company") in the form of this Current Report on Form 8-K. The Stipulation is attached hereto as Exhibit 99.1 and the Notice is attached hereto as Exhibit 99.2. Pursuant to the Scheduling Order, the Stipulation and the Notice are available on the Company's website at investor.atmeta.com/Legal-Notices/default.aspx. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Number Exhibit Title or Description 99.1 Stipulation and Agreement of Settlement, Compromise, and Release . 99.2 Notice of Pendency, Proposed Settlement, and Settlement Hearing . 104 Cover Page Interactive Data File (the cover page XBRL tags are embedded within the inline XBRL document).
+Item 8.01 Other Events.
+As previously disclosed, on July 17, 2025, the parties to the stockholder derivative action in the Delaware Court of Chancery, captioned
+In re Facebook Inc. Derivative Litigation
+, Consolidated C.A. 2018-0307-KSJM (Del. Ch.) (the "Matter"), agreed to a settlement in principle to resolve all claims in the Matter, which is subject to court approval.
+On December 5, 2025, the Court of Chancery entered a Scheduling Order pursuant to which a settlement hearing will be held at 1:30 pm ET on April 7, 2026. The Scheduling Order requires that the parties' Stipulation and Agreement of Settlement, Compromise, and Release (the "Stipulation") and the Notice of Pendency of the Matter, Proposed Settlement of the Matter, and Settlement Hearing (the "Notice") be distributed to stockholders of Meta Platforms, Inc. (the "Company") in the form of this Current Report on Form 8-K. The Stipulation is attached hereto as Exhibit 99.1 and the Notice is attached hereto as Exhibit 99.2.
+Pursuant to the Scheduling Order, the Stipulation and the Notice are available on the Company's website at investor.atmeta.com/Legal-Notices/default.aspx.
+Item 9.01 Financial Statements and Exhibits.
+(d) Exhibits
+Exhibit Number
+Exhibit Title or Description
+99.1
+Stipulation and Agreement of Settlement, Compromise, and Release
+.
+99.2
+Notice of Pendency, Proposed Settlement, and Settlement Hearing
+.
+104
+Cover Page Interactive Data File (the cover page XBRL tags are embedded within the inline XBRL document).

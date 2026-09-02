@@ -1,1 +1,42 @@
-Item 8.01 Other Events. On February 8, 2021, Apple Inc. (“Apple”) consummated the issuance and sale of $2,500,000,000 aggregate principal amount of its 0.700% Notes due 2026 (the “2026 Notes”), $2,500,000,000 aggregate principal amount of its 1.200% Notes due 2028 (the “2028 Notes”), $2,750,000,000 aggregate principal amount of its 1.650% Notes due 2031 (the “2031 Notes”), $1,500,000,000 aggregate principal amount of its 2.375% Notes due 2041 (the “2041 Notes”), $3,000,000,000 aggregate principal amount of its 2.650% Notes due 2051 (the “2051 Notes”) and $1,750,000,000 aggregate principal amount of its 2.800% Notes due 2061 (the “2061 Notes” and, together with the 2026 Notes, the 2028 Notes, the 2031 Notes, the 2041 Notes and the 2051 Notes, the “Notes”), pursuant to an underwriting agreement (the “Underwriting Agreement”) dated February 1, 2021 among Apple and Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC and Morgan Stanley & Co. LLC, as representatives of the several underwriters named therein. The Notes are being issued pursuant to an indenture, dated as of November 5, 2018 (the “Indenture”), between Apple and The Bank of New York Mellon Trust Company, N.A., as trustee, together with the officer’s certificate, dated February 8, 2021 (the “Officer’s Certificate”), issued pursuant to the Indenture establishing the terms of each series of Notes. The Notes are being issued pursuant to Apple’s Registration Statement on Form S-3 filed with the Securities and Exchange Commission on November 5, 2018 (Reg. No. 333-228159) (the “Registration Statement”). Interest on the Notes will be paid semi-annually in arrears on February 8 and August 8 of each year, beginning on August 8, 2021. The 2026 Notes will mature on February 8, 2026. The 2028 Notes will mature on February 8, 2028. The 2031 Notes will mature on February 8, 2031. The 2041 Notes will mature on February 8, 2041. The 2051 Notes will mature on February 8, 2051. The 2061 Notes will mature on February 8, 2061. The Notes will be Apple’s senior unsecured obligations and will rank equally with Apple’s other unsecured and unsubordinated debt from time to time outstanding. The foregoing description of the Notes and related agreements is qualified in its entirety by the terms of the Underwriting Agreement, the Indenture and the Officer’s Certificate (including the forms of the Notes). Apple is furnishing the Underwriting Agreement and the Officer’s Certificate (including the forms of the Notes) attached hereto as Exhibits 1.1 and 4.1 through 4.7, respectively, and they are incorporated herein by reference. The Indenture is filed as Exhibit 4.1 to the Registration Statement. An opinion regarding the legality of the Notes is filed as Exhibit 5.1, and is incorporated by reference into the Registration Statement; and a consent relating to the incorporation of such opinion is incorporated by reference into the Registration Statement and is filed as Exhibit 23.1 by reference to its inclusion within Exhibit 5.1. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit Number Exhibit Description 1.1 Underwriting Agreement, dated February 1, 2021, among Apple Inc. and Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC and Morgan Stanley & Co. LLC, as representatives of the several underwriters named therein 4.1 Officer’s Certificate of Apple Inc., dated February 8, 2021 4.2 Form of Global Note representing the 2026 Notes (included in Exhibit 4.1) 4.3 Form of Global Note representing the 2028 Notes (included in Exhibit 4.1) 4.4 Form of Global Note representing the 2031 Notes (included in Exhibit 4.1) 4.5 Form of Global Note representing the 2041 Notes (included in Exhibit 4.1) 4.6 Form of Global Note representing the 2051 Notes (included in Exhibit 4.1) 4.7 Form of Global Note representing the 2061 Notes (included in Exhibit 4.1) 5.1 Opinion of Latham & Watkins LLP 23.1 Consent of Latham & Watkins LLP (included in the opinion filed as Exhibit 5.1) 104 Inline XBRL for the cover page of this Current Report on Form 8-K.
+Item 8.01
+Other Events.
+On February 8, 2021, Apple Inc. (“Apple”) consummated the issuance and sale of $2,500,000,000 aggregate principal amount of its 0.700% Notes due 2026 (the “2026 Notes”), $2,500,000,000 aggregate principal amount of its 1.200% Notes due 2028 (the “2028 Notes”), $2,750,000,000 aggregate principal amount of its 1.650% Notes due 2031 (the “2031 Notes”), $1,500,000,000 aggregate principal amount of its 2.375% Notes due 2041 (the “2041 Notes”), $3,000,000,000 aggregate principal amount of its 2.650% Notes due 2051 (the “2051 Notes”) and $1,750,000,000 aggregate principal amount of its 2.800% Notes due 2061 (the “2061 Notes” and, together with the 2026 Notes, the 2028 Notes, the 2031 Notes, the 2041 Notes and the 2051 Notes, the “Notes”), pursuant to an underwriting agreement (the “Underwriting Agreement”) dated February 1, 2021 among Apple and Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC and Morgan Stanley & Co. LLC, as representatives of the several underwriters named therein.
+The Notes are being issued pursuant to an indenture, dated as of November 5, 2018 (the “Indenture”), between Apple and The Bank of New York Mellon Trust Company, N.A., as trustee, together with the officer’s certificate, dated February 8, 2021 (the “Officer’s Certificate”), issued pursuant to the Indenture establishing the terms of each series of Notes.
+The Notes are being issued pursuant to Apple’s Registration Statement on Form
+S-3
+filed with the Securities and Exchange Commission on November 5, 2018 (Reg.
+No. 333-228159)
+(the “Registration Statement”).
+Interest on the Notes will be paid semi-annually in arrears on February 8 and August 8 of each year, beginning on August 8, 2021.
+The 2026 Notes will mature on February 8, 2026. The 2028 Notes will mature on February 8, 2028. The 2031 Notes will mature on February 8, 2031. The 2041 Notes will mature on February 8, 2041. The 2051 Notes will mature on February 8, 2051. The 2061 Notes will mature on February 8, 2061.
+The Notes will be Apple’s senior unsecured obligations and will rank equally with Apple’s other unsecured and unsubordinated debt from time to time outstanding.
+The foregoing description of the Notes and related agreements is qualified in its entirety by the terms of the Underwriting Agreement, the Indenture and the Officer’s Certificate (including the forms of the Notes). Apple is furnishing the Underwriting Agreement and the Officer’s Certificate (including the forms of the Notes) attached hereto as Exhibits 1.1 and 4.1 through 4.7, respectively, and they are incorporated herein by reference. The Indenture is filed as Exhibit 4.1 to the Registration Statement. An opinion regarding the legality of the Notes is filed as Exhibit 5.1, and is incorporated by reference into the Registration Statement; and a consent relating to the incorporation of such opinion is incorporated by reference into the Registration Statement and is filed as Exhibit 23.1 by reference to its inclusion within Exhibit 5.1.
+Item 9.01
+Financial Statements and Exhibits.
+(d)
+Exhibits.
+Exhibit
+Number
+Exhibit Description
+1.1
+Underwriting Agreement, dated February 1, 2021, among Apple Inc. and Goldman Sachs & Co. LLC, J.P. Morgan Securities LLC and Morgan Stanley & Co. LLC, as representatives of the several underwriters named therein
+4.1
+Officer’s Certificate of Apple Inc., dated February 8, 2021
+4.2
+Form of Global Note representing the 2026 Notes (included in Exhibit 4.1)
+4.3
+Form of Global Note representing the 2028 Notes (included in Exhibit 4.1)
+4.4
+Form of Global Note representing the 2031 Notes (included in Exhibit 4.1)
+4.5
+Form of Global Note representing the 2041 Notes (included in Exhibit 4.1)
+4.6
+Form of Global Note representing the 2051 Notes (included in Exhibit 4.1)
+4.7
+Form of Global Note representing the 2061 Notes (included in Exhibit 4.1)
+5.1
+Opinion of Latham & Watkins LLP
+23.1
+Consent of Latham & Watkins LLP (included in the opinion filed as Exhibit 5.1)
+104
+Inline XBRL for the cover page of this Current Report on Form 8-K.

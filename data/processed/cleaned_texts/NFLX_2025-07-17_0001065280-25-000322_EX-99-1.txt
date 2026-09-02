@@ -1,1 +1,660 @@
-Document Exhibit 99.1 July 17, 2025 Fellow shareholders, • Our business continues to perform well. In Q2, we grew revenue 16% and our operating margin of 34% expanded seven points year over year. Both revenue and operating income were slightly above our guidance due primarily to F/X, net of hedging, and the timing of expenses. • We now forecast 2025 revenue of $44.8-$45.2B, up from $43.5-$44.5B, and a F/X neutral operating margin 1 of 29.5% (vs. 29% previously), or 30% on a reported basis. Our higher forecast primarily reflects the weakening of the US dollar vs. most other currencies, plus healthy member growth and ad sales. • We continue to make progress on our key business objectives: ◦ In Q2, we had a wide variety of hit series like Squid Game S3, Sirens , Ginny & Georgia S3, The Eternaut and Secrets We Keep , and popular films like Tyler Perry’s STRAW and Exterritorial . ◦ We have completed the rollout of the Netflix Ads Suite, our proprietary first-party ad tech platform, across all our ads markets. ◦ We have also launched our redesigned TV homepage, which we expect will enhance the member experience. This new TV UI is simpler, more intuitive and better represents the breadth of entertainment on Netflix today. • We’re optimistic heading into the second half of the year, with a standout slate that includes Wednesday S2, the Stranger Things finale, the highly anticipated Canelo-Crawford live boxing match, Adam Sandler’s Happy Gilmore 2 , Kathryn Bigelow’s A House of Dynamite and Guillermo del Toro’s Frankenstein . Our summary results, and forecast for Q3, are below. (in millions except per share data) Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 Q3'25 Forecast Revenue $ 9,559 $ 9,825 $ 10,247 $ 10,543 $ 11,079 $ 11,526 Y/Y % Growth 16.8 % 15.0 % 16.0 % 12.5 % 15.9 % 17.3 % Operating Income $ 2,603 $ 2,909 $ 2,273 $ 3,347 $ 3,775 $ 3,625 Operating Margin 27.2 % 29.6 % 22.2 % 31.7 % 34.1 % 31.5 % Net Income $ 2,147 $ 2,364 $ 1,869 $ 2,890 $ 3,125 $ 2,979 Diluted EPS $ 4.88 $ 5.40 $ 4.27 $ 6.61 $ 7.19 $ 6.87 Net cash provided by operating activities $ 1,291 $ 2,321 $ 1,537 $ 2,789 $ 2,423 Free Cash Flow $ 1,213 $ 2,194 $ 1,378 $ 2,661 $ 2,267 Shares (FD) 439.7 437.9 437.8 437.0 434.9 __________________________________ 1 Based on F/X rates as of 1/1/25. 1 Q2 Results and Forecast Our Q2 revenue increased by 16% year over year (17% on a foreign exchange (F/X) neutral basis 2 ). Year-over-year revenue growth was primarily a function of more members, higher subscription pricing and increased ad revenue. All regions experienced healthy year-over-year revenue growth, with each region posting double-digit F/X neutral increases. UCAN revenue growth accelerated year over year to 15% vs. 9% in Q1’25 due to the full quarter impact of price changes. Revenue was slightly above our guidance due primarily to favorable F/X impact, net of hedging. Member growth was ahead of our forecast, although this occurred late in the quarter, limiting the impact on Q2 revenue. Operating income totaled $3.8B, up 45% year over year, and operating margin was 34% vs 27% in Q2’24. Both operating income and operating margin were slightly ahead of our forecast given the revenue upside in the quarter and timing of expense spending. Diluted EPS amounted to $7.19 vs. $4.88 last year (+47% year over year). As a reminder, the guidance we provide is our actual internal forecast at the time we report and we strive for accuracy. Our primary financial metrics are revenue for growth and operating margin for profitability. Our goal is to sustain healthy revenue growth, expand operating margin and deliver growing free cash flow. In Q3’25, we expect revenue growth of 17% (on both a reported and F/X neutral basis) driven by growth in members, pricing and advertising revenue. We project operating margin of 31%, a two percentage point year-over-year improvement. Similar to past years, we expect our operating margin in the second half of 2025 will be lower than the first half due to higher content amortization and sales and marketing costs associated with our larger second half slate. For 2025, we are increasing our revenue forecast to $44.8B-$45.2B from $43.5B-$44.5B, previously. This represents 15%-16% year-over-year growth, or 16%-17% growth on a F/X neutral basis. The majority of the increase in our revenue forecast reflects the recent depreciation of the US dollar vs. most other currencies, with the balance attributable to continued business momentum driven by solid member growth and ad sales. As a result, we are now targeting a 29.5% operating margin for 2025, based on F/X rates at the beginning of the year, up from our prior 29% forecast. At current F/X rates, this would equate to roughly a 30% operating margin for 2025 on a reported basis. Content & Engagement Our goal is to offer a wide variety of quality series, films and games that our members love. This in turn drives engagement on Netflix and when people watch more and love what they watch, they stick around longer (retention), recommend Netflix to others (acquisition) and place a higher value on our service. We monetize this engagement through both subscription and advertising revenue. __________________________________ 2 Excluding the year over year effect of foreign exchange rate movements and the impact of hedging gains/losses realized as revenues. Assumes foreign exchange rates remained constant with foreign exchange rates from each of the corresponding months of the prior-year period. 2 We’re pleased with the performance of our Q2 slate. Highlights include: • A number of hit series including Sirens * (56M views 3 ), Ginny & Georgia S3* (53M views), Mad Unicorn * from Thailand (7M views), Dept. Q * from the UK (28M views), Secrets We Keep * from Denmark (35M views), the animated Asterix & Obelix: The Big Fight * from France (16M views) and The Eternaut * from Argentina (29M views). • New series out of the US, like The Four Seasons * starring Tina Fey and Steve Carell (40M views), Ransom Canyon * (30M views) and FOREVER * (20M views) all delighted members and have been renewed for second seasons. • Film releases including Exterritorial * from Germany, which became our fourth most popular non-English language film ever (89M views), Tyler Perry’s STRAW * (109M views), Nonnas * (60M views) starring Vince Vaughn, as well as iHostage * from the Netherlands (58M views), K.O. * from France (46M views), Karol G: Tomorrow was Beautiful * from Colombia (13M views) and Bullet Train Explosion * from Japan (34M views). • Our new film KPop Demon Hunters * (80M views) is one of our biggest animated films ever and is becoming a sensation 5 as fictional bands featured in the film are currently breaking K-pop records set by BTS and Blackpink. It’s the highest-charting soundtrack 6 of 2025 on the Billboard 200 and just this week, "Golden" hit #1 7 on the Billboard Global Charts, becoming the biggest song in the world. The soundtrack is currently the #1 movie soundtrack on Spotify, is the first K-pop album to ever be #1 on the US Apple Music chart and on iTunes charts simultaneously, and there are seven tracks from the album on the Billboard Hot 100 8 . • Finally, our Q2 slate wrapped up on a high note with Squid Game S3* (122M views), which has already become our sixth biggest season of any series in our history, with just a few weeks of viewing so far. Korean content continues to be popular with our audience. In addition to Squid Game , Weak Hero: Class 2 * (20M views), Mercy For None * (18M views) and Tastefully Yours * (15M views) were some of our most popular Korean series released in Q2. We lead the industry in viewing transparency. In addition to the quarterly data we provide in our investor letter, we also publish weekly Top 10 9 and Most Popular 10 lists, and in 2023, we began releasing a comprehensive report of what people watched on Netflix over a six-month period. As mentioned in our Q4’24 letter, we’ll be publishing this bi-annual Engagement Report 11 , which covers ~99% of what people watched on Netflix, in tandem with our Q2 and Q4 earnings letters. As you can see from the report: • Even with our 2025 slate being unusually second-half weighted 12 , our members watched over 95 billion hours on Netflix in the first half of the year, a 1% increase year over year. • Non-English language series and films are very popular and represented more than one-third of all Netflix viewing in the first half of the year. __________________________________ 3 A view is defined as hours viewed divided by runtime for each title. Views for a title are based on the first 91 days since the release of each episode (less than 91 days denoted with an asterisk and data is from launch date through July 13, 2025). We publish our top titles based on views each week at Netflix Top 10 4 . 4 https://www.netflix.com/tudum/top10 5 https://www.bbc.com/culture/article/20250715-the-animated-k-pop-film-that-swept-the-world 6 https://variety.com/2025/music/news/kpop-demon-hunters-soundtrack-albums-chart-1236459821/ 7 https://www.billboard.com/music/chart-beat/huntr-x-golden-global-charts-number-one-july-19-1236020891/ 8 https://www.billboard.com/pro/kpop-demon-hunters-billboard-hot-100-seven-hits-golden/ 9 https://www.netflix.com/tudum/top10 10 https://www.netflix.com/tudum/top10/most-popular/tv 11 https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025 12 As you can see from the only 3% year over year increase in content amortization in 1H25 (in the Consolidated Statements of Cash Flows) vs. our expectation for high single digit growth for the full year 2025. 3 • Our most-watched titles during this period reflect that great stories can come from anywhere and include Adolescence from the UK, all three seasons of Squid Game from Korea, Zero Day from the US and Secrets We Keep from Denmark. Our most-watched films include Back in Action , Tyler Perry’s STRAW and The Life List from the US, Exterritorial from Germany and Counterattack from Mexico. • Our viewing is very broad and we’re not dependent on any one title to drive engagement—for instance, even our biggest titles that have tens of millions of views account for less than 1% of total viewing on Netflix in the reporting period. • Our titles have staying power, with nearly half of the viewing of Netflix originals coming from titles launched in 2023 or earlier. Money Heist , Lucifer , Red Notice , Leo and We Can Be Heroes each had more than 20M views in the first half of 2025. At Netflix, our content strategy is “local for local”—developing shows and films that deeply connect with audiences in their home countries. To achieve this, we have creative teams around the world collaborating with local talent to produce stories that reflect their cultures and interests. This approach continues to deliver results. In Q2, Spanish series and films such as The Gardener (34M views), Bad Influence * (46M views) and A Widow’s Game * (43M views) were hits with Spanish-speaking audiences and also found fans internationally. Building on this momentum, in June we announced an investment of over one billion Euros in Spain 13 between 2025-2028 to further expand our Spanish programming slate. As we saw with Squid Game from South Korea, every so often a show becomes a true global phenomenon—captivating audiences not just in its home country, but around the world. Squid Game was created first and foremost for Korean viewers, but its authentic storytelling and universal themes resonated far beyond Korea’s borders. As we grow globally, our most significant investment remains in the US 14 , which accounts for the majority of our content spend, workforce and production infrastructure. From 2020-2024, we estimate that we contributed $125 billion to the US economy. Our expansion in Albuquerque, NM—adding four new soundstages to a 108-acre site—and our plan to invest roughly $1B to develop a state-of-the-art production facility (including 12 new soundstages) in Fort Monmouth, NJ, underscore our ongoing commitment to production in the US. We recently announced a partnership 15 with leading local broadcaster TF1 in France which will allow us to offer TF1’s linear channels and on-demand content to our French members as part of their Netflix subscription without having to leave our service. The wide variety of additional content will include local titles and genres like soap operas, big weekly competition shows and major live sports programming such as the UEFA Nations League that is incremental to what we offer our members today. The partnership will go live in the summer of 2026 and we expect to learn about the value this expanded local programming can provide our members. We continue to invest in immersive, narrative games based on our IP. For example, in Q2 in conjunction with Black Mirror S7, we launched Thronglets , the game at the center of the episode “Plaything.” The mobile game immersed fans in the world of Black Mirror like never before. And, alongside the series finale of Squid Game , we made significant updates to Squid Game: Unleashed , introducing new games, characters and Play Along rewards based on season 3. __________________________________ 13 https://about.netflix.com/en/news/netflix-will-invest-more-than-eur1-billion-in-spain-between-2025-and-2028 14 https://about.netflix.com/en/news/made-in-america-how-netflix-contributes-to-the-us-economy 15 https://about.netflix.com/en/news/netflix-and-tf1-group-join-forces-to-bring-tf1-to-netflix-members-in-france 4 In May, we celebrated our upcoming series and films with Tudum 2025: The Live Event 16 , our biggest global fan event, which we hosted in Los Angeles and streamed live on Netflix. The event generated over 1.4 billion global impressions across Netflix 17 and talent 18 social media channels, highlighting the enthusiasm our audiences have for our upcoming slate over the remainder of the year. Still to come in the back of the year are returning hit series including second seasons of Wednesday and Emmy nominated Nobody Wants This , season 3 of Alice in Borderland from Japan and the fifth and final season of Stranger Things . New installments of fan favorite films include Happy Gilmore 2 with Adam Sandler, Tyler Perry’s Madea’s Destination Wedding , Wake Up Dead Man: A Knives Out Mystery and Troll 2 from Norway. We also have exciting new series including Billionaires’ Bunker , from Spain’s Money Heist creator Álex Pina; Black Rabbit , a thriller starring Jason Bateman and Jude Law; House of Guinness , from Peaky Blinders UK creator Steven Knight; and Las Muertas from Mexico. Our film slate includes French Lover starring Lupin’s Omar Sy; My Oxford Year starring Sofia Carson ( The Life List ) and Corey Mylchreest ( Queen Charlotte ); Academy Award winner Kathryn Bigelow’s A House of Dynamite ; Academy Award nominee Noah Baumbach’s Jay Kelly starring George Clooney and Adam Sandler; the animated film In Your Dreams ; and Academy Award winner Guillermo del Toro’s Frankenstein . Our unscripted slate in 2H’25 includes Building the Band , which premiered last week, America’s Team: The Gambler and His Cowboys , season 9 of Love is Blind and a new documentary about Victoria Beckham. We continue to expand our live programming with big, can’t miss special events. We have two marquee boxing matches in Q3, including last week’s Taylor vs. Serrano 19 rematch and the much-anticipated Canelo vs. Crawford 20 fight on September 13th. We also look forward to our NFL Christmas Day doubleheader, featuring two compelling divisional matchups—Dallas Cowboys vs. Washington Commanders and Detroit Lions vs. Minnesota Vikings. We couldn’t do what we do without great creative partners and we’re thrilled that many had the quality of their work recognized this quarter. Earlier this week, Netflix received 120 Primetime Emmy nominations across 44 titles, including three of the five Limited Series program nominations ( Adolescence , Black Mirror , Monsters: The Lyle and Erik Menendez Story , all of which were on the Global Top 10 list for at least five weeks) and nominations in every major show category. Beyond the US, our shows and films and talent are also celebrated by some of the most prestigious awards bodies, including The Ariel Awards, which recognizes the best of Mexican cinema, who awarded Pedro Páramo with 17 nominations, and the Logie Awards in Australia, where Netflix received 18 nominations. Product In the second quarter, we introduced our redesigned TV homepage which we expect will enhance the member experience. We've had a design that has served us very well over a decade, but our new TV experience is simpler, more intuitive and better represents the breadth of entertainment on Netflix today. The new design more intuitively displays key information such as each title’s trailer video, synopsis and other details (callouts like “#1 in TV Shows”). Roughly half of the time members come to Netflix with something already in mind, and the other half of the time, they’re looking for a little bit of help from us. That’s why it’s so important for us to make it easy to get to titles and destinations already in mind, as well as improve the personalized recommendations for our members at any given moment. __________________________________ 16 https://www.netflix.com/tudum/features/tudum-2025-the-live-event 17 https://www.instagram.com/p/DKXoMrghfXm/ 18 https://www.instagram.com/p/DKYTajwv0gE/ 19 https://www.hollywoodreporter.com/tv/tv-news/taylor-serrano-3-ratings-netflix-6-million-viewers-1236314177/ 20 https://www.netflix.com/tudum/features/canelo-crawford-live-on-netflix 5 We have already rolled out our new interface to a broad subset of TV devices that access Netflix, and ~50% of members have used the new experience. Early results are encouraging, outperforming pre-launch testing and demonstrating strong member interest in the new features. Over time, we expect this redesigned experience—along with our new responsive recommendations that update rows of titles in real time—will help our members more easily find shows, movies, live events and games they want to watch and play. Monetization As we deliver more value to members, we continue to refine our plans and pricing to improve monetization which in turn allows us to reinvest to make Netflix even better for our members. Response to our recent price adjustments, as measured by member acquisition, churn and plan mix, has been broadly in line with our expectations. We continue to make progress building our ads business and still expect to roughly double ads revenue in 2025. A key focus this year is enhancing our capabilities for advertisers. We completed the rollout of the Netflix Ads Suite, our in-house first-party ad tech platform, to all of our ads markets and early results are in-line with our expectations. We believe our ad tech platform is foundational to our long-term ads strategy and, over time, will enable us to offer better measurement, enhanced targeting, innovative ad formats and expanded programmatic capabilities. We also recently announced we will integrate Yahoo DSP into our programmatic offering. Our US upfront is nearly complete as we have closed the vast majority of our deals with the major agencies. We’re pleased with the results which are consistent with our goal to roughly double ads revenue this year. Clients are excited about our growing scale, the successful rollout of our tech stack, as well as our upcoming programming slate. 6 Cash Flow and Capital Structure Our capital allocation approach is unchanged—we prioritize profitable growth by reinvesting in our business, maintaining ample liquidity and returning excess cash (beyond several billion dollars of minimum cash and any used for selective M&A) to shareholders through share repurchases. Net cash generated from operating activities in Q2 was $2.4B vs. $1.3B in the prior year period. Free cash flow 21 in Q2’25 totaled $2.3B vs. $1.2B in Q2’24. We are increasing our full year 2025 free cash flow forecast to $8B-$8.5B from approximately $8B due to the increase in our revenue and operating margin forecast. During the quarter, we paid down $1.0B of USD and EUR senior notes using proceeds from our 2024 refinancing, and we repurchased 1.5M shares for $1.6B. We have $12.0B remaining under our existing share repurchase authorization. We ended the quarter with gross debt of $14.5B and cash and cash equivalents of $8.2B. In May 2025, we established a commercial paper (CP) program, providing us with enhanced flexibility and the ability to issue short-term, unsecured notes in an aggregate amount of up to $3B. Environmental, Social, and Governance (ESG) We recently published our 2024 Environmental, Social and Governance (ESG) report 22 . Key updates for 2024 include how we are decarbonizing our operations, including the productions of our films and series; investing in our people around the world and developing the next generation of talent; and maintaining our corporate governance structure to support healthy growth and create long-term shareholder value. Reference For quick reference, our past investor letters can be found here 23 . ___________________________________ 21 Defined as cash provided by (used in) operating activities less purchases of property and equipment and change in other assets. 22 https://ir.netflix.net/2024-ESG-Report 23 https://ir.netflix.net/financials/quarterly-earnings/default.aspx 7 Regional Breakdown (in millions) Q2'24 Q3'24 Q4'24 Q1'25 Q2'25 UCAN: Revenue $ 4,296 $ 4,322 $ 4,517 $ 4,617 $ 4,929 Y/Y % Growth 19 % 16 % 15 % 9 % 15 % F/X Neutral Y/Y % Growth 19 % 16 % 15 % 9 % 15 % EMEA: Revenue $ 3,008 $ 3,133 $ 3,288 $ 3,405 $ 3,538 Y/Y % Growth 17 % 16 % 18 % 15 % 18 % F/X Neutral Y/Y % Growth 19 % 17 % 16 % 16 % 16 % LATAM: Revenue $ 1,204 $ 1,241 $ 1,230 $ 1,262 $ 1,307 Y/Y % Growth 12 % 9 % 6 % 8 % 9 % F/X Neutral Y/Y % Growth 44 % 46 % 35 % 27 % 23 % APAC: Revenue $ 1,052 $ 1,128 $ 1,212 $ 1,259 $ 1,305 Y/Y % Growth 14 % 19 % 26 % 23 % 24 % F/X Neutral Y/Y % Growth 19 % 21 % 24 % 26 % 23 % F/X Neutral revenue growth excludes the year over year effect of foreign exchange rate movements and the impact of hedging gains/losses realized as revenues. Assumes foreign exchange rates remained constant with foreign exchange rates from each of the corresponding months of the prior-year period. 8 F/X Neutral Operating Margin Disclosure To provide additional transparency around our operating margin, we disclose each quarter our year-to-date (YTD) operating margin based on F/X rates at the beginning of each year. This will allow investors to see how our operating margin is tracking against our target (which was set in January of 2025 based on F/X rates at that time), absent intra-year fluctuations in F/X. 9 July 17, 2025 Earnings Interview, 1:45pm PT Our live video interview will be on youtube/netflixir 24 at 1:45pm PT today. Co-CEOs Greg Peters and Ted Sarandos, CFO Spence Neumann and VP of Finance/IR/Corporate Development Spencer Wang, will all be on the video to answer questions submitted by sellside analysts. IR Contact: PR Contact: Lowell Singer Emily Feingold VP,
+Document
+Exhibit 99.1
+July 17, 2025
+Fellow shareholders,
+•
+Our business continues to perform well. In Q2, we grew revenue 16% and our operating margin of 34% expanded seven points year over year. Both revenue and operating income were slightly above our guidance due primarily to F/X, net of hedging, and the timing of expenses.
+•
+We now forecast 2025 revenue of $44.8-$45.2B, up from $43.5-$44.5B, and a F/X neutral operating margin
+1
+of 29.5% (vs. 29% previously), or 30% on a reported basis. Our higher forecast primarily reflects the weakening of the US dollar vs. most other currencies, plus healthy member growth and ad sales.
+•
+We continue to make progress on our key business objectives:
+◦
+In Q2, we had a wide variety of hit series like
+Squid Game
+S3,
+Sirens
+,
+Ginny & Georgia
+S3,
+The Eternaut
+and
+Secrets We Keep
+, and popular films like
+Tyler Perry’s
+STRAW
+and
+Exterritorial
+.
+◦
+We have completed the rollout of the Netflix Ads Suite, our proprietary first-party ad tech platform, across all our ads markets.
+◦
+We have also launched our redesigned TV homepage, which we expect will enhance the member experience. This new TV UI is simpler, more intuitive and better represents the breadth of entertainment on Netflix today.
+•
+We’re optimistic heading into the second half of the year, with a standout slate that includes
+Wednesday
+S2, the
+Stranger Things
+finale, the highly anticipated Canelo-Crawford live boxing match, Adam Sandler’s
+Happy Gilmore 2
+, Kathryn Bigelow’s
+A House of Dynamite
+and Guillermo del Toro’s
+Frankenstein
+.
+Our summary results, and forecast for Q3, are below.
+(in millions except per share data)
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25 Forecast
+Revenue
+$
+9,559
+$
+9,825
+$
+10,247
+$
+10,543
+$
+11,079
+$
+11,526
+Y/Y % Growth
+16.8
+%
+15.0
+%
+16.0
+%
+12.5
+%
+15.9
+%
+17.3
+%
+Operating Income
+$
+2,603
+$
+2,909
+$
+2,273
+$
+3,347
+$
+3,775
+$
+3,625
+Operating Margin
+27.2
+%
+29.6
+%
+22.2
+%
+31.7
+%
+34.1
+%
+31.5
+%
+Net Income
+$
+2,147
+$
+2,364
+$
+1,869
+$
+2,890
+$
+3,125
+$
+2,979
+Diluted EPS
+$
+4.88
+$
+5.40
+$
+4.27
+$
+6.61
+$
+7.19
+$
+6.87
+Net cash provided by operating activities
+$
+1,291
+$
+2,321
+$
+1,537
+$
+2,789
+$
+2,423
+Free Cash Flow
+$
+1,213
+$
+2,194
+$
+1,378
+$
+2,661
+$
+2,267
+Shares (FD)
+439.7
+437.9
+437.8
+437.0
+434.9
+__________________________________
+1
+Based on F/X rates as of 1/1/25.
+1
+Q2 Results and Forecast
+Our Q2 revenue increased by 16% year over year (17% on a foreign exchange (F/X) neutral basis
+2
+). Year-over-year revenue growth was primarily a function of more members, higher subscription pricing and increased ad revenue. All regions experienced healthy year-over-year revenue growth, with each region posting double-digit F/X neutral increases. UCAN revenue growth accelerated year over year to 15% vs. 9% in Q1’25 due to the full quarter impact of price changes.
+Revenue was slightly above our guidance due primarily to favorable F/X impact, net of hedging. Member growth was ahead of our forecast, although this occurred late in the quarter, limiting the impact on Q2 revenue. Operating income totaled $3.8B, up 45% year over year, and operating margin was 34% vs 27% in Q2’24. Both operating income and operating margin were slightly ahead of our forecast given the revenue upside in the quarter and timing of expense spending. Diluted EPS amounted to $7.19 vs. $4.88 last year (+47% year over year).
+As a reminder, the guidance we provide is our actual internal forecast at the time we report and we strive for accuracy. Our primary financial metrics are revenue for growth and operating margin for profitability. Our goal is to sustain healthy revenue growth, expand operating margin and deliver growing free cash flow.
+In Q3’25, we expect revenue growth of 17% (on both a reported and F/X neutral basis) driven by growth in members, pricing and advertising revenue. We project operating margin of 31%, a two percentage point year-over-year improvement. Similar to past years, we expect our operating margin in the second half of 2025 will be lower than the first half due to higher content amortization and sales and marketing costs associated with our larger second half slate.
+For 2025, we are increasing our revenue forecast to $44.8B-$45.2B from $43.5B-$44.5B, previously. This represents 15%-16% year-over-year growth, or 16%-17% growth on a F/X neutral basis. The majority of the increase in our revenue forecast reflects the recent depreciation of the US dollar vs. most other currencies, with the balance attributable to continued business momentum driven by solid member growth and ad sales.
+As a result, we are now targeting a 29.5% operating margin for 2025, based on F/X rates at the beginning of the year, up from our prior 29% forecast. At current F/X rates, this would equate to roughly a 30% operating margin for 2025 on a reported basis.
+Content & Engagement
+Our goal is to offer a wide variety of quality series, films and games that our members love. This in turn drives engagement on Netflix and when people watch more and love what they watch, they stick around longer (retention), recommend Netflix to others (acquisition) and place a higher value on our service. We monetize this engagement through both subscription and advertising revenue.
+__________________________________
+2
+Excluding the year over year effect of foreign exchange rate movements and the impact of hedging gains/losses realized as revenues. Assumes foreign exchange rates remained constant with foreign exchange rates from each of the corresponding months of the prior-year period.
+2
+We’re pleased with the performance of our Q2 slate. Highlights include:
+•
+A number of hit series including
+Sirens
+* (56M views
+3
+),
+Ginny & Georgia
+S3* (53M views),
+Mad Unicorn
+* from Thailand (7M views),
+Dept. Q
+* from the UK (28M views),
+Secrets We Keep
+* from Denmark (35M views), the animated
+Asterix & Obelix: The Big Fight
+* from France (16M views) and
+The Eternaut
+* from Argentina (29M views).
+•
+New series out of the US, like
+The Four Seasons
+* starring Tina Fey and Steve Carell (40M views),
+Ransom Canyon
+* (30M views) and
+FOREVER
+* (20M views) all delighted members and have been renewed for second seasons.
+•
+Film releases including
+Exterritorial
+* from Germany, which became our fourth most popular non-English language film ever (89M views),
+Tyler Perry’s STRAW
+* (109M views),
+Nonnas
+* (60M views) starring Vince Vaughn, as well as
+iHostage
+* from the Netherlands (58M views),
+K.O.
+* from France (46M views),
+Karol G: Tomorrow was Beautiful
+* from Colombia (13M views) and
+Bullet Train Explosion
+* from Japan (34M views).
+•
+Our new film
+KPop Demon Hunters
+* (80M views) is one of our biggest animated films ever and is becoming
+a sensation
+5
+as fictional bands featured in the film are currently breaking K-pop records set by BTS and Blackpink. It’s the
+highest-charting soundtrack
+6
+of 2025 on the Billboard 200 and just this week,
+"Golden" hit #1
+7
+on the Billboard Global Charts, becoming the biggest song in the world. The soundtrack is currently the #1 movie soundtrack on Spotify, is the first K-pop album to ever be #1 on the US Apple Music chart and on iTunes charts simultaneously, and there are seven tracks from the album on the
+Billboard Hot 100
+8
+.
+•
+Finally, our Q2 slate wrapped up on a high note with
+Squid Game
+S3* (122M views), which has already become our sixth biggest season of any series in our history, with just a few weeks of viewing so far. Korean content continues to be popular with our audience. In addition to
+Squid Game
+,
+Weak Hero: Class 2
+* (20M views),
+Mercy For None
+* (18M views) and
+Tastefully Yours
+* (15M views) were some of our most popular Korean series released in Q2.
+We lead the industry in viewing transparency. In addition to the quarterly data we provide in our investor letter, we also publish weekly
+Top 10
+9
+and
+Most Popular
+10
+lists, and in 2023, we began releasing a comprehensive report of what people watched on Netflix over a six-month period. As mentioned in our Q4’24 letter, we’ll be publishing this
+bi-annual Engagement Report
+11
+, which covers ~99% of what people watched on Netflix, in tandem with our Q2 and Q4 earnings letters. As you can see from the report:
+•
+Even with our 2025 slate being unusually second-half weighted
+12
+, our members watched over 95 billion hours on Netflix in the first half of the year, a 1% increase year over year.
+•
+Non-English language series and films are very popular and represented more than one-third of all Netflix viewing in the first half of the year.
+__________________________________
+3
+A view is defined as hours viewed divided by runtime for each title. Views for a title are based on the first 91 days since the release of each episode (less than 91 days denoted with an asterisk and data is from launch date through July 13, 2025). We publish our top titles based on views each week at
+Netflix Top 10
+4
+.
+4
+https://www.netflix.com/tudum/top10
+5
+https://www.bbc.com/culture/article/20250715-the-animated-k-pop-film-that-swept-the-world
+6
+https://variety.com/2025/music/news/kpop-demon-hunters-soundtrack-albums-chart-1236459821/
+7
+https://www.billboard.com/music/chart-beat/huntr-x-golden-global-charts-number-one-july-19-1236020891/
+8
+https://www.billboard.com/pro/kpop-demon-hunters-billboard-hot-100-seven-hits-golden/
+9
+https://www.netflix.com/tudum/top10
+10
+https://www.netflix.com/tudum/top10/most-popular/tv
+11
+https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2025
+12
+As you can see from the only 3% year over year increase in content amortization in 1H25 (in the Consolidated Statements of Cash Flows) vs. our expectation for high single digit growth for the full year 2025.
+3
+•
+Our most-watched titles during this period reflect that great stories can come from anywhere and include
+Adolescence
+from the UK, all three seasons of
+Squid Game
+from Korea,
+Zero Day
+from the US and
+Secrets We Keep
+from Denmark. Our most-watched films include
+Back in Action
+,
+Tyler Perry’s STRAW
+and
+The Life List
+from the US,
+Exterritorial
+from Germany and
+Counterattack
+from Mexico.
+•
+Our viewing is very broad and we’re not dependent on any one title to drive engagement—for instance, even our biggest titles that have tens of millions of views account for less than 1% of total viewing on Netflix in the reporting period.
+•
+Our titles have staying power, with nearly half of the viewing of Netflix originals coming from titles launched in 2023 or earlier.
+Money Heist
+,
+Lucifer
+,
+Red Notice
+,
+Leo
+and
+We Can Be Heroes
+each had more than 20M views in the first half of 2025.
+At Netflix, our content strategy is “local for local”—developing shows and films that deeply connect with audiences in their home countries. To achieve this, we have creative teams around the world collaborating with local talent to produce stories that reflect their cultures and interests.
+This approach continues to deliver results. In Q2, Spanish series and films such as
+The Gardener
+(34M views),
+Bad Influence
+* (46M views) and
+A Widow’s Game
+* (43M views) were hits with Spanish-speaking audiences and also found fans internationally. Building on this momentum, in June we announced an investment of over
+one billion Euros in Spain
+13
+between 2025-2028 to further expand our Spanish programming slate. As we saw with
+Squid Game
+from South Korea, every so often a show becomes a true global phenomenon—captivating audiences not just in its home country, but around the world.
+Squid Game
+was created first and foremost for Korean viewers, but its authentic storytelling and universal themes resonated far beyond Korea’s borders.
+As we grow globally, our most significant investment
+remains in the US
+14
+, which accounts for the majority of our content spend, workforce and production infrastructure. From 2020-2024, we estimate that we contributed $125 billion to the US economy. Our expansion in Albuquerque, NM—adding four new soundstages to a 108-acre site—and our plan to invest roughly $1B to develop a state-of-the-art production facility (including 12 new soundstages) in Fort Monmouth, NJ, underscore our ongoing commitment to production in the US.
+We recently announced a
+partnership
+15
+with leading local broadcaster TF1 in France which will allow us to offer TF1’s linear channels and on-demand content to our French members as part of their Netflix subscription without having to leave our service. The wide variety of additional content will include local titles and genres like soap operas, big weekly competition shows and major live sports programming such as the UEFA Nations League that is incremental to what we offer our members today. The partnership will go live in the summer of 2026 and we expect to learn about the value this expanded local programming can provide our members.
+We continue to invest in immersive, narrative games based on our IP. For example, in Q2 in conjunction with
+Black Mirror
+S7, we launched
+Thronglets
+, the game at the center of the episode “Plaything.” The mobile game immersed fans in the world of
+Black Mirror
+like never before. And, alongside the series finale of
+Squid Game
+, we made significant updates to
+Squid Game: Unleashed
+, introducing new games, characters and Play Along rewards based on season 3.
+__________________________________
+13
+https://about.netflix.com/en/news/netflix-will-invest-more-than-eur1-billion-in-spain-between-2025-and-2028
+14
+https://about.netflix.com/en/news/made-in-america-how-netflix-contributes-to-the-us-economy
+15
+https://about.netflix.com/en/news/netflix-and-tf1-group-join-forces-to-bring-tf1-to-netflix-members-in-france
+4
+In May, we celebrated our upcoming series and films with
+Tudum 2025: The Live Event
+16
+, our biggest global fan event, which we hosted in Los Angeles and streamed live on Netflix. The event generated over 1.4 billion global impressions across
+Netflix
+17
+and
+talent
+18
+social media channels, highlighting the enthusiasm our audiences have for our upcoming slate over the remainder of the year.
+Still to come in the back of the year are returning hit series including second seasons of
+Wednesday
+and Emmy nominated
+Nobody Wants This
+, season 3 of
+Alice in Borderland
+from Japan and the fifth and final season of
+Stranger Things
+. New installments of fan favorite films include
+Happy Gilmore
+2
+with Adam Sandler, Tyler Perry’s
+Madea’s Destination Wedding
+,
+Wake Up Dead Man: A Knives Out Mystery
+and
+Troll 2
+from Norway.
+We also have exciting new series including
+Billionaires’ Bunker
+, from Spain’s
+Money Heist
+creator Álex Pina;
+Black Rabbit
+, a thriller starring Jason Bateman and Jude Law;
+House of Guinness
+, from
+Peaky Blinders
+UK creator Steven Knight; and
+Las Muertas
+from Mexico. Our film slate includes
+French Lover
+starring
+Lupin’s
+Omar Sy;
+My Oxford Year
+starring Sofia Carson (
+The Life List
+) and Corey Mylchreest (
+Queen Charlotte
+); Academy Award winner Kathryn Bigelow’s
+A House of Dynamite
+; Academy Award nominee Noah Baumbach’s
+Jay Kelly
+starring George Clooney and Adam Sandler; the animated film
+In Your Dreams
+; and Academy Award winner Guillermo del Toro’s
+Frankenstein
+. Our unscripted slate in 2H’25 includes
+Building the Band
+, which premiered last week,
+America’s Team: The Gambler and His Cowboys
+, season 9 of
+Love is Blind
+and a new documentary about Victoria Beckham.
+We continue to expand our live programming with big, can’t miss special events. We have two marquee boxing matches in Q3, including last week’s
+Taylor vs. Serrano
+19
+rematch and the much-anticipated
+Canelo vs. Crawford
+20
+fight on September 13th. We also look forward to our NFL Christmas Day doubleheader, featuring two compelling divisional matchups—Dallas Cowboys vs. Washington Commanders and Detroit Lions vs. Minnesota Vikings.
+We couldn’t do what we do without great creative partners and we’re thrilled that many had the quality of their work recognized this quarter. Earlier this week, Netflix received 120 Primetime Emmy nominations across 44 titles, including three of the five Limited Series program nominations (
+Adolescence
+,
+Black Mirror
+,
+Monsters: The Lyle
+and
+Erik Menendez Story
+, all of which were on the Global Top 10 list for at least five weeks) and nominations in every major show category. Beyond the US, our shows and films and talent are also celebrated by some of the most prestigious awards bodies, including The Ariel Awards, which recognizes the best of Mexican cinema, who awarded
+Pedro Páramo
+with 17 nominations, and the Logie Awards in Australia, where Netflix received 18 nominations.
+Product
+In the second quarter, we introduced our redesigned TV homepage which we expect will enhance the member experience. We've had a design that has served us very well over a decade, but our new TV experience is simpler, more intuitive and better represents the breadth of entertainment on Netflix today. The new design more intuitively displays key information such as each title’s trailer video, synopsis and other details (callouts like “#1 in TV Shows”). Roughly half of the time members come to Netflix with something already in mind, and the other half of the time, they’re looking for a little bit of help from us. That’s why it’s so important for us to make it easy to get to titles and destinations already in mind, as well as improve the personalized recommendations for our members at any given moment.
+__________________________________
+16
+https://www.netflix.com/tudum/features/tudum-2025-the-live-event
+17
+https://www.instagram.com/p/DKXoMrghfXm/
+18
+https://www.instagram.com/p/DKYTajwv0gE/
+19
+https://www.hollywoodreporter.com/tv/tv-news/taylor-serrano-3-ratings-netflix-6-million-viewers-1236314177/
+20
+https://www.netflix.com/tudum/features/canelo-crawford-live-on-netflix
+5
+We have already rolled out our new interface to a broad subset of TV devices that access Netflix, and ~50% of members have used the new experience. Early results are encouraging, outperforming pre-launch testing and demonstrating strong member interest in the new features. Over time, we expect this redesigned experience—along with our new responsive recommendations that update rows of titles in real time—will help our members more easily find shows, movies, live events and games they want to watch and play.
+Monetization
+As we deliver more value to members, we continue to refine our plans and pricing to improve monetization which in turn allows us to reinvest to make Netflix even better for our members. Response to our recent price adjustments, as measured by member acquisition, churn and plan mix, has been broadly in line with our expectations.
+We continue to make progress building our ads business and still expect to roughly double ads revenue in 2025. A key focus this year is enhancing our capabilities for advertisers. We completed the rollout of the Netflix Ads Suite, our in-house first-party ad tech platform, to all of our ads markets and early results are in-line with our expectations. We believe our ad tech platform is foundational to our long-term ads strategy and, over time, will enable us to offer better measurement, enhanced targeting, innovative ad formats and expanded programmatic capabilities. We also recently announced we will integrate Yahoo DSP into our programmatic offering.
+Our US upfront is nearly complete as we have closed the vast majority of our deals with the major agencies. We’re pleased with the results which are consistent with our goal to roughly double ads revenue this year. Clients are excited about our growing scale, the successful rollout of our tech stack, as well as our upcoming programming slate.
+6
+Cash Flow and Capital Structure
+Our capital allocation approach is unchanged—we prioritize profitable growth by reinvesting in our business, maintaining ample liquidity and returning excess cash (beyond several billion dollars of minimum cash and any used for selective M&A) to shareholders through share repurchases.
+Net cash generated from operating activities in Q2 was $2.4B vs. $1.3B in the prior year period. Free cash flow
+21
+in Q2’25 totaled $2.3B vs. $1.2B in Q2’24. We are increasing our full year 2025 free cash flow forecast to $8B-$8.5B from approximately $8B due to the increase in our revenue and operating margin forecast. During the quarter, we paid down $1.0B of USD and EUR senior notes using proceeds from our 2024 refinancing, and we repurchased 1.5M shares for $1.6B. We have $12.0B remaining under our existing share repurchase authorization.
+We ended the quarter with gross debt of $14.5B and cash and cash equivalents of $8.2B. In May 2025, we established a commercial paper (CP) program, providing us with enhanced flexibility and the ability to issue short-term, unsecured notes in an aggregate amount of up to $3B.
+Environmental, Social, and Governance (ESG)
+We recently published our
+2024 Environmental, Social and Governance (ESG) report
+22
+. Key updates for 2024 include how we are decarbonizing our operations, including the productions of our films and series; investing in our people around the world and developing the next generation of talent; and maintaining our corporate governance structure to support healthy growth and create long-term shareholder value.
+Reference
+For quick reference, our past investor letters can be found
+here
+23
+.
+___________________________________
+21
+Defined as cash provided by (used in) operating activities less purchases of property and equipment and change in other assets.
+22
+https://ir.netflix.net/2024-ESG-Report
+23
+https://ir.netflix.net/financials/quarterly-earnings/default.aspx
+7
+Regional Breakdown
+(in millions)
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+UCAN:
+Revenue
+$
+4,296
+$
+4,322
+$
+4,517
+$
+4,617
+$
+4,929
+Y/Y % Growth
+19
+%
+16
+%
+15
+%
+9
+%
+15
+%
+F/X Neutral Y/Y % Growth
+19
+%
+16
+%
+15
+%
+9
+%
+15
+%
+EMEA:
+Revenue
+$
+3,008
+$
+3,133
+$
+3,288
+$
+3,405
+$
+3,538
+Y/Y % Growth
+17
+%
+16
+%
+18
+%
+15
+%
+18
+%
+F/X Neutral Y/Y % Growth
+19
+%
+17
+%
+16
+%
+16
+%
+16
+%
+LATAM:
+Revenue
+$
+1,204
+$
+1,241
+$
+1,230
+$
+1,262
+$
+1,307
+Y/Y % Growth
+12
+%
+9
+%
+6
+%
+8
+%
+9
+%
+F/X Neutral Y/Y % Growth
+44
+%
+46
+%
+35
+%
+27
+%
+23
+%
+APAC:
+Revenue
+$
+1,052
+$
+1,128
+$
+1,212
+$
+1,259
+$
+1,305
+Y/Y % Growth
+14
+%
+19
+%
+26
+%
+23
+%
+24
+%
+F/X Neutral Y/Y % Growth
+19
+%
+21
+%
+24
+%
+26
+%
+23
+%
+F/X Neutral revenue growth excludes the year over year effect of foreign exchange rate movements and the impact of hedging gains/losses realized as revenues. Assumes foreign exchange rates remained constant with foreign exchange rates from each of the corresponding months of the prior-year period.
+8
+F/X Neutral Operating Margin Disclosure
+To provide additional transparency around our operating margin, we disclose each quarter our year-to-date (YTD) operating margin based on F/X rates at the beginning of each year. This will allow investors to see how our operating margin is tracking against our target (which was set in January of 2025 based on F/X rates at that time), absent intra-year fluctuations in F/X.
+9
+July 17, 2025 Earnings Interview, 1:45pm PT
+Our live video interview will be on
+youtube/netflixir
+24
+at 1:45pm PT today.  Co-CEOs Greg Peters and Ted Sarandos, CFO Spence Neumann and VP of Finance/IR/Corporate Development Spencer Wang, will all be on the video to answer questions submitted by sellside analysts.
+IR Contact:
+PR Contact:
+Lowell Singer
+Emily Feingold
+VP, Investor Relations
+VP, Corporate Communications
+818 434-2141
+323 287-0756
+__________________________________
+24
+https://www.youtube.com/netflixir
+10
+Use of Non-GAAP Measures
+This shareholder letter and its attachments include reference to the non-GAAP financial measures of F/X neutral revenue and adjusted operating profit and margin, free cash flow and net debt. Management believes that free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. Management believes that F/X neutral revenue and adjusted operating profit and margin allow investors to compare our projected results to our actual results absent year-over-year and intra-year currency fluctuations, respectively, and the impact of restructuring costs. Management believes net debt is a useful measure of the company's liquidity, capital structure, and leverage. However, these non-GAAP financial measures should be considered in addition to, not as a substitute for or superior to, net income, operating income (profit), operating margin, diluted earnings per share and net cash provided by (used in) operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements and in the F/X neutral operating margin disclosure above. We are not able to reconcile forward-looking non-GAAP financial measures because we are unable to predict without unreasonable effort the exact amount or timing of the reconciling items, including property and equipment and change in other assets, and the impact of changes in currency exchange rates. The variability of these items could have a significant impact on our future GAAP financial results.

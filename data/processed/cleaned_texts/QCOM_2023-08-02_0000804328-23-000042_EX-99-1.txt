@@ -1,1 +1,117 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Third Quarter Fiscal 2023 Results
+GAAP Revenues: $8.5 billion
+GAAP EPS: $1.60, Non-GAAP EPS: $1.87
+—EPS Exceeded Midpoint of Guidance Range—
+—QCT Automotive: 11 Straight Quarters of Year-Over-Year Double Digit Percentage Growth in Revenues—
+SAN DIEGO - August 2, 2023
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal third quarter ended June 25, 2023.
+“We are pleased with our technology leadership, product roadmap and design-win execution, which position us well for growth and diversification in the long term,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “As AI use cases proliferate to the edge, on-device AI has the potential to drive an inflection point across all our products. Qualcomm remains best positioned to lead this transition given the unmatched accelerated computing performance with the power efficiency of our platforms.”
+Third Quarter Results
+1, 2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q3 Fiscal 2023
+Q3 Fiscal 2022
+Change
+Q3 Fiscal 2023
+Q3 Fiscal 2022
+Change
+Revenues
+$8,451
+$10,936
+(23%)
+$8,442
+$10,928
+(23%)
+Earnings before taxes (EBT)
+$1,757
+$4,239
+(59%)
+$2,430
+$3,894
+(38%)
+Net income
+$1,803
+$3,730
+(52%)
+$2,105
+$3,356
+(37%)
+Diluted earnings per share (EPS)
+$1.60
+$3.29
+(51%)
+$1.87
+$2.96
+(37%)
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+(2)  Third quarter fiscal 2022 GAAP results included a $1.1 billion benefit, or $0.94 per share, resulting from the reversal of the accrued fine imposed by the European Commission in fiscal 2018 and the associated accrued interest.
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q3 Fiscal 2023
+Q3 Fiscal 2022
+Change
+Q3 Fiscal 2023
+Q3 Fiscal 2022
+Change
+Revenues
+$7,174
+$9,378
+(24%)
+$1,230
+$1,519
+(19%)
+EBT
+$1,744
+$2,996
+(42%)
+$811
+$1,080
+(25%)
+EBT as % of revenues
+24%
+32%
+-8 points
+66%
+71%
+-5 points
+Qualcomm Announces Third Quarter Fiscal 2023 Results
+Page 2 of 8
+QCT Revenue Streams
+1, 2
+(in millions, except percentages)
+Q3 Fiscal 2023
+Q3 Fiscal 2022
+Change
+Handsets
+$5,255
+$7,047
+(25%)
+Automotive
+434
+385
++13%
+IoT
+1,485
+1,946
+(24%)
+Total QCT revenues
+$7,174
+$9,378
+(24%)
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+(2) Beginning in the first quarter of fiscal 2023, QCT RFFE (radio frequency front-end) revenues, which were previously presented as a separate revenue stream, are now included within our Handsets, Automotive and internet of things (IoT) revenue streams, as applicable. Prior period information has been recast to reflect this change.
+Return of Capital to Stockholders
+During the third quarter of fiscal 2023, we returned $1.3 billion to stockholders, including $893 million, or $0.80 per share, of cash dividends paid and $400 million through repurchases of 4 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

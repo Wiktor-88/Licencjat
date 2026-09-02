@@ -51,6 +51,7 @@ rich==15.0.0
 safetensors==0.8.0
 scikit-learn==1.9.0
 scipy==1.18.0
+statsmodels>=0.14
 sec-edgar-downloader==5.1.0
 sentencepiece==0.2.2
 setuptools==83.0.0
@@ -71,3 +72,11 @@ tzdata==2026.3
 urllib3==2.7.0
 websockets==17.0.1
 yfinance==1.6.0
+streamlit>=1.32
+plotly>=5.18
+xgboost>=2.0
+catboost>=1.2
+optuna>=3.0
+pytorch-tabnet>=4.1
+shap>=0.45
+matplotlib>=3.8

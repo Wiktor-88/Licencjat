@@ -1,1 +1,18 @@
-Item 5.03. Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year (a) The Board of Directors of Microsoft Corporation (the “Company”) amended the Company’s Bylaws, effective July 1, 2023. The amendments (1) in Section 1.2, require any person soliciting proxies from stockholders to use a proxy card color other than white, (2) in Section 1.12, clarify a meeting Chair’s authority to determine the validity of nominations or submission of other matters, (3) in Section 1.13, implement procedural and other requirements for director nominations, including requiring compliance with Rule 14a-19 under the Securities Exchange Act of 1934, as amended, (4) in Section 6.1, clarify requirements regarding stockholder lists, and (5) include certain other conforming, technical, and non-substantive changes. The foregoing summary of the amendments to the Company’s Bylaws is qualified in its entirety by reference to the text of the Bylaws, a copy of which is filed as Exhibit 3.2 to this Current Report on Form 8-K and is incorporated herein by reference. Item 9.01. Financial Statements and Exhibits (d) Exhibits: 3.2 Bylaws of Microsoft Corporation 104 Cover Page Interactive Data File (embedded within the Inline XBRL document).
+Item 5.03.
+Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year
+(a)
+The Board of Directors of Microsoft Corporation (the “Company”) amended the Company’s Bylaws, effective July 1, 2023. The amendments (1) in Section 1.2, require any person soliciting proxies from stockholders to use a proxy card color other than white, (2) in Section 1.12, clarify a meeting Chair’s authority to determine the validity of nominations or submission of other matters, (3) in Section 1.13, implement procedural and other requirements for director nominations, including requiring compliance with Rule
+14a-19
+under the Securities Exchange Act of 1934, as amended, (4) in Section 6.1, clarify requirements regarding stockholder lists, and (5) include certain other conforming, technical, and
+non-substantive
+changes.
+The foregoing summary of the amendments to the Company’s Bylaws is qualified in its entirety by reference to the text of the Bylaws, a copy of which is filed as Exhibit 3.2 to this Current Report on
+Form 8-K and
+is incorporated herein by reference.
+Item 9.01.
+Financial Statements and Exhibits
+(d) Exhibits:
+3.2
+Bylaws of Microsoft Corporation
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document).

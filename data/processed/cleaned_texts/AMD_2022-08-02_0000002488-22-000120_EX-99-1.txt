@@ -1,1 +1,350 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports Second Quarter 2022 Financial Results
+― Record quarterly revenue of $6.6 billion grew 70% year-over-year;
+Record quarterly operating cash flow exceeded $1 billion ―
+SANTA CLARA, Calif. ― August 2, 2022 ―
+AMD (NASDAQ:AMD) today announced revenue for the second quarter of 2022 of $6.6 billion, gross margin of 46%, operating income of $526 million, operating margin of 8%, net income of $447 million and diluted earnings per share of $0.27. On a non-GAAP
+(*)
+basis, gross margin was 54%, operating income was $2.0 billion, operating margin was 30%, net income was $1.7 billion and diluted earnings per share was $1.05.
+GAAP Quarterly Financial Results
+Q2 2022
+Q2 2021
+Y/Y
+Revenue ($M)
+$6,550
+$3,850
+Up 70%
+Gross profit ($M)
+$3,028
+$1,830
+Up 65%
+Gross margin %
+46%
+48%
+Down 140 bps
+Operating expenses ($M)
+$2,508
+$1,000
+Up 151%
+Operating income ($M)
+$526
+$831
+Down 37%
+Operating margin %
+8%
+22%
+Down 14 pp
+Net income ($M)
+$447
+$710
+Down 37%
+Earnings per share
+$0.27
+$0.58
+Down 53%
+Non-GAAP(*) Quarterly Financial Results
+Q2 2022
+Q2 2021
+Y/Y
+Revenue ($M)
+$6,550
+$3,850
+Up 70%
+Gross profit ($M)
+$3,538
+$1,832
+Up 93%
+Gross margin %
+54%
+48%
+Up 640 bps
+Operating expenses ($M)
+$1,562
+$909
+Up 72%
+Operating income ($M)
+$1,982
+$924
+Up 115%
+Operating margin %
+30%
+24%
+Up 6 pp
+Net income ($M)
+$1,707
+$778
+Up 119%
+Earnings per share
+$1.05
+$0.63
+Up 67%
+1
+“We delivered our eighth straight quarter of record revenue based on our strong execution and expanded product portfolio,” said AMD Chair and CEO Dr. Lisa Su. “Each of our segments grew significantly year-over-year, led by higher sales of our data center and embedded products. We see continued growth in the back half of the year highlighted by our next generation 5nm product shipments and supported by our diversified business model.”
+Q2 2022 Financial Summary
+•
+Revenue of $6.6 billion increased 70% year-over-year driven by growth across all segments and the inclusion of Xilinx revenue.
+•
+Gross margin was 46%, a decrease of 2 percentage points year-over-year, primarily due to amortization of intangible assets associated with the Xilinx acquisition. Non-GAAP gross margin was 54%, an increase of 6 percentage points year-over-year, primarily driven by higher Data Center and Embedded segment revenue.
+•
+Operating income was $526 million, or 8% of revenue, compared to $831 million or 22% a year ago primarily due to amortization of intangible assets associated with the Xilinx acquisition. Record non-GAAP operating income was $2.0 billion, or 30% of revenue, up from $924 million or 24% a year ago primarily driven by higher revenue and gross profit.
+•
+Net income was $447 million compared to $710 million a year ago primarily due to lower operating income. Record non-GAAP net income was $1.7 billion, up from $778 million a year ago primarily driven by higher operating income.
+•
+Diluted earnings per share was $0.27 compared to $0.58 a year ago primarily due to lower net income and a higher share count as a result of the Xilinx acquisition. Non-GAAP diluted earnings per share was $1.05 compared to $0.63 a year ago primarily driven by higher net income.
+•
+Cash, cash equivalents and short-term investments were $6.0 billion at the end of the quarter and debt was $2.8 billion. AMD repurchased $920 million of common stock during the quarter.
+•
+Cash from operations was a record $1.04 billion in the quarter, compared to $952 million a year ago. Free cash flow was $906 million in the quarter compared to $888 million a year ago.
+•
+Goodwill and acquisition-related intangible assets associated with the acquisitions of Xilinx and Pensando were $50.4 billion.
+Quarterly Segment Financial Summary
+•
+AMD previously announced new segments beginning the second quarter to align financial reporting with the way AMD now manages its business in strategic end markets.
+•
+Data Center segment includes server CPUs, data center GPUs, Pensando and Xilinx data center products.
+•
+Client segment includes desktop and notebook PC processors and chipsets.
+2
+•
+Gaming segment includes discrete graphics processors and semi-custom game console products.
+•
+Embedded segment includes AMD and Xilinx embedded products.
+•
+Prior period results have been conformed to the new reporting segments for comparison purposes.
+•
+Data Center segment revenue was $1.5 billion, up 83% year-over-year driven by strong sales of EPYC™ server processors. Operating income was $472 million, or 32% of revenue, compared to $204 million or 25% a year ago. Operating income improvement was primarily driven by higher revenue, partially offset by higher operating expenses.
+•
+Client segment revenue was $2.2 billion, up 25% year-over-year driven by Ryzen™ mobile processor sales. Client processor ASP increased year-over-year driven by a richer mix of Ryzen mobile processor sales. Operating income was $676 million, or 32% of revenue, compared to $538 million or 31% a year ago. Operating income improvement was primarily driven by higher revenue, partially offset by higher operating expenses.
+•
+Gaming segment revenue was $1.7 billion, up 32% year-over-year driven by higher semi-custom product sales, partially offset by a decline in gaming graphics revenue. Operating income was $187 million, or 11% of revenue, compared to $175 million or 14% a year ago. Operating income improvement was primarily driven by higher revenue, partially offset by higher operating expenses. Operating margin was lower primarily due to lower graphics revenue and higher operating expenses.
+•
+Embedded segment revenue was $1.3 billion, up 2,228% year-over-year driven by the inclusion of Xilinx embedded revenue. Operating income was $641 million, or 51% of revenue, compared to $6 million or 11% a year ago. Operating income and margin improvement was primarily driven by the inclusion of Xilinx revenue.
+•
+All Other operating loss was $1.5 billion as compared to $92 million a year ago due to amortization of intangible assets largely associated with the Xilinx acquisition.
+Recent PR Highlights
+•
+At its Financial Analyst Day, AMD detailed leadership roadmaps and an expanded product portfolio to deliver its next phase of growth across the estimated $300 billion market for high-performance and adaptive computing solutions, including:
+•
+New details on the “Zen 4” core architecture, expected to deliver significant performance and power efficiency improvements over the previous generation.
+•
+The “Zen 5” core planned for 2024, which is built from the ground up to extend performance and efficiency leadership across a broad range of workloads.
+•
+AMD CDNA™ 3 graphics architecture featuring 3D die stacking, 4
+th
+generation Infinity Architecture, next-generation AMD Infinity Cache™ technology and HBM memory in a
+3
+single package to power what are expected to be the world’s first data center APUs, AMD Instinct™ MI300 accelerators.
+•
+AMD RDNA
+™
+3 next generation graphics architecture expected to deliver more than 50% greater performance-per-watt compared to the prior generation.
+•
+AMD XDNA
+™
+technology, the foundational architecture IP from Xilinx that consists of key technologies including the FPGA fabric and AI Engine (AIE), which is planned to be integrated across the AMD product lineup starting with the “Zen 4”-architecture based “Phoenix Point” mobile processors planned for 2023.
+•
+An expanded data center CPU portfolio, including the first AMD EPYC processor optimized for intelligent edge and communications deployments, codenamed “Siena,” and the “Bergamo” processors, expected to be the highest performance server processors for cloud native computing at their launch planned for the first half of 2023.
+•
+AMD completed the acquisition of Pensando Systems in a transaction valued at approximately $1.9 billion to expand AMD’s data center product portfolio with a high-performance data processing unit (DPU) and software stack. Pensando DPUs are already deployed at scale across cloud and enterprise customers including Goldman Sachs, IBM Cloud, Microsoft Azure and Oracle Cloud.
+•
+The Frontier supercomputer, powered by AMD EPYC CPUs and AMD Instinct Accelerators, achieved number one spots on the latest TOP500, GREEN500 and HPL-AI performance lists, an industry first, and was the first supercomputer to surpass the exaflop barrier.
+•
+The HPC industry continues to show rapidly growing preference for AMD solutions, with a 95% year-over-year increase in the number of AMD-powered systems on the TOP500 list.
+•
+The cloud computing industry continues to show growing preference for AMD products.
+▪
+Google Cloud N2D and C2D virtual machines (VMs) are enabling enhanced security offerings with 3
+rd
+Gen AMD EPYC processors
+▪
+As part of the Oracle Cloud VMware®  solution product offering, new Oracle Cloud Infrastructure E4 Dense instances leverage AMD EPYC processors to deliver ideal performance for hybrid cloud environments
+▪
+Microsoft Azure is the first public cloud provider to deploy AMD Instinct MI200 accelerators for large scale AI training.
+•
+Canon selected the Versal™ AI Core series for the Canon Free Viewpoint Video System to power real-time AI processing at the edge, transforming live sports broadcasts.
+•
+AMD introduced the Versal Premium series with AI Engines, optimized for signal processing-intensive applications in the aerospace and defense and test and measurement markets.
+•
+AMD announced that its Xilinx® Zynq® UltraScale+™ RFSoC is enabling 4G/5G radio access network solutions to support the Meta Connectivity Evenstar Program.
+4
+•
+At COMPUTEX 2022, AMD provided new details on the new Ryzen 7000 Series desktop processors, based on the 5nm “Zen 4” architecture, expected to launch this fall; the AMD Socket AM5 platform, providing advanced connectivity for the most demanding enthusiasts and gamers; and new “Mendocino” processors bringing together “Zen 2” cores and AMD RDNA 2 architecture-based graphics to deliver great everyday performance in notebooks, available from OEM partners starting in Q4 2022.
+•
+AMD announced the Radeon™ RX 6950 XT, RX 6750 XT and RX 6650 XT graphics cards, featuring faster game clocks, faster GDDR6 memory and enhanced software and firmware compared to previous-generation products.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the third quarter of 2022, AMD expects revenue to be approximately $6.7 billion, plus or minus $200 million, an increase of approximately 55% year-over-year led by growth in the Data Center and Embedded segments. AMD expects non-GAAP gross margin to be approximately 54% in the third quarter of 2022.
+For the full year 2022, AMD continues to expect revenue to be approximately $26.3 billion, plus or minus $300 million, an increase of approximately 60% over 2021 led by growth in the Data Center and Embedded segments. AMD continues to expect non-GAAP gross margin to be approximately 54% for 2022.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its second quarter 2022 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com.
+5
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+June 25,
+2022
+June 26,
+2021
+GAAP gross profit
+$
+3,028
+$
+1,830
+GAAP gross margin %
+46
+%
+48
+%
+Stock-based compensation
+8
+2
+Acquisition-related costs
+(1)
+95
+—
+Amortization of acquired intangible assets
+407
+—
+Non-GAAP gross profit
+$
+3,538
+$
+1,832
+Non-GAAP gross margin %
+54
+%
+48
+%
+GAAP operating expenses
+$
+2,508
+$
+1,000
+GAAP operating expenses/revenue %
+38
+%
+26
+%
+Stock-based compensation
+251
+81
+Acquisition-related costs
+(1)
+79
+10
+Amortization of acquired intangible assets
+616
+—
+Non-GAAP operating expenses
+$
+1,562
+$
+909
+Non-GAAP operating expenses/revenue %
+24
+%
+24
+%
+GAAP operating income
+$
+526
+$
+831
+GAAP operating margin %
+8
+%
+22
+%
+Stock-based compensation
+259
+83
+Acquisition-related costs
+(1)
+174
+10
+Amortization of acquired intangible assets
+1,023
+—
+Non-GAAP operating income
+$
+1,982
+$
+924
+Non-GAAP operating margin %
+30
+%
+24
+%
+Three Months Ended
+June 25,
+2022
+June 26,
+2021
+GAAP net income / earnings per share
+$
+447
+$
+0.27
+$
+710
+$
+0.58
+Loss on debt redemption/conversion
+—
+—
+1
+—
+(Gains) losses on equity investments, net
+10
+—
+—
+—
+Stock-based compensation
+259
+0.16
+83
+0.06
+Equity income in investee
+(4)
+—
+(2)
+—
+Acquisition-related costs
+(1)
+174
+0.11
+10
+0.01
+Amortization of acquired intangible assets
+1,023
+0.63
+—
+—
+Income tax provision
+(202)
+(0.12)
+(24)
+(0.02)
+Non-GAAP net income / earnings per share
+$
+1,707
+$
+1.05
+$
+778
+$
+0.63
+(1)
+Acquisition-related costs primarily comprised of transaction costs, purchase price adjustments for inventory and certain compensation charges
+6

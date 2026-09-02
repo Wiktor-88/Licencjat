@@ -295,13 +295,13 @@ def main() -> None:
         raise FileNotFoundError(f"Nie znaleziono pliku:\n{INPUT_FILE}")
 
 
-    print("Robienie cech rynkowych")
+    logger.info("Tworzenie cech rynkowych")
     df_market = pd.read_csv(INPUT_FILE)
 
-    print(f"\nLiczba wierszy: {len(df_market)}")
+    logger.info("Liczba wierszy wejściowych: %d", len(df_market))
 
     if "Ticker" in df_market.columns:
-        print(f"Liczba tickerów: {df_market['Ticker'].nunique()}")
+        logger.info("Liczba tickerów: %d", df_market["Ticker"].nunique())
 
 
     
@@ -317,14 +317,9 @@ def main() -> None:
     df_features.to_csv(OUTPUT_FILE, index=False)
 
     
-    print("\n" + "-" * 80)
-    print("Podsuwmoanie")
-
-    print(f"\nLiczba wierszy: {len(df_features)}")
-    print(f"Liczba wierszy z kompletem cech modelowych: {ready_count}")
-
-    print("\nBraki w cechach:")
-    print(df_features[MODEL_FEATURE_COLUMNS].isna().sum())
+    logger.info("Liczba wierszy po utworzeniu cech: %d", len(df_features))
+    logger.info("Liczba wierszy z kompletem cech modelowych: %d", ready_count)
+    logger.info("Braki w cechach:\n%s", df_features[MODEL_FEATURE_COLUMNS].isna().sum().to_string())
 
     columns_to_show = [
         "Ticker", "Date", "Adj_Close",
@@ -335,8 +330,7 @@ def main() -> None:
 
     preview = df_features.groupby("Ticker", group_keys=False).tail(3)
 
-    print("\nOstatnie 3 sesje każdego tickera:")
-    print(preview[columns_to_show].to_string(index=False))
+    logger.info("Ostatnie 3 sesje każdego tickera:\n%s", preview[columns_to_show].to_string(index=False))
 
 
 

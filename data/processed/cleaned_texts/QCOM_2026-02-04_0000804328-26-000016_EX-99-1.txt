@@ -1,1 +1,117 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces First Quarter Fiscal 2026 Results
+Record Revenues: $12.3 billion
+GAAP EPS: $2.78, Non-GAAP EPS: $3.50
+—Record Quarterly Total Company and QCT Revenues—
+—Record QCT Automotive Revenues: 2nd Consecutive Quarter of Greater Than $1 Billion—
+—Completed Acquisition of Alphawave Semi Accelerating Our Expansion into Data Centers—
+SAN DIEGO - February 4, 2026
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal first quarter ended December 28, 2025.
+“We are pleased to deliver strong quarterly results, with record total company revenues,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “Our momentum across personal, industrial and physical AI is growing, as evidenced by recent product announcements at CES and customer traction. While our near-term handsets outlook is impacted by industry-wide memory supply constraints, we are encouraged by end-consumer demand for premium and high tier smartphones, and remain on track to achieve our fiscal 2029 revenue goals.”
+First Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q1 Fiscal 2026
+Q1 Fiscal 2025
+Change
+Q1 Fiscal 2026
+Q1 Fiscal 2025
+Change
+Revenues
+$12,252
+$11,669
++5%
+$12,252
+$11,669
++5%
+Earnings before taxes (EBT)
+$3,547
+$3,635
+(2%)
+$4,372
+$4,427
+(1%)
+Net income
+$3,004
+$3,180
+(6%)
+$3,781
+$3,830
+(1%)
+Diluted earnings per share (EPS)
+$2.78
+$2.83
+(2%)
+$3.50
+$3.41
++3%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q1 Fiscal 2026
+Q1 Fiscal 2025
+Change
+Q1 Fiscal 2026
+Q1 Fiscal 2025
+Change
+Revenues
+$10,613
+$10,084
++5%
+$1,592
+$1,535
++4%
+EBT
+$3,302
+$3,246
++2%
+$1,231
+$1,158
++6%
+EBT as % of revenues
+31%
+32%
+-1 point
+77%
+75%
++2 points
+Qualcomm Announces First Quarter Fiscal 2026 Results
+Page 2 of 8
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q1 Fiscal 2026
+Q1 Fiscal 2025
+Change
+Handsets
+$7,824
+$7,574
++3%
+Automotive
+1,101
+961
++15%
+IoT (internet of things)
+1,688
+1,549
++9%
+Total QCT revenues
+$10,613
+$10,084
++5%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the first quarter of fiscal 2026, we returned $3.6 billion to stockholders, including $949 million, or $0.89 per share, of cash dividends paid and $2.6 billion
+through repurchases of 15 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

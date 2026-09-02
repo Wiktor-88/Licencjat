@@ -1,1 +1,478 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Phil Hughes
+AMD Communications
+512-865-9697
+phil.hughes@amd.com
+Investor Contact:
+Liz Stine
+AMD Investor Relations
+720-652-3965
+liz.stine@amd.com
+AMD Reports Second Quarter 2025 Financial Results
+SANTA CLARA, Calif. ― August 5, 2025 ―
+AMD (NASDAQ:AMD) today announced financial results for the second quarter of 2025. Second quarter revenue was a record $7.7 billion, gross margin was 40%, operating loss was $134 million, net income was $872
+million
+and diluted earnings per share was
+$
+0.54
+.
+On a non-GAAP
+(*)
+basis, gross margin was 43%, operating income was $897 million, net income was $781 million and diluted earnings per share was $0.48. As previously announced, our second quarter results were impacted by the U.S. Government's export control on our AMD Instinct™ MI308 data center GPU products. For the quarter, these restrictions led to approximately $800 million in inventory and related charges. Excluding these charges, non-GAAP gross margin would have been approximately 54%.
+“We delivered strong revenue growth in the second quarter led by record server and PC processor sales,” said Dr. Lisa Su, AMD Chair and CEO. “We are seeing robust demand across our computing and AI product portfolio and are well positioned to deliver significant growth in the second half of the year, driven by the ramp of our AMD Instinct MI350 series accelerators and ongoing EPYC and Ryzen processor share gains.”
+“We achieved 32% year-over-year revenue growth and generated record free cash flow this quarter, reflecting our disciplined execution,” said Jean Hu, AMD EVP, CFO and Treasurer. “Our strategic investments across hardware, software and systems position us well to support robust future growth and drive long-term shareholder value.”
+1
+GAAP Quarterly Financial Results
+Q2 2025
+Q2 2024
+Y/Y
+Q1 2025
+Q/Q
+Revenue ($M)
+$7,685
+$5,835
+Up 32%
+$7,438
+Up 3%
+Gross profit ($M)
+$3,059
+$2,864
+Up 7%
+$3,736
+Down 18%
+Gross margin
+40%
+49%
+Down 9 ppts
+50%
+Down 10 ppts
+Operating expenses ($M)
+$3,193
+$2,595
+Up 23%
+$2,930
+Up 9%
+Operating income (loss) ($M)
+$(134)
+$269
+Down 150%
+$806
+Down 117%
+Operating margin
+(2)%
+5%
+Down 7 ppts
+11%
+Down 13 ppts
+Net income ($M)
+$872
+$265
+Up 229%
+$709
+Up 23%
+Diluted earnings per share
+$0.54
+$0.16
+Up 238%
+$0.44
+Up 23%
+Non-GAAP(*) Quarterly Financial Results
+Q2 2025
+Q2 2024
+Y/Y
+Q1 2025
+Q/Q
+Revenue ($M)
+$7,685
+$5,835
+Up 32%
+$7,438
+Up 3%
+Gross profit ($M)
+$3,326
+$3,101
+Up 7%
+$3,992
+Down 17%
+Gross margin
+43%
+53%
+Down 10 ppts
+54%
+Down 11 ppts
+Operating expenses ($M)
+$2,429
+$1,837
+Up 32%
+$2,213
+Up 10%
+Operating income ($M)
+$897
+$1,264
+Down 29%
+$1,779
+Down 50%
+Operating margin
+12%
+22%
+Down 10 ppts
+24%
+Down 12 ppts
+Net income ($M)
+$781
+$1,126
+Down 31%
+$1,566
+Down 50%
+Diluted earnings per share
+$0.48
+$0.69
+Down 30%
+$0.96
+Down 50%
+Segment Summary
+•
+Data Center segment revenue was $3.2 billion, up 14% year-over-year primarily driven by strong demand for AMD EPYC™ processors more than offsetting headwinds impacting AMD Instinct MI308 shipments to China.
+•
+Client and Gaming segment revenue was $3.6 billion, up 69% year-over-year. Client revenue was a record $2.5 billion, up 67% year-over-year primarily driven by strong demand for the latest “Zen 5” AMD Ryzen™ desktop processors and a richer product mix. Gaming revenue was $1.1 billion, up 73% year-over-year driven by an increase in semi-custom revenue and strong AMD Radeon™ GPU demand.
+•
+Embedded segment revenue was $824 million, down 4% year-over-year as demand in end markets remained mixed.
+Recent PR Highlights
+•
+At Advancing AI 2025, AMD
+announced
+its latest AI solutions, roadmap and vision for an open AI ecosystem alongside partners including Meta, OpenAI, xAI, Oracle and Microsoft. Event announcements included:
+2
+◦
+AMD Instinct MI350 Series GPUs and systems, with leadership performance, efficiency and scalability for generative AI and high-performance computing.
+◦
+Next-generation “Helios” rack-scale solution powered by AMD Instinct MI400 GPUs, AMD EPYC “Venice” CPUs and AMD Pensando™ “Vulcano” NICs.
+◦
+AMD ROCm™ 7 platform, the newest version of the AMD open-source AI software stack, delivering expanded support, tools and enterprise capabilities.
+◦
+The AMD Developer Cloud, a platform to provide open-source contributors and developers with on-demand access to high-performance AMD Instinct MI300X GPUs.
+•
+Strategic AMD partners announced data center and AI infrastructure and services powered by AMD Instinct GPUs and EPYC CPUs:
+◦
+HUMAIN and AMD
+announced
+a strategic collaboration to advance global AI infrastructure by deploying 500 megawatts of AI compute capacity over the next five years.
+◦
+Red Hat and AMD
+expanded
+their strategic collaboration to deliver high-performance AI inference with vLLM on AMD Instinct GPUs along with Red Hat OpenShift Virtualization on AMD EPYC CPUs for optimized enterprise application deployment across the hybrid cloud.
+◦
+AMD and KDDI
+announced
+an agreement to leverage 4th Gen AMD EPYC CPUs for its advanced 5G virtualized network.
+◦
+Nokia will use 5
+th
+Gen AMD EPYC processors to power its
+Nokia Cloud Platform
+, bringing leadership performance and performance-per-watt to next-generation telecom infrastructure.
+◦
+Dell
+announced
+the new Dell AI platform including the Dell PowerEdge XE9785 and XE9785L servers that maximize performance and efficiency with AMD Instinct MI350 Series GPUs and AMD EPYC CPUs.
+◦
+AMD announced the availability of the
+AMD EPYC 4005 Series processors
+designed to deliver enterprise-class features and leadership performance for growing businesses and hosted IT service providers.
+•
+AMD now powers 172 supercomputers on the latest
+Top500 Supercomputers list
+, including the top two – El Capitan and Frontier – and 12 of the top 20 systems on the Green500 list.
+•
+AMD expanded its CPU and GPU portfolio for gamers, creators and developers:
+◦
+AMD
+announced
+the AMD Ryzen Threadripper™ 9000WX and Ryzen Threadripper PRO 9000X Series processors enabling leadership workstation compute for the most demanding workloads.
+◦
+AMD
+launched
+the Radeon RX 9060 XT with leadership gaming performance-per-dollar.
+3
+◦
+AMD
+announced
+the AMD Radeon AI PRO R9700 GPU, designed for local AI inference, model finetuning and complex creative workloads, with scalability for multi-GPU systems.
+•
+AMD is continuing to expand its portfolio of leadership embedded solutions for a broad set of markets:
+◦
+Began shipments of the first
+AMD Spartan™ UltraScale+™ FPGA devices
+, delivering performance, low power, security features and reliability for cost-sensitive edge applications.
+◦
+Bosch and AMD are
+collaborating
+on next-generation robotaxi services in Europe which includes a pilot program leveraging the AMD Versal™ device to support security and real-time encryption.
+•
+AMD
+announced
+that it has entered into a definitive agreement to sell ZT Systems’ data center infrastructure manufacturing business to Sanmina for $3 billion in cash and stock, inclusive of a contingent payment of up to $450 million. As part of the transaction, Sanmina will become a preferred new product introduction manufacturing partner for AMD cloud rack and cluster-scale AI solutions. The transaction is expected to close near the end of 2025, subject to regulatory approvals and customary closing conditions.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the third quarter of 2025, AMD expects revenue to be approximately $8.7 billion, plus or minus $300 million. At the mid-point of the revenue range, this represents year-over-year growth of approximately 28% and sequential growth of approximately 13%. Non-GAAP gross margin is expected to be approximately 54%. Our current outlook does not include any revenue from AMD Instinct MI308 shipments to China as our license applications are currently under review by the U.S. Government.
+AMD Teleconference
+AMD will hold a conference call at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its second quarter 2025 financial earnings results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+June 28,
+2025
+March 29,
+2025
+June 29,
+2024
+GAAP gross profit
+$
+3,059
+$
+3,736
+$
+2,864
+GAAP gross margin
+40
+%
+50
+%
+49
+%
+Stock-based compensation
+6
+5
+5
+Amortization of acquisition-related intangibles
+260
+251
+231
+Acquisition-related and other costs
+(1)
+1
+—
+1
+Non-GAAP gross profit
+$
+3,326
+$
+3,992
+$
+3,101
+Non-GAAP gross margin
+43
+%
+54
+%
+53
+%
+GAAP operating expenses
+(2)
+$
+3,193
+$
+2,930
+$
+2,595
+GAAP operating expenses/revenue %
+42
+%
+39
+%
+44
+%
+Stock-based compensation
+363
+359
+341
+Amortization of acquisition-related intangibles
+308
+316
+372
+Acquisition-related and other costs
+(1)
+93
+42
+45
+Non-GAAP operating expenses
+(2)
+$
+2,429
+$
+2,213
+$
+1,837
+Non-GAAP operating expenses/revenue %
+32
+%
+30
+%
+31
+%
+GAAP operating income (loss)
+$
+(134)
+$
+806
+$
+269
+GAAP operating margin
+(2)
+%
+11
+%
+5
+%
+Stock-based compensation
+369
+364
+346
+Amortization of acquisition-related intangibles
+568
+567
+603
+Acquisition-related and other costs
+(1)
+94
+42
+46
+Non-GAAP operating income
+$
+897
+$
+1,779
+$
+1,264
+Non-GAAP operating margin
+12
+%
+24
+%
+22
+%
+Three Months Ended
+June 28,
+2025
+March 29,
+2025
+June 29,
+2024
+GAAP net income / earnings per share
+$
+872
+$
+0.54
+$
+709
+$
+0.44
+$
+265
+$
+0.16
+(Gains) losses on equity investments, net
+(61)
+(0.04)
+2
+—
+—
+—
+Stock-based compensation
+369
+0.23
+364
+0.22
+346
+0.21
+Equity income in investee
+(8)
+—
+(7)
+—
+(7)
+—
+Amortization of acquisition-related intangibles
+568
+0.35
+567
+0.35
+603
+0.37
+Acquisition-related and other costs
+(1)
+96
+0.05
+42
+0.03
+46
+0.03
+Release of reserves for uncertain tax positions
+(3)
+(853)
+(0.52)
+—
+—
+—
+—
+Income tax provision
+(98)
+(0.06)
+(111)
+(0.08)
+(127)
+(0.08)
+Income from discontinued operations, net of tax
+(4)
+(104)
+(0.07)
+—
+—
+—
+—
+Non-GAAP net income / earnings per share
+$
+781
+$
+0.48
+$
+1,566
+$
+0.96
+$
+1,126
+$
+0.69
+(1) Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges and workforce rebalancing charges.
+(2) Effective first quarter of 2025, licensing gain is reclassified against Marketing, general and administrative expenses as the amounts were immaterial.
+(3) Release of reserves for uncertain tax positions pertains to the reasonable cause relief related to dual consolidated losses approved by IRS in Q2'25.
+(4)  Income from discontinued operations is related to ZT Systems' manufacturing business which is classified as held-for-sale.
+5
+RECONCILIATION OF GAAP TO ADJUSTED NON-GAAP FINANCIAL MEASURES
+(Millions) (Unaudited)
+Three Months Ended
+June 28,
+2025
+GAAP gross profit
+$
+3,059
+GAAP gross margin
+40
+%
+Stock-based compensation, amortization of acquisition-related intangibles, acquisition-related and other costs
+267
+Inventory and related charges associated with U.S. export restrictions
+800
+Non-GAAP gross profit (as adjusted to exclude inventory and related charges associated with U.S. export restrictions)
+$
+4,126
+Non-GAAP gross margin (as adjusted to exclude inventory and related charges associated with U.S. export restrictions)
+54
+%

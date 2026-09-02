@@ -1,1 +1,82 @@
-EX-99.1 Exhibit 99.1 Intel Announces Intent to Take Mobileye Public Initial public offering builds on Mobileye’s revenue growth and record of innovation and unlocks value for Intel shareholders. NEWS HIGHLIGHTS: • Mobileye is a market leader in driver-assistance and autonomous driving solutions. It expects to deliver over 40% more revenue in 2021 compared with 2020, along with a record 41 new program wins with more than 30 leading automakers worldwide. • Mobileye recently shipped its 100 millionth EyeQ ® system-on-chip, unveiled its production robotaxi , and scaled its autonomous vehicle testing across multiple cities around the world covering the U.S., Europe and Asia. • Intel will maintain majority ownership of Mobileye. • Intel and Mobileye will continue co-development of solutions and technologies to further both companies’ interests in the automotive tech market. • Prof. Amnon Shashua and the Mobileye executive team will remain at Mobileye. SANTA CLARA, Calif, Dec. 6, 2021 – With the full support of Intel’s board of directors, Intel today announced its intention to take Mobileye public in the United States in mid-2022 via an initial public offering (IPO) of newly issued Mobileye stock. The move will unlock the value of Mobileye for Intel shareholders by creating a separate publicly traded company and will build on Mobileye’s successful track record and serve its expanded market. Intel will remain the majority owner of Mobileye, and the two companies will continue as strategic partners, collaborating on projects as they pursue the growth of computing in the automotive sector. The share of semiconductors is expected to be 20% of a premium vehicle’s total bill-of-materials (BOM) by 2030 1 . The Mobileye executive team will remain, with Prof. Amnon Shashua continuing as the company’s CEO. Recently acquired Moovit as well as Intel teams working on lidar and radar development and other Mobileye projects will be aligned as part of Mobileye. In the four years since Mobileye was acquired by Intel, Mobileye has experienced substantial revenue growth, achieved numerous technical innovations and made significant investments directed to solving the most difficult scientific and technology problems to prepare the deployment of autonomous driving at scale. “Intel’s acquisition of Mobileye has been a great success. Mobileye has achieved record revenue year-over-year with 2021 gains expected to be more than 40 percent higher than 2020, highlighting the powerful benefits to both companies of our ongoing partnership,” Intel CEO Pat Gelsinger said. “Amnon and I determined that an IPO provides the best opportunity to build on Mobileye’s track record for innovation and unlock value for shareholders.” Mobileye is a global leader and at the forefront of innovation in advanced driver-assistance systems (ADAS) and self-driving solutions – a rapidly growing and evolving market that is transforming the movement of goods and people globally. In 2021, Mobileye shipped its 100 millionth EyeQ ® system-on-chip (SoC), scaled autonomous vehicle (AV) test programs across multiple cities around the world covering the U.S., Europe and Asia, unveiled its production robotaxi, and secured 41 new ADAS program wins across more than 30 automakers globally. New program wins range from core driver-assistance technology through next-generation driver-assistance and full self-driving systems. The company has also secured multiple deals for mobility-as-a-service (MaaS) programs starting in 2023, as well as consumer and business-to-business vehicle production designs for Mobileye’s self-driving system starting in 2024. “Mobileye has realized accelerated growth and opportunity since joining the Intel family, nearly tripling annual chip shipments, revenue and the number of employees since the acquisition,” said Shashua, founder and CEO of Mobileye. “Our alignment with Intel continues to provide Mobileye with valuable technical resources and support that has yielded strong revenue along with free cash flow that allows us to fund our AV development work from current revenue. Intel and Mobileye’s ongoing technology co-development will continue to deliver great platform solutions for our customers.” Intel’s long-term commitment to the automotive market is underscored by recently announced programs, including the Intel Foundry Services Accelerator and dedicated capacity for the automotive industry. Intel will continue to support Mobileye with technical resources to deliver industry-leading sensor technologies, while Mobileye’s strength in the automotive sector will continue to enable Intel to address the automotive sector’s fast-growing silicon BOM opportunity. Intel’s global reach along with its ability to offer a geographically diverse supply chain, global manufacturing network and expertise in radar, lidar and software continues to position Mobileye for ongoing collaborative success. Mobileye went public in 2014; it was acquired by Intel in 2017. Intel currently owns 100% of Mobileye shares and is expected to retain majority ownership following the completion of the IPO. Intel has no intention of spinning off or otherwise divesting its majority ownership interest. A final decision on the IPO and its conditions and ultimate timing is pending and subject to market conditions. Intel, as majority shareholder, will continue to fully consolidate Mobileye. The transaction is not expected to have an impact on Intel’s 2021 financial targets. 1 Source: Roland Berger Computer of Wheels, McKinsey, Intel No Offer or Solicitation A registration statement relating to the common shares to be sold in the Mobileye IPO is expected to be filed with the U.S. Securities and Exchange Commission (the “SEC”), but has not been filed or become effective. The common shares may not be sold and offers may not be accepted prior to the time the registration statement becomes effective. This release does not constitute an offer to sell or the solicitation of any offer to buy, and there shall not be any sale of the common shares in any state in which such offer, solicitation or sale would be unlawful prior the registration or qualification under the securities laws of any such state. Cautionary Note Regarding
+EX-99.1
+Exhibit 99.1
+Intel Announces Intent to Take Mobileye Public
+Initial public offering builds on Mobileyes revenue growth and record of innovation and unlocks value for Intel shareholders.
+NEWS HIGHLIGHTS:
+
+Mobileye is a market leader in driver-assistance and autonomous driving solutions. It expects to deliver over 40% more
+revenue in 2021 compared with 2020, along with a record 41 new program wins with more than 30 leading automakers worldwide.
+
+Mobileye recently shipped its 100 millionth EyeQ
+®
+system-on-chip,
+unveiled its
+production robotaxi
+, and scaled its autonomous vehicle
+testing
+across multiple cities around the world covering the U.S., Europe and
+Asia.
+
+Intel will maintain majority ownership of Mobileye.
+
+Intel and Mobileye will continue
+co-development
+of solutions and technologies to
+further both companies interests in the automotive tech market.
+
+Prof. Amnon Shashua and the Mobileye executive team will remain at Mobileye.
+SANTA CLARA, Calif, Dec. 6, 2021 
+With the full support of Intels board of directors,
+Intel today announced its intention to take Mobileye
+public in the United States in
+mid-2022
+via an initial public offering (IPO) of newly issued Mobileye stock. The move will unlock the value of Mobileye for Intel shareholders by creating a separate publicly
+traded company and will build on Mobileyes successful track record and serve its expanded market.
+Intel will remain the majority owner of Mobileye, and the
+two companies will continue as strategic partners, collaborating on projects as they pursue the growth of computing in the automotive sector. The share of semiconductors is expected to be 20% of a premium vehicles total
+bill-of-materials
+(BOM) by 2030
+1
+. The Mobileye executive team will remain, with Prof. Amnon Shashua continuing as the
+companys CEO. Recently acquired Moovit as well as Intel teams working on lidar and radar development and other Mobileye projects will be aligned as part of Mobileye.
+In the four years since Mobileye was acquired by Intel, Mobileye has experienced substantial revenue growth, achieved numerous technical innovations and made
+significant investments directed to solving the most difficult scientific and technology problems to prepare the deployment of autonomous driving at scale.
+Intels acquisition of Mobileye has been a great success. Mobileye has achieved record revenue year-over-year with 2021 gains expected to be more than
+40 percent higher than 2020, highlighting the powerful benefits to both companies of our ongoing partnership, Intel CEO Pat Gelsinger said. Amnon and I determined that an IPO provides the best opportunity to build on Mobileyes
+track record for innovation and unlock value for shareholders.
+Mobileye is a global leader and at the forefront of innovation in advanced driver-assistance
+systems (ADAS) and self-driving solutions  a rapidly growing and evolving market that is transforming the movement of goods and people globally. In 2021, Mobileye shipped its 100 millionth
+EyeQ
+®
+system-on-chip
+(SoC), scaled autonomous vehicle (AV) test programs across multiple cities around the world
+covering the U.S., Europe and Asia, unveiled its production robotaxi, and secured 41 new ADAS program wins across more than 30 automakers globally. New program wins range from core driver-assistance technology through next-generation
+driver-assistance and full self-driving systems. The company has also secured multiple deals for
+mobility-as-a-service
+(MaaS)
+programs starting in 2023, as well as consumer and
+business-to-business
+vehicle production designs for Mobileyes self-driving system starting in 2024.
+Mobileye has realized accelerated growth and opportunity since joining the Intel family, nearly tripling annual chip shipments, revenue and the number of
+employees since the acquisition, said Shashua, founder and CEO of Mobileye. Our alignment with Intel continues to provide Mobileye with valuable technical resources and support that has yielded strong revenue along with free cash flow
+that allows us to fund our AV development work from current revenue. Intel and Mobileyes ongoing technology
+co-development
+will continue to deliver great platform solutions for our customers.
+Intels long-term commitment to the automotive market is underscored by recently announced programs, including
+the Intel Foundry Services Accelerator and dedicated capacity for the automotive industry. Intel will continue to support Mobileye with technical resources to deliver industry-leading sensor technologies, while Mobileyes strength in the
+automotive sector will continue to enable Intel to address the automotive sectors fast-growing silicon BOM opportunity. Intels global reach along with its ability to offer a geographically diverse supply chain, global manufacturing
+network and expertise in radar, lidar and software continues to position Mobileye for ongoing collaborative success.
+Mobileye went public in 2014; it was acquired
+by Intel in 2017. Intel currently owns 100% of Mobileye shares and is expected to retain majority ownership following the completion of the IPO. Intel has no intention of spinning off or otherwise divesting its majority ownership interest.
+A final decision on the IPO and its conditions and ultimate timing is pending and subject to market conditions.
+Intel, as majority shareholder, will continue to fully consolidate Mobileye. The transaction is not expected to have an impact on Intels 2021 financial targets.
+1
+Source: Roland Berger Computer of Wheels, McKinsey, Intel
+No Offer or Solicitation
+A registration statement relating to the common
+shares to be sold in the Mobileye IPO is expected to be filed with the U.S. Securities and Exchange Commission (the SEC), but has not been filed or become effective. The common shares may not be sold and offers may not be accepted prior
+to the time the registration statement becomes effective. This release does not constitute an offer to sell or the solicitation of any offer to buy, and there shall not be any sale of the common shares in any state in which such offer, solicitation
+or sale would be unlawful prior the registration or qualification under the securities laws of any such state.
+Cautionary Note Regarding Forward-Looking
+Statements
+This release contains 

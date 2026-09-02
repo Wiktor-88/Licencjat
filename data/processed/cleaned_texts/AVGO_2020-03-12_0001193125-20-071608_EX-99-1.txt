@@ -1,1 +1,248 @@
-EX-99.1 Exhibit 99.1 Broadcom Inc. Announces First Quarter Fiscal Year 2020 Financial Results, Quarterly Dividend and Updated Guidance • Revenue of $5,858 million; GAAP net income of $385 million; Adjusted EBITDA of $3,265 million • GAAP diluted EPS of $0.74; Non-GAAP diluted EPS of $5.25 • $2,214 million of free cash flow from operations, defined as cash from operations of $2,322 million less capital expenditures of $108 million • Quarterly common stock dividend of $3.25 per share • Providing quarterly guidance, and withdrawing prior annual guidance, in light of uncertainties arising from the effects of COVID-19 • Second quarter revenue guidance of $5.7 billion plus or minus $150 million • Second quarter Adjusted EBITDA guidance of $3,135 million plus or minus $75 million, or 55% of revenue at the midpoint of guidance 1 SAN JOSE, Calif. – March 12, 2020 – Broadcom Inc. (Nasdaq: AVGO ), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today reported financial results for its first quarter of fiscal year 2020, ended February 2, 2020, announced its quarterly dividend and updated guidance. “Our first fiscal quarter results were in line with our expectations, with our networking, storage and broadband businesses together growing nicely year over year,” said Hock Tan, President and CEO of Broadcom Inc. “The fundamental semiconductor backdrop has been improving, and we did not see any material impact on our businesses due to COVID-19 in our first quarter. However, visibility in our global markets is lacking and demand uncertainty is intensifying. As a result, we believe it prudent to withdraw our annual guidance until visibility returns to pre COVID-19 levels.” “We generated over $2.2 billion in free cash flow in the quarter, which represented 9% growth on a year on year basis,” said Tom Krause, CFO of Broadcom Inc. “We ended the first quarter with over $6.4 billion of cash on hand and our cash flow outlook remains healthy. As a result, we are well positioned to continue to support our dividends to stockholders despite the challenging market backdrop.” 1 The Company is not readily able to provide a reconciliation of the projected non-GAAP financial information presented to the relevant projected GAAP measure without unreasonable effort. 1 First Quarter Fiscal Year 2020 Financial Highlights GAAP Non-GAAP (Dollars in millions, except per share data) Q1 20 Q1 19 Change Q1 20 Q1 19 Change Net revenue $ 5,858 $ 5,789 +1 % $ 5,858 $ 5,789 +1 % Net income $ 385 $ 471 -$ 86 $ 2,370 $ 2,446 -$ 76 Earnings per common share - diluted $ 0.74 $ 1.12 -$ 0.38 $ 5.25 $ 5.55 -$ 0.30 (Dollars in millions) Q1 20 Q1 19 Change Cash flow from operations $ 2,322 $ 2,132 +$ 190 Adjusted EBITDA $ 3,265 $ 3,236 +$ 29 Free cash flow $ 2,214 $ 2,033 +$ 181 Net revenue by segment (Dollars in millions) Q1 20 Q1 19 Change Semiconductor solutions $ 4,191 72 % $ 4,386 76 % -4 % Infrastructure software 1,667 28 1,403 24 +19 % Total net revenue $ 5,858 100 % $ 5,789 100 % The Company’s cash and cash equivalents at the end of the first fiscal quarter were $6,444 million, compared to $5,055 million at the end of the prior quarter. During the first fiscal quarter, the Company generated $2,322 million in cash from operations and spent $108 million on capital expenditures. On December 31, 2019, the Company paid a cash dividend of $3.25 per share of common stock, totaling $1,297 million and a cash dividend of $20.00 per share of mandatory convertible preferred stock, totaling $75 million. The differences between the Company’s GAAP and non-GAAP results are described generally under “Non-GAAP Financial Measures” below, and presented in detail in the financial reconciliation tables attached to this release. Second Quarter Fiscal Year 2020 Business Outlook In light of the uncertainties in the global business environment arising from the effects of COVID-19, the Company is withdrawing its prior annual guidance for fiscal year 2020, and providing guidance for its second fiscal quarter. Based on current business trends and conditions, the outlook for the second quarter of fiscal year 2020, ending May 3, 2020, including contributions from the Symantec enterprise security business, is expected to be as follows: 2 • Second quarter revenue guidance of $5.7 billion plus or minus $150 million • Second quarter Adjusted EBITDA of $3,135 million plus or minus $75 million, or 55% of revenue at the midpoint of guidance 1 The guidance provided above is only an estimate of what the Company believes is realizable as of the date of this release. The Company is not readily able to provide a reconciliation of projected Adjusted EBITDA to projected net income without unreasonable effort. Actual results will vary from the guidance and the variations may be material. The Company undertakes no intent or obligation to publicly update or revise any of these projections, whether as a result of new information, future events or otherwise, except as required by law. Quarterly Dividends The Company’s Board of Directors has approved a quarterly cash dividend on its common stock of $3.25 per share. The common stock dividend is payable on March 31, 2020 to common stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 23, 2020. The Company’s Board of Directors also approved a quarterly cash dividend on its 8.00% Mandatory Convertible Preferred Stock, Series A, of $20.00 per share. This dividend is payable on March 31, 2020 to preferred stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 15, 2020. Financial Results Conference Call Broadcom Inc. will host a conference call to review its financial results for the first quarter of fiscal year 2020, ended February 2, 2020, and to discuss the business outlook, today at 2:00 p.m. Pacific Time. Those wishing to access the call should dial (866) 310-8712; International +1 (720) 634-2946. The passcode is 5272427. A replay of the call will be accessible for one week after the call. To access the replay dial (855) 859-2056; International +1 (404) 537-3406; and reference the passcode: 5272427. A webcast of the conference call will also be available in the “Investors” section of Broadcom’s website at www.broadcom.com. Basis of Presentation The Company’s financial results include contributions from the Symantec enterprise security business’ continuing operations starting in the first quarter of fiscal year 2020. The financial results from businesses that have been classified as discontinued operations in the Company’s financial statements are not included in the results presented above, unless otherwise stated. 3 Non-GAAP Financial Measures In addition to GAAP reporting, Broadcom provides investors with net revenue, net income, operating income, gross margin, operating expenses, cash flow and other data on a non-GAAP basis. This non-GAAP information excludes amortization of acquisition-related intangible assets, stock-based compensation expense, restructuring, impairment and disposal charges, acquisition-related costs, including integration costs, purchase accounting effect on inventory, litigation settlements, debt-related costs, gains (losses) on investments, income (loss) from discontinued operations and non-GAAP tax reconciling adjustments. Management does not believe that these items are reflective of the Company’s underlying performance. Internally, these non-GAAP measures are significant measures used by management for purposes of evaluating the core operating performance of the Company, establishing internal budgets, calculating return on investment for development programs and growth initiatives, comparing performance with internal forecasts and targeted business models, strategic planning, evaluating and valuing potential acquisition candidates and how their operations compare to the Company’s operations, and benchmarking performance externally against the Company’s competitors. The exclusion of these and other similar items from Broadcom’s non-GAAP financial results should not be interpreted as implying that these items are non-recurring, infrequent or unusual. Free cash flow measures have limitations as they omit certain components of the overall cash flow statement and do not represent the residual cash flow available for discretionary expenditures. Investors should not consider presentation of free cash flow measures as implying that stockholders have any right to such cash. Broadcom’s free cash flow may not be calculated in a manner comparable to similarly named measures used by other companies. Broadcom believes this non-GAAP financial information provides additional insight into the Company’s on-going performance. Therefore, Broadcom provides this information to investors for a more consistent basis of comparison and to help them evaluate the results of the Company’s on-going operations and enable more meaningful period to period comparisons. These non-GAAP measures are provided in addition to, and not as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP. A reconciliation between GAAP and non-GAAP financial data is included in the supplemental financial data attached to this press release. About Broadcom Inc. Broadcom Inc., (NASDAQ: AVGO), a Delaware corporation headquartered in San Jose, CA, is a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions. Broadcom’s category-leading product portfolio serves critical markets including data center, networking, enterprise software, broadband, wireless, storage and industrial. Our solutions include data center networking and storage, enterprise, mainframe and cyber security software focused on automation, monitoring and security, smartphone components, telecoms and factory automation. For more information, go to www.broadcom.com. 4 Cautionary Note Regarding
+EX-99.1
+Exhibit 99.1
+Broadcom Inc. Announces First Quarter Fiscal Year 2020 Financial Results, Quarterly Dividend and Updated Guidance
+
+Revenue of $5,858
+million; GAAP net income of $385
+million; Adjusted
+EBITDA of $3,265
+million
+
+GAAP diluted EPS of $0.74;
+Non-GAAP
+diluted EPS of $5.25
+
+$2,214
+million of free cash flow from operations, defined as cash from operations of
+$2,322
+million less capital expenditures of $108
+million
+
+Quarterly common stock dividend of $3.25 per share
+
+Providing quarterly guidance, and withdrawing prior annual guidance, in light of uncertainties arising from
+the effects of
+COVID-19
+
+Second quarter revenue guidance of $5.7
+billion plus or minus
+$150
+million
+
+Second quarter Adjusted EBITDA guidance of $3,135
+million plus or minus
+$75
+million, or 55% of revenue at the midpoint of guidance
+1
+SAN JOSE, Calif. 
+March 12, 2020
+
+Broadcom Inc. (Nasdaq:
+AVGO
+), a global technology leader that designs, develops and
+supplies semiconductor and infrastructure software solutions, today reported financial results for its first quarter of fiscal year 2020, ended February 2, 2020, announced its quarterly dividend and updated guidance.
+Our first fiscal quarter results were in line with our expectations, with our networking, storage and broadband businesses together growing nicely year
+over year, said Hock Tan, President and CEO of Broadcom Inc. The fundamental semiconductor backdrop has been improving, and we did not see any material impact on our businesses due to
+COVID-19
+in
+our first quarter. However, visibility in our global markets is lacking and demand uncertainty is intensifying. As a result, we believe it prudent to withdraw our annual guidance until visibility returns to pre COVID-19 levels.
+We generated over $2.2 billion in free cash flow in the quarter, which represented 9% growth on a year on year basis, said Tom Krause, CFO of
+Broadcom Inc. We ended the first quarter with over $6.4 billion of cash on hand and our cash flow outlook remains healthy. As a result, we are well positioned to continue to support our dividends to stockholders despite the challenging market
+backdrop.
+1
+The Company is not readily able to provide a reconciliation of the projected non-GAAP financial information
+presented to the relevant projected GAAP measure without unreasonable effort.
+1
+First Quarter Fiscal Year 2020 Financial Highlights
+GAAP
+Non-GAAP
+(Dollars in millions, except per share data)
+Q1 20
+Q1 19
+Change
+Q1 20
+Q1 19
+Change
+Net revenue
+$
+5,858
+$
+5,789
++1
+%
+$
+5,858
+$
+5,789
++1
+%
+Net income
+$
+385
+$
+471
+-$
+86
+$
+2,370
+$
+2,446
+-$
+76
+Earnings per common share - diluted
+$
+0.74
+$
+1.12
+-$
+0.38
+$
+5.25
+$
+5.55
+-$
+0.30
+(Dollars in millions)
+Q1 20
+Q1 19
+Change
+Cash flow from operations
+$
+2,322
+$
+2,132
++$
+190
+Adjusted EBITDA
+$
+3,265
+$
+3,236
++$
+29
+Free cash flow
+$
+2,214
+$
+2,033
++$
+181
+Net revenue by segment
+(Dollars in millions)
+Q1 20
+Q1 19
+Change
+Semiconductor solutions
+$
+4,191
+72
+%
+$
+4,386
+76
+%
+-4
+%
+Infrastructure software
+1,667
+28
+1,403
+24
++19
+%
+Total net revenue
+$
+5,858
+100
+%
+$
+5,789
+100
+%
+The Companys cash and cash equivalents at the end of the first fiscal quarter were $6,444 million, compared to
+$5,055 million at the end of the prior quarter.
+During the first fiscal quarter, the Company generated $2,322 million in cash from operations
+and spent $108 million on capital expenditures.
+On December 31, 2019, the Company paid a cash dividend of $3.25 per share of common stock,
+totaling $1,297 million and a cash dividend of $20.00 per share of mandatory convertible preferred stock, totaling $75 million.
+The differences
+between the Companys GAAP and
+non-GAAP
+results are described generally under
+Non-GAAP
+Financial Measures below, and presented in detail in the
+financial reconciliation tables attached to this release.
+Second Quarter Fiscal Year 2020 Business Outlook
+In light of the uncertainties in the global business environment arising from the effects of
+COVID-19,
+the Company is
+withdrawing its prior annual guidance for fiscal year 2020, and providing guidance for its second fiscal quarter.
+Based on current business trends and
+conditions, the outlook for the second quarter of fiscal year 2020, ending May 3, 2020, including contributions from the Symantec enterprise security business, is expected to be as follows:
+2
+
+Second quarter revenue guidance of $5.7 billion plus or minus $150 million
+
+Second quarter Adjusted EBITDA of $3,135 million plus or minus $75 million, or 55% of revenue at the
+midpoint of guidance
+1
+The guidance provided above is only an estimate of what the
+Company believes is realizable as of the date of this release. The Company is not readily able to provide a reconciliation of projected Adjusted EBITDA to projected net income without unreasonable effort. Actual results will vary from the guidance
+and the variations may be material. The Company undertakes no intent or obligation to publicly update or revise any of these projections, whether as a result of new information, future events or otherwise, except as required by law.
+Quarterly Dividends
+The Companys Board of
+Directors has approved a quarterly cash dividend on its common stock of $3.25 per share. The common stock dividend is payable on March 31, 2020 to common stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 23,
+2020.
+The Companys Board of Directors also approved a quarterly cash dividend on its 8.00% Mandatory Convertible Preferred Stock, Series A, of
+$20.00 per share. This dividend is payable on March 31, 2020 to preferred stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 15, 2020.
+Financial Results Conference Call
+Broadcom Inc. will
+host a conference call to review its financial results for the first quarter of fiscal year 2020, ended February 2, 2020, and to discuss the business outlook, today at 2:00 p.m. Pacific Time. Those wishing to access the call should dial (866)
+310-8712;
+International +1 (720)
+634-2946.
+The passcode is 5272427. A replay of the call will be accessible for one week after the call. To access the replay dial (855)
+859-2056;
+International +1 (404)
+537-3406;
+and reference the passcode: 5272427. A webcast of the conference call will also be available in the Investors section of
+Broadcoms website at www.broadcom.com.
+Basis of Presentation
+The Companys financial results include contributions from the Symantec enterprise security business continuing operations starting in the first
+quarter of fiscal year 2020. The financial results from businesses that have been classified as discontinued operations in the Companys financial statements are not included in the results presented above, unless otherwise stated.
+3
+Non-GAAP
+Financial Measures
+In addition to GAAP reporting, Broadcom provides investors with net revenue, net income, operating income, gross margin, operating expenses, cash
+flow and other data on a
+non-GAAP
+basis. This
+non-GAAP
+information excludes amortization of acquisition-related intangible assets, stock-based compensation expense,
+restructuring, impairment and disposal charges, acquisition-related costs, including integration costs, purchase accounting effect on inventory, litigation settlements, debt-related costs, gains (losses) on investments, income (loss) from
+discontinued operations and
+non-GAAP
+tax reconciling adjustments. Management does not believe that these items are reflective of the Companys underlying performance. Internally, these
+non-GAAP
+measures are significant measures used by management for purposes of evaluating the core operating performance of the Company, establishing internal budgets, calculating return on investment for development
+programs and growth initiatives, comparing performance with internal forecasts and targeted business models, strategic planning, evaluating and valuing potential acquisition candidates and how their operations compare to the Companys
+operations, and benchmarking performance externally against the Companys competitors. The exclusion of these and other similar items from Broadcoms
+non-GAAP
+financial results should not be
+interpreted as implying that these items are
+non-recurring,
+infrequent or unusual. Free cash flow measures have limitations as they omit certain components of the overall cash flow statement and do not
+represent the residual cash flow available for discretionary expenditures. Investors should not consider presentation of free cash flow measures as implying that stockholders have any right to such cash. Broadcoms free cash flow may not
+be calculated in a manner comparable to similarly named measures used by other companies.
+Broadcom believes this
+non-GAAP
+financial information provides additional insight into the Companys
+on-going
+performance. Therefore, Broadcom provides this information to investors for a
+more consistent basis of comparison and to help them evaluate the results of the Companys
+on-going
+operations and enable more meaningful period to period comparisons. These
+non-GAAP
+measures are provided in addition to, and not as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP. A reconciliation between GAAP and
+non-GAAP
+financial data is included in the supplemental financial data attached to this press release.

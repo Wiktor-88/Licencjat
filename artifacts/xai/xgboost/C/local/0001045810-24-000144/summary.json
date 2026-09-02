@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "NVDA",
+    "Accession": "0001045810-24-000144",
+    "Filing_Date": "2024-06-07",
+    "Feature_Cutoff_Session": "2024-06-07",
+    "Event_Session": "2024-06-10T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2024,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "true_positive"
+  },
+  "prediction": {
+    "Base_Value": -0.21471349895000458,
+    "Raw_Margin": 1.5712761878967285,
+    "Probability_Class_1": 0.8279654383659363,
+    "Prediction": 1
+  }
+}

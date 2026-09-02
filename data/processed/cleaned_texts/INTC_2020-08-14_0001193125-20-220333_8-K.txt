@@ -1,1 +1,18 @@
-Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (e) Compensatory Arrangements of Certain Officers. On July 27, 2020, Intel Corporation (“Intel”) announced that Dr. Venkata Renduchintala would depart from Intel, effective as of August 3, 2020. In connection with his departure, Intel entered into a Separation Agreement and General Release of Claims (“Agreement”) with Dr. Renduchintala on August 11, 2020, pursuant to which he provided a customary release in favor of Intel, reconfirmed his obligations under existing agreements pertaining to confidentiality and intellectual property ownership, and committed to non-disparagement and cooperation provisions, and pursuant to which he will receive a separation payment of $1,800,000 and certain other benefits. The foregoing summary of the Agreement is qualified in its entirety by reference to the full text of the Agreement, which is filed as Exhibit 10.1 hereto and incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. The following exhibits are provided as part of this report: Exhibit Number Description 10.1 Separation Agreement and General Release of Claims between Intel Corporation and Dr. Venkata Renduchintala, dated August 11, 2020. 104 Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.
+Item 5.02
+Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+(e)
+Compensatory Arrangements of Certain Officers.
+On July 27, 2020, Intel Corporation (“Intel”) announced that Dr. Venkata Renduchintala would depart from Intel, effective as of August 3, 2020. In connection with his departure, Intel entered into a Separation Agreement and General Release of Claims (“Agreement”) with Dr. Renduchintala on August 11, 2020, pursuant to which he provided a customary release in favor of Intel, reconfirmed his obligations under existing agreements pertaining to confidentiality and intellectual property ownership, and committed to
+non-disparagement
+and cooperation provisions, and pursuant to which he will receive a separation payment of $1,800,000 and certain other benefits.
+The foregoing summary of the Agreement is qualified in its entirety by reference to the full text of the Agreement, which is filed as Exhibit 10.1 hereto and incorporated herein by reference.
+Item 9.01
+Financial Statements and Exhibits.
+The following exhibits are provided as part of this report:
+Exhibit
+Number
+Description
+10.1
+Separation Agreement and General Release of Claims between Intel Corporation and Dr. Venkata Renduchintala, dated August 11, 2020.
+104
+Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.

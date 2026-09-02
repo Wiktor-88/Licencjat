@@ -8,10 +8,10 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from xgboost import XGBClassifier
 
-from model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
+from src.models.model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
     log_repeated_events, prepare_model_dataset, select_sec_features, validate_target)
 
-from model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MIN_SEC_COUNT,
+from src.models.model_config import (CATEGORICAL_FEATURES, TABULAR_MARKET_FEATURES, MIN_SEC_COUNT,
     SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG, TARGET, TEST_YEARS)
 
 logger = logging.getLogger(__name__)
@@ -110,7 +110,8 @@ def evaluate_xgboost(model_name: str,
                                "Feature": feature_names,
                                "Importance": model.feature_importances_}).sort_values("Importance", ascending=False)
 
-    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+        "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name
@@ -135,18 +136,18 @@ def evaluate_xgboost(model_name: str,
 
 
 def build_model_configs(selected_sec: list[str]) -> list[dict]:
-    return [{"name": "XGB A - COMPACT MARKET",
-            "numeric": MARKET_COMPACT_FEATURES,
+    return [{"name": "XGB A - MARKET",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": [],
             "sentiment": []},
 
-            {"name": "XGB B - COMPACT + SEC",
-            "numeric": MARKET_COMPACT_FEATURES,
+            {"name": "XGB B - MARKET + SEC",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": selected_sec,
             "sentiment": []},
 
-            {"name": "XGB C - COMPACT + SEC + FINBERT",
-            "numeric": MARKET_COMPACT_FEATURES,
+            {"name": "XGB C - MARKET + SEC + FINBERT",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
             "sentiment": SENTIMENT_FEATURES}]
 

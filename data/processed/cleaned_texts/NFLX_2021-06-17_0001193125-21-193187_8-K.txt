@@ -1,1 +1,16 @@
-Item 1.01 Results of Operations and Financial Condition. On June 17, 2021, Netflix, Inc. (the “Company”) entered into a Second Amendment Agreement (the “Amendment”) with Morgan Stanley Senior Funding, Inc., as administrative agent (in such capacity, the “Administrative Agent”) and the lenders party thereto, which amends that certain Revolving Credit Agreement (the “Revolving Credit Agreement”) among the Company, the Administrative Agent and the lenders party thereto. The Amendment, among other things, provides for an extension of the maturity date of the loans from March 29, 2024 to June 17, 2026 and an increase in the size of the lenders’ commitments from $750,000,000 to $1,000,000,000. The foregoing description of the Revolving Credit Agreement does not purport to be complete and is qualified in its entirety by the terms and conditions of the Amendment, which is attached hereto as Exhibit 10.1 and is incorporated herein by reference. Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant. The information set forth in Item 1.01 above is incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Number Description of Exhibit 10.1 Second Amendment Agreement, dated as of June 17, 2021, among Netflix, Inc., the Lenders party thereto and Morgan Stanley Senior Funding, Inc., as administrative agent 104 Cover Page Interactive Data File (embedded within the inline XBRL document)
+Item 1.01 Results of Operations and Financial Condition.
+On June 17, 2021, Netflix, Inc. (the “Company”) entered into a Second Amendment Agreement (the “Amendment”) with Morgan Stanley Senior Funding, Inc., as administrative agent (in such capacity, the “Administrative Agent”) and the lenders party thereto, which amends that certain Revolving Credit Agreement (the “Revolving Credit Agreement”) among the Company, the Administrative Agent and the lenders party thereto.
+The Amendment, among other things, provides for an extension of the maturity date of the loans from March 29, 2024 to June 17, 2026 and an increase in the size of the lenders’ commitments from $750,000,000 to $1,000,000,000.
+The foregoing description of the Revolving Credit Agreement does not purport to be complete and is qualified in its entirety by the terms and conditions of the Amendment, which is attached hereto as Exhibit 10.1 and is incorporated herein by reference.
+Item 2.03 Creation of a Direct Financial Obligation or an Obligation under an
+Off-Balance
+Sheet Arrangement of a Registrant.
+The information set forth in Item 1.01 above is incorporated herein by reference.
+Item 9.01 Financial Statements and Exhibits.
+(d) Exhibits
+Exhibit Number
+Description of Exhibit
+10.1
+Second Amendment Agreement, dated as of June 17, 2021, among Netflix, Inc., the Lenders party thereto and Morgan Stanley Senior Funding, Inc., as administrative agent
+104
+Cover Page Interactive Data File (embedded within the inline XBRL document)

@@ -1,1 +1,622 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Mitch Haws
+AMD Investor Relations
+408-749-3124
+mitch.haws@amd.com
+AMD Reports Fourth Quarter and Full Year 2023 Financial Results
+SANTA CLARA, Calif. ― Jan. 30, 2024 ―
+AMD (NASDAQ:AMD) today announced revenue for the fourth quarter of 2023 of $6.2 billion, gross margin of 47%, operating income of $342 million, net income of $
+667 million
+and diluted earnings per share of
+$0.41.
+On a non-GAAP
+(*)
+basis, gross margin was 51%, operating income was $1.4 billion, net income was $1.2 billion and diluted earnings per share was $0.77.
+For the full year 2023, the company reported revenue of $22.7 billion, gross margin of 46%, operating income of $401 million, net income of $
+854 million
+and diluted earnings per share of $
+0.53
+. On a non-GAAP
+(*)
+basis, gross margin was 50%, operating income was $4.9 billion, net income was $4.3 billion and diluted earnings per share was $2.65.
+“We finished 2023 strong, with sequential and year-over-year revenue and earnings growth driven by record quarterly AMD Instinct GPU and EPYC CPU sales and higher AMD Ryzen processor sales,” said AMD Chair and CEO Dr. Lisa Su. “Demand for our high-performance data center product portfolio continues to accelerate, positioning us well to deliver strong annual growth in what is an incredibly exciting time as AI re-shapes virtually every part of the computing market.”
+“AMD executed well in 2023 despite a mixed demand environment,” said AMD EVP, CFO and Treasurer Jean Hu. “We drove year-over-year revenue growth in our Data Center and Embedded segments and successfully launched our AMD Instinct MI300 GPUs positioning us for a strong product ramp in 2024.”
+1
+GAAP Quarterly Financial Results
+Q4 2023
+Q4 2022
+Y/Y
+Q3 2023
+Q/Q
+Revenue ($M)
+$6,168
+$5,599
+Up 10%
+$5,800
+Up 6%
+Gross profit ($M)
+$2,911
+$2,403
+Up 21%
+$2,747
+Up 6%
+Gross margin
+47%
+43%
+Up 4 ppts
+47%
+Flat
+Operating expenses ($M)
+$2,575
+$2,557
+Flat
+$2,533
+Up 2%
+Operating income (loss) ($M)
+$342
+$(149)
+Up 330%
+$224
+Up 53%
+Operating margin
+6%
+(3%)
+Up 9 ppts
+4%
+Up 2 ppts
+Net income ($M)
+$667
+$21
+Up 3,076%
+$299
+Up 123%
+Diluted earnings per share
+$0.41
+$0.01
+Up 4,000%
+$0.18
+Up 128%
+Non-GAAP(*) Quarterly Financial Results
+Q4 2023
+Q4 2022
+Y/Y
+Q3 2023
+Q/Q
+Revenue ($M)
+$6,168
+$5,599
+Up 10%
+$5,800
+Up 6%
+Gross profit ($M)
+$3,133
+$2,859
+Up 10%
+$2,963
+Up 6%
+Gross margin
+51%
+51%
+Flat
+51%
+Flat
+Operating expenses ($M)
+$1,727
+$1,602
+Up 8%
+$1,697
+Up 2%
+Operating income ($M)
+$1,412
+$1,262
+Up 12%
+$1,276
+Up 11%
+Operating margin
+23%
+23%
+Flat
+22%
+Up 1 ppt
+Net income ($M)
+$1,249
+$1,113
+Up 12%
+$1,135
+Up 10%
+Diluted earnings per share
+$0.77
+$0.69
+Up 12%
+$0.70
+Up 10%
+Annual Financial Results
+GAAP
+Non-GAAP
+(*)
+2023
+2022
+Y/Y
+2023
+2022
+Y/Y
+Revenue ($M)
+$22,680
+$23,601
+Down 4%
+$22,680
+$23,601
+Down 4%
+Gross profit ($M)
+$10,460
+$10,603
+Down 1%
+$11,436
+$12,273
+Down 7%
+Gross margin %
+46%
+45%
+Up 1 ppt
+50%
+52%
+Down 2 ppts
+Operating expenses ($M)
+$10,093
+$9,441
+Up 7%
+$6,616
+$6,030
+Up 10%
+Operating income ($M)
+$401
+$1,264
+Down 68%
+$4,854
+$6,345
+Down 23%
+Operating margin %
+2%
+5%
+Down 3 ppts
+21%
+27%
+Down 6 ppts
+Net income ($M)
+$854
+$1,320
+Down 35%
+$4,302
+$5,504
+Down 22%
+Diluted earnings per share
+$0.53
+$0.84
+Down 37%
+$2.65
+$3.50
+Down 24%
+Segment Summary
+•
+Data Center segment revenue in the quarter was $2.3 billion, up 38% year-over-year and 43% sequentially driven by strong growth in AMD Instinct™ GPUs and 4
+th
+Gen AMD EPYC™ CPUs.
+◦
+For 2023, Data Center segment revenue was $6.5 billion, an increase of 7% compared to the prior year, driven by strong growth in AMD Instinct GPUs and 4
+th
+Gen AMD EPYC CPUs.
+•
+Client segment revenue was $1.5 billion, up 62% year-over-year driven primarily by an increase in AMD Ryzen™ 7000 Series CPU sales.
+◦
+For 2023, Client segment revenue was $4.7 billion, down 25% compared to the prior year, due to a decline in the PC market.
+2
+•
+Gaming segment revenue was $1.4 billion, down 17% year-over-year and 9% sequentially, due to a decrease in semi-custom revenue, partially offset by an increase in AMD Radeon™ GPU sales.
+◦
+For 2023, Gaming segment revenue was $6.2 billion, down 9% compared to the prior year primarily due to lower semi-custom sales.
+•
+Embedded segment revenue was $1.1 billion, down 24% year-over-year and 15% sequentially primarily due to customers reducing their inventory levels.
+◦
+For 2023, Embedded segment revenue was $5.3 billion, up 17% compared to the prior year, primarily due to the inclusion of a full year of revenue related to the acquisition of Xilinx completed in February 2022.
+Recent PR Highlights
+•
+AMD showcased growing momentum for advanced AMD technology-powered AI solutions from the data center to PCs:
+◦
+AMD
+announced
+the general availability of AMD Instinct MI300X accelerators – with industry leading memory bandwidth performance for generative AI – as well as the AMD Instinct MI300A APU that combines AMD CDNA™ 3 and “Zen 4” chiplets to deliver breakthrough performance for HPC and AI workloads.
+◦
+At the “
+Advancing AI
+” event, Microsoft, Meta, Oracle, Dell Technologies, HPE, Lenovo, Supermicro, Arista, Broadcom and Cisco showcased how they are leveraging AMD Instinct MI300X accelerators to power cloud and enterprise AI infrastructure.
+◦
+AMD made significant progress expanding its AI software ecosystem, including unveiling the latest version of its open-source ROCm™ 6, software stack optimized for generative AI. AI ecosystem leaders including Databricks, Essential AI, Lamini and OpenAI are leveraging AMD Instinct accelerators to deliver differentiated AI solutions. AMD also
+extended support
+for ROCm software to include the AMD Radeon RX 7900 XT GPU, providing even more options for AI developers and researchers to use AMD hardware for their AI work.
+◦
+AMD
+announced
+AMD Ryzen 8040 Series mobile processors with an integrated neural processing unit (NPU) on select models for AI. In 2022, AMD was the first company to introduce an x86 processor with an on-chip NPU to accelerate AI workloads with the AMD Ryzen 7040 series mobile processors. The updated NPU in the AMD Ryzen 8040 series delivers up to 1.6x more AI processing performance compared to AMD Ryzen 7040 Series mobile processors. Acer, ASUS, Lenovo, Razer and other PC OEMs introduced new laptops featuring AMD Ryzen 8040 Series processors, with the first systems on-track to go on sale this quarter.
+3
+◦
+At CES 2024, AMD
+announced
+the AMD Ryzen 8000G Series desktop processors that are the first desktop PC processors in the industry to include a dedicated AI NPU to power AI capabilities on the PC.
+◦
+At
+Microsoft Ignite
+, AMD and Microsoft highlighted how AMD Instinct MI300X accelerators, AMD EPYC CPUs and AMD Ryzen CPUs with AI engines are enabling new services and compute capabilities across cloud and generative AI, confidential computing, cloud computing and AI-capable PCs.
+•
+AMD showcased continued leadership in supercomputing:
+◦
+Eni
+announced
+a new supercomputer, HPC6, powered by AMD EPYC CPUs and AMD Instinct GPUs. When completed, the HPC6 system will be one of the world’s most powerful supercomputers dedicated to industrial applications.
+◦
+AMD EPYC processors and AMD Instinct accelerators
+now power
+140 supercomputers on the latest Top500 list of the world’s fastest computers and eight of the top 10 most energy efficient supercomputers in the world based on the latest Green500 list. The Frontier supercomputer powered by AMD EPYC and AMD Instinct processors remains the fastest supercomputer in the world.
+•
+AMD extended its
+3
+rd
+Gen AMD EPYC processor lineup
+with six new CPUs that deliver excellent value, performance, energy efficiency and security features for mainstream applications.
+•
+AMD
+introduced
+the AMD Radeon RX 7600 XT GPU, a high-performance graphics card designed to deliver immersive 1080P gaming experiences.
+•
+AMD
+introduced
+the AMD Versal™ AI Edge XA Series and AMD Ryzen Embedded V2000A devices designed for automotive focus segments including infotainment, advanced driver safety and autonomous driving.
+•
+AMD
+announced
+the AMD Ryzen Embedded 7000 Series processors, delivering leadership performance and advanced features for industrial and edge solutions. The launch was supported by a growing partner ecosystem, including integrated solutions from Advantech, ASRock and DFI.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2024, AMD expects revenue to be approximately $5.4 billion, plus or minus $300 million. S
+equentially, AMD expects Data Center segment revenue to be flat, with a seasonal decline in server sales offset by a strong Data Center GPU ramp. Client, Embedded and Gaming
+4
+segment sales are expected to decline sequentially, with semi-custom revenue expected to decline by a significant double-digit percentage. Non-GAAP gross margin is expected to be approximately 52%.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its fourth quarter and full-year 2023 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+5
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 30,
+2023
+September 30,
+2023
+December 31,
+2022
+December 30,
+2023
+December 31,
+2022
+GAAP gross profit
+$
+2,911
+$
+2,747
+$
+2,403
+$
+10,460
+$
+10,603
+GAAP gross margin
+47
+%
+47
+%
+43
+%
+46
+%
+45
+%
+Stock-based compensation
+6
+6
+9
+30
+29
+Amortization of acquisition-related intangibles
+215
+210
+443
+942
+1,448
+Acquisition-related and other costs
+(1)
+1
+—
+4
+4
+193
+Non-GAAP gross profit
+$
+3,133
+$
+2,963
+$
+2,859
+$
+11,436
+$
+12,273
+Non-GAAP gross margin
+51
+%
+51
+%
+51
+%
+50
+%
+52
+%
+GAAP operating expenses
+$
+2,575
+$
+2,533
+$
+2,557
+$
+10,093
+$
+9,441
+GAAP operating expenses/revenue %
+42
+%
+44
+%
+46
+%
+45
+%
+40
+%
+Stock-based compensation
+368
+347
+301
+1,350
+983
+Amortization of acquisition-related intangibles
+420
+450
+601
+1,869
+2,100
+Acquisition-related and other costs
+(1)
+60
+39
+53
+258
+328
+Non-GAAP operating expenses
+$
+1,727
+$
+1,697
+$
+1,602
+$
+6,616
+$
+6,030
+Non-GAAP operating expenses/revenue %
+28
+%
+29
+%
+29
+%
+29
+%
+26
+%
+GAAP operating income (loss)
+$
+342
+$
+224
+$
+(149)
+$
+401
+$
+1,264
+GAAP operating margin
+6
+%
+4
+%
+(3)
+%
+2
+%
+5
+%
+Stock-based compensation
+374
+353
+310
+1,380
+1,012
+Amortization of acquisition-related intangibles
+635
+660
+1,044
+2,811
+3,548
+Acquisition-related and other costs
+(1)
+61
+39
+57
+262
+521
+Non-GAAP operating income
+$
+1,412
+$
+1,276
+$
+1,262
+$
+4,854
+$
+6,345
+Non-GAAP operating margin
+23
+%
+22
+%
+23
+%
+21
+%
+27
+%
+Three Months Ended
+Year Ended
+December 30,
+2023
+September 30, 2023
+December 31,
+2022
+December 30,
+2023
+December 31,
+2022
+GAAP net income / earnings per share
+$
+667
+$
+0.41
+$
+299
+$
+0.18
+$
+21
+$
+0.01
+$
+854
+$
+0.53
+$
+1,320
+$
+0.84
+(Gains) losses on equity investments, net
+1
+—
+(4)
+—
+5
+—
+(1)
+—
+62
+0.04
+Stock-based compensation
+374
+0.23
+353
+0.22
+310
+0.19
+1,380
+0.85
+1,012
+0.64
+Equity income in investee
+(6)
+—
+(3)
+—
+(3)
+—
+(16)
+(0.01)
+(14)
+(0.01)
+Amortization of acquisition-related intangibles
+635
+0.39
+660
+0.41
+1,044
+0.65
+2,811
+1.73
+3,548
+2.26
+Acquisition-related and other costs
+(1)
+61
+0.04
+39
+0.02
+57
+0.04
+262
+0.16
+521
+0.33
+Income tax provision
+(483)
+(0.30)
+(209)
+(0.13)
+(321)
+(0.20)
+(988)
+(0.61)
+(945)
+(0.60)
+Non-GAAP net income / earnings per share
+$
+1,249
+$
+0.77
+$
+1,135
+$
+0.70
+$
+1,113
+$
+0.69
+$
+4,302
+$
+2.65
+$
+5,504
+$
+3.50
+(1)
+Acquisition-related and other costs primarily comprised of transaction costs, purchase price adjustments for inventory, certain compensation charges, contract termination and workforce rebalancing charges.
+6

@@ -1,1 +1,18 @@
-Item 5.03 Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year. On March 30, 2023, the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”) adopted amendments to Tesla’s Amended and Restated Bylaws (as amended and restated, the “Bylaws”) in order to: (i) provide stockholders with a proxy access right, (ii) update the procedures and disclosure requirements for director nominations made under Tesla’s existing advance notice requirements to reflect the U.S. Securities and Exchange Commission’s adoption of Rule 14a-19 under the Securities Exchange Act of 1934, as amended (the “Exchange Act”), and (iii) make other technical and conforming changes. The Bylaw amendments became effective March 30, 2023. Specifically, Section 2.15 has been added to the Bylaws to provide a proxy access right permitting a stockholder, or a group of up to 20 stockholders, owning 3% or more of Tesla’s outstanding common stock continuously for at least three years to nominate and include in Tesla’s proxy materials director nominees constituting up to the greater of (i) 20% of the Board or (ii) two directors, provided that the stockholder(s) and the nominee(s) satisfy the requirements specified in the Bylaws. Section 2.4 of the Bylaws was also amended to make compliance with the applicable provisions of the “universal proxy card” rules, as set forth in Rule 14a-19 of the Exchange Act a requirement for a stockholder’s eligibility to nominate a director candidate. Additional amendments were made to the Bylaws in connection with the above and make clarifying or conforming language changes, in addition to other technical changes. The foregoing description is qualified in its entirety by reference to the Bylaws filed as Exhibit 3.1 to this Report. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 3.1 104 Amended and Restated Bylaws of Tesla, Inc . Cover Page Interactive Data File (embedded within the Inline XBRL document).
+Item 5.03
+Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year.
+On March 30, 2023, the Board of Directors (the “Board”) of Tesla, Inc. (“Tesla”) adopted amendments to Tesla’s Amended and Restated Bylaws (as amended and restated, the “Bylaws”) in order to: (i) provide stockholders with a proxy access right, (ii) update the procedures and disclosure requirements for director nominations made under Tesla’s existing advance notice requirements to reflect the U.S. Securities and Exchange Commission’s adoption of Rule 14a-19 under the Securities Exchange Act of 1934, as amended (the “Exchange Act”), and (iii) make other technical and conforming changes. The Bylaw amendments became effective March 30, 2023.
+Specifically, Section 2.15 has been added to the Bylaws to provide a proxy access right permitting a stockholder, or a group of up to 20 stockholders, owning 3% or more of Tesla’s outstanding common stock continuously for at least three years to nominate and include in Tesla’s proxy materials director nominees constituting up to the greater of (i) 20% of the Board or (ii) two directors, provided that the stockholder(s) and the nominee(s) satisfy the requirements specified in the Bylaws.
+Section 2.4 of the Bylaws was also amended to make compliance with the applicable provisions of the “universal proxy card” rules, as set forth in Rule 14a-19 of the Exchange Act a requirement for a stockholder’s eligibility to nominate a director candidate.
+Additional amendments were made to the Bylaws in connection with the above and make clarifying or conforming language changes, in addition to other technical changes.
+The foregoing description is qualified in its entirety by reference to the Bylaws filed as Exhibit 3.1 to this Report.
+Item 9.01
+Financial Statements and Exhibits.
+(d)
+Exhibits.
+Exhibit No.
+Description
+3.1
+104
+Amended and Restated Bylaws of Tesla, Inc
+.
+Cover Page Interactive Data File (embedded within the Inline XBRL document).

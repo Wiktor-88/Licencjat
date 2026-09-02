@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "INTC",
+    "Accession": "0000050863-26-000031",
+    "Filing_Date": "2026-01-23",
+    "Feature_Cutoff_Session": "2026-01-23",
+    "Event_Session": "2026-01-26T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2026,
+    "Target_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Intercept_Log_Odds": 0.3601057969429598,
+    "Final_Log_Odds": 2.4127178890103056,
+    "Probability_Class_1": 0.9177919792143956,
+    "Prediction": 1
+  }
+}

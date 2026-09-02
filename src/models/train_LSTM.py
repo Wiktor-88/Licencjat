@@ -456,7 +456,7 @@ def prepare_metadata(index_df: pd.DataFrame, model_df: pd.DataFrame) -> pd.DataF
 
     merge_keys = ["Ticker", "Accession", "Event_Session"]
 
-    static_columns = list(dict.fromkeys(merge_keys + ["Abnormal_Event_Return_1D"]
+    static_columns = list(dict.fromkeys(merge_keys + ["Abnormal_Event_Return_1D", "Tradable_Abnormal_Return_1D"]
                                         + SEC_BINARY_CANDIDATES + SENTIMENT_FEATURES
                                         + [SENTIMENT_HISTORY_FLAG]))
 
@@ -681,7 +681,8 @@ def main() -> None:
 
             add_confusion_metrics(result=result, y_true=y_test, y_pred=y_pred)
 
-            predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+            predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+                "Tradable_Abnormal_Return_1D"]].copy()
 
             predictions["Test_Year"] = test_year
             predictions["Model"] = model_name

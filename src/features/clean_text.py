@@ -26,14 +26,32 @@ BOILERPLATE_PATTERNS = [
     re.compile(r"\bWebcast Information\b", re.IGNORECASE),
 ]
 
-# Na razie dla tych tylko firm - potem dodać więcej
 COMPANY_NAMES = [
     "Apple",
     "Microsoft",
     "NVIDIA",
+    "Nvidia",
+    "Amazon",
+    "Amazon.com",
+    "Alphabet",
+    "Google",
+    "Meta",
+    "Meta Platforms",
+    "Facebook",
+    "Tesla",
+    "Advanced Micro Devices",
+    "AMD",
+    "Intel",
+    "Broadcom",
+    "Netflix",
+    "Adobe",
+    "Qualcomm",
 ]
 
-ABOUT_COMPANY_PATTERN = re.compile(rf"\bAbout ({'|'.join(map(re.escape, COMPANY_NAMES))})\b", re.IGNORECASE)
+company_names_pattern = "|".join(re.escape(name) for name in sorted(COMPANY_NAMES, key=len, reverse=True))
+ABOUT_COMPANY_PATTERN = re.compile(
+    rf"\bAbout\s+(?:{company_names_pattern})(?:,?\s+(?:Inc\.?|Corporation|Corp\.?|Incorporated|Ltd\.?))?\b",
+    re.IGNORECASE)
 
 BOILERPLATE_PATTERNS.append(ABOUT_COMPANY_PATTERN)
 
@@ -166,10 +184,8 @@ def clean_html_document(file_path: Path) -> list[dict[str, str]]:
         with open(file_path, "r", encoding="utf-8", errors="ignore") as file:
             raw_content = file.read()
 
-    except Exception as error:
-        logging.error('błąd odczytu pliku: %s', file_path)
-
-        return []
+    except OSError as error:
+        raise RuntimeError(f"Nie udało się odczytać pliku: {file_path}") from error
 
 
     relevant_documents = extract_relevant_documents(raw_content)
@@ -211,18 +227,15 @@ if __name__ == "__main__":
         logger.error("Nie znaleziono pliku testowego: %s", test_path)
         raise SystemExit(1)
 
-    print("\nTest dla pliku:\n"
-          f"{test_path}\n")
+    logger.info("Test dla pliku: %s", test_path)
 
     extracted_documents = clean_html_document(test_path)
 
     if not extracted_documents:
-        print("Nie udało się wyodrębnić żadnych dokumentów")
+        logger.error("Nie udało się wyodrębnić żadnych dokumentów")
         raise SystemExit(1)
 
-    print('Udało sie wyodrebnic dokumenty')
-
-    print(f"Liczba wyodrębnionych dokumentów: {len(extracted_documents)}")
+    logger.info("Udało się wyodrębnić %d dokumentów.", len(extracted_documents))
 
     # Pokazujemy każdy dokument osobno
     for document_index, document in enumerate(extracted_documents, start=1):
@@ -231,8 +244,4 @@ if __name__ == "__main__":
 
         text = document["text"]
 
-        print(f"DOKUMENT {document_index}")
-
-        print(f"Source Type: {source_type}")
-
-        print(f"Długość tekstu: {len(text):,} znaków")
+        logger.info("Dokument %d | Source Type: %s | długość: %d znaków", document_index, source_type, len(text))

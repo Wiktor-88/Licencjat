@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "MSFT",
+    "Accession": "0001193125-24-011295",
+    "Filing_Date": "2024-01-19",
+    "Feature_Cutoff_Session": "2024-01-19",
+    "Event_Session": "2024-01-22T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2024,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Base_Value": -0.2846685025374643,
+    "Raw_Margin": 2.0678016251573283,
+    "Probability_Class_1": 0.8877340530232256,
+    "Prediction": 1
+  }
+}

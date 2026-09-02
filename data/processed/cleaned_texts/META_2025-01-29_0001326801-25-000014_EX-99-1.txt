@@ -1,1 +1,151 @@
-Document Meta Reports Fourth Quarter and Full Year 2024 Results MENLO PARK, Calif. – January 29, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter and full year ended December 31, 2024. "We continue to make good progress on AI, glasses, and the future of social media," said Mark Zuckerberg, Meta founder and CEO. "I'm excited to see these efforts scale further in 2025." Fourth Quarter and Full Year 2024 Financial Highlights Three Months Ended December 31, % Change Twelve Months Ended December 31, % Change In millions, except percentages and per share amounts 2024 2023 2024 2023 Revenue $ 48,385 $ 40,111 21 % $ 164,501 $ 134,902 22 % Costs and expenses 25,020 23,727 5 % 95,121 88,151 8 % Income from operations $ 23,365 $ 16,384 43 % $ 69,380 $ 46,751 48 % Operating margin 48 % 41 % 42 % 35 % Provision for income taxes $ 2,715 $ 2,791 (3) % $ 8,303 $ 8,330 — % Effective tax rate 12 % 17 % 12 % 18 % Net income $ 20,838 $ 14,017 49 % $ 62,360 $ 39,098 59 % Diluted earnings per share (EPS) $ 8.02 $ 5.33 50 % $ 23.86 $ 14.87 60 % Fourth Quarter and Full Year 2024 Operational and Other Financial Highlights • Family daily active people (DAP) – DAP was 3.35 billion on average for December 2024, an increase of 5% year-over-year. • Ad impressions – Ad impressions delivered across our Family of Apps increased by 6% and 11% year-over-year for the fourth quarter and full year 2024, respectively. • Average price per ad – Average price per ad increased by 14% and 10% year-over-year for the fourth quarter and full year 2024, respectively. • Revenue – Revenue was $48.39 billion and $164.50 billion, representing increases of 21% and 22% year-over-year for the fourth quarter and full year 2024, respectively. Revenue on a constant currency basis would have increased 21% and 23% year-over-year for the fourth quarter and full year 2024, respectively. • Costs and expenses – Total costs and expenses were $25.02 billion and $95.12 billion, representing increases of 5% and 8% year-over-year for the fourth quarter and full year 2024, respectively. The fourth quarter costs and expenses included a favorable impact of $1.55 billion due to a decrease in the accrued losses for certain legal proceedings. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $14.84 billion and $39.23 billion for the fourth quarter and full year 2024, respectively. • Capital return program – Share repurchases of our Class A common stock were nil and $29.75 billion, and total dividend and dividend equivalent payments were $1.27 billion and $5.07 billion for the fourth quarter and full year 2024, respectively. • Cash, cash equivalents, and marketable securities – Cash, cash equivalents, and marketable securities were $77.81 billion as of December 31, 2024. Free cash flow was $13.15 billion and $52.10 billion for the fourth quarter and full year 2024, respectively. • Long-term debt – Long-term debt was $28.83 billion as of December 31, 2024. • Headcount – Headcount was 74,067 as of December 31, 2024, an increase of 10% year-over-year. 1 CFO Outlook Commentary We expect first quarter 2025 total revenue to be in the range of $39.5-41.8 billion. This reflects 8-15% year-over-year growth, or 11-18% growth on a constant currency basis as our guidance assumes foreign currency is an approximately 3% headwind to year-over-year total revenue growth, based on current exchange rates. This also reflects the effect of lapping leap day in the first quarter of 2024. While we are not providing a full year 2025 revenue outlook, we expect the investments we are making in our core business this year will give us an opportunity to continue delivering strong revenue growth throughout 2025. We expect full year 2025 total expenses to be in the range of $114-119 billion. We expect the single largest driver of expense growth in 2025 to be infrastructure costs, driven by higher operating expenses and depreciation (1) . We expect employee compensation to be the second-largest factor as we add technical talent in the priority areas of infrastructure, monetization, Reality Labs, generative artificial intelligence (AI), as well as regulation and compliance. We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion. We expect capital expenditures growth in 2025 will be driven by increased investment to support both our generative AI efforts and core business. The majority of our capital expenditures in 2025 will continue to be directed to our core business. Absent any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12-15%. In addition, we continue to monitor an active regulatory landscape, including legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results. ____________________________________ (1) In January 2025, we completed an assessment of the useful lives of certain servers and network assets, which resulted in an increase in their estimated useful life to 5.5 years, effective beginning fiscal year 2025. Based on the servers and network assets placed in service as of December 31, 2024, we expect this change in accounting estimate will reduce our full year 2025 depreciation expense by approximately $2.9 billion. This is factored into our outlook. 2 Webcast and
+Document
+Meta Reports Fourth Quarter and Full Year 2024 Results
+MENLO PARK, Calif. – January 29, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter and full year ended December 31, 2024.
+"We continue to make good progress on AI, glasses, and the future of social media," said Mark Zuckerberg, Meta founder and CEO. "I'm excited to see these efforts scale further in 2025."
+Fourth Quarter and Full Year 2024 Financial Highlights
+Three Months Ended December 31,
+% Change
+Twelve Months Ended December 31,
+% Change
+In millions, except percentages and per share amounts
+2024
+2023
+2024
+2023
+Revenue
+$
+48,385
+$
+40,111
+21
+%
+$
+164,501
+$
+134,902
+22
+%
+Costs and expenses
+25,020
+23,727
+5
+%
+95,121
+88,151
+8
+%
+Income from operations
+$
+23,365
+$
+16,384
+43
+%
+$
+69,380
+$
+46,751
+48
+%
+Operating margin
+48
+%
+41
+%
+42
+%
+35
+%
+Provision for income taxes
+$
+2,715
+$
+2,791
+(3)
+%
+$
+8,303
+$
+8,330
+—
+%
+Effective tax rate
+12
+%
+17
+%
+12
+%
+18
+%
+Net income
+$
+20,838
+$
+14,017
+49
+%
+$
+62,360
+$
+39,098
+59
+%
+Diluted earnings per share (EPS)
+$
+8.02
+$
+5.33
+50
+%
+$
+23.86
+$
+14.87
+60
+%
+Fourth Quarter and Full Year 2024 Operational and Other Financial Highlights
+•
+Family daily active people (DAP)
+– DAP was 3.35 billion on average for December 2024, an increase of 5% year-over-year.
+•
+Ad impressions
+– Ad impressions delivered across our Family of Apps increased by 6% and 11% year-over-year for the fourth quarter and full year 2024, respectively.
+•
+Average price per ad
+– Average price per ad increased by 14% and 10% year-over-year for the fourth quarter and full year 2024, respectively.
+•
+Revenue
+– Revenue was $48.39 billion and $164.50 billion, representing increases of 21% and 22% year-over-year for the fourth quarter and full year 2024, respectively. Revenue on a constant currency basis would have increased 21% and 23% year-over-year for the fourth quarter and full year 2024, respectively.
+•
+Costs and expenses
+– Total costs and expenses were $25.02 billion and $95.12 billion, representing increases of 5% and 8% year-over-year for the fourth quarter and full year 2024, respectively. The fourth quarter costs and expenses included a favorable impact of $1.55 billion due to a decrease in the accrued losses for certain legal proceedings.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $14.84 billion and $39.23 billion for the fourth quarter and full year 2024, respectively.
+•
+Capital return program
+– Share repurchases of our Class A common stock were nil and $29.75 billion, and total dividend and dividend equivalent payments were $1.27 billion and $5.07 billion for the fourth quarter and full year 2024, respectively.
+•
+Cash, cash equivalents, and marketable securities
+– Cash, cash equivalents, and marketable securities were $77.81 billion as of December 31, 2024. Free cash flow was $13.15 billion and $52.10 billion for the fourth quarter and full year 2024, respectively.
+•
+Long-term debt
+– Long-term debt was $28.83 billion as of December 31, 2024.
+•
+Headcount
+– Headcount
+was 74,067 as of December 31, 2024, an increase of 10% year-over-year.
+1
+CFO Outlook Commentary
+We expect first quarter 2025 total revenue to be in the range of $39.5-41.8 billion. This reflects 8-15% year-over-year growth, or 11-18% growth on a constant currency basis as our guidance assumes foreign currency is an approximately 3% headwind to year-over-year total revenue growth, based on current exchange rates. This also reflects the effect of lapping leap day in the first quarter of 2024. While we are not providing a full year 2025 revenue outlook, we expect the investments we are making in our core business this year will give us an opportunity to continue delivering strong revenue growth throughout 2025.
+We expect full year 2025 total expenses to be in the range of $114-119 billion. We expect the single largest driver of expense growth in 2025 to be infrastructure costs, driven by higher operating expenses and depreciation
+(1)
+. We expect employee compensation to be the second-largest factor as we add technical talent in the priority areas of infrastructure, monetization, Reality Labs, generative artificial intelligence (AI), as well as regulation and compliance.
+We anticipate our full year 2025 capital expenditures will be in the range of $60-65 billion. We expect capital expenditures growth in 2025 will be driven by increased investment to support both our generative AI efforts and core business. The majority of our capital expenditures in 2025 will continue to be directed to our core business.
+Absent any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12-15%.
+In addition, we continue to monitor an active regulatory landscape, including legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results.
+____________________________________
+(1) In January 2025, we completed an assessment of the useful lives of certain servers and network assets, which resulted in an increase in their estimated useful life to 5.5 years, effective beginning fiscal year 2025. Based on the servers and network assets placed in service as of December 31, 2024, we expect this change in accounting estimate will reduce our full year 2025 depreciation expense by approximately $2.9 billion. This is factored into our outlook.
+2
+Webcast and

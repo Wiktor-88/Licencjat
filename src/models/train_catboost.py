@@ -6,9 +6,9 @@ from pathlib import Path
 import pandas as pd
 from catboost import CatBoostClassifier
 
-from model_config import (MARKET_COMPACT_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
+from src.models.model_config import (TABULAR_MARKET_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
     SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG, TARGET, TEST_YEARS,)
-from model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
+from src.models.model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
     log_repeated_events, prepare_model_dataset, select_sec_features, validate_target)
 
 
@@ -68,7 +68,8 @@ def evaluate_catboost(model_name: str,
                                 "Feature": feature_columns,
                                 "Importance": model.get_feature_importance()}).sort_values("Importance", ascending=False)
 
-    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+        "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name
@@ -91,16 +92,16 @@ def evaluate_catboost(model_name: str,
 
 
 def build_model_configs(selected_sec: list[str]) -> list[dict]:
-    return [{"name": "CAT A - COMPACT MARKET",
-            "features": ["Ticker"] + MARKET_COMPACT_FEATURES,
+    return [{"name": "CAT A - MARKET",
+            "features": ["Ticker"] + TABULAR_MARKET_FEATURES,
             "binary": []},
 
-            {"name": "CAT B - COMPACT + SEC",
-            "features": ["Ticker"] + MARKET_COMPACT_FEATURES + selected_sec,
+            {"name": "CAT B - MARKET + SEC",
+            "features": ["Ticker"] + TABULAR_MARKET_FEATURES + selected_sec,
             "binary": selected_sec},
 
-            {"name": "CAT C - COMPACT + SEC + FINBERT",
-            "features": (["Ticker"] + MARKET_COMPACT_FEATURES + selected_sec +
+            {"name": "CAT C - MARKET + SEC + FINBERT",
+            "features": (["Ticker"] + TABULAR_MARKET_FEATURES + selected_sec +
                           [SENTIMENT_HISTORY_FLAG] + SENTIMENT_FEATURES),
             "binary": selected_sec + [SENTIMENT_HISTORY_FLAG]}]
 

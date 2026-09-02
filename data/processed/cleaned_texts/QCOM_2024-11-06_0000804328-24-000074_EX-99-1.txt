@@ -1,1 +1,227 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Fourth Quarter and Fiscal 2024 Results
+Fiscal 2024 GAAP Revenues: $39.0 billion
+Fiscal 2024 GAAP EPS: $8.97, Non-GAAP EPS: $10.22
+—Greater Than 20% Growth in Fiscal Year EPS—
+—Record Fiscal Year Operating Cash Flow—
+—QCT Automotive: 5th Consecutive Record Quarterly Revenues—
+SAN DIEGO - November 6, 2024
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 29, 2024.
+“We are pleased to conclude the fiscal year with strong results in the fourth quarter, delivering greater than 30% year-over-year growth in EPS,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “We are excited about our recent product announcements at Snapdragon Summit and Embedded World, as they continue to extend our technology leadership and position us well across Handsets, PC, Automotive and Industrial IoT. We look forward to providing an update on our growth and diversification initiatives at our Investor Day on November 19.”
+Fourth Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q4 Fiscal 2024
+Q4 Fiscal 2023
+Change
+Q4 Fiscal 2024
+Q4 Fiscal 2023
+Change
+Revenues
+$10,244
+$8,631
++19%
+$10,244
+$8,665
++18%
+Earnings before taxes (EBT)
+$2,597
+$1,420
++83%
+$3,491
+$2,617
++33%
+Net income
+$2,920
+$1,489
++96%
+$3,036
+$2,277
++33%
+Diluted earnings per share (EPS)
+$2.59
+$1.32
++96%
+$2.69
+$2.02
++33%
+Fiscal 2024 Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Fiscal 2024
+Fiscal 2023
+Change
+Fiscal 2024
+Fiscal 2023
+Change
+Revenues
+$38,962
+$35,820
++9%
+$38,944
+$35,832
++9%
+EBT
+$10,336
+$7,443
++39%
+$13,287
+$11,070
++20%
+Net income
+$10,142
+$7,232
++40%
+$11,545
+$9,486
++22%
+EPS
+$8.97
+$6.42
++40%
+$10.22
+$8.43
++21%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Qualcomm Announces Fourth Quarter and Fiscal 2024 Results
+Page 2 of 10
+Segment Results
+Fourth Quarter
+QCT
+QTL
+(in millions, except percentages)
+Q4 Fiscal 2024
+Q4 Fiscal 2023
+Change
+Q4 Fiscal 2024
+Q4 Fiscal 2023
+Change
+Revenues
+$8,678
+$7,374
++18%
+$1,521
+$1,262
++21%
+EBT
+$2,465
+$1,889
++30%
+$1,120
+$829
++35%
+EBT as % of revenues
+28%
+26%
++2 points
+74%
+66%
++8 points
+Fiscal 2024
+QCT
+QTL
+(in millions, except percentages)
+Fiscal 2024
+Fiscal 2023
+Change
+Fiscal 2024
+Fiscal 2023
+Change
+Revenues
+$33,196
+$30,382
++9%
+$5,572
+$5,306
++5%
+EBT
+$9,527
+$7,924
++20%
+$4,027
+$3,628
++11%
+EBT as % of revenues
+29%
+26%
++3 points
+72%
+68%
++4 points
+QCT Revenue Streams
+1
+Fourth Quarter
+Fiscal
+(in millions, except percentages)
+2024
+2023
+Change
+2024
+2023
+Change
+Handsets
+$6,096
+$5,456
++12%
+$24,863
+$22,570
++10%
+Automotive
+899
+535
++68%
+2,910
+1,872
++55%
+IoT
+1,683
+1,383
++22%
+5,423
+5,940
+(9%)
+Total QCT revenues
+$8,678
+$7,374
++18%
+$33,196
+$30,382
++9%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+The following table summarizes our return of capital to stockholders, through stock repurchases and cash dividends, during the fourth quarter and fiscal 2024.
+Stock Repurchases
+Dividend Paid
+Total Amount
+(in millions, except per share data)
+Shares
+Amount
+Per Share
+Amount
+Q4 Fiscal 2024
+8
+$1,302
+$0.85
+$947
+$2,249
+Fiscal 2024
+25
+$4,121
+$3.30
+$3,687
+$7,808
+Our Board of Directors has also approved a new $15.0 billion stock repurchase authorization. The new stock repurchase authorization has no expiration date and is in addition to our stock repurchase program announced in October 2021, which had $1.0 billion of repurchase authority remaining as of the end of fiscal 2024.
+Qualcomm Announces Fourth Quarter and Fiscal 2024 Results
+Page 3 of 10
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

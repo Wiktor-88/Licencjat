@@ -1,1 +1,195 @@
-Document Exhibit 99.1 Alphabet Announces Fourth Quarter and Fiscal Year 2024 Results MOUNTAIN VIEW, Calif. – February 4, 2025 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter and fiscal year ended December 31, 2024. • Consolidated Alphabet revenues in Q4 2024 increased 12% year over year to $96.5 billion reflecting robust momentum across the business. • Google Services revenues increased 10% to $84.1 billion, reflecting the strong momentum across Google Search & other and YouTube ads. • Google Cloud revenues increased 30% to $12.0 billion led by growth in Google Cloud Platform (GCP) across core GCP products, AI Infrastructure, and Generative AI Solutions. • Total operating income increased 31% and operating margin expanded by 5% percentage points to 32%. • Net income increased 28% and EPS increased 31% to $2.15. Sundar Pichai, CEO, said: “Q4 was a strong quarter driven by our leadership in AI and momentum across the business. We are building, testing, and launching products and models faster than ever, and making significant progress in compute and driving efficiencies. In Search, advances like AI Overviews and Circle to Search are increasing user engagement. Our AI-powered Google Cloud portfolio is seeing stronger customer demand, and YouTube continues to be the leader in streaming watchtime and podcasts. Together, Cloud and YouTube exited 2024 at an annual revenue run rate of $110 billion. Our results show the power of our differentiated full-stack approach to AI innovation and the continued strength of our core businesses. We are confident about the opportunities ahead, and to accelerate our progress, we expect to invest approximately $75 billion in capital expenditures in 2025.” Q4 2024 Financial Highlights The following table summarizes our consolidated financial results for the quarter and fiscal year ended December 31, 2023 and 2024 (in millions, except for per share information and percentages). Quarter Ended December 31, Year Ended December 31, 2023 2024 2023 2024 (unaudited) (unaudited) Revenues $ 86,310 $ 96,469 $ 307,394 $ 350,018 Change in revenues year over year 13 % 12 % 9 % 14 % Change in constant currency revenues year over year (1) 13 % 12 % 10 % 15 % Operating income $ 23,697 $ 30,972 $ 84,293 $ 112,390 Operating margin 27 % 32 % 27 % 32 % Other income (expense), net $ 715 $ 1,271 $ 1,424 $ 7,425 Net income $ 20,687 $ 26,536 $ 73,795 $ 100,118 Diluted EPS $ 1.64 $ 2.15 $ 5.80 $ 8.04 (1) Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details. 1 Q4 2024 Supplemental Information (in millions, except for number of employees; unaudited) Revenues, Traffic Acquisition Costs (TAC), and Number of Employees Quarter Ended December 31, 2023 2024 Google Search & other $ 48,020 $ 54,034 YouTube ads 9,200 10,473 Google Network 8,297 7,954 Google advertising 65,517 72,461 Google subscriptions, platforms, and devices 10,794 11,633 Google Services total 76,311 84,094 Google Cloud 9,192 11,955 Other Bets 657 400 Hedging gains (losses) 150 20 Total revenues $ 86,310 $ 96,469 Total TAC $ 13,986 $ 14,848 Number of employees 182,502 183,323 Segment Operating Results As announced on October 17, 2024, the Gemini app team that is developing the direct consumer interface to our Gemini models joined Google DeepMind in the quarter ended December 31, 2024. The costs associated with the Gemini app team continue to be reported within our Google Services segment. Quarter Ended December 31, 2023 2024 Operating income (loss): Google Services $ 26,730 $ 32,836 Google Cloud 864 $ 2,093 Other Bets (863) $ (1,174) Alphabet-level activities (1) (3,034) $ (2,783) Total income from operations $ 23,697 $ 30,972 (1) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $150 million and $20 million for the three months ended December 31, 2023 and 2024, respectively. For the three months ended December 31, 2023 and 2024, Alphabet-level activities included substantially all of the charges related to employee severance and our office spa ce charges. Additional Information Relating to the Quarter Ended December 31, 2024 (unaudited) Dividend Program Dividend payments to stockholders of Class A, Class B, and Class C shares, were $1.2 billion, $172 million, and $1.1 billion, respectively, totaling $2.4 billion for the three months ended December 31, 2024. 2 Webcast and
+Document
+Exhibit 99.1
+Alphabet Announces Fourth Quarter and Fiscal Year 2024 Results
+MOUNTAIN VIEW, Calif.
+– February 4, 2025 –
+Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter and fiscal year ended December 31, 2024.
+•
+Consolidated Alphabet revenues in Q4 2024 increased 12% year over year to $96.5 billion reflecting robust momentum across the business.
+•
+Google Services revenues increased 10% to $84.1 billion, reflecting the strong momentum across Google Search & other and YouTube ads.
+•
+Google Cloud revenues increased 30% to $12.0 billion led by growth in Google Cloud Platform (GCP) across core GCP products, AI Infrastructure, and Generative AI Solutions.
+•
+Total operating income increased 31% and operating margin expanded by 5% percentage points to 32%.
+•
+Net income increased 28% and EPS increased 31% to $2.15.
+Sundar Pichai, CEO, said: “Q4 was a strong quarter driven by our leadership in AI and momentum across the business. We are building, testing, and launching products and models faster than ever, and making significant progress in compute and driving efficiencies. In Search, advances like AI Overviews and Circle to Search are increasing user engagement. Our AI-powered Google Cloud portfolio is seeing stronger customer demand, and YouTube continues to be the leader in streaming watchtime and podcasts. Together, Cloud and YouTube exited 2024 at an annual revenue run rate of $110 billion. Our results show the power of our differentiated full-stack approach to AI innovation and the continued strength of our core businesses. We are confident about the opportunities ahead, and to accelerate our progress, we expect to invest approximately $75 billion in capital expenditures in 2025.”
+Q4 2024 Financial Highlights
+The following table summarizes our consolidated financial results for the quarter and fiscal year ended December 31, 2023 and 2024 (in millions, except for per share information and percentages).
+Quarter Ended December 31,
+Year Ended December 31,
+2023
+2024
+2023
+2024
+(unaudited)
+(unaudited)
+Revenues
+$
+86,310
+$
+96,469
+$
+307,394
+$
+350,018
+Change in revenues year over year
+13
+%
+12
+%
+9
+%
+14
+%
+Change in constant currency revenues year over year
+(1)
+13
+%
+12
+%
+10
+%
+15
+%
+Operating income
+$
+23,697
+$
+30,972
+$
+84,293
+$
+112,390
+Operating margin
+27
+%
+32
+%
+27
+%
+32
+%
+Other income (expense), net
+$
+715
+$
+1,271
+$
+1,424
+$
+7,425
+Net income
+$
+20,687
+$
+26,536
+$
+73,795
+$
+100,118
+Diluted EPS
+$
+1.64
+$
+2.15
+$
+5.80
+$
+8.04
+(1)
+Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details.
+1
+Q4 2024 Supplemental Information
+(in millions, except for number of employees; unaudited)
+Revenues, Traffic Acquisition Costs (TAC), and Number of Employees
+Quarter Ended December 31,
+2023
+2024
+Google Search & other
+$
+48,020
+$
+54,034
+YouTube ads
+9,200
+10,473
+Google Network
+8,297
+7,954
+Google advertising
+65,517
+72,461
+Google subscriptions, platforms, and devices
+10,794
+11,633
+Google Services total
+76,311
+84,094
+Google Cloud
+9,192
+11,955
+Other Bets
+657
+400
+Hedging gains (losses)
+150
+20
+Total revenues
+$
+86,310
+$
+96,469
+Total TAC
+$
+13,986
+$
+14,848
+Number of employees
+182,502
+183,323
+Segment Operating Results
+As announced on October 17, 2024,
+the Gemini app team that is developing the direct consumer interface to our Gemini models joined Google DeepMind
+in the quarter ended December 31, 2024.
+The costs associated with the Gemini app team continue to be reported within our Google Services segment.
+Quarter Ended December 31,
+2023
+2024
+Operating income (loss):
+Google Services
+$
+26,730
+$
+32,836
+Google Cloud
+864
+$
+2,093
+Other Bets
+(863)
+$
+(1,174)
+Alphabet-level activities
+(1)
+(3,034)
+$
+(2,783)
+Total income from operations
+$
+23,697
+$
+30,972
+(1)
+In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $150 million and
+$20 million
+for the three months ended December 31, 2023 and 2024, respectively. For the three months ended December 31, 2023 and 2024,
+Alphabet-level activities included substantially all of the charges related to employee severance and our office spa
+ce charges.
+Additional Information Relating to the Quarter Ended December 31, 2024
+(unaudited)
+Dividend Program
+Dividend payments to stockholders of Class A, Class B, and Class C shares, were $1.2 billion, $172 million, and $1.1 billion, respectively, totaling $2.4 billion for the three months ended December 31, 2024.
+2
+Webcast and

@@ -435,7 +435,8 @@ def main() -> None:
             results.append(result)
 
             predictions = test_df[
-                ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+                ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+                    "Tradable_Abnormal_Return_1D"]].copy()
 
             predictions["Test_Year"] = test_year
             predictions["Model"] = model_name

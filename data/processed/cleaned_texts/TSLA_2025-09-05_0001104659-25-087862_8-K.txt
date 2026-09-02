@@ -1,1 +1,26 @@
-Item 1.01 Entry into a Material Definitive Agreement. On September 3, 2025, the Board of Directors of Tesla, Inc., a Texas corporation (the “ Company ”), approved an updated form of Indemnification Agreement (the “ Indemnification Agreement ”), and the Company entered into an Indemnification Agreement with each of its directors and executive officers (each, an “ Indemnitee ”). The Indemnification Agreement provides generally that the Company will indemnify each Indemnitee and advance expenses to each Indemnitee to the fullest extent permitted under Texas law, and to provide for continued coverage of each Indemnitee under the Company’s directors’ and officers’ insurance policies. The form of Indemnification Agreement is attached hereto as Exhibit 10.1. The foregoing summary and description of the provisions of the Indemnification Agreement do not purport to be complete and are qualified in their entirety by reference to the full text of the Indemnification Agreement, a copy of which is filed as Exhibit 10.1 to this Current Report on Form 8-K and is incorporated herein by reference. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 10.1 Form of Indemnification Agreement. 104 Cover Page Interactive Data File (embedded within the Inline XBRL document).
+Item 1.01
+Entry into a Material Definitive Agreement.
+On September 3, 2025, the Board of Directors of Tesla, Inc.,
+a Texas corporation (the “
+Company
+”), approved an updated form of Indemnification Agreement (the “
+Indemnification
+Agreement
+”), and the Company entered into an Indemnification Agreement with each of its directors and executive officers (each, an “
+Indemnitee
+”).
+The Indemnification Agreement provides generally that the Company will indemnify each Indemnitee and advance expenses to each Indemnitee
+to the fullest extent permitted under Texas law, and to provide for continued coverage of each Indemnitee under the Company’s directors’
+and officers’ insurance policies. The form of Indemnification Agreement is attached hereto as Exhibit 10.1. The foregoing summary
+and description of the provisions of the Indemnification Agreement do not purport to be complete and are qualified in their entirety by
+reference to the full text of the Indemnification Agreement, a copy of which is filed as Exhibit 10.1 to this Current Report on Form 8-K
+and is incorporated herein by reference.
+Item 9.01
+Financial Statements and Exhibits.
+(d)            Exhibits.
+Exhibit No.
+Description
+10.1
+Form of Indemnification Agreement.
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document).

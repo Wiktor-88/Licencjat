@@ -1,1 +1,181 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Third Quarter Fiscal 2024 • Record revenue of $18.12 billion, up 34% from Q2, up 206% from year ago • Record Data Center revenue of $14.51 billion, up 41% from Q2, up 279% from year ago SANTA CLARA, Calif.—Nov. 21, 2023― NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 29, 2023, of $18.12 billion, up 206% from a year ago and up 34% from the previous quarter. GAAP earnings per diluted share for the quarter were $3.71, up more than 12x from a year ago and up 50% from the previous quarter. Non-GAAP earnings per diluted share were $4.02, up nearly 6x from a year ago and up 49% from the previous quarter. “Our strong growth reflects the broad industry platform transition from general-purpose to accelerated computing and generative AI,” said Jensen Huang, founder and CEO of NVIDIA. “Large language model startups, consumer internet companies and global cloud service providers were the first movers, and the next waves are starting to build. Nations and regional CSPs are investing in AI clouds to serve local demand, enterprise software companies are adding AI copilots and assistants to their platforms, and enterprises are creating custom AI to automate the world’s largest industries. “NVIDIA GPUs, CPUs, networking, AI foundry services and NVIDIA AI Enterprise software are all growth engines in full throttle. The era of generative AI is taking off,” he said. NVIDIA will pay its next quarterly cash dividend of $0.04 per share on December 28, 2023, to all shareholders of record on December 6, 2023. Q3 Fiscal 2024 Summary GAAP ($ in millions, except earnings per share) Q3 FY24 Q2 FY24 Q3 FY23 Q/Q Y/Y Revenue $18,120 $13,507 $5,931 Up 34% Up 206% Gross margin 74.0 % 70.1 % 53.6 % Up 3.9 pts Up 20.4 pts Operating expenses $2,983 $2,662 $2,576 Up 12% Up 16% Operating income $10,417 $6,800 $601 Up 53% Up 1,633% Net income $9,243 $6,188 $680 Up 49% Up 1,259% Diluted earnings per share $3.71 $2.48 $0.27 Up 50% Up 1,274% Non-GAAP ($ in millions, except earnings per share) Q3 FY24 Q2 FY24 Q3 FY23 Q/Q Y/Y Revenue $18,120 $13,507 $5,931 Up 34% Up 206% Gross margin 75.0 % 71.2 % 56.1 % Up 3.8 pts Up 18.9 pts Operating expenses $2,026 $1,838 $1,793 Up 10% Up 13% Operating income $11,557 $7,776 $1,536 Up 49% Up 652% Net income $10,020 $6,740 $1,456 Up 49% Up 588% Diluted earnings per share $4.02 $2.70 $0.58 Up 49% Up 593% Outlook NVIDIA’s outlook for the fourth quarter of fiscal 2024 is as follows: • Revenue is expected to be $20.00 billion, plus or minus 2%. • GAAP and non-GAAP gross margins are expected to be 74.5% and 75.5%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $3.17 billion and $2.20 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an income of approximately $200 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 15.0%, plus or minus 1%, excluding any discrete items. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Data Center • Third-quarter revenue was a record $14.51 billion, up 41% from the previous quarter and up 279% from a year ago. • Announced NVIDIA HGX™ H200 with the new NVIDIA H200 Tensor Core GPU, the first GPU with HBM3e memory, with systems expected to be available in the second quarter of next year. • Introduced an AI foundry service — with NVIDIA AI Foundation Models, NVIDIA NeMo™ framework and NVIDIA DGX™ Cloud AI supercomputing — to accelerate the development and tuning of custom generative AI applications, first available on Microsoft Azure, with SAP and Amdocs among the first customers. • Announced that the NVIDIA Spectrum-X™ Ethernet networking platform for AI will be integrated into servers from Dell Technologies, Hewlett Packard Enterprise and Lenovo in the first quarter of next year. • Announced that NVIDIA GH200 Grace Hopper Superchips, including a new quad configuration, will power more than 40 new supercomputers, including the JUPITER system at Jülich Supercomputing Centre and Isambard-AI at the University of Bristol. • Made advances with global cloud service providers: ◦ Google Cloud Platform made generally available new A3 instances powered by NVIDIA H100 Tensor Core GPUs and NVIDIA AI Enterprise software in Google Cloud Marketplace. ◦ Microsoft Azure will be offering customers access to NVIDIA Omniverse™ Cloud Services for accelerating automotive digitalization, as well as new instances featuring NVL H100 Tensor Core GPUs and H100 with confidential computing, with H200 GPUs coming next year. ◦ Oracle Cloud Infrastructure made NVIDIA DGX Cloud and NVIDIA AI Enterprise software available in Oracle Cloud Marketplace. • Partnered with a range of leading companies on AI initiatives, including Amdocs, Dropbox, Foxconn, Genentech (member of Roche Group), Infosys, Lenovo, Reliance Industries, Scaleway and Tata Group. • Announced record-setting performance in the latest two sets of MLPerf benchmarks for inference and training, with the NVIDIA Eos AI supercomputer training a GPT-3 model 3x faster than the previous record. • Announced growing worldwide support for the NVIDIA® CUDA® Quantum platform, including new efforts in Israel, the Netherlands, the U.K. and the U.S. Gaming • Third-quarter revenue was $2.86 billion, up 15% from the previous quarter and up 81% from a year ago. • Launched DLSS 3.5 Ray Reconstruction, which creates high-quality ray-traced images for intensive ray-traced games and apps, including Alan Wake 2 and Cyberpunk 2077 . • Released TensorRT-LLM™ for Windows, speeding on-device LLM inference by up to 4x. • Added 56 DLSS games and over 15 Reflex games, bringing the total number of RTX games and applications to over 475. • Surpassed 1,700 games on GeForce NOW™, including launches of Alan Wake 2 , Baldur’s Gate 3 , Cyberpunk 2077: Phantom Liberty, Forza Motorsport and Starfield . Professional Visualization • Third-quarter revenue was $416 million, up 10% from the previous quarter and up 108% from a year ago. • Announced that Mercedes-Benz is using NVIDIA Omniverse to create digital twins to help plan, design, build and operate its manufacturing and assembly facilities around the world. • Announced a new line of desktop workstations with NVIDIA RTX™ 6000 Ada Generation GPUs and NVIDIA ConnectX® smart interface cards for training smaller AI models, fine-tuning models and running inference locally. Automotive • Third-quarter revenue was $261 million, up 3% from the previous quarter and up 4% from a year ago. • Furthered its collaboration with Foxconn to develop next-generation electric vehicles for the global market, using the next-generation NVIDIA DRIVE Hyperion™ platform and NVIDIA DRIVE Thor™ system-on-a-chip. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Third Quarter Fiscal 2024
+•
+Record revenue of $18.12 billion, up 34% from Q2, up 206% from year ago
+•
+Record Data Center revenue of $14.51 billion, up 41% from Q2, up 279% from year ago
+SANTA CLARA, Calif.—Nov. 21, 2023―
+NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 29, 2023, of $18.12 billion, up 206% from a year ago and up 34% from the previous quarter.
+GAAP earnings per diluted share for the quarter were $3.71, up more than 12x from a year ago and up 50% from the previous quarter. Non-GAAP earnings per diluted share were $4.02, up nearly 6x from a year ago and up 49% from the previous quarter.
+“Our strong growth reflects the broad industry platform transition from general-purpose to accelerated computing and generative AI,” said Jensen Huang, founder and CEO of NVIDIA.
+“Large language model startups, consumer internet companies and global cloud service providers were the first movers, and the next waves are starting to build. Nations and regional CSPs are investing in AI clouds to serve local demand, enterprise software companies are adding AI copilots and assistants to their platforms, and enterprises are creating custom AI to automate the world’s largest industries.
+“NVIDIA GPUs, CPUs, networking, AI foundry services and NVIDIA AI Enterprise software are all growth engines in full throttle. The era of generative AI is taking off,” he said.
+NVIDIA will pay its next quarterly cash dividend of $0.04 per share on December 28, 2023, to all shareholders of record on December 6, 2023.
+Q3 Fiscal 2024 Summary
+GAAP
+($ in millions, except earnings per share)
+Q3 FY24
+Q2 FY24
+Q3 FY23
+Q/Q
+Y/Y
+Revenue
+$18,120
+$13,507
+$5,931
+Up 34%
+Up 206%
+Gross margin
+74.0
+%
+70.1
+%
+53.6
+%
+Up 3.9 pts
+Up 20.4 pts
+Operating expenses
+$2,983
+$2,662
+$2,576
+Up 12%
+Up 16%
+Operating income
+$10,417
+$6,800
+$601
+Up 53%
+Up 1,633%
+Net income
+$9,243
+$6,188
+$680
+Up 49%
+Up 1,259%
+Diluted earnings per share
+$3.71
+$2.48
+$0.27
+Up 50%
+Up 1,274%
+Non-GAAP
+($ in millions, except earnings per share)
+Q3 FY24
+Q2 FY24
+Q3 FY23
+Q/Q
+Y/Y
+Revenue
+$18,120
+$13,507
+$5,931
+Up 34%
+Up 206%
+Gross margin
+75.0
+%
+71.2
+%
+56.1
+%
+Up 3.8 pts
+Up 18.9 pts
+Operating expenses
+$2,026
+$1,838
+$1,793
+Up 10%
+Up 13%
+Operating income
+$11,557
+$7,776
+$1,536
+Up 49%
+Up 652%
+Net income
+$10,020
+$6,740
+$1,456
+Up 49%
+Up 588%
+Diluted earnings per share
+$4.02
+$2.70
+$0.58
+Up 49%
+Up 593%
+Outlook
+NVIDIA’s outlook for the fourth quarter of fiscal 2024 is as follows:
+•
+Revenue is expected to be $20.00 billion, plus or minus 2%.
+•
+GAAP and non-GAAP gross margins are expected to be 74.5% and 75.5%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $3.17 billion and $2.20 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an income of approximately $200 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 15.0%, plus or minus 1%, excluding any discrete items.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Data Center
+•
+Third-quarter revenue was a record $14.51 billion, up 41% from the previous quarter and up 279% from a year ago.
+•
+Announced NVIDIA HGX™ H200 with the new NVIDIA H200 Tensor Core GPU, the first GPU with HBM3e memory, with systems expected to be available in the second quarter of next year.
+•
+Introduced an AI foundry service — with NVIDIA AI Foundation Models, NVIDIA NeMo™ framework and NVIDIA DGX™ Cloud AI supercomputing — to accelerate the development and tuning of custom generative AI applications, first available on Microsoft Azure, with SAP and Amdocs among the first customers.
+•
+Announced that the NVIDIA Spectrum-X™ Ethernet networking platform for AI will be integrated into servers from Dell Technologies, Hewlett Packard Enterprise and Lenovo in the first quarter of next year.
+•
+Announced that NVIDIA GH200 Grace Hopper Superchips, including a new quad configuration, will power more than 40 new supercomputers, including the JUPITER system at Jülich Supercomputing Centre and Isambard-AI at the University of Bristol.
+•
+Made advances with global cloud service providers:
+◦
+Google Cloud Platform made generally available new A3 instances powered by NVIDIA H100 Tensor Core GPUs and NVIDIA AI Enterprise software in Google Cloud Marketplace.
+◦
+Microsoft Azure will be offering customers access to NVIDIA Omniverse™ Cloud Services for accelerating automotive digitalization, as well as new instances featuring NVL H100 Tensor Core GPUs and H100 with confidential computing, with H200 GPUs coming next year.
+◦
+Oracle Cloud Infrastructure made NVIDIA DGX Cloud and NVIDIA AI Enterprise software available in Oracle Cloud Marketplace.
+•
+Partnered with a range of leading companies on AI initiatives, including Amdocs, Dropbox, Foxconn, Genentech (member of Roche Group), Infosys, Lenovo, Reliance Industries, Scaleway and Tata Group.
+•
+Announced record-setting performance in the latest two sets of MLPerf benchmarks for inference and training, with the NVIDIA Eos AI supercomputer training a GPT-3 model 3x faster than the previous record.
+•
+Announced growing worldwide support for the NVIDIA® CUDA® Quantum platform, including new efforts in Israel, the Netherlands, the U.K. and the U.S.
+Gaming
+•
+Third-quarter revenue was $2.86 billion, up 15% from the previous quarter and up 81% from a year ago.
+•
+Launched DLSS 3.5 Ray Reconstruction, which creates high-quality ray-traced images for intensive ray-traced games and apps, including
+Alan Wake 2
+and
+Cyberpunk 2077
+.
+•
+Released TensorRT-LLM™ for Windows, speeding on-device LLM inference by up to 4x.
+•
+Added 56 DLSS games and over 15 Reflex games, bringing the total number of RTX games and applications to over 475.
+•
+Surpassed 1,700 games on GeForce NOW™, including launches of
+Alan Wake 2
+,
+Baldur’s Gate 3
+,
+Cyberpunk 2077: Phantom Liberty, Forza Motorsport and Starfield
+.
+Professional Visualization
+•
+Third-quarter revenue was $416 million, up 10% from the previous quarter and up 108% from a year ago.
+•
+Announced that Mercedes-Benz is using NVIDIA Omniverse to create digital twins to help plan, design, build and operate its manufacturing and assembly facilities around the world.
+•
+Announced a new line of desktop workstations with NVIDIA RTX™ 6000 Ada Generation GPUs and NVIDIA ConnectX® smart interface cards for training smaller AI models, fine-tuning models and running inference locally.
+Automotive
+•
+Third-quarter revenue was $261 million, up 3% from the previous quarter and up 4% from a year ago.
+•
+Furthered its collaboration with Foxconn to develop next-generation electric vehicles for the global market, using the next-generation NVIDIA DRIVE Hyperion™ platform and NVIDIA DRIVE Thor™ system-on-a-chip.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com.

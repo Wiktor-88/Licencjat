@@ -1,1 +1,598 @@
-Document Exhibit 99.1 July 20, 2021 Fellow shareholders, In Q2, revenue increased 19% year over year to $7.3 billion, while operating income rose 36% year over year to $1.8 billion. We finished the quarter with over 209m paid memberships, slightly ahead of our forecast. COVID has created some lumpiness in our membership growth (higher growth in 2020, slower growth this year), which is working its way through. We continue to focus on improving our service for our members and bringing them the best stories from around the world. Our summary results and forecast for Q3 are below. (in millions except per share data) Q2'20 Q3'20 Q4'20 Q1'21 Q2'21 Q3'21 Forecast Revenue $ 6,148 $ 6,436 $ 6,644 $ 7,163 $ 7,342 $ 7,477 Y/Y % Growth 24.9 % 22.7 % 21.5 % 24.2 % 19.4 % 16.2 % Operating Income $ 1,358 $ 1,315 $ 954 $ 1,960 $ 1,848 $ 1,550 Operating Margin 22.1 % 20.4 % 14.4 % 27.4 % 25.2 % 20.7 % Net Income $ 720 $ 790 $ 542 $ 1,707 $ 1,353 $ 1,158 Diluted EPS $ 1.59 $ 1.74 $ 1.19 $ 3.75 $ 2.97 $ 2.55 Global Streaming Paid Memberships 192.95 195.15 203.66 207.64 209.18 212.68 Y/Y % Growth 27.3 % 23.3 % 21.9 % 13.6 % 8.4 % 9.0 % Global Streaming Paid Net Additions 10.09 2.20 8.51 3.98 1.54 3.50 Net cash provided by (used in) operating activities $ 1,041 $ 1,264 $ (138) $ 777 $ (64) Free Cash Flow* $ 899 $ 1,145 $ (284) $ 692 $ (175) Shares (FD) 453.9 455.1 455.3 455.6 455.1 Note: Figures are consolidated, including DVD. * Free cash flow represents Net Cash provided by (used in) operating activities less purchases of property and equipment and change in other assets. 1 Q2 Results and Q3 Forecast Revenue growth was driven by an 11% increase in average paid streaming memberships and 8% growth in average revenue per membership (ARM) 1 . ARM rose 4%, excluding a foreign exchange (FX) impact of +$277m. Operating margin of 25.2% expanded 3 percentage points compared with the year ago quarter. EPS of $2.97 vs. $1.59 a year ago included a $63m non-cash unrealized loss from FX remeasurement on our Euro denominated debt. The pandemic has created unusual choppiness in our growth and distorts year-over-year comparisons as acquisition and engagement per member household spiked in the early months of COVID. In Q2’21, our engagement per member household was, as expected, down vs. those unprecedented levels but was still up 17% compared with a more comparable Q2’19. Similarly, retention continues to be strong and better than pre-COVID Q2’19 levels, even as average revenue per membership has grown 8% over this two-year period, demonstrating how much our members value Netflix and that as we improve our service we can charge a bit more. We added 1.5m paid memberships in Q2, slightly ahead of our 1.0m guidance forecast. The APAC region represented about two-thirds of our global paid net adds in the quarter. As expected, Q2 paid memberships in the UCAN region were slightly down sequentially (-0.4m paid net adds). We believe our large membership base in UCAN coupled with a seasonally smaller quarter for acquisition is the main reason for this dynamic. This is similar to what we experienced in Q2’19 when our UCAN paid net adds were -0.1m; since then we’ve added nearly 7.5m paid net adds in UCAN. As a reminder, the quarterly guidance we provide is our actual internal forecast at the time we report. For Q3’21, we forecast paid net additions of 3.5m vs. 2.2m in the prior year period. If we achieve our forecast, we will have added more than 54m paid net adds over the past 24 months or 27m on an annualized basis over that time period, which is consistent with our pre-COVID annual rate of net additions. We forecast that ARM will grow roughly 5% year over year on a FX neutral basis in Q3’21. ___________________________________ 1 Average revenue per membership (ARM) is defined as streaming revenue divided by the average number of streaming paid memberships divided by the number of months in the period. These figures do not include sales taxes or VAT. 2 We continue to target a 20% operating margin for the full year 2021 vs. 18% in 2020. After our big global launch in January 2016, we committed to steadily growing our operating margin thereafter at an average rate of three percentage points per year over any few-year period. Some years we’ll be a little over (like in 2020), some years a little under (like in 2021). Assuming we achieve our margin target this year, we will have quintupled our operating margin in the last five years and are tracking ahead of this average annual three percentage point pace. With revenue and margin both increasing, our operating profit dollars have risen dramatically as well (even as we have been investing heavily), from about $100 million per quarter in 2016 to nearly $2 billion per quarter so far in 2021. Our belief is that as we steadily improve our service to better please our members, this will lead to continued growth in our membership base, ARM, revenue, operating margin and profit dollars. Content We launched our first original scripted TV series in 2012 and we’ve since expanded our original programming effort to many additional categories, from all over the world. Our goal is to be everyone’s first choice for entertainment because of the variety and quality of our titles. And despite the COVID-related production delays in 2020, we were able to deliver an exciting portfolio of titles in Q2’21 that exemplify this ambition. For example, Shadow and Bone , a fantasy series based on the popular Grishaverse book series 2 , proved to be very popular with our members. Over 55m member households chose to watch this show in its first 28 days and we’ve renewed it for a second season. Sweet Tooth , based on the beloved DC comic, was another hit series with 60m member households choosing this title in its first four weeks. Our expansion into non-fiction series is going well. This past quarter, standout unscripted titles include season two of dating show Too Hot to Handle and social experiment reality program The Circle (an estimated 29m and 14m, respectively, chose to watch in the first 28 days) as well as the true crime __________________________________ 2 https://grishaverse.com/ 3 docu-series The Sons of Sam (19m). We’re building out some of these unscripted titles with local versions of the same formats. As one example, Too Hot to Handle: Brazil and Too Hot to Handle: Latino will be launching later in July and September, respectively, to serve our LATAM region. We’re also quickly growing both our live action and animated original film offering, with several impactful titles in Q2. Zack Snyder’s Army of the Dead was a blockbuster as 75m member households chose to watch this action packed zombie spectacle in its first 28 days of release. As an extension to Army of the Dead , a prequel, Army of Thieves , will be released in Q4’21 along with a spinoff anime series later in 2022. Fatherhood , a dramedy starring Kevin Hart, was another hit, drawing an estimated 74m member households in its first 28 days. And Q2 also featured our biggest Netflix animated film to date with 53m member households choosing to watch The Mitchells vs. The Machines . Last week, Netflix series and specials received 129 Emmy nominations. With 24 nominations, The Crown tied for the most nominated series. Bridgerton with 12 nominations was also nominated for Best Drama series while The Queen’s Gambit received 18 nominations including Best Limited Series. Cobra Kai , Emily In Paris and the finale season of The Kominsky Method were all nominated for Best Comedy series. Beyond this acclaim, these are also among our popular series on Netflix. Our non-English content investments are growing both in scope and impact. Our P&L content expense for this content category has more than doubled in the past two years. Illustrating how great stories can come from anywhere and be loved everywhere, part two of Lupin from France was our largest non-English title in the quarter with 54m member households choosing this title in its first four weeks. Season four of Elite from Spain drew 37m member households in its first 28 days, while season two of Who Killed Sara? built on the success of the first season with 34m households choosing the latest installment of this gripping thriller from Mexico. As discussed in previous letters, COVID-related production delays in 2020 have led to a lighter first half of 2021 slate that will build through the course of the year. In the first six months of 2021, content amortization grew only 9% year over year (as compared to 17% in FY20). COVID and its variants make predicting the future hard, but with productions largely running smoothly so far, we’re optimistic in our ability to deliver a strong second half slate. Through the first half of 2021 we’ve already spent $8 billion in cash on content (up 41% yr-over-yr and 1.4x our content amortization) and we expect content amortization to be around $12 billion for the full year (+12% year over year). Our Q3 slate will include new seasons of fan favorites La Casa de Papel (aka Money Heist ), Sex Education , Virgin River and Never Have I Ever as well as live action films including Sweet Girl (starring Jason Momoa), Kissing Booth 3 , and Kate (starring Mary Elizabeth Winstead) and the animated feature film Vivo , featuring all-new songs from Lin-Manuel Miranda. We’re also in the early stages of further expanding into games, building on our earlier efforts around interactivity (eg, Black Mirror Bandersnatch ) and our Stranger Things games. We view gaming as another new content category for us, similar to our expansion into original films, animation and unscripted TV. Games will be included in members’ Netflix subscription at no additional cost similar to films and series. Initially, we’ll be primarily focused on games for mobile devices. We’re excited as ever about our movies and TV series offering and we expect a long runway of increasing investment and growth across all of our existing content categories, but since we are nearly a decade into our push into original programming, we think the time is right to learn more about how our members value games. 4 Product We’re constantly innovating across a broad range of areas to improve the viewing experience and better serve our members. That’s why this quarter we globally launched Play Something 3 on television, our new feature that lets Netflix do the work when you don’t feel like choosing what to watch. Recognizing that broadband quality and cost varies around the world, we also improved the Netflix download experience to enable you to start watching a show or film even if it hasn’t finished downloading. Once you reconnect, you can complete the partial download and keep watching — also helping members avoid exceeding their data limits. We recently expanded our low-cost mobile-only plan to an additional 78 countries across South East Asia and sub-saharan Africa. Like in our other markets, this plan complements our existing three tiers of service. In the five markets where we had previously launched a mobile-only plan, we have found that the mobile only plan has been an effective way to introduce more consumers to Netflix while being roughly revenue neutral as the lower average revenue per membership is offset by incremental acquisition and generally better retention. Competition We are still very much in the early days of the transition from linear to on-demand consumption of entertainment. Streaming represents just 27% of US TV screen time, compared with 63% for linear television, according to Nielsen. Based on this same study, Nielsen estimates that we are just 7% of US TV screen time. Considering that we are less mature in other countries and that this excludes mobile screens (where we believe our share of engagement is even lower), we are confident that we have a long runway for growth. As we improve our service, our goal is to continue to increase our share of screen time in the US and around the world. __________________________________ 3 https://www.wsj.com/articles/cant-decide-what-to-stream-netflixs-new-feature-will-choose-for-you-11619618402 5 The planned combination of Warner Media Group and Discovery and Amazon’s pending acquisition of MGM are examples of the ongoing industry consolidation as firms adapt to a world where streaming supplants linear TV. The industry has consolidated materially over the years (Time Warner/AT&T, Viacom/CBS, Discovery/Scripps, Disney/Fox, Comcast/NBCU/Sky, etc.) and we don’t believe this consolidation has affected our growth much, if at all. While we are continually evaluating opportunities, we don’t view any assets as “must-have” and we haven’t yet found any large scale ones to be sufficiently compelling to act upon. In the race to entertain consumers around the world, we continue to compete for screen time with a broad set of firms like YouTube, Epic Games and TikTok (to name just a few). But, we are mostly competing with ourselves to improve our service as fast as we can. If we can do that, we’re confident we can maintain our strong position and continue to grow nicely as we have been over the past two-plus decades. Cash Flow and Capital Structure In Q2, net cash generated by operating activities was -$64 million vs. $1 billion in the prior year period. Free cash flow (FCF) 4 for the quarter was -$175 million vs. $899 million in Q2‘20. FCF in last year’s Q2 benefited from COVID-related production shutdowns. We are still expecting full year 2021 free cash flow to be approximately break even. As we discussed previously, we believe we no longer have a need to raise external financing to fund our day-to-day operations. During Q2, we increased our revolving credit facility (which remains undrawn) to $1 billion from $750 million and extended the maturity from 2024 to 2026. We also repurchased 1m shares for $500 million (at an average per share price of about $500) under our $5 billion share authorization. Our main priority is to invest in the organic growth of our business while maintaining strong liquidity and retaining financial flexibility for strategic investments. Our growing operating profit allows us to complement this priority with a return of capital to shareholders. __________________________________ 4 For a reconciliation of free cash flow to net cash provided by (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto. 6 Environmental, Social, and Governance (ESG) In June, the independent sustainability think tank The Carbon Trust 5 published a white paper 6 examining the carbon impact of video streaming. Key findings 7 of the work include: • The average carbon footprint for Europe per hour of video streaming is approximately 55gCO2e, equivalent to driving 250 metres in an average petrol car. • Devices (TVs, laptops/PCs, smartphones, tablets) make up the largest portion of carbon emissions from streaming (over 50%), compared to other components like energy from data centers or networks. Good news: Devices are getting more efficient over time and total device usage is fairly constant (with Netflix gaining share from linear). • Changing resolutions and other viewing settings were found to result in only a very small change in the carbon impact. Changing from standard definition to 4K resolution grows transmission emissions from just under 1g CO2e/hour to just over 1g CO2e/hour. • As demand for streaming and other internet services increases, the carbon intensity of these services will decrease over time. This is due to (1) networking equipment becoming less energy-intensive with technological advances, and (2) increased use of renewable electricity. As a reminder, our ESG-related information can be found on our IR website 8 . Reference For quick reference, our eight most recent investor letters are: April 2021 , 9 January 2021 , 10 October 2020 , 11 July 2020 , 12 April 2020 , 13 January 2020 , 14 Octob er 2 019 , 15 July 2019 . 16 ___________________________________ 5 https://www.carbontrust.com/ 6 https://s22.q4cdn.com/959853165/files/doc_events/2021/Carbon-impact-of-video-streaming.pdf 7 https://about.netflix.com/en/news/the-true-climate-impact-of-streaming 8 https://ir.netflix.net/governance/ESG/default.aspx 9 https://s22.q4cdn.com/959853165/files/doc_financials/2021/q1/FINAL-Q1-21-Shareholder-Letter.pdf 10 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf 11 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q3/FINAL-Q3-20-Shareholder-Letter.pdf 12 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q2/FINAL-Q2-20-Shareholder-Letter-V3-with-Tables.pdf 13 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q1/updated/FINAL-Q1-20-Shareholder-Letter.pdf 14 https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf 15 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q3/FINAL-Q3-19-Shareholder-Letter.pdf 16 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q2/Q2-19-Shareholder-Letter-FINAL.pdf 7 Regional Breakdown (in millions) Q2'20 Q3'20 Q4'20 Q1'21 Q2'21 UCAN Streaming: Revenue $ 2,840 $ 2,933 $ 2,980 $ 3,171 $ 3,235 Paid Memberships 72.90 73.08 73.94 74.38 73.95 Paid Net Additions 2.94 0.18 0.86 0.45 (0.43) Average Revenue per Membership $ 13.25 $ 13.40 $ 13.51 $ 14.25 $ 14.54 Y/Y % Growth 6 % 2 % 2 % 9 % 10 % F/X Neutral Y/Y % Growth 6 % 3 % 2 % 9 % 9 % EMEA: Revenue $ 1,893 $ 2,019 $ 2,137 $ 2,344 $ 2,400 Paid Memberships 61.48 62.24 66.70 68.51 68.70 Paid Net Additions 2.75 0.76 4.46 1.81 0.19 Average Revenue per Membership $ 10.50 $ 10.88 $ 11.05 $ 11.56 $ 11.66 Y/Y % Growth 4 % 5 % 5 % 11 % 11 % F/X Neutral Y/Y % Growth 8 % 3 % — % 4 % 2 % LATAM: Revenue $ 785 $ 789 $ 789 $ 837 $ 861 Paid Memberships 36.07 36.32 37.54 37.89 38.66 Paid Net Additions 1.75 0.26 1.21 0.36 0.76 Average Revenue per Membership $ 7.44 $ 7.27 $ 7.12 $ 7.39 $ 7.50 Y/Y % Growth (9) % (16) % (13) % (8) % 1 % F/X Neutral Y/Y % Growth 13 % 5 % 4 % 5 % 2 % APAC: Revenue $ 569 $ 635 $ 685 $ 762 $ 799 Paid Memberships 22.49 23.50 25.49 26.85 27.88 Paid Net Additions 2.66 1.01 1.99 1.36 1.02 Average Revenue per Membership $ 8.96 $ 9.20 $ 9.32 $ 9.71 $ 9.74 Y/Y % Growth (4) % (1) % 3 % 9 % 9 % F/X Neutral Y/Y % Growth 1 % (1) % — % 3 % 1 % 8 July 20, 2021 Earnings Interview, 3pm PT Our video interview with Nidhi Gupta of Fidelity Management & Research, Co. will be on youtube/netflixir at 3pm PT today. Questions that investors would like to see asked should be sent to nidhi.gupta@fmr.com . Reed Hastings, co-CEO, Spence Neumann, CFO, Ted Sarandos, co-CEO & Chief Content Officer, Greg Peters, COO & Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Nidhi’s questions. IR Contact: PR Contact: Spencer Wang Richard Siklos VP, Finance/IR & Corporate Development VP, Communications 408 809-5360 408 540-2629 9 Use of Non-GAAP Measure This shareholder letter and its attachments include reference to the non-GAAP financial measure of free cash flow. Management believes that free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. However, this non-GAAP financial measure should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by (used in) operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.
+Document
+Exhibit 99.1
+July 20, 2021
+Fellow shareholders,
+In Q2, revenue increased 19% year over year to $7.3 billion, while operating income rose 36% year over year to $1.8 billion. We finished the quarter with over 209m paid memberships, slightly ahead of our forecast. COVID has created some lumpiness in our membership growth (higher growth in 2020, slower growth this year), which is working its way through. We continue to focus on improving our service for our members and bringing them the best stories from around the world. Our summary results and forecast for Q3 are below.
+(in millions except per share data)
+Q2'20
+Q3'20
+Q4'20
+Q1'21
+Q2'21
+Q3'21 Forecast
+Revenue
+$
+6,148
+$
+6,436
+$
+6,644
+$
+7,163
+$
+7,342
+$
+7,477
+Y/Y % Growth
+24.9
+%
+22.7
+%
+21.5
+%
+24.2
+%
+19.4
+%
+16.2
+%
+Operating Income
+$
+1,358
+$
+1,315
+$
+954
+$
+1,960
+$
+1,848
+$
+1,550
+Operating Margin
+22.1
+%
+20.4
+%
+14.4
+%
+27.4
+%
+25.2
+%
+20.7
+%
+Net Income
+$
+720
+$
+790
+$
+542
+$
+1,707
+$
+1,353
+$
+1,158
+Diluted EPS
+$
+1.59
+$
+1.74
+$
+1.19
+$
+3.75
+$
+2.97
+$
+2.55
+Global Streaming Paid Memberships
+192.95
+195.15
+203.66
+207.64
+209.18
+212.68
+Y/Y % Growth
+27.3
+%
+23.3
+%
+21.9
+%
+13.6
+%
+8.4
+%
+9.0
+%
+Global Streaming Paid Net Additions
+10.09
+2.20
+8.51
+3.98
+1.54
+3.50
+Net cash provided by (used in) operating activities
+$
+1,041
+$
+1,264
+$
+(138)
+$
+777
+$
+(64)
+Free Cash Flow*
+$
+899
+$
+1,145
+$
+(284)
+$
+692
+$
+(175)
+Shares (FD)
+453.9
+455.1
+455.3
+455.6
+455.1
+Note: Figures are consolidated, including DVD.
+* Free cash flow represents Net Cash provided by (used in) operating activities less purchases of property and equipment and change in other assets.
+1
+Q2 Results and Q3 Forecast
+Revenue growth was driven by an 11% increase in average paid streaming memberships and 8% growth in average revenue per membership (ARM)
+1
+. ARM rose 4%, excluding a foreign exchange (FX) impact of +$277m. Operating margin of 25.2% expanded 3 percentage points compared with the year ago quarter. EPS of $2.97 vs. $1.59 a year ago included a $63m non-cash unrealized loss from FX remeasurement on our Euro denominated debt.
+The pandemic has created unusual choppiness in our growth and distorts year-over-year comparisons as acquisition and engagement per member household spiked in the early months of COVID. In Q2’21, our engagement per member household was, as expected, down vs. those unprecedented levels but was still up 17% compared with a more comparable Q2’19. Similarly, retention continues to be strong and better than pre-COVID Q2’19 levels, even as average revenue per membership has grown 8% over this two-year period, demonstrating how much our members value Netflix and that as we improve our service we can charge a bit more.
+We added 1.5m paid memberships in Q2, slightly ahead of our 1.0m guidance forecast. The APAC region represented about two-thirds of our global paid net adds in the quarter. As expected, Q2 paid memberships in the UCAN region were slightly down sequentially (-0.4m paid net adds). We believe our large membership base in UCAN coupled with a seasonally smaller quarter for acquisition is the main reason for this dynamic. This is similar to what we experienced in Q2’19 when our UCAN paid net adds were -0.1m; since then we’ve added nearly 7.5m paid net adds in UCAN.
+As a reminder, the quarterly guidance we provide is our actual internal forecast at the time we report. For Q3’21, we forecast paid net additions of 3.5m vs. 2.2m in the prior year period. If we achieve our forecast, we will have added more than 54m paid net adds over the past 24 months or 27m on an annualized basis over that time period, which is consistent with our pre-COVID annual rate of net additions. We forecast that ARM will grow roughly 5% year over year on a FX neutral basis in Q3’21.
+___________________________________
+1
+Average revenue per membership (ARM) is defined as streaming revenue divided by the average number of streaming paid memberships divided by the number of months in the period. These figures do not include sales taxes or VAT.
+2
+We continue to target a 20% operating margin for the full year 2021 vs. 18% in 2020. After our big global launch in January 2016, we committed to steadily growing our operating margin thereafter at an average rate of three percentage points per year over any few-year period. Some years we’ll be a little over (like in 2020), some years a little under (like in 2021). Assuming we achieve our margin target this year, we will have quintupled our operating margin in the last five years and are tracking ahead of this average annual three percentage point pace.
+With revenue and margin both increasing, our operating profit dollars have risen dramatically as well (even as we have been investing heavily), from about $100 million per quarter in 2016 to nearly $2 billion per quarter so far in 2021. Our belief is that as we steadily improve our service to better please our members, this will lead to continued growth in our membership base, ARM, revenue, operating margin and profit dollars.
+Content
+We launched our first original scripted TV series in 2012 and we’ve since expanded our original programming effort to many additional categories, from all over the world. Our goal is to be everyone’s first choice for entertainment because of the variety and quality of our titles. And despite the COVID-related production delays in 2020, we were able to deliver an exciting portfolio of titles in Q2’21 that exemplify this ambition.
+For example,
+Shadow and Bone
+, a fantasy series based on the popular
+Grishaverse book series
+2
+, proved to be very popular with our members. Over 55m member households chose to watch this show in its first 28 days and we’ve renewed it for a second season.
+Sweet Tooth
+, based on the beloved DC comic, was another hit series with 60m member households choosing this title in its first four weeks.
+Our expansion into non-fiction series is going well. This past quarter, standout unscripted titles include season two of dating show
+Too Hot to Handle
+and social experiment reality program
+The Circle
+(an estimated 29m and 14m, respectively, chose to watch in the first 28 days) as well as the true crime
+__________________________________
+2
+https://grishaverse.com/
+3
+docu-series
+The Sons of Sam
+(19m). We’re building out some of these unscripted titles with local versions of the same formats. As one example,
+Too Hot to Handle: Brazil
+and
+Too Hot to Handle: Latino
+will be launching later in July and September, respectively, to serve our LATAM region.
+We’re also quickly growing both our live action and animated original film offering, with several impactful titles in Q2. Zack Snyder’s
+Army of the Dead
+was a blockbuster as 75m member households chose to watch this action packed zombie spectacle in its first 28 days of release. As an extension to
+Army of the Dead
+, a prequel,
+Army of Thieves
+, will be released in Q4’21 along with a spinoff anime series later in 2022.
+Fatherhood
+, a dramedy starring Kevin Hart, was another hit, drawing an estimated 74m member households in its first 28 days. And Q2 also featured our biggest Netflix animated film to date with 53m member households choosing to watch
+The Mitchells vs. The Machines
+.
+Last week, Netflix series and specials received 129 Emmy nominations. With 24 nominations,
+The Crown
+tied for the most nominated series.
+Bridgerton
+with 12 nominations was also nominated for Best Drama series while
+The Queen’s Gambit
+received 18 nominations including Best Limited Series.
+Cobra Kai
+,
+Emily In Paris
+and the finale season of
+The Kominsky Method
+were all nominated for Best Comedy series. Beyond this acclaim, these are also among our popular series on Netflix.
+Our non-English content investments are growing both in scope and impact. Our P&L content expense for this content category has more than doubled in the past two years. Illustrating how great stories can come from anywhere and be loved everywhere, part two of
+Lupin
+from France was our largest non-English title in the quarter with 54m member households choosing this title in its first four weeks. Season four of
+Elite
+from Spain drew 37m member households in its first 28 days, while season two of
+Who Killed Sara?
+built on the success of the first season with 34m households choosing the latest installment of this gripping thriller from Mexico.
+As discussed in previous letters, COVID-related production delays in 2020 have led to a lighter first half of 2021 slate that will build through the course of the year. In the first six months of 2021, content amortization grew only 9% year over year (as compared to 17% in FY20). COVID and its variants make predicting the future hard, but with productions largely running smoothly so far, we’re optimistic in our ability to deliver a strong second half slate. Through the first half of 2021 we’ve already spent $8 billion in cash on content (up 41% yr-over-yr and 1.4x our content amortization) and we expect content amortization to be around $12 billion for the full year (+12% year over year). Our Q3 slate will include new seasons of fan favorites
+La Casa de Papel
+(aka
+Money Heist
+),
+Sex Education
+,
+Virgin River
+and
+Never Have I Ever
+as well as live action films including
+Sweet Girl
+(starring Jason Momoa),
+Kissing Booth 3
+, and
+Kate
+(starring Mary Elizabeth Winstead) and the animated feature film
+Vivo
+, featuring all-new songs from Lin-Manuel Miranda.
+We’re also in the early stages of further expanding into games, building on our earlier efforts around interactivity (eg,
+Black Mirror Bandersnatch
+) and our
+Stranger Things
+games. We view gaming as another new content category for us, similar to our expansion into original films, animation and unscripted TV. Games will be included in members’ Netflix subscription at no additional cost similar to films and series. Initially, we’ll be primarily focused on games for mobile devices. We’re excited as ever about our movies and TV series offering and we expect a long runway of increasing investment and growth across all of our existing content categories, but since we are nearly a decade into our push into original programming, we think the time is right to learn more about how our members value games.
+4
+Product
+We’re constantly innovating across a broad range of areas to improve the viewing experience and better serve our members. That’s why this quarter we globally launched
+Play Something
+3
+on television, our new feature that lets Netflix do the work when you don’t feel like choosing what to watch. Recognizing that broadband quality and cost varies around the world, we also improved the Netflix download experience to enable you to start watching a show or film even if it hasn’t finished downloading. Once you reconnect, you can complete the partial download and keep watching — also helping members avoid exceeding their data limits.
+We recently expanded our low-cost mobile-only plan to an additional 78 countries across South East Asia and sub-saharan Africa. Like in our other markets, this plan complements our existing three tiers of service. In the five markets where we had previously launched a mobile-only plan, we have found that the mobile only plan has been an effective way to introduce more consumers to Netflix while being roughly revenue neutral as the lower average revenue per membership is offset by incremental acquisition and generally better retention.
+Competition
+We are still very much in the early days of the transition from linear to on-demand consumption of entertainment. Streaming represents just 27% of US TV screen time, compared with 63% for linear television, according to Nielsen. Based on this same study, Nielsen estimates that we are just 7% of US TV screen time. Considering that we are less mature in other countries and that this excludes mobile screens (where we believe our share of engagement is even lower), we are confident that we have a long runway for growth. As we improve our service, our goal is to continue to increase our share of screen time in the US and around the world.
+__________________________________
+3
+https://www.wsj.com/articles/cant-decide-what-to-stream-netflixs-new-feature-will-choose-for-you-11619618402
+5
+The planned combination of Warner Media Group and Discovery and Amazon’s pending acquisition of MGM are examples of the ongoing industry consolidation as firms adapt to a world where streaming supplants linear TV. The industry has consolidated materially over the years (Time Warner/AT&T, Viacom/CBS, Discovery/Scripps, Disney/Fox, Comcast/NBCU/Sky, etc.) and we don’t believe this consolidation has affected our growth much, if at all. While we are continually evaluating opportunities, we don’t view any assets as “must-have” and we haven’t yet found any large scale ones to be sufficiently compelling to act upon.
+In the race to entertain consumers around the world, we continue to compete for screen time with a broad set of firms like YouTube, Epic Games and TikTok (to name just a few). But, we are mostly competing with ourselves to improve our service as fast as we can. If we can do that, we’re confident we can maintain our strong position and continue to grow nicely as we have been over the past two-plus decades.
+Cash Flow and Capital Structure
+In Q2, net cash generated by operating activities was -$64 million vs. $1 billion in the prior year period. Free cash flow (FCF)
+4
+for the quarter was -$175 million vs. $899 million in Q2‘20. FCF in last year’s Q2 benefited from COVID-related production shutdowns. We are still expecting full year 2021 free cash flow to be approximately break even. As we discussed previously, we believe we no longer have a need to raise external financing to fund our day-to-day operations.
+During Q2, we increased our revolving credit facility (which remains undrawn) to $1 billion from $750 million and extended the maturity from 2024 to 2026. We also repurchased 1m shares for $500 million (at an average per share price of about $500) under our $5 billion share authorization. Our main priority is to invest in the organic growth of our business while maintaining strong liquidity and retaining financial flexibility for strategic investments. Our growing operating profit allows us to complement this priority with a return of capital to shareholders.
+__________________________________
+4
+For a reconciliation of free cash flow to net cash provided by (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto.
+6
+Environmental, Social, and Governance (ESG)
+In June, the independent sustainability think tank
+The Carbon Trust
+5
+published a
+white paper
+6
+examining the carbon impact of video streaming.
+Key findings
+7
+of the work include:
+•
+The average carbon footprint for Europe per hour of video streaming is approximately 55gCO2e, equivalent to driving 250 metres in an average petrol car.
+•
+Devices (TVs, laptops/PCs, smartphones, tablets) make up the largest portion of carbon emissions from streaming (over 50%), compared to other components like energy from data centers or networks. Good news: Devices are getting more efficient over time and total device usage is fairly constant (with Netflix gaining share from linear).
+•
+Changing resolutions and other viewing settings were found to result in only a very small change in the carbon impact. Changing from standard definition to 4K resolution grows transmission emissions from just under 1g CO2e/hour to just over 1g CO2e/hour.
+•
+As demand for streaming and other internet services increases, the carbon intensity of these services will decrease over time. This is due to (1) networking equipment becoming less energy-intensive with technological advances, and (2) increased use of renewable electricity.
+As a reminder, our ESG-related information can be found on our
+IR website
+8
+.
+Reference
+For quick reference, our eight most recent investor letters are:
+April 2021
+,
+9
+January 2021
+,
+10
+October 2020
+,
+11
+July 2020
+,
+12
+April 2020
+,
+13
+January 2020
+,
+14
+Octob
+er 2
+019
+,
+15
+July 2019
+.
+16
+___________________________________
+5
+https://www.carbontrust.com/
+6
+https://s22.q4cdn.com/959853165/files/doc_events/2021/Carbon-impact-of-video-streaming.pdf
+7
+https://about.netflix.com/en/news/the-true-climate-impact-of-streaming
+8
+https://ir.netflix.net/governance/ESG/default.aspx
+9
+https://s22.q4cdn.com/959853165/files/doc_financials/2021/q1/FINAL-Q1-21-Shareholder-Letter.pdf
+10
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf
+11
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q3/FINAL-Q3-20-Shareholder-Letter.pdf
+12
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q2/FINAL-Q2-20-Shareholder-Letter-V3-with-Tables.pdf
+13
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q1/updated/FINAL-Q1-20-Shareholder-Letter.pdf
+14
+https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf
+15
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q3/FINAL-Q3-19-Shareholder-Letter.pdf
+16
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q2/Q2-19-Shareholder-Letter-FINAL.pdf
+7
+Regional Breakdown
+(in millions)
+Q2'20
+Q3'20
+Q4'20
+Q1'21
+Q2'21
+UCAN Streaming:
+Revenue
+$
+2,840
+$
+2,933
+$
+2,980
+$
+3,171
+$
+3,235
+Paid Memberships
+72.90
+73.08
+73.94
+74.38
+73.95
+Paid Net Additions
+2.94
+0.18
+0.86
+0.45
+(0.43)
+Average Revenue per Membership
+$
+13.25
+$
+13.40
+$
+13.51
+$
+14.25
+$
+14.54
+Y/Y % Growth
+6
+%
+2
+%
+2
+%
+9
+%
+10
+%
+F/X Neutral Y/Y % Growth
+6
+%
+3
+%
+2
+%
+9
+%
+9
+%
+EMEA:
+Revenue
+$
+1,893
+$
+2,019
+$
+2,137
+$
+2,344
+$
+2,400
+Paid Memberships
+61.48
+62.24
+66.70
+68.51
+68.70
+Paid Net Additions
+2.75
+0.76
+4.46
+1.81
+0.19
+Average Revenue per Membership
+$
+10.50
+$
+10.88
+$
+11.05
+$
+11.56
+$
+11.66
+Y/Y % Growth
+4
+%
+5
+%
+5
+%
+11
+%
+11
+%
+F/X Neutral Y/Y % Growth
+8
+%
+3
+%
+—
+%
+4
+%
+2
+%
+LATAM:
+Revenue
+$
+785
+$
+789
+$
+789
+$
+837
+$
+861
+Paid Memberships
+36.07
+36.32
+37.54
+37.89
+38.66
+Paid Net Additions
+1.75
+0.26
+1.21
+0.36
+0.76
+Average Revenue per Membership
+$
+7.44
+$
+7.27
+$
+7.12
+$
+7.39
+$
+7.50
+Y/Y % Growth
+(9)
+%
+(16)
+%
+(13)
+%
+(8)
+%
+1
+%
+F/X Neutral Y/Y % Growth
+13
+%
+5
+%
+4
+%
+5
+%
+2
+%
+APAC:
+Revenue
+$
+569
+$
+635
+$
+685
+$
+762
+$
+799
+Paid Memberships
+22.49
+23.50
+25.49
+26.85
+27.88
+Paid Net Additions
+2.66
+1.01
+1.99
+1.36
+1.02
+Average Revenue per Membership
+$
+8.96
+$
+9.20
+$
+9.32
+$
+9.71
+$
+9.74
+Y/Y % Growth
+(4)
+%
+(1)
+%
+3
+%
+9
+%
+9
+%
+F/X Neutral Y/Y % Growth
+1
+%
+(1)
+%
+—
+%
+3
+%
+1
+%
+8
+July 20, 2021 Earnings Interview, 3pm PT
+Our video interview with Nidhi Gupta of Fidelity Management & Research, Co. will be on
+youtube/netflixir
+at 3pm PT today.
+Questions that investors would like to see asked should be sent to
+nidhi.gupta@fmr.com
+.
+Reed Hastings, co-CEO, Spence Neumann, CFO, Ted Sarandos, co-CEO & Chief Content Officer, Greg Peters, COO & Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Nidhi’s questions.
+IR Contact:
+PR Contact:
+Spencer Wang
+Richard Siklos
+VP, Finance/IR & Corporate Development
+VP, Communications
+408 809-5360
+408 540-2629
+9
+Use of Non-GAAP Measure
+This shareholder letter and its attachments include reference to the non-GAAP financial measure of free cash flow. Management believes that free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. However, this non-GAAP financial measure should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by (used in) operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.

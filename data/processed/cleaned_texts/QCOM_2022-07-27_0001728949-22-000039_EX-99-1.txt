@@ -1,1 +1,123 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Third Quarter Fiscal 2022 Results
+Revenues: $10.9 billion
+GAAP EPS: $3.29, Non-GAAP EPS: $2.96
+—EPS Exceeded High End of Guidance Range, With Greater Than 50% Year-Over-Year Growth—
+—Executed Broad Strategic Agreements With Samsung, Including Licensing and Snapdragon Platforms—
+—QCT: Strong Quarterly Results Demonstrate the Success of Our Diversification Strategy—
+SAN DIEGO - July 27, 2022
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal third quarter ended June 26, 2022.
+“We are pleased to report strong quarterly results, with record QCT Automotive and IoT revenues in a challenging macroeconomic environment,” said Cristiano Amon, President and CEO of Qualcomm Incorporated.  “We are also excited to announce the extension of our patent license agreement with Samsung and the expansion of our strategic partnership to deliver leading premium consumer experiences for Samsung Galaxy devices.  Qualcomm is well positioned to be the company bringing advanced connectivity, data processing and intelligence to the edge, enabling cloud-edge convergence.”
+Third Quarter Results
+1, 2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q3 Fiscal 2022
+Q3 Fiscal 2021
+Change
+Q3 Fiscal 2022
+Q3 Fiscal 2021
+Change
+Revenues
+$10,936
+$8,060
++36%
+$10,928
+$7,995
++37%
+Earnings before taxes (EBT)
+$4,239
+$2,257
++88%
+$3,894
+$2,545
++53%
+Net income
+$3,730
+$2,027
++84%
+$3,356
+$2,200
++53%
+Diluted earnings per share (EPS)
+$3.29
+$1.77
++86%
+$2.96
+$1.92
++54%
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q3 Fiscal 2022
+Q3 Fiscal 2021
+Change
+Q3 Fiscal 2022
+Q3 Fiscal 2021
+Change
+Revenues
+$9,378
+$6,472
++45%
+$1,519
+$1,489
++2%
+EBT
+$2,996
+$1,795
++67%
+$1,080
+$1,053
++3%
+EBT as % of revenues
+32%
+28%
++4 points
+71%
+71%
+—
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+(2)  Third quarter fiscal 2022 GAAP results included a $1.1 billion benefit, or $0.94 per share, resulting from the reversal of the accrued fine imposed by the European Commission (EC) in fiscal 2018 and the associated accrued interest.
+Qualcomm Announces Third Quarter Fiscal 2022 Results
+Page 2 of 9
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q3 Fiscal 2022
+Q3 Fiscal 2021
+Change
+Handsets
+$6,149
+$3,863
++59%
+RF front-end
+1,046
+957
++9%
+Automotive
+350
+253
++38%
+IoT
+1,833
+1,399
++31%
+Total QCT revenues
+$9,378
+$6,472
++45%
+(1)  We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the third quarter of fiscal 2022, we returned $1.3 billion to stockholders, including $842 million, or $0.75 per share, of cash dividends paid and $500 million through repurchases of 4 million shares of common stock.
+Qualcomm Announces Third Quarter Fiscal 2022 Results
+Page 3 of 9
+Business Outlook
+The following statements are forward looking, and actual results may differ materially.  The “Note Regarding

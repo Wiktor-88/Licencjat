@@ -1,1 +1,36 @@
-Item 2.02 Results of Operations and Financial Condition. On April 28, 2022, Intel Corporation (“Intel”) issued a press release announcing the financial results of its first quarter ended April 2, 2022 and forward-looking statements relating to its second quarter and full year 2022. A copy of this press release is attached hereto as Exhibit 99.1 and is incorporated by reference herein. The attached press release includes non-GAAP financial measures relating to our operations and forecasted outlook. Certain of these non-GAAP measures will be used in Intel’s earnings conference for the first quarter of 2022. In addition, the attached press release includes reconciliations of these non-GAAP measures to GAAP measures, as well as an explanation of how management uses these non-GAAP measures and the reasons why management views these measures as providing useful information for investors. These non-GAAP financial measures should not be considered a substitute for, or superior to, financial measures calculated in accordance with GAAP, and the financial results calculated in accordance with GAAP and reconciliations to these results should be carefully evaluated. The information in Item 2.02 of this Report and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended. Item 7.01 Regulation FD Disclosu r e. We previously announced several organizational changes that would accelerate the execution and innovation of our Company by allowing us to capture growth in both large traditional markets and high-growth emerging markets. All prior-period segment results have been retrospectively adjusted to reflect the way we internally manage and monitor segment performance starting in fiscal year 2022. We are furnishing Exhibit 99.2 to this Current Report on Form 8-K to facilitate comparisons of our current operating segments with prior periods. Exhibit 99.2 recasts certain historical operating segment financial information and related disclosures from our Annual Report on Form 10-K for the fiscal year ended December 25, 2021 (the "2021 Form 10-K") and filed with the Securities and Exchange Commission on January 27, 2022, to be consistent with the presentation of our new operating segments in our 2022 first quarter Form 10-Q. Exhibit 99.2 should be read in conjunction with our 2021 Form 10-K which includes Key Terms on pages 111-112, and filings made subsequent to the date of the 2021 Form 10-K. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. The following exhibits are provided as part of this Report: Exhibit Number Description 99.1 Press Release issued by Intel entitled “Intel Reports First -Quarter 202 2 Financial Results” dated April 28 , 20 2 2 99.2 Retrospective revisions to Item 7 of Intel Inc.'s Annual Report on Form 10-K "Management's Discussion and Analysis of Financial Condition and Results of Operations" , for the year ended December 25, 2021 , as originally filed with the SEC on January 27, 2022,. 104 Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.
+Item 2.02
+Results of Operations and Financial Condition.
+On April 28, 2022, Intel Corporation (“Intel”) issued a press release announcing the financial results of its first quarter ended April 2, 2022 and forward-looking statements relating to its second quarter and full year 2022.  A copy of this press release is attached hereto as Exhibit 99.1 and is incorporated by reference herein.
+The attached press release includes non-GAAP financial measures relating to our operations and forecasted outlook. Certain of these non-GAAP measures will be used in Intel’s earnings conference for the first quarter of 2022. In addition, the attached press release includes reconciliations of these non-GAAP measures to GAAP measures, as well as an explanation of how management uses these non-GAAP measures and the reasons why management views these measures as providing useful information for investors. These non-GAAP financial measures should not be considered a substitute for, or superior to, financial measures calculated in accordance with GAAP, and the financial results calculated in accordance with GAAP and reconciliations to these results should be carefully evaluated.
+The information in Item 2.02 of this Report and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended.
+Item 7.01
+Regulation FD Disclosu
+r
+e.
+We previously announced several organizational changes that would accelerate the execution and innovation of our Company by allowing us to capture growth in both large traditional markets and high-growth emerging markets. All prior-period segment results have been retrospectively adjusted to reflect the way we internally manage and monitor segment performance starting in fiscal year 2022.
+We are furnishing Exhibit 99.2 to this Current Report on Form 8-K to facilitate comparisons of our current operating segments with prior periods. Exhibit 99.2 recasts certain historical operating segment financial information and related disclosures from our Annual Report on Form 10-K for the fiscal year ended December 25, 2021 (the "2021 Form 10-K") and filed with the Securities and Exchange Commission on January 27, 2022, to be consistent with the presentation of our new operating segments in our 2022 first quarter Form 10-Q.
+Exhibit 99.2 should be read in conjunction with our 2021 Form 10-K which includes Key Terms on pages 111-112, and filings made subsequent to the date of the 2021 Form 10-K.
+Item 9.01
+Financial Statements and Exhibits.
+(d)
+Exhibits.
+The following exhibits are provided as part of this Report:
+Exhibit Number
+Description
+99.1
+Press Release issued by Intel entitled “Intel Reports
+First
+-Quarter 202
+2
+Financial Results” dated
+April 28
+, 20
+2
+2
+99.2
+Retrospective revisions to Item 7 of Intel Inc.'s Annual Report on Form 10-K "Management's Discussion and Analysis of Financial Condition and Results of Operations"
+, for the year ended December 25, 2021
+,
+as originally filed with the SEC on January 27, 2022,.
+104
+Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.

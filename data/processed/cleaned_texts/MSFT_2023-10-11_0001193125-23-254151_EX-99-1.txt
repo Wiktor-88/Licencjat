@@ -1,1 +1,34 @@
-EX-99.1 Exhibit 99.1 [BLOG POST] Microsoft on the Issues Blog – An update on our IRS tax audit By Daniel Goff, Corporate Vice President, Worldwide Tax and Customs Today, we’re sharing an update about our ongoing audit with the U.S. Internal Revenue Service (IRS), including background and context for this specific case and what we generally expect next. Background on the IRS audit For nearly a decade, as we have previously disclosed in our financial statements, Microsoft has been working with the IRS to address questions about how we allocated our income and expenses for tax years beginning as far back as 2004. We have changed our corporate structure and practices since the years covered by the audit, and as a result, the issues raised by the IRS are relevant to the past but not to our current practices. The IRS recently sent us a series of Notices of Proposed Adjustment (NOPAs), sharing with us for the first time detailed information and explanations of their views about the issues in question. This marks the end of the audit covering 2004 to 2013, and the beginning of a new process to resolve these decades-old issues. The IRS says Microsoft owes an additional $28.9 billion in tax for 2004 to 2013, plus penalties and interest. The IRS’s proposed adjustments do not represent a final determination. Not reflected in the proposed adjustments are taxes paid by Microsoft under the Tax Cuts and Jobs Act (TCJA), which could decrease the final tax owed under the audit by up to $10 billion. Microsoft disagrees with these proposed adjustments and will pursue an appeal within the IRS, a process expected to take several years. We believe we have always followed the IRS’s rules and paid the taxes we owe in the U.S. and around the world. Microsoft historically has been one of the top U.S. corporate income taxpayers. Since 2004, we have paid over $67 billion in taxes to the U.S. What the dispute is about The main disagreement is the way Microsoft allocated profits during this time period among countries and jurisdictions. This is commonly referred to as transfer pricing and the IRS has established regulations that allow companies to use a specific arrangement for transfer pricing, called cost-sharing. Many large multinationals use cost-sharing because it reflects the global nature of their business. Because our subsidiaries shared in the costs of developing certain intellectual property, under those IRS cost-sharing regulations, the subsidiaries were also entitled to the related profits. Next steps: Proposed adjustments and IRS Appeals We strongly believe we have acted in accordance with IRS rules and regulations and that our position is supported by case law. We welcome the IRS’s conclusion of its audit phase which will provide us with the opportunity to work through these issues at IRS Appeals, a separate division of the IRS charged with resolving tax disputes. It is important to note that the IRS Appeals process will take several years to complete, and if we are unable to come to a direct agreement with the IRS, Microsoft will then have an opportunity to contest any unresolved issues through the courts. We will continue to work with the IRS and hope to reach a mutual resolution to this issue over the coming years. We will also continue to share updates on significant developments through our public quarterly and annual reports and financial statements, as we have through this entire process. As of September 30, 2023, we believe our allowances for income tax contingencies are adequate.
+EX-99.1
+Exhibit 99.1
+[BLOG POST]
+Microsoft on the Issues Blog  An update on our IRS tax audit
+By Daniel Goff, Corporate Vice President, Worldwide Tax and Customs
+Today, were sharing an update about our ongoing audit with the U.S. Internal Revenue Service (IRS), including background and context for this
+specific case and what we generally expect next.
+Background on the IRS audit
+For nearly a decade, as we have previously disclosed in our financial statements, Microsoft has been working with the IRS to address questions
+about how we allocated our income and expenses for tax years beginning as far back as 2004. We have changed our corporate structure and practices since the years covered by the audit, and as a result, the issues raised by the IRS are relevant to the
+past but not to our current practices.
+The IRS recently sent us a series of Notices of Proposed Adjustment (NOPAs), sharing with us
+for the first time detailed information and explanations of their views about the issues in question. This marks the end of the audit covering 2004 to 2013, and the beginning of a new process to resolve these
+decades-old
+issues.
+The IRS says Microsoft owes an additional $28.9 billion in tax for
+2004 to 2013, plus penalties and interest. The IRSs proposed adjustments do not represent a final determination. Not reflected in the proposed adjustments are taxes paid by Microsoft under the Tax Cuts and Jobs Act (TCJA), which could decrease
+the final tax owed under the audit by up to $10 billion.
+Microsoft disagrees with these proposed adjustments and will pursue an
+appeal within the IRS, a process expected to take several years. We believe we have always followed the IRSs rules and paid the taxes we owe in the U.S. and around the world. Microsoft historically has been one of the top U.S. corporate income
+taxpayers. Since 2004, we have paid over $67 billion in taxes to the U.S.
+What the dispute is about
+The main disagreement is the way Microsoft allocated profits during this time period among countries and jurisdictions. This is commonly referred
+to as transfer pricing and the IRS has established regulations that allow companies to use a specific arrangement for transfer pricing, called cost-sharing.
+Many large multinationals use cost-sharing because it reflects the global nature of their business. Because our subsidiaries shared in the costs
+of developing certain intellectual property, under those IRS cost-sharing regulations, the subsidiaries were also entitled to the related profits.
+Next steps: Proposed adjustments and IRS Appeals
+We strongly believe we have acted in accordance with IRS
+rules and regulations and that our position is supported by case law. We welcome the IRSs conclusion of its audit phase which will provide us with the opportunity to work through these issues at IRS Appeals, a separate division of the IRS
+charged with resolving tax disputes.
+It is important to note that the IRS Appeals process will take several years to complete, and if
+we are unable to come to a direct agreement with the IRS, Microsoft will then have an opportunity to contest any unresolved issues through the courts.
+We will continue to work with the IRS and hope to reach a mutual resolution to this issue over the coming years. We will also continue to share updates on significant developments through our public quarterly and annual reports and
+financial statements, as we have through this entire process. As of September 30, 2023, we believe our allowances for income tax contingencies are adequate.

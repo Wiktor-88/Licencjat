@@ -1,1 +1,60 @@
-EX-99.1 Exhibit 99.1 AMD PRESS RELEASE Contact: Brandi Martina AMD Communications (512) 705-1720 Brandi.Martina@amd.com Liz Stine AMD
+EX-99.1
+Exhibit 99.1
+AMD PRESS RELEASE
+Contact:
+Brandi Martina
+AMD
+Communications
+(512)
+705-1720
+Brandi.Martina@amd.com
+Liz
+Stine
+AMD Investor Relations
+(720)
+652-3965
+Liz.Stine@amd.com
+AMD
+Announces Agreement to Divest ZT Systems Data Center
+Infrastructure Manufacturing Business to Sanmina
+
+$3 billion in cash and stock, inclusive of a contingent payment of up to $450 million
+
+AMD retains ZT Systems rack-scale AI solutions design and customer enablement expertise to accelerate
+quality and
+time-to-deployment
+for cloud customers
+
+Divestiture and preferred NPI manufacturing partnership with Sanmina consistent with intentions announced at the
+time of ZT Systems acquisition
+SANTA CLARA, Calif. May 19, 2025 
+AMD
+(NASDAQ: AMD) today
+announced it has entered into a definitive agreement to sell ZT Systems U.S.-headquartered data center infrastructure manufacturing business to
+Sanmina
+(NASDAQ: SANM), a leading integrated manufacturing solutions company. As part of the
+transaction, Sanmina becomes a preferred new product introduction (NPI) manufacturing partner for AMD cloud rack and cluster-scale AI solutions. AMD will retain ZT Systems world-class design and customer enablement teams to accelerate the
+quality and
+time-to-deployment
+of AMD AI systems for cloud customers.
+Sanmina will purchase the manufacturing business from AMD for $3 billion in cash and stock, inclusive of a contingent payment of up to
+$450 million and subject to customary adjustments for working capital and other items. The transaction is expected to close near the end of 2025, subject to regulatory approvals and customary closing conditions. The intent to seek a strategic
+partner to acquire ZT Systems world-class data center infrastructure manufacturing business was announced in August 2024 at the time of the original acquisition announcement.
+By combining the deep experience of our AI systems design team with our new preferred NPI partnership with Sanmina, we expect to
+strengthen our
+U.S-based
+manufacturing capabilities for rack and cluster-scale AI systems and accelerate quality and
+time-to-market
+for our cloud customers, said Forrest Norrod, executive vice president and general manager, Data
+Center Solutions business unit at AMD. The ZT Systems manufacturing business and its expert team remain a very important and strategic partner to AMD. We look forward to working with
+Sanmina to deliver world-class design, quality and manufacturing of AMD AI solutions supported by our open ecosystem approach.
+Sanmina is a U.S.-headquartered leading integrated manufacturing solutions provider serving the fastest growing segments of global Electronic
+Manufacturing Services (EMS), offering
+end-to-end
+design, manufacturing, logistics and repair solutions for OEMs across a variety of industries.
+ZT Systems liquid cooling capabilities, high-quality manufacturing capacity and significant cloud and AI infrastructure experience
+are the perfect complement to Sanminas global portfolio, mission-critical technologies and vertical integration capabilities, said Jure Sola, Chairman and CEO of Sanmina Corporation. Together, we will be better able to deliver a
+competitive advantage to our customers with solutions for the entire product lifecycle. We look forward to our ongoing partnership with AMD as we work together to set the standard for quality and flexibility to benefit the entire AI ecosystem.
+Advisors
+Morgan Stanley &
+Co. LLC is acting as exclusive financial advisor to AMD and Latham & Watkins LLP is serving as the companys legal advisor.

@@ -62,10 +62,10 @@ def main() -> None:
     df = pd.read_csv(DATA_FILE)
     df["Event_Session"] = pd.to_datetime(df["Event_Session"])
 
-    # VIF liczymy tylko na danych dostępnych przed pierwszym testem 
-    df = df[(df["Use_In_Primary_Model"] == 1)
-            & df["Target_Abnormal_1D"].notna()
-            & (df["Event_Session"].dt.year <= DEVELOPMENT_END_YEAR)].copy()
+    # VIF liczymy na tych samych zdarzeniach co modele, bez okresu testowego.
+    df = prepare_model_dataset(df, TARGET)
+    df = df[df["Event_Session"].dt.year <= DEVELOPMENT_END_YEAR].copy()
+    validate_target(df, TARGET)
 
     logger.info("Okres development: %s -> %s",
                  df["Event_Session"].min().date(),

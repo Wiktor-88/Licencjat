@@ -8,7 +8,7 @@ import pandas as pd
 from catboost import CatBoostClassifier
 from sklearn.metrics import balanced_accuracy_score, roc_auc_score
 
-from src.models.model_config import (MARKET_COMPACT_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
+from src.models.model_config import (TABULAR_MARKET_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
     SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG, TARGET)
 from src.models.model_utils import prepare_model_dataset, select_sec_features
 
@@ -35,7 +35,7 @@ def objective(trial, df):
                                            candidates=SEC_BINARY_CANDIDATES,
                                            min_count=MIN_SEC_COUNT)
 
-        features = ( ["Ticker"] + MARKET_COMPACT_FEATURES + selected_sec
+        features = (["Ticker"] + TABULAR_MARKET_FEATURES + selected_sec
             + [SENTIMENT_HISTORY_FLAG] + SENTIMENT_FEATURES)
 
         X_train = train_df[features].copy()

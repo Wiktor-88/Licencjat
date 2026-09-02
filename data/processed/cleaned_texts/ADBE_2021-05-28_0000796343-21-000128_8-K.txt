@@ -1,1 +1,20 @@
-Item 8.01 Other Events. Adobe Inc. (the “Company”) recently became aware of an unsolicited “mini-tender” offer by Tutanota LLC (“Tutanota”) to purchase up to one million shares of the Company's common stock at an offer price of $565.00 per share. The number of shares subject to Tutanota’s offer represent approximately 0.209% of the Company’s common stock outstanding as of March 26, 2021. On May 28, 2021, the Company issued the press release attached to this Report as Exhibit 99.1, informing its stockholders that the Company does not endorse Tutanota’s unsolicited mini-tender offer and recommending that stockholders do not tender their shares. Stockholders who have already tendered their shares may withdraw them at any time prior to the expiration of the offer, in accordance with Tutanota’s offering documents. The offer is currently scheduled to expire at 5:00 p.m., Eastern Time, on Friday, June 4, 2021, but Tutanota may extend the offering period at its discretion. The Company is not affiliated or associated in any way with Tutanota, its mini-tender offer, or the offer documentation. Additional information concerning mini-tenders is included in the attached press release. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Number Exhibit Description 99.1 Press release issued on May 2 8 , 2021 entitled “ Adobe Recommends Stockholders Reject ‘Mini-Tender’ Offer by Tutanota LLC” 104 Cover Page Interactive Data File (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document) 2
+Item 8.01 Other Events.
+Adobe Inc. (the “Company”) recently became aware of an unsolicited “mini-tender” offer by Tutanota LLC (“Tutanota”) to purchase up to one million shares of the Company's common stock at an offer price of $565.00 per share. The number of shares subject to Tutanota’s offer represent approximately 0.209% of the Company’s common stock outstanding as of March 26, 2021.
+On May 28, 2021, the Company issued the press release attached to this Report as Exhibit 99.1, informing its stockholders that the Company does not endorse Tutanota’s unsolicited mini-tender offer and recommending that stockholders do not tender their shares. Stockholders who have already tendered their shares may withdraw them at any time prior to the expiration of the offer, in accordance with Tutanota’s offering documents. The offer is currently scheduled to expire at 5:00 p.m., Eastern Time, on Friday, June 4, 2021, but Tutanota may extend the offering period at its discretion.
+The Company is not affiliated or associated in any way with Tutanota, its mini-tender offer, or the offer documentation. Additional information concerning mini-tenders is included in the attached press release.
+Item 9.01 Financial Statements and Exhibits.
+(d)
+Exhibits
+Exhibit Number
+Exhibit Description
+99.1
+Press release issued on May
+2
+8
+, 2021 entitled
+“
+Adobe
+Recommends Stockholders Reject ‘Mini-Tender’ Offer by Tutanota LLC”
+104
+Cover Page Interactive Data File (the instance document does not appear in the Interactive Data File because its XBRL tags are embedded within the Inline XBRL document)
+2

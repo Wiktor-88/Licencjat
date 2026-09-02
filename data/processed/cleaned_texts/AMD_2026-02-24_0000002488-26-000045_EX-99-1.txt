@@ -1,1 +1,45 @@
-Document Press Release Contacts: Phil Hughes AMD Communications 512-865-9697 phil.hughes@amd.com Ashley Settle Meta Communications 904-629-0805 ashleysettle@meta.com Investor Contact Liz Stine AMD
+Document
+Press Release
+Contacts:
+Phil Hughes
+AMD Communications
+512-865-9697
+phil.hughes@amd.com
+Ashley Settle
+Meta Communications
+904-629-0805
+ashleysettle@meta.com
+Investor Contact
+Liz Stine
+AMD Investor Relations
+720-652-3965
+liz.stine@amd.com
+AMD and Meta Announce Expanded Strategic Partnership
+to Deploy 6 Gigawatts of AMD GPUs
+News Highlights
+•
+Meta is partnering with AMD to rapidly scale AI infrastructure and accelerate the development and deployment of cutting-edge AI models
+•
+AMD and Meta agree to a definitive multi-year, multi-generation partnership to deploy up to 6 gigawatts of AMD Instinct™ GPUs
+•
+Built on the AMD Helios rack-scale architecture announced at the 2025 Open Compute Project Global Summit, shipments to support the first gigawatt deployment are expected to begin in 2H 2026, powered by a custom AMD Instinct GPU based on the MI450 architecture and optimized for Meta’s workloads
+•
+AMD and Meta are deepening their collaboration to align their GPU and CPU silicon, systems and software roadmaps
+SANTA CLARA, Calif. and MENLO PARK, Calif — February 24, 2026 —
+AMD (NASDAQ: AMD) and Meta today announced a 6-gigawatt agreement to power Meta’s next generation of AI infrastructure across multiple generations of AMD Instinct GPUs.
+This agreement expands on the companies’ existing strategic partnership and aligns roadmaps across silicon, systems and software to deliver AI platforms purpose-built for Meta’s workloads. The first deployment will use a custom AMD Instinct GPU based on the MI450 architecture to deliver AI platforms that are optimized for Meta’s workloads at gigawatt-scale. Shipments supporting the first gigawatt deployment are scheduled to begin in the second half of 2026 powered by the custom AMD Instinct MI450-based GPU and 6
+th
+Gen AMD EPYC™ CPUs, codenamed “Venice,” running ROCm™ software and built on the AMD Helios rack-scale architecture. AMD Helios was developed jointly by
+AMD and Meta
+through the Open Compute Project to enable scalable, rack-level AI infrastructure.
+“We are proud to expand our strategic partnership with Meta as they push the boundaries of AI at unprecedented scale,” said Dr. Lisa Su, chair and CEO, AMD. “This multi-year, multi-generation collaboration across Instinct GPUs, EPYC CPUs and rack-scale AI systems aligns our roadmaps to deliver high-performance, energy-efficient infrastructure optimized for Meta’s workloads, accelerating one of the industry’s largest AI deployments and placing AMD at the center of the global AI buildout.”
+“We’re excited to form a long-term partnership with AMD to deploy efficient inference compute and deliver personal superintelligence,” said Mark Zuckerberg, founder and CEO of Meta. “This is an important step for Meta as we diversify our compute. I expect AMD to be an important partner for many years to come.”
+In addition to the collaboration on GPUs, AMD and Meta are expanding their AMD EPYC processor partnership. Meta has been a close partner over multiple generations, deploying millions of AMD EPYC CPUs and significant deployments of AMD Instinct MI300 and MI350 series GPUs across their global infrastructure. As AI infrastructure grows in scale and complexity, CPUs are a strategic pillar of the AI compute stack, enabling efficiency, scalability and orchestration alongside GPUs. Building on deep roadmap alignment, Meta will be a lead customer for 6
+th
+Gen AMD EPYC CPUs, codenamed “Venice,” and “Verano,” a next-generation EPYC processor designed with workload-specific optimizations to deliver leadership performance-per-dollar-per-watt.
+As part of the agreement, to further align strategic interests, AMD has issued Meta a performance-based warrant for up to 160 million shares of AMD common stock, structured to vest as specific milestones associated with Instinct GPU shipments are achieved. The first tranche vests with the initial 1-gigawatt of shipments, with additional tranches vesting as Meta’s purchases scale to 6 gigawatts. Vesting is further tied to AMD achieving certain stock price thresholds and exercise is tied to Meta achieving key technical and commercial milestones.
+“We expect this partnership to drive substantial multi-year revenue growth and be accretive to our non-GAAP earnings per share, marking another significant step forward in delivering on our ambitious long-term financial model,” said Jean Hu, EVP, CFO and treasurer, AMD. “The performance-based structure also tightly aligns AMD and Meta around execution and long-term value creation.”
+Together, AMD and Meta are collaborating across silicon, systems and software to enable AI infrastructure at a global scale that accelerates AI innovation and brings AI-powered services and experiences to billions of users.
+AMD Teleconference
+AMD will hold a conference call at 7:30 a.m. CT (8:30 a.m. ET) today to discuss the announcement. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com
+.

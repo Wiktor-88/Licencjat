@@ -1,1 +1,159 @@
-Document Exhibit 99.1 Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1549 News Release Intel Reports First-Quarter 2025 Financial Results News Summary ▪ First-quarter revenue was $12.7 billion, flat year-over-year (YoY). ▪ First-quarter earnings (loss) per share (EPS) attributable to Intel was $(0.19); non-GAAP EPS attributable to Intel was $0.13. ▪ Forecasting second-quarter 2025 revenue of $11.2 billion to $12.4 billion; expecting second-quarter EPS attributable to Intel of $(0.32) and non-GAAP EPS attributable to Intel of $0.00. ▪ Announcing initiative to drive improved execution and operational efficiency; expecting 2025 operating expenses of $17 billion and 2026 operating expenses of $16 billion. SANTA CLARA, Calif., April 24, 2025 – Intel Corporation today reported first-quarter 2025 financial results. “The first quarter was a step in the right direction, but there are no quick fixes as we work to get back on a path to gaining market share and driving sustainable growth,” said Lip-Bu Tan, Intel CEO. “I am taking swift actions to drive better execution and operational efficiency while empowering our engineers to create great products. We are going back to basics by listening to our customers and making the changes needed to build the new Intel.” “It was a solid start to the year as we executed well on our priorities,” said David Zinsner, Intel CFO. “The current macro environment is creating elevated uncertainty across the industry, which is reflected in our outlook. We are taking a disciplined and prudent approach to support continued investment in our core products and foundry businesses while maximizing operational cost savings and capital efficiency.” Driving Greater Execution and Efficiency Intel is taking actions to drive better, more efficient execution across the business. The plan includes streamlining the organization, eliminating management layers and enabling faster decision-making. In taking these actions, Intel will focus on empowering engineering talent to create great products and driving greater accountability across the company while making it easier for customers to do business with Intel. In line with these actions, Intel is reducing its non-GAAP operating expense target to approximately $17 billion in 2025, down from its previously stated goal of $17.5 billion, and is now targeting $16 billion in 2026. Operating expenses include research and development (R&D), and marketing, general and administrative (MG&A). Intel expects to have restructuring charges associated with these actions, some of which may be included in its non-GAAP results. Since the company has not yet estimated these charges, they are not included in its guidance. Additionally, further operational efficiencies and better utilization of construction-in-progress assets allow Intel to reduce its gross capital expenditures 1 target to $18 billion for 2025, down from the company's previous target of $20 billion, while still expecting net capital expenditures 2 of approximately $8 billion to $11 billion. Intel will continue to focus investment in its core business as it drives operational efficiency. 1 Gross capital expenditures refers to GAAP additions to property, plant and equipment. 2 Net capital expenditures, a non-GAAP financial measure, is defined as additions to property, plant and equipment, net of proceeds from capital-related government incentives and partner contributions. See below for more information on and reconciliations of Intel's non-GAAP financial measures. Intel/Page 2 Q1 2025 Financial Results GAAP Non-GAAP Q1 2025 Q1 2024 vs. Q1 2024 Q1 2025 Q1 2024 vs. Q1 2024 Revenue ($B) $12.7 $12.7 flat Gross margin 36.9% 41.0% down 4.1 ppts 39.2% 45.1% down 5.9 ppts R&D and MG&A ($B) $4.8 $5.9 down 19% $4.3 $5.0 down 15% Operating margin (loss) (2.4)% (8.4)% up 6 ppts 5.4% 5.7% down 0.3 ppts Tax rate (51.4)% 39.2% down 90.6 ppts 12.0% 13.0% down 1 ppt Net income (loss) attributable to Intel ($B) $(0.8) $(0.4) down 115% $0.6 $0.8 down 24% Earnings (loss) per share attributable to Intel—diluted $(0.19) $(0.09) down 111% $0.13 $0.18 down 28% In the first quarter, the company generated $0.8 billion in cash from operations. Full reconciliations between GAAP and non-GAAP measures are provided below. Business Unit Summary In the first quarter of 2025, the company made an organizational change to integrate the Network and Edge Group (NEX) into CCG and DCAI and modified Intel's segment reporting to align to this and certain other business reorganizations. All prior-period segment data has been retrospectively adjusted to reflect the way Intel's chief operating decision maker internally receives information and manages and monitors the company's operating segment performance starting in fiscal year 2025. There are no changes to Intel's consolidated financial statements for any prior periods. Business Unit Revenue and Trends Q1 2025 3 vs. Q1 2024 Intel Products: Client Computing Group (CCG) $7.6 billion down 8% Data Center and AI (DCAI) $4.1 billion up 8% Total Intel Products revenue $11.8 billion down 3% Intel Foundry $4.7 billion up 7% All Other $0.9 billion up 47% Intersegment Eliminations $(4.7) billion Total net revenue $12.7 billion flat 3 Numbers are presented as actual and rounded; as a result, totals may not sum. Business Highlights ▪ At CES, Intel announced the new Intel® Core™ Ultra 200V series mobile processors with Intel vPro®, Intel® Core™ Ultra 200HX and H series mobile processors, Intel® Core™ Ultra 200U series mobile processors, and an expanded Intel® Core™ Ultra 200S series desktop processor portfolio. ▪ In February, Intel launched new Intel® Xeon® 6 processors with Performance-cores (P-cores) for data center and Xeon 6 processors for network and edge applications, providing enhanced performance and efficiency across workloads. ▪ In April, MLCommons released its latest MLPerf Inference v5.0 benchmarks, in which Intel Xeon 6 with P-cores demonstrated a 1.9x boost in AI performance over the previous generation of processors, affirming Intel Xeon 6 as a top solution for modern AI systems 4 . ▪ Intel 18A is expected to ramp in the second half of 2025 to support the launch of Intel’s first Panther Lake SKU by year-end, with additional SKUs coming in the first half of 2026. ▪ Earlier this month, Intel announced an agreement to sell 51% of its Altera® business to Silver Lake. Intel will own the remaining 49% of the Altera business, enabling it to participate in Altera’s future success while focusing on its core business. ▪ In March, Intel completed the second and final close of the sale of its NAND business to SK hynix. 4 Performance varies by use, configuration and other factors. Learn more at www.Intel.com/PerformanceIndex. Performance results are based on testing as of dates shown in configurations and may not reflect all publicly available updates. Visit MLCommons for more details. No product or component can be absolutely secure. Intel/Page 3 Business Outlook Intel's guidance for the second quarter of 2025 includes both GAAP and non-GAAP estimates as follows: Q2 2025 GAAP Non-GAAP Revenue $11.2-12.4 billion Gross Margin 34.3% 36.5% Tax Rate (51)% 12% Earnings (Loss) Per Share Attributable to Intel—Diluted $(0.32) $0.00 Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “
+Document
+Exhibit 99.1
+Intel Corporation
+2200 Mission College Blvd.
+Santa Clara, CA 95054-1549
+News Release
+Intel Reports First-Quarter 2025 Financial Results
+News Summary
+▪
+First-quarter revenue was $12.7 billion, flat year-over-year (YoY).
+▪
+First-quarter earnings (loss) per share (EPS) attributable to Intel was $(0.19); non-GAAP EPS attributable to Intel was $0.13.
+▪
+Forecasting second-quarter 2025 revenue of $11.2 billion to $12.4 billion; expecting second-quarter EPS attributable to Intel of $(0.32) and non-GAAP EPS attributable to Intel of
+$0.00.
+▪
+Announcing initiative to drive improved execution and operational efficiency; expecting 2025 operating expenses of $17 billion and 2026 operating expenses of $16 billion.
+SANTA CLARA, Calif., April 24, 2025 – Intel Corporation today reported first-quarter 2025 financial results.
+“The first quarter was a step in the right direction, but there are no quick fixes as we work to get back on a path to gaining market share and driving sustainable growth,” said Lip-Bu Tan, Intel CEO. “I am taking swift actions to drive better execution and operational efficiency while empowering our engineers to create great products. We are going back to basics by listening to our customers and making the changes needed to build the new Intel.”
+“It was a solid start to the year as we executed well on our priorities,” said David Zinsner, Intel CFO. “The current macro environment is creating elevated uncertainty across the industry, which is reflected in our outlook. We are taking a disciplined and prudent approach to support continued investment in our core products and foundry businesses while maximizing operational cost savings and capital efficiency.”
+Driving Greater Execution and Efficiency
+Intel is taking actions to drive better, more efficient execution across the business. The plan includes streamlining the organization, eliminating management layers and enabling faster decision-making. In taking these actions, Intel will focus on empowering engineering talent to create great products and driving greater accountability across the company while making it easier for customers to do business with Intel.
+In line with these actions, Intel is reducing its non-GAAP operating expense target to approximately $17 billion in 2025, down from its previously stated goal of $17.5 billion, and is now targeting $16 billion in 2026. Operating expenses include research and development (R&D), and marketing, general and administrative (MG&A). Intel expects to have restructuring charges associated with these actions, some of which may be included in its non-GAAP results. Since the company has not yet estimated these charges, they are not included in its guidance.
+Additionally, further operational efficiencies and better utilization of construction-in-progress assets allow Intel to reduce its gross capital expenditures
+1
+target to $18 billion for 2025, down from the company's previous target of $20 billion, while still expecting net capital expenditures
+2
+of approximately $8 billion to $11 billion. Intel will continue to focus investment in its core business as it drives operational efficiency.
+1
+Gross capital expenditures refers to GAAP additions to property, plant and equipment.
+2
+Net capital expenditures, a non-GAAP financial measure, is defined as additions to property, plant and equipment, net of proceeds from capital-related government incentives and partner contributions. See below for more information on and reconciliations of Intel's non-GAAP financial measures.
+Intel/Page 2
+Q1 2025 Financial Results
+GAAP
+Non-GAAP
+Q1 2025
+Q1 2024
+vs. Q1 2024
+Q1 2025
+Q1 2024
+vs. Q1 2024
+Revenue ($B)
+$12.7
+$12.7
+flat
+Gross margin
+36.9%
+41.0%
+down 4.1 ppts
+39.2%
+45.1%
+down 5.9 ppts
+R&D and MG&A ($B)
+$4.8
+$5.9
+down 19%
+$4.3
+$5.0
+down 15%
+Operating margin (loss)
+(2.4)%
+(8.4)%
+up 6 ppts
+5.4%
+5.7%
+down 0.3 ppts
+Tax rate
+(51.4)%
+39.2%
+down 90.6 ppts
+12.0%
+13.0%
+down 1 ppt
+Net income (loss) attributable to Intel ($B)
+$(0.8)
+$(0.4)
+down 115%
+$0.6
+$0.8
+down 24%
+Earnings (loss) per share attributable to Intel—diluted
+$(0.19)
+$(0.09)
+down 111%
+$0.13
+$0.18
+down 28%
+In the first quarter, the company generated $0.8 billion in cash from operations.
+Full reconciliations between GAAP and non-GAAP measures are provided below.
+Business Unit Summary
+In the first quarter of 2025, the company made an organizational change to integrate the Network and Edge Group (NEX) into CCG and DCAI and modified Intel's segment reporting to align to this and certain other business reorganizations. All prior-period segment data has been retrospectively adjusted to reflect the way Intel's chief operating decision maker internally receives information and manages and monitors the company's operating segment performance starting in fiscal year 2025. There are no changes to Intel's consolidated financial statements for any prior periods.
+Business Unit Revenue and Trends
+Q1 2025
+3
+vs. Q1 2024
+Intel Products:
+Client Computing Group (CCG)
+$7.6 billion
+down
+8%
+Data Center and AI (DCAI)
+$4.1 billion
+up
+8%
+Total Intel Products revenue
+$11.8 billion
+down
+3%
+Intel Foundry
+$4.7 billion
+up
+7%
+All Other
+$0.9 billion
+up
+47%
+Intersegment Eliminations
+$(4.7) billion
+Total net revenue
+$12.7 billion
+flat
+3
+Numbers are presented as actual and rounded; as a result, totals may not sum.
+Business Highlights
+▪
+At CES, Intel announced the new Intel® Core™ Ultra 200V series mobile processors with Intel vPro®, Intel® Core™ Ultra 200HX and H series mobile processors, Intel® Core™ Ultra 200U series mobile processors, and an expanded Intel® Core™ Ultra 200S series desktop processor portfolio.
+▪
+In February, Intel launched new Intel® Xeon® 6 processors with Performance-cores (P-cores) for data center and Xeon 6 processors for network and edge applications, providing enhanced performance and efficiency across workloads.
+▪
+In April, MLCommons released its latest MLPerf Inference v5.0 benchmarks, in which Intel Xeon 6 with P-cores demonstrated a 1.9x boost in AI performance over the previous generation of processors, affirming Intel Xeon 6 as a top solution for modern AI systems
+4
+.
+▪
+Intel 18A is expected to ramp in the second half of 2025 to support the launch of Intel’s first Panther Lake SKU by year-end, with additional SKUs coming in the first half of 2026.
+▪
+Earlier this month, Intel announced an agreement to sell 51% of its Altera® business to Silver Lake. Intel will own the remaining 49% of the Altera business, enabling it to participate in Altera’s future success while focusing on its core business.
+▪
+In March, Intel completed the second and final close of the sale of its NAND business to SK hynix.
+4
+Performance varies by use, configuration and other factors. Learn more at www.Intel.com/PerformanceIndex. Performance results are based on testing as of dates shown in configurations and may not reflect all publicly available updates. Visit MLCommons for more details. No product or component can be absolutely secure.
+Intel/Page 3
+Business Outlook
+Intel's guidance for the second quarter of 2025 includes both GAAP and non-GAAP estimates as follows:
+Q2 2025
+GAAP
+Non-GAAP
+Revenue
+$11.2-12.4 billion
+Gross Margin
+34.3%
+36.5%
+Tax Rate
+(51)%
+12%
+Earnings (Loss) Per Share Attributable to Intel—Diluted
+$(0.32)
+$0.00
+Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “

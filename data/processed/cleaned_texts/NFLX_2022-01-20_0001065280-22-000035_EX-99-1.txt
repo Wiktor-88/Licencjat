@@ -1,1 +1,663 @@
-Document Exhibit 99.1 January 20, 2022 Fellow shareholders, We achieved several milestones in 2021: we had the biggest TV show of the year ( Squid Game ), our two biggest film releases of all time ( Red Notice and Don’t Look Up ) and Netflix was the most Emmy-winning and most nominated TV network and the most Oscar-winning and nominated movie studio of 2021. Full year revenue of $30 billion grew 19% year over year while operating income of $6.2 billion rose 35% year over year. We finished Q4 with 222m paid memberships (with 8.3m paid net adds in Q4). Even in a world of uncertainty and increasing competition, we’re optimistic about our long-term growth prospects as streaming supplants linear entertainment around the world. We're continually improving Netflix so that we can please our members, grow our share of leisure time and lead in this transition. Our summary results and forecast are below. (in millions except per share data) Q4'20 Q1'21 Q2'21 Q3'21 Q4'21 Q1'22 Forecast Revenue $ 6,644 $ 7,163 $ 7,342 $ 7,483 $ 7,709 $ 7,903 Y/Y % Growth 21.5 % 24.2 % 19.4 % 16.3 % 16.0 % 10.3 % Operating Income $ 954 $ 1,960 $ 1,848 $ 1,755 $ 632 $ 1,765 Operating Margin 14.4 % 27.4 % 25.2 % 23.5 % 8.2 % 22.3 % Net Income $ 542 $ 1,707 $ 1,353 $ 1,449 $ 607 $ 1,304 Diluted EPS $ 1.19 $ 3.75 $ 2.97 $ 3.19 $ 1.33 $ 2.86 Global Streaming Paid Memberships 203.66 207.64 209.18 213.56 221.84 224.34 Y/Y % Growth 21.9 % 13.6 % 8.4 % 9.4 % 8.9 % 8.0 % Global Streaming Paid Net Additions 8.51 3.98 1.54 4.38 8.28 2.50 Net cash provided by (used in) operating activities $ (138) $ 777 $ (64) $ 82 $ (403) Free Cash Flow* $ (284) $ 692 $ (175) $ (106) $ (569) Shares (FD) 455.3 455.6 455.1 454.9 455.8 Note: Figures are consolidated, including DVD. * Free cash flow represents Net Cash provided by (used in) operating activities less purchases of property and equipment and change in other assets. 1 Q4 Results and Q1 Forecast Revenue in Q4’21 grew 16% year over year with a 9% increase in average paid memberships. ARM 1 rose 7% year over year on both a reported and foreign exchange (F/X) neutral basis, two percentage points faster than Q3’21 (ex-F/X). Operating margin for Q4 amounted to 8%, a six percentage point decrease vs. the year ago period. The decline in operating margin was expected given our large content slate in Q4 this year. Operating margin was above our beginning of quarter forecast of 6.5% due to slightly lower than forecasted content spend. As a result, our full year operating margin was 21% vs. 18% in 2020, above our 20% guidance forecast. EPS in Q4 of $1.33 vs. $1.19 a year ago included a $104m non-cash unrealized gain from FX remeasurement on our Euro denominated debt. We slightly over-forecasted paid net adds in Q4 (8.3m actual compared to the 8.5m paid net adds in both the year ago quarter and our beginning of quarter projection). For the full year 2021, paid net adds totaled 18m vs 37m in 2020. Our service continues to grow globally, with more than 90% of our paid net adds in 2021 coming from outside the UCAN region. Nonetheless, our UCAN region added 1.2m paid memberships in Q4’21 (vs. 0.9m last year), marking our strongest quarter of member growth in this region since the early days of COVID-19 in 2020. In APAC, we increased paid memberships by 2.6m (vs. 2.0m in the year ago quarter) with strong growth in both Japan and India. EMEA was our largest contributor to paid net adds in Q4 (3.5m vs. 4.5m in the prior year period) and the region delivered record quarterly revenue, exceeding $2.5 billion for the first time. LATAM paid net adds totaled 1.0m vs. 1.2m last year. As a reminder, the quarterly guidance we provide is our actual internal forecast at the time we report. That means in some quarters our results will be high relative to our guidance forecast and in others it will be low, as can be seen in the chart below. As our membership base continues to grow, there will naturally be more volatility in our absolute paid net adds performance vs. forecast. ___________________________________ 1 ARM (Average Revenue per Membership) is defined as streaming revenue divided by the average number of streaming paid memberships divided by the number of months in the period. These figures do not include sales taxes or VAT. 2 For Q1’22, we forecast paid net adds of 2.5m vs. 4.0m in the year ago quarter. Our guidance reflects a more back-end weighted content slate in Q1’22 (for example, Bridgerton S2 and our new original film The Adam Project will both be launching in March). In addition, while retention and engagement remain healthy, acquisition growth has not yet re-accelerated to pre-Covid levels. We think this may be due to several factors including the ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM. For 2022, we are currently targeting an operating margin of 19%-20% (assuming no material swings in foreign currency from current levels). Our operating margin outlook is driven by two main factors. First, as seen in the chart below, we delivered above the three percentage point annual linear progression over the past two years (average of four percentage points per year). Second, the US dollar has strengthened meaningfully 2 against most other currencies. With ~60% of our revenue outside of the US due to our international success, we estimate that the US dollar’s appreciation over the past six months has cost us roughly $1 billion in expected 2022 revenue (as a reminder, we don’t hedge). With the vast majority of our expenses in US dollars, this translates into an estimated two percentage point negative impact on our 2022 operating margin. As we have written in the past, over the medium term we believe we can adjust our pricing and cost structure for a stronger US dollar world. In the near term, we want to continue to invest appropriately in our business and don’t want to over-react to F/X fluctuations to the detriment of our long term growth. There is no change to our goal of steadily growing our operating margin at an average increase of three percentage points per year over any few year period. __________________________________ 2 https://fred.stlouisfed.org/graph/fredgraph.png?g=L0NU 3 Content Our Q4 content slate epitomizes what we strive for: a wide variety of quality TV series and films. We had a number of big hits in Q4. We released new seasons of returning shows like The Witcher (484 million hours viewed 3 ), You (468m hours viewed), Emily in Paris (287 million hours viewed) and on December 31, Cobra Kai (274m hours viewed*), as well as the critically acclaimed limited series Maid (469m hours viewed). The dystopian Korean thriller Squid Game - a late Q3 release that broke through globally early in Q4 - generated 1.65 billion hours viewed in its first four weeks and is now our biggest TV season ever. The fourth quarter also featured the conclusion to one of our most popular shows - La Casa de Papel aka Money Heist (6.7 billion hours viewed over its lifetime). We’re excited to expand the LCDP universe with our Korean adaptation, Money Heist: Korea - Joint Economic Area 5 , launching later this year. Over the years, we’ve learned that big hits can come from anywhere in the world (with great subtitles and dubbing), as we’ve seen with La Casa de Papel , Squid Game , and Lupin to name just a few. But our goal with non-English originals is to first and foremost thrill audiences in their home country. And in the quarter, we saw big local viewing for titles such as Love is Blind Brazil , My Name from Korea, super hero film Minnal Murali from India and Danish thriller The Chestnut Man . Film is incredibly important for our members, which is why our ambition has always been to work with the world’s best filmmakers and stars to create a wide variety of quality movies. We took a large step forward in Q4 on this front with our biggest film slate ever. Our blockbuster Red Notice (starring Dwayne Johnson, Gal Gadot, and Ryan Reynolds) quickly became our most popular movie launch of all-time with 364 million hours viewed in its first four weeks. Other hits this quarter include The Unforgivable , starring Sandra Bullock (215m hours viewed), Army of the Dead prequel Army of Thieves (158m hours viewed), feel-good holiday romcom Love Hard with Jimmy O. Yang and Nina Dobrev (134m hours viewed), __________________________________ 3 Hours viewed data is based on the first 28 days of release. For titles released less than 28 days (denoted with an asterisk), data is from the launch date through January 18, 2022. As a reminder, we publish weekly our top titles based on hours viewed at Netflix Top 10 4 . 4 https://top10.netflix.com/ 5 https://www.youtube.com/watch?v=3SSxoTD-7zI 4 animated feature Back to the Outback (105m hours viewed) and The Harder They Fall (122m hours viewed). On Christmas Eve, we released the star-studded satire Don’t Look Up (featuring Leonardo DiCaprio, Jennifer Lawrence, Rob Morgan, Jonah Hill, Timothée Chalamet, Tyler Perry and Meryl Streep), which is already our second most popular film ever with 353m* hours viewed. Overall in 2021, Netflix series accounted for six out of the 10 most searched shows globally while our films represented two of the top 10. In November we debuted our mobile games experience globally on Android and iOS. Members can now discover and launch games from within the Netflix mobile app. Since launch, we released an additional five games, bringing the total to ten for 2021. It’s still very early days but we’re pleased with our progress. In 2022, we’ll expand our portfolio of games across both casual and core gaming genres as we continue to program a breadth of game types to learn what our members enjoy most. Marketing & Communications One of our goals with marketing is to help drive conversation about and passion for our titles. We know that Netflix fans want to dive deeper into what they watch with behind-the-scenes details, interviews, and updates. To make it easier and more engaging for our fans, we’ve launched the site Tudum 6 (named after our “sonic logo”) as a home for extending stories and conversation and further building fandom for our TV shows and films. Product & Pricing Netflix offers a wide variety of TV shows and films to its members, which we know they value. We also work hard to make it easy for members to access this content. For instance, in October, we introduced voice-driven Play Something, first on Amazon Fire TV devices (TVs, sticks, and set top boxes). Now, members can simply say “Play Something on Netflix” or “Play a movie on Netflix” and playback will start regardless of whether you are browsing Netflix or another service. If they don’t like what’s playing, simply saying “play something else” or “next” will play the next title in the list. Voice-driven Play Something makes choosing effectively effortless. __________________________________ 6 https://www.netflix.com/tudum 5 In December, we lowered our prices 7 in India across all four plans. India is fairly unique because pay TV pricing is very low. We believe these new prices will make Netflix more accessible to a broader swath of the population - strengthening our value perception. Our goal is to maximize long term revenue in each of our markets. Competition Consumers have always had many choices when it comes to their entertainment time - competition that has only intensified over the last 24 months as entertainment companies all around the world develop their own streaming offering. While this added competition may be affecting our marginal growth some, we continue to grow in every country and region in which these new streaming alternatives have launched. This reinforces our view that the greatest opportunity in entertainment is the transition from linear to streaming and that with under 10% of total TV screen time in the US, our biggest market, Netflix has tremendous room for growth if we can continue to improve our service. Cash Flow and Capital Structure Net cash generated by operating activities in Q4 was -$403 million vs. -$138 million in the prior year period. Free cash flow (FCF) 8 for the quarter was -$569 million vs. -$284 million in Q4‘20. For the full year 2021, FCF amounted to -$159 million, in-line with our expectation for “approximately break-even.” We didn’t engage in share repurchases in Q4 as we funded our acquisition of the Roald Dahl Story Company from cash on hand during the quarter. We anticipate being free cash flow positive for the full year 2022 and beyond. As a reminder, we prioritize our cash to reinvest in our core business and to fund new growth opportunities like gaming, followed by selective acquisitions. We’re also targeting $10-$15 billion of gross debt. We finished Q4 with gross debt of $15.5 billion and we’ll pay down $700 million of our senior notes due in Q1’22. After satisfying those uses of cash, excess cash above our minimum cash levels will be returned to shareholders via stock repurchases. Environmental, Social, and Governance (ESG) While our current governance structure has served our shareholders extraordinarily well with a sustained period of substantial growth, we’ve clearly proven our business model: streaming is now an established business, we’re self-funding and expect sustained positive free cash flow, and we’ve substantially scaled our revenues, operating profit and margin. So the Netflix Board has decided to evolve to a more standard large-cap governance structure and will recommend several changes at our next annual meeting. These include declassifying our board, removing supermajority voting provisions in our charter and bylaws, and enabling shareholders to call special meetings. We will also change the voting standard for our directors in uncontested elections. __________________________________ 7 https://about.netflix.com/en/news/netflix-for-all-now-at-happy-new-prices 8 For a reconciliation of free cash flow to net cash provided by (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto. 6 Long Term Stock Price Performance In each January investor letter, we provide an update on our long term stock performance. We continue to manage our business for the long term and under the belief that pleasing our members will lead to strong value creation for our fellow shareholders. We thank our equity and debt investors for their trust and for coming along with us on our journey to build one of the world’s leading entertainment companies. Annualized Performance (%)* 1 Year 3 Year 5 Year 10 Year Since IPO NFLX 11 % 31 % 37 % 51 % 38 % S&P 500 29 % 26 % 18 % 17 % 10 % NASDAQ 22 % 34 % 25 % 21 % 13 % Cumulative Return (%)* 1 Year 3 Year 5 Year 10 Year Since IPO NFLX 11 % 125 % 387 % 5,985 % 56,128 % S&P 500 29 % 100 % 133 % 362 % 548 % NASDAQ 22 % 142 % 206 % 576 % 1,052 % *As of 12/31/21. Source: Bloomberg and Google Finance. For NFLX, based on IPO price, split adjusted. IPO was May 22, 2002. Total Shareholder Returns basis. Reference Our eight most recent investor letters are: October 2021 , 9 July 2021 , 10 April 2021 , 11 January 2021 , 12 October 2020 , 13 July 2020 , 14 April 2020 , 15 January 2020 . 16 __________________________________ 9 https://s22.q4cdn.com/959853165/files/doc_financials/2021/q3/FINAL-Q3-21-Shareholder-Letter.pdf 10 https://s22.q4cdn.com/959853165/files/doc_financials/2021/q2/FINAL-Q2-21-Shareholder-Letter.pdf 11 https://s22.q4cdn.com/959853165/files/doc_financials/2021/q1/FINAL-Q1-21-Shareholder-Letter.pdf 12 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf 13 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q3/FINAL-Q3-20-Shareholder-Letter.pdf 14 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q2/FINAL-Q2-20-Shareholder-Letter-V3-with-Tables.pdf 15 https://s22.q4cdn.com/959853165/files/doc_financials/2020/q1/updated/FINAL-Q1-20-Shareholder-Letter.pdf 16 https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf 7 Regional Breakdown (in millions) Q4'20 Q1'21 Q2'21 Q3'21 Q4'21 UCAN Streaming: Revenue $ 2,980 $ 3,171 $ 3,235 $ 3,258 $ 3,309 Paid Memberships 73.94 74.38 73.95 74.02 75.22 Paid Net Additions 0.86 0.45 (0.43) 0.07 1.19 Average Revenue per Membership $ 13.51 $ 14.25 $ 14.54 $ 14.68 $ 14.78 Y/Y % Growth 2 % 9 % 10 % 10 % 9 % F/X Neutral Y/Y % Growth 2 % 9 % 9 % 9 % 9 % EMEA: Revenue $ 2,137 $ 2,344 $ 2,400 $ 2,432 $ 2,523 Paid Memberships 66.70 68.51 68.70 70.50 74.04 Paid Net Additions 4.46 1.81 0.19 1.80 3.54 Average Revenue per Membership $ 11.05 $ 11.56 $ 11.66 $ 11.65 $ 11.64 Y/Y % Growth 5 % 11 % 11 % 7 % 5 % F/X Neutral Y/Y % Growth — % 4 % 2 % 3 % 6 % LATAM: Revenue $ 789 $ 837 $ 861 $ 915 $ 964 Paid Memberships 37.54 37.89 38.66 38.99 39.96 Paid Net Additions 1.21 0.36 0.76 0.33 0.97 Average Revenue per Membership $ 7.12 $ 7.39 $ 7.50 $ 7.86 $ 8.14 Y/Y % Growth (13) % (8) % 1 % 8 % 14 % F/X Neutral Y/Y % Growth 4 % 5 % 2 % 8 % 17 % APAC: Revenue $ 685 $ 762 $ 799 $ 834 $ 871 Paid Memberships 25.49 26.85 27.88 30.05 32.63 Paid Net Additions 1.99 1.36 1.02 2.18 2.58 Average Revenue per Membership $ 9.32 $ 9.71 $ 9.74 $ 9.60 $ 9.26 Y/Y % Growth 3 % 9 % 9 % 4 % (1) % F/X Neutral Y/Y % Growth — % 3 % 1 % 2 % 2 % 8 January 20, 2022 Earnings Interview, 3pm PT Our video interview with Nidhi Gupta of Fidelity Management & Research, Co. will be on youtube/netflixir at 3pm PT today. Questions that investors would like to see asked should be sent to nidhi.gupta@fmr.com . Reed Hastings, co-CEO, Spence Neumann, CFO, Ted Sarandos, co-CEO & Chief Content Officer, Greg Peters, COO & Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Nidhi’s questions. IR Contact: PR Contact: Spencer Wang Jonathan Bing VP, Finance/IR & Corporate Development Director, Corporate Communications 408 809-5360 818 643-0146 9 Use of Non-GAAP Measure This shareholder letter and its attachments include reference to the non-GAAP financial measure of free cash flow. Management believes that free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. However, this non-GAAP financial measure should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by (used in) operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.
+Document
+Exhibit 99.1
+January 20, 2022
+Fellow shareholders,
+We achieved several milestones in 2021: we had the biggest TV show of the year (
+Squid Game
+), our two biggest film releases of all time (
+Red Notice
+and
+Don’t Look Up
+) and Netflix was the most Emmy-winning and most nominated TV network and the most Oscar-winning and nominated movie studio of 2021. Full year revenue of $30 billion grew 19% year over year while operating income of $6.2 billion rose 35% year over year. We finished Q4 with 222m paid memberships (with 8.3m paid net adds in Q4). Even in a world of uncertainty and increasing competition, we’re optimistic about our long-term growth prospects as streaming supplants linear entertainment around the world. We're continually improving Netflix so that we can please our members, grow our share of leisure time and lead in this transition. Our summary results and forecast are below.
+(in millions except per share data)
+Q4'20
+Q1'21
+Q2'21
+Q3'21
+Q4'21
+Q1'22 Forecast
+Revenue
+$
+6,644
+$
+7,163
+$
+7,342
+$
+7,483
+$
+7,709
+$
+7,903
+Y/Y % Growth
+21.5
+%
+24.2
+%
+19.4
+%
+16.3
+%
+16.0
+%
+10.3
+%
+Operating Income
+$
+954
+$
+1,960
+$
+1,848
+$
+1,755
+$
+632
+$
+1,765
+Operating Margin
+14.4
+%
+27.4
+%
+25.2
+%
+23.5
+%
+8.2
+%
+22.3
+%
+Net Income
+$
+542
+$
+1,707
+$
+1,353
+$
+1,449
+$
+607
+$
+1,304
+Diluted EPS
+$
+1.19
+$
+3.75
+$
+2.97
+$
+3.19
+$
+1.33
+$
+2.86
+Global Streaming Paid Memberships
+203.66
+207.64
+209.18
+213.56
+221.84
+224.34
+Y/Y % Growth
+21.9
+%
+13.6
+%
+8.4
+%
+9.4
+%
+8.9
+%
+8.0
+%
+Global Streaming Paid Net Additions
+8.51
+3.98
+1.54
+4.38
+8.28
+2.50
+Net cash provided by (used in) operating activities
+$
+(138)
+$
+777
+$
+(64)
+$
+82
+$
+(403)
+Free Cash Flow*
+$
+(284)
+$
+692
+$
+(175)
+$
+(106)
+$
+(569)
+Shares (FD)
+455.3
+455.6
+455.1
+454.9
+455.8
+Note: Figures are consolidated, including DVD.
+* Free cash flow represents Net Cash provided by (used in) operating activities less purchases of property and equipment and change in other assets.
+1
+Q4 Results and Q1 Forecast
+Revenue in Q4’21 grew 16% year over year with a 9% increase in average paid memberships. ARM
+1
+rose 7% year over year on both a reported and foreign exchange (F/X) neutral basis, two percentage points faster than Q3’21 (ex-F/X). Operating margin for Q4 amounted to 8%, a six percentage point decrease vs. the year ago period. The decline in operating margin was expected given our large content slate in Q4 this year. Operating margin was above our beginning of quarter forecast of 6.5% due to slightly lower than forecasted content spend. As a result, our full year operating margin was 21% vs. 18% in 2020, above our 20% guidance forecast. EPS in Q4 of $1.33 vs. $1.19 a year ago included a $104m non-cash unrealized gain from FX remeasurement on our Euro denominated debt.
+We slightly over-forecasted paid net adds in Q4 (8.3m actual compared to the 8.5m paid net adds in both the year ago quarter and our beginning of quarter projection). For the full year 2021, paid net adds totaled 18m vs 37m in 2020. Our service continues to grow globally, with more than 90% of our paid net adds in 2021 coming from outside the UCAN region.
+Nonetheless, our UCAN region added 1.2m paid memberships in Q4’21 (vs. 0.9m last year), marking our strongest quarter of member growth in this region since the early days of COVID-19 in 2020. In APAC, we increased paid memberships by 2.6m (vs. 2.0m in the year ago quarter) with strong growth in both Japan and India. EMEA was our largest contributor to paid net adds in Q4 (3.5m vs. 4.5m in the prior year period) and the region delivered record quarterly revenue, exceeding $2.5 billion for the first time. LATAM paid net adds totaled 1.0m vs. 1.2m last year.
+As a reminder, the quarterly guidance we provide is our actual internal forecast at the time we report. That means in some quarters our results will be high relative to our guidance forecast and in others it will be low, as can be seen in the chart below. As our membership base continues to grow, there will naturally be more volatility in our absolute paid net adds performance vs. forecast.
+___________________________________
+1
+ARM (Average Revenue per Membership) is defined as streaming revenue divided by the average number of streaming paid memberships divided by the number of months in the period. These figures do not include sales taxes or VAT.
+2
+For Q1’22, we forecast paid net adds of 2.5m vs. 4.0m in the year ago quarter. Our guidance reflects a more back-end weighted content slate in Q1’22 (for example,
+Bridgerton
+S2 and our new original film
+The Adam Project
+will both be launching in March). In addition, while retention and engagement remain healthy, acquisition growth has not yet re-accelerated to pre-Covid levels. We think this may be due to several factors including the ongoing Covid overhang and macro-economic hardship in several parts of the world like LATAM.
+For 2022, we are currently targeting an operating margin of 19%-20% (assuming no material swings in foreign currency from current levels). Our operating margin outlook is driven by two main factors. First, as seen in the chart below, we delivered above the three percentage point annual linear progression over the past two years (average of four percentage points per year).
+Second, the
+US dollar has strengthened meaningfully
+2
+against most other currencies. With ~60% of our revenue outside of the US due to our international success, we estimate that the US dollar’s appreciation over the past six months has cost us roughly $1 billion in expected 2022 revenue (as a reminder, we don’t hedge). With the vast majority of our expenses in US dollars, this translates into an estimated two percentage point negative impact on our 2022 operating margin.
+As we have written in the past, over the medium term we believe we can adjust our pricing and cost structure for a stronger US dollar world. In the near term, we want to continue to invest appropriately in our business and don’t want to over-react to F/X fluctuations to the detriment of our long term growth. There is no change to our goal of steadily growing our operating margin at an average increase of three percentage points per year over any few year period.
+__________________________________
+2
+https://fred.stlouisfed.org/graph/fredgraph.png?g=L0NU
+3
+Content
+Our Q4 content slate epitomizes what we strive for: a wide variety of quality TV series and films. We had a number of big hits in Q4. We released new seasons of returning shows like
+The Witcher
+(484 million hours viewed
+3
+),
+You
+(468m hours viewed),
+Emily in Paris
+(287 million hours viewed) and on December 31,
+Cobra Kai
+(274m hours viewed*), as well as the critically acclaimed limited series
+Maid
+(469m hours viewed). The dystopian Korean thriller
+Squid Game
+- a late Q3 release that broke through globally early in Q4 - generated 1.65 billion hours viewed in its first four weeks and is now our biggest TV season ever. The fourth quarter also featured the conclusion to one of our most popular shows -
+La Casa de Papel
+aka
+Money Heist
+(6.7 billion hours viewed over its lifetime). We’re excited to expand the
+LCDP
+universe with   our Korean adaptation,
+Money Heist: Korea - Joint Economic Area
+5
+, launching later this year.
+Over the years, we’ve learned that big hits can come from anywhere in the world (with great subtitles and dubbing), as we’ve seen with
+La Casa de Papel
+,
+Squid Game
+, and
+Lupin
+to name just a few. But our goal with non-English originals is to first and foremost thrill audiences in their home country. And in the quarter, we saw big local viewing for titles such as
+Love is Blind Brazil
+,
+My Name
+from Korea, super hero film
+Minnal Murali
+from India and Danish thriller
+The Chestnut Man
+.
+Film is incredibly important for our members, which is why our ambition has always been to work with the world’s best filmmakers and stars to create a wide variety of quality movies. We took a large step forward in Q4 on this front with our biggest film slate ever. Our blockbuster
+Red Notice
+(starring Dwayne Johnson, Gal Gadot, and Ryan Reynolds) quickly became our most popular movie launch of all-time with 364 million hours viewed in its first four weeks. Other hits this quarter include
+The Unforgivable
+, starring Sandra Bullock (215m hours viewed),
+Army of the Dead
+prequel
+Army of Thieves
+(158m hours viewed), feel-good holiday romcom
+Love Hard
+with Jimmy O. Yang and Nina Dobrev (134m hours viewed),
+__________________________________
+3
+Hours viewed data is based on the first 28 days of release. For titles released less than 28 days (denoted with an asterisk), data is from the launch date through January 18, 2022. As a reminder, we publish weekly our top titles based on hours viewed at
+Netflix Top 10
+4
+.
+4
+https://top10.netflix.com/
+5
+https://www.youtube.com/watch?v=3SSxoTD-7zI
+4
+animated feature
+Back to the Outback
+(105m hours viewed) and
+The Harder They Fall
+(122m hours viewed). On Christmas Eve, we released the star-studded satire
+Don’t Look Up
+(featuring Leonardo DiCaprio, Jennifer Lawrence, Rob Morgan, Jonah Hill, Timothée Chalamet, Tyler Perry and Meryl Streep), which is already our second most popular film ever with 353m* hours viewed.
+Overall in 2021, Netflix series accounted for six out of the 10 most searched shows globally while our films represented two of the top 10.
+In November we debuted our mobile games experience globally on Android and iOS. Members can now discover and launch games from within the Netflix mobile app. Since launch, we released an additional five games, bringing the total to ten for 2021. It’s still very early days but we’re pleased with our progress. In 2022, we’ll expand our portfolio of games across both casual and core gaming genres as we continue to program a breadth of game types to learn what our members enjoy most.
+Marketing & Communications
+One of our goals with marketing is to help drive conversation about and passion for our titles. We know that Netflix fans want to dive deeper into what they watch with behind-the-scenes details, interviews, and updates. To make it easier and more engaging for our fans, we’ve launched the site
+Tudum
+6
+(named after our “sonic logo”) as a home for extending stories and conversation and further building fandom for our TV shows and films.
+Product & Pricing
+Netflix offers a wide variety of TV shows and films to its members, which we know they value. We also work hard to make it easy for members to access this content. For instance, in October, we introduced voice-driven Play Something, first on Amazon Fire TV devices (TVs, sticks, and set top boxes). Now, members can simply say “Play Something on Netflix” or “Play a movie on Netflix” and playback will start regardless of whether you are browsing Netflix or another service. If they don’t like what’s playing, simply saying “play something else” or “next” will play the next title in the list. Voice-driven Play Something makes choosing effectively effortless.
+__________________________________
+6
+https://www.netflix.com/tudum
+5
+In December,
+we lowered our prices
+7
+in India across all four plans. India is fairly unique because pay TV pricing is very low. We believe these new prices will make Netflix more accessible to a broader swath of the population - strengthening our value perception. Our goal is to maximize long term revenue in each of our markets.
+Competition
+Consumers have always had many choices when it comes to their entertainment time - competition that has only intensified over the last 24 months as entertainment companies all around the world develop their own streaming offering. While this added competition may be affecting our marginal growth some, we continue to grow in every country and region in which these new streaming alternatives have launched. This reinforces our view that the greatest opportunity in entertainment is the transition from linear to streaming and that with under 10% of total TV screen time in the US, our biggest market, Netflix has tremendous room for growth if we can continue to improve our service.
+Cash Flow and Capital Structure
+Net cash generated by operating activities in Q4 was -$403 million vs. -$138 million in the prior year period. Free cash flow (FCF)
+8
+for the quarter was -$569 million vs. -$284 million in Q4‘20. For the full year 2021, FCF amounted to -$159 million, in-line with our expectation for “approximately break-even.”
+We didn’t engage in share repurchases in Q4 as we funded our acquisition of the Roald Dahl Story Company from cash on hand during the quarter.
+We anticipate being free cash flow positive for the full year 2022 and beyond. As a reminder, we prioritize our cash to reinvest in our core business and to fund new growth opportunities like gaming, followed by selective acquisitions. We’re also targeting $10-$15 billion of gross debt. We finished Q4 with gross debt of $15.5 billion and we’ll pay down $700 million of our senior notes due in Q1’22. After satisfying those uses of cash, excess cash above our minimum cash levels will be returned to shareholders via stock repurchases.
+Environmental, Social, and Governance (ESG)
+While our current governance structure has served our shareholders extraordinarily well with a sustained period of substantial growth, we’ve clearly proven our business model: streaming is now an established business, we’re self-funding and expect sustained positive free cash flow, and we’ve substantially scaled our revenues, operating profit and margin. So the Netflix Board has decided to evolve to a more standard large-cap governance structure and will recommend several changes at our next annual meeting. These include declassifying our board, removing supermajority voting provisions in our charter and bylaws, and enabling shareholders to call special meetings. We will also change the voting standard for our directors in uncontested elections.
+__________________________________
+7
+https://about.netflix.com/en/news/netflix-for-all-now-at-happy-new-prices
+8
+For a reconciliation of free cash flow to net cash provided by (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto.
+6
+Long Term Stock Price Performance
+In each January investor letter, we provide an update on our long term stock performance. We continue to manage our business for the long term and under the belief that pleasing our members will lead to strong value creation for our fellow shareholders. We thank our equity and debt investors for their trust and for coming along with us on our journey to build one of the world’s leading entertainment companies.
+Annualized Performance (%)*
+1 Year
+3 Year
+5 Year
+10 Year
+Since IPO
+NFLX
+11
+%
+31
+%
+37
+%
+51
+%
+38
+%
+S&P 500
+29
+%
+26
+%
+18
+%
+17
+%
+10
+%
+NASDAQ
+22
+%
+34
+%
+25
+%
+21
+%
+13
+%
+Cumulative Return (%)*
+1 Year
+3 Year
+5 Year
+10 Year
+Since IPO
+NFLX
+11
+%
+125
+%
+387
+%
+5,985
+%
+56,128
+%
+S&P 500
+29
+%
+100
+%
+133
+%
+362
+%
+548
+%
+NASDAQ
+22
+%
+142
+%
+206
+%
+576
+%
+1,052
+%
+*As of 12/31/21. Source: Bloomberg and Google Finance. For NFLX, based on IPO price, split adjusted. IPO was May 22, 2002. Total Shareholder Returns basis.
+Reference
+Our eight most recent investor letters are:
+October 2021
+,
+9
+July 2021
+,
+10
+April 2021
+,
+11
+January 2021
+,
+12
+October 2020
+,
+13
+July 2020
+,
+14
+April 2020
+,
+15
+January 2020
+.
+16
+__________________________________
+9
+https://s22.q4cdn.com/959853165/files/doc_financials/2021/q3/FINAL-Q3-21-Shareholder-Letter.pdf
+10
+https://s22.q4cdn.com/959853165/files/doc_financials/2021/q2/FINAL-Q2-21-Shareholder-Letter.pdf
+11
+https://s22.q4cdn.com/959853165/files/doc_financials/2021/q1/FINAL-Q1-21-Shareholder-Letter.pdf
+12
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf
+13
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q3/FINAL-Q3-20-Shareholder-Letter.pdf
+14
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q2/FINAL-Q2-20-Shareholder-Letter-V3-with-Tables.pdf
+15
+https://s22.q4cdn.com/959853165/files/doc_financials/2020/q1/updated/FINAL-Q1-20-Shareholder-Letter.pdf
+16
+https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf
+7
+Regional Breakdown
+(in millions)
+Q4'20
+Q1'21
+Q2'21
+Q3'21
+Q4'21
+UCAN Streaming:
+Revenue
+$
+2,980
+$
+3,171
+$
+3,235
+$
+3,258
+$
+3,309
+Paid Memberships
+73.94
+74.38
+73.95
+74.02
+75.22
+Paid Net Additions
+0.86
+0.45
+(0.43)
+0.07
+1.19
+Average Revenue per Membership
+$
+13.51
+$
+14.25
+$
+14.54
+$
+14.68
+$
+14.78
+Y/Y % Growth
+2
+%
+9
+%
+10
+%
+10
+%
+9
+%
+F/X Neutral Y/Y % Growth
+2
+%
+9
+%
+9
+%
+9
+%
+9
+%
+EMEA:
+Revenue
+$
+2,137
+$
+2,344
+$
+2,400
+$
+2,432
+$
+2,523
+Paid Memberships
+66.70
+68.51
+68.70
+70.50
+74.04
+Paid Net Additions
+4.46
+1.81
+0.19
+1.80
+3.54
+Average Revenue per Membership
+$
+11.05
+$
+11.56
+$
+11.66
+$
+11.65
+$
+11.64
+Y/Y % Growth
+5
+%
+11
+%
+11
+%
+7
+%
+5
+%
+F/X Neutral Y/Y % Growth
+—
+%
+4
+%
+2
+%
+3
+%
+6
+%
+LATAM:
+Revenue
+$
+789
+$
+837
+$
+861
+$
+915
+$
+964
+Paid Memberships
+37.54
+37.89
+38.66
+38.99
+39.96
+Paid Net Additions
+1.21
+0.36
+0.76
+0.33
+0.97
+Average Revenue per Membership
+$
+7.12
+$
+7.39
+$
+7.50
+$
+7.86
+$
+8.14
+Y/Y % Growth
+(13)
+%
+(8)
+%
+1
+%
+8
+%
+14
+%
+F/X Neutral Y/Y % Growth
+4
+%
+5
+%
+2
+%
+8
+%
+17
+%
+APAC:
+Revenue
+$
+685
+$
+762
+$
+799
+$
+834
+$
+871
+Paid Memberships
+25.49
+26.85
+27.88
+30.05
+32.63
+Paid Net Additions
+1.99
+1.36
+1.02
+2.18
+2.58
+Average Revenue per Membership
+$
+9.32
+$
+9.71
+$
+9.74
+$
+9.60
+$
+9.26
+Y/Y % Growth
+3
+%
+9
+%
+9
+%
+4
+%
+(1)
+%
+F/X Neutral Y/Y % Growth
+—
+%
+3
+%
+1
+%
+2
+%
+2
+%
+8
+January 20, 2022 Earnings Interview, 3pm PT
+Our video interview with Nidhi Gupta of Fidelity Management & Research, Co. will be on
+youtube/netflixir
+at 3pm PT today.
+Questions that investors would like to see asked should be sent to
+nidhi.gupta@fmr.com
+.
+Reed Hastings, co-CEO, Spence Neumann, CFO, Ted Sarandos, co-CEO & Chief Content Officer, Greg Peters, COO & Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Nidhi’s questions.
+IR Contact:
+PR Contact:
+Spencer Wang
+Jonathan Bing
+VP, Finance/IR & Corporate Development
+Director, Corporate Communications
+408 809-5360
+818 643-0146
+9
+Use of Non-GAAP Measure
+This shareholder letter and its attachments include reference to the non-GAAP financial measure of free
+cash flow. Management believes that free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. However, this non-GAAP financial measure should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by (used in) operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.

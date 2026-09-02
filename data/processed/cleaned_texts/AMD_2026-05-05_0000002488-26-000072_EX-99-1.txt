@@ -1,1 +1,446 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Phil Hughes
+AMD Communications
+512-865-9697
+phil.hughes@amd.com
+Investor Contact:
+Liz Stine
+AMD Investor Relations
+720-652-3965
+liz.stine@amd.com
+AMD Reports First Quarter 2026 Financial Results
+SANTA CLARA, Calif. ― May 5, 2026 ―
+AMD (NASDAQ:AMD) today announced financial results for the first quarter of 2026. First quarter revenue was $10.3 billion, gross margin was 53%, operating income was $1.5 billion, net income was $1.4 billion and diluted earnings per share was $0.84. On a non-GAAP(*) basis, gross margin was 55%, operating income was $2.5 billion, net income was $2.3 billion and diluted earnings per share was $1.37.
+“We delivered an outstanding first quarter, driven by accelerating demand for AI infrastructure, with Data Center now the primary driver of our revenue and earnings growth,” said Dr. Lisa Su, AMD chair and CEO. “We are seeing strong momentum as inferencing and agentic AI drive increasing demand for high-performance CPUs and accelerators. Looking ahead, we expect server growth to accelerate meaningfully as we scale supply to meet demand. Customer engagement around MI450 Series and Helios is strengthening, with leading customer forecasts exceeding our initial expectations and a growing pipeline of large-scale deployments providing us with increasing visibility into our growth trajectory."
+“First quarter results reflect strong performance across all key financial metrics, with accelerating revenue growth, earnings expansion and record quarterly free cash flow,” said Jean Hu, AMD executive vice president, CFO and treasurer. “These results highlight continued momentum and execution across the business, demonstrating the leverage in our operating model as we invest for accelerated growth while expanding profitability.”
+1
+GAAP Quarterly Financial Results
+Q1'26
+Q1'25
+Y/Y
+Q4'25
+Q/Q
+Revenue ($M)
+$10,253
+$7,438
+Up 38%
+$10,270
+Flat
+Gross profit ($M)
+$5,416
+$3,736
+Up 45%
+$5,577
+Down 3%
+Gross margin
+53%
+50%
+Up 3 ppts
+54%
+Down 1 ppt
+Operating expenses ($M)
+$3,940
+$2,930
+Up 34%
+$3,825
+Up 3%
+Operating income ($M)
+$1,476
+$806
+Up 83%
+$1,752
+Down 16%
+Operating margin
+14%
+11%
+Up 3 ppts
+17%
+Down 3 ppts
+Net income ($M)
+$1,383
+$709
+Up 95%
+$1,511
+Down 8%
+Diluted earnings per share
+$0.84
+$0.44
+Up 91%
+$0.92
+Down 9%
+Non-GAAP(*) Quarterly Financial Results
+Q1'26
+Q1'25
+Y/Y
+Q4'25
+Q/Q
+Revenue ($M)
+$10,253
+$7,438
+Up 38%
+$10,270
+Flat
+Gross profit ($M)
+$5,685
+$3,992
+Up 42%
+$5,855
+Down 3%
+Gross margin
+55%
+54%
+Up 1 ppt
+57%
+Down 2 ppts
+Operating expenses ($M)
+$3,145
+$2,213
+Up 42%
+$3,001
+Up 5%
+Operating income ($M)
+$2,540
+$1,779
+Up 43%
+$2,854
+Down 11%
+Operating margin
+25%
+24%
+Up 1 ppt
+28%
+Down 3 ppts
+Net income ($M)
+$2,265
+$1,566
+Up 45%
+$2,519
+Down 10%
+Diluted earnings per share
+$1.37
+$0.96
+Up 43%
+$1.53
+Down 10%
+Segment Summary
+•
+Data Center segment revenue was $5.8 billion, up 57% year-over-year, driven by strong demand for AMD EPYC™ processors and the continued ramp of AMD Instinct™ GPU shipments.
+•
+Client and Gaming segment revenue was $3.6 billion, up 23% year-over-year. Client business revenue was $2.9 billion, up 26% year-over-year, primarily driven by strong demand for leadership AMD Ryzen™ processors and continued market share gains. Gaming business revenue was $720 million, up 11% year-over-year, driven by solid demand for AMD Radeon™ GPUs partially offset by lower semi-custom revenue.
+•
+Embedded segment revenue was $873 million, up 6% year-over-year, as demand strengthened across several end markets.
+Recent PR Highlights
+•
+AMD expanded its data center offerings and deepened strategic collaborations to deliver global compute infrastructure:
+◦
+Meta and AMD
+announced
+plans to deploy up to 6 gigawatts of AMD Instinct GPUs, with the first 1-GW to be powered by a custom AMD Instinct MI450-based GPU. Meta will also be a lead customer for the upcoming 6th Gen AMD EPYC CPUs, codenamed “Venice” and “Verano.”
+2
+◦
+AWS
+, Google Cloud, Microsoft Azure and
+Tencent
+announced new and expanded 5
+th
+Gen EPYC-powered cloud instances, including
+Google Cloud H4D VMs
+for HPC and
+Azure instances
+across general-purpose, memory- and compute-optimized workloads.
+◦
+In the latest MLPerf
+®
+results, AMD Instinct MI355X
+delivered
+strong competitive performance across the full suite, with leadership results in multiple categories.
+◦
+AMD announced
+EPYC 8005 server CPUs
+, delivering leadership performance per-watt-per-dollar optimized for telecommunications and edge environments.
+◦
+AMD and Tata Consultancy Services (TCS) are
+co-developing
+AMD Helios-based rack-scale AI infrastructure to accelerate enterprise AI deployments and sovereign AI initiatives in India.
+◦
+AMD and Samsung
+are collaborating
+on next-generation AI memory and compute technologies, including HBM4 supply for AMD Instinct MI455X GPUs and advanced DRAM solutions for 6th Gen AMD EPYC CPUs.
+◦
+AMD is collaborating with
+NAVER Cloud
+and
+Upstage
+to deploy AMD Instinct GPUs and EPYC CPUs across their AI infrastructure, advancing sovereign AI initiatives in Korea.
+◦
+AMD
+joined
+Open Telco AI, a GSMA-led initiative to accelerate telco-grade AI models and systems, with AMD Instinct GPUs training Open Telco AI models.
+•
+AMD expanded its offerings for premium enterprise and enthusiast PCs, including:
+◦
+The
+AMD Ryzen AI PRO 400 Series processors
+, expanding its lineup of next-generation enterprise desktop PCs that deliver Copilot+ experiences.
+◦
+The
+Ryzen 9950X3D2 Dual Edition processor
+, delivering enhanced performance for creative and developer workloads with dual stacks of AMD 3D V-Cache™ technology.
+•
+AMD announced new adaptive and embedded AI processors, including:
+◦
+New
+Ryzen AI Embedded P100 Series processors
+, delivering scalable, power-efficient AI compute for industrial and edge applications.
+◦
+The
+Kintex™ UltraScale+™ Gen 2
+family of mid-range FPGAs, delivering advanced memory bandwidth and I/O performance for industrial, imaging and broadcast applications.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the second quarter of 2026, AMD expects revenue to be approximately $11.2 billion, plus or minus $300 million. The mid-point of the revenue range represents year-over-year growth of approximately 46% and a sequential increase of approximately 9%. Non-GAAP gross margin is expected to be approximately 56%.
+AMD Teleconference
+AMD will hold a conference call at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its first quarter 2026 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+3
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+March 28,
+2026
+December 27,
+2025
+March 29,
+2025
+GAAP gross profit
+$
+5,416
+$
+5,577
+$
+3,736
+GAAP gross margin
+53
+%
+54
+%
+50
+%
+Stock-based compensation
+8
+8
+5
+Amortization of acquisition-related intangibles
+261
+260
+251
+Acquisition-related and other costs
+(1)
+—
+1
+—
+Loss contingency on legal matter
+—
+9
+—
+Non-GAAP gross profit
+$
+5,685
+$
+5,855
+$
+3,992
+Non-GAAP gross margin
+55
+%
+57
+%
+54
+%
+GAAP operating expenses
+$
+3,940
+$
+3,825
+$
+2,930
+GAAP operating expenses/revenue %
+38
+%
+37
+%
+39
+%
+Stock-based compensation
+479
+478
+359
+Amortization of acquisition-related intangibles
+290
+297
+316
+Acquisition-related and other costs
+(1)
+26
+49
+42
+Non-GAAP operating expenses
+$
+3,145
+$
+3,001
+$
+2,213
+Non-GAAP operating expenses/revenue %
+31
+%
+29
+%
+30
+%
+GAAP operating income
+$
+1,476
+$
+1,752
+$
+806
+GAAP operating margin
+14
+%
+17
+%
+11
+%
+Stock-based compensation
+487
+486
+364
+Amortization of acquisition-related intangibles
+551
+557
+567
+Acquisition-related and other costs
+(1)
+26
+50
+42
+Loss contingency on legal matter
+—
+9
+—
+Non-GAAP operating income
+$
+2,540
+$
+2,854
+$
+1,779
+Non-GAAP operating margin
+25
+%
+28
+%
+24
+%
+Three Months Ended
+March 28,
+2026
+December 27,
+2025
+March 29,
+2025
+GAAP net income / earnings per share
+$
+1,383
+$
+0.84
+$
+1,511
+$
+0.92
+$
+709
+$
+0.44
+Stock-based compensation
+487
+0.30
+486
+0.29
+364
+0.22
+Amortization of acquisition-related intangibles
+551
+0.33
+557
+0.34
+567
+0.35
+Acquisition-related and other costs
+(1)
+27
+0.02
+50
+0.03
+42
+0.03
+Loss contingency on legal matter
+—
+—
+9
+0.01
+—
+—
+(Gains) losses on long-term investments, net
+(66)
+(0.04)
+(280)
+(0.17)
+2
+—
+Equity income in investee
+(6)
+—
+(1)
+—
+(7)
+—
+Income tax provision
+(100)
+(0.07)
+78
+0.04
+(111)
+(0.08)
+(Income) loss from discontinued operations, net of tax
+(2)
+(11)
+(0.01)
+109
+0.07
+—
+—
+Non-GAAP net income / earnings per share
+$
+2,265
+$
+1.37
+$
+2,519
+$
+1.53
+$
+1,566
+$
+0.96
+(1)
+Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, and workforce rebalancing charges.
+(2)
+(Income) loss from discontinued operations relates to ZT Systems' manufacturing business which was divested in the fourth quarter of 2025, and includes impact from measurement period adjustments.
+4

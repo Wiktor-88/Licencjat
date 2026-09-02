@@ -1,0 +1,17 @@
+{
+  "event": {
+    "Ticker": "TSLA",
+    "Accession": "0001104659-25-050072",
+    "Filing_Date": "2025-05-16",
+    "Feature_Cutoff_Session": "2025-05-16",
+    "Event_Session": "2025-05-19T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "true_positive"
+  },
+  "prediction": {
+    "Probability_Class_1": 0.8283693194389343,
+    "Prediction": 1
+  }
+}

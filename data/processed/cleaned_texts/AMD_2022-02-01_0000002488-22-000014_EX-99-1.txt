@@ -1,1 +1,704 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports Fourth Quarter and Full Year 2021 Financial Results
+― Record quarterly revenue of $4.8B up 49% y/y; Record full year revenue of $16.4B up 68%;
+Gross margin expanded and operating income more than doubled from prior year ―
+SANTA CLARA, Calif. ― Feb. 1, 2022 ―
+AMD
+(NASDAQ:AMD) today announced revenue for the fourth quarter of 2021 of $4.8 billion, operating income of $1.2 billion, net income of $974 million and diluted earnings per share of $0.80. On a non-GAAP
+(*)
+basis, operating income was $1.3 billion, net income was $1.1 billion and diluted earnings per share was $0.92.
+For full year 2021, the company reported revenue of $16.4 billion, operating income of $3.6 billion, net income of $3.2 billion and diluted earnings per share of $2.57. On a non-GAAP
+(*)
+basis, operating income was $4.1 billion, net income was $3.4 billion and diluted earnings per share was $2.79.
+GAAP Quarterly Financial Results
+Q4 2021
+Q4 2020
+Y/Y
+Q3 2021
+Q/Q
+Revenue ($M)
+$4,826
+$3,244
+Up 49%
+$4,313
+Up 12%
+Gross profit ($M)
+$2,426
+$1,451
+Up 67%
+$2,086
+Up 16%
+Gross margin %
+50%
+45%
+Up 560 bps
+48%
+Up 190 bps
+Operating expenses ($M)
+$1,223
+$881
+Up 39%
+$1,141
+Up 7%
+Operating income ($M)
+$1,207
+$570
+Up 112%
+948
+Up 27%
+Operating margin %
+25%
+18%
+Up 7pp
+22%
+Up 3pp
+Tax valuation allowance release benefit ($M)
+(1)
+-
+$1,301
+-
+-
+-
+Net income ($M)
+$974
+$1,781
+Down 45%
+$923
+Up 6%
+Earnings per share
+(1)
+$0.80
+$1.45
+Down 45%
+$0.75
+Up 7%
+1
+Non-GAAP
+(*)
+Quarterly Financial Results
+Q4 2021
+Q4 2020
+Y/Y
+Q3 2021
+Q/Q
+Revenue ($M)
+$4,826
+$3,244
+Up 49%
+$4,313
+Up 12%
+Gross profit ($M)
+$2,427
+$1,452
+Up 67%
+$2,087
+Up 16%
+Gross margin %
+50%
+45%
+Up 560 bps
+48%
+Up 190 bps
+Operating expenses ($M)
+$1,103
+$789
+Up 40%
+$1,035
+Up 7%
+Operating income ($M)
+$1,328
+$663
+Up 100%
+$1,055
+Up 26%
+Operating margin %
+27%
+20%
+Up 7pp
+24%
+Up 3pp
+Net income ($M)
+$1,122
+$636
+Up 76%
+$893
+Up 26%
+Earnings per share
+$0.92
+$0.52
+Up 77%
+$0.73
+Up 26%
+Annual Financial Results
+GAAP
+Non-GAAP
+(*)
+2021
+2020
+Y/Y
+2021
+2020
+Y/Y
+Revenue ($M)
+$16,434
+$9,763
+Up 68%
+$16,434
+$9,763
+Up 68%
+Gross profit ($M)
+$7,929
+$4,347
+Up 82%
+$7,934
+$4,353
+Up 82%
+Gross margin %
+48%
+45%
+Up 370 bps
+48%
+45%
+Up 370bps
+Operating expenses ($M)
+$4,293
+$2,978
+Up 44%
+$3,877
+$2,696
+Up 44%
+Operating income ($M)
+$3,648
+$1,369
+Up 166%
+$4,069
+$1,657
+Up 146%
+Operating margin %
+22%
+14%
+Up 8pp
+25%
+17%
+Up 8pp
+Tax valuation allowance release benefit ($M)
+(1)
+-
+$1,301
+-
+-
+-
+-
+Net income ($M)
+$3,162
+$2,490
+Up 27%
+$3,435
+$1,575
+Up 118%
+Earnings per share
+(1)
+$2.57
+$2.06
+Up 25%
+$2.79
+$1.29
+Up 117%
+(1) The fourth quarter of 2020 included an income tax benefit of $1.3 billion associated with a valuation allowance release which contributed $1.06 per share to EPS for Q4 2020 and $1.07 per share to EPS for FY 2020 on a GAAP basis
+.
+“2021 was an outstanding year for AMD with record annual revenue and profitability,” said AMD President and CEO Dr. Lisa Su. “Each of our businesses performed extremely well, with data center revenue doubling year-over-year driven by growing adoption of AMD EPYC processors across cloud and enterprise customers. We expect another year of significant growth in 2022 as we ramp our current portfolio and launch our next generation of PC, gaming and data center products.”
+Q4 2021 Results
+•
+Revenue of $4.8 billion was up 49 percent year-over-year and 12 percent quarter-over-quarter driven by higher revenue in the Computing and Graphics and Enterprise, Embedded and Semi-Custom segments.
+•
+Gross margin was 50 percent, an increase of more than 5 percentage points year-over-year and approximately 2 percentage points quarter-over-quarter. The year-over-year and quarter-over-quarter increases were primarily driven by a richer product mix.
+2
+•
+Operating income was $1.2 billion compared to $570 million a year ago and $948 million in the prior quarter. Non-GAAP operating income was $1.3 billion compared to $663 million a year ago and $1.1 billion in the prior quarter. Operating income improvements were primarily driven by higher revenue and gross margin expansion.
+•
+Net income was $974 million compared to $1.8 billion a year ago, which included a $1.3 billion income tax benefit associated with a valuation allowance release, and $923 million in the prior quarter. Non-GAAP net income was $1.1 billion compared to $636 million a year ago and $893 million in the prior quarter.
+•
+Diluted earnings per share was $0.80 compared to $1.45 a year ago, which included a $1.06 per share income tax benefit, and $0.75 in the prior quarter. Non-GAAP diluted earnings per share was $0.92 compared to $0.52 a year ago and $0.73 in the prior quarter.
+•
+Cash
+,
+cash equivalents and short-term investments were $3.6 billion at the end of the quarter. The company repurchased $756 million of common stock during the quarter.
+•
+Cash from operations was $822 million in the quarter compared to $554 million a year ago and $849 million in the prior quarter. Free cash flow was $736 million in the quarter compared to $480 million a year ago and $764 million in the prior quarter. Fourth quarter cash from operations and free cash flow included strategic investments in long-term supply chain capacity to support future revenue growth.
+Quarterly Financial Segment Summary
+•
+Computing and Graphics segment revenue was $2.6 billion, up 32 percent year-over-year and up 8 percent quarter-over-quarter. The year-over-year and quarter-over-quarter increases were driven by Ryzen™ and Radeon™ processor sales.
+•
+Client processor average selling price (ASP) increased year-over-year and quarter-over-quarter due to a richer mix of Ryzen processor sales.
+•
+GPU ASP increased year-over-year primarily driven by Radeon product sales and decreased quarter-over-quarter due to product mix.
+•
+Operating income was $566 million compared to $420 million a year ago and $513 million in the prior quarter. Operating income improvements were primarily driven by higher revenue, partially offset by higher operating expenses.
+•
+Enterprise, Embedded and Semi-Custom segment revenue was $2.2 billion, up 75 percent year-over-year and 17 percent quarter-over-quarter driven by higher EPYC™ and semi-custom processor sales.
+3
+•
+Operating income was $762 million compared to $243 million a year ago and $542 million in the prior quarter. Operating income improvements were primarily driven by higher revenue and richer product mix, partially offset by higher operating expenses.
+•
+All Other operating loss was $121 million as compared to operating losses of $93 million a year ago and $107 million in the prior quarter.
+2021 Annual Results
+•
+Revenue of $16.4 billion was up 68 percent over 2020 driven by higher revenue in the Computing and Graphics and Enterprise, Embedded and Semi-Custom segments.
+•
+Gross margin was 48 percent, an increase of more than 3 percentage points over 2020. Gross margin expansion was driven by a richer mix of EPYC, Radeon and Ryzen processor sales.
+•
+Operating income was $3.6 billion compared to $1.4 billion in the prior year. Non-GAAP operating income was $4.1 billion compared to $1.7 billion in the prior year. The operating income improvement was primarily driven by higher revenue and gross margin expansion.
+•
+Net income was $3.2 billion compared to $2.5 billion in the prior year, which included a $1.3 billion income tax benefit recorded in the fourth quarter of 2020. Non-GAAP net income was $3.4 billion compared to $1.6 billion in the prior year.
+•
+Diluted earnings per share was $2.57 compared to $2.06 in the prior year (which included a $1.07 per share income tax benefit). Non-GAAP diluted earnings per share was $2.79 compared to $1.29 in the prior year
+.
+•
+Cash
+,
+cash equivalents and short-term investments were $3.6 billion at the end of the year. The company repurchased $1.8 billion of common stock during 2021.
+•
+Cash from operations was $3.5 billion compared to $1.1 billion in the prior year. Free cash flow was $3.2 billion compared to $777 million in the prior year. Annual cash from operations and free cash flow in 2021 included strategic investments in long-term supply chain capacity to support future revenue growth.
+Recent PR Highlights
+•
+AMD
+announced
+it received approval from the State Administration for Market Regulation (SAMR) of the People’s Republic of China for the acquisition of Xilinx. AMD anticipates that the acquisition will close in the first quarter of 2022.
+4
+•
+AMD continues to drive strong momentum in the data center with growing adoption of powerful AMD EPYC processors, AMD Instinct™ accelerators and data center solutions with new customers and expanded cloud offerings.
+•
+Leading cloud providers expanded their AMD-powered offerings with more than 130 new public instances launching in the quarter including: Amazon Web Services, Inc. (AWS) introduced the new
+Amazon EC2 Hpc6a instances
+that make high performance computing more accessible for customers with compute-intensive workloads and the new
+general-purpose Amazon EC2 M6a instances
+;
+Google Cloud
+launched multiple general purpose and compute- and memory-intensive instances;
+IBM Cloud
+launched new bare metal service offerings for demanding workloads and solutions; and
+Microsoft Azure
+announced the latest generation of Dasv5 and Easv5 Azure Virtual Machines (VMs) and new confidential VMs, DCasv5 and ECasv5.
+•
+AMD and Meta worked together to define an open, cloud-scale, single-socket server based on AMD EYPC CPUs for Meta’s newest “North Dome” systems with leadership performance-per-watt across major workloads.
+•
+AMD
+announced
+the new AMD Instinct MI200 series accelerators, the fastest accelerators for HPC and AI applications. The MI200 series accelerators are powering Oak Ridge National Laboratory’s Frontier supercomputer, the first Exascale supercomputer in the United States.
+•
+In the
+latest Top500 list,
+AMD now powers 73 supercomputers, a more than 3x increase compared to the November 2020 list. AMD also powers four out of the top 10 most powerful supercomputers in the world, as well as the most powerful supercomputer in EMEA.
+•
+NVIDIA is adopting
+Ryzen™ Threadripper™ PRO processors
+to help power next-generation cloud gaming experiences.
+•
+AMD
+announced
+the AMD Radeon PRO V620 GPU, delivering powerful data center visual performance for 3D workloads, modern office productivity applications and cloud gaming, including Tencent’s
+upcoming
+cloud gaming service.
+•
+At its
+2022 Product Premiere event
+, AMD announced the
+AMD Ryzen 6000 Series processors
+, built on the highly efficient 6nm “Zen 3+” core architecture, and including AMD RDNA™ 2 architecture-based integrated graphics to provide the fastest Ryzen mobile processor experience ever. AMD expects first system availability starting in February.
+•
+AMD
+announced
+new updates to its graphics processor lineup and software portfolio, including new AMD Radeon RX 6000M Series and AMD Radeon RX 6000S Series mobile graphics for premium and thin-and-light gaming laptops, three new AMD Radeon RX 6000 Series desktop graphics cards
+5
+for 1080p gaming, and AMD Radeon Super Resolution, a new driver-based spatial upscaling technology available in the upcoming update to the AMD Software: Adrenalin Edition application.
+•
+AMD delivered a first look at its next wave of leadership data center and desktop PC processors which will set the pace of industry innovation.
+•
+AMD
+provided a preview
+of 3
+rd
+Gen AMD EPYC processors with AMD 3D V-Cache™, the “Zen 4” processor core powering the next generation of EPYC processors, codenamed “Genoa,” and the new “Zen 4c” processor core, which is designed for cloud native workloads and will power the EPYC processor codenamed “Bergamo.”
+•
+AMD also
+announced
+the first AMD Ryzen processors with AMD 3D V-Cache technology to power incredible gaming experiences and previewed its
+Ryzen 7000 Series processors
+, which will be based on the 5nm “Zen 4” architecture and are expected to be available in the second half of 2022.
+•
+AMD was recognized on
+Newsweek’s America’s Most Responsible Companies 2022 list
+for environmental, social and corporate governance efforts.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2022, AMD expects revenue to be approximately $5.0 billion, plus or minus $100 million, an increase of approximately 45 percent year-over-year and approximately 4 percent quarter-over-quarter. The year-over-year increase is expected to be driven by growth across all businesses. The quarter-over-quarter increase is expected to be driven by higher server and client processor revenue. AMD expects non-GAAP gross margin to be approximately 50.5 percent in the first quarter of 2022.
+For the full year 2022, AMD expects revenue to be approximately $21.5 billion, an increase of approximately 31 percent over 2021 driven by growth across all businesses. AMD expects non-GAAP gross margin to be approximately 51 percent for 2022.
+AMD Teleconference
+6
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its fourth quarter and full year 2021 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+7
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 25,
+2021
+September 25,
+2021
+December 26,
+2020
+December 25,
+2021
+December 26,
+2020
+GAAP gross profit
+$
+2,426
+$
+2,086
+$
+1,451
+$
+7,929
+$
+4,347
+GAAP gross margin %
+50
+%
+48
+%
+45
+%
+48
+%
+45
+%
+Stock-based compensation
+1
+1
+1
+5
+6
+Non-GAAP gross profit
+$
+2,427
+$
+2,087
+$
+1,452
+$
+7,934
+$
+4,353
+Non-GAAP gross margin %
+50
+%
+48
+%
+45
+%
+48
+%
+45
+%
+GAAP operating expenses
+$
+1,223
+$
+1,141
+$
+881
+$
+4,293
+$
+2,978
+GAAP operating expenses/revenue %
+25
+%
+26
+%
+27
+%
+26
+%
+31
+%
+Stock-based compensation
+111
+98
+78
+374
+268
+Acquisition-related costs
+9
+8
+14
+42
+14
+Non-GAAP operating expenses
+$
+1,103
+$
+1,035
+$
+789
+$
+3,877
+$
+2,696
+Non-GAAP operating expenses/revenue%
+23
+%
+24
+%
+24
+%
+24
+%
+28
+%
+GAAP operating income
+$
+1,207
+$
+948
+$
+570
+$
+3,648
+$
+1,369
+GAAP operating margin %
+25
+%
+22
+%
+18
+%
+22
+%
+14
+%
+Stock-based compensation
+112
+99
+79
+379
+274
+Acquisition-related costs
+9
+8
+14
+42
+14
+Non-GAAP operating income
+$
+1,328
+$
+1,055
+$
+663
+$
+4,069
+$
+1,657
+Non-GAAP operating margin %
+27
+%
+24
+%
+20
+%
+25
+%
+17
+%
+Three Months Ended
+Year Ended
+December 25,
+2021
+September 25,
+2021
+December 26,
+2020
+December 25,
+2021
+December 26,
+2020
+GAAP net income / earnings per share
+$
+974
+$0.80
+$
+923
+$0.75
+$
+1,781
+$1.45
+$
+3,162
+$2.57
+$
+2,490
+$2.06
+Loss on debt redemption/conversion
+—
+—
+—
+—
+16
+0.01
+7
+—
+54
+0.04
+(Gains) losses on equity investments, net
+(4)
+—
+(60)
+(0.05)
+—
+—
+(56)
+(0.04)
+—
+—
+Non-cash interest expense related to convertible debt
+—
+—
+—
+—
+—
+—
+—
+—
+6
+—
+Stock-based compensation
+112
+0.09
+99
+0.08
+79
+0.06
+379
+0.31
+274
+0.22
+Equity income in investee
+—
+—
+(2)
+—
+(3)
+—
+(6)
+—
+(5)
+—
+Acquisition-related costs
+9
+—
+8
+0.01
+14
+0.01
+42
+0.03
+14
+0.01
+Release of valuation allowance on deferred tax assets
+—
+—
+—
+—
+(1,301)
+(1.06)
+—
+—
+(1,301)
+(1.07)
+Income tax provision
+31
+0.03
+(75)
+(0.06)
+50
+0.05
+(93)
+(0.08)
+43
+0.03
+Non-GAAP net income / earnings per share
+$
+1,122
+$0.92
+$
+893
+$0.73
+$
+636
+$0.52
+$
+3,435
+$2.79
+$
+1,575
+$1.29
+Shares used and net income adjustment in earnings per share calculation
+(1)
+Shares used in per share calculation (GAAP)
+1,222
+1,230
+1,226
+1,229
+1,207
+Interest expense add-back to GAAP net income
+$
+—
+$
+—
+$
+—
+$
+—
+$
+1
+Shares used in per share calculation (Non-GAAP)
+1,222
+1,230
+1,232
+1,229
+1,228
+Interest expense add-back to Non-GAAP net income
+$
+—
+$
+—
+$
+—
+$
+—
+$
+4
+8
+(1)
+For the three months ended December 26, 2020, GAAP diluted EPS calculations include 3 million shares related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $0 million interest expense add-back to net income under the "if converted" method.
+For the year ended December 26, 2020, GAAP diluted EPS calculations include 3 million shares related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $1 million interest expense add-back to net income under the "if converted" method.
+For the three months ended December 26, 2020, Non-GAAP diluted EPS calculations include 9 million shares related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $0 million add-back to net income under the "if converted" method.
+For the year ended December 26, 2020. Non-GAAP diluted EPS calculations include 24 million shares related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $4 million interest expense add-back to net income under the "if converted" method.

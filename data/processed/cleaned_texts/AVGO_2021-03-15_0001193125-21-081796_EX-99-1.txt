@@ -1,1 +1,363 @@
-EX-99.1 Exhibit 99.1 Broadcom Inc. Announces Private Exchange Offers of Certain Outstanding Notes for New Notes SAN JOSE, Calif. – March 15, 2021 – Broadcom Inc. (Nasdaq: AVGO ) (“Broadcom” or the “Company”) announced today the commencement of offers to all eligible holders (together, the “Exchange Offers”) of the Company’s or its subsidiaries’ Pool 1 Existing Notes and Pool 2 Existing Notes listed in the tables below (collectively, the “Existing Notes”) to exchange Pool 1 Existing Notes for consideration consisting of a combination of up to $2,000,000,000 aggregate principal amount of the Company’s new notes due 2033 (the “New 2033 Notes”) and a cash payment and to exchange Pool 2 Existing Notes for consideration consisting of a combination of up to $3,000,000,000 aggregate principal amount of the Company’s new notes due 2034 (the “New 2034 Notes” and, together with the New 2033 Notes, the “New Notes”) and a cash payment, the complete terms and conditions of which are set forth in an offering memorandum, dated today (the “Offering Memorandum”). Capitalized terms not defined herein shall have the meanings ascribed to them in the Offering Memorandum. Pool 1 Offers CUSIP Numbers Title of Security (collectively, the “Pool 1 Existing Notes”) Principal Amount Outstanding Acceptance Priority Level (1) Reference U.S. Treasury Security Bloomberg Reference Page Fixed Spread (bps) (2) % of Premium in Cash (3) 11134L AP4 (Exch) 3.125% Senior Notes due 1/15/2025, issued by Broadcom Corporation $1,000,000,000 1 2.250% due November 15, 2024 FIT5 40 100% 11135F BC4 (Exch) 4.700% Senior Notes due 4/15/2025, issued by the Company $2,250,000,000 2 1.125% due February 28, 2025 FIT5 50 100% 11135F AT8 (144A) U1109M AM8 (Reg S) 11135F BB6 (Exch) 3.150% Senior Notes due 11/15/2025, issued by the Company $2,250,000,000 3 0.250% due September 30, 2025 FIT6 50 100% (1) The Pool 1 Existing Notes will be accepted in accordance with the acceptance priority levels set forth in this table. All Pool 1 Existing Notes tendered for exchange in the Pool 1 Offers at or prior to the Early Participation Date will have priority over any Pool 1 Existing Notes that are tendered for exchange after the Early Participation Date. (2) Eligible Holders who validly tender Pool 1 Existing Notes at or prior to the Early Participation Date will be eligible to receive the “Early Participant Payment” of $50 (payable solely in New 2033 Notes) for each $1,000 principal amount of Pool 1 Existing Notes validly tendered and not validly withdrawn. (3) Represents the portion of the Total Consideration in excess of $1,000 for each $1,000 principal amount of Existing Notes that will be payable in cash (excluding the “Early Participant Payment,” which, if applicable, will be paid solely in the applicable series of New Notes). Pool 2 Offers CUSIP Numbers Title of Security (collectively, the “Pool 2 Existing Notes”) Principal Amount Outstanding Acceptance Priority Level (1) Reference U.S. Treasury Security Bloomberg Reference Page Fixed Spread (bps) (2) % of Premium in Cash (3) 11134L AE9 (144A) U1108L AC3 (Reg S) 11134L AF6 3.625% Senior Notes, due 1/15/2024, issued by Broadcom Corporation $1,352,128,000 1 0.250% due November 15, 2023 FIT5 25 100% 11135 AD3 (144A) U1109M AD8 (Reg S) 11135F AY7 (Exch) 3.625% Senior Notes, due 10/15/2024, issued by the Company $1,044,409,000 2 1.250% due August 31, 2024 FIT5 25 100% CUSIP Numbers Title of Security (collectively, the “Pool 2 Existing Notes”) Principal Amount Outstanding Acceptance Priority Level (1) Reference U.S. Treasury Security Bloomberg Reference Page Fixed Spread (bps) (2) % of Premium in Cash (3) 11135F AE1 (144A) U1109M AE6 (Reg S) 11135F AZ4 (Exch) 4.250% Senior Notes, due 4/15/2026, issued by the Company $2,500,000,000 3 0.500% due February 28, 2026 FIT1 85 100% 11134L AG4 (144A) U1108L AD1 (Reg S) 11134L AH2 (Exch) 3.875% Senior Notes, due 1/15/2027, issued by Broadcom Corporation $4,800,000,000 4 0.500% due February 28, 2026 FIT1 115 100% 12673P AJ4 (144A) 4.700% Senior Notes, due 3/15/2027, issued by CA, Inc. $350,000,000 5 0.500% due February 28, 2026 FIT1 125 100% 11135F AM3 (144A) U1109M AJ5 (Reg S) 11135F AN1 (Exch) 3.459% Senior Notes, due 9/15/2026, issued by the Company $1,695,320,000 6 0.500% due February 28, 2026 FIT1 100 100% (1) The Pool 2 Existing Notes will be accepted in accordance with the acceptance priority levels set forth in this table. All Pool 2 Existing Notes tendered for exchange in the Pool 2 Offers at or prior to the Early Participation Date will have priority over any Pool 2 Existing Notes that are tendered for exchange after the Early Participation Date. (2) Eligible Holders who validly tender Pool 2 Existing Notes at or prior to the Early Participation Date will be eligible to receive the “Early Participant Payment” of $50 (payable solely in New 2034 Notes) for each $1,000 principal amount of Pool 2 Existing Notes validly tendered and not validly withdrawn. (3) Represents the portion of the Total Consideration in excess of $1,000 for each $1,000 principal amount of Existing Notes that will be payable in cash (excluding the “Early Participant Payment,” which, if applicable, will be paid solely in the applicable series of New Notes). Set forth below is a table summarizing certain material terms of the New Notes to be issued in the Exchange Offers: Title of Series Maturity Date Aggregate Principal Amount of Existing Notes To Be Accepted for Exchange Reference Security Spread to Reference Security (bps) New 2033 Notes April 15, 2033 An amount of Pool 1 Existing Notes such that the aggregate principal amount of New 2033 Notes issued does not exceed $2,000,000,000 1.125% due February 15, 2031 173 New 2034 Notes April 15, 2034 An amount of Pool 2 Existing Notes such that the aggregate principal amount of New 2034 Notes issued does not exceed $3,000,000,000 1.125% due February 15, 2031 178 The aggregate principal amount of New 2033 Notes to be issued pursuant to the Exchange Offers will be subject to a maximum amount of $2,000,000,000 aggregate principal amount, and the aggregate principal amount of New 2034 Notes to be issued pursuant to the Exchange Offers will be subject to a maximum amount of $3,000,000,000 aggregate principal amount. The following is a summary of certain key terms of the Exchange Offers: • The Exchange Offers will expire at 12:00 midnight, New York City time, at the end of April 9, 2021, unless extended by the Company (the “Expiration Date”). • Eligible Holders who validly tender and do not validly withdraw their Existing Notes at or prior to the Early Participation Date will receive: (a) New Notes of the applicable series in a principal amount equal to (i) the Total Consideration (as defined below) applicable to such Existing Notes minus (ii) the Cash Component (as defined below), and (b) a cash payment equal to the Cash Component, for each $1,000 principal amount of such Existing Notes tendered and accepted for exchange by the Company. • Eligible Holders who validly tender and do not validly withdraw their Existing Notes after the Early Participation Date will receive: (a) New Notes of the applicable series in a principal amount equal to (i) the Exchange Consideration (as defined below) applicable to such Existing Notes minus (ii) the Cash Component, and (b) a cash payment equal to the Cash Component, for each $1,000 principal amount of such Existing Notes tendered and accepted for exchange by the Company. • “Total Consideration” means, as calculated in accordance with the formula set forth in Annex A to the Offering Memorandum, the discounted value of the remaining payments of principal and interest through the maturity date or par call date, as applicable, of the applicable series of Existing Notes (excluding accrued and unpaid interest to, but not including, the applicable Settlement Date), using a yield equal to the sum of (a) the bid-side yield on the applicable Reference UST Security (as set forth in the tables above with respect to such series of Existing Notes) as calculated by the Dealer Managers (as defined below) in accordance with standard market practice, as of 11:00 a.m. New York City time on March 29, 2021 (such date and time, the “Pricing Time”), as displayed on the Bloomberg Government Pricing Monitor Pages listed in the tables set forth on the cover page of the Offering Memorandum with respect to such series of Existing Notes (or any recognized quotation source selected by the Dealer Managers in their sole discretion if such page is not available or is manifestly erroneous) and (b) the Fixed Spread as set forth in the tables above with respect to such series of Existing Notes. For the avoidance of doubt, the Total Consideration includes the Early Participant Payment, as defined below. • “Exchange Consideration” means the Total Consideration minus the Early Participant Payment. • “Cash Component” means the portion of the Total Consideration or the Exchange Consideration, as applicable, to be paid to holders in cash, and is equal to the applicable Total Consideration for the relevant series of Existing Notes minus $1,000. For the avoidance of doubt, the Cash Component payable with respect to each series of Existing Notes validly tendered at or prior to the Early Participation Date, and accepted by us for exchange, will be equivalent to the Cash Component payable with respect to such series of Existing Notes validly tendered after the Early Participation Date and at or prior to the Expiration Date, and accepted by us for exchange. • “Early Participant Payment” means $50 (payable in applicable New Notes) for each $1,000 principal amount of each series of Existing Notes tendered and not validly withdrawn at or prior to the Early Participation Date. • The Company will pay interest on the New 2033 Notes at a rate per annum equal to (a) the yield, calculated in accordance with standard market practice, that corresponds to the bid-side price of the 1.125% United States Treasury due February 15, 2031 as of the Pricing Time as displayed on the Bloomberg Government Pricing Monitor page FIT1 (or any recognized quotation source selected by us in our sole discretion if such quotation report is not available or is manifestly erroneous), plus (b) a fixed spread of 173 basis points. • The Company will pay interest on the New 2034 Notes at a rate per annum equal to (a) the yield, calculated in accordance with standard market practice, that corresponds to the bid-side price of the 1.125% United States Treasury due February 15, 2031 as of the Pricing Time as displayed on the Bloomberg Government Pricing Monitor page FIT1 (or any recognized quotation source selected by us in our sole discretion if such quotation report is not available or is manifestly erroneous), plus (b) a fixed spread of 178 basis points. • Assuming the Company elects to have an early settlement, settlement for Existing Notes tendered at or prior to the Early Participation Date and accepted by the Company is expected to be March 31, 2021, unless extended by the Company (the “Early Settlement Date”). Settlement for Existing Notes tendered and accepted after the Early Participation Date is expected to be April 13, 2021, unless extended by the Company (the “Final Settlement Date”). • Eligible holders who validly tender and who do not validly withdraw their Existing Notes at or prior to 5:00 p.m., New York City time, on March 26, 2021, unless extended by the Company (the “Early Participation Date”), and whose tenders are accepted for exchange by the Company, will receive the Total Consideration for each $1,000 principal amount of Existing Notes. • All Eligible Holders whose Existing Notes are accepted in an Exchange Offer will receive a cash payment equal to accrued and unpaid interest on such Existing Notes to, but not including, the applicable Settlement Date in addition to their Total Consideration. • Tenders of Existing Notes in the Exchange Offers may be validly withdrawn at any time at or prior to 5:00 p.m., New York City time, on March 26, 2021, unless extended by the Company (the “Withdrawal Deadline”), but will thereafter be irrevocable, except in certain limited circumstances where additional withdrawal rights are required by law. • Consummation of the Exchange Offers is subject to a number of conditions, including, among other things, the issuance of at least $500,000,000 aggregate principal amount of each series of New Notes and the Company’s determination that New Notes issued on the Final Settlement Date, if any, will be treated as part of the same issue as the relevant New Notes, if any, issued on the Early Settlement Date for U.S. federal income tax purposes. • The Company will not receive any cash proceeds from the Exchange Offers. If and when issued, the New Notes will not have been registered under the Securities Act of 1933, as amended (the “Securities Act”), or any state securities laws. The New Notes may not be offered or sold in the United States or to any U.S. persons except pursuant to an exemption from, or in a transaction not subject to, the registration requirements of the Securities Act and applicable state securities laws. The Company will enter into a registration rights agreement with respect to the New Notes. The New Notes will be unsecured obligations of the Company and will rank pari passu with all other unsecured and unsubordinated indebtedness of the Company. The Exchange Offers are only made, and copies of the documents relating to the Exchange Offers will only be made available, to a holder of Existing Notes who has certified in an eligibility certification certain matters to the Company, including its status as a “qualified institutional buyer” as defined in Rule 144A under the Securities Act or who is a person other than a “U.S. person” as defined in Rule 902 under the Securities Act. Holders of Existing Notes who desire access to the electronic eligibility form should contact D.F. King & Co., Inc., the information agent (the “Information Agent”) for the Exchange Offers, at (866) 416-0577 (U.S. Toll-free) or (212) 269-5550 (Collect). Holders that wish to receive the Offering Documents can certify eligibility on the eligibility website at: http://www.dfking.com/broadcom . In connection with the Exchange Offers, BofA Securities, Inc. and HSBC Securities (USA) Inc. are acting as dealer managers (collectively, the “Dealer Managers”). This news release does not constitute an offer or an invitation by the Company to participate in the Exchange Offers in any jurisdiction in which it is unlawful to make such an offer or solicitation in such jurisdiction. None of Broadcom, the Information Agent or the Dealer Managers makes any recommendation as to whether any eligible holders should participate in the applicable Exchange Offer, and no one has been authorized by any of them to make such a recommendation. Eligible holders must make their own decisions as to whether to exchange their Existing Notes, and if so, the principal amount of such Existing Notes to be exchanged. About Broadcom Inc. Broadcom Inc., a Delaware corporation headquartered in San Jose, CA, is a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions. Broadcom’s category-leading product portfolio serves critical markets including data center, networking, enterprise software, broadband, wireless, storage and industrial. Our solutions include data center networking and storage, enterprise, mainframe and cyber security software focused on automation, monitoring and security, smartphone components, telecoms and factory automation. Cautionary Note Regarding
+EX-99.1
+Exhibit 99.1
+Broadcom Inc. Announces Private Exchange Offers
+of Certain Outstanding Notes for New Notes
+SAN JOSE, Calif. 
+March 15, 2021
+
+Broadcom Inc. (Nasdaq:
+AVGO
+) (Broadcom or the Company)
+announced today the commencement of offers to all eligible holders (together, the Exchange Offers) of the Companys or its subsidiaries Pool 1 Existing Notes and Pool 2 Existing Notes listed in the tables below (collectively,
+the Existing Notes) to exchange Pool 1 Existing Notes for consideration consisting of a combination of up to $2,000,000,000 aggregate principal amount of the Companys new notes due 2033 (the New 2033 Notes) and a cash
+payment and to exchange Pool 2 Existing Notes for consideration consisting of a combination of up to $3,000,000,000 aggregate principal amount of the Companys new notes due 2034 (the New 2034 Notes and, together with the New 2033
+Notes, the New Notes) and a cash payment, the complete terms and conditions of which are set forth in an offering memorandum, dated today (the Offering Memorandum). Capitalized terms not defined herein shall have the meanings
+ascribed to them in the Offering Memorandum.
+Pool 1 Offers
+CUSIP
+Numbers
+Title of
+Security
+(collectively, the Pool
+1 Existing Notes)
+Principal
+Amount
+Outstanding
+Acceptance
+Priority
+Level
+(1)
+Reference
+U.S.
+Treasury
+Security
+Bloomberg
+Reference
+Page
+Fixed
+Spread
+(bps)
+(2)
+% of
+Premium
+in Cash
+(3)
+11134L AP4 (Exch)
+3.125% Senior
+Notes due
+1/15/2025, issued
+by Broadcom
+Corporation
+$1,000,000,000
+1
+2.250% due
+November 15,
+2024
+FIT5
+40
+100%
+11135F BC4 (Exch)
+4.700% Senior
+Notes due
+4/15/2025, issued
+by the Company
+$2,250,000,000
+2
+1.125% due
+February 28,
+2025
+FIT5
+50
+100%
+11135F AT8 (144A)
+U1109M AM8 (Reg S)
+11135F BB6 (Exch)
+3.150% Senior
+Notes due
+11/15/2025, issued
+by the Company
+$2,250,000,000
+3
+0.250% due
+September 30,
+2025
+FIT6
+50
+100%
+(1)
+The Pool 1 Existing Notes will be accepted in accordance with the acceptance priority levels set forth in this
+table. All Pool 1 Existing Notes tendered for exchange in the Pool 1 Offers at or prior to the Early Participation Date will have priority over any Pool 1 Existing Notes that are tendered for exchange after the Early Participation Date.
+(2)
+Eligible Holders who validly tender Pool 1 Existing Notes at or prior to the Early Participation Date will be
+eligible to receive the Early Participant Payment of $50 (payable solely in New 2033 Notes) for each $1,000 principal amount of Pool 1 Existing Notes validly tendered and not validly withdrawn.
+(3)
+Represents the portion of the Total Consideration in excess of $1,000 for each $1,000 principal amount of
+Existing Notes that will be payable in cash (excluding the Early Participant Payment, which, if applicable, will be paid solely in the applicable series of New Notes).
+Pool 2 Offers
+CUSIP
+Numbers
+Title of
+Security
+(collectively, the Pool
+2 Existing Notes)
+Principal
+Amount
+Outstanding
+Acceptance
+Priority
+Level
+(1)
+Reference
+U.S.
+Treasury
+Security
+Bloomberg
+Reference
+Page
+Fixed
+Spread
+(bps)
+(2)
+% of
+Premium
+in Cash
+(3)
+11134L AE9 (144A)
+U1108L AC3 (Reg S)
+11134L AF6
+3.625% Senior
+Notes, due
+1/15/2024, issued
+by Broadcom
+Corporation
+$1,352,128,000
+1
+0.250% due
+November 15,
+2023
+FIT5
+25
+100%
+11135 AD3 (144A)
+U1109M AD8 (Reg S)
+11135F AY7 (Exch)
+3.625% Senior
+Notes, due
+10/15/2024, issued
+by the Company
+$1,044,409,000
+2
+1.250% due
+August 31,
+2024
+FIT5
+25
+100%
+CUSIP
+Numbers
+Title of
+Security
+(collectively, the Pool
+2 Existing Notes)
+Principal
+Amount
+Outstanding
+Acceptance
+Priority
+Level
+(1)
+Reference
+U.S.
+Treasury
+Security
+Bloomberg
+Reference
+Page
+Fixed
+Spread
+(bps)
+(2)
+% of
+Premium
+in Cash
+(3)
+11135F AE1 (144A)
+U1109M AE6 (Reg S)
+11135F AZ4 (Exch)
+4.250% Senior
+Notes, due
+4/15/2026, issued
+by the Company
+$2,500,000,000
+3
+0.500% due
+February 28,
+2026
+FIT1
+85
+100%
+11134L AG4 (144A)
+U1108L AD1 (Reg S)
+11134L AH2 (Exch)
+3.875% Senior
+Notes, due
+1/15/2027, issued
+by Broadcom
+Corporation
+$4,800,000,000
+4
+0.500% due
+February 28,
+2026
+FIT1
+115
+100%
+12673P AJ4 (144A)
+4.700% Senior
+Notes, due
+3/15/2027, issued
+by CA, Inc.
+$350,000,000
+5
+0.500% due
+February 28,
+2026
+FIT1
+125
+100%
+11135F AM3 (144A)
+U1109M AJ5 (Reg S)
+11135F AN1 (Exch)
+3.459% Senior
+Notes, due
+9/15/2026, issued
+by the Company
+$1,695,320,000
+6
+0.500% due
+February 28,
+2026
+FIT1
+100
+100%
+(1)
+The Pool 2 Existing Notes will be accepted in accordance with the acceptance priority levels set forth in this
+table. All Pool 2 Existing Notes tendered for exchange in the Pool 2 Offers at or prior to the Early Participation Date will have priority over any Pool 2 Existing Notes that are tendered for exchange after the Early Participation Date.
+(2)
+Eligible Holders who validly tender Pool 2 Existing Notes at or prior to the Early Participation Date will be
+eligible to receive the Early Participant Payment of $50 (payable solely in New 2034 Notes) for each $1,000 principal amount of Pool 2 Existing Notes validly tendered and not validly withdrawn.
+(3)
+Represents the portion of the Total Consideration in excess of $1,000 for each $1,000 principal amount of
+Existing Notes that will be payable in cash (excluding the Early Participant Payment, which, if applicable, will be paid solely in the applicable series of New Notes).
+Set forth below is a table summarizing certain material terms of the New Notes to be issued in the Exchange Offers:
+Title of Series
+Maturity Date
+Aggregate Principal
+Amount of Existing Notes
+To Be Accepted for
+Exchange
+Reference
+Security
+Spread to
+Reference
+Security (bps)
+New 2033 Notes
+April 15, 2033
+An amount of Pool 1 Existing Notes such that the aggregate principal amount of New 2033 Notes issued does not exceed $2,000,000,000
+1.125% due
+February 15,
+2031
+173
+New 2034 Notes
+April 15, 2034
+An amount of Pool 2 Existing Notes such that the aggregate principal amount of New 2034 Notes issued does not exceed $3,000,000,000
+1.125% due
+February 15,
+2031
+178
+The aggregate principal amount of New 2033 Notes to be issued pursuant to the Exchange Offers will be subject to a maximum
+amount of $2,000,000,000 aggregate principal amount, and the aggregate principal amount of New 2034 Notes to be issued pursuant to the Exchange Offers will be subject to a maximum amount of $3,000,000,000 aggregate principal amount.
+The following is a summary of certain key terms of the Exchange Offers:
+
+The Exchange Offers will expire at 12:00 midnight, New York City time, at the end of April 9, 2021, unless
+extended by the Company (the Expiration Date).
+
+Eligible Holders who validly tender and do not validly withdraw their Existing Notes at or prior to the Early
+Participation Date will receive: (a) New Notes of the applicable series in a principal amount equal to (i) the Total Consideration (as defined below) applicable to such Existing Notes minus (ii) the Cash Component (as defined below),
+and (b) a cash payment equal to the Cash Component, for each $1,000 principal amount of such Existing Notes tendered and accepted for exchange by the Company.
+
+Eligible Holders who validly tender and do not validly withdraw their Existing Notes after the Early
+Participation Date will receive: (a) New Notes of the applicable series in a principal amount equal to (i) the Exchange Consideration (as defined below) applicable to such Existing Notes minus (ii) the Cash Component, and (b) a
+cash payment equal to the Cash Component, for each $1,000 principal amount of such Existing Notes tendered and accepted for exchange by the Company.
+
+Total Consideration means, as calculated in accordance with the formula set forth in Annex A to the
+Offering Memorandum, the discounted value of the remaining payments of principal and interest through the maturity date or par call date, as applicable, of the applicable series of Existing Notes (excluding accrued and unpaid interest to, but not
+including, the applicable Settlement Date), using a yield equal to the sum of (a) the
+bid-side
+yield on the applicable Reference UST Security (as set forth in the tables above with respect to such series
+of Existing Notes) as calculated by the Dealer Managers (as defined below) in accordance with standard market practice, as of 11:00 a.m. New York City time on March 29, 2021 (such date and time, the Pricing Time), as displayed on
+the Bloomberg Government Pricing Monitor Pages listed in the tables set forth on the cover page of the Offering Memorandum with respect to such series of Existing Notes (or any recognized quotation source selected by the Dealer Managers in their
+sole discretion if such page is not available or is manifestly erroneous) and (b) the Fixed Spread as set forth in the tables above with respect to such series of Existing Notes. For the avoidance of doubt, the Total Consideration includes the
+Early Participant Payment, as defined below.
+
+Exchange Consideration means the Total Consideration minus the Early Participant Payment.
+
+Cash Component means the portion of the Total Consideration or the Exchange Consideration, as
+applicable, to be paid to holders in cash, and is equal to the applicable Total Consideration for the relevant series of Existing Notes minus $1,000. For the avoidance of doubt, the Cash Component payable with respect to each series of Existing
+Notes validly tendered at or prior to the Early Participation Date, and accepted by us for exchange, will be equivalent to the Cash Component payable with respect to such series of Existing Notes validly tendered after the Early Participation Date
+and at or prior to the Expiration Date, and accepted by us for exchange.
+
+Early Participant Payment means $50 (payable in applicable New Notes) for each $1,000 principal
+amount of each series of Existing Notes tendered and not validly withdrawn at or prior to the Early Participation Date.
+
+The Company will pay interest on the New 2033 Notes at a rate per annum equal to (a) the yield, calculated
+in accordance with standard market practice, that corresponds to the
+bid-side
+price of the 1.125% United States Treasury due February 15, 2031 as of the Pricing Time as displayed on the Bloomberg
+Government Pricing Monitor page FIT1 (or any recognized quotation source selected by us in our sole discretion if such quotation report is not available or is manifestly erroneous), plus (b) a fixed spread of 173 basis points.
+
+The Company will pay interest on the New 2034 Notes at a rate per annum equal to (a) the yield, calculated
+in accordance with standard market practice, that corresponds to the
+bid-side
+price of the 1.125% United States Treasury due February 15, 2031 as of the Pricing Time as displayed on the Bloomberg
+Government Pricing Monitor page FIT1 (or any recognized quotation source selected by us in our sole discretion if such quotation report is not available or is manifestly erroneous), plus (b) a fixed spread of 178 basis points.
+
+Assuming the Company elects to have an early settlement, settlement for Existing Notes tendered at or prior to
+the Early Participation Date and accepted by the Company is expected to be March 31, 2021, unless extended by the Company (the Early Settlement Date). Settlement for Existing Notes tendered and accepted after the Early Participation
+Date is expected to be April 13, 2021, unless extended by the Company (the Final Settlement Date).
+
+Eligible holders who validly tender and who do not validly withdraw their Existing Notes at or prior to 5:00
+p.m., New York City time, on March 26, 2021, unless extended by the Company (the Early Participation Date), and whose tenders are accepted for exchange by the Company, will receive the Total Consideration for each $1,000 principal
+amount of Existing Notes.
+
+All Eligible Holders whose Existing Notes are accepted in an Exchange Offer will receive a cash payment equal to
+accrued and unpaid interest on such Existing Notes to, but not including, the applicable Settlement Date in addition to their Total Consideration.
+
+Tenders of Existing Notes in the Exchange Offers may be validly withdrawn at any time at or prior to 5:00 p.m.,
+New York City time, on March 26, 2021, unless extended by the Company (the Withdrawal Deadline), but will thereafter be irrevocable, except in certain limited circumstances where additional withdrawal rights are required by law.
+
+Consummation of the Exchange Offers is subject to a number of conditions, including, among other things, the
+issuance of at least $500,000,000 aggregate principal amount of each series of New Notes and the Companys determination that New Notes issued on the Final Settlement Date, if any, will be treated as part of the same issue as the relevant New
+Notes, if any, issued on the Early Settlement Date for U.S. federal income tax purposes.
+
+The Company will not receive any cash proceeds from the Exchange Offers.
+If and when issued, the New Notes will not have been registered under the Securities Act of 1933, as amended (the Securities Act), or any state
+securities laws. The New Notes may not be offered or sold in the United States or to any U.S. persons except pursuant to an exemption from, or in a transaction not subject to, the registration requirements of the Securities Act and applicable state
+securities laws. The Company will enter into a registration rights agreement with respect to the New Notes. The New Notes will be unsecured obligations of the Company and will rank pari passu with all other unsecured and unsubordinated indebtedness
+of the Company.
+The Exchange Offers are only made, and copies of the documents relating to the Exchange Offers will only be made available, to a holder
+of Existing Notes who has certified in an eligibility certification certain matters to the Company, including its status as a qualified institutional buyer as defined in Rule 144A under the Securities Act or who is a person other than a
+U.S. person as defined in Rule 902 under the Securities Act. Holders of Existing Notes who desire access to the electronic eligibility form should contact D.F. King & Co., Inc., the information agent (the Information
+Agent) for the Exchange Offers, at (866)
+416-0577
+(U.S. Toll-free) or (212)
+269-5550
+(Collect). Holders that wish to receive the Offering Documents can certify
+eligibility on the eligibility website at:
+http://www.dfking.com/broadcom
+. In connection with the Exchange Offers, BofA Securities, Inc. and HSBC Securities (USA) Inc. are acting as dealer managers (collectively, the Dealer
+Managers).
+This news release does not constitute an offer or an invitation by the Company to participate in the Exchange Offers in any jurisdiction
+in which it is unlawful to make such an offer or solicitation in such jurisdiction. None of Broadcom, the Information Agent or the Dealer Managers makes any recommendation as to whether any eligible holders should participate in the applicable
+Exchange Offer, and no one has been authorized by any of them to make such a recommendation. Eligible holders must make their own decisions as to whether to exchange their Existing Notes, and if so, the principal amount of such Existing Notes to be
+exchanged.

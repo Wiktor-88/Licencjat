@@ -1,9 +1,5 @@
 # Drugi plik do trenowania - drzewo decyzjne
 
-import numpy as np
-import pandas as pd
-import logging
-
 import logging
 from pathlib import Path
 
@@ -14,10 +10,10 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier
 
-from model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
+from src.models.model_utils import (add_confusion_metrics, calculate_metrics, create_summary,
     log_repeated_events, prepare_model_dataset, select_sec_features, validate_target)
 
-from model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MIN_SEC_COUNT,
+from src.models.model_config import (CATEGORICAL_FEATURES, TABULAR_MARKET_FEATURES, MIN_SEC_COUNT,
     SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES, SENTIMENT_HISTORY_FLAG,
     TARGET, TEST_YEARS)
 
@@ -109,7 +105,8 @@ def evaluate_tree(model_name: str,
         "Importance": model.named_steps["classifier"].feature_importances_,
     })
 
-    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+    predictions = test_df[["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+        "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name
@@ -136,18 +133,18 @@ def evaluate_tree(model_name: str,
 
 
 def build_model_configs(selected_sec: list[str]) -> list[dict]:
-    return [{"name": "TREE A - COMPACT MARKET",
-            "numeric": MARKET_COMPACT_FEATURES,
+    return [{"name": "TREE A - MARKET",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": [],
             "sentiment": []},
 
-            {"name": "TREE B - COMPACT + SEC",
-            "numeric": MARKET_COMPACT_FEATURES,
+            {"name": "TREE B - MARKET + SEC",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": selected_sec,
             "sentiment": []},
 
-            {"name": "TREE C - COMPACT + SEC + FINBERT",
-            "numeric": MARKET_COMPACT_FEATURES,
+            {"name": "TREE C - MARKET + SEC + FINBERT",
+            "numeric": TABULAR_MARKET_FEATURES,
             "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
             "sentiment": SENTIMENT_FEATURES}]
 

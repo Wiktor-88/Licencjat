@@ -6,13 +6,6 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-
-import logging
-from pathlib import Path
-
-import numpy as np
-import pandas as pd
-
 from src.models.model_config import MARKET_COMPACT_FEATURES, TARGET
 from src.models.model_utils import log_repeated_events, prepare_model_dataset, validate_target
 
@@ -31,8 +24,8 @@ OUTPUT_INDEX = DATA_DIR / "sequence_dataset_index.csv"
 BENCHMARK_TICKER = "QQQ"
 SEQ_LEN = 30
 
-# Cechy są zgodne z compact market używanym w innych modelach
-# RSI jest tylko przeskalowane do zakresu [-1, 1]
+# Sieci korzystają z osobnego, zwartego zestawu sekwencyjnego.
+# RSI jest tylko przeskalowane do zakresu [-1, 1].
 STOCK_FEATURES = [ "RSI_14_Scaled" if feature == "RSI_14" else feature
                     for feature in MARKET_COMPACT_FEATURES
                     if not feature.startswith("QQQ_")]
@@ -114,6 +107,7 @@ def build_sequence_dataset(model: pd.DataFrame, market: pd.DataFrame) -> tuple[n
                               "Use_In_Primary_Model",
                               "Sentiment_History_Count_3",
                               "Abnormal_Event_Return_1D",
+                              "Tradable_Abnormal_Return_1D",
                               TARGET]
 
     validate_columns(model, required_model_columns, MODEL_FILE.name)

@@ -1,1 +1,413 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports First Quarter 2021 Financial Results
+― Revenue grew 93 percent while net income and EPS tripled year-over-year —
+SANTA CLARA, Calif. ― April 27, 2021 ―
+AMD (NASDAQ: AMD) today announced revenue for the first quarter of 2021 of $3.45 billion, operating income of $662 million, net income of $555 million and diluted earnings per share of $0.45. On a non-GAAP* basis, operating income was $762 million, net income was $642 million and diluted earnings per share was $0.52.
+GAAP Quarterly Financial Results
+Q1 2021
+Q1 2020
+Y/Y
+Q4 2020
+Q/Q
+Revenue ($M)
+$3,445
+$1,786
+Up 93%
+$3,244
+Up 6%
+Gross profit ($M)
+$1,587
+$818
+Up 94%
+$1,451
+Up 9%
+Gross margin %
+46%
+46%
+Flat
+45%
+Up 1pp
+Operating expenses ($M)
+$929
+$641
+Up 45%
+$881
+Up 5%
+Operating income ($M)
+$662
+$177
+Up 274%
+$570
+Up 16%
+Tax Valuation Allowance Release Benefit ($M)
+--
+--
+--
+$1,301
+--
+Net income ($M)
+$555
+$162
+Up 243%
+$1,781
+Down 69%
+Earnings per share
+$0.45
+$0.14
+Up 221%
+$1.45
+Down 69%
+Non-GAAP* Quarterly Financial Results
+Q1 2021
+Q1 2020
+Y/Y
+Q4 2020
+Q/Q
+Revenue ($M)
+$3,445
+$1,786
+Up 93%
+$3,244
+Up 6%
+Gross profit ($M)
+$1,588
+$820
+Up 94%
+$1,452
+Up 9%
+Gross margin %
+46%
+46%
+Flat
+45%
+Up 1pp
+Operating expenses ($M)
+$830
+$584
+Up 42%
+$789
+Up 5%
+Operating income ($M)
+$762
+$236
+Up 223%
+$663
+Up 15%
+Net income ($M)
+$642
+$222
+Up 189%
+$636
+Up 1%
+Earnings per share
+$0.52
+$0.18
+Up 189%
+$0.52
+Flat
+“Our business continued to accelerate in the first quarter driven by the best product portfolio in our history, strong execution and robust market demand,” said Dr. Lisa Su, AMD president and CEO. “We had outstanding year-over-year revenue growth across all of our businesses and data center revenue more than doubled. Our increased full-year guidance highlights the strong growth we expect across our business based on increasing adoption of our high-performance computing products and expanding customer relationships.”
+1
+Q1 2021 Results
+•
+Revenue was $3.45 billion, up 93 percent year-over-year and 6 percent quarter-over-quarter driven by higher revenue in both the Computing and Graphics and Enterprise, Embedded and Semi-custom segments.
+•
+Gross margin was 46 percent, flat year-over-year and up 1 percentage point quarter-over-quarter. The quarter-over-quarter increase was driven by a greater mix of Ryzen™, Radeon™ and EPYC™ processor sales.
+•
+Operating income was $662 million compared to operating income of $177 million a year ago and $570 million in the prior quarter. Non-GAAP operating income was $762 million compared to operating income of $236 million a year ago and $663 million in the prior quarter. Operating income improvements were primarily driven by higher revenue.
+•
+Net income was $555 million compared to net income of $162 million a year ago and $1.78 billion in the prior quarter, which included an income tax benefit of $1.30 billion associated with a valuation allowance release. Non-GAAP net income was $642 million compared to net income of $222 million a year ago and $636 million in the prior quarter.
+•
+Diluted earnings per share was $0.45 compared to diluted earnings per share of $0.14 a year ago and $1.45 in the prior quarter, which included an income tax benefit that contributed $1.06 to earnings per share. Non-GAAP diluted earnings per share was $0.52 based on a 15 percent effective tax rate compared to diluted earnings per share of $0.18 a year ago and $0.52 in the prior quarter. Prior periods had a 3 percent effective tax rate for non-GAAP results.
+•
+Cash, cash equivalents and short-term investments were $3.12 billion at the end of the quarter.
+Quarterly Financial Segment Summary
+•
+Computing and Graphics segment revenue was $2.10 billion, up 46 percent year-over-year and 7 percent quarter-over-quarter primarily driven by Ryzen processor and Radeon graphics product sales growth.
+◦
+Client processor average selling price (ASP) grew year-over-year and quarter-over-quarter driven by a richer mix of Ryzen desktop and notebook processor sales.
+◦
+GPU ASP was higher year-over-year and quarter-over-quarter driven by high-end Radeon graphics products.
+◦
+Operating income was $485 million compared to $262 million a year ago and $420 million in the prior quarter. The year-over-year and quarter-over-quarter increases were primarily driven by higher revenue.
+•
+Enterprise, Embedded and Semi-Custom segment revenue was $1.35 billion, up 286 percent year-over-year and 5 percent quarter-over-quarter. The year-over-year increase was driven by higher semi-custom product sales and EPYC processor revenue. The quarter-over-quarter increase was driven by higher EPYC processor sales partially offset by lower semi-custom product sales.
+◦
+Operating income was $277 million compared to an operating loss of $26 million a year ago and operating income of $243 million in the prior quarter. The year-over-year and quarter-over-quarter increases were primarily driven by higher revenue.
+2
+•
+All Other operating loss was $100 million compared to operating losses of $59 million a year ago and $93 million in the prior quarter.
+Recent PR Highlights
+•
+AMD announced the AMD EPYC 7003 series processors including the world’s highest performance server processor, the AMD EPYC 7763, extending AMD per-socket and per-core performance leadership. The processors provide up to two times better performance in high-performance computing (HPC), cloud and enterprise workloads compared to the competition, all with leadership security features. A broad set of partners announced offerings based on the new EPYC 7003 series processors.
+◦
+Leading cloud providers announced new and upcoming instances and solutions powered by EPYC 7003 series processors, including Microsoft Azure HBv3 VMs and confidential computing VMs; Oracle Cloud infrastructure; Tencent Cloud instances; Amazon Web Services; and Google Cloud.
+◦
+Multiple server providers launched new platforms powered by EPYC 7003 series processors and more than 100 new platforms are expected to launch in 2021, including Cisco UCS® rack server models; Dell Technologies PowerEdge servers; HPE ProLiant servers, HPE Apollo systems; HPE Cray EX supercomputers; Lenovo ThinkSystem servers and ThinkAgile HCI solutions; and Supermicro systems.
+•
+AMD EPYC CPUs and AMD Instinct™ GPU accelerators are enabling powerful new solutions.
+◦
+HPE and the KTH Royal Institute of Technology in Sweden announced a new pre-exascale supercomputer that will use next generation AMD EPYC processors and AMD Instinct GPUs.
+◦
+AMD EPYC CPUs and AMD Instinct GPUs are powering expanded cloud-based HPC solutions, including Siemens NX and PTC Creo, both on Microsoft Azure NVv4 instances.
+•
+AMD customers are on track to increase the number of notebooks based on the AMD Ryzen 5000 Series Mobile Processors and AMD Ryzen PRO 5000 Series Mobile Processors by 50 percent compared to the prior generation, as leading OEMs announced new systems for businesses, gamers, creators and consumers.
+◦
+Acer introduced the new Nitro 5 and Aspire family of notebooks as well as the Chromebook Spin 514, powered by the recently announced Ryzen 3000 C-Series processors, the first Ryzen processors designed for the Chrome OS.
+◦
+Asus unveiled a lineup of AMD-powered gaming notebooks, as well as updated AMD-powered notebooks for consumers, including new ZenBook, Chromebook Flip and VivoBook systems.
+◦
+HP’s latest portfolio of EliteBook and ProBook business notebooks feature both Ryzen Mobile and Ryzen PRO Mobile 5000 Series Processors.
+◦
+Lenovo introduced twelve new Ryzen 5000 and Ryzen 5000 PRO processor based notebooks, including ThinkBook models for commercial users, Legion and IdeaPad gaming and Yoga notebooks.
+•
+AMD announced the Radeon RX 6700 XT GPU, delivering exceptional 1440p PC gaming experiences. Built on the AMD RDNA 2 gaming architecture and leading edge 7nm process technology, it is designed to deliver the optimal combination of performance and power efficiency.
+3
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the second quarter of 2021, AMD expects revenue to be approximately $3.6 billion, plus or minus $100 million, an increase of approximately 86 percent year-over-year and 4 percent quarter-over-quarter. The year-over-year increase is expected to be driven by growth in all businesses. The quarter-over-quarter increase is expected to be primarily driven by growth in data center and gaming. AMD expects non-GAAP gross margin to be approximately 47 percent in the second quarter of 2021.
+For the full year 2021, AMD now expects revenue growth of approximately 50 percent over 2020 driven by growth in all businesses, up from prior guidance of approximately 37 percent annual growth.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its first quarter 2021 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com. The webcast will be available for 12 months after the conference call.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data) (Unaudited)
+Three Months Ended
+March 27,
+2021
+December 26,
+2020
+March 28,
+2020
+GAAP gross profit
+$
+1,587
+$
+1,451
+$
+818
+GAAP gross margin %
+46
+%
+45
+%
+46
+%
+Stock-based compensation
+1
+1
+2
+Non-GAAP gross profit
+$
+1,588
+$
+1,452
+$
+820
+Non-GAAP gross margin %
+46
+%
+45
+%
+46
+%
+GAAP operating expenses
+$
+929
+$
+881
+$
+641
+GAAP operating expenses/revenue %
+27
+%
+27
+%
+36
+%
+Stock-based compensation
+84
+78
+57
+Acquisition-related costs
+15
+14
+—
+Non-GAAP operating expenses
+$
+830
+$
+789
+$
+584
+Non-GAAP operating expenses/revenue%
+24
+%
+24
+%
+33
+%
+GAAP operating income
+$
+662
+$
+570
+$
+177
+GAAP operating margin %
+19
+%
+18
+%
+10
+%
+Stock-based compensation
+85
+79
+59
+Acquisition-related costs
+15
+14
+—
+Non-GAAP operating income
+$
+762
+$
+663
+$
+236
+Non-GAAP operating margin %
+22
+%
+20
+%
+13
+%
+Three Months Ended
+March 27,
+2021
+December 26,
+2020
+March 28,
+2020
+GAAP net income / earnings per share
+$
+555
+$
+0.45
+$
+1,781
+$
+1.45
+$
+162
+$
+0.14
+Loss on debt redemption/conversion
+6
+0.01
+16
+0.01
+—
+—
+Non-cash interest expense related to convertible debt
+—
+—
+—
+—
+2
+—
+Stock-based compensation
+85
+0.07
+79
+0.06
+59
+0.04
+Equity income in investee
+(2)
+—
+(3)
+—
+—
+—
+Acquisition-related costs
+15
+0.01
+14
+0.01
+—
+—
+Release of valuation allowance on deferred tax assets
+—
+—
+(1,301)
+(1.06)
+—
+—
+Impairment of investment
+8
+0.01
+—
+—
+—
+—
+Income tax provision (benefit)
+(25)
+(0.03)
+50
+0.05
+(1)
+—
+Non-GAAP net income / earnings per share
+$
+642
+$
+0.52
+$
+636
+$
+0.52
+$
+222
+$
+0.18
+Shares used and net income adjustment in
+earnings per share calculation
+(1)
+Shares used in per share calculation (GAAP)
+1,231
+1,226
+1,224
+Interest expense add-back to GAAP net income
+$
+—
+$
+—
+$
+4
+Shares used in per share calculation (Non-GAAP)
+1,233
+1,232
+1,224
+Interest expense add-back to Non-GAAP net income
+$
+—
+$
+—
+$
+2
+5
+(1)
+For the three months ended December 26, 2020 and March 28, 2020, GAAP diluted EPS calculations include 3 million and 31 million shares, respectively, related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $0 million and $4 million interest expense, respectively, add-back to net income under the "if converted" method.
+For the three months ended March 27, 2021, December 26, 2020 and March 28, 2020, Non-GAAP diluted EPS calculations include 2 million, 9 million and 31 million shares, respectively, related to the assumed conversion of the Company's 2026 Convertible Notes and the associated $0 million, $0 million and $2 million interest expense, respectively, add-back to net income under the "if converted" method.

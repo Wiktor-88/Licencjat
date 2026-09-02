@@ -1,0 +1,18 @@
+{
+  "event": {
+    "Ticker": "META",
+    "Accession": "0001628280-26-028364",
+    "Filing_Date": "2026-04-29",
+    "Feature_Cutoff_Session": "2026-04-29",
+    "Event_Session": "2026-04-30T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2026,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "true_negative"
+  },
+  "prediction": {
+    "Logit": -0.6777340173721313,
+    "Probability_Class_1": 0.3367672562599182,
+    "Completeness_Error": 0.0005424618721008301
+  }
+}

@@ -1,1 +1,422 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports Third Quarter 2021 Financial Results
+— Revenue increased 54 percent year-over-year —
+— Gross Margin grew more than 4 percentage points year-over-year to 48 percent —
+SANTA CLARA, Calif. – October 26, 2021 -
+AMD (NASDAQ: AMD) today announced revenue for the third quarter of 2021 of $4.3 billion, operating income of $948 million, net income of $923 million and diluted earnings per share of $0.75. On a non-GAAP* basis, operating income was $1.1 billion, net income was $893 million and diluted earnings per share were $0.73.
+GAAP Quarterly Financial Results
+Q3 2021
+Q3 2020
+Y/Y
+Q2 2021
+Q/Q
+Revenue ($M)
+$4,313
+$2,801
+Up 54%
+$3,850
+Up 12%
+Gross profit ($M)
+$2,086
+$1,230
+Up 70%
+$1,830
+Up 14%
+Gross margin %
+48%
+44%
+Up 450 bps
+48%
+Up 80 bps
+Operating expenses ($M)
+$1,141
+$781
+Up 46%
+$1,000
+Up 14%
+Operating income ($M)
+$948
+$449
+Up 111%
+$831
+Up 14%
+Operating margin %
+22%
+16%
+Up 6pp
+22%
+Flat
+Net income ($M)
+$923
+$390
+Up 137%
+$710
+Up 30%
+Earnings per share
+$0.75
+$0.32
+Up 134%
+$0.58
+Up 29%
+Non-GAAP* Quarterly Financial Results
+Q3 2021
+Q3 2020
+Y/Y
+Q2 2021
+Q/Q
+Revenue ($M)
+$4,313
+$2,801
+Up 54%
+$3,850
+Up 12%
+Gross profit ($M)
+$2,087
+$1,231
+Up 70%
+$1,832
+Up 14%
+Gross margin %
+48%
+44%
+Up 440 bps
+48%
+Up 80 bps
+Operating expenses ($M)
+$1,035
+$706
+Up 47%
+$909
+Up 14%
+Operating income ($M)
+$1,055
+$525
+Up 101%
+$924
+Up 14%
+Operating margin %
+24%
+19%
+Up 5pp
+24%
+Flat
+Net income ($M)
+$893
+$501
+Up 78%
+$778
+Up 15%
+Earnings per share
+$0.73
+$0.41
+Up 78%
+$0.63
+Up 16%
+“AMD had another record quarter as revenue grew 54% and operating income doubled year-over-year,” said AMD president and CEO Dr. Lisa Su. “3
+rd
+Gen EPYC processor shipments ramped significantly in the quarter as our data center sales more than doubled year-over-year. Our business significantly accelerated in 2021, growing faster than the market based on our leadership products and consistent execution.”
+1
+Q3 2021 Results
+•
+Revenue was $4.3 billion, up 54 percent year-over-year and 12 percent quarter-over-quarter driven by higher revenue in both the Computing and Graphics segment and Enterprise, Embedded and Semi-Custom segment.
+•
+Gross margin was 48 percent, up over 400 basis points year-over-year and up 80 basis points quarter-over-quarter. The year-over-year and quarter-over-quarter increases were primarily driven by a richer mix of EPYC™, Ryzen™ and Radeon™ processor sales.
+•
+Operating income was $948 million compared to operating income of $449 million a year ago and $831 million in the prior quarter. Non-GAAP operating income was $1.1 billion compared to $525 million a year ago and $924 million in the prior quarter. Operating income improvements were primarily driven by higher revenue.
+•
+Net income was $923 million compared to $390 million a year ago and $710 million in the prior quarter. Non-GAAP net income was $893 million compared to $501 million a year ago and $778 million in the prior quarter.
+•
+Diluted earnings per share was $0.75 compared to $0.32 a year ago and $0.58 in the prior quarter. Non-GAAP diluted earnings per share was $0.73 compared to $0.41 a year ago and $0.63 in the prior quarter.
+•
+Cash, cash equivalents and short-term investments were $3.6 billion at the end of the quarter. The Company repurchased more than 7 million shares of common stock for $750 million during the quarter.
+•
+Cash from operations was $849 million compared to $339 million a year ago and $952 million in the prior quarter. Free cash flow was $764 million compared to $265 million a year ago and $888 million in the prior quarter.  Third quarter 2021 cash from operations and free cash flow included strategic investments in long-term supply chain capacity to support future revenue growth.
+Quarterly Financial Segment Summary
+•
+Computing and Graphics segment revenue was $2.4 billion, up 44 percent year-over-year and 7 percent quarter-over-quarter. The year-over-year and quarter-over-quarter increases were driven by higher Ryzen, Radeon and AMD Instinct processor sales.
+◦
+Client processor average selling price (ASP) grew year-over-year and quarter-over-quarter driven by a richer mix of Ryzen processor sales.
+◦
+GPU ASP grew year-over-year and quarter-over-quarter driven by high-end Radeon graphics product sales and AMD Instinct data center GPU sales.
+◦
+Operating income was $513 million compared to $384 million a year ago and $526 million in the prior quarter. The year-over-year increase was primarily driven by higher revenue, partially offset by
+2
+higher operating expenses. The quarter-over-quarter decrease was primarily due to higher operating expenses.
+•
+Enterprise, Embedded and Semi-Custom segment revenue was $1.9 billion, up 69 percent year-over-year and 20 percent quarter-over-quarter. The increases were driven by higher EPYC processor and semi-custom product sales.
+◦
+Operating income was $542 million compared to $141 million a year ago and $398 million in the prior quarter. The increases were primarily driven by higher revenue and richer product mix, partially offset by higher operating expenses.
+•
+All Other operating loss was $107 million compared to $76 million a year ago and $93 million in the prior quarter.
+Recent PR Highlights
+•
+AMD saw increased adoption of AMD EPYC processors in the third quarter.
+◦
+Argonne National Labs selected AMD EPYC processors to power a new supercomputer, known as Polaris, to allow scientists and developers to test and optimize software codes and applications for AI, engineering, and scientific projects.
+◦
+Google Cloud announced the public preview of N2D Virtual Machines powered by AMD EPYC™ 7003 Series processors.
+◦
+AMD announced that 2nd Gen AMD EPYC CPUs and AMD Radeon Pro V520 GPUs will power new sizes for Amazon EC2 G4ad instances, giving customers the flexibility to provision resources on demand, as needs dictate, rather than being limited to their inventory of physical, on-premise hardware.
+◦
+Cloudflare chose 3rd Gen AMD EPYC processors for its 11th Gen servers, which power the company’s DNS network.
+•
+AMD partnered with Microsoft to bring powerful, reliable computing to users with Windows 11, powered by Ryzen processors and Radeon graphics. Through this collaboration, more than 175 AMD CPUs are now compatible with Windows 11 operating systems to drive ultimate PC and gaming experiences.
+•
+Customer adoption of Ryzen processors expanded, with Lenovo starting shipments of the Ryzen-based Thinkbook and Thinkpad E series business laptops featuring Windows 11 , Lenovo announcing the Ryzen-powered Yoga Slim 7 Carbon and Yoga Slim 7 Pro, HP releasing two AiO devices with Ryzen processors and ASUS unveiling the Ryzen 5000 Series-based Zenbook, Zenbook PRO, ProArt StudioBook and VivoBook.
+•
+AMD launched Ryzen 5000 G-Series Desktop Processors with Radeon Graphics, bringing high-performance integrated graphics and powerful features to satisfy the most demanding gamers, creators and enthusiasts.
+3
+•
+AMD launched the Radeon RX 6600 XT graphics card, designed to deliver high-framerate, high-fidelity 1080p gaming experiences. Built on breakthrough AMD RDNA
+TM
+2 gaming architecture, the graphics card offers on average 11 percent higher gaming performance with Smart Access Memory enabled across a range of popular titles compared to the competition.
+•
+AMD announced availability of the Radeon PRO W6000X series GPUs for Mac Pro, harnessing the high-performance AMD RDNA 2 architecture, AMD Infinity Cache and other advanced technologies to power demanding professional design and content creation workloads.
+•
+AMD was named by Forbes as one of the World's Best Employers of 2021.
+•
+AMD announced its 26
+th
+annual Corporate Responsibility Report highlighting AMD’s accomplishments from the previous year and unveiling new goals through 2025 and 2030, including a new goal to increase energy efficiency of processors running AI training and high performance computing applications 30x by 2025.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the fourth quarter 2021, AMD expects revenue to be approximately $4.5 billion, plus or minus $100 million, an increase of approximately 39 percent year-over-year and approximately 4 percent quarter-over-quarter. The year-over-year increase is expected to be driven by growth across all businesses.  The quarter-over-quarter increase is expected to be driven by higher server and semi-custom revenue. AMD expects non-GAAP gross margin to be approximately 49.5 percent in the fourth quarter 2021.
+For the full year 2021, AMD now expects revenue to grow approximately 65 percent driven by growth across all businesses, up from prior guidance of 60 percent growth. AMD expects non-GAAP gross margin to be approximately 48 percent for the full year 2021.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its third quarter 2021 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data) (Unaudited)
+Three Months Ended
+September 25,
+2021
+June 26,
+2021
+September 26,
+2020
+GAAP gross profit
+$
+2,086
+$
+1,830
+$
+1,230
+GAAP gross margin %
+48
+%
+48
+%
+44
+%
+Stock-based compensation
+1
+2
+1
+Non-GAAP gross profit
+$
+2,087
+$
+1,832
+$
+1,231
+Non-GAAP gross margin %
+48
+%
+48
+%
+44
+%
+GAAP operating expenses
+$
+1,141
+$
+1,000
+$
+781
+GAAP operating expenses/revenue %
+26
+%
+26
+%
+28
+%
+Stock-based compensation
+98
+81
+75
+Acquisition-related costs
+8
+10
+—
+Non-GAAP operating expenses
+$
+1,035
+$
+909
+$
+706
+Non-GAAP operating expenses/revenue%
+24
+%
+24
+%
+25
+%
+GAAP operating income
+$
+948
+$
+831
+$
+449
+GAAP operating margin %
+22
+%
+22
+%
+16
+%
+Stock-based compensation
+99
+83
+76
+Acquisition-related costs
+8
+10
+—
+Non-GAAP operating income
+$
+1,055
+$
+924
+$
+525
+Non-GAAP operating margin %
+24
+%
+24
+%
+19
+%
+Three Months Ended
+September 25,
+2021
+June 26,
+2021
+September 26,
+2020
+GAAP net income / earnings per share
+$
+923
+$
+0.75
+$
+710
+$
+0.58
+$
+390
+$
+0.32
+Loss on debt redemption/conversion
+—
+—
+1
+—
+38
+0.03
+(Gains) losses on equity investments, net
+(60)
+(0.05)
+—
+—
+—
+—
+Non-cash interest expense related to convertible debt
+—
+—
+—
+—
+2
+—
+Stock-based compensation
+99
+0.08
+83
+0.06
+76
+0.06
+Equity income in investee
+(2)
+—
+(2)
+—
+(1)
+—
+Acquisition-related costs
+8
+0.01
+10
+0.01
+—
+—
+Income tax provision
+(75)
+(0.06)
+(24)
+(0.02)
+(4)
+—
+Non-GAAP net income / earnings per share
+$
+893
+$
+0.73
+$
+778
+$
+0.63
+$
+501
+$
+0.41
+Shares used and net income adjustment in
+earnings per share calculation
+(1)
+Shares used in per share calculation (GAAP)
+1,230
+1,232
+1,215
+Interest expense add-back to GAAP net income
+$
+—
+$
+—
+$
+1
+Shares used in per share calculation (Non-GAAP)
+1,230
+1,232
+1,230
+Interest expense add-back to Non-GAAP net income
+$
+—
+$
+—
+$
+1
+5
+(1)
+For the three months ended September 26, 2020, GAAP diluted EPS calculations include 11 million related to the Company's 2026 Convertible Notes and the associated $1 million interest expense add-back to net income under the "if converted" method. For the three months ended September 26, 2020, 15 million shares related to the Company's 2026 Convertible Notes were not included in the GAAP diluted EPS calculations as their inclusion would have been anti-dilutive.
+For the three months ended September 26, 2020, Non-GAAP diluted EPS calculations include 26 million shares related to the Company's 2026 Convertible Notes and the associated $1 million interest expense add-back to net income under the "if converted" method.

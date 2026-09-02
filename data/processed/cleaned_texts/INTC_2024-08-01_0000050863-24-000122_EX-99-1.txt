@@ -1,1 +1,208 @@
-Document Exhibit 99.1 Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1549 News Release Intel Reports Second-Quarter 2024 Financial Results Announces $10 Billion Cost Reduction Plan to Increase Efficiency and Market Competitiveness NEWS SUMMARY ▪ Second-quarter revenue of $12.8 billion, down 1% year over year (YoY). ▪ Second-quarter GAAP earnings (loss) per share (EPS) attributable to Intel was $(0.38); non-GAAP EPS attributable to Intel was $0.02. ▪ Forecasting third-quarter 2024 revenue of $12.5 billion to $13.5 billion; expecting third-quarter GAAP EPS attributable to Intel of $(0.24); non-GAAP EPS attributable to Intel of $(0.03). ▪ Implementing comprehensive reduction in spending, including a more than 15% headcount reduction, to resize and refocus. ▪ Suspending dividend starting in the fourth quarter of 2024. The company reiterates its long-term commitment to a competitive dividend as cash flows improve to sustainably higher levels. ▪ Achieved key milestones on Intel 18A with the 1.0 Process Design Kit (PDK) released and key power-on of first client and server products on Intel 18A, Panther Lake and Clearwater Forest. SANTA CLARA, Calif., Aug. 1, 2024 – Intel Corporation today reported second-quarter 2024 financial results. “Our Q2 financial performance was disappointing, even as we hit key product and process technology milestones. Second-half trends are more challenging than we previously expected, and we are leveraging our new operating model to take decisive actions that will improve operating and capital efficiencies while accelerating our IDM 2.0 transformation,” said Pat Gelsinger, Intel CEO. “These actions, combined with the launch of Intel 18A next year to regain process technology leadership, will strengthen our position in the market, improve our profitability and create shareholder value.” “Second-quarter results were impacted by gross margin headwinds from the accelerated ramp of our AI PC product, higher than typical charges related to non-core businesses and the impact from unused capacity,” said David Zinsner, Intel CFO. “By implementing our spending reductions, we are taking proactive steps to improve our profits and strengthen our balance sheet. We expect these actions to meaningfully improve liquidity and reduce our debt balance while enabling us to make the right investments to drive long-term value for shareholders.” Cost-Reduction Plan As Intel nears the completion of rebuilding a sustainable engine of process technology leadership, it announced a series of initiatives to create a sustainable financial engine that accelerates profitable growth, enables further operational efficiency and agility, and creates capacity for ongoing strategic investment in technology and manufacturing leadership. These initiatives follow the establishment of separate financial reporting for Intel Products and Intel Foundry, which provides a "clean sheet" view of the business and has uncovered significant opportunities to drive meaningful operational and cost efficiencies. The actions include structural and operating realignment across the company, headcount reductions, and operating expense and capital expenditure reductions of more than $10 billion in 2025 compared to previous estimates. As a result of these actions, Intel aims to achieve clear line of sight toward a sustainable business model with the ongoing financial resources and liquidity needed to support the company’s long-term strategy. Exhibit 99.1 The plan will enable the next phase of the company’s multiyear transformation strategy, and is focused on four key priorities: ▪ Reducing Operating Expenses: The company will streamline its operations and meaningfully cut spending and headcount, reducing non-GAAP R&D and marketing, general and administrative (MG&A) to approximately $20 billion in 2024 and approximately $17.5 billion in 2025, with further reductions expected in 2026. Intel expects to reduce headcount by greater than 15% with the majority completed by the end of 2024. ▪ Reducing Capital Expenditures: With the end of its historic five-nodes-in-four-years journey firmly in sight, Intel is now shifting its focus toward capital efficiency and investment levels aligned to market requirements. This will reduce gross capital expenditures* in 2024 by more than 20% from prior projections, bringing gross capital expenditures in 2024 to between $25 billion and $27 billion. Intel expects net capital spending* in 2024 of between $11 billion and $13 billion. In 2025, the company is targeting gross capital expenditures between $20 billion and $23 billion and net capital spending between $12 billion and $14 billion. ▪ Reducing Cost of Sales: The company expects to generate $1 billion in savings in non-variable cost of sales in 2025. Product mix will continue to be a headwind next year, contributing to modest YoY improvements to 2025's gross margin. ▪ Maintaining Core Investments to Execute Strategy: The company continues to advance its long-term innovation and path to leadership across process technology and products, and the increased efficiency from its actions is expected to further support its execution. In addition, Intel continues to sustain investments to build a resilient and sustainable semiconductor supply chain in the United States and around the world. Intel is taking the added step of suspending the dividend starting in the fourth quarter, recognizing the importance of prioritizing liquidity to support the investments needed to execute its strategy. The company reiterates its long-term commitment to a competitive dividend as cash flows improve to sustainably higher levels. Q2 2024 Financial Highlights GAAP Non-GAAP Q2 2024 Q2 2023 vs. Q2 2023 Q2 2024 Q2 2023 vs. Q2 2023 Revenue ($B) $12.8 $12.9 down 1% Gross Margin 35.4% 35.8% down 0.4 ppt 38.7% 39.8% down 1.1 ppts R&D and MG&A ($B) $5.6 $5.5 up 2% $4.9 $4.7 up 5% Operating Margin (15.3)% (7.8)% down 7.5 ppts 0.2% 3.5% down 3.3 ppts Tax Rate 17.5% 280.5% n/m** 13.0% 13.0% — Net Income (loss) Attributable to Intel ($B) $(1.6) $1.5 n/m** $0.1 $0.5 down 85% Earnings (loss) Per Share Attributable to Intel $(0.38) $0.35 n/m** $0.02 $0.13 down 85% In the second quarter, the company generated $2.3 billion in cash from operations and paid dividends of $0.5 billion. * Gross capital expenditures refers to GAAP additions to property, plant, and equipment. Net capital spending, a non-GAAP financial measure, is defined as additions to property, plant, and equipment, net of proceeds from capital-related government incentives and partner contributions. See below for more information on and reconciliations of Intel's non-GAAP financial measures. **Not meaningful Intel/Page 3 Business Unit Summary Intel previously announced the implementation of an internal foundry operating model, which took effect in the first quarter of 2024 and created a foundry relationship between its Intel Products business (collectively CCG, DCAI and NEX) and its Intel Foundry business (including Foundry Technology Development, Foundry Manufacturing and Supply Chain, and Foundry Services (formerly IFS)). The foundry operating model is a key component of the company's strategy and is designed to reshape operational dynamics and drive greater transparency, accountability, and focus on costs and efficiency. The company also previously announced its intent to operate Altera ® as a standalone business beginning in the first quarter of 2024. Altera was previously included in DCAI's segment results. As a result of these changes, the company modified its segment reporting in the first quarter of 2024 to align to this new operating model. All prior-period segment data has been retrospectively adjusted to reflect the way the company internally receives information and manages and monitors its operating segment performance starting in fiscal year 2024. There are no changes to Intel’s consolidated financial statements for any prior periods. Business Unit Revenue and Trends Q2 2024 vs. Q2 2023 Intel Products: Client Computing Group (CCG) $7.4 billion up 9% Data Center and AI (DCAI) $3.0 billion down 3% Network and Edge (NEX) $1.3 billion down 1% Total Intel Products revenue $11.8 billion up 4% Intel Foundry $4.3 billion up 4% All other: Altera $361 million down 57% Mobileye $440 million down 3% Other $167 million up 43% Total all other revenue $968 million down 32% Intersegment eliminations $(4.3) billion Total net revenue $12.8 billion down 1% Intel Products Highlights ▪ CCG: Intel continues to define and drive the AI PC category, shipping more than 15 million AI PCs since December 2023, far more than all of Intel's competitors combined, and on track to ship more than 40 million AI PCs by year-end. Lunar Lake, the company’s next-generation AI CPU, achieved production release in July 2024, ahead of schedule, with shipments starting in the third quarter. Lunar Lake will power over 80 new Copilot+ PCs across more than 20 OEMs. ▪ DCAI: More than 130 million Intel® Xeon® processors power data centers around the world today, and at Computex Intel introduced its next-generation Intel ® Xeon ® 6 processor with Efficient-cores (E-cores), code-named Sierra Forest, marking the company’s first Intel 3 server product architected for high-density, scale-out workloads. Intel expects Intel ® Xeon ® 6 processors with Performance-cores (P-cores), code-named Granite Rapids, to begin shipping in the third quarter of 2024. The Intel ® Gaudi ® 3 AI accelerator is also on track to launch in the third quarter and is expected to deliver roughly two-times the performance per dollar on both inference and training versus the leading competitor. ▪ NEX: Intel announced an array of AI-optimized scale-out Ethernet solutions, including the Intel AI network interface card and foundry chiplets that will launch next year. New infrastructure processing unit (IPU) adaptors for the enterprise are now broadly available and supported by Dell Technologies, Red Hat and others. IPUs will play an increasingly important role in Intel’s accelerator portfolio, which the company expects will help drive AI data center growth and profitability in 2025 and beyond. Additionally, Intel and others announced the creation of the Ultra Accelerator Link, a new industry standard dedicated to advancing high-speed, low-latency communication for scale-up AI systems communication in data centers. Intel/Page 4 Intel Foundry Highlights ▪ Intel is nearing the completion of its promised five-nodes-in-four-years strategy, with Intel 18A on track to be manufacturing-ready by the end of this year and production wafer start volumes in the first half of 2025. In July 2024, Intel released to foundry customers the 1.0 PDK for Intel 18A. The company’s first two Intel 18A products, Panther Lake for client — the first microprocessor to use RibbonFet, PowerVia and advanced packaging — and Clearwater Forest for servers, are on track to launch in 2025. ▪ Ansys, Cadence, Siemens, and Synopsys announced the availability of reference flows for Intel’s embedded multi-die interconnect bridge (EMIB) advanced packaging technology, which simplifies the design process and offers design flexibility. The companies also declared readiness for Intel 18A designs. ▪ During the quarter, Intel named industry veteran Kevin O'Buckley to lead Foundry Services. The company also recently appointed Dr. Naga Chandrasekaran to lead Intel Foundry Manufacturing and Supply Chain. Their leadership will support Intel’s continued development of the first systems foundry for the AI era. Other Highlights Intel announced its second Semiconductor Co-Investment Program (SCIP) agreement, the formation of a joint venture with Apollo related to Intel’s Fab 34 in Ireland. SCIP is an element of Intel’s Smart Capital strategy, a funding approach designed to create financial flexibility to accelerate the company’s strategy, including investing in its global manufacturing operations, while maintaining a strong balance sheet. Q3 2024 Dividend The company announced that its board of directors has declared a quarterly dividend of $0.125 per share on the company’s common stock, which will be payable Sept. 1, 2024, to shareholders of record as of Aug. 7, 2024. As noted earlier, Intel is suspending the dividend starting in the fourth quarter . Business Outlook Intel's guidance for the third quarter of 2024 includes both GAAP and non-GAAP estimates as follows: Q3 2024 GAAP Non-GAAP Revenue $12.5-13.5 billion Gross Margin 34.5% 38.0% Tax Rate 34% 13% Earnings (Loss) Per Share Attributable to Intel—Diluted $(0.24) $(0.03) Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “
+Document
+Exhibit 99.1
+Intel Corporation
+2200 Mission College Blvd.
+Santa Clara, CA 95054-1549
+News Release
+Intel Reports Second-Quarter 2024 Financial Results
+Announces $10 Billion Cost Reduction Plan to Increase Efficiency and Market Competitiveness
+NEWS SUMMARY
+▪
+Second-quarter revenue of $12.8 billion, down 1% year over year (YoY).
+▪
+Second-quarter GAAP earnings (loss) per share (EPS) attributable to Intel was $(0.38); non-GAAP EPS attributable to Intel was $0.02.
+▪
+Forecasting third-quarter 2024 revenue of $12.5 billion to $13.5 billion; expecting third-quarter GAAP EPS attributable to Intel of $(0.24); non-GAAP EPS attributable to Intel of $(0.03).
+▪
+Implementing comprehensive reduction in spending, including a more than 15% headcount reduction, to resize and refocus.
+▪
+Suspending dividend starting in the fourth quarter of 2024. The company reiterates its long-term commitment to a competitive dividend as cash flows improve to sustainably higher levels.
+▪
+Achieved key milestones on Intel 18A with the 1.0 Process Design Kit (PDK) released and key power-on of first client and server products on Intel 18A, Panther Lake and Clearwater Forest.
+SANTA CLARA, Calif., Aug. 1, 2024 – Intel Corporation today reported second-quarter 2024 financial results.
+“Our Q2 financial performance was disappointing, even as we hit key product and process technology milestones. Second-half trends are more challenging than we previously expected, and we are leveraging our new operating model to take decisive actions that will improve operating and capital efficiencies while accelerating our IDM 2.0 transformation,” said Pat Gelsinger, Intel CEO. “These actions, combined with the launch of Intel 18A next year to regain process technology leadership, will strengthen our position in the market, improve our profitability and create shareholder value.”
+“Second-quarter results were impacted by gross margin headwinds from the accelerated ramp of our AI PC product, higher than typical charges related to non-core businesses and the impact from unused capacity,” said David Zinsner, Intel CFO. “By implementing our spending reductions, we are taking proactive steps to improve our profits and strengthen our balance sheet. We expect these actions to meaningfully improve liquidity and reduce our debt balance while enabling us to make the right investments to drive long-term value for shareholders.”
+Cost-Reduction Plan
+As Intel nears the completion of rebuilding a sustainable engine of process technology leadership, it announced a series of initiatives to create a sustainable financial engine that accelerates profitable growth, enables further operational efficiency and agility, and creates capacity for ongoing strategic investment in technology and manufacturing leadership. These initiatives follow the establishment of separate financial reporting for Intel Products and Intel Foundry, which provides a "clean sheet" view of the business and has uncovered significant opportunities to drive meaningful operational and cost efficiencies. The actions include structural and operating realignment across the company, headcount reductions, and operating expense and capital expenditure reductions of more than $10 billion in 2025 compared to previous estimates. As a result of these actions, Intel aims to achieve clear line of sight toward a sustainable business model with the ongoing financial resources and liquidity needed to support the company’s long-term strategy.
+Exhibit 99.1
+The plan will enable the next phase of the company’s multiyear transformation strategy, and is focused on four key priorities:
+▪
+Reducing Operating Expenses:
+The company will streamline its operations and meaningfully cut spending and headcount, reducing non-GAAP R&D and marketing, general and administrative (MG&A) to approximately $20 billion in 2024 and approximately $17.5 billion in 2025, with further reductions expected in 2026. Intel expects to reduce headcount by greater than 15% with the majority completed by the end of 2024.
+▪
+Reducing Capital Expenditures:
+With the end of its historic five-nodes-in-four-years journey firmly in sight, Intel is now shifting its focus toward capital efficiency and investment levels aligned to market requirements. This will reduce gross capital expenditures* in 2024 by more than 20% from prior projections, bringing gross capital expenditures in 2024 to between $25 billion and $27 billion. Intel expects net capital spending* in 2024 of between $11 billion and $13 billion. In 2025, the company is targeting gross capital expenditures between $20 billion and $23 billion and net capital spending between $12 billion and $14 billion.
+▪
+Reducing Cost of Sales:
+The company expects to generate $1 billion in savings in non-variable cost of sales in 2025. Product mix will continue to be a headwind next year, contributing to modest YoY improvements to 2025's gross margin.
+▪
+Maintaining Core Investments to Execute Strategy:
+The company continues to advance its long-term innovation and path to leadership across process technology and products, and the increased efficiency from its actions is expected to further support its execution. In addition, Intel continues to sustain investments to build a resilient and sustainable semiconductor supply chain in the United States and around the world.
+Intel is taking the added step of suspending the dividend starting in the fourth quarter, recognizing the importance of prioritizing liquidity to support the investments needed to execute its strategy. The company reiterates its long-term commitment to a competitive dividend as cash flows improve to sustainably higher levels.
+Q2 2024 Financial Highlights
+GAAP
+Non-GAAP
+Q2 2024
+Q2 2023
+vs. Q2 2023
+Q2 2024
+Q2 2023
+vs. Q2 2023
+Revenue ($B)
+$12.8
+$12.9
+down 1%
+Gross Margin
+35.4%
+35.8%
+down 0.4 ppt
+38.7%
+39.8%
+down 1.1 ppts
+R&D and MG&A ($B)
+$5.6
+$5.5
+up 2%
+$4.9
+$4.7
+up 5%
+Operating Margin
+(15.3)%
+(7.8)%
+down 7.5 ppts
+0.2%
+3.5%
+down 3.3 ppts
+Tax Rate
+17.5%
+280.5%
+n/m**
+13.0%
+13.0%
+—
+Net Income (loss) Attributable to Intel ($B)
+$(1.6)
+$1.5
+n/m**
+$0.1
+$0.5
+down 85%
+Earnings (loss) Per Share  Attributable to Intel
+$(0.38)
+$0.35
+n/m**
+$0.02
+$0.13
+down 85%
+In the second quarter, the company
+generated
+$2.3 billion in cash from operations and paid dividends of $0.5 billion.
+*
+Gross capital expenditures refers to GAAP additions to property, plant, and equipment. Net capital spending, a non-GAAP financial measure, is defined as additions to property, plant, and equipment, net of proceeds from capital-related government incentives and partner contributions. See below for more information on and reconciliations of Intel's non-GAAP financial measures.
+**Not meaningful
+Intel/Page 3
+Business Unit Summary
+Intel
+previously announced the implementation of an internal foundry operating model, which took effect in the first quarter of 2024 and created a foundry relationship between its Intel Products business (collectively CCG, DCAI and NEX) and its Intel Foundry business (including Foundry Technology Development, Foundry Manufacturing and Supply Chain, and Foundry Services (formerly IFS)). The foundry operating model is a key component of the company's strategy and is designed to reshape operational dynamics and drive greater transparency, accountability, and focus on costs and efficiency. The company also previously announced its intent to operate Altera
+®
+as a standalone business beginning in the first quarter of 2024. Altera was previously included in DCAI's segment results. As a result of these changes, the company modified its segment reporting in the first quarter of 2024 to align to this new operating model. All prior-period segment data has been retrospectively adjusted to reflect the way the company internally receives information and manages and monitors its operating segment performance starting in fiscal year 2024. There are no changes to Intel’s consolidated financial statements for any prior periods.
+Business Unit Revenue and Trends
+Q2 2024
+vs. Q2 2023
+Intel Products:
+Client Computing Group (CCG)
+$7.4 billion
+up
+9%
+Data Center and AI (DCAI)
+$3.0 billion
+down
+3%
+Network and Edge (NEX)
+$1.3 billion
+down
+1%
+Total Intel Products revenue
+$11.8 billion
+up
+4%
+Intel Foundry
+$4.3 billion
+up
+4%
+All other:
+Altera
+$361 million
+down
+57%
+Mobileye
+$440 million
+down
+3%
+Other
+$167 million
+up
+43%
+Total all other revenue
+$968 million
+down
+32%
+Intersegment eliminations
+$(4.3) billion
+Total net revenue
+$12.8 billion
+down
+1%
+Intel Products Highlights
+▪
+CCG:
+Intel continues to define and drive the AI PC category, shipping more than 15 million AI PCs since December 2023, far more than all of Intel's competitors combined, and on track to ship more than 40 million AI PCs by year-end. Lunar Lake, the company’s next-generation AI CPU, achieved production release in July 2024, ahead of schedule, with shipments starting in the third quarter. Lunar Lake will power over 80 new Copilot+ PCs across more than 20 OEMs.
+▪
+DCAI:
+More than 130 million Intel® Xeon® processors power data centers around the world today, and at Computex Intel introduced its next-generation Intel
+®
+Xeon
+®
+6 processor with Efficient-cores (E-cores), code-named Sierra Forest, marking the company’s first Intel 3 server product architected for high-density, scale-out workloads. Intel expects Intel
+®
+Xeon
+®
+6 processors with Performance-cores (P-cores), code-named Granite Rapids, to begin shipping in the third quarter of 2024. The Intel
+®
+Gaudi
+®
+3 AI accelerator is also on track to launch in the third quarter and is expected to deliver roughly two-times the performance per dollar on both inference and training versus the leading competitor.
+▪
+NEX:
+Intel announced an array of AI-optimized scale-out Ethernet solutions, including the Intel AI network interface card and foundry chiplets that will launch next year. New infrastructure processing unit (IPU) adaptors for the enterprise are now broadly available and supported by Dell Technologies, Red Hat and others. IPUs will play an increasingly important role in Intel’s accelerator portfolio, which the company expects will help drive AI data center growth and profitability in 2025 and beyond. Additionally, Intel and others announced the creation of the Ultra Accelerator Link, a new industry standard dedicated to advancing high-speed, low-latency communication for scale-up AI systems communication in data centers.
+Intel/Page 4
+Intel Foundry Highlights
+▪
+Intel is nearing the completion of its promised five-nodes-in-four-years strategy, with Intel 18A on track to be manufacturing-ready by the end of this year and production wafer start volumes in the first half of 2025. In July 2024, Intel released to foundry customers the 1.0 PDK for Intel 18A. The company’s first two Intel 18A products, Panther Lake for client — the first microprocessor to use RibbonFet, PowerVia and advanced packaging — and Clearwater Forest for servers, are on track to launch in 2025.
+▪
+Ansys, Cadence, Siemens, and Synopsys announced the availability of reference flows for Intel’s embedded multi-die interconnect bridge (EMIB) advanced packaging technology, which simplifies the design process and offers design flexibility. The companies also declared readiness for Intel 18A designs.
+▪
+During the quarter, Intel named industry veteran Kevin O'Buckley to lead Foundry Services. The company also recently appointed Dr. Naga Chandrasekaran to lead Intel Foundry Manufacturing and Supply Chain. Their leadership will support Intel’s continued development of the first systems foundry for the AI era.
+Other Highlights
+Intel announced its second Semiconductor Co-Investment Program (SCIP) agreement, the formation of a joint venture with Apollo related to Intel’s Fab 34 in Ireland. SCIP is an element of Intel’s Smart Capital strategy, a funding approach designed to create financial flexibility to accelerate the company’s strategy, including investing in its global manufacturing operations, while maintaining a strong balance sheet.
+Q3 2024 Dividend
+The company announced that its board of directors has declared a quarterly dividend of $0.125 per share on the company’s common stock, which will be payable Sept. 1, 2024, to shareholders of record as of Aug. 7, 2024.
+As noted earlier, Intel is suspending the dividend starting in the fourth quarter
+.
+Business Outlook
+Intel's guidance for the third quarter of 2024 includes both GAAP and non-GAAP estimates as follows:
+Q3 2024
+GAAP
+Non-GAAP
+Revenue
+$12.5-13.5 billion
+Gross Margin
+34.5%
+38.0%
+Tax Rate
+34%
+13%
+Earnings (Loss) Per Share Attributable to Intel—Diluted
+$(0.24)
+$(0.03)
+Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “

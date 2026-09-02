@@ -1,0 +1,17 @@
+{
+  "event": {
+    "Ticker": "META",
+    "Accession": "0001193125-25-262593",
+    "Filing_Date": "2025-11-03",
+    "Feature_Cutoff_Session": "2025-11-03",
+    "Event_Session": "2025-11-04T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Abnormal_1D": 1,
+    "XAI_Example_Type": "false_negative"
+  },
+  "prediction": {
+    "Probability_Class_1": 0.02394344098865986,
+    "Prediction": 0
+  }
+}

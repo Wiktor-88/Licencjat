@@ -1,1 +1,233 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for First Quarter Fiscal 2022 • Record revenue of $5.66 billion, up 84 percent from a year earlier • Record Gaming revenue of $2.76 billion, up 106 percent from a year earlier • Record Data Center revenue of $2.05 billion, up 79 percent from a year earlier SANTA CLARA, Calif.-May 26, 2021- NVIDIA (NASDAQ: NVDA) today reported record revenue for the first quarter ended May 2, 2021, of $5.66 billion, up 84 percent from a year earlier and up 13 percent from the previous quarter, with record revenue from the company’s Gaming, Data Center and Professional Visualization platforms. GAAP earnings per diluted share for the quarter were a record $3.03, up 106 percent from a year ago and up 31 percent from the previous quarter. Non-GAAP earnings per diluted share were $3.66, up 103 percent from a year earlier and up 18 percent from the previous quarter. “We had a fantastic quarter, with strong demand for our products driving record revenue,” said Jensen Huang, founder and CEO of NVIDIA. “Our Data Center business continues to expand, as the world’s industries take up NVIDIA AI to process computer vision, conversational AI, natural language understanding and recommender systems. NVIDIA RTX has reinvented computer graphics and is driving upgrades across the gaming and design markets. Our partners are launching the largest-ever wave of NVIDIA-powered laptops. Across industries, the adoption of NVIDIA computing platforms is accelerating. “Mellanox, one year in, has exceeded our expectations and transformed NVIDIA into a data-center-scale computing company. We continue to make headway with our planned acquisition of Arm, which will accelerate innovation and growth for the Arm ecosystem. From gaming, cloud computing, AI, robotics, self-driving cars, to genomics and computational biology, NVIDIA continues to do impactful work to invent a better future,” he said. NVIDIA paid quarterly cash dividends of $99 million in the first quarter. It will pay its next quarterly cash dividend of $0.16 per share on July 1, 2021, to all shareholders of record on June 10, 2021. On May 21, 2021, the company’s board of directors declared a four-for-one split of NVIDIA’s common stock payable in the form of a stock dividend, with the additional shares expected to be distributed on July 19, 2021. The stock dividend is conditioned on obtaining stockholder approval at the company’s 2021 Annual Meeting of Stockholders on June 3, 2021, to increase the number of authorized shares of common stock from 2 billion to 4 billion. Q1 Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Revenue $5,661 $5,003 $3,080 Up 13% Up 84% Gross margin 64.1 % 63.1 % 65.1 % Up 100 bps Down 100 bps Operating expenses $1,673 $1,650 $1,028 Up 1% Up 63% Operating income $1,956 $1,507 $976 Up 30% Up 100% Net income $1,912 $1,457 $917 Up 31% Up 109% Diluted earnings per share $3.03 $2.31 $1.47 Up 31% Up 106% Non-GAAP ($ in millions, except earnings per share) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Revenue $5,661 $5,003 $3,080 Up 13% Up 84% Gross margin 66.2 % 65.5 % 65.8 % Up 70 bps Up 40 bps Operating expenses $1,189 $1,187 $821 -- Up 45% Operating income $2,557 $2,089 $1,205 Up 22% Up 112% Net income $2,313 $1,957 $1,120 Up 18% Up 107% Diluted earnings per share $3.66 $3.10 $1.80 Up 18% Up 103% NVIDIA’s outlook for the second quarter of fiscal 2022 is as follows: • Revenue is expected to be $6.30 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 64.6 percent and 66.5 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $1.76 billion and $1.26 billion, respectively. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $50 million. • GAAP and non-GAAP tax rates are both expected to be 10 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Gaming • First-quarter revenue was a record $2.76 billion, up 106 percent from a year earlier and up 11 percent from the previous quarter. • Broadened the wave of laptops powered by NVIDIA’s second-generation RTX graphics with the launch of GeForce RTX TM 3060 Laptop GPU systems starting at $999, and the announcement of GeForce ® 3050 Ti and 3050 Laptop GPU systems starting at $799 and aimed at gamers and creators. • Accelerated RTX momentum with now over 60 games, including Call of Duty Modern Warfare , Crysis Remastered and Outriders . • Took steps to improve gamers’ access to GeForce GPUs by reducing the Ethereum hash rate on newly manufactured RTX 3080, 3070 and 3060 Ti graphics cards -- which carry a “Lite Hash Rate,” or “LHR,” identifier -- in addition to previous steps to lower the RTX 3060’s hash rate. • Announced that NVIDIA DLSS is available now in Unreal Engine 4 and soon in the Unity game engine. • Announced that NVIDIA Reflex, which reduces system latency, is now incorporated into Call of Duty Warzone , Overwatch and Rainbow Six: Siege . • Announced that GeForce NOW TM , now in its second year, has over 10 million members in more than 70 countries and is approaching 1,000 games in its library. Data Center • First-quarter revenue was a record $2.05 billion, up 79 percent from a year earlier and up 8 percent from the previous quarter. • Hosted its largest-ever GPU Technology Conference, virtually, with more than 200,000 registrations from 195 countries, and an opening keynote with over 14 million views. • Unveiled NVIDIA Grace TM , its first Arm-based data center CPU, designed for giant-scale AI and high performance computing, which will deliver 10x the performance of today’s fastest servers and power the world’s most powerful AI-capable supercomputer at the Swiss National Supercomputing Centre. • Collaborated with Amazon Web Services to deploy NVIDIA GPU inferencing through GPU-accelerated, AWS Graviton2-based Amazon EC2 instances, enabling GPU-accelerated games to run natively on AWS and allowing greater performance for Arm-based workloads. • Unveiled the NVIDIA ® BlueField-3 ® DPU, the first data processing unit built for AI and accelerated computing, with support from VMware, Splunk, NetApp, Cloudflare and others. • Announced the new NVIDIA DGX SuperPOD TM , the first cloud-native, multi-tenant supercomputer, with customers in conversational AI, drug discovery, autonomous vehicles and more. • Announced that its AI inference platform, expanded with NVIDIA A30 and A10 GPUs for mainstream servers, set records across every category in the latest release of the MLPerf benchmark for AI performance across a range of workloads. • Announced the NVIDIA AI Enterprise software suite for VMware vSphere, enabling scale-out, multi-node performance and compatibility for a range of applications and data science. • Introduced the NVIDIA Morpheus AI application framework to enable cybersecurity providers to instantly detect cyber breaches using AI and NVIDIA BlueField DPUs. • Announced availability of NVIDIA Jarvis, a framework for interactive conversational AI, and NVIDIA Maxine TM , a framework for real-time video-based experiences. • Unveiled NVIDIA TAO, a framework for accelerating the creation of enterprise AI applications. • Expanded its work supporting drug development and discovery with NVIDIA Clara Discovery, announcing a partnership with Schrödinger to support the pharmaceutical industry with AI software to speed drug-discovery workflows. Professional Visualization • First-quarter revenue was a record $372 million, up 21 percent both from a year earlier and the previous quarter. • Launched NVIDIA Omniverse TM Enterprise software for real-time 3D design and collaboration, with BMW Group, Foster + Partners and WPP as early customers. • Unveiled NVIDIA RTX TM GPUs for next-gen laptop and desktop workstations, including the NVIDIA RTX A4000 and A5000 for desktops and the A2000, A3000, A4000 and A5000 for laptops. • Revealed GANverse3D, an AI model for creating 3D object models from standard 2D images. Automotive • First-quarter revenue was $154 million, down 1 percent from a year earlier and up 6 percent from the previous quarter. • Unveiled NVIDIA DRIVE Atlan TM , an AI-enabled processor for autonomous vehicles with 1,000 TOPS and data-center-grade security, targeting automakers’ 2025 vehicles. • Announced NVIDIA DRIVE Hyperion TM 8, the latest generation of a fully operational, open platform that reduces the time and cost to outfit vehicles with AI and surround sensors. • Announced that NVIDIA DRIVE TM will be powering intelligent new energy vehicles from SAIC R Auto, IM Motors, Faraday Future and VinFast, starting in 2022. • Revealed that Cruise is the latest robotaxi company selecting NVIDIA DRIVE, following announcements by Amazon Zoox, DiDi, Oxbotica, Pony.ai and AutoX. • Announced that Volvo Cars will use NVIDIA DRIVE Orin TM to power the autonomous driving computer in its next-generation cars, beginning with the XC90, to be revealed in 2022. • Announced that the NVIDIA DRIVE platform powers MBUX Hyperscreen, the AI cockpit in Mercedes-Benz’s new EQS sedan. • Announced that TuSimple and Navistar will build self-driving trucks powered by the NVIDIA DRIVE AGX TM platform, and the self-driving truck company Plus will use NVIDIA DRIVE Orin for its upcoming autonomous vehicle platform. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for First Quarter Fiscal 2022
+•
+Record revenue of $5.66 billion, up 84 percent from a year earlier
+•
+Record Gaming revenue of $2.76 billion, up 106 percent from a year earlier
+•
+Record Data Center revenue of $2.05 billion, up 79 percent from a year earlier
+SANTA CLARA, Calif.-May 26, 2021-
+NVIDIA (NASDAQ: NVDA) today reported record revenue for the first quarter ended May 2, 2021, of $5.66 billion, up 84 percent from a year earlier and up 13 percent from the previous quarter, with record revenue from the company’s Gaming, Data Center and Professional Visualization platforms.
+GAAP earnings per diluted share for the quarter were a record $3.03, up 106 percent from a year ago and up 31 percent from the previous quarter. Non-GAAP earnings per diluted share were $3.66, up 103 percent from a year earlier and up 18 percent from the previous quarter.
+“We had a fantastic quarter, with strong demand for our products driving record revenue,” said Jensen Huang, founder and CEO of NVIDIA.
+“Our Data Center business continues to expand, as the world’s industries take up NVIDIA AI to process computer vision, conversational AI, natural language understanding and recommender systems. NVIDIA RTX has reinvented computer graphics and is driving upgrades across the gaming and design markets. Our partners are launching the largest-ever wave of NVIDIA-powered laptops. Across industries, the adoption of NVIDIA computing platforms is accelerating.
+“Mellanox, one year in, has exceeded our expectations and transformed NVIDIA into a data-center-scale computing company. We continue to make headway with our planned acquisition of Arm, which will accelerate innovation and growth for the Arm ecosystem. From gaming, cloud computing, AI, robotics, self-driving cars, to genomics and computational biology, NVIDIA continues to do impactful work to invent a better future,” he said.
+NVIDIA paid quarterly cash dividends of $99 million in the first quarter. It will pay its next quarterly cash dividend of $0.16 per share on July 1, 2021, to all shareholders of record on June 10, 2021.
+On May 21, 2021, the company’s board of directors declared a four-for-one split of NVIDIA’s common stock payable in the form of a stock dividend, with the additional shares expected to be distributed on July 19, 2021. The stock dividend is conditioned on obtaining stockholder approval at the company’s 2021 Annual Meeting of Stockholders on June 3, 2021, to increase the number of authorized shares of common stock from 2 billion to 4 billion.
+Q1 Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Revenue
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+Gross margin
+64.1
+%
+63.1
+%
+65.1
+%
+Up 100 bps
+Down 100 bps
+Operating expenses
+$1,673
+$1,650
+$1,028
+Up 1%
+Up 63%
+Operating income
+$1,956
+$1,507
+$976
+Up 30%
+Up 100%
+Net income
+$1,912
+$1,457
+$917
+Up 31%
+Up 109%
+Diluted earnings per share
+$3.03
+$2.31
+$1.47
+Up 31%
+Up 106%
+Non-GAAP
+($ in millions, except earnings per share)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Revenue
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+Gross margin
+66.2
+%
+65.5
+%
+65.8
+%
+Up 70 bps
+Up 40 bps
+Operating expenses
+$1,189
+$1,187
+$821
+--
+Up 45%
+Operating income
+$2,557
+$2,089
+$1,205
+Up 22%
+Up 112%
+Net income
+$2,313
+$1,957
+$1,120
+Up 18%
+Up 107%
+Diluted earnings per share
+$3.66
+$3.10
+$1.80
+Up 18%
+Up 103%
+NVIDIA’s outlook for the second quarter of fiscal 2022 is as follows:
+•
+Revenue is expected to be $6.30 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 64.6 percent and 66.5 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $1.76 billion and $1.26 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $50 million.
+•
+GAAP and non-GAAP tax rates are both expected to be 10 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Gaming
+•
+First-quarter revenue was a record $2.76 billion, up 106 percent from a year earlier and up 11 percent from the previous quarter.
+•
+Broadened the wave of laptops powered by NVIDIA’s second-generation RTX graphics with the launch of GeForce RTX
+TM
+3060 Laptop GPU systems starting at $999, and the announcement of GeForce
+®
+3050 Ti and 3050 Laptop GPU systems starting at $799 and aimed at gamers and creators.
+•
+Accelerated RTX momentum with now over 60 games, including
+Call of Duty Modern Warfare
+,
+Crysis Remastered
+and
+Outriders
+.
+•
+Took steps to improve gamers’ access to GeForce GPUs by reducing the Ethereum hash rate on newly manufactured RTX 3080, 3070 and 3060 Ti graphics cards -- which carry a “Lite Hash Rate,” or “LHR,” identifier -- in addition to previous steps to lower the RTX 3060’s hash rate.
+•
+Announced that NVIDIA DLSS is available now in Unreal Engine 4 and soon in the Unity game engine.
+•
+Announced that NVIDIA Reflex, which reduces system latency, is now incorporated into
+Call of Duty Warzone
+,
+Overwatch
+and
+Rainbow Six: Siege
+.
+•
+Announced that GeForce NOW
+TM
+, now in its second year, has over 10 million members in more than 70 countries and is approaching 1,000 games in its library.
+Data Center
+•
+First-quarter revenue was a record $2.05 billion, up 79 percent from a year earlier and up 8 percent from the previous quarter.
+•
+Hosted its largest-ever GPU Technology Conference, virtually, with more than 200,000 registrations from 195 countries, and an opening keynote with over 14 million views.
+•
+Unveiled NVIDIA Grace
+TM
+, its first Arm-based data center CPU, designed for giant-scale AI and high performance computing, which will deliver 10x the performance of today’s fastest servers and power the world’s most powerful AI-capable supercomputer at the Swiss National Supercomputing Centre.
+•
+Collaborated with Amazon Web Services to deploy NVIDIA GPU inferencing through GPU-accelerated, AWS Graviton2-based Amazon EC2 instances, enabling GPU-accelerated games to run natively on AWS and allowing greater performance for Arm-based workloads.
+•
+Unveiled the NVIDIA
+®
+BlueField-3
+®
+DPU, the first data processing unit built for AI and accelerated computing, with support from VMware, Splunk, NetApp, Cloudflare and others.
+•
+Announced the new NVIDIA DGX SuperPOD
+TM
+, the first cloud-native, multi-tenant supercomputer, with customers in conversational AI, drug discovery, autonomous vehicles and more.
+•
+Announced that its AI inference platform, expanded with NVIDIA A30 and A10 GPUs for mainstream servers, set records across every category in the latest release of the MLPerf benchmark for AI performance across a range of workloads.
+•
+Announced the NVIDIA AI Enterprise software suite for VMware vSphere, enabling scale-out, multi-node performance and compatibility for a range of applications and data science.
+•
+Introduced the NVIDIA Morpheus AI application framework to enable cybersecurity providers to instantly detect cyber breaches using AI and NVIDIA BlueField DPUs.
+•
+Announced availability of NVIDIA Jarvis, a framework for interactive conversational AI, and NVIDIA Maxine
+TM
+, a framework for real-time video-based experiences.
+•
+Unveiled NVIDIA TAO, a framework for accelerating the creation of enterprise AI applications.
+•
+Expanded its work supporting drug development and discovery with NVIDIA Clara Discovery, announcing a partnership with Schrödinger to support the pharmaceutical industry with AI software to speed drug-discovery workflows.
+Professional Visualization
+•
+First-quarter revenue was a record $372 million, up 21 percent both from a year earlier and the previous quarter.
+•
+Launched NVIDIA Omniverse
+TM
+Enterprise software for real-time 3D design and collaboration, with BMW Group, Foster + Partners and WPP as early customers.
+•
+Unveiled NVIDIA RTX
+TM
+GPUs for next-gen laptop and desktop workstations, including the NVIDIA RTX A4000 and A5000 for desktops and the A2000, A3000, A4000 and A5000 for laptops.
+•
+Revealed GANverse3D, an AI model for creating 3D object models from standard 2D images.
+Automotive
+•
+First-quarter revenue was $154 million, down 1 percent from a year earlier and up 6 percent from the previous quarter.
+•
+Unveiled NVIDIA DRIVE Atlan
+TM
+, an AI-enabled processor for autonomous vehicles with 1,000 TOPS and data-center-grade security, targeting automakers’ 2025 vehicles.
+•
+Announced NVIDIA DRIVE Hyperion
+TM
+8, the latest generation of a fully operational, open platform that reduces the time and cost to outfit vehicles with AI and surround sensors.
+•
+Announced that NVIDIA DRIVE
+TM
+will be powering intelligent new energy vehicles from SAIC R Auto, IM Motors, Faraday Future and VinFast, starting in 2022.
+•
+Revealed that Cruise is the latest robotaxi company selecting NVIDIA DRIVE, following announcements by Amazon Zoox, DiDi, Oxbotica, Pony.ai and AutoX.
+•
+Announced that Volvo Cars will use NVIDIA DRIVE Orin
+TM
+to power the autonomous driving computer in its next-generation cars, beginning with the XC90, to be revealed in 2022.
+•
+Announced that the NVIDIA DRIVE platform powers MBUX Hyperscreen, the AI cockpit in Mercedes-Benz’s new EQS sedan.
+•
+Announced that TuSimple and Navistar will build self-driving trucks powered by the NVIDIA DRIVE AGX
+TM
+platform, and the self-driving truck company Plus will use NVIDIA DRIVE Orin for its upcoming autonomous vehicle platform.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.

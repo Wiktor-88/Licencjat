@@ -1,1 +1,164 @@
-Document Exhibit 99.1 Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1549 News Release Intel Reports Third-Quarter 2025 Financial Results News Summary ▪ Third-quarter revenue was $13.7 billion, up 3% year-over-year (YoY). ▪ Third-quarter earnings (loss) per share (EPS) attributable to Intel was $0.90; non-GAAP EPS attributable to Intel was $0.23. ▪ Forecasting fourth-quarter 2025 revenue of $12.8 billion to $13.8 billion ; expecting fourth-quarter EPS attributable to Intel of $(0.14) and non-GAAP EPS attributable to Intel of $0.08 . Intel's guidance excludes Altera, following the sale of a majority ownership interest completed in the third quarter of 2025. SANTA CLARA, Calif., October 23, 2025 – Intel Corporation today reported third-quarter 2025 financial results. “Our Q3 results reflect improved execution and steady progress against our strategic priorities,” said Lip-Bu Tan, Intel CEO. "AI is accelerating demand for compute and creating attractive opportunities across our portfolio, including our core x86 platforms, new efforts in purpose-built ASICs and accelerators, and foundry services. Intel’s industry-leading CPUs and ecosystem, along with our unique U.S.-based leading-edge logic manufacturing and R&D, position us well to capitalize on these trends over time.” “We took meaningful steps this quarter to strengthen our balance sheet, including accelerated funding from the U.S. Government and investments by NVIDIA and SoftBank Group that increase our operational flexibility and demonstrate the critical role we play in the ecosystem,” said David Zinsner, Intel CFO. “Our stronger than expected Q3 results mark our fourth consecutive quarter of improved execution and reflect the underlying strength of our core markets. Current demand is outpacing supply, a trend we expect will persist into 2026.” Q3 2025 Financial Results GAAP Non-GAAP Q3 2025 Q3 2024 vs. Q3 2024 Q3 2025 Q3 2024 vs. Q3 2024 Revenue ($B) $13.7 $13.3 up 3% Gross margin 38.2% 15.0% up 23.2 ppts 40.0% 18.0% up 22 ppts R&D and MG&A ($B) $4.4 $5.4 down 20% $3.9 $4.8 down 17% Operating margin (loss) 5.0% (68.2)% up 73.2 ppts 11.2% (17.8)% up 29 ppts Tax rate 6.6% (87.0)% up 93.6 ppts 12.0% 13.0% down 1 ppt Net income (loss) attributable to Intel ($B) $4.1 $(16.6) up 124% $1.0 $(2.0) *n/m Earnings (loss) per share attributable to Intel—diluted $0.90 $(3.88) up 123% $0.23 $(0.46) *n/m Full reconciliations between GAAP and non-GAAP measures are provided below. *Not meaningful In the third quarter, the company generated $2.5 billion in cash from operations. The financial results presented in this release are preliminary and unaudited, and may be revised based on consultation with the staff of the SEC, as discussed below under “Accounting for U.S. Government Transactions.” Intel/Page 2 Business Unit Summary In the first quarter of 2025, the company made an organizational change to integrate the Network and Edge Group (NEX) into CCG and DCAI and modified Intel's segment reporting to align to this and certain other business reorganizations. All prior-period segment data has been retrospectively adjusted to reflect the way Intel's chief operating decision maker internally receives information and manages and monitors the company's operating segment performance. Effective September 12, 2025, Altera, previously a wholly owned subsidiary, was deconsolidated from Intel's consolidated financial statements following the closing of the sale of 51% of Altera's issued and outstanding common stock. Altera's financial results of operations were included in Intel's consolidated financial results and its "all other" business unit category for all periods presented through September 11, 2025. There are no changes to Intel's consolidated financial statements for any prior periods. Business Unit Revenue and Trends Q3 2025 1 vs. Q3 2024 Intel Products: Client Computing Group (CCG) $8.5 billion up 5% Data Center and AI (DCAI) $4.1 billion down 1% Total Intel Products revenue $12.7 billion up 3% Intel Foundry $4.2 billion down 2% All other $1.0 billion up 3% Intersegment eliminations $(4.2) billion Total net revenue $13.7 billion up 3% 1 Operating segment revenues include intersegment transactions and are presented as actual and rounded; as a result, totals may not sum. Business Highlights ▪ Intel and the Trump Administration announced an agreement to support the continued expansion of American technology and manufacturing leadership through $8.9 billion in funding from the U.S. Government. During the quarter, Intel received $5.7 billion from the U.S. Government. ▪ Intel and NVIDIA announced a collaboration to jointly develop multiple generations of custom data center and PC products across hyperscale, enterprise and consumer markets. The collaboration will integrate the strengths of Intel's leading CPU technologies and x86 ecosystem with NVIDIA’s AI and accelerated computing platforms using NVIDIA NVLink. ▪ NVIDIA also agreed to invest $5.0 billion in Intel common stock. ▪ SoftBank Group made a $2.0 billion investment in Intel common stock, reflecting its belief that Intel will play a critical role in expanding advanced semiconductor manufacturing and supply in the United States. ▪ Intel unveiled the architecture of its Intel® Core™ Ultra series 3 processors (code-named Panther Lake), the first client SoCs built on Intel 18A technology. Additionally, Intel advanced its relationship with Microsoft through a collaboration with Windows ML and the integration of Intel vPro® manageability with Microsoft Intune. ▪ The company provided a first look at Intel® Xeon® 6+ (code-named Clearwater Forest), Intel’s next-gen server product on Intel 18A, showing significant power and performance gains. It also announced details of a new inference-optimized GPU code-named Crescent Island for token clouds and enterprise-level inference. ▪ Fab 52, Intel's fifth high-volume fab at its Ocotillo campus in Chandler, Arizona, became fully operational. This facility manufactures Intel 18A wafers, the most advanced logic wafers developed and produced in the United States, and is part of the more than $100 billion Intel is investing to expand its domestic operations. ▪ Intel received $5.2 billion with the completion of the Altera transaction and a stake sale of Mobileye. Intel/Page 3 Business Outlook Intel's guidance for the fourth quarter of 2025 includes both GAAP and non-GAAP estimates as follows: Q4 2025 GAAP Non-GAAP Revenue $12.8-13.8 billion Gross margin 34.5% 36.5% Tax Rate 476% 12% Earnings (Loss) Per Share Attributable to Intel—Diluted $(0.14) $0.08 Effective September 12, 2025 , Altera, previously a wholly owned subsidiary, was deconsolidated from Intel's consolidated financial statements following the closing of the sale of 51% of Altera's issued and outstanding common stock. As a result, fourth quarter guidance excludes the results of Altera. Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “
+Document
+Exhibit 99.1
+Intel Corporation
+2200 Mission College Blvd.
+Santa Clara, CA 95054-1549
+News Release
+Intel Reports Third-Quarter 2025 Financial Results
+News Summary
+▪
+Third-quarter revenue was $13.7 billion,
+up 3%
+year-over-year (YoY).
+▪
+Third-quarter earnings (loss) per share (EPS) attributable to Intel was $0.90; non-GAAP EPS attributable to Intel was $0.23.
+▪
+Forecasting fourth-quarter 2025 revenue of
+$12.8 billion
+to
+$13.8 billion
+; expecting fourth-quarter EPS attributable to Intel of
+$(0.14)
+and non-GAAP EPS attributable to Intel of
+$0.08
+. Intel's guidance excludes Altera, following the sale of a majority ownership interest completed in the third quarter of 2025.
+SANTA CLARA, Calif., October 23, 2025 – Intel Corporation today reported third-quarter 2025 financial results.
+“Our Q3 results reflect improved execution and steady progress against our strategic priorities,” said Lip-Bu Tan, Intel CEO. "AI is accelerating demand for compute and creating attractive opportunities across our portfolio, including our core x86 platforms, new efforts in purpose-built ASICs and accelerators, and foundry services. Intel’s industry-leading CPUs and ecosystem, along with our unique U.S.-based leading-edge logic manufacturing and R&D, position us well to capitalize on these trends over time.”
+“We took meaningful steps this quarter to strengthen our balance sheet, including accelerated funding
+from the U.S. Government and investments by NVIDIA and SoftBank Group that increase our operational flexibility and demonstrate the critical role we play in the ecosystem,” said David Zinsner, Intel CFO. “Our stronger than expected Q3 results mark our fourth consecutive quarter of improved execution and reflect the underlying strength of our core markets. Current demand is outpacing supply, a trend we expect will persist into 2026.”
+Q3 2025 Financial Results
+GAAP
+Non-GAAP
+Q3 2025
+Q3 2024
+vs. Q3 2024
+Q3 2025
+Q3 2024
+vs. Q3 2024
+Revenue ($B)
+$13.7
+$13.3
+up 3%
+Gross margin
+38.2%
+15.0%
+up 23.2 ppts
+40.0%
+18.0%
+up 22 ppts
+R&D and MG&A ($B)
+$4.4
+$5.4
+down 20%
+$3.9
+$4.8
+down 17%
+Operating margin (loss)
+5.0%
+(68.2)%
+up 73.2 ppts
+11.2%
+(17.8)%
+up 29 ppts
+Tax rate
+6.6%
+(87.0)%
+up 93.6 ppts
+12.0%
+13.0%
+down 1 ppt
+Net income (loss) attributable to Intel ($B)
+$4.1
+$(16.6)
+up 124%
+$1.0
+$(2.0)
+*n/m
+Earnings (loss) per share attributable to Intel—diluted
+$0.90
+$(3.88)
+up 123%
+$0.23
+$(0.46)
+*n/m
+Full reconciliations between GAAP and non-GAAP measures are provided below.
+*Not meaningful
+In the third quarter, the company generated $2.5 billion in cash from operations.
+The financial results presented in this release are preliminary and unaudited, and may be revised based on consultation with the staff of the SEC, as discussed below under “Accounting for U.S. Government Transactions.”
+Intel/Page 2
+Business Unit Summary
+In the first quarter of 2025, the company made an organizational change to integrate the Network and Edge Group (NEX) into CCG and DCAI and modified Intel's segment reporting to align to this and certain other business reorganizations. All prior-period segment data has been retrospectively adjusted to reflect the way Intel's chief operating decision maker internally receives information and manages and monitors the company's operating segment performance. Effective September 12, 2025, Altera, previously a wholly owned subsidiary, was deconsolidated from Intel's consolidated financial statements following the closing of the sale of 51% of Altera's issued and outstanding common stock. Altera's financial results of operations were included in Intel's consolidated financial results and its "all other" business unit category for all periods presented through September 11, 2025.
+There are no changes to Intel's consolidated financial statements for any prior periods.
+Business Unit Revenue and Trends
+Q3 2025
+1
+vs. Q3 2024
+Intel Products:
+Client Computing Group (CCG)
+$8.5 billion
+up
+5%
+Data Center and AI (DCAI)
+$4.1 billion
+down
+1%
+Total Intel Products revenue
+$12.7 billion
+up
+3%
+Intel Foundry
+$4.2 billion
+down
+2%
+All other
+$1.0 billion
+up
+3%
+Intersegment eliminations
+$(4.2) billion
+Total net revenue
+$13.7 billion
+up
+3%
+1
+Operating segment revenues include intersegment transactions and are presented as actual and rounded; as a result, totals may not sum.
+Business Highlights
+▪
+Intel and the Trump Administration announced an agreement to support the continued expansion of American technology and manufacturing leadership through $8.9 billion in funding from the U.S. Government. During the quarter, Intel received $5.7 billion from the U.S. Government.
+▪
+Intel and NVIDIA announced a collaboration to jointly develop multiple generations of custom data center and PC products across hyperscale, enterprise and consumer markets. The collaboration will integrate the strengths of Intel's leading CPU technologies and x86 ecosystem with NVIDIA’s AI and accelerated computing platforms using NVIDIA NVLink.
+▪
+NVIDIA also agreed to invest $5.0 billion in Intel common stock.
+▪
+SoftBank Group made a $2.0 billion investment in Intel common stock, reflecting its belief that Intel will play a critical role in expanding advanced semiconductor manufacturing and supply in the United States.
+▪
+Intel unveiled the architecture of its Intel® Core™ Ultra series 3 processors (code-named Panther Lake), the first client SoCs built on Intel 18A technology. Additionally, Intel advanced its relationship with Microsoft through a collaboration with Windows ML and the integration of Intel vPro® manageability with Microsoft Intune.
+▪
+The company provided a first look at Intel® Xeon® 6+ (code-named Clearwater Forest), Intel’s next-gen server product on Intel 18A, showing significant power and performance gains. It also announced details of a new inference-optimized GPU code-named Crescent Island for token clouds and enterprise-level inference.
+▪
+Fab 52, Intel's fifth high-volume fab at its Ocotillo campus in Chandler, Arizona, became fully operational. This facility manufactures Intel 18A wafers, the most advanced logic wafers developed and produced in the United States, and is part of the more than $100 billion Intel is investing to expand its domestic operations.
+▪
+Intel received $5.2 billion with the completion of the Altera transaction and a stake sale of Mobileye.
+Intel/Page 3
+Business Outlook
+Intel's guidance for the fourth quarter of 2025 includes both GAAP and non-GAAP estimates as follows:
+Q4 2025
+GAAP
+Non-GAAP
+Revenue
+$12.8-13.8 billion
+Gross margin
+34.5%
+36.5%
+Tax Rate
+476%
+12%
+Earnings (Loss) Per Share Attributable to Intel—Diluted
+$(0.14)
+$0.08
+Effective
+September 12, 2025
+, Altera, previously a wholly owned subsidiary, was deconsolidated from Intel's consolidated financial statements following the closing of the sale of
+51%
+of Altera's issued and outstanding common stock. As a result, fourth quarter guidance excludes the results of Altera.
+Reconciliations between GAAP and non-GAAP financial measures are included below. Actual results may differ materially from Intel’s business outlook as a result of, among other things, the factors described under “

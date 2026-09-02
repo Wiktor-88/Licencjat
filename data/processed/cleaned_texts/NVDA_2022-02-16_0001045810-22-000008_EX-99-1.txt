@@ -1,1 +1,264 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2022 • Record quarterly revenue of $7.64 billion, up 53 percent from a year earlier • Record fiscal-year revenue of $26.91 billion, up 61 percent • Record quarterly and fiscal-year revenue for Gaming, Data Center and Professional Visualization SANTA CLARA, Calif.-Feb. 16, 2022- NVIDIA (NASDAQ: NVDA) today reported record revenue for the fourth quarter ended January 30, 2022, of $7.64 billion, up 53 percent from a year ago and up 8 percent from the previous quarter. Gaming, Data Center and Professional Visualization market platforms each achieved record revenue for the quarter and year. GAAP earnings per diluted share for the quarter were a record $1.18, up 103 percent from a year ago and up 22 percent from the previous quarter. Non-GAAP earnings per diluted share were $1.32, up 69 percent from a year ago and up 13 percent from the previous quarter. For fiscal 2022, revenue was a record $26.91 billion, up 61 percent from $16.68 billion a year ago. GAAP earnings per diluted share were a record $3.85, up 123 percent from $1.73 a year ago. Non-GAAP earnings per diluted share were $4.44, up 78 percent from $2.50 a year ago. “We are seeing exceptional demand for NVIDIA computing platforms,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA is propelling advances in AI, digital biology, climate sciences, gaming, creative design, autonomous vehicles and robotics – some of today's most impactful fields. “We are entering the new year with strong momentum across our businesses and excellent traction with our new software business models with NVIDIA AI, NVIDIA Omniverse and NVIDIA DRIVE. GTC is coming. We will announce many new products, applications and partners for NVIDIA computing,” he said. NVIDIA paid quarterly cash dividends of $100 million in the fourth quarter and $399 million in fiscal 2022. It will pay its next quarterly cash dividend of $0.04 per share on March 24, 2022, to all shareholders of record on March 3, 2022. Q4 Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Revenue $7,643 $7,103 $5,003 Up 8% Up 53% Gross margin 65.4 % 65.2 % 63.1 % Up 20 bps Up 230 bps Operating expenses $2,029 $1,960 $1,650 Up 4% Up 23% Operating income $2,970 $2,671 $1,507 Up 11% Up 97% Net income $3,003 $2,464 $1,457 Up 22% Up 106% Diluted earnings per share* $1.18 $0.97 $0.58 Up 22% Up 103% Non-GAAP ($ in millions, except earnings per share) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Revenue $7,643 $7,103 $5,003 Up 8% Up 53% Gross margin 67.0 % 67.0 % 65.5 % -- Up 150 bps Operating expenses $1,447 $1,375 $1,187 Up 5% Up 22% Operating income $3,677 $3,386 $2,089 Up 9% Up 76% Net income $3,350 $2,973 $1,957 Up 13% Up 71% Diluted earnings per share* $1.32 $1.17 $0.78 Up 13% Up 69% *All per share amounts presented herein have been adjusted to reflect the four-for-one stock split, which was effective July 2021. Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) FY22 FY21 Y/Y Revenue $26,914 $16,675 Up 61% Gross margin 64.9 % 62.3 % Up 260 bps Operating expenses $7,434 $5,864 Up 27% Operating income $10,041 $4,532 Up 122% Net income $9,752 $4,332 Up 125% Diluted earnings per share* $3.85 $1.73 Up 123% Non-GAAP ($ in millions, except earnings per share) FY22 FY21 Y/Y Revenue $26,914 $16,675 Up 61% Gross margin 66.8 % 65.6 % Up 120 bps Operating expenses $5,279 $4,144 Up 27% Operating income $12,690 $6,803 Up 87% Net income $11,259 $6,277 Up 79% Diluted earnings per share* $4.44 $2.50 Up 78% *All per share amounts presented herein have been adjusted to reflect the four-for-one stock split, which was effective July 2021. Termination of the Arm Share Purchase Agreement On February 8, 2022, NVIDIA and SoftBank Group Corp. (SoftBank) announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the consummation of the transaction. NVIDIA intends to record in operating expenses a $1.36 billion charge (the Arm Write-off) in the first quarter of fiscal 2023 reflecting the write-off of the prepayment provided at signing in September 2020. Outlook NVIDIA’s outlook for the first quarter of fiscal 2023 is as follows: • Revenue is expected to be $8.10 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 65.2 percent and 67.0 percent, respectively, plus or minus 50 basis points. • GAAP operating expenses are expected to be $3.55 billion, including the Arm Write-off of $1.36 billion. Non-GAAP operating expenses are expected to be $1.60 billion. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 11 percent and 13 percent, respectively, plus or minus 1 percent, excluding any discrete items. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Gaming • Fourth-quarter revenue was a record $3.42 billion, up 37 percent from a year ago and up 6 percent from the previous quarter. Fiscal-year revenue rose 61 percent to a record $12.46 billion. • Launched the GeForce RTX ® 3050 desktop GPU, bringing RTX and the performance and efficiency of NVIDIA Ampere architecture to more gamers, starting at $249 MSRP. • Launched GeForce RTX 3080 Ti and RTX 3070 Ti laptop GPUs, delivering new levels of performance to laptops for gamers and creators. • Announced over 160 gaming and Studio GeForce ® -based laptop designs by leading manufacturers. • Announced over 30 new RTX games and titles shipped in the quarter -- including COD: Vanguard, Horizon Zero Dawn, God of War, Icarus and Rainbow Six Extraction . • Integrated NVIDIA Reflex technology for low-latency gaming in more AAA games – including Call of Duty: Vanguard, God of War and Rainbow Six Extraction . • Added over 65 games to the GeForce NOW library, bringing the total to over 1,200, and announced collaborations with AT&T and Samsung to offer GeForce Now to their customers. Data Center • Fourth-quarter revenue was a record $3.26 billion, up 71 percent from a year ago and up 11 percent from the previous quarter. Fiscal-year revenue rose 58 percent to a record $10.61 billion. • Announced that Meta is building its AI Research SuperCluster with NVIDIA ® DGX ™ A100 systems. • Extended its AI leadership, as NVIDIA and partners, including Microsoft Azure, set records across eight popular workloads in the latest MLPerf training results. • Announced the general release of NVIDIA AI Enterprise 1.1, with updates including production support for containerized AI with NVIDIA software on VMware vSphere with Tanzu. • Open-sourced NVIDIA FLARE, an SDK enabling healthcare, manufacturing and financial services groups to collaborate on generalizable AI models that harness federated learning where data is sparse, confidential or lacks diversity. • A team of Stanford researchers set a world record for fastest DNA sequencing of a human genome, using NVIDIA Clara ™ , Google DeepVariant and Oxford Nanopore Technologies sequencing. Professional Visualization • Fourth-quarter revenue was a record $643 million, up 109 percent from a year ago and up 11 percent from the previous quarter. Fiscal-year revenue rose 100 percent to a record $2.11 billion. • Launched NVIDIA Omniverse ™ for Creators, making it available at no cost to millions of individual creators. • Launched Omniverse Universal Scene Description connector for Blender, the world’s most popular open-source 3D creative application. • University of Illinois at Urbana-Champaign researchers built what is believed to be the longest, most complex 3D cell simulation using NVIDIA GPU-accelerated software. Automotive and Robotics • Fourth-quarter Automotive revenue was $125 million, down 14 percent from a year ago and down 7 percent from the previous quarter. Fiscal-year revenue rose 6 percent to $566 million. • Formed a multi-year partnership with Jaguar Land Rover to jointly develop and deliver next-generation automated driving systems, plus AI-enabled services and experiences. • Announced that NIO’s ET5 sedan, Xpeng’s G9 SUV and Pony.ai’s robotaxi fleet are using NVIDIA DRIVE Orin ™ . • Announced that Desay, Flex, Quanta, Valeo and ZF are using the NVIDIA DRIVE Hyperion ™ platform to manufacture safe and secure AV systems for vehicle makers. • Launched the Isaac Autonomous Mobile Robot platform for building and deploying robotics applications. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Fourth Quarter and Fiscal 2022
+•
+Record quarterly revenue of $7.64 billion, up 53 percent from a year earlier
+•
+Record fiscal-year revenue of $26.91 billion, up 61 percent
+•
+Record quarterly and fiscal-year revenue for Gaming, Data Center and Professional Visualization
+SANTA CLARA, Calif.-Feb. 16, 2022-
+NVIDIA (NASDAQ: NVDA) today reported record revenue for the fourth quarter ended January 30, 2022, of $7.64 billion, up 53 percent from a year ago and up 8 percent from the previous quarter. Gaming, Data Center and Professional Visualization market platforms each achieved record revenue for the quarter and year.
+GAAP earnings per diluted share for the quarter were a record $1.18, up 103 percent from a year ago and up 22 percent from the previous quarter. Non-GAAP earnings per diluted share were $1.32, up 69 percent from a year ago and up 13 percent from the previous quarter.
+For fiscal 2022, revenue was a record $26.91 billion, up 61 percent from $16.68 billion a year ago. GAAP earnings per diluted share were a record $3.85, up 123 percent from $1.73 a year ago. Non-GAAP earnings per diluted share were $4.44, up 78 percent from $2.50 a year ago.
+“We are seeing exceptional demand for NVIDIA computing platforms,” said Jensen Huang, founder and CEO of NVIDIA. “NVIDIA is propelling advances in AI, digital biology, climate sciences, gaming, creative design, autonomous vehicles and robotics – some of today's most impactful fields.
+“We are entering the new year with strong momentum across our businesses and excellent traction with our new software business models with NVIDIA AI, NVIDIA Omniverse and NVIDIA DRIVE. GTC is coming. We will announce many new products, applications and partners for NVIDIA computing,” he said.
+NVIDIA paid quarterly cash dividends of $100 million in the fourth quarter and $399 million in fiscal 2022. It will pay its next quarterly cash dividend of $0.04 per share on March 24, 2022, to all shareholders of record on March 3, 2022.
+Q4 Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Revenue
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Gross margin
+65.4
+%
+65.2
+%
+63.1
+%
+Up 20 bps
+Up 230 bps
+Operating expenses
+$2,029
+$1,960
+$1,650
+Up 4%
+Up 23%
+Operating income
+$2,970
+$2,671
+$1,507
+Up 11%
+Up 97%
+Net income
+$3,003
+$2,464
+$1,457
+Up 22%
+Up 106%
+Diluted earnings per share*
+$1.18
+$0.97
+$0.58
+Up 22%
+Up 103%
+Non-GAAP
+($ in millions, except earnings per share)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Revenue
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Gross margin
+67.0
+%
+67.0
+%
+65.5
+%
+--
+Up 150 bps
+Operating expenses
+$1,447
+$1,375
+$1,187
+Up 5%
+Up 22%
+Operating income
+$3,677
+$3,386
+$2,089
+Up 9%
+Up 76%
+Net income
+$3,350
+$2,973
+$1,957
+Up 13%
+Up 71%
+Diluted earnings per share*
+$1.32
+$1.17
+$0.78
+Up 13%
+Up 69%
+*All per share amounts presented herein have been adjusted to reflect the four-for-one stock split, which was effective July 2021.
+Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+FY22
+FY21
+Y/Y
+Revenue
+$26,914
+$16,675
+Up 61%
+Gross margin
+64.9
+%
+62.3
+%
+Up 260 bps
+Operating expenses
+$7,434
+$5,864
+Up 27%
+Operating income
+$10,041
+$4,532
+Up 122%
+Net income
+$9,752
+$4,332
+Up 125%
+Diluted earnings per share*
+$3.85
+$1.73
+Up 123%
+Non-GAAP
+($ in millions, except earnings per share)
+FY22
+FY21
+Y/Y
+Revenue
+$26,914
+$16,675
+Up 61%
+Gross margin
+66.8
+%
+65.6
+%
+Up 120 bps
+Operating expenses
+$5,279
+$4,144
+Up 27%
+Operating income
+$12,690
+$6,803
+Up 87%
+Net income
+$11,259
+$6,277
+Up 79%
+Diluted earnings per share*
+$4.44
+$2.50
+Up 78%
+*All per share amounts presented herein have been adjusted to reflect the four-for-one stock split, which was effective July 2021.
+Termination of the Arm Share Purchase Agreement
+On February 8, 2022, NVIDIA and SoftBank Group Corp. (SoftBank) announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the consummation of the transaction. NVIDIA intends to record in operating expenses a $1.36 billion charge (the Arm Write-off) in the first quarter of fiscal 2023 reflecting the write-off of the prepayment provided at signing in September 2020.
+Outlook
+NVIDIA’s outlook for the first quarter of fiscal 2023 is as follows:
+•
+Revenue is expected to be $8.10 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 65.2 percent and 67.0 percent, respectively, plus or minus 50 basis points.
+•
+GAAP operating expenses are expected to be $3.55 billion, including the Arm Write-off of $1.36 billion. Non-GAAP operating expenses are expected to be $1.60 billion.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 11 percent and 13 percent, respectively, plus or minus 1 percent, excluding any discrete items.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Gaming
+•
+Fourth-quarter revenue was a record $3.42 billion, up 37 percent from a year ago and up 6 percent from the previous quarter. Fiscal-year revenue rose 61 percent to a record $12.46 billion.
+•
+Launched the GeForce RTX
+®
+3050 desktop GPU, bringing RTX and the performance and efficiency of NVIDIA Ampere architecture to more gamers, starting at $249 MSRP.
+•
+Launched GeForce RTX 3080 Ti and RTX 3070 Ti laptop GPUs, delivering new levels of performance to laptops for gamers and creators.
+•
+Announced over 160 gaming and Studio GeForce
+®
+-based laptop designs by leading manufacturers.
+•
+Announced over 30 new RTX games and titles shipped in the quarter -- including
+COD: Vanguard, Horizon Zero Dawn, God of War, Icarus
+and
+Rainbow Six Extraction
+.
+•
+Integrated NVIDIA Reflex technology for low-latency gaming in more AAA games – including
+Call of Duty: Vanguard, God of War
+and
+Rainbow Six Extraction
+.
+•
+Added over 65 games to the GeForce NOW library, bringing the total to over 1,200, and announced collaborations with AT&T and Samsung to offer GeForce Now to their customers.
+Data Center
+•
+Fourth-quarter revenue was a record $3.26 billion, up 71 percent from a year ago and up 11 percent from the previous quarter. Fiscal-year revenue rose 58 percent to a record $10.61 billion.
+•
+Announced that Meta is building its AI Research SuperCluster with NVIDIA
+®
+DGX
+™
+A100 systems.
+•
+Extended its AI leadership, as NVIDIA and partners, including Microsoft Azure, set records across eight popular workloads in the latest MLPerf training results.
+•
+Announced the general release of NVIDIA AI Enterprise 1.1, with updates including production support for containerized AI with NVIDIA software on VMware vSphere with Tanzu.
+•
+Open-sourced NVIDIA FLARE, an SDK enabling healthcare, manufacturing and financial services groups to collaborate on generalizable AI models that harness federated learning where data is sparse, confidential or lacks diversity.
+•
+A team of Stanford researchers set a world record for fastest DNA sequencing of a human genome, using NVIDIA Clara
+™
+, Google DeepVariant and Oxford Nanopore Technologies sequencing.
+Professional Visualization
+•
+Fourth-quarter revenue was a record $643 million, up 109 percent from a year ago and up 11 percent from the previous quarter. Fiscal-year revenue rose 100 percent to a record $2.11 billion.
+•
+Launched NVIDIA Omniverse
+™
+for Creators, making it available at no cost to millions of individual creators.
+•
+Launched Omniverse Universal Scene Description connector for Blender, the world’s most popular open-source 3D creative application.
+•
+University of Illinois at Urbana-Champaign researchers built what is believed to be the longest, most complex 3D cell simulation using NVIDIA GPU-accelerated software.
+Automotive and Robotics
+•
+Fourth-quarter Automotive revenue was $125 million, down 14 percent from a year ago and down 7 percent from the previous quarter. Fiscal-year revenue rose 6 percent to $566 million.
+•
+Formed a multi-year partnership with Jaguar Land Rover to jointly develop and deliver next-generation automated driving systems, plus AI-enabled services and experiences.
+•
+Announced that NIO’s ET5 sedan, Xpeng’s G9 SUV and Pony.ai’s robotaxi fleet are using NVIDIA DRIVE Orin
+™
+.
+•
+Announced that Desay, Flex, Quanta, Valeo and ZF are using the NVIDIA DRIVE Hyperion
+™
+platform to manufacture safe and secure AV systems for vehicle makers.
+•
+Launched the Isaac Autonomous Mobile Robot platform for building and deploying robotics applications.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.

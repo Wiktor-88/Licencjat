@@ -1,1 +1,285 @@
-Document Meta Reports Fourth Quarter and Full Year 2021 Results MENLO PARK, Calif. – February 2, 2022 – Meta Platforms, Inc. (Nasdaq: FB) today reported financial results for the quarter and full year ended December 31, 2021. "We had a solid quarter as people turned to our products to stay connected and businesses continued to use our services to grow," said Mark Zuckerberg, Meta founder and CEO. "I'm encouraged by the progress we made this past year in a number of important growth areas like Reels, commerce, and virtual reality, and we'll continue investing in these and other key priorities in 2022 as we work towards building the metaverse." Fourth Quarter and Full Year 2021 Financial Highlights Three Months Ended December 31, Year-over-Year % Change Year Ended December 31, Year-over-Year % Change In millions, except percentages and per share amounts 2021 2020 2021 2020 Total revenue $ 33,671 $ 28,072 20 % $ 117,929 $ 85,965 37 % Total costs and expenses 21,086 15,297 38 % 71,176 53,294 34 % Income from operations $ 12,585 $ 12,775 (1) % $ 46,753 $ 32,671 43 % Operating margin 37 % 46 % 40 % 38 % Provision for income taxes $ 2,417 $ 1,836 32 % $ 7,914 $ 4,034 96 % Effective tax rate 19 % 14 % 17 % 12 % Net income $ 10,285 $ 11,219 (8) % $ 39,370 $ 29,146 35 % Diluted earnings per share (EPS) $ 3.67 $ 3.88 (5) % $ 13.77 $ 10.09 36 % Fourth Quarter and Full Year 2021 Operational and Other Financial Highlights • Family daily active people (DAP) – DAP was 2.82 billion on average for December 2021, an increase of 8% year-over-year. • Family monthly active people (MAP) – MAP was 3.59 billion as of December 31, 2021, an increase of 9% year-over-year. • Facebook daily active users (DAUs) – DAUs were 1.93 billion on average for December 2021, an increase of 5% year-over-year. • Facebook monthly active users (MAUs) – MAUs were 2.91 billion as of December 31, 2021, an increase of 4% year-over-year. • Ad impressions and price per ad – In the fourth quarter of 2021, ad impressions delivered across our Family of Apps increased by 13% year-over-year and the average price per ad increased by 6% year-over-year. For the full year 2021, ad impressions increased by 10% year-over-year and the average price per ad increased by 24% year-over-year. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $5.54 billion and $19.24 billion for the fourth quarter and full year 2021, respectively. • Share repurchases – We repurchased $19.18 billion and $44.81 billion of our Class A common stock in the fourth quarter and full year 2021, respectively. As of December 31, 2021, we had $38.79 billion available and authorized for repurchases. • Cash and cash equivalents and marketable securities – Cash and cash equivalents and marketable securities were $48.0 billion as of December 31, 2021. • Headcount – Headcount was 71,970 as of December 31, 2021, an increase of 23% year-over-year. 1 New Financial Reporting Segment Structure and Operating Results Beginning in the fourth quarter of 2021, we report our financial results based on two reportable segments: • Family of Apps (FoA) , which includes Facebook, Instagram, Messenger, WhatsApp and other services. • Reality Labs (RL) , which includes augmented and virtual reality related consumer hardware, software and content. Segment Information (In millions) (Unaudited) Three Months Ended Year Ended December 31, December 31, 2021 September 30, 2021 June 30, 2021 March 31, 2021 December 31, 2020 2021 2020 2019 Revenue: Advertising $ 32,639 $ 28,276 $ 28,580 $ 25,439 $ 27,187 $ 114,934 $ 84,169 $ 69,655 Other revenue 155 176 192 198 168 721 657 541 Family of Apps 32,794 28,452 28,772 25,637 27,355 115,655 84,826 70,196 Reality Labs 877 558 305 534 717 2,274 1,139 501 Total revenue $ 33,671 $ 29,010 $ 29,077 $ 26,171 $ 28,072 $ 117,929 $ 85,965 $ 70,697 Income (loss) from operations: Family of Apps $ 15,889 $ 13,054 $ 14,799 $ 13,205 $ 14,874 $ 56,946 $ 39,294 $ 28,489 Reality Labs (3,304) (2,631) (2,432) (1,827) (2,099) (10,193) (6,623) (4,503) Total income from operations $ 12,585 $ 10,423 $ 12,367 $ 11,378 $ 12,775 $ 46,753 $ 32,671 $ 23,986 2 CFO Outlook Commentary We expect first quarter 2022 total revenue to be in the range of $27-29 billion, which represents 3-11% year-over-year growth. We expect our year-over-year growth in the first quarter to be impacted by headwinds to both impression and price growth. • On the impressions side, we expect continued headwinds from both increased competition for people's time and a shift of engagement within our apps towards video surfaces like Reels, which monetize at lower rates than Feed and Stories. • On the pricing side, we expect growth to be negatively impacted by a few factors: – First, we will lap a period in which Apple's iOS changes were not in effect and we anticipate modestly increasing ad targeting and measurement headwinds from platform and regulatory changes. – Second, we will lap a period of strong demand in the prior year and we're hearing from advertisers that macroeconomic challenges like cost inflation and supply chain disruptions are impacting advertiser budgets. – Finally, based on current exchange rates, we expect foreign currency to be a headwind to year-over-year growth. In addition, as previously noted, we also continue to monitor developments regarding the viability of transatlantic data transfers and their potential impact on our European operations. We expect 2022 total expenses to be in the range of $90-95 billion, updated from our prior outlook of $91-97 billion. Our anticipated expense growth is driven by investments in technical and product talent and infrastructure-related costs. We expect 2022 capital expenditures, including principal payments on finance leases, to be in the range of $29-34 billion, unchanged from our prior estimate. Our planned capital expenditures are primarily driven by investments in data centers, servers, network infrastructure, and office facilities. As we discussed previously, this range reflects a significant increase in our artificial intelligence and machine learning investments, which will support a number of areas across our Family of Apps. While our Reality Labs products and services may require more infrastructure capacity in the future, they do not require substantial capacity today and, as a result, are not a significant driver of 2022 capital expenditures. Absent any changes to U.S. tax law, we expect our full-year 2022 tax rate to be similar to the full-year 2021 rate. 3 Ticker Symbol Change to META Meta's Class A common stock is expected to begin trading on NASDAQ under the ticker symbol 'META' in the first half of 2022. This will replace the current ticker symbol 'FB,' which has been used since the company's initial public offering in 2012, and more details on exact timing will be forthcoming. No action is required by our stockholders with respect to the ticker symbol change and it does not affect the rights of our stockholders. Our Class A common stock will continue to be listed on NASDAQ and the CUSIP number will remain unchanged. 4 Webcast and
+Document
+Meta Reports Fourth Quarter and Full Year 2021 Results
+MENLO PARK, Calif. – February 2, 2022 – Meta Platforms, Inc. (Nasdaq: FB) today reported financial results for the quarter and full year ended December 31, 2021.
+"We had a solid quarter as people turned to our products to stay connected and businesses continued to use our services to grow," said Mark Zuckerberg, Meta founder and CEO. "I'm encouraged by the progress we made this past year in a number of important growth areas like Reels, commerce, and virtual reality, and we'll continue investing in these and other key priorities in 2022 as we work towards building the metaverse."
+Fourth Quarter and Full Year 2021 Financial Highlights
+Three Months Ended December 31,
+Year-over-Year % Change
+Year Ended December 31,
+Year-over-Year % Change
+In millions, except percentages and per share amounts
+2021
+2020
+2021
+2020
+Total revenue
+$
+33,671
+$
+28,072
+20
+%
+$
+117,929
+$
+85,965
+37
+%
+Total costs and expenses
+21,086
+15,297
+38
+%
+71,176
+53,294
+34
+%
+Income from operations
+$
+12,585
+$
+12,775
+(1)
+%
+$
+46,753
+$
+32,671
+43
+%
+Operating margin
+37
+%
+46
+%
+40
+%
+38
+%
+Provision for income taxes
+$
+2,417
+$
+1,836
+32
+%
+$
+7,914
+$
+4,034
+96
+%
+Effective tax rate
+19
+%
+14
+%
+17
+%
+12
+%
+Net income
+$
+10,285
+$
+11,219
+(8)
+%
+$
+39,370
+$
+29,146
+35
+%
+Diluted earnings per share (EPS)
+$
+3.67
+$
+3.88
+(5)
+%
+$
+13.77
+$
+10.09
+36
+%
+Fourth Quarter and Full Year 2021 Operational and Other Financial Highlights
+•
+Family daily active people (DAP)
+– DAP was 2.82 billion on average for December 2021, an increase of 8% year-over-year.
+•
+Family monthly active people (MAP)
+– MAP was 3.59 billion as of December 31, 2021, an increase of 9% year-over-year.
+•
+Facebook daily active users (DAUs)
+– DAUs were 1.93 billion on average for December 2021, an increase of 5% year-over-year.
+•
+Facebook monthly active users (MAUs)
+– MAUs were 2.91 billion as of December 31, 2021, an increase of 4% year-over-year.
+•
+Ad impressions and price per ad
+– In the fourth quarter of 2021, ad impressions delivered across our Family of Apps increased by 13% year-over-year and the average price per ad increased by 6% year-over-year. For the full year 2021, ad impressions increased by 10% year-over-year and the average price per ad increased by 24% year-over-year.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $5.54 billion and $19.24 billion for the fourth quarter and full year 2021, respectively.
+•
+Share repurchases
+– We repurchased $19.18 billion and $44.81 billion of our Class A common stock in the fourth quarter and full year 2021, respectively. As of December 31, 2021, we had $38.79 billion available and authorized for repurchases.
+•
+Cash and cash equivalents and marketable securities
+– Cash and cash equivalents and marketable securities were $48.0 billion as of December 31, 2021.
+•
+Headcount
+– Headcount
+was 71,970 as of December 31, 2021, an increase of 23% year-over-year.
+1
+New Financial Reporting Segment Structure and Operating Results
+Beginning in the fourth quarter of 2021, we report our financial results based on two reportable segments:
+•
+Family of Apps (FoA)
+, which includes Facebook, Instagram, Messenger, WhatsApp and other services.
+•
+Reality Labs (RL)
+, which includes augmented and virtual reality related consumer hardware, software and content.
+Segment Information
+(In millions)
+(Unaudited)
+Three Months Ended
+Year Ended December 31,
+December 31, 2021
+September 30, 2021
+June 30, 2021
+March 31, 2021
+December 31, 2020
+2021
+2020
+2019
+Revenue:
+Advertising
+$
+32,639
+$
+28,276
+$
+28,580
+$
+25,439
+$
+27,187
+$
+114,934
+$
+84,169
+$
+69,655
+Other revenue
+155
+176
+192
+198
+168
+721
+657
+541
+Family of Apps
+32,794
+28,452
+28,772
+25,637
+27,355
+115,655
+84,826
+70,196
+Reality Labs
+877
+558
+305
+534
+717
+2,274
+1,139
+501
+Total revenue
+$
+33,671
+$
+29,010
+$
+29,077
+$
+26,171
+$
+28,072
+$
+117,929
+$
+85,965
+$
+70,697
+Income (loss) from operations:
+Family of Apps
+$
+15,889
+$
+13,054
+$
+14,799
+$
+13,205
+$
+14,874
+$
+56,946
+$
+39,294
+$
+28,489
+Reality Labs
+(3,304)
+(2,631)
+(2,432)
+(1,827)
+(2,099)
+(10,193)
+(6,623)
+(4,503)
+Total income from operations
+$
+12,585
+$
+10,423
+$
+12,367
+$
+11,378
+$
+12,775
+$
+46,753
+$
+32,671
+$
+23,986
+2
+CFO Outlook Commentary
+We expect first quarter 2022 total revenue to be in the range of $27-29 billion, which represents 3-11% year-over-year growth. We expect our year-over-year growth in the first quarter to be impacted by headwinds to both impression and price growth.
+•
+On the impressions side, we expect continued headwinds from both increased competition for people's time and a shift of engagement within our apps towards video surfaces like Reels, which monetize at lower rates than Feed and Stories.
+•
+On the pricing side, we expect growth to be negatively impacted by a few factors:
+–
+First, we will lap a period in which Apple's iOS changes were not in effect and we anticipate modestly increasing ad targeting and measurement headwinds from platform and regulatory changes.
+–
+Second, we will lap a period of strong demand in the prior year and we're hearing from advertisers that macroeconomic challenges like cost inflation and supply chain disruptions are impacting advertiser budgets.
+–
+Finally, based on current exchange rates, we expect foreign currency to be a headwind to year-over-year growth.
+In addition, as previously noted, we also continue to monitor developments regarding the viability of transatlantic data transfers and their potential impact on our European operations.
+We expect 2022 total expenses to be in the range of $90-95 billion, updated from our prior outlook of $91-97 billion. Our anticipated expense growth is driven by investments in technical and product talent and infrastructure-related costs.
+We expect 2022 capital expenditures, including principal payments on finance leases, to be in the range of $29-34 billion, unchanged from our prior estimate. Our planned capital expenditures are primarily driven by investments in data centers, servers, network infrastructure, and office facilities. As we discussed previously, this range reflects a significant increase in our artificial intelligence and machine learning investments, which will support a number of areas across our Family of Apps. While our Reality Labs products and services may require more infrastructure capacity in the future, they do not require substantial capacity today and, as a result, are not a significant driver of 2022 capital expenditures.
+Absent any changes to U.S. tax law, we expect our full-year 2022 tax rate to be similar to the full-year 2021 rate.
+3
+Ticker Symbol Change to META
+Meta's Class A common stock is expected to begin trading on NASDAQ under the ticker symbol 'META' in the first half of 2022. This will replace the current ticker symbol 'FB,' which has been used since the company's initial public offering in 2012, and more details on exact timing will be forthcoming. No action is required by our stockholders with respect to the ticker symbol change and it does not affect the rights of our stockholders. Our Class A common stock will continue to be listed on NASDAQ and the CUSIP number will remain unchanged.
+4
+Webcast and

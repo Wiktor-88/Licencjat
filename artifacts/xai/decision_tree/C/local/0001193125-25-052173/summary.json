@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "AMD",
+    "Accession": "0001193125-25-052173",
+    "Filing_Date": "2025-03-11",
+    "Feature_Cutoff_Session": "2025-03-11",
+    "Event_Session": "2025-03-12T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "false_negative"
+  },
+  "prediction": {
+    "Leaf_Node": 7,
+    "Probability_Class_1": 0.0,
+    "Prediction": 0,
+    "Path_Length": 4
+  }
+}

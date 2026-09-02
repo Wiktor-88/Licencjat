@@ -1,1 +1,101 @@
-Document Meta Reports First Quarter 2025 Results MENLO PARK, Calif. – April 30, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2025. "We've had a strong start to an important year, our community continues to grow and our business is performing very well," said Mark Zuckerberg, Meta founder and CEO. "We're making good progress on AI glasses and Meta AI, which now has almost 1 billion monthly actives." First Quarter 2025 Financial Highlights Three Months Ended March 31, % Change In millions, except percentages and per share amounts 2025 2024 Revenue $ 42,314 $ 36,455 16 % Costs and expenses 24,759 22,637 9 % Income from operations $ 17,555 $ 13,818 27 % Operating margin 41 % 38 % Provision for income taxes $ 1,738 $ 1,814 (4) % Effective tax rate 9 % 13 % Net income $ 16,644 $ 12,369 35 % Diluted earnings per share (EPS) $ 6.43 $ 4.71 37 % First Quarter 2025 Operational and Other Financial Highlights • Family daily active people (DAP) – DAP was 3.43 billion on average for March 2025, an increase of 6% year-over-year. • Ad impressions – Ad impressions delivered across our Family of Apps increased by 5% year-over-year. • Average price per ad – Average price per ad increased by 10% year-over-year. • Revenue – Revenue was $42.31 billion, an increase of 16% year-over-year. Revenue on a constant currency basis would have increased 19% year-over-year. • Costs and expenses – Total costs and expenses were $24.76 billion, an increase of 9% year-over-year. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $13.69 billion. • Capital return program – Share repurchases of our Class A common stock were $13.40 billion and total dividend and dividend equivalent payments were $1.33 billion. • Cash, cash equivalents, and marketable securities – Cash, cash equivalents, and marketable securities were $70.23 billion as of March 31, 2025. Cash flow from operating activities was $24.03 billion and free cash flow was $10.33 billion. (1) • Headcount – Headcount was 76,834 as of March 31, 2025, an increase of 11% year-over-year. ____________________________________ (1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release. 1 CFO Outlook Commentary We expect second quarter 2025 total revenue to be in the range of $42.5-45.5 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates. We expect full year 2025 total expenses to be in the range of $113-118 billion, lowered from our prior outlook of $114-119 billion. We anticipate our full year 2025 capital expenditures, including principal payments on finance leases, will be in the range of $64-72 billion, increased from our prior outlook of $60-65 billion. This updated outlook reflects additional data center investments to support our artificial intelligence efforts as well as an increase in the expected cost of infrastructure hardware. The majority of our capital expenditures in 2025 will continue to be directed to our core business. Absent any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12-15%. In addition, we continue to monitor an active regulatory landscape, including legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results. The European Commission (EC) recently announced its decision that our subscription for no ads model is not compliant with the Digital Markets Act (DMA). Based on feedback from the EC in connection with the DMA, we expect we will need to make some modifications to our model, which could result in a materially worse user experience for European users and a significant impact to our European business and revenue as early as the third quarter of 2025. We will appeal the EC's DMA decision but any modifications to our model may be imposed before or during the appeal process. 2 Webcast and
+Document
+Meta Reports First Quarter 2025 Results
+MENLO PARK, Calif. – April 30, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended March 31, 2025.
+"We've had a strong start to an important year, our community continues to grow and our business is performing very well," said Mark Zuckerberg, Meta founder and CEO. "We're making good progress on AI glasses and Meta AI, which now has almost 1 billion monthly actives."
+First Quarter 2025 Financial Highlights
+Three Months Ended March 31,
+% Change
+In millions, except percentages and per share amounts
+2025
+2024
+Revenue
+$
+42,314
+$
+36,455
+16
+%
+Costs and expenses
+24,759
+22,637
+9
+%
+Income from operations
+$
+17,555
+$
+13,818
+27
+%
+Operating margin
+41
+%
+38
+%
+Provision for income taxes
+$
+1,738
+$
+1,814
+(4)
+%
+Effective tax rate
+9
+%
+13
+%
+Net income
+$
+16,644
+$
+12,369
+35
+%
+Diluted earnings per share (EPS)
+$
+6.43
+$
+4.71
+37
+%
+First Quarter 2025 Operational and Other Financial Highlights
+•
+Family daily active people (DAP)
+– DAP was 3.43 billion on average for March 2025, an increase of 6% year-over-year.
+•
+Ad impressions
+– Ad impressions delivered across our Family of Apps increased by 5% year-over-year.
+•
+Average price per ad
+– Average price per ad increased by 10% year-over-year.
+•
+Revenue
+– Revenue was $42.31 billion, an increase of 16% year-over-year. Revenue on a constant currency basis would have increased 19% year-over-year.
+•
+Costs and expenses
+– Total costs and expenses were $24.76 billion, an increase of 9% year-over-year.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $13.69 billion.
+•
+Capital return program
+– Share repurchases of our Class A common stock were $13.40 billion and total dividend and dividend equivalent payments were $1.33 billion.
+•
+Cash, cash equivalents, and marketable securities
+– Cash, cash equivalents, and marketable securities were $70.23 billion as of March 31, 2025. Cash flow from operating activities was $24.03 billion and free cash flow was $10.33 billion.
+(1)
+•
+Headcount
+– Headcount
+was 76,834 as of March 31, 2025, an increase of 11% year-over-year.
+____________________________________
+(1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release.
+1
+CFO Outlook Commentary
+We expect second quarter 2025 total revenue to be in the range of $42.5-45.5 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates.
+We expect full year 2025 total expenses to be in the range of $113-118 billion, lowered from our prior outlook of $114-119 billion.
+We anticipate our full year 2025 capital expenditures, including principal payments on finance leases, will be in the range of $64-72 billion, increased from our prior outlook of $60-65 billion. This updated outlook reflects additional data center investments to support our artificial intelligence efforts as well as an increase in the expected cost of infrastructure hardware. The majority of our capital expenditures in 2025 will continue to be directed to our core business.
+Absent any changes to our tax landscape, we expect our full year 2025 tax rate to be in the range of 12-15%.
+In addition, we continue to monitor an active regulatory landscape, including legal and regulatory headwinds in the EU and the U.S. that could significantly impact our business and our financial results. The European Commission (EC) recently announced its decision that our subscription for no ads model is not compliant with the Digital Markets Act (DMA). Based on feedback from the EC in connection with the DMA, we expect we will need to make some modifications to our model, which could result in a materially worse user experience for European users and a significant impact to our European business and revenue as early as the third quarter of 2025. We will appeal the EC's DMA decision but any modifications to our model may be imposed before or during the appeal process.
+2
+Webcast and

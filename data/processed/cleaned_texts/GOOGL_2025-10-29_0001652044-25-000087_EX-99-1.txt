@@ -1,1 +1,163 @@
-Document Exhibit 99.1 Alphabet Announces Third Quarter 2025 Results MOUNTAIN VIEW, Calif. – October 29, 2025 – Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended September 30, 2025. • Consolidated Alphabet revenues in Q3 2025 increased 16%, or 15% in constant currency, year over year to $102.3 billion. Google Search & other, YouTube ads, Google subscriptions, platforms, and devices, and Google Cloud each delivered double-digit growth in Q3. • Google Services revenues increased 14% to $87.1 billion, reflecting robust performance across Google Search & other, Google subscriptions, platforms, and devices, and YouTube ads. • Google Cloud revenues increased 34% to $15.2 billion, led by growth in Google Cloud Platform (GCP) across core products, AI Infrastructure and Generative AI Solutions. • Total operating income increased 9% and operating margin was 30.5%. Excluding the $3.5 billion charge related to the European Commission (EC) fine, operating income increased 22% and operating margin was 33.9%, benefitting from strong revenue growth and continued efficiencies in the expense base. • Other income reflected a net gain of $12.8 billion, primarily the result of net unrealized gains on our non-marketable equity securities. • Net income increased 33% and EPS increased 35% to $2.87. • With the growth across our business and demand from Cloud customers, we now expect 2025 capital expenditures to be in a range of $91 billion to $93 billion. “Alphabet had a terrific quarter, with double-digit growth across every major part of our business. We delivered our first-ever $100 billion quarter,” said Sundar Pichai, CEO of Alphabet and Google. “Our full stack approach to AI is delivering strong momentum and we’re shipping at speed, including the global rollout of AI Overviews and AI Mode in Search in record time. In addition to topping leaderboards, our first party models, like Gemini, now process 7 billion tokens per minute, via direct API use by our customers. The Gemini App now has over 650 million monthly active users. We continue to drive strong growth in new businesses. Google Cloud accelerated, ending the quarter with $155 billion in backlog. And we have over 300 million paid subscriptions led by Google One and YouTube Premium.” “We are investing to meet customer demand and capitalize on the growing opportunities across the company.” Q3 2025 Financial Highlights (unaudited) The following table summarizes our consolidated financial results for the quarters ended September 30, 2024 and 2025 (in millions, except for per share information and percentages). Quarter Ended September 30, 2024 2025 Revenues $ 88,268 $ 102,346 Change in revenues year over year 15 % 16 % Change in constant currency revenues year over year (1) 16 % 15 % Operating income $ 28,521 $ 31,228 Operating margin 32 % 31 % Other income (expense), net $ 3,185 $ 12,759 Net income $ 26,301 $ 34,979 Diluted EPS $ 2.12 $ 2.87 (1) Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details. Q3 2025 Supplemental Information (in millions, except for number of employees; unaudited) Revenues, Traffic Acquisition Costs (TAC), and Number of Employees Quarter Ended September 30, 2024 2025 Google Search & other $ 49,385 $ 56,567 YouTube ads 8,921 10,261 Google Network 7,548 7,354 Google advertising 65,854 74,182 Google subscriptions, platforms, and devices 10,656 12,870 Google Services total 76,510 87,052 Google Cloud 11,353 15,157 Other Bets 388 344 Hedging gains (losses) 17 (207) Total revenues $ 88,268 $ 102,346 Total TAC $ 13,719 $ 14,876 Number of employees 181,269 190,167 Segment Operating Results Quarter Ended September 30, 2024 2025 Operating income (loss): Google Services (1) $ 30,856 $ 33,527 Google Cloud 1,947 $ 3,594 Other Bets (1,116) $ (1,426) Alphabet-level activities (2) (3,166) $ (4,467) Total income from operations $ 28,521 $ 31,228 (1) Includes the EC fine of $3.5 billion for the three months ended September 30, 2025. (2) In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $17 million and $(207) million for the three months ended September 30, 2024 and 2025, respectively. Alphabet-level activities include charges related to employee severance and office space charges. Additional Information Relating to the Quarter Ended September 30, 2025 (unaudited) EC Fine On September 5, 2025, the EC announced its decision that Google had infringed European competition laws. The EC decision imposed a $3.5 billion fine which we accrued in general and administrative expenses in our Google Services segment for the three months ended September 30, 2025. U.S. Tax Law Changes to U.S. tax law enacted on July 4, 2025, allow, among other things, for immediate expensing of domestic research and experimentation costs and accelerated depreciation on eligible capital expenditures, the effects of which are included in operating cash flows for the three months ended September 30, 2025. Dividend Program Alphabet’s Board of Directors declared a quarterly cash dividend of $0.21 payable on December 15, 2025 to stockholders of record for each of the Company’s Class A, Class B, and Class C shares as of December 8, 2025. 2 Webcast and
+Document
+Exhibit 99.1
+Alphabet Announces Third Quarter 2025 Results
+MOUNTAIN VIEW, Calif.
+– October 29, 2025 –
+Alphabet Inc. (NASDAQ: GOOG, GOOGL) today announced financial results for the quarter ended September 30, 2025.
+•
+Consolidated Alphabet revenues in Q3 2025 increased 16%, or 15% in constant currency, year over year to $102.3 billion. Google Search & other, YouTube ads, Google subscriptions, platforms, and devices, and Google Cloud each delivered double-digit growth in Q3.
+•
+Google Services revenues increased 14% to $87.1 billion, reflecting robust performance across Google Search & other, Google subscriptions, platforms, and devices, and YouTube ads.
+•
+Google Cloud revenues increased 34% to $15.2 billion, led by growth in Google Cloud Platform (GCP) across core products, AI Infrastructure and Generative AI Solutions.
+•
+Total operating income increased 9% and operating margin was 30.5%. Excluding the $3.5 billion charge related to the European Commission (EC) fine, operating income increased 22% and operating margin was 33.9%, benefitting from strong revenue growth and continued efficiencies in the expense base.
+•
+Other income reflected a net gain of $12.8 billion, primarily the result of net unrealized gains on our non-marketable equity securities.
+•
+Net income increased 33% and EPS increased 35% to $2.87.
+•
+With the growth across our business and demand from Cloud customers, we now expect 2025 capital expenditures to be in a range of $91 billion to $93 billion.
+“Alphabet had a terrific quarter, with double-digit growth across every major part of our business. We delivered our first-ever $100 billion quarter,” said Sundar Pichai, CEO of Alphabet and Google.
+“Our full stack approach to AI is delivering strong momentum and we’re shipping at speed, including the global rollout of AI Overviews and AI Mode in Search in record time. In addition to topping leaderboards, our first party models, like Gemini, now process 7 billion tokens per minute, via direct API use by our customers. The Gemini App now has over 650 million monthly active users. We continue to drive strong growth in new businesses. Google Cloud accelerated, ending the quarter with $155 billion in backlog. And we have over 300 million paid subscriptions led by Google One and YouTube Premium.”
+“We are investing to meet customer demand and capitalize on the growing opportunities across the company.”
+Q3 2025 Financial Highlights
+(unaudited)
+The following table summarizes our consolidated financial results for the quarters ended September 30, 2024 and 2025 (in millions, except for per share information and percentages).
+Quarter Ended September 30,
+2024
+2025
+Revenues
+$
+88,268
+$
+102,346
+Change in revenues year over year
+15
+%
+16
+%
+Change in constant currency revenues year over year
+(1)
+16
+%
+15
+%
+Operating income
+$
+28,521
+$
+31,228
+Operating margin
+32
+%
+31
+%
+Other income (expense), net
+$
+3,185
+$
+12,759
+Net income
+$
+26,301
+$
+34,979
+Diluted EPS
+$
+2.12
+$
+2.87
+(1)
+Non-GAAP measure. See the section captioned “Reconciliation from GAAP Revenues to Non-GAAP Constant Currency Revenues and GAAP Percentage Change in Revenues to Non-GAAP Percentage Change in Constant Currency Revenues” for more details.
+Q3 2025 Supplemental Information
+(in millions, except for number of employees; unaudited)
+Revenues, Traffic Acquisition Costs (TAC), and Number of Employees
+Quarter Ended September 30,
+2024
+2025
+Google Search & other
+$
+49,385
+$
+56,567
+YouTube ads
+8,921
+10,261
+Google Network
+7,548
+7,354
+Google advertising
+65,854
+74,182
+Google subscriptions, platforms, and devices
+10,656
+12,870
+Google Services total
+76,510
+87,052
+Google Cloud
+11,353
+15,157
+Other Bets
+388
+344
+Hedging gains (losses)
+17
+(207)
+Total revenues
+$
+88,268
+$
+102,346
+Total TAC
+$
+13,719
+$
+14,876
+Number of employees
+181,269
+190,167
+Segment Operating Results
+Quarter Ended September 30,
+2024
+2025
+Operating income (loss):
+Google Services
+(1)
+$
+30,856
+$
+33,527
+Google Cloud
+1,947
+$
+3,594
+Other Bets
+(1,116)
+$
+(1,426)
+Alphabet-level activities
+(2)
+(3,166)
+$
+(4,467)
+Total income from operations
+$
+28,521
+$
+31,228
+(1)
+Includes the EC fine of $3.5 billion for the three months ended September 30, 2025.
+(2)
+In addition to the costs included in Alphabet-level activities, hedging gains (losses) related to revenue were $17 million and $(207) million for the three months ended September 30, 2024 and 2025, respectively. Alphabet-level activities include charges related to employee severance and office space charges.
+Additional Information Relating to the Quarter Ended September 30, 2025
+(unaudited)
+EC Fine
+On September 5, 2025, the EC announced its decision that Google had infringed European competition laws. The EC decision imposed a $3.5 billion fine which we accrued in general and administrative expenses in our Google Services segment for the three months ended September 30, 2025.
+U.S. Tax Law
+Changes to U.S. tax law enacted on July 4, 2025, allow, among other things, for immediate expensing of domestic research and experimentation costs and accelerated depreciation on eligible capital expenditures, the effects of which are included in operating cash flows for the three months ended September 30, 2025.
+Dividend Program
+Alphabet’s Board of Directors declared a quarterly cash dividend of $0.21 payable on December 15, 2025 to stockholders of record for each of the Company’s Class A, Class B, and Class C shares as of December 8, 2025.
+2
+Webcast and

@@ -1,1 +1,292 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Suresh Bhaskaran
+AMD Investor Relations
+408-749-2845
+suresh.bhaskaran@amd.com
+AMD Reports First Quarter 2023 Financial Results
+SANTA CLARA, Calif. ― May 2, 2023 ―
+AMD (NASDAQ:AMD) today announced revenue for the first quarter of 2023 of $5.4 billion, gross margin of 44%, operating loss of $145 million, net loss of $
+139 million
+and diluted loss per share of
+$0.09
+. On a non-GAAP
+(*)
+basis, gross margin was 50%, operating income was $1.1 billion, net income was $970 million and diluted earnings per share was $0.60.
+“We executed very well in the first quarter as we delivered better than expected revenue and earnings in a mixed demand environment," said AMD Chair and CEO Dr. Lisa Su. "We launched multiple leadership products and made significant progress accelerating our AI roadmap and customer engagements in the quarter. Longer-term, we see significant growth opportunities as we successfully deliver our roadmaps, execute our strategic data center and embedded priorities and accelerate adoption of our AI portfolio."
+“Our strategically important Data Center and Embedded segments contributed more than 50 percent of revenue in the first quarter," said AMD EVP, CFO and Treasurer Jean Hu. "For the second quarter we expect sequential growth in our Data Center and Client segments offset by modest declines in our Gaming and Embedded segments. We remain confident in our growth in the second half of the year as the PC and server markets strengthen and our new products ramp.”
+GAAP Quarterly Financial Results
+Q1 2023
+Q1 2022
+Y/Y
+Revenue ($M)
+$5,353
+$5,887
+Down 9%
+Gross profit ($M)
+$2,359
+$2,818
+Down 16%
+Gross margin %
+44%
+48%
+Down 4 ppts
+Operating expenses ($M)
+$2,514
+$1,950
+Up 29%
+Operating income (loss) ($M)
+$(145)
+$951
+Down 115%
+Operating margin %
+(3)%
+16%
+Down 19 ppts
+Net income (loss) ($M)
+$(139)
+$786
+Down 118%
+Earnings (loss) per share
+$(0.09)
+$0.56
+Down 116%
+1
+Non-GAAP(*) Quarterly Financial Results
+Q1 2023
+Q1 2022
+Y/Y
+Revenue ($M)
+$5,353
+$5,887
+Down 9%
+Gross profit ($M)
+$2,675
+$3,100
+Down 14%
+Gross margin %
+50%
+53%
+Down 3 ppts
+Operating expenses ($M)
+$1,587
+$1,346
+Up 18%
+Operating income ($M)
+$1,098
+$1,837
+Down 40%
+Operating margin %
+21%
+31%
+Down 10 ppts
+Net income ($M)
+$970
+$1,589
+Down 39%
+Earnings per share
+$0.60
+$1.13
+Down 47%
+Recent PR Highlights
+•
+AMD continues to lead in confidential computing as major cloud service providers including Microsoft Azure, Google Cloud and Oracle Cloud Infrastructure announced new capabilities based on AMD EPYC™ processors.
+•
+AMD expanded capabilities for developers to build robust AI solutions leveraging AMD products including updates to the PyTorch Foundation’s PyTorch 2.0 framework which now offers native support for ROCm software and the latest TensorFlow-ZenDNN plug-in, which enables neural network inferencing on AMD EPYC CPUs.
+•
+AMD announced the AMD Alveo™ MA35D media accelerator to power a new era of live interactive streaming services at scale, featuring an integrated AI processor that dynamically adjusts video quality.
+•
+AMD expanded its embedded processor portfolio with powerful, scalable offerings for a variety of embedded applications:
+◦
+The AMD Ryzen™ Embedded 5000 Series processors deliver mid-range, scalable and efficient performance optimized for “always on” networking firewalls, network-attached storage systems and other security applications.
+◦
+The new AMD EPYC Embedded 9004 Series processors bring performance and energy efficiency to embedded networking, security and firewall, and storage systems in cloud and enterprise computing, as well as industrial edge servers.
+•
+AMD showcased its growing presence in the telco space, including announcing a Telco Solutions testing lab to support the validation of end-to-end AMD based solutions, launching Zynq™ UltraScale+™ RFSoC products to accelerate the deployment of 4G/5G radios in emerging markets, and expanding the collaboration with Nokia to power Nokia Cloud RAN solutions to help communications service providers achieve their most stringent energy efficiency goals.
+•
+AMD Ryzen mobile processors are powering new commercial, consumer and gaming experiences.
+2
+◦
+The new AMD Ryzen Z1 and Z1 Extreme processors, featuring AMD RDNA 3 architecture-based graphics, bring ultimate portability and battery life to handheld PC gaming consoles, including the Asus ROG Ally.
+◦
+HPI announced hardware and software offerings for the hybrid workplace powered by next-gen Ryzen processors. HPI also announced the next generation OMEN 16 and Victus 16 laptops featuring up to an AMD Ryzen 9 7940HS processor.
+◦
+Lenovo announced the Legion Slim 7 featuring up to an AMD Ryzen 9 7940HS processor, as well as additions to the Yoga lineup featuring AMD Ryzen 7000 Series processors.
+◦
+AMD partnered with HPI to co-engineer their Dragonfly Pro powered by custom AMD Ryzen 7 7736U processors.
+◦
+Framework introduced AMD-powered versions of both their Framework Laptop 13 and newly announced Laptop 16
+.
+•
+Samsung and AMD announced they signed a multi-year agreement extension to bring multiple generations of high-performance, ultra-low-power AMD Radeon™ graphics solutions to an expanded portfolio of Samsung Exynos SoCs.
+•
+AMD announced the AMD Radeon PRO W7000 Series graphics, the first professional graphics cards built on the advanced AMD chiplet design to deliver leadership performance and unique features.
+•
+AMD FidelityFX
+TM
+Super Resolution technology is now supported in 250 available and upcoming games, 110 of which support FSR 2, the latest update to the cross-platform temporal upscaling technology.
+•
+AMD announced that Jack Huynh has been named senior vice president and general manager of Computing and Graphics following the retirement of Rick Bergman, the former executive vice president of Computing and Graphics
+.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the second quarter of 2023, AMD expects revenue to be approximately $5.3 billion, plus or minus $300 million. AMD expects non-GAAP gross margin to be approximately 50%.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its first quarter 2023 financial results. AMD will provide a real-time audio broadcast of the teleconference on the Investor Relations page of its website at www.amd.com.
+3
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+April 1,
+2023
+March 26,
+2022
+GAAP gross profit
+$
+2,359
+$
+2,818
+GAAP gross margin %
+44
+%
+48
+%
+Stock-based compensation
+8
+4
+Acquisition-related costs
+(1)
+3
+92
+Amortization of acquired intangible assets
+305
+186
+Non-GAAP gross profit
+$
+2,675
+$
+3,100
+Non-GAAP gross margin %
+50
+%
+53
+%
+GAAP operating expenses
+$
+2,514
+$
+1,950
+GAAP operating expenses/revenue %
+47
+%
+33
+%
+Stock-based compensation
+297
+170
+Acquisition-related costs
+(1)
+112
+141
+Amortization of acquired intangible assets
+518
+293
+Non-GAAP operating expenses
+$
+1,587
+$
+1,346
+Non-GAAP operating expenses/revenue %
+30
+%
+23
+%
+GAAP operating income (loss)
+$
+(145)
+$
+951
+GAAP operating margin %
+(3)
+%
+16
+%
+Stock-based compensation
+305
+174
+Acquisition-related costs
+(1)
+115
+233
+Amortization of acquired intangible assets
+823
+479
+Non-GAAP operating income
+$
+1,098
+$
+1,837
+Non-GAAP operating margin %
+21
+%
+31
+%
+Three Months Ended
+April 1,
+2023
+March 26,
+2022
+GAAP net income (loss) / earnings (loss) per share
+$
+(139)
+$
+(0.09)
+$
+786
+$
+0.56
+(Gains) losses on equity investments, net
+(1)
+—
+44
+0.03
+Stock-based compensation
+305
+0.19
+174
+0.12
+Equity income in investee
+(1)
+—
+(3)
+—
+Acquisition-related costs
+(1)
+115
+0.07
+233
+0.17
+Amortization of acquired intangible assets
+823
+0.51
+479
+0.34
+Income tax provision
+(132)
+(0.08)
+(124)
+(0.09)
+Non-GAAP net income / earnings per share
+970
+0.60
+1,589
+1.13
+(1)
+Acquisition-related costs primarily comprised of transaction costs, purchase price adjustments for inventory, certain compensation charges and contract termination.
+4

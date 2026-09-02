@@ -1,1 +1,118 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Second Quarter Fiscal 2024 Results
+Revenues: $9.4 billion
+GAAP EPS: $2.06, Non-GAAP EPS: $2.44
+—QCT Automotive: Design Win Pipeline Now Approximately $45 Billion
+1
+—
+—Increased Quarterly Cash Dividend to $3.40 Annualized Payout Per Share—
+SAN DIEGO - May 1, 2024
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal second quarter ended March 24, 2024.
+“We are pleased to report strong quarterly results, with EPS exceeding the high end of our guidance,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “We are excited about our continued growth and diversification, including achieving our third consecutive quarter of record QCT Automotive revenues, upcoming launches with our Snapdragon X platforms, and enabling leading on-device AI capabilities across multiple product categories.”
+Second Quarter Results
+2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q2 Fiscal 2024
+Q2 Fiscal 2023
+Change
+Q2 Fiscal 2024
+Q2 Fiscal 2023
+Change
+Revenues
+$9,389
+$9,275
++1%
+$9,386
+$9,268
++1%
+Earnings before taxes (EBT)
+$2,498
+$1,895
++32%
+$3,175
+$2,857
++11%
+Net income
+$2,326
+$1,704
++37%
+$2,761
+$2,420
++14%
+Diluted earnings per share (EPS)
+$2.06
+$1.52
++36%
+$2.44
+$2.15
++13%
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q2 Fiscal 2024
+Q2 Fiscal 2023
+Change
+Q2 Fiscal 2024
+Q2 Fiscal 2023
+Change
+Revenues
+$8,026
+$7,942
++1%
+$1,318
+$1,290
++2%
+EBT
+$2,288
+$2,107
++9%
+$933
+$871
++7%
+EBT as % of revenues
+29%
+27%
++2 points
+71%
+68%
++3 points
+(1)  As of May 1, 2024. The design win pipeline reflects the current estimated future size of awarded automaker programs, based on forecasts provided directly by automakers and Tier-1 suppliers.
+(2)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Qualcomm Announces Second Quarter Fiscal 2024 Results
+Page 2 of 8
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q2 Fiscal 2024
+Q2 Fiscal 2023
+Change
+Handsets
+$6,180
+$6,105
++1%
+Automotive
+603
+447
++35%
+IoT
+1,243
+1,390
+(11%)
+Total QCT revenues
+$8,026
+$7,942
++1%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the second quarter of fiscal 2024, we returned $1.6 billion to stockholders, including $895 million, or $0.80 per share, of cash dividends paid and $731 million through repurchases of 5 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

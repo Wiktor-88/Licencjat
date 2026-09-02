@@ -1,1 +1,165 @@
-Exhibit 99.2 Qualcomm Contacts: Pete Lancia Corporate Communications Phone: 1-858-845-5959 email: corpcomm@qualcomm.com Mauricio Lopez-Hodoyan
+Exhibit 99.2
+Qualcomm Contacts:
+Pete Lancia
+Corporate Communications
+Phone: 1-858-845-5959
+email: corpcomm@qualcomm.com
+Mauricio Lopez-Hodoyan
+Investor Relations
+Phone: 1-858-658-4813
+email: ir@qualcomm.com
+Information Agent Contact:
+Global Bondholder Services Corporation
+Phone: 1-866-470-3900 (toll free)
+1-212-430-3774 (collect)
+Qualcomm Announces Cash Offers for
+Four Series of Notes Open to Retail Holders Only
+SAN DIEGO – August 5, 2020
+– Qualcomm Incorporated
+(NASDAQ: QCOM) announced today the commencement of a transaction to repurchase four series of its outstanding notes totaling $7.0
+billion. The tender transaction consists of four separate offers to purchase for cash (each, a “Cash Offer,” and collectively,
+the “Cash Offers”) any and all of the outstanding notes listed in the table below (collectively, the “Old Notes”),
+on the terms and subject to the conditions set forth in the Offer to Purchase dated August 5, 2020 (the “Offer to Purchase”
+and, together with the certification to participate in the Cash Offers, the instructions for such certification and the notice
+of guaranteed delivery, the “Cash Offer Documents”). The Cash Offers are subject to an aggregate maximum condition
+as set forth below.
+Only holders who are not “qualified institutional buyers”
+and who are not non-U.S. persons (other than “retail investors” in the European Economic Area or in the United Kingdom
+and investors in any province or territory of Canada that are individuals or that are institutions or other entities that do not
+qualify as both “accredited investors” and “permitted clients”) are eligible to participate in this transaction,
+as more fully described below. Concurrently with this transaction, Qualcomm also announced today the commencement of a transaction
+to exchange such four series of notes pursuant to private exchange offers (each, an “Exchange Offer” and collectively,
+the “Exchange Offers”), which are open only to Ineligible Holders (as defined below).
+The Cash Offers will expire at 5:00 p.m., New York City time,
+on August 11, 2020, unless extended or earlier terminated by Qualcomm (the “Cash Offer Expiration Date”). Tenders
+of Old Notes submitted in the Cash Offers may be validly withdrawn at any time at or prior to 5:00 p.m., New York City time, on
+August 11, 2020, subject to any extension by Qualcomm, but thereafter will be irrevocable, except in certain limited circumstances
+where additional withdrawal rights are required by law (as determined by Qualcomm). The “Cash Offer Settlement Date”
+will be promptly following the Cash Offer Expiration Date and is expected to be August 14, 2020.
+Title of Series of Old
+Notes to be Purchased
+Principal Amount
+Outstanding (mm)
+CUSIP/
+ISIN No.
+Reference U.S.
+Treasury Security
+Fixed Spread
+(basis points)
+Bloomberg
+Reference
+Screen
+3.000% Notes due 2022
+(“Old 2022 Notes”)
+$
+2,000.00
+747525AE3; US747525AE30
+1.750% U.S. Treasury
+Notes due May 15, 2022
+15
+PX4
+2.600% Notes due 2023
+(“Old 2023 Notes”)
+$
+1,500.00
+747525AR4; US747525AR43
+2.125% U.S. Treasury
+Notes due December 31, 2022
+15
+PX5
+2.900% Notes due 2024
+(“Old 2024 Notes”)
+$
+1,500.00
+747525AT0; US747525AT09
+2.125% U.S. Treasury
+Notes due March 31, 2024
+15
+PX5
+3.450% Notes due 2025
+(“Old 2025 Notes”)
+$
+2,000.00
+747525AF0; US747525AF05
+2.000% U.S. Treasury
+Notes due February 15, 2025
+20
+PX6
+Upon the terms and subject to the conditions set forth in the
+Cash Offer Documents, Eligible Holders (as defined below) who (i) validly tender and who do not validly withdraw Old Notes at or
+prior to the Cash Offer Expiration Date or (ii) deliver a properly completed and duly executed notice of guaranteed delivery and
+all other required documents at or prior to the Cash Offer Expiration Date and tender their Old Notes pursuant to the Cash Offers
+at or prior to 5:00 p.m., New York City time, on the second business day after the applicable Cash Offer Expiration Date pursuant
+to guaranteed delivery procedures, expected to be August 13, 2020, subject in each case to the delivery of the certification
+to participate in the Cash Offers and tendering the applicable minimum denominations, and whose Old Notes are accepted for purchase
+by Qualcomm, will receive consideration in the Cash Offers equal to the applicable Tender Consideration (as defined in the Cash
+Offer Documents).
+We also intend to pay in cash accrued and unpaid interest on
+the Old Notes accepted for purchase from the last applicable interest payment date for the Old Notes to, but excluding, the Cash
+Offer Settlement Date (the “Accrued Coupon Payment”).
+The complete terms and conditions of the Cash Offer will be
+set forth in the Cash Offer Documents, each of which will be distributed to Eligible Holders in connection with the proposed Cash
+Offers. Each Cash Offer is subject to certain conditions, including (i) the timely satisfaction or waiver of all of the conditions
+precedent to the completion of the corresponding Exchange Offer for such series of Old Notes (with respect to each Exchange Offer,
+the “Exchange Offer Completion Condition”) and (ii) that the aggregate principal amount of cash payable by Qualcomm
+to Eligible Holders participating in the Cash Offers is no greater than $300 million before giving effect to the Accrued Coupon
+Payment (the “Aggregate Maximum Cash Offer Condition”). The Exchange Offers are subject to certain conditions, including
+that the aggregate principal amount of New 2028 Notes to be issued under the Exchange Offers must be equal to or greater than $500
+million (the “New 2028 Notes Minimum Condition”) and that the aggregate principal amount of New 2032 Notes to be issued
+under the Exchange Offers must be equal to or greater than $500 million (the “New 2032 Notes Minimum Condition,”
+and together with the New 2028 Notes Minimum Condition, the “Minimum Condition Requirements”). Qualcomm will terminate
+a Cash Offer for a given series of Old Notes if it terminates the Exchange Offer for such series of Old Notes, and Qualcomm will
+terminate the Exchange Offer for a given series of Old Notes if it terminates the Cash Offer for such series of Old Notes. The
+Exchange Offer Completion Condition may not be waived by Qualcomm; however, Qualcomm reserves the right, in its sole discretion,
+to waive the other conditions, including the Aggregate Maximum Cash Offer Condition and either Minimum Condition Requirement. If
+(i) the New 2028 Notes Minimum Condition is not satisfied, Qualcomm will not accept any Old 2022 Notes or Old 2023 Notes in the
+Exchange Offers and will terminate the corresponding Cash Offers for such notes and (ii) the New 2032 Notes Minimum Condition is
+not satisfied, Qualcomm will not accept any Old 2024 Notes or Old 2025 Notes in the Exchange Offers and will terminate the corresponding
+Cash Offers for such notes, in each case unless Qualcomm waives the applicable Minimum Condition Requirement. If the Aggregate
+Maximum Cash Offer Condition is not satisfied or waived, Qualcomm will terminate the Cash Offers and the Exchange Offers.
+Only holders of Old Notes who are not (i) “qualified
+institutional buyers” within the meaning of Rule 144A under the Securities Act of 1933, as amended (the “Securities
+Act”), and who are not (ii) non-U.S. persons (as defined in Rule 902 under the Securities Act) located outside of the United
+States within the meaning of Regulation S under the Securities Act, other than “retail investors” (as defined below)
+in the European Economic Area or the United Kingdom, are eligible to participate in the Cash Offers. For these purposes, a retail
+investor means a person who is one (or more) of: (i) a retail client as defined in point (11) of Article 4(1) of Directive 2014/65/EU
+(as amended, “MiFID II”); or (ii) a customer within the meaning of Directive 2002/92/EC (as amended, the “Insurance
+Mediation Directive”), where that customer would not qualify as a professional client as defined in point (10) of Article
+4(1) of MiFID II; or (iii) not a qualified investor as defined in Regulation (EU) 2017/1129 (as amended, the “Prospectus
+Regulation”). Holders of Old Notes located or resident in a province or territory of Canada will only be eligible to participate
+in the Cash Offers if they are (i) individuals; or (ii) institutions or other entities that do not qualify as both “accredited
+investors,” as such term is defined in National Instrument 45-106
+- Prospectus Exemptions
+(“NI 45-106”)
+of the Canadian Securities Administrators or Section 73.3(1) of the Securities Act (Ontario), and “permitted clients,”
+as such term is defined in National Instrument 31-103
+- Registration Requirements, Exemptions and Ongoing Registrant Obligations
+(“NI 31-103”) of the Canadian Securities Administrators. We refer to holders who meet the foregoing criteria in
+this paragraph as “Eligible Holders.” Qualcomm refers to holders of Old Notes who are not Eligible Holders as “Ineligible
+Holders.”
+2
+Only Eligible Holders who have delivered a certification
+to Global Bondholder Services Corporation, certifying that they are Eligible Holders, will be authorized to participate in the
+Cash Offers
+.
+Holders are advised to check with any bank, securities broker
+or other intermediary through which they hold Old Notes as to when such intermediary needs to receive instructions from a holder
+in order for that holder to be able to participate in, or (in the circumstances in which revocation is permitted) revoke their
+instruction to participate in the Cash Offers before the deadlines specified herein and in the Cash Offer Documents. The deadlines
+set by each clearing system for the submission and withdrawal of tender instructions will also be earlier than the relevant deadlines
+specified herein and in the Cash Offer Documents.
+This press release is not an offer to sell or a solicitation
+of an offer to buy any of the securities described herein. The Cash Offers are being made solely by the Cash Offer Documents and
+only to such persons and in such jurisdictions as is permitted under applicable law.
+Goldman Sachs & Co. LLC and Barclays Capital Inc. are
+acting as the Joint-Lead Dealer Managers for the Cash Offers, and Deutsche Bank Securities Inc., J.P. Morgan Securities LLC,
+Blaylock Van, LLC and Loop Capital Markets LLC are acting as Co-Dealer Managers for the Cash Offers. For additional
+information regarding the terms of the offer, please contact Goldman Sachs & Co. LLC at (800) 828-3182 (toll free), (212)
+902-6941 (collect) or GS-LM-NYC@gs.com or Barclays Capital Inc. at (800) 438-3242 (toll free), (212) 528-7581 (collect) or
+us.lm@barclays.com. Global Bondholder Services Corporation will act as the tender agent and information agent for the Cash
+Offers. Questions or requests for assistance related to the Cash Offers or for additional copies of the Cash Offer Documents
+may be directed to Global Bondholder Services Corporation at (866) 470-3900 (toll free) or (212) 430-3774 (collect). You may
+also contact your broker, dealer, commercial bank, trust company or other nominee for assistance concerning the Cash
+Offers.
+The Cash Offer Documents can be accessed at the following link:
+http://www.gbsc-usa.com/QUALCOMM/.

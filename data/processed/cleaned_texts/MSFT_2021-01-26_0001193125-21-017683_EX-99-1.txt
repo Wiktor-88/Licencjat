@@ -1,1 +1,68 @@
-EX-99.1 Exhibit 99.1 Microsoft Cloud Strength Drives Second Quarter Results REDMOND, Wash. — January 26, 2021 — Microsoft Corp. today announced the following results for the quarter ended December 31, 2020, as compared to the corresponding period of last fiscal year: • Revenue was $43.1 billion and increased 17% • Operating income was $17.9 billion and increased 29% • Net income was $15.5 billion and increased 33% • Diluted earnings per share was $2.03 and increased 34% “What we have witnessed over the past year is the dawn of a second wave of digital transformation sweeping every company and every industry,” said Satya Nadella, chief executive officer of Microsoft. “Building their own digital capability is the new currency driving every organization’s resilience and growth. Microsoft is powering this shift with the world’s largest and most comprehensive cloud platform.” “Accelerating demand for our differentiated offerings drove commercial cloud revenue to $16.7 billion, up 34% year over year,” said Amy Hood, executive vice president and chief financial officer of Microsoft. “We continue to benefit from our investments in strategic, high-growth areas.” Business Highlights Revenue in Productivity and Business Processes was $13.4 billion and increased 13% (up 11% in constant currency), with the following business highlights: • Office Commercial products and cloud services revenue increased 11% (up 9% in constant currency) driven by Office 365 Commercial revenue growth of 21% (up 20% in constant currency) • Office Consumer products and cloud services revenue increased 7% (up 6% in constant currency) and Microsoft 365 Consumer subscribers increased to 47.5 million • LinkedIn revenue increased 23% (up 22% in constant currency) • Dynamics products and cloud services revenue increased 21% (up 18% in constant currency) driven by Dynamics 365 revenue growth of 39% (up 37% in constant currency) Revenue in Intelligent Cloud was $14.6 billion and increased 23% (up 22% in constant currency), with the following business highlights: • Server products and cloud services revenue increased 26% (up 24% in constant currency) driven by Azure revenue growth of 50% (up 48% in constant currency) Revenue in More Personal Computing was $15.1 billion and increased 14% (up 13% in constant currency), with the following business highlights: • Windows OEM revenue increased 1% • Windows Commercial products and cloud services revenue increased 10% (up 8% in constant currency) • Xbox content and services revenue increased 40% (up 38% in constant currency) • Surface revenue increased 3% (up 1% in constant currency) • Search advertising revenue excluding traffic acquisition costs increased 2% (up 1% in constant currency) Microsoft returned $10 billion to shareholders in the form of share repurchases and dividends in the second quarter of fiscal year 2021, an increase of 18% compared to the second quarter of fiscal year 2020. Business Outlook Microsoft will provide forward-looking guidance in connection with this quarterly earnings announcement on its earnings conference call and webcast. Quarterly Highlights, Product Releases, and Enhancements Every quarter Microsoft delivers hundreds of products, either as new releases, services, or enhancements to current products and services. These releases are a result of significant research and development investments, made over multiple years, designed to help customers be more productive and secure and to deliver differentiated value across the cloud and the edge. Here are the major product releases and other highlights for the quarter, organized by product categories, to help illustrate how we are accelerating innovation across our businesses while expanding our market opportunities. Responding to COVID-19 At Microsoft, our focus remains on ensuring the safety of our employees, striving to protect the health and well-being of the communities in which we operate, and providing technology and resources to our customers and partners to help them do their best work while remote. Additional information
+EX-99.1
+Exhibit 99.1
+Microsoft Cloud Strength Drives Second Quarter Results
+REDMOND, Wash.  January
+26, 2021
+
+Microsoft Corp. today announced the following results for the quarter ended December 31, 2020, as compared to the corresponding period of last fiscal year:
+
+Revenue was $43.1 billion and increased 17%
+
+Operating income was $17.9 billion and increased 29%
+
+Net income was $15.5 billion and increased 33%
+
+Diluted earnings per share was $2.03 and increased 34%
+What we have witnessed over the past year is the dawn of a second wave of digital transformation sweeping every company and every
+industry, said Satya Nadella, chief executive officer of Microsoft. Building their own digital capability is the new currency driving every organizations resilience and growth. Microsoft is powering this shift with the worlds
+largest and most comprehensive cloud platform.
+Accelerating demand for our differentiated offerings drove commercial cloud
+revenue to $16.7 billion, up 34% year over year, said Amy Hood, executive vice president and chief financial officer of Microsoft. We continue to benefit from our investments in strategic, high-growth areas.
+Business Highlights
+Revenue in Productivity and Business Processes was $13.4 billion and increased 13% (up 11% in constant currency), with the following business
+highlights:
+
+Office Commercial products and cloud services revenue increased 11% (up 9% in constant currency)
+driven by Office 365 Commercial revenue growth of 21% (up 20% in constant currency)
+
+Office Consumer products and cloud services revenue increased 7% (up 6% in constant currency) and
+Microsoft 365 Consumer subscribers increased to 47.5 million
+
+LinkedIn revenue increased 23% (up 22% in constant currency)
+
+Dynamics products and cloud services revenue increased 21% (up 18% in constant currency) driven by
+Dynamics 365 revenue growth of 39% (up 37% in constant currency)
+Revenue in Intelligent Cloud was $14.6 billion
+and increased 23% (up 22% in constant currency), with the following business highlights:
+
+Server products and cloud services revenue increased 26% (up 24% in constant currency) driven by
+Azure revenue growth of 50% (up 48% in constant currency)
+Revenue in More Personal Computing was $15.1 billion
+and increased 14% (up 13% in constant currency), with the following business highlights:
+
+Windows OEM revenue increased 1%
+
+Windows Commercial products and cloud services revenue increased 10% (up 8% in constant currency)
+
+Xbox content and services revenue increased 40% (up 38% in constant currency)
+
+Surface revenue increased 3% (up 1% in constant currency)
+
+Search advertising revenue excluding traffic acquisition costs increased 2% (up 1% in constant
+currency)
+Microsoft returned $10 billion to shareholders in the form of share repurchases and dividends in the
+second quarter of fiscal year 2021, an increase of 18% compared to the second quarter of fiscal year 2020.
+Business Outlook
+Microsoft will provide forward-looking guidance in connection with this quarterly earnings announcement on its earnings conference
+call and webcast.
+Quarterly Highlights, Product Releases, and Enhancements
+Every quarter Microsoft delivers hundreds of products, either as new releases, services, or enhancements to current products and services. These
+releases are a result of significant research and development investments, made over multiple years, designed to help customers be more productive and secure and to deliver differentiated value across the cloud and the edge.
+Here are the
+major product releases and other highlights
+for the quarter, organized by product categories, to help illustrate how we are
+accelerating innovation across our businesses while expanding our market opportunities.
+Responding to
+COVID-19
+At Microsoft, our focus remains on ensuring the safety of our employees, striving to
+protect the health and well-being of the communities in which we operate, and providing technology and resources to our customers and partners to help them do their best work while remote. Additional information

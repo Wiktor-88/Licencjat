@@ -1,1 +1,196 @@
-EX-99.1 Exhibit 99.1 Microsoft announces early participation results of exchange offers May 14, 2020 REDMOND, Wash. — May 14 , 2020 — Microsoft Corp. (NASDAQ: MSFT) (“Microsoft”) announced today the early participation results of its offers to (i) exchange (the “Pool 1 Offer”) the ten series of notes described in the table below (collectively, the “Pool 1 Notes”) for a new series of Microsoft’s notes due June 1, 2050 (the “New 2050 Notes”) and a cash payment, as applicable: Pool 1 Table Title of Security CUSIP Number Principal Amount Outstanding Acceptance Priority Level Principal Amount Tendered (1) 4.875% Notes due 2043 594918AX2 $ 500,000,000 1 $ 316,270,000 5.300% Notes due 2041 594918AM6 $ 1,000,000,000 2 $ 224,322,000 4.450% Notes due 2045 594918BL7 $ 3,000,000,000 3 $ 1,774,667,000 4.250% Notes due 2047 594918CA0 $ 3,000,000,000 4 $ 1,443,710,000 5.200% Notes due 2039 594918AD6 $ 750,000,000 5 $ 191,415,000 4.500% Notes due 2040 594918AJ3 $ 1,000,000,000 6 $ 427,782,000 3.750% Notes due 2043 594918AU8 $ 500,000,000 7 $ 252,918,000 3.750% Notes due 2045 594918BD5 $ 1,750,000,000 8 $ 1,106,308,000 4.100% Notes due 2037 594918BZ6 $ 2,500,000,000 9 $ 1,568,040,000 4.200% Notes due 2035 594918BK9 $ 1,000,000,000 10 $ 324,503,000 (1) The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as of 5:00 p.m., New York City time, on May 13, 2020 (the “Early Exchange Time”), based on information provided by the exchange agent to Microsoft. and (ii) exchange (the “Pool 2 Offer” and, together with the Pool 1 Offer, the “Exchange Offers”) the four series of notes described in table below (collectively, the “Pool 2 Notes” and, together with the Pool 1 Notes, the “Existing Notes”) for a new series of Microsoft’s notes due June 1, 2060 (the “New 2060 Notes” and, together with the New 2050 Notes, the “New Notes”) and a cash payment, as applicable: Pool 2 Table Title of Security CUSIP Number Principal Amount Outstanding Acceptance Priority Level Principal Amount Tendered (1) 4.750% Notes due 2055 594918BM5 $ 1,000,000,000 1 $ 672,725,000 4.000% Notes due 2055 594918BE3 $ 2,250,000,000 2 $ 1,492,344,000 4.500% Notes due 2057 594918CB8 $ 2,000,000,000 3 $ 992,305,000 3.950% Notes due 2056 594918BU7 $ 2,250,000,000 4 $ 1,696,715,000 (1) The aggregate principal amounts of each series that have been validly tendered for exchange and not validly withdrawn, as of the Early Exchange Time, based on information provided by the exchange agent to Microsoft. In the Exchange Offers, according to the information provided by D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, $7,629,935,000 in aggregate principal amount of the Pool 1 Notes and $4,854,089,000 in aggregate principal amount of the Pool 2 Notes were validly tendered and not validly withdrawn at or prior to the Early Exchange Time, as more fully set forth above. Pricing for the Exchange Offers is expected to occur at 10:00 a.m., New York City time, on May 14, 2020. The Exchange Offers are scheduled to expire at 11:59 p.m., New York City time, on May 28, 2020, unless extended by Microsoft (such date and time, as they may be extended, the “Expiration Time”). The “Settlement Date” will be promptly following the Expiration Time and is expected to be June 1, 2020, which is the second business day following the Expiration Time. A Registration Statement on Form S-4, including a prospectus (the “Prospectus”), which is subject to change, relating to the New Notes has been filed with the Securities and Exchange Commission (the “SEC”) on April 30, 2020 (the “Registration Statement”) but has not yet become effective. The New Notes may not be sold nor may offers to buy be accepted prior to the time the Registration Statement becomes effective. If and when issued, the New Notes will be registered under the Securities Act of 1933, as amended. This news release does not constitute an offer or a solicitation by Microsoft of an offer to buy, nor shall there be any sale of securities in any state in which such offer or solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state. Consummation of the Exchange Offers is subject to a number of conditions as set forth in the Prospectus included in the Registration Statement, including, among other things, the Registration Statement of which the Prospectus forms a part having been declared effective by the SEC and remaining effective on the settlement date. The Exchange Offers are made only by and pursuant to the terms and subject to the conditions set forth in the Prospectus, which forms a part of the Registration Statement after it is declared effective by the SEC, and the information in this news release is qualified by reference to such Prospectus and the Registration Statement. None of Microsoft, the dealer managers or the information agent and exchange agent makes any recommendations as to whether holders should tender their Existing Notes pursuant to the Exchange Offers. Holders must make their own decisions as to whether to tender Existing Notes and, if so, the principal amount of Existing Notes to tender. Copies of the Prospectus pursuant to which the Exchange Offers are being made, may be obtained from D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, at 212-269-5552 (to exchange), at 800-431-9645 (for information U.S. Toll-free), at 212-269-5550 (information for brokers), at www.dfking.com/microsoft, or at microsoft@dfking.com. Questions regarding the terms and conditions of the Exchange Offers should be directed to the following joint lead dealer managers: BofA Securities 620 South Tryon Street, 20th Floor Charlotte, NC 28255 Toll Free: (888) 292-0070 Collect: (980) 387-3907 Attn: Liability Management Group Deutsche Bank Securities Inc. 60 Wall Street New York, NY 10005 Toll Free: (866) 627-0391 Collect: (212) 250-2955 Attn: Liability Management Group In order to participate in any Exchange Offer, holders of the Existing Notes located or resident in Canada are required to complete, sign and submit to the exchange agent a Canadian Eligibility Form, which may be obtained from D.F. King & Co., Inc. contacts above, to confirm they satisfy applicable Canadian eligibility requirements and to provide certain additional information. Any holder of the Existing Notes located in any Member State of the European Economic Area or in the United Kingdom that is a retain investor will not be able to participate in the Exchange Offers. For these purposes, a retain investor means a person who is one or more of the following: (i) a retail client as defined in point (11) of Article 4(1) of the EU Directive on Markets in Financial Instruments (2014/65/EU) (as amended, “MiFID II”); or (ii) a customer within the meaning of Directive (EU) 2016/97, where that customer would not qualify as a professional client as defined in point (10) of Article (4)(1) of MiFID II.
+EX-99.1
+Exhibit 99.1
+Microsoft announces early participation results of exchange offers
+May 14, 2020
+REDMOND, Wash. 
+May
+14
+, 2020 
+Microsoft Corp. (NASDAQ: MSFT) (Microsoft) announced today the early participation results of its offers to (i) exchange (the Pool 1 Offer) the ten series of notes described in the
+table below (collectively, the Pool 1 Notes) for a new series of Microsofts notes due June 1, 2050 (the New 2050 Notes) and a cash payment, as applicable:
+Pool 1 Table
+Title of Security
+CUSIP
+Number
+Principal Amount
+Outstanding
+Acceptance
+Priority
+Level
+Principal
+Amount
+Tendered
+(1)
+4.875% Notes due 2043
+594918AX2
+$
+500,000,000
+1
+$
+316,270,000
+5.300% Notes due 2041
+594918AM6
+$
+1,000,000,000
+2
+$
+224,322,000
+4.450% Notes due 2045
+594918BL7
+$
+3,000,000,000
+3
+$
+1,774,667,000
+4.250% Notes due 2047
+594918CA0
+$
+3,000,000,000
+4
+$
+1,443,710,000
+5.200% Notes due 2039
+594918AD6
+$
+750,000,000
+5
+$
+191,415,000
+4.500% Notes due 2040
+594918AJ3
+$
+1,000,000,000
+6
+$
+427,782,000
+3.750% Notes due 2043
+594918AU8
+$
+500,000,000
+7
+$
+252,918,000
+3.750% Notes due 2045
+594918BD5
+$
+1,750,000,000
+8
+$
+1,106,308,000
+4.100% Notes due 2037
+594918BZ6
+$
+2,500,000,000
+9
+$
+1,568,040,000
+4.200% Notes due 2035
+594918BK9
+$
+1,000,000,000
+10
+$
+324,503,000
+(1)
+The aggregate principal amounts of each series that have been validly tendered for exchange and not validly
+withdrawn, as of 5:00 p.m., New York City time, on May 13, 2020 (the Early Exchange Time), based on information provided by the exchange agent to Microsoft.
+and (ii) exchange (the Pool 2 Offer and, together with the Pool 1 Offer, the Exchange
+Offers) the four series of notes described in table below (collectively, the Pool 2 Notes and, together with the Pool 1 Notes, the Existing Notes) for a new series of Microsofts notes due June 1, 2060 (the
+New 2060 Notes and, together with the New 2050 Notes, the New Notes) and a cash payment, as applicable:
+Pool 2 Table
+Title of Security
+CUSIP
+Number
+Principal Amount
+Outstanding
+Acceptance
+Priority
+Level
+Principal
+Amount
+Tendered
+(1)
+4.750% Notes due 2055
+594918BM5
+$
+1,000,000,000
+1
+$
+672,725,000
+4.000% Notes due 2055
+594918BE3
+$
+2,250,000,000
+2
+$
+1,492,344,000
+4.500% Notes due 2057
+594918CB8
+$
+2,000,000,000
+3
+$
+992,305,000
+3.950% Notes due 2056
+594918BU7
+$
+2,250,000,000
+4
+$
+1,696,715,000
+(1)
+The aggregate principal amounts of each series that have been validly tendered for exchange and not validly
+withdrawn, as of the Early Exchange Time, based on information provided by the exchange agent to Microsoft.
+In the
+Exchange Offers, according to the information provided by D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, $7,629,935,000 in aggregate principal amount of the Pool 1 Notes and $4,854,089,000 in
+aggregate principal amount of the Pool 2 Notes were validly tendered and not validly withdrawn at or prior to the Early Exchange Time, as more fully set forth above.
+Pricing for the Exchange Offers is expected to occur at 10:00 a.m., New York City time, on May 14, 2020. The Exchange Offers are
+scheduled to expire at 11:59 p.m., New York City time, on May 28, 2020, unless extended by Microsoft (such date and time, as they may be extended, the Expiration Time). The Settlement Date will be promptly following the
+Expiration Time and is expected to be June 1, 2020, which is the second business day following the Expiration Time.
+A Registration
+Statement on Form
+S-4,
+including a prospectus (the Prospectus), which is subject to change, relating to the New Notes has been filed with the Securities and Exchange Commission (the
+SEC) on April 30, 2020 (the Registration Statement) but has not yet become effective. The New Notes may not be sold nor may offers to buy be accepted prior to the time the Registration Statement becomes effective. If and
+when issued, the New Notes will be registered under the Securities Act of 1933, as amended. This news release does not constitute an offer or a solicitation by Microsoft of an offer to buy, nor shall there be any sale of securities in any state in
+which such offer or solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state.
+Consummation of the Exchange Offers is subject to a number of conditions as set forth in the Prospectus included in the Registration
+Statement, including, among other things, the Registration Statement of which the Prospectus forms a part having been declared
+effective by the SEC and remaining effective on the settlement date. The Exchange Offers are made only by and pursuant to the terms and subject to the conditions set forth in the Prospectus,
+which forms a part of the Registration Statement after it is declared effective by the SEC, and the information in this news release is qualified by reference to such Prospectus and the Registration Statement. None of Microsoft, the dealer managers
+or the information agent and exchange agent makes any recommendations as to whether holders should tender their Existing Notes pursuant to the Exchange Offers. Holders must make their own decisions as to whether to tender Existing Notes and, if so,
+the principal amount of Existing Notes to tender.
+Copies of the Prospectus pursuant to which the Exchange Offers are being made, may be
+obtained from D.F. King & Co., Inc., the information agent and exchange agent for the Exchange Offers, at
+212-269-5552
+(to exchange), at
+800-431-9645
+(for information U.S. Toll-free), at
+212-269-5550
+(information for brokers), at
+www.dfking.com/microsoft, or at microsoft@dfking.com. Questions regarding the terms and conditions of the Exchange Offers should be directed to the following joint lead dealer managers:
+BofA Securities
+620 South Tryon Street, 20th Floor
+Charlotte, NC 28255
+Toll Free:
+(888)
+292-0070
+Collect: (980)
+387-3907
+Attn: Liability Management Group
+Deutsche Bank Securities Inc.
+60 Wall Street
+New York, NY
+10005
+Toll Free: (866)
+627-0391
+Collect: (212)
+250-2955
+Attn: Liability Management Group
+In order to participate in any Exchange Offer, holders of the Existing Notes located or resident in Canada are
+required to complete, sign and submit to the exchange agent a Canadian Eligibility Form, which may be obtained from D.F. King & Co., Inc. contacts above, to confirm they satisfy applicable Canadian eligibility requirements and to provide
+certain additional information.
+Any holder of the Existing Notes located in any Member State of the European Economic Area or in the
+United Kingdom that is a retain investor will not be able to participate in the Exchange Offers. For these purposes, a retain investor means a person who is one or more of the following: (i) a retail client as defined in point (11) of
+Article 4(1) of the EU Directive on Markets in Financial Instruments (2014/65/EU) (as amended, MiFID II); or (ii) a customer within the meaning of Directive (EU) 2016/97, where that customer would not qualify as a professional
+client as defined in point (10) of Article (4)(1) of MiFID II.

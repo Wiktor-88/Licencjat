@@ -1,0 +1,5 @@
+XAI_Example_Type,Ticker,Accession,Event_Session,Test_Year,Target_Tradable_Abnormal_1D,XAI_Prediction,XAI_Probability
+true_positive,NVDA,0001045810-24-000144,2024-06-10,2024,1,1,0.82796544
+true_negative,NVDA,0001045810-23-000217,2023-10-18,2023,0,0,0.051216166
+false_positive,AMD,0001193125-26-226746,2026-05-18,2026,0,1,0.7940694
+false_negative,NVDA,0001045810-23-000221,2023-10-24,2023,1,0,0.10052657

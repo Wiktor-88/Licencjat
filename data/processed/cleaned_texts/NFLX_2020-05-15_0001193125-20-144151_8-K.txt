@@ -1,1 +1,16 @@
-Item 8.01. Other Events. On May 1, 2020, the United States District Court for the Northern District of California granted preliminary approval of the settlement in the stockholder derivative action captioned City of Birmingham Relief and Retirement System v. Hastings, et al. , Case No. 5:18-cv-2107-BLF (the “Derivative Litigation”). The complaint in the Derivative Litigation alleged that certain defendants issued false and misleading disclosures in 2015-2017 regarding the Performance Bonus Plan (the “Plan”) of Netflix, Inc. (the “Company”) under Section 14(a) of the Securities Exchange Act of 1934, breached fiduciary duties, and wasted corporate assets. The defendants have denied, and continue to deny, the allegations in the complaint. The Company has not paid performance-based bonuses under the Plan since 2018. Pursuant to the Court’s Order granting preliminary approval of the settlement, the Company is publishing the Notice of Pendency of Proposed Settlement of Stockholder Derivative Action, dated May 1, 2020 (the “Notice”), attached hereto as Exhibit 99.1. This Notice is available for review on the company’s investor relations website at https://www.netflixinvestor.com. Item 9.01 Financial Statements and Exhibits. (d) Exhibits 99.1 Notice of Pendency of Proposed Settlement of Stockholder Derivative Action dated May 1, 2020 104 Cover Page Interactive Data File (embedded within the Inline XBRL document) -2-
+Item 8.01.
+Other Events.
+On May 1, 2020, the United States District Court for the Northern District of California granted preliminary approval of the settlement in the stockholder derivative action captioned
+City of Birmingham Relief and Retirement System v. Hastings, et al.
+, Case No.
+5:18-cv-2107-BLF
+(the “Derivative Litigation”). The complaint in the Derivative Litigation alleged that certain defendants issued false and misleading disclosures in 2015-2017 regarding the Performance Bonus Plan (the “Plan”) of Netflix, Inc. (the “Company”) under Section 14(a) of the Securities Exchange Act of 1934, breached fiduciary duties, and wasted corporate assets. The defendants have denied, and continue to deny, the allegations in the complaint. The Company has not paid performance-based bonuses under the Plan since 2018.
+Pursuant to the Court’s Order granting preliminary approval of the settlement, the Company is publishing the Notice of Pendency of Proposed Settlement of Stockholder Derivative Action, dated May 1, 2020 (the “Notice”), attached hereto as Exhibit 99.1. This Notice is available for review on the company’s investor relations website at https://www.netflixinvestor.com.
+Item 9.01
+Financial Statements and Exhibits.
+(d) Exhibits
+99.1
+Notice of Pendency of Proposed Settlement of Stockholder Derivative Action dated May 1, 2020
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document)
+-2-

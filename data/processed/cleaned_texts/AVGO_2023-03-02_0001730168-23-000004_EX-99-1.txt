@@ -1,1 +1,153 @@
-Document Exhibit 99.1 Broadcom Inc. Announces First Quarter Fiscal Year 2023 Financial Results and Quarterly Dividend • Revenue of $8,915 million for the first quarter, up 16 percent from the prior year period • Adjusted EBITDA of $5,678 million for the first quarter • Non-GAAP diluted EPS of $10.33 for the first quarter; GAAP diluted EPS of $8.80 for the first quarter • Quarterly common stock dividend of $4.60 per share • Repurchased and eliminated 2.7 million shares for $1,521 million • Second quarter revenue guidance of approximately $8.7 billion, an increase of 8 percent from the prior year period • Second quarter Adjusted EBITDA guidance of approximately 64.5 percent of projected revenue (1) SAN JOSE, Calif. – March 2, 2023 – Broadcom Inc. (Nasdaq: AVGO), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today reported financial results for its first quarter of fiscal year 2023, ended January 29, 2023, provided guidance for the second quarter of its fiscal year 2023 and announced its quarterly dividend. “Broadcom’s first quarter performance reflects continued strength in infrastructure demand across all our end markets,” said Hock Tan, President and CEO of Broadcom Inc. “Looking ahead, we are confident our growth will be driven by sustained leadership in next generation technologies across all of our core markets, and strong partnerships with our customers.” “Consolidated revenue grew 16% year-over-year to $8.9 billion and adjusted EBITDA margin increased year-over-year to 64%,” said Kirsten Spears, CFO of Broadcom Inc. “We generated $3.9 billion in free cash flow, representing a 16% increase year-over-year, and expect even stronger free cash flow in the second quarter.” First Quarter Fiscal Year 2023 Financial Highlights GAAP Non-GAAP (Dollars in millions, except per share data) Q1 23 Q1 22 Change Q1 23 Q1 22 Change Net revenue $ 8,915 $ 7,706 +16 % $ 8,915 $ 7,706 +16 % Net income $ 3,774 $ 2,472 +$1,302 $ 4,483 $ 3,741 +$742 Earnings per common share - diluted $ 8.80 $ 5.59 +$3.21 $ 10.33 $ 8.39 +$1.94 ________________________________ (1) The Company is not readily able to provide a reconciliation of the projected non-GAAP financial information presented to the relevant projected GAAP measure without unreasonable effort. 1 (Dollars in millions) Q1 23 Q1 22 Change Cash flow from operations $ 4,036 $ 3,486 +$550 Adjusted EBITDA $ 5,678 $ 4,818 +$860 Free cash flow $ 3,933 $ 3,385 +$548 Net revenue by segment (Dollars in millions) Q1 23 Q1 22 Change Semiconductor solutions $ 7,107 80 % $ 5,873 76 % +21 % Infrastructure software 1,808 20 1,833 24 -1 % Total net revenue $ 8,915 100 % $ 7,706 100 % The Company’s cash and cash equivalents at the end of the fiscal quarter were $12,647 million, compared to $12,416 million at the end of the prior quarter. During the first fiscal quarter, the Company generated $4,036 million in cash from operations and spent $103 million on capital expenditures. The Company spent $1,521 million on share repurchases and eliminations, consisting of $1,188 million in repurchases of 2.1 million shares and $333 million of withholding tax payments related to net settled equity awards that vested in the quarter (representing approximately 0.6 million shares withheld). On December 30, 2022, the Company paid a cash dividend of $4.60 per share, totaling $1,926 million. The differences between the Company’s GAAP and non-GAAP results are described generally under “Non-GAAP Financial Measures” below, and presented in detail in the financial reconciliation tables attached to this release. Second Quarter Fiscal Year 2023 Business Outlook Based on current business trends and conditions, the outlook for the second quarter of fiscal year 2023, ending April 30, 2023, is expected to be as follows: • Second quarter revenue guidance of approximately $8.7 billion; and • Second quarter Adjusted EBITDA guidance of approximately 64.5 percent of projected revenue. The guidance provided above is only an estimate of what the Company believes is realizable as of the date of this release. The Company is not readily able to provide a reconciliation of projected Adjusted EBITDA to projected net income without unreasonable effort. Actual results will vary from the guidance and the variations may be material. The Company undertakes no intent or obligation to publicly update or revise any of these projections, whether as a result of new information, future events or otherwise, except as required by law. Quarterly Dividends The Company’s Board of Directors has approved a quarterly cash dividend of $4.60 per share. The dividend is payable on March 31, 2023 to stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 22, 2023. Financial Results Conference Call 2 Broadcom Inc. will host a conference call to review its financial results for the first quarter fiscal year 2023 and to discuss the business outlook, today at 2:00 p.m. Pacific Time. To Listen via Internet: The conference call can be accessed live online in the Investors section of the Broadcom website at https://investors.broadcom.com/. To Listen via Telephone: Preregistration is required by the conference call operator. Please preregister at https://register.vevent.com/register/BI8c37496b52db4705a80eea80b94ccb9b. Upon registering, you will be emailed a link to the dial-in number and unique PIN. Replay: An audio replay of the conference call can be accessed for one year through the Investors section of Broadcom's website at https://investors.broadcom.com/. Non-GAAP Financial Measures The non-GAAP measures should not be considered as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP. A reconciliation between GAAP and non-GAAP financial data is included in the supplemental financial data attached to this press release. Broadcom believes non-GAAP financial information provides additional insight into the Company’s on-going performance. Therefore, Broadcom provides this information to investors for a more consistent basis of comparison and to help them evaluate the results of the Company’s on-going operations and enable more meaningful period to period comparisons. In addition to GAAP reporting, Broadcom provides investors with net income, operating income, gross margin, operating expenses, cash flow and other data on a non-GAAP basis. This non-GAAP information excludes amortization of acquisition-related intangible assets, stock-based compensation expense, restructuring, impairment and disposal charges, acquisition-related costs, including integration costs, purchase accounting effect on inventory, litigation settlements, loss on debt extinguishment, gains (losses) on investments, income (loss) from discontinued operations, non-GAAP tax reconciling adjustments, and other adjustments. Management does not believe that these items are reflective of the Company’s underlying performance. Internally, these non-GAAP measures are significant measures used by management for purposes of evaluating the core operating performance of the Company, establishing internal budgets, calculating return on investment for development programs and growth initiatives, comparing performance with internal forecasts and targeted business models, strategic planning, evaluating and valuing potential acquisition candidates and how their operations compare to the Company’s operations, and benchmarking performance externally against the Company’s competitors. The exclusion of these and other similar items from Broadcom’s non-GAAP financial results should not be interpreted as implying that these items are non-recurring, infrequent or unusual. Free cash flow measures have limitations as they omit certain components of the overall cash flow statement and do not represent the residual cash flow available for discretionary expenditures. Investors should not consider presentation of free cash flow measures as implying that stockholders have any right to such cash. Broadcom’s free cash flow may not be calculated in a manner comparable to similarly named measures used by other companies. About Broadcom Inc. 3 Broadcom Inc. (NASDAQ: AVGO), a Delaware corporation headquartered in San Jose, CA, is a global technology leader that designs, develops and supplies a broad range of semiconductor and infrastructure software solutions. Broadcom's category-leading product portfolio serves critical markets including data center, networking, enterprise software, broadband, wireless, storage and industrial. Our solutions include data center networking and storage, enterprise, mainframe and cyber security software focused on automation, monitoring and security, smartphone components, telecoms and factory automation. For more information, go to https://www.broadcom.com. Cautionary Note Regarding
+Document
+Exhibit 99.1
+Broadcom Inc. Announces First Quarter Fiscal Year 2023 Financial Results and Quarterly Dividend
+•
+Revenue of $8,915 million for the first quarter, up 16 percent from the prior year period
+•
+Adjusted EBITDA of $5,678 million for the first quarter
+•
+Non-GAAP diluted EPS of $10.33 for the first quarter; GAAP diluted EPS of $8.80 for the first quarter
+•
+Quarterly common stock dividend of $4.60 per share
+•
+Repurchased and eliminated 2.7 million shares for $1,521 million
+•
+Second quarter revenue guidance of approximately $8.7 billion, an increase of 8 percent from the prior year period
+•
+Second quarter Adjusted EBITDA guidance of approximately 64.5 percent of projected revenue
+(1)
+SAN JOSE, Calif. –
+March 2, 2023
+–
+Broadcom Inc. (Nasdaq: AVGO), a global technology leader that designs, develops and supplies semiconductor and infrastructure software solutions, today reported financial results for its first quarter of fiscal year 2023, ended January 29, 2023, provided guidance for the second quarter of its fiscal year 2023 and announced its quarterly dividend.
+“Broadcom’s first quarter performance reflects continued strength in infrastructure demand across all our end markets,” said Hock Tan, President and CEO of Broadcom Inc. “Looking ahead, we are confident our growth will be driven by sustained leadership in next generation technologies across all of our core markets, and strong partnerships with our customers.”
+“Consolidated revenue grew 16% year-over-year to $8.9 billion and adjusted EBITDA margin increased year-over-year to 64%,” said Kirsten Spears, CFO of Broadcom Inc. “We generated $3.9 billion in free cash flow, representing a 16% increase year-over-year, and expect even stronger free cash flow in the second quarter.”
+First Quarter Fiscal Year 2023 Financial Highlights
+GAAP
+Non-GAAP
+(Dollars in millions, except per share data)
+Q1 23
+Q1 22
+Change
+Q1 23
+Q1 22
+Change
+Net revenue
+$
+8,915
+$
+7,706
++16
+%
+$
+8,915
+$
+7,706
++16
+%
+Net income
+$
+3,774
+$
+2,472
++$1,302
+$
+4,483
+$
+3,741
++$742
+Earnings per common share - diluted
+$
+8.80
+$
+5.59
++$3.21
+$
+10.33
+$
+8.39
++$1.94
+________________________________
+(1)
+The Company is not readily able to provide a reconciliation of the projected non-GAAP financial information presented to the relevant projected GAAP measure without unreasonable effort.
+1
+(Dollars in millions)
+Q1 23
+Q1 22
+Change
+Cash flow from operations
+$
+4,036
+$
+3,486
++$550
+Adjusted EBITDA
+$
+5,678
+$
+4,818
++$860
+Free cash flow
+$
+3,933
+$
+3,385
++$548
+Net revenue by segment
+(Dollars in millions)
+Q1 23
+Q1 22
+Change
+Semiconductor solutions
+$
+7,107
+80
+%
+$
+5,873
+76
+%
++21
+%
+Infrastructure software
+1,808
+20
+1,833
+24
+-1
+%
+Total net revenue
+$
+8,915
+100
+%
+$
+7,706
+100
+%
+The Company’s cash and cash equivalents at the end of the fiscal quarter were $12,647 million, compared to $12,416 million at the end of the prior quarter.
+During the first fiscal quarter, the Company generated $4,036 million in cash from operations and spent $103 million on capital expenditures. The Company spent $1,521 million on share repurchases and eliminations, consisting of $1,188 million in repurchases of 2.1 million shares and $333 million of withholding tax payments related to net settled equity awards that vested in the quarter (representing approximately 0.6 million shares withheld).
+On December 30, 2022, the Company paid a cash dividend of $4.60 per share, totaling $1,926 million.
+The differences between the Company’s GAAP and non-GAAP results are described generally under “Non-GAAP Financial Measures” below, and presented in detail in the financial reconciliation tables attached to this release.
+Second Quarter Fiscal Year 2023 Business Outlook
+Based on current business trends and conditions, the outlook for the second quarter of fiscal year 2023, ending April 30, 2023, is expected to be as follows:
+•
+Second quarter revenue guidance of approximately $8.7 billion; and
+•
+Second quarter Adjusted EBITDA guidance of approximately 64.5 percent of projected revenue.
+The guidance provided above is only an estimate of what the Company believes is realizable as of the date of this release. The Company is not readily able to provide a reconciliation of projected Adjusted EBITDA to projected net income without unreasonable effort. Actual results will vary from the guidance and the variations may be material. The Company undertakes no intent or obligation to publicly update or revise any of these projections, whether as a result of new information, future events or otherwise, except as required by law.
+Quarterly Dividends
+The Company’s Board of Directors has approved a quarterly cash dividend of $4.60 per share. The dividend is payable on March 31, 2023 to stockholders of record at the close of business (5:00 p.m. Eastern Time) on March 22, 2023.
+Financial Results Conference Call
+2
+Broadcom Inc. will host a conference call to review its financial results for the first quarter fiscal year 2023 and to discuss the business outlook, today at 2:00 p.m. Pacific Time.
+To Listen via Internet:
+The conference call can be accessed live online in the Investors section of the Broadcom website at https://investors.broadcom.com/.
+To Listen via Telephone:
+Preregistration is required by the conference call operator. Please preregister at https://register.vevent.com/register/BI8c37496b52db4705a80eea80b94ccb9b. Upon registering, you will be emailed a link to the dial-in number and unique PIN.
+Replay:
+An audio replay of the conference call can be accessed for one year through the Investors section of Broadcom's website at https://investors.broadcom.com/.
+Non-GAAP Financial Measures
+The non-GAAP measures should not be considered as a substitute for, or superior to, measures of financial performance prepared in accordance with GAAP. A reconciliation between GAAP and non-GAAP financial data is included in the supplemental financial data attached to this press release. Broadcom believes non-GAAP financial information provides additional insight into the Company’s on-going performance. Therefore, Broadcom provides this information to investors for a more consistent basis of comparison and to help them evaluate the results of the Company’s on-going operations and enable more meaningful period to period comparisons.
+In addition to GAAP reporting, Broadcom provides investors with net income, operating income, gross margin, operating expenses, cash flow and other data on a non-GAAP basis. This non-GAAP information excludes amortization of acquisition-related intangible assets, stock-based compensation expense, restructuring, impairment and disposal charges, acquisition-related costs, including integration costs, purchase accounting effect on inventory, litigation settlements, loss on debt extinguishment, gains (losses) on investments, income (loss) from discontinued operations, non-GAAP tax reconciling adjustments, and other adjustments. Management does not believe that these items are reflective of the Company’s underlying performance. Internally, these non-GAAP measures are significant measures used by management for purposes of evaluating the core operating performance of the Company, establishing internal budgets, calculating return on investment for development programs and growth initiatives, comparing performance with internal forecasts and targeted business models, strategic planning, evaluating and valuing potential acquisition candidates and how their operations compare to the Company’s operations, and benchmarking performance externally against the Company’s competitors. The exclusion of these and other similar items from Broadcom’s non-GAAP financial results should not be interpreted as implying that these items are non-recurring, infrequent or unusual.
+Free cash flow measures have limitations as they omit certain components of the overall cash flow statement and do not represent the residual cash flow available for discretionary expenditures. Investors should not consider presentation of free cash flow measures as implying that stockholders have any right to such cash. Broadcom’s free cash flow may not be calculated in a manner comparable to similarly named measures used by other companies.

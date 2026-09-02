@@ -1,0 +1,259 @@
+# Pełne XAI dla CatBoosta
+
+import logging
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
+from src.models.model_config import (MIN_SEC_COUNT, SEC_BINARY_CANDIDATES,
+    TARGET, TEST_YEARS, TABULAR_MARKET_FEATURES, SENTIMENT_FEATURES)
+from src.models.model_utils import prepare_model_dataset, select_sec_features
+from src.models.train_catboost import build_catboost_model, build_model_configs
+from src.xai.catboost import run_global_catboost_xai, run_local_catboost_xai
+from src.xai.common import save_dataframe, select_local_classification_examples
+from src.xai.permutation_importance import (calculate_permutation_importance,
+    plot_permutation_importance, summarize_permutation_importance)
+from src.xai.shap_utils import plot_shap_importance, summarize_shap_importance
+from src.xai.ale import calculate_ale_1d, plot_ale_by_fold, select_ale_features
+
+
+logger = logging.getLogger(__name__)
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = PROJECT_ROOT / "data" / "processed"
+OUTPUT_DIR = PROJECT_ROOT / "artifacts" / "xai" / "catboost"
+
+DATA_FILE = DATA_DIR / "model_dataset.csv"
+OOS_FILE = DATA_DIR / "catboost_oos_predictions.csv"
+
+XAI_MODELS = {"CAT A - MARKET": "A",
+              "CAT B - MARKET + SEC": "B",
+              "CAT C - MARKET + SEC + FINBERT": "C"}
+
+
+def verify_oos_predictions(saved_oos: pd.DataFrame,
+                           model_name: str,
+                           test_year: int,
+                           test_df: pd.DataFrame,
+                           y_prob: np.ndarray,
+                           y_pred: np.ndarray) -> None:
+    expected = (saved_oos[(saved_oos["Model"] == model_name) & (saved_oos["Test_Year"] == test_year)]
+        .sort_values(["Ticker", "Event_Session", "Accession"]).reset_index(drop=True))
+
+    current = test_df.copy()
+    current["XAI_y_prob"] = y_prob
+    current["XAI_y_pred"] = y_pred
+    current = (current.sort_values(["Ticker", "Event_Session", "Accession"])
+               .reset_index(drop=True))
+
+    if len(expected) != len(current):
+        raise ValueError(f"{model_name} {test_year}: różna liczba obserwacji OOS")
+
+    if not np.array_equal(expected[["Ticker", "Accession"]].astype(str).to_numpy(),
+                          current[["Ticker", "Accession"]].astype(str).to_numpy()):
+        raise ValueError(f"{model_name} {test_year}: różne obserwacje OOS")
+
+    if not np.allclose(expected["y_prob"].astype(float),
+                       current["XAI_y_prob"].astype(float),
+                       rtol=1e-7,
+                       atol=1e-9):
+        raise ValueError(f"{model_name} {test_year}: y_prob nie zgadzają się z OOS")
+
+    if not np.array_equal(expected["y_pred"].astype(int), 
+                          current["XAI_y_pred"].astype(int)):
+        raise ValueError(f"{model_name} {test_year}: y_pred nie zgadzają się z OOS")
+
+
+def run_local_examples(c_models: dict, c_oos_rows: list[pd.DataFrame]) -> None:
+    local_pool = pd.concat(c_oos_rows, ignore_index=True)
+
+    examples = select_local_classification_examples(local_pool,
+                                                    "XAI_Probability",
+                                                    "XAI_Prediction")
+
+    save_dataframe(examples[["XAI_Example_Type",
+                             "Ticker",
+                             "Accession",
+                             "Event_Session",
+                             "Test_Year",
+                             TARGET,
+                             "XAI_Prediction",
+                             "XAI_Probability"]],
+                   OUTPUT_DIR / "C" / "local_examples.csv")
+
+    for _, example in examples.iterrows():
+        test_year = int(example["Test_Year"])
+        fold = c_models[test_year]
+
+        event_df = local_pool[local_pool["Accession"].astype(str) == str(example["Accession"])].copy()
+
+        event_row = event_df.iloc[0].copy()
+        event_row["XAI_Example_Type"] = example["XAI_Example_Type"]
+
+        X_row = event_df[fold["features"]].copy()
+        X_row["Ticker"] = X_row["Ticker"].astype(str)
+
+        run_local_catboost_xai(fold["model"],
+                              X_row,
+                              event_row,
+                              "catboost/C")
+
+        logger.info("Local XAI | %s | TEST %d | p=%.4f",
+                    example["XAI_Example_Type"],
+                    test_year,
+                    example["XAI_Probability"])
+
+
+def main() -> None:
+    df = prepare_model_dataset(pd.read_csv(DATA_FILE), TARGET)
+    saved_oos = pd.read_csv(OOS_FILE)
+
+    all_shap = []
+    all_permutation = []
+    c_models = {}
+    c_oos_rows = []
+
+    for test_year in TEST_YEARS:
+        train_df = df[df["Event_Session"].dt.year < test_year].copy()
+        test_df = df[df["Event_Session"].dt.year == test_year].copy()
+
+        selected_sec = select_sec_features(train_df, 
+                                           SEC_BINARY_CANDIDATES, 
+                                           MIN_SEC_COUNT)
+
+        for config in build_model_configs(selected_sec):
+            variant = XAI_MODELS[config["name"]]
+
+            X_train = train_df[config["features"]].copy()
+            X_test = test_df[config["features"]].copy()
+
+            X_train["Ticker"] = X_train["Ticker"].astype(str)
+            X_test["Ticker"] = X_test["Ticker"].astype(str)
+
+            y_train = train_df[TARGET].astype(int)
+            y_test = test_df[TARGET].astype(int)
+
+            model = build_catboost_model()
+
+            model.fit(X_train, y_train, cat_features=["Ticker"])
+
+            y_prob = model.predict_proba(X_test)[:, 1]
+            y_pred = (y_prob >= 0.5).astype(int)
+
+            verify_oos_predictions(saved_oos,
+                                  config["name"],
+                                  test_year,
+                                  test_df,
+                                  y_prob,
+                                  y_pred)
+
+            shap_importance = run_global_catboost_xai(
+                model,
+                X_test,
+                f"catboost/{variant}/test_{test_year}")
+
+            shap_importance.insert(0, "Test_Year", test_year)
+            shap_importance.insert(0, "Variant", variant)
+            all_shap.append(shap_importance)
+
+            permutation = calculate_permutation_importance(model,
+                                                          X_test,
+                                                          y_test,
+                                                          n_repeats=100,
+                                                          random_state=2137)
+
+            permutation.insert(0, "Test_Year", test_year)
+            permutation.insert(0, "Variant", variant)
+            all_permutation.append(permutation)
+
+            save_dataframe(permutation,
+                           OUTPUT_DIR / variant / f"test_{test_year}" / "permutation_importance.csv")
+
+            logger.info("%s | TEST %d | SHAP=%d | PFI=%d | predykcje OOS zgodne",
+                        config["name"],
+                        test_year,
+                        len(shap_importance),
+                        len(permutation))
+
+            if variant == "C":
+                c_models[test_year] = {"model": model,
+                                       "features": config["features"],
+                                       "X_test": X_test.copy()}
+
+                local_df = test_df.copy()
+                local_df["Test_Year"] = test_year
+                local_df["XAI_Probability"] = y_prob
+                local_df["XAI_Prediction"] = y_pred
+                c_oos_rows.append(local_df)
+
+
+    if not all_shap:
+        raise RuntimeError("Nie wygenerowano wyników SHAP")
+
+    if not all_permutation:
+        raise RuntimeError("Nie wygenerowano permutation importance")
+
+    shap_df = pd.concat(all_shap, ignore_index=True)
+    pfi_df = pd.concat(all_permutation, ignore_index=True)
+
+    shap_stability = summarize_shap_importance(shap_df)
+    pfi_stability = summarize_permutation_importance(pfi_df)
+
+
+    ale_candidates = list(TABULAR_MARKET_FEATURES) + list(SENTIMENT_FEATURES)
+    
+    ale_features = select_ale_features(pfi_stability,
+                                       variant="C",
+                                       candidate_features=ale_candidates,
+                                       top_n=3)
+    
+    save_dataframe(pd.DataFrame({"Feature": ale_features}),
+                    OUTPUT_DIR / "C" / "ale_features.csv")
+    
+    all_ale = []
+    
+    for test_year, fold in c_models.items():
+        for feature in ale_features:
+            ale = calculate_ale_1d(model=fold["model"],
+                                    X=fold["X_test"],
+                                    feature=feature,
+                                    n_bins=10)
+    
+            ale.insert(0, "Test_Year", test_year)
+            all_ale.append(ale)
+    
+            save_dataframe(ale, OUTPUT_DIR / "C" / f"test_{test_year}" / f"ale_{feature}.csv")
+
+    if not all_ale:
+        raise RuntimeError("Nie wygenerowano wyników ALE")
+    
+    ale_df = pd.concat(all_ale, ignore_index=True)
+    
+    save_dataframe(ale_df, OUTPUT_DIR / "C" / "ale_by_fold.csv")
+    
+    for feature in ale_features:
+        plot_ale_by_fold(ale_df, feature, OUTPUT_DIR / "C" / f"ale_{feature}.png")
+
+    save_dataframe(shap_df, OUTPUT_DIR / "shap_importance_by_fold.csv")
+    save_dataframe(shap_stability, OUTPUT_DIR / "shap_importance_stability.csv")
+    save_dataframe(pfi_df, OUTPUT_DIR / "permutation_importance_by_fold.csv")
+    save_dataframe(pfi_stability, OUTPUT_DIR / "permutation_importance_stability.csv")
+
+    for variant in ["A", "B", "C"]:
+        plot_shap_importance(shap_stability[shap_stability["Variant"] == variant],
+                             OUTPUT_DIR / f"shap_importance_{variant}.png")
+
+        plot_permutation_importance(pfi_stability[pfi_stability["Variant"] == variant],
+                                    OUTPUT_DIR / f"permutation_importance_{variant}.png",
+                                    metric="Mean_AUC_Drop")
+
+    run_local_examples(c_models, c_oos_rows)
+
+    logger.info("Zakończono XAI CatBoosta")
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(name)s - %(message)s")
+    main()

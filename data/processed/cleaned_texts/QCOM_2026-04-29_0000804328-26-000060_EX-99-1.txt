@@ -1,1 +1,123 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Brett Simpson Senior Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Brett Simpson
+Senior Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Second Quarter Fiscal 2026 Results
+Revenues: $10.6 billion
+GAAP EPS: $6.88, Non-GAAP EPS: $2.65
+—Record Quarterly QCT Automotive Revenues—
+—Diversification: Combined QCT Automotive and IoT Revenues Grew 20% Year-Over-Year—
+—Completed $5.4B of Share Repurchases in First Half of Fiscal 2026 and Announced New $20B Authorization—
+SAN DIEGO - April 29, 2026
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal second quarter ended March 29, 2026.
+“We are pleased to deliver results in line with our guidance, reflecting solid execution as we navigate a challenging memory environment,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “We are in a period of profound industry transformation — the rise of AI agents is reshaping our roadmap across every platform we develop. We are equally excited by our entry into the data center, where a leading hyperscaler custom silicon engagement is on track for initial shipments later this calendar year. We look forward to providing an update on our growth initiatives, including opportunities in Data Center and Physical AI, at our Investor Day on June 24.”
+Second Quarter Results
+1,2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q2 Fiscal 2026
+Q2 Fiscal 2025
+Change
+Q2 Fiscal 2026
+Q2 Fiscal 2025
+Change
+Revenues
+$10,599
+$10,979
+(3%)
+$10,599
+$10,836
+(2%)
+Earnings before taxes (EBT)
+$2,232
+$3,105
+(28%)
+$3,246
+$3,694
+(12%)
+Net income
+$7,370
+$2,812
++162%
+$2,840
+$3,172
+(10%)
+Diluted earnings per share (EPS)
+$6.88
+$2.52
++173%
+$2.65
+$2.85
+(7%)
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+(2)  Second quarter of fiscal 2026 GAAP results included a $5.7 billion income tax benefit, or $5.33 per share, resulting from the release of a valuation allowance that was established in the fourth quarter of fiscal 2025. Refer to the section labeled “Income Taxes” included within this news release for additional details.
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q2 Fiscal 2026
+Q2 Fiscal 2025
+Change
+Q2 Fiscal 2026
+Q2 Fiscal 2025
+Change
+Revenues
+$9,076
+$9,469
+(4%)
+$1,382
+$1,319
++5%
+EBT
+$2,465
+$2,857
+(14%)
+$994
+$929
++7%
+EBT as % of revenues
+27%
+30%
+-3 points
+72%
+70%
++2 points
+Qualcomm Announces Second Quarter Fiscal 2026 Results
+Page 2 of 9
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q2 Fiscal 2026
+Q2 Fiscal 2025
+Change
+Handsets
+$6,024
+$6,929
+(13%)
+Automotive
+1,326
+959
++38%
+IoT (internet of things)
+1,726
+1,581
++9%
+Total QCT revenues
+$9,076
+$9,469
+(4%)
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the second quarter of fiscal 2026, we returned $3.7 billion to stockholders, including $945 million, or $0.89 per share, of cash dividends paid and $2.8 billion
+through repurchases of
+19 million shares of common stock.
+Income Taxes
+In the second quarter of fiscal 2026, we recorded a $5.7 billion income tax benefit, or $5.33 per share, from the release of a valuation allowance that was established in the fourth quarter of fiscal 2025, as we now expect to realize our existing federal deferred tax assets as a result of additional guidance issued on corporate alternative minimum tax by the U.S. Department of Treasury and the Internal Revenue Service. This benefit was excluded from our Non-GAAP metrics but was reflected in our GAAP results.
+Qualcomm Announces Second Quarter Fiscal 2026 Results
+Page 3 of 9
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

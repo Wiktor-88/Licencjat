@@ -1,1 +1,438 @@
-Exhibit CFO Commentary on Fourth Quarter and Fiscal 2020 Results Q4 Fiscal 2020 Summary GAAP ($ in millions, except earnings per share) Q4 FY20 Q3 FY20 Q4 FY19 Q/Q Y/Y Revenue $3,105 $3,014 $2,205 Up 3% Up 41% Gross margin 64.9 % 63.6 % 54.7 % Up 130 bps Up 1,020 bps Operating expenses $1,025 $989 $913 Up 4% Up 12% Operating income $990 $927 $294 Up 7% Up 237% Net income $950 $899 $567 Up 6% Up 68% Diluted earnings per share $1.53 $1.45 $0.92 Up 6% Up 66% Non-GAAP ($ in millions, except earnings per share) Q4 FY20 Q3 FY20 Q4 FY19 Q/Q Y/Y Revenue $3,105 $3,014 $2,205 Up 3% Up 41% Gross margin 65.4 % 64.1 % 56.0 % Up 130 bps Up 940 bps Operating expenses $810 $774 $755 Up 5% Up 7% Operating income $1,220 $1,156 $479 Up 6% Up 155% Net income $1,172 $1,103 $496 Up 6% Up 136% Diluted earnings per share $1.89 $1.78 $0.80 Up 6% Up 136% Revenue by Reportable Segments ($ in millions) Q4 FY20 Q3 FY20 Q4 FY19 Q/Q Y/Y GPU Business $2,774 $2,565 $1,980 Up 8% Up 40% Tegra Processor Business 331 449 225 Down 26% Up 47% Total $3,105 $3,014 $2,205 Up 3% Up 41% Revenue by Market Platform ($ in millions) Q4 FY20 Q3 FY20 Q4 FY19 Q/Q Y/Y Gaming $1,491 $1,659 $954 Down 10% Up 56% Professional Visualization 331 324 293 Up 2% Up 13% Data Center 968 726 679 Up 33% Up 43% Automotive 163 162 163 Up 1% -- OEM and Other 152 143 116 Up 6% Up 31% Total $3,105 $3,014 $2,205 Up 3% Up 41% Fiscal 2020 Summary GAAP ($ in millions except earnings per share) FY20 FY19 Y/Y Revenue $10,918 $11,716 Down 7% Gross margin 62.0 % 61.2 % Up 80 bps Operating expenses $3,922 $3,367 Up 16% Operating income $2,846 $3,804 Down 25% Net income $2,796 $4,141 Down 32% Diluted earnings per share $4.52 $6.63 Down 32% Non-GAAP ($ in millions except earnings per share) FY20 FY19 Y/Y Revenue $10,918 $11,716 Down 7% Gross margin 62.5% 61.7% Up 80 bps Operating expenses $3,086 $2,826 Up 9% Operating income $3,735 $4,407 Down 15% Net income $3,580 $4,143 Down 14% Diluted earnings per share $5.79 $6.64 Down 13% Revenue by Reportable Segments ($ in millions) FY20 FY19 Y/Y GPU $9,465 $10,175 Down 7% Tegra Processor 1,453 1,541 Down 6% Total $10,918 $11,716 Down 7% Revenue by Market Platform ($ in millions) FY20 FY19 Y/Y Gaming $5,518 $6,246 Down 12% Professional Visualization 1,212 1,130 Up 7% Data Center 2,983 2,932 Up 2% Automotive 700 641 Up 9% OEM and Other 505 767 Down 34% Total $10,918 $11,716 Down 7% Revenue Revenue for the fourth quarter was $3.11 billion, up 41 percent from a year earlier and up 3 percent sequentially. Full-year revenue was $10.92 billion, down 7 percent. GPU business revenue for the fourth quarter was $2.77 billion, up 40 percent from a year earlier and up 8 percent sequentially. Full-year revenue was $9.47 billion, down 7 percent. Tegra™ Processor business revenue for the fourth quarter - which includes Automotive, SoCs for gaming platforms, and embedded edge AI platforms - was $331 million, up 47 percent from a year ago and down 26 percent sequentially. Full-year revenue was $1.45 billion, down 6 percent. From a market-platform perspective, Gaming revenue for the fourth quarter was $1.49 billion, up 56 percent from a year ago and down 10 percent sequentially. The year-on-year increase reflects higher sales of GeForce® GPUs and SoCs for gaming platforms. The sequential decrease reflects seasonally lower sales of GeForce notebook GPUs and SoCs for gaming platforms, partially offset by growth in GeForce desktop GPUs. Full-year revenue was $5.52 billion, down 12 percent, reflecting lower sales of GeForce desktop GPUs and SoCs for gaming platforms, partially offset by growth in GeForce notebook GPUs. Professional Visualization revenue for the fourth quarter was a record $331 million, up 13 percent from a year earlier and up 2 percent sequentially. The year-on-year growth reflects strength in desktop and notebook workstations, while the sequential growth was driven by desktop workstations partially offset by notebook workstations. Full-year revenue was $1.21 billion, up 7 percent, reflecting strength in desktop and notebook workstations. Data Center revenue for the fourth quarter was a record $968 million, up 43 percent from a year ago and up 33 percent sequentially. The year-on-year increase was driven by hyperscale and vertical industry end customers. Sequential growth reflects stronger vertical industry and hyperscale sales. Full-year revenue was $2.98 billion, up 2 percent, driven by vertical industry growth partially offset by lower hyperscale sales. Automotive revenue was $163 million, flat from a year earlier and up 1 percent sequentially. Full-year revenue was $700 million, up 9 percent, reflecting growth in AI cockpit solutions and development services agreements. OEM and Other revenue for the fourth quarter was $152 million, up 31 percent from a year ago and up 6 percent sequentially. The year-on-year and sequential increases were primarily due to growth in entry level GPUs for PC OEMs. Full-year revenue was $505 million, down 34 percent, primarily due to the absence of cryptocurrency-specific product sales. Gross Margin GAAP gross margin for the fourth quarter was 64.9 percent, up 1,020 basis points from a year earlier and up 130 basis points sequentially. The year-on-year increase was primarily driven by reduced inventory charges in Gaming and a more favorable mix within Data Center. The sequential increase reflects a higher revenue contribution of Data Center products, partially offset by lower sales of previously written-off components. Full-year GAAP gross margin was 62.0 percent, up 80 basis points from a year ago, primarily driven by reduced inventory charges and the sale of previously written-off components. Non-GAAP gross margin for the fourth quarter was 65.4 percent, up 940 basis points from a year earlier and up 130 basis points sequentially. Full-year non-GAAP gross margin was 62.5 percent, up 80 basis points from a year ago. Expenses GAAP operating expenses for the fourth quarter were $1.02 billion, including $215 million in stock-based compensation and other charges, up 12 percent from a year earlier and up 4 percent sequentially. Full-year operating expenses were $3.92 billion, including $836 million in stock-based compensation and other charges, up 16 percent from a year ago. The year-on-year, sequential and full-year growth primarily reflects employee additions and increases in employee compensation and other related costs, including stock-based compensation and infrastructure costs. Non-GAAP operating expenses for the fourth quarter were $810 million, up 7 percent from a year earlier and up 5 percent sequentially. Full-year non-GAAP operating expenses were $3.09 billion, up 9 percent from fiscal 2019. Operating Income GAAP operating income for the fourth quarter was $990 million, up 237 percent from a year earlier and up 7 percent sequentially. Non-GAAP operating income for the fourth quarter was $1.22 billion, up 155 percent from a year earlier and up 6 percent sequentially. For fiscal 2020, GAAP operating income was $2.85 billion and non-GAAP operating income was $3.73 billion. Other Income & Expense and Income Tax GAAP ($ in millions) Q4 FY20 Q3 FY20 Q4 FY19 FY20 FY19 Interest income $41 $45 $42 $178 $136 Interest expense (12) (13) (14) (52) (58) Other, net (3) -- 2 (2) 14 Total $26 $32 $30 $124 $92 Non-GAAP ($ in millions) Q4 FY20 Q3 FY20 Q4 FY19 FY20 FY19 Interest income $41 $45 $42 $178 $136 Interest expense (12) (12) (14) (50) (56) Other, net (3) -- 1 (1) 2 Total $26 $33 $29 $127 $82 GAAP other income and expense, or OI&E, includes interest earned on cash and investments, interest expense associated with corporate bonds, and other gains and losses. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from certain investments. GAAP effective tax rate for the fourth quarter was 6.4 percent and for the full year was 5.9 percent, inclusive of excess tax benefits related to stock-based compensation. Non-GAAP effective tax rate for the fourth quarter was 6.0 percent and for the full year was 7.3 percent. Net Income and EPS GAAP net income for the fourth quarter was $950 million and for the full year was $2.80 billion. GAAP earnings per diluted share for the fourth quarter were $1.53, up 66 percent from a year earlier and up 6 percent sequentially. Full-year GAAP earnings per diluted share were $4.52, down 32 percent. Non-GAAP net income for the fourth quarter was $1.17 billion and for the full year was $3.58 billion. Non-GAAP earnings per diluted share for the fourth quarter were $1.89, up 136 percent from a year earlier and up 6 percent sequentially. Full-year non-GAAP earnings per diluted share were $5.79, down 13 percent. Capital Return Capital Return (in millions) FY13 FY14 FY15 FY16 FY17 FY18 FY19 FY20 Dividends $47 $181 $186 $213 $261 $341 $371 $390 Share repurchases: $ $100 $887 $814 $587 $739 $909 $1,578 $-- Shares 8 62 44 25 15 6 9 -- We will return to repurchasing our stock after closing the acquisition of Mellanox Technologies, Ltd. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities at the end of the fourth quarter were $10.90 billion, up from $9.77 billion in the prior quarter and $7.42 billion a year earlier. The increases primarily reflect growth in operating cash flow. Accounts receivable at the end of the quarter was $1.68 billion compared with $1.46 billion in the prior quarter and $1.42 billion a year earlier. DSO at quarter-end was 49 days, up from 44 days in the prior quarter and down from 59 days a year earlier. Inventory at the end of the quarter was $979 million, down from $1.05 billion in the prior quarter and down from $1.57 billion a year earlier. Outstanding inventory purchase obligations at the end of the quarter were $1.16 billion, up from $980 million in the prior quarter and up from $912 million a year earlier. DSI at quarter-end was 82 days, down from 87 days in the prior quarter and down from 143 days a year earlier. Cash flow from operating activities was $1.46 billion in the fourth quarter, down from $1.64 billion in the prior quarter, and up from $898 million a year earlier. The sequential decrease reflects changes in working capital primarily driven by an increase in DSO. The year-on-year increase primarily reflects growth in operating income. Full-year cash flow from operating activities was $4.76 billion, up from $3.74 billion a year earlier, reflecting changes in working capital driven by a reduction in inventory partially offset by a decrease in operating income. Free cash flow was $1.32 billion in the fourth quarter, compared with $1.54 billion in the previous quarter and $695 million a year earlier. Depreciation and amortization expense amounted to $106 million for the fourth quarter and $381 million for fiscal 2020. Capital expenditures were $144 million for the fourth quarter and $489 million for fiscal 2020. First Quarter of Fiscal 2021 Outlook Our outlook for the first quarter of fiscal 2021 does not include any contribution from the pending acquisition of Mellanox. Discussions with China’s regulatory agency, the State Administration for Market Regulation, are progressing, and we believe the acquisition will likely close in the early part of calendar 2020. While the ultimate effect of the coronavirus is difficult to estimate, we have reduced our revenue outlook for the first quarter of fiscal 2021 by $100 million to account for the potential impact. • Revenue is expected to be $3.00 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 65.0 percent and 65.4 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $1.05 billion and $835 million, respectively. • GAAP and non-GAAP other income and expense are both expected to be income of approximately $25 million. • GAAP and non-GAAP tax rates are both expected to be 9 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter by quarter basis. • Capital expenditures are expected to be approximately $150 million to $170 million.
+Exhibit
+CFO Commentary on
+Fourth
+Quarter and Fiscal
+2020
+Results
+Q4
+Fiscal
+2020
+Summary
+GAAP
+($ in millions, except earnings per share)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+Q/Q
+Y/Y
+Revenue
+$3,105
+$3,014
+$2,205
+Up 3%
+Up 41%
+Gross margin
+64.9
+%
+63.6
+%
+54.7
+%
+Up 130 bps
+Up 1,020 bps
+Operating expenses
+$1,025
+$989
+$913
+Up 4%
+Up 12%
+Operating income
+$990
+$927
+$294
+Up 7%
+Up 237%
+Net income
+$950
+$899
+$567
+Up 6%
+Up 68%
+Diluted earnings per share
+$1.53
+$1.45
+$0.92
+Up 6%
+Up 66%
+Non-GAAP
+($ in millions, except earnings per share)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+Q/Q
+Y/Y
+Revenue
+$3,105
+$3,014
+$2,205
+Up 3%
+Up 41%
+Gross margin
+65.4
+%
+64.1
+%
+56.0
+%
+Up 130 bps
+Up 940 bps
+Operating expenses
+$810
+$774
+$755
+Up 5%
+Up 7%
+Operating income
+$1,220
+$1,156
+$479
+Up 6%
+Up 155%
+Net income
+$1,172
+$1,103
+$496
+Up 6%
+Up 136%
+Diluted earnings per share
+$1.89
+$1.78
+$0.80
+Up 6%
+Up 136%
+Revenue by Reportable Segments
+($ in millions)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+Q/Q
+Y/Y
+GPU Business
+$2,774
+$2,565
+$1,980
+Up 8%
+Up 40%
+Tegra Processor Business
+331
+449
+225
+Down 26%
+Up 47%
+Total
+$3,105
+$3,014
+$2,205
+Up 3%
+Up 41%
+Revenue by Market Platform
+($ in millions)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+Q/Q
+Y/Y
+Gaming
+$1,491
+$1,659
+$954
+Down 10%
+Up 56%
+Professional Visualization
+331
+324
+293
+Up 2%
+Up 13%
+Data Center
+968
+726
+679
+Up 33%
+Up 43%
+Automotive
+163
+162
+163
+Up 1%
+--
+OEM and Other
+152
+143
+116
+Up 6%
+Up 31%
+Total
+$3,105
+$3,014
+$2,205
+Up 3%
+Up 41%
+Fiscal 2020 Summary
+GAAP
+($ in millions except earnings per share)
+FY20
+FY19
+Y/Y
+Revenue
+$10,918
+$11,716
+Down 7%
+Gross margin
+62.0
+%
+61.2
+%
+Up 80 bps
+Operating expenses
+$3,922
+$3,367
+Up 16%
+Operating income
+$2,846
+$3,804
+Down 25%
+Net income
+$2,796
+$4,141
+Down 32%
+Diluted earnings per share
+$4.52
+$6.63
+Down 32%
+Non-GAAP
+($ in millions except earnings per share)
+FY20
+FY19
+Y/Y
+Revenue
+$10,918
+$11,716
+Down 7%
+Gross margin
+62.5%
+61.7%
+Up 80 bps
+Operating expenses
+$3,086
+$2,826
+Up 9%
+Operating income
+$3,735
+$4,407
+Down 15%
+Net income
+$3,580
+$4,143
+Down 14%
+Diluted earnings per share
+$5.79
+$6.64
+Down 13%
+Revenue by Reportable Segments
+($ in millions)
+FY20
+FY19
+Y/Y
+GPU
+$9,465
+$10,175
+Down 7%
+Tegra Processor
+1,453
+1,541
+Down 6%
+Total
+$10,918
+$11,716
+Down 7%
+Revenue by Market Platform
+($ in millions)
+FY20
+FY19
+Y/Y
+Gaming
+$5,518
+$6,246
+Down 12%
+Professional Visualization
+1,212
+1,130
+Up 7%
+Data Center
+2,983
+2,932
+Up 2%
+Automotive
+700
+641
+Up 9%
+OEM and Other
+505
+767
+Down 34%
+Total
+$10,918
+$11,716
+Down 7%
+Revenue
+Revenue for the fourth quarter was $3.11 billion, up 41 percent from a year earlier and up 3 percent sequentially. Full-year revenue was $10.92 billion, down 7 percent.
+GPU business revenue for the fourth quarter was $2.77 billion, up 40 percent from a year earlier and up 8 percent sequentially.  Full-year revenue was $9.47 billion, down 7 percent.
+Tegra™ Processor business revenue for the fourth quarter - which includes Automotive, SoCs for gaming platforms, and embedded edge AI platforms - was $331 million, up 47 percent from a year ago and down 26 percent sequentially.  Full-year revenue was $1.45 billion, down 6 percent.
+From a market-platform perspective, Gaming revenue for the fourth quarter was $1.49 billion, up 56 percent from a year ago and down 10 percent sequentially. The year-on-year increase reflects higher sales of GeForce® GPUs and SoCs for gaming platforms. The sequential decrease reflects seasonally lower sales of GeForce notebook GPUs and SoCs for gaming platforms, partially offset by growth in GeForce desktop GPUs.  Full-year revenue was $5.52 billion, down 12 percent, reflecting lower sales of GeForce desktop GPUs and SoCs for gaming platforms, partially offset by growth in GeForce notebook GPUs.
+Professional Visualization revenue for the fourth quarter was a record $331 million, up 13 percent from a year earlier and up 2 percent sequentially. The year-on-year growth reflects strength in desktop and notebook workstations, while the sequential growth was driven by desktop workstations partially offset by notebook workstations.  Full-year revenue was $1.21 billion, up 7 percent, reflecting strength in desktop and notebook workstations.
+Data Center revenue for the fourth quarter was a record $968 million, up 43 percent from a year ago and up 33 percent sequentially. The year-on-year increase was driven by hyperscale and vertical industry end customers.  Sequential growth reflects stronger vertical industry and hyperscale sales.  Full-year revenue was $2.98 billion, up 2 percent, driven by vertical industry growth partially offset by lower hyperscale sales.
+Automotive revenue was $163 million, flat from a year earlier and up 1 percent sequentially. Full-year revenue was $700 million, up 9 percent, reflecting growth in AI cockpit solutions and development services agreements.
+OEM and Other revenue for the fourth quarter was $152 million, up 31 percent from a year ago and up 6 percent sequentially. The year-on-year and sequential increases were primarily due to growth in entry level GPUs for PC OEMs.  Full-year revenue was $505 million, down 34 percent, primarily due to the absence of cryptocurrency-specific product sales.
+Gross Margin
+GAAP gross margin for the fourth quarter was 64.9 percent, up 1,020 basis points from a year earlier and up 130 basis points sequentially. The year-on-year increase was primarily driven by reduced inventory charges in Gaming and a more favorable mix within Data Center. The sequential increase reflects a higher revenue contribution of Data Center products, partially offset by lower sales of previously written-off components.
+Full-year GAAP gross margin was 62.0 percent, up 80 basis points from a year ago, primarily driven by reduced inventory charges and the sale of previously written-off components.
+Non-GAAP gross margin for the fourth quarter was 65.4 percent, up 940 basis points from a year earlier and up 130 basis points sequentially.  Full-year non-GAAP gross margin was 62.5 percent, up 80 basis points from a year ago.
+Expenses
+GAAP operating expenses for the fourth quarter were $1.02 billion, including $215 million in stock-based compensation and other charges, up 12 percent from a year earlier and up 4 percent sequentially.  Full-year operating expenses were $3.92 billion, including $836 million in stock-based compensation and other charges, up 16 percent from a year ago.  The year-on-year, sequential and full-year growth primarily reflects employee additions and increases in employee compensation and other related costs, including stock-based compensation and infrastructure costs.
+Non-GAAP operating expenses for the fourth quarter were $810 million, up 7 percent from a year earlier and up 5 percent sequentially.  Full-year non-GAAP operating expenses were $3.09 billion, up 9 percent from fiscal 2019.
+Operating Income
+GAAP operating income for the fourth quarter was $990 million, up 237 percent from a year earlier and up 7 percent sequentially. Non-GAAP operating income for the fourth quarter was $1.22 billion, up 155 percent from a year earlier and up 6 percent sequentially. For fiscal 2020, GAAP operating income was $2.85 billion and non-GAAP operating income was $3.73 billion.
+Other Income & Expense and Income Tax
+GAAP
+($ in millions)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+FY20
+FY19
+Interest income
+$41
+$45
+$42
+$178
+$136
+Interest expense
+(12)
+(13)
+(14)
+(52)
+(58)
+Other, net
+(3)
+--
+2
+(2)
+14
+Total
+$26
+$32
+$30
+$124
+$92
+Non-GAAP
+($ in millions)
+Q4 FY20
+Q3 FY20
+Q4 FY19
+FY20
+FY19
+Interest income
+$41
+$45
+$42
+$178
+$136
+Interest expense
+(12)
+(12)
+(14)
+(50)
+(56)
+Other, net
+(3)
+--
+1
+(1)
+2
+Total
+$26
+$33
+$29
+$127
+$82
+GAAP other income and expense, or OI&E, includes interest earned on cash and investments, interest expense associated with corporate bonds, and other gains and losses. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from certain investments.
+GAAP effective tax rate for the fourth quarter was 6.4 percent and for the full year was 5.9 percent, inclusive of excess tax benefits related to stock-based compensation. Non-GAAP effective tax rate for the fourth quarter was 6.0 percent and for the full year was 7.3 percent.
+Net Income and EPS
+GAAP net income for the fourth quarter was $950 million and for the full year was $2.80 billion. GAAP earnings per diluted share for the fourth quarter were $1.53, up 66 percent from a year earlier and up 6 percent sequentially.  Full-year GAAP earnings per diluted share were $4.52, down 32 percent.
+Non-GAAP net income for the fourth quarter was $1.17 billion and for the full year was $3.58 billion.  Non-GAAP earnings per diluted share for the fourth quarter were $1.89, up 136 percent from a year earlier and up 6 percent sequentially.  Full-year non-GAAP earnings per diluted share were $5.79, down 13 percent.
+Capital Return
+Capital Return
+(in millions)
+FY13
+FY14
+FY15
+FY16
+FY17
+FY18
+FY19
+FY20
+Dividends
+$47
+$181
+$186
+$213
+$261
+$341
+$371
+$390
+Share repurchases:
+$
+$100
+$887
+$814
+$587
+$739
+$909
+$1,578
+$--
+Shares
+8
+62
+44
+25
+15
+6
+9
+--
+We will return to repurchasing our stock after closing the acquisition of Mellanox Technologies, Ltd.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities at the end of the fourth quarter were $10.90 billion, up from $9.77 billion in the prior quarter and $7.42 billion a year earlier. The increases primarily reflect growth in operating cash flow.
+Accounts receivable at the end of the quarter was $1.68 billion compared with $1.46 billion in the prior quarter and $1.42 billion a year earlier. DSO at quarter-end was 49 days, up from 44 days in the prior quarter and down from 59 days a year earlier.
+Inventory at the end of the quarter was $979 million, down from $1.05 billion in the prior quarter and down from $1.57 billion a year earlier. Outstanding inventory purchase obligations at the end of the quarter were $1.16 billion, up from $980 million in the prior quarter and up from $912 million a year earlier. DSI at quarter-end was 82 days, down from 87 days in the prior quarter and down from 143 days a year earlier.
+Cash flow from operating activities was $1.46 billion in the fourth quarter, down from $1.64 billion in the prior quarter, and up from $898 million a year earlier. The sequential decrease reflects changes in working capital primarily driven by an increase in DSO. The year-on-year increase primarily reflects growth in operating income. Full-year cash flow from operating activities was $4.76 billion, up from $3.74 billion a year earlier, reflecting changes in working capital driven by a reduction in inventory partially offset by a decrease in operating income.
+Free cash flow was $1.32 billion in the fourth quarter, compared with $1.54 billion in the previous quarter and $695 million a year earlier.
+Depreciation and amortization expense amounted to $106 million for the fourth quarter and $381 million for fiscal 2020. Capital expenditures were $144 million for the fourth quarter and $489 million for fiscal 2020.
+First Quarter of Fiscal 2021 Outlook
+Our outlook for the first quarter of fiscal 2021 does not include any contribution from the pending acquisition of Mellanox.  Discussions with China’s regulatory agency, the State Administration for Market Regulation, are progressing, and we believe the acquisition will likely close in the early part of calendar 2020.
+While the ultimate effect of the coronavirus is difficult to estimate, we have reduced our revenue outlook for the first quarter of fiscal 2021 by $100 million to account for the potential impact.
+•
+Revenue is expected to be $3.00 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 65.0 percent and 65.4 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $1.05 billion and $835 million, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be income of approximately $25 million.
+•
+GAAP and non-GAAP tax rates are both expected to be 9 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter by quarter basis.
+•
+Capital expenditures are expected to be approximately $150 million to $170 million.
+______________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income, non-GAAP income tax expense, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, non-GAAP diluted shares, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude stock-based compensation expense, legal settlement costs, acquisition-related and other costs, gains and losses from non-affiliated investments, interest expense related to amortization of debt discount, and the associated tax impact of these items, where applicable. Free cash flow is calculated as GAAP net cash provided by operating activities less purchases of property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: NVIDIA returning to repurchasing our stock after closing the acquisition of Mellanox; the status of the China regulatory approval process and the expected timing of closing of the Mellanox acquisition; the ultimate effect of the coronavirus; our financial outlook for the first quarter of fiscal 2021; our expected tax rates for the first quarter of fiscal 2021; our expectation to generate variability from excess tax benefits or deficiencies; and our expected capital expenditures for the first quarter of fiscal 2021 are

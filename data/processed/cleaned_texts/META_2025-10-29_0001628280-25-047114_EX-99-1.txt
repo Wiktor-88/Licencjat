@@ -1,1 +1,112 @@
-Document Meta Reports Third Quarter 2025 Results MENLO PARK, Calif. – October 29, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended September 30, 2025. "We had a strong quarter for our business and our community," said Mark Zuckerberg, Meta founder and CEO. "Meta Superintelligence Labs is off to a great start and we continue to lead the industry in AI glasses. If we deliver even a fraction of the opportunity ahead, then the next few years will be the most exciting period in our history." Third Quarter 2025 Financial Highlights Three Months Ended September 30, % Change In millions, except percentages and per share amounts 2025 2024 Revenue $ 51,242 $ 40,589 26 % Costs and expenses 30,707 23,239 32 % Income from operations $ 20,535 $ 17,350 18 % Operating margin 40 % 43 % Provision for income taxes $ 18,954 $ 2,134 788 % Effective tax rate 87 % 12 % Net income $ 2,709 $ 15,688 (83) % Diluted earnings per share (EPS) $ 1.05 $ 6.03 (83) % Provision for Income Taxes - One-Time, Non-Cash Charge Impact We expect a significant reduction in our U.S. federal cash tax payments for the remainder of 2025 and future years due to the implementation of the One Big Beautiful Bill Act. However, the implementation also led to the recognition of a valuation allowance against our U.S. federal deferred tax assets, reflecting the impact of the U.S. Corporate Alternative Minimum Tax. As a result, the third quarter 2025 provision for income taxes includes a one-time, non-cash income tax charge of $15.93 billion. Excluding this one-time tax charge, our third quarter 2025: • Effective tax rate would have decreased by 73 percentage points to 14%, compared to the reported effective tax rate of 87%. • Net income would have increased by $15.93 billion to $18.64 billion, compared to the reported net income of $2.71 billion. • Diluted EPS would have increased by $6.20 to $7.25, compared to the reported diluted EPS of $1.05. Third Quarter 2025 Operational and Other Financial Highlights • Family daily active people (DAP) – DAP was 3.54 billion on average for September 2025, an increase of 8% year-over-year. • Ad impressions – Ad impressions delivered across our Family of Apps increased by 14% year-over-year. • Average price per ad – Average price per ad increased by 10% year-over-year. • Revenue – Revenue was $51.24 billion, an increase of 26% year-over-year. Revenue on a constant currency basis would have increased 25% year-over-year. • Costs and expenses – Total costs and expenses were $30.71 billion, an increase of 32% year-over-year. • Capital expenditures – Capital expenditures, including principal payments on finance leases, were $19.37 billion. • Capital return program – Share repurchases of our Class A common stock were $3.16 billion and total dividend and dividend equivalent payments were $1.33 billion. • Cash, cash equivalents, and marketable securities – Cash, cash equivalents, and marketable securities were $44.45 billion as of September 30, 2025. Cash flow from operating activities was $30.0 billion and free cash flow was $10.62 billion. (1) • Headcount – Headcount was 78,450 as of September 30, 2025, an increase of 8% year-over-year. ____________________________________ (1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release. 1 CFO Outlook Commentary We expect fourth quarter 2025 total revenue to be in the range of $56-59 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates. Our outlook reflects an expectation for continued strong ad revenue growth, partially offset by lower year-over-year Reality Labs revenue in the fourth quarter. The anticipated reduction in Reality Labs revenue is due to us lapping the introduction of Quest 3S in the fourth quarter of last year as well as retail partners procuring Quest headsets during the third quarter of this year to prepare for the holiday season, which were recorded as revenue in the third quarter. We expect full year 2025 total expenses to be in the range of $116-118 billion, updated from our prior outlook of $114-118 billion and reflecting a growth rate of 22-24% year-over-year. We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion. Absent any changes to our tax landscape, we expect our fourth quarter 2025 tax rate to be 12-15%. We are at an exciting point for our company, where we have continued runway to improve our core services today as well as the opportunity to build new AI-powered experiences and services that will transform how people engage with our products in the future. We expect the set of investments we are making within our ads and organic engagement initiatives next year will enable us to continue to deliver strong revenue growth in 2026, while our progress on AI models and products will position us to capitalize on new revenue opportunities in the years to come. A central requirement to realizing these opportunities is infrastructure capacity. As we have begun to plan for next year, it has become clear that our compute needs have continued to expand meaningfully, including versus our expectations last quarter. We are still working through our capacity plans for next year, but we expect to invest aggressively to meet these needs both by building our own infrastructure and contracting with third party cloud providers. We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year. As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025. We also anticipate total expenses will grow at a significantly faster percentage rate in 2026 than 2025, with growth driven primarily by infrastructure costs, including incremental cloud expenses and depreciation. Employee compensation costs will be the second largest contributor to growth, as we recognize a full year of compensation for employees hired throughout 2025, particularly AI talent, and add technical talent in priority areas. Finally, we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the U.S. that could significantly impact our business and financial results. For example, in the EU, we continue to engage constructively with the European Commission on our Less Personalized Ads offering. However, we cannot rule out the Commission imposing further changes to that offering that could have a significant negative impact on our European revenue, as early as this quarter. In the U.S., a number of youth-related trials are scheduled for 2026, and may ultimately result in a material loss. 2 Webcast and
+Document
+Meta Reports Third Quarter 2025 Results
+MENLO PARK, Calif. – October 29, 2025 – Meta Platforms, Inc. (Nasdaq: META) today reported financial results for the quarter ended September 30, 2025.
+"We had a strong quarter for our business and our community," said Mark Zuckerberg, Meta founder and CEO. "Meta Superintelligence Labs is off to a great start and we continue to lead the industry in AI glasses. If we deliver even a fraction of the opportunity ahead, then the next few years will be the most exciting period in our history."
+Third Quarter 2025 Financial Highlights
+Three Months Ended September 30,
+% Change
+In millions, except percentages and per share amounts
+2025
+2024
+Revenue
+$
+51,242
+$
+40,589
+26
+%
+Costs and expenses
+30,707
+23,239
+32
+%
+Income from operations
+$
+20,535
+$
+17,350
+18
+%
+Operating margin
+40
+%
+43
+%
+Provision for income taxes
+$
+18,954
+$
+2,134
+788
+%
+Effective tax rate
+87
+%
+12
+%
+Net income
+$
+2,709
+$
+15,688
+(83)
+%
+Diluted earnings per share (EPS)
+$
+1.05
+$
+6.03
+(83)
+%
+Provision for Income Taxes - One-Time, Non-Cash Charge Impact
+We expect a significant reduction in our U.S. federal cash tax payments for the remainder of 2025 and future years due to the implementation of the One Big Beautiful Bill Act. However, the implementation also led to the recognition of a valuation allowance against our U.S. federal deferred tax assets, reflecting the impact of the U.S. Corporate Alternative Minimum Tax. As a result, the third quarter 2025 provision for income taxes includes a one-time, non-cash income tax charge of $15.93 billion. Excluding this one-time tax charge, our third quarter 2025:
+•
+Effective tax rate would have decreased by 73 percentage points to 14%, compared to the reported effective tax rate of 87%.
+•
+Net income would have increased by $15.93 billion to $18.64 billion, compared to the reported net income of $2.71 billion.
+•
+Diluted EPS would have increased by $6.20 to $7.25, compared to the reported diluted EPS of $1.05.
+Third Quarter 2025 Operational and Other Financial Highlights
+•
+Family daily active people (DAP)
+– DAP was 3.54 billion on average for September 2025, an increase of 8% year-over-year.
+•
+Ad impressions
+– Ad impressions delivered across our Family of Apps increased by 14% year-over-year.
+•
+Average price per ad
+– Average price per ad increased by 10% year-over-year.
+•
+Revenue
+– Revenue was $51.24 billion, an increase of 26% year-over-year. Revenue on a constant currency basis would have increased 25% year-over-year.
+•
+Costs and expenses
+– Total costs and expenses were $30.71 billion, an increase of 32% year-over-year.
+•
+Capital expenditures
+– Capital expenditures, including principal payments on finance leases, were $19.37 billion.
+•
+Capital return program
+– Share repurchases of our Class A common stock were $3.16 billion and total dividend and dividend equivalent payments were $1.33 billion.
+•
+Cash, cash equivalents, and marketable securities
+– Cash, cash equivalents, and marketable securities were $44.45 billion as of September 30, 2025. Cash flow from operating activities was $30.0 billion and free cash flow was $10.62 billion.
+(1)
+•
+Headcount
+– Headcount
+was 78,450 as of September 30, 2025, an increase of 8% year-over-year.
+____________________________________
+(1) For more information on our free cash flow non-GAAP financial measure, see the sections entitled "Non-GAAP Financial Measures" and "Reconciliation of GAAP to Non-GAAP Results" in this press release.
+1
+CFO Outlook Commentary
+We expect fourth quarter 2025 total revenue to be in the range of $56-59 billion. Our guidance assumes foreign currency is an approximately 1% tailwind to year-over-year total revenue growth, based on current exchange rates. Our outlook reflects an expectation for continued strong ad revenue growth, partially offset by lower year-over-year Reality Labs revenue in the fourth quarter. The anticipated reduction in Reality Labs revenue is due to us lapping the introduction of Quest 3S in the fourth quarter of last year as well as retail partners procuring Quest headsets during the third quarter of this year to prepare for the holiday season, which were recorded as revenue in the third quarter.
+We expect full year 2025 total expenses to be in the range of $116-118 billion, updated from our prior outlook of $114-118 billion and reflecting a growth rate of 22-24% year-over-year.
+We currently expect 2025 capital expenditures, including principal payments on finance leases, to be in the range of $70-72 billion, increased from our prior outlook of $66-72 billion.
+Absent any changes to our tax landscape, we expect our fourth quarter 2025 tax rate to be 12-15%.
+We are at an exciting point for our company, where we have continued runway to improve our core services today as well as the opportunity to build new AI-powered experiences and services that will transform how people engage with our products in the future. We expect the set of investments we are making within our ads and organic engagement initiatives next year will enable us to continue to deliver strong revenue growth in 2026, while our progress on AI models and products will position us to capitalize on new revenue opportunities in the years to come.
+A central requirement to realizing these opportunities is infrastructure capacity. As we have begun to plan for next year, it has become clear that our compute needs have continued to expand meaningfully, including versus our expectations last quarter. We are still working through our capacity plans for next year, but we expect to invest aggressively to meet these needs both by building our own infrastructure and contracting with third party cloud providers. We anticipate this will provide further upward pressure on our capital expenditures and expense plans next year.
+As a result, our current expectation is that capital expenditures dollar growth will be notably larger in 2026 than 2025. We also anticipate total expenses will grow at a significantly faster percentage rate in 2026 than 2025, with growth driven primarily by infrastructure costs, including incremental cloud expenses and depreciation. Employee compensation costs will be the second largest contributor to growth, as we recognize a full year of compensation for employees hired throughout 2025, particularly AI talent, and add technical talent in priority areas.
+Finally, we continue to monitor active legal and regulatory matters, including the increasing headwinds in the EU and the U.S. that could significantly impact our business and financial results. For example, in the EU, we continue to engage constructively with the European Commission on our Less Personalized Ads offering. However, we cannot rule out the Commission imposing further changes to that offering that could have a significant negative impact on our European revenue, as early as this quarter. In the U.S., a number of youth-related trials are scheduled for 2026, and may ultimately result in a material loss.
+2
+Webcast and

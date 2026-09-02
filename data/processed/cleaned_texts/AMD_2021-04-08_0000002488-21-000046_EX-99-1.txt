@@ -1,1 +1,29 @@
-Document NEWS RELEASE AMD Investor Contact: Laura Graves 408-749-5467 Laura.graves@amd.com AMD
+Document
+NEWS RELEASE
+AMD Investor Contact:
+Laura Graves
+408-749-5467
+Laura.graves@amd.com
+AMD Media Contact:
+Drew Prairie
+512-602-4425
+Drew.prairie@amd.com
+Xilinx Investor Contact
+Suresh Bhaskaran
+408-879-4784
+ir@xilinx.com
+Xilinx Media Contact:
+Tara Sims
+415-713-5986
+taras@xilinx.com
+AMD and Xilinx Stockholders Overwhelmingly Approve AMD’s Acquisition of Xilinx
+SILICON VALLEY, Calif. ― April 7, 2021 ―
+AMD
+(NASDAQ:AMD) and
+Xilinx, Inc.
+(NASDAQ:XLNX) announced today that stockholders voted to approve their respective proposals relating to the pending acquisition of Xilinx by AMD. The acquisition will bring together two industry leaders with complementary product portfolios and customers, combining CPUs, GPUs, FPGAs, Adaptive SoCs and deep software expertise to enable leadership in computing platforms for cloud, edge and end devices. Together, the combined company will have the ability to capitalize on opportunities spanning some of the industry’s most important growth segments, including data centers, gaming, PCs, communications, automotive, industrial, aerospace and defense.
+“For several years, AMD has successfully executed our long-term growth strategy and deepened the company’s partnerships to drive high performance computing leadership,” said Dr. Lisa Su, AMD president and CEO. “The acquisition of Xilinx marks the next leg in our journey to make AMD the strategic partner of choice for the largest and most important technology companies in the world as an industry leader with the vision, talent and scale to support their future innovation.”
+“The Xilinx team is one of the strongest in the industry and we are thrilled to be joining AMD,” said Victor Peng, Xilinx president and CEO. “Our shared cultures of innovation, excellence and collaboration
+1
+will enable us to accelerate growth in the data center and pursue a broader customer base across more markets as a combined company.”
+The closing of the transaction remains subject to the satisfaction of other customary closing conditions, including the receipt of required regulatory approvals. The companies continue to expect that the transaction will be completed by the end of the 2021.

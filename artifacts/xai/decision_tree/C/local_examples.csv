@@ -1,0 +1,5 @@
+XAI_Example_Type,Ticker,Accession,Event_Session,Test_Year,Target_Tradable_Abnormal_1D,XAI_Prediction,XAI_Probability
+true_positive,AVGO,0001730168-23-000054,2023-05-23,2023,1,1,1.0
+true_negative,GOOGL,0001652044-25-000027,2025-03-18,2025,0,0,0.0
+false_positive,TSLA,0000950170-23-033544,2023-07-20,2023,0,1,1.0
+false_negative,AMD,0001193125-25-052173,2025-03-12,2025,1,0,0.0

@@ -1,1 +1,44 @@
-Item 8.01 Other Events. On August 5, 2022, Intel Corporation (“Intel”) issued $1,250,000,000 aggregate principal amount of 3.750% Senior Notes due 2027 (the “2027 Notes”), $850,000,000 aggregate principal amount of 4.000% Senior Notes due 2029 (the “2029 Notes”), $1,250,000,000 aggregate principal amount of 4.150% Senior Notes due 2032 (the “Green Bonds”), $1,750,000,000 aggregate principal amount of 4.900% Senior Notes due 2052 (the “2052 Notes”) and $900,000,000 aggregate principal amount of 5.050% Senior Notes due 2062 (the “2062 Notes” and, together with the 2027 Notes, the 2029 Notes, the Green Bonds and the 2052 Notes, the “Notes”) pursuant to the terms of an underwriting agreement dated August 2, 2022 (the “Underwriting Agreement”) among Intel and J.P. Morgan Securities LLC, BNP Paribas Securities Corp., BofA Securities, Inc. and Goldman Sachs & Co. LLC, as representatives of the several underwriters named therein. The aggregate principal amount of the Notes is $6.0 billion, and the net proceeds from the offering are approximately $5.97 billion, before expenses but after deducting the underwriting discounts. The offering of the Notes sold pursuant to the Underwriting Agreement was registered under Intel’s registration statement on Form S-3 filed on January 22, 2021 (File No. 333-252340) and the Notes were issued pursuant to an indenture between Intel and Computershare Trust Company, National Association (as successor to Wells Fargo Bank, National Association), as trustee (the “Trustee”), dated as of March 29, 2006 (the “Base Indenture”), as supplemented by the first supplemental indenture between Intel and the Trustee, dated as of December 3, 2007 (the “First Supplemental Indenture”), as further supplemented by the eighteenth supplemental indenture between Intel and the Trustee, dated as of August 5, 2022 (the “Eighteenth Supplemental Indenture”). The foregoing descriptions of the Underwriting Agreement, the Base Indenture, the First Supplemental Indenture and the Eighteenth Supplemental Indenture are qualified in their entirety by the terms of such agreements, which are attached as Exhibit 1.1 to this Current Report, Exhibit 4.4 to the registration statement on Form S-3 filed on March 30, 2006 (File No. 333-132865), Exhibit 4.2.4 to the annual report on Form 10-K filed on February 20, 2008 (File No. 000-06217) and Exhibit 4.1 to this Current Report, respectively, and incorporated by reference herein. The foregoing description of the Notes is qualified in its entirety by reference to the full text of the form of the 3.750% Senior Note due 2027, the form of the 4.000% Senior Note due 2029, the form of the 4.150% Senior Note due 2032, the form of the 4.900% Senior Note due 2052 and the form of the 5.050% Senior Note due 2062, which are attached as Exhibit 4.2, Exhibit 4.3, Exhibit 4.4, Exhibit 4.5 and Exhibit 4.6 to this Current Report, respectively, and incorporated by reference herein. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. The following exhibits are filed as part of this Report. Exhibit Number Description 1.1 Underwriting Agreement, dated as of August 2, 2022, among Intel Corporation and J.P. Morgan Securities LLC, BNP Paribas Securities Corp., BofA Securities, Inc. and Goldman Sachs & Co. LLC, as representatives of the several underwriters named therein 4.1 Eighteenth Supplemental Indenture, dated as of August 5, 2022, between Intel Corporation and Computershare Trust Company, National Association (as successor to Wells Fargo Bank, National Association), as trustee 4.2 Form of 3.750% Senior Note due 2027 4.3 Form of 4.000% Senior Note due 2029 4.4 Form of 4.150% Senior Note due 2032 4.5 Form of 4.900% Senior Note due 2052 4.6 Form of 5.050% Senior Note due 2062 5.1 Opinion of Gibson, Dunn and Crutcher LLP 23.1 Consent of Gibson, Dunn and Crutcher LLP (included in Exhibit 5.1) 104 Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101
+Item 8.01
+Other Events.
+On August 5, 2022, Intel Corporation (“Intel”) issued $1,250,000,000 aggregate principal amount of 3.750% Senior Notes due 2027 (the “2027 Notes”), $850,000,000 aggregate principal amount of 4.000% Senior Notes due 2029 (the “2029 Notes”), $1,250,000,000 aggregate principal amount of 4.150% Senior Notes due 2032 (the “Green Bonds”), $1,750,000,000 aggregate principal amount of 4.900% Senior Notes due 2052 (the “2052 Notes”) and $900,000,000 aggregate principal amount of 5.050% Senior Notes due 2062 (the “2062 Notes” and, together with the 2027 Notes, the 2029 Notes, the Green Bonds and the 2052 Notes, the “Notes”) pursuant to the terms of an underwriting agreement dated August 2, 2022 (the “Underwriting Agreement”) among Intel and J.P. Morgan Securities LLC, BNP Paribas Securities Corp., BofA Securities, Inc. and Goldman Sachs & Co. LLC, as representatives of the several underwriters named therein. The aggregate principal amount of the Notes is $6.0 billion, and the net proceeds from the offering are approximately $5.97 billion, before expenses but after deducting the underwriting discounts.
+The offering of the Notes sold pursuant to the Underwriting Agreement was registered under Intel’s registration statement on Form
+S-3
+filed on January 22, 2021 (File
+No. 333-252340)
+and the Notes were issued pursuant to an indenture between Intel and Computershare Trust Company, National Association (as successor to Wells Fargo Bank, National Association), as trustee (the “Trustee”), dated as of March 29, 2006 (the “Base Indenture”), as supplemented by the first supplemental indenture between Intel and the Trustee, dated as of December 3, 2007 (the “First Supplemental Indenture”), as further supplemented by the eighteenth supplemental indenture between Intel and the Trustee, dated as of August 5, 2022 (the “Eighteenth Supplemental Indenture”).
+The foregoing descriptions of the Underwriting Agreement, the Base Indenture, the First Supplemental Indenture and the Eighteenth Supplemental Indenture are qualified in their entirety by the terms of such agreements, which are attached as Exhibit 1.1 to this Current Report, Exhibit 4.4 to the registration statement on
+Form S-3
+filed on March 30, 2006 (File
+No. 333-132865),
+Exhibit 4.2.4 to the annual report on
+Form 10-K
+filed on February 20, 2008 (File
+No. 000-06217)
+and Exhibit 4.1 to this Current Report, respectively, and incorporated by reference herein. The foregoing description of the Notes is qualified in its entirety by reference to the full text of the form of the 3.750% Senior Note due 2027, the form of the 4.000% Senior Note due 2029, the form of the 4.150% Senior Note due 2032, the form of the 4.900% Senior Note due 2052 and the form of the 5.050% Senior Note due 2062, which are attached as Exhibit 4.2, Exhibit 4.3, Exhibit 4.4, Exhibit 4.5 and Exhibit 4.6 to this Current Report, respectively, and incorporated by reference herein.
+Item 9.01
+Financial Statements and Exhibits.
+(d) Exhibits.
+The following exhibits are filed as part of this Report.
+Exhibit
+Number
+Description
+1.1
+Underwriting Agreement, dated as of August 2, 2022, among Intel Corporation and J.P. Morgan Securities LLC, BNP Paribas Securities Corp., BofA Securities, Inc. and Goldman Sachs & Co. LLC, as representatives of the several underwriters named therein
+4.1
+Eighteenth Supplemental Indenture, dated as of August 5, 2022, between Intel Corporation and Computershare Trust Company, National Association (as successor to Wells Fargo Bank, National Association), as trustee
+4.2
+Form of 3.750% Senior Note due 2027
+4.3
+Form of 4.000% Senior Note due 2029
+4.4
+Form of 4.150% Senior Note due 2032
+4.5
+Form of 4.900% Senior Note due 2052
+4.6
+Form of 5.050% Senior Note due 2062
+5.1
+Opinion of Gibson, Dunn and Crutcher LLP
+23.1
+Consent of Gibson, Dunn and Crutcher LLP (included in Exhibit 5.1)
+104
+Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101

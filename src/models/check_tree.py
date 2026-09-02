@@ -11,7 +11,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.tree import DecisionTreeClassifier
 
-from src.models.model_config import (CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES,
+from src.models.model_config import (CATEGORICAL_FEATURES, TABULAR_MARKET_FEATURES,
     MIN_SEC_COUNT, RANDOM_STATE, SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES,
     SENTIMENT_HISTORY_FLAG, TARGET)
 from src.models.model_utils import calculate_metrics, prepare_model_dataset, select_sec_features
@@ -41,11 +41,11 @@ def evaluate_params(df, max_depth, min_leaf):
                                            min_count=MIN_SEC_COUNT)
         
         binary_features = selected_sec + [SENTIMENT_HISTORY_FLAG]
-        features = (MARKET_COMPACT_FEATURES + CATEGORICAL_FEATURES
+        features = (TABULAR_MARKET_FEATURES + CATEGORICAL_FEATURES
             + binary_features + SENTIMENT_FEATURES)
 
         preprocessor = ColumnTransformer([
-            ("market", "passthrough", MARKET_COMPACT_FEATURES),
+            ("market", "passthrough", TABULAR_MARKET_FEATURES),
             ("ticker", OneHotEncoder(handle_unknown="ignore", sparse_output=False), CATEGORICAL_FEATURES),
             ("binary", "passthrough", binary_features),
             ("sentiment", SimpleImputer(strategy="constant", fill_value=0.0), SENTIMENT_FEATURES),

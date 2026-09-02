@@ -1,1 +1,15 @@
-Item 8.01. Other Events. On September 25, 2020, the plaintiffs in the stockholder derivative action captioned In re Alphabet Inc. Shareholder Derivative Litigation , Lead Case No. 19CV341522, pending in the Superior Court of the State of California, County of Santa Clara (the “California Action”), filed a motion for preliminary approval of the settlement of the California Action, as well as other related litigations pending in the United States District Court for the Northern District of California and the Delaware Court of Chancery and litigation demands made by certain stockholders of the company (collectively, the “Settled Matters”). The complaints and demands in the Settled Matters alleged that certain defendants breached their fiduciary duties in connection with (1) an alleged pattern of sexual harassment and discrimination by male executives at the company and (2) a data bug, allegedly in violation of state and federal law. The Settled Matters were resolved pursuant to a Stipulation and Agreement of Settlement (the “Stipulation”) that the plaintiffs filed with their motion for preliminary approval and that is attached hereto as Exhibit 99.1. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. Exhibit No. Description 99.1 Stipulation and Agreement of Settlement 104 Cover Page Interactive Data File (embedded within the Inline XBRL document)
+Item 8.01.
+Other Events.
+On September 25, 2020, the plaintiffs in the stockholder derivative action captioned
+In re Alphabet Inc. Shareholder Derivative Litigation
+, Lead Case No. 19CV341522, pending in the Superior Court of the State of California, County of Santa Clara (the “California Action”), filed a motion for preliminary approval of the settlement of the California Action, as well as other related litigations pending in the United States District Court for the Northern District of California and the Delaware Court of Chancery and litigation demands made by certain stockholders of the company (collectively, the “Settled Matters”). The complaints and demands in the Settled Matters alleged that certain defendants breached their fiduciary duties in connection with (1) an alleged pattern of sexual harassment and discrimination by male executives at the company and (2) a data bug, allegedly in violation of state and federal law. The Settled Matters were resolved pursuant to a Stipulation and Agreement of Settlement (the “Stipulation”) that the plaintiffs filed with their motion for preliminary approval and that is attached hereto as Exhibit 99.1.
+Item 9.01
+Financial Statements and Exhibits.
+(d) Exhibits.
+Exhibit
+No.
+Description
+99.1
+Stipulation and Agreement of Settlement
+104
+Cover Page Interactive Data File (embedded within the Inline XBRL document)

@@ -7,6 +7,7 @@
 import time
 import re
 import logging
+import hashlib
 import pandas as pd
 import nltk
 import torch
@@ -26,6 +27,7 @@ OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "sentiment_blocks.csv"
 CHECKPOINT_FILE = PROJECT_ROOT / "data" / "processed" / "sentiment_checkpoint.csv"
 
 MODEL_NAME = "yiyanghkust/finbert-tone"
+PIPELINE_VERSION = 2
 
 # FinBERT ma limit 512 tokenów, wiec podzielimy tekst na bloki po 450 tokenów
 MAX_TOKENS_PER_BLOCK = 450
@@ -56,9 +58,10 @@ def ensure_nltk_resource(resource_path: str, download_name: str) -> None:
 
     try:
         nltk.data.find(resource_path)
+        return
 
     except LookupError:
-        logger.info('Brak zassobu NLTK %s przy pobiernaiu: ', download_name)
+        logger.info("Brak zasobu NLTK %s, rozpoczynam pobieranie.", download_name)
 
     success = nltk.download(download_name, quiet=True)
 
@@ -394,6 +397,9 @@ def create_document_blocks(text: str, source_type: str, tokenizer,) -> list[dict
 
                 "Text":
                     block_text,
+
+                "Token_Count":
+                    len(tokenizer.encode(block_text, add_special_tokens=False)),
             })
 
             global_block_id += 1
@@ -553,6 +559,7 @@ def create_result_row(
     accession_number: str,
     source_type: str,
     filename: str,
+    text_sha256: str,
     block_metadata: dict,
     predictions: list[dict],
 ) -> dict:
@@ -582,6 +589,15 @@ def create_result_row(
         "File":
             filename,
 
+        "Cleaned_Text_SHA256":
+            text_sha256,
+
+        "Sentiment_Model":
+            MODEL_NAME,
+
+        "Sentiment_Pipeline_Version":
+            PIPELINE_VERSION,
+
         "Item_Number":
             block_metadata["Item_Number"],
 
@@ -593,6 +609,9 @@ def create_result_row(
 
         "Text_Snippet":
             block_metadata["Text"],
+
+        "Token_Count":
+            block_metadata["Token_Count"],
     }
 
     result.update(
@@ -632,6 +651,7 @@ def process_sentiment_file(
     text = file_path.read_text(
         encoding="utf-8"
     )
+    text_sha256 = hashlib.sha256(text.encode("utf-8")).hexdigest()
 
     if not text.strip():
 
@@ -723,6 +743,7 @@ def process_sentiment_file(
             accession_number=accession_number,
             source_type=source_type,
             filename=file_path.name,
+            text_sha256=text_sha256,
             block_metadata=block_metadata,
             predictions=predictions,
         )
@@ -808,94 +829,69 @@ def analyze_sentiment_directory(
     wszystkich wybranych dokumentów SEC.
     """
 
-    ensure_nltk_resources()
-
-    tokenizer, sentiment_pipeline = (
-        load_finbert()
-    )
-
     file_paths = select_input_files(
         input_dir=input_dir,
         limit_files=limit_files,
-        test_files_per_ticker=(
-            test_files_per_ticker
-        ),
+        test_files_per_ticker=test_files_per_ticker,
     )
-
-    number_of_files = len(
-        file_paths
-    )
-
-    logger.info(
-        "Liczba plików do analizy: %d",
-        number_of_files,
-    )
+    number_of_files = len(file_paths)
+    logger.info("Liczba plików do analizy: %d", number_of_files)
 
     if number_of_files == 0:
-
-        logger.warning(
-            "Nie znaleziono plików do analizy."
-        )
-
+        logger.warning("Nie znaleziono plików do analizy.")
         return pd.DataFrame()
 
     results: list[dict] = []
+    file_hashes = {path.name: hashlib.sha256(path.read_bytes()).hexdigest() for path in file_paths}
+    completed_files: set[str] = set()
 
-    total_start_time = (
-        time.perf_counter()
-    )
+    if checkpoint_path is not None and checkpoint_path.exists():
+        checkpoint = pd.read_csv(checkpoint_path)
+        required = {"File", "Cleaned_Text_SHA256", "Sentiment_Model", "Sentiment_Pipeline_Version", "Token_Count"}
+        if required.issubset(checkpoint.columns):
+            checkpoint = checkpoint.loc[
+                checkpoint["File"].isin(file_hashes)
+                & checkpoint["Sentiment_Model"].eq(MODEL_NAME)
+                & checkpoint["Sentiment_Pipeline_Version"].eq(PIPELINE_VERSION)].copy()
 
-    for file_index, file_path in enumerate(
-        file_paths,
-        start=1,
-    ):
+            for filename, file_df in checkpoint.groupby("File"):
+                expected_hash = file_hashes.get(str(filename))
+                if expected_hash and file_df["Cleaned_Text_SHA256"].eq(expected_hash).all():
+                    completed_files.add(str(filename))
+                    results.extend(file_df.to_dict("records"))
+            logger.info("Wznowienie z checkpointu: %d/%d plików jest gotowych.", len(completed_files), number_of_files)
+        else:
+            logger.info("Checkpoint ma starszy format, dlatego analiza zostanie wykonana od początku.")
 
-        logger.info(
-            "Przetwarzanie %d/%d: %s",
-            file_index,
-            number_of_files,
-            file_path.name,
-        )
+    pending_files = [path for path in file_paths if path.name not in completed_files]
+    if not pending_files:
+        logger.info("Wszystkie pliki są już zapisane w aktualnym checkpoincie.")
+        return pd.DataFrame(results).sort_values(["Ticker", "Date", "Accession", "Source_Type", "Block_ID"]).reset_index(drop=True)
+
+    ensure_nltk_resources()
+    tokenizer, sentiment_pipeline = load_finbert()
+    total_start_time = time.perf_counter()
+
+    for file_index, file_path in enumerate(pending_files, start=1):
+        logger.info("Przetwarzanie %d/%d pozostałych: %s", file_index, len(pending_files), file_path.name)
 
         file_results = process_sentiment_file(
             file_path=file_path,
             tokenizer=tokenizer,
-            sentiment_pipeline=sentiment_pipeline,
-        )
+            sentiment_pipeline=sentiment_pipeline)
+        results.extend(file_results)
 
-        results.extend(
-            file_results
-        )
+        if checkpoint_path is not None and file_index % CHECKPOINT_EVERY == 0:
+            save_checkpoint(results=results, checkpoint_path=checkpoint_path)
 
-        if (
-            checkpoint_path is not None
-            and file_index % CHECKPOINT_EVERY == 0
-        ):
-            save_checkpoint(
-                results=results,
-                checkpoint_path=checkpoint_path,
-            )
-
-    total_time = (
-        time.perf_counter()
-        - total_start_time
-    )
+    total_time = time.perf_counter() - total_start_time
 
     if checkpoint_path is not None:
-        save_checkpoint(
-            results=results,
-            checkpoint_path=checkpoint_path,
-        )
+        save_checkpoint(results=results, checkpoint_path=checkpoint_path)
 
-    logger.info(
-        "Analiza zakończona | "
-        "pliki=%d | bloki=%d | czas=%.2fs",
-        number_of_files,
-        len(results),
-        total_time,
-    )
+    logger.info("Analiza zakończona | pliki=%d | bloki=%d | czas=%.2fs", number_of_files, len(results), total_time)
 
-    return pd.DataFrame(results)
+    return pd.DataFrame(results).sort_values(["Ticker", "Date", "Accession", "Source_Type", "Block_ID"]).reset_index(drop=True)
 
 
 ###################### CZESC - MAIN ######################

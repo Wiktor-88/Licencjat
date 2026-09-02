@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "NVDA",
+    "Accession": "0001045810-23-000221",
+    "Filing_Date": "2023-10-24",
+    "Feature_Cutoff_Session": "2023-10-23",
+    "Event_Session": "2023-10-24T00:00:00",
+    "Publication_Period": "PRE_MARKET",
+    "Test_Year": 2023,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "false_negative"
+  },
+  "prediction": {
+    "Base_Value": -0.24836811423301697,
+    "Raw_Margin": -2.191387414932251,
+    "Probability_Class_1": 0.10052657127380371,
+    "Prediction": 0
+  }
+}

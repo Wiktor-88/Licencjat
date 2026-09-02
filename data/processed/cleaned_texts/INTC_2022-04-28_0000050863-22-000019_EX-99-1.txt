@@ -1,1 +1,134 @@
-Document Exhibit 99.1 Intel Corporation 2200 Mission College Blvd. Santa Clara, CA 95054-1549 News Release Intel Reports First-Quarter 2022 Financial Results News Summary ▪ First-quarter GAAP revenue of $18.4 billion, down 7% year over year (YoY), and non-GAAP revenue of $18.4 billion, down 1% YoY, exceeded January guidance. Achieved record quarterly revenue in Intel's Network and Edge Group, Mobileye and Intel Foundry Services businesses. ▪ First-quarter GAAP earnings-per-share (EPS) was $1.98; non-GAAP EPS was $0.87, which exceeded January guidance by $0.07 . Exceeded January guidance for EPS and gross margin. ▪ Reaffirming full-year 2022 revenue guidance. SANTA CLARA, Calif., April 28, 2022 -- Intel Corporation today reported first-quarter 2022 financial results. “Q1 was a strong start to the year, exceeding expectations on both the top- and bottom-line," said Pat Gelsinger, Intel CEO. "With a $1 trillion market opportunity ahead of us, we remain laser focused on our IDM 2.0 strategy. We executed well against that strategy in Q1, delivering key product and technology milestones and announcing plans to expand our manufacturing capacity in both the US and Europe to meet the continued demand for semiconductors and drive a more balanced, resilient global supply chain.” “Intel delivered strong first-quarter financial results, and we are reaffirming our full-year revenue guidance," said David Zinsner, Intel CFO. "We remain committed to the financial framework we laid out at Intel's Investor Meeting, including diligently managing the business to drive both growth and profitability and create shareholder value." Q1 2022 Financial Highlights GAAP Non-GAAP Q1 2022 Q1 2021 vs. Q1 2021 Q1 2022 Q1 2021 vs. Q1 2021 Revenue ($B) $18.4 $19.7 down 7% $18.4^ $18.6 down 1% Gross Margin 50.4% 55.2% down 4.8 ppt 53.1% 58.8% down 5.7 ppt R&D and MG&A ($B) $6.1 $5.0 up 23% $5.5 $4.4 up 25% Operating Margin 23.7% 18.8% up 4.9 ppt 23.1% 35.1% down 12 ppt Tax Rate 16.0% 14.0% up 2.1 ppt 12.9% 13.8% down 0.9 ppt Net Income ($B) $8.1 $3.4 up 141% $3.6 $5.5 down 35% Earnings Per Share $1.98 $0.82 up 141% $0.87 $1.34 down 35% In the first quarter, the company generated $5.9 billion in cash from operations and paid dividends of $1.5 billion. Note: 2021 non-GAAP results excludes the NAND memory business. We completed the first closing of the divestiture on December 29, 2021. Full reconciliations between GAAP and non-GAAP measures are provided below. ^ No adjustment on a non-GAAP basis Intel/Page 2 Business Unit Summary Intel previously announced several organizational changes to accelerate its execution and innovation by allowing it to capture growth in both large traditional markets and high-growth emerging markets. This includes the reorganization of Intel's business units to capture this growth and provide increased transparency, focus and accountability. As a result, the company modified its segment reporting to align to the previously announced business reorganization. All prior-period segment data has been retrospectively adjusted to reflect the way the company internally manages and monitors operating segment performance starting in fiscal year 2022. Key Business Unit Revenue and Trends Q1 2022 vs. Q1 2021 Client Computing Group (CCG) $9.3 billion down 13% Datacenter and AI Group (DCAI) $6.0 billion up 22% Network and Edge Group (NEX) $2.2 billion up 23% Accelerated Computing Systems and Graphics Group (AXG) $219 million up 21% Mobileye $394 million up 5% Intel Foundry Services (IFS) $283 million up 175% Business Highlights ▪ During the quarter, CCG saw continued adoption of 12th generation Alder Lake, and the Alder Lake family now has more than 250 designs planned this year. ▪ DCAI began shipping initial SKUs of Sapphire Rapids on Intel 7 to select customers in the first quarter and unveiled its new dual-track roadmap that utilizes both Intel's performance and efficient cores to provide high density, ultra-efficient compute for the cloud. ▪ NEX introduced the newest Xeon ® D processors and Open Vino toolkit which will continue to advance the software defined network and edge. ▪ AXG launched the Intel ® Arc TM A-series GPUs for laptops. Alchemist, the first of these products, began shipping to customers this quarter. ▪ Mobileye demonstrated its True Redundancy sensing system operating hands-free, a significant milestone in preparation for the debut of its planned robotaxi services in Israel and Germany. ▪ IFS continued to make progress across technology, IP, and customer engagement and now has over 30 test chips committed to Intel 16 this year. In the quarter Intel announced its intent to acquire Tower Semiconductor which is expected to accelerate IFS’ goal of becoming a globally diverse end-to-end foundry with one of the broadest portfolios of differentiated technology in the industry. The company also made strides towards creating a balanced and resilient supply chain for semiconductor manufacturing with new investments announced in the U.S. and Europe, along with the opening of the latest leading-edge research and development factory in Oregon. Intel VisiON 2022 As Intel continues to execute its strategy for long-term growth, it will be making a series of product and technology announcements at Intel VisiON 2022, taking place May 10-11, 2022, at the Gaylord Texan Resort and Convention Center in Texas. Intel VisiON is the second event in the Intel ON Series; it is dedicated to the future of business and technology and will feature executive keynotes, business insight panels, workshops, and an ecosystem showcase. More information about Intel VisiON 2022, including access to the live public website and replay, can be found at www.intel.com/vision . Intel/Page 3 Business Outlook Intel's guidance for the second quarter and full year includes both GAAP and non-GAAP estimates. Reconciliations between GAAP and non-GAAP financial measures are included below. Q2 2022 GAAP Non-GAAP Approximately Approximately Revenue $18.0 billion $18.0 billion^ Gross Margin 48% 51% Tax rate 4% 12% Earnings per share $0.50 $0.70 Full-Year 2022 GAAP Non-GAAP Approximately Approximately Revenue $76.0 billion $76.0 billion^ Gross Margin 49% 52% Tax rate 9% 12% Earnings per share $4.19 $3.60 Full-year net capital spending $27 billion $27 billion^ Adjusted free cash flow N/A ($1-2 billion) Actual results may differ materially from Intel’s Business Outlook as a result of, among other things, the factors described under “
+Document
+Exhibit 99.1
+Intel Corporation
+2200 Mission College Blvd.
+Santa Clara, CA 95054-1549
+News Release
+Intel Reports First-Quarter 2022 Financial Results
+News Summary
+▪
+First-quarter GAAP revenue of $18.4 billion, down 7% year over year (YoY), and non-GAAP revenue of $18.4 billion, down 1% YoY, exceeded January guidance. Achieved record quarterly revenue in Intel's Network and Edge Group, Mobileye and Intel Foundry Services businesses.
+▪
+First-quarter GAAP earnings-per-share (EPS) was $1.98; non-GAAP EPS was $0.87, which exceeded January guidance by
+$0.07
+. Exceeded January guidance for EPS and gross margin.
+▪
+Reaffirming full-year 2022 revenue guidance.
+SANTA CLARA, Calif., April 28, 2022 -- Intel Corporation today reported first-quarter 2022 financial results.
+“Q1 was a strong start to the year, exceeding expectations on both the top- and bottom-line," said Pat Gelsinger, Intel CEO. "With a $1 trillion market opportunity ahead of us, we remain laser focused on our IDM 2.0 strategy. We executed well against that strategy in Q1, delivering key product and technology milestones and announcing plans to expand our manufacturing capacity in both the US and Europe to meet the continued demand for semiconductors and drive a more balanced, resilient global supply chain.”
+“Intel delivered strong first-quarter financial results, and we are reaffirming our full-year revenue guidance," said David Zinsner, Intel CFO. "We remain committed to the financial framework we laid out at Intel's Investor Meeting, including diligently managing the business to drive both growth and profitability and create shareholder value."
+Q1 2022 Financial Highlights
+GAAP
+Non-GAAP
+Q1 2022
+Q1 2021
+vs. Q1 2021
+Q1 2022
+Q1 2021
+vs. Q1 2021
+Revenue ($B)
+$18.4
+$19.7
+down 7%
+$18.4^
+$18.6
+down 1%
+Gross Margin
+50.4%
+55.2%
+down 4.8 ppt
+53.1%
+58.8%
+down 5.7 ppt
+R&D and MG&A ($B)
+$6.1
+$5.0
+up 23%
+$5.5
+$4.4
+up 25%
+Operating Margin
+23.7%
+18.8%
+up 4.9 ppt
+23.1%
+35.1%
+down 12 ppt
+Tax Rate
+16.0%
+14.0%
+up 2.1 ppt
+12.9%
+13.8%
+down 0.9 ppt
+Net Income ($B)
+$8.1
+$3.4
+up 141%
+$3.6
+$5.5
+down 35%
+Earnings Per Share
+$1.98
+$0.82
+up 141%
+$0.87
+$1.34
+down 35%
+In the first quarter, the company generated $5.9 billion in cash from operations and paid dividends of $1.5 billion.
+Note: 2021 non-GAAP results excludes the NAND memory business. We completed the first closing of the divestiture on December 29, 2021. Full reconciliations between GAAP and non-GAAP measures are provided below.
+^ No adjustment on a non-GAAP basis
+Intel/Page 2
+Business Unit Summary
+Intel previously announced several organizational changes to accelerate its execution and innovation by allowing it to capture growth in both large traditional markets and high-growth emerging markets. This includes the reorganization of Intel's business units to capture this growth and provide increased transparency, focus and accountability. As a result, the company modified its segment reporting to align to the previously announced business reorganization. All prior-period segment data has been retrospectively adjusted to reflect the way the company internally manages and monitors operating segment performance starting in fiscal year 2022.
+Key Business Unit Revenue and Trends
+Q1 2022
+vs. Q1 2021
+Client Computing Group (CCG)
+$9.3 billion
+down
+13%
+Datacenter and AI Group (DCAI)
+$6.0 billion
+up
+22%
+Network and Edge Group (NEX)
+$2.2 billion
+up
+23%
+Accelerated Computing Systems and Graphics Group (AXG)
+$219 million
+up
+21%
+Mobileye
+$394 million
+up
+5%
+Intel Foundry Services (IFS)
+$283 million
+up
+175%
+Business Highlights
+▪
+During the quarter, CCG saw continued adoption of 12th generation Alder Lake, and the Alder Lake family now has more than 250 designs planned this year.
+▪
+DCAI began shipping initial SKUs of Sapphire Rapids on Intel 7 to select customers in the first quarter and unveiled its new dual-track roadmap that utilizes both Intel's performance and efficient cores to provide high density, ultra-efficient compute for the cloud.
+▪
+NEX introduced the newest Xeon
+®
+D processors and Open Vino toolkit which will continue to advance the software defined network and edge.
+▪
+AXG launched the Intel
+®
+Arc
+TM
+A-series GPUs for laptops. Alchemist, the first of these products, began shipping to customers this quarter.
+▪
+Mobileye demonstrated its True Redundancy sensing system operating hands-free, a significant milestone in preparation for the debut of its planned robotaxi services in Israel and Germany.
+▪
+IFS continued to make progress across technology, IP, and customer engagement and now has over 30 test chips committed to Intel 16 this year. In the quarter Intel announced its intent to acquire Tower Semiconductor which is expected to accelerate IFS’ goal of becoming a
+globally diverse
+end-to-end foundry with one of the broadest portfolios of differentiated technology in the industry.
+The company also made strides towards creating a balanced and resilient supply chain for semiconductor manufacturing with new investments announced in the U.S. and Europe, along with the opening of the latest leading-edge research and development factory in Oregon.
+Intel VisiON 2022
+As Intel continues to execute its strategy for long-term growth, it will be making a series of product and technology announcements at Intel VisiON 2022, taking place May 10-11, 2022, at the Gaylord Texan Resort and Convention Center in Texas. Intel VisiON is the second event in the Intel ON Series; it is dedicated to the future of business and technology and will feature executive keynotes, business insight panels, workshops, and an ecosystem showcase. More information

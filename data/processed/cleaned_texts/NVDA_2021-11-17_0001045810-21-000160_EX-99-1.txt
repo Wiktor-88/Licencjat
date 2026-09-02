@@ -1,1 +1,214 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Third Quarter Fiscal 2022 • Record revenue of $7.10 billion, up 50 percent from a year earlier • Record Data Center revenue of $2.94 billion, up 55 percent from a year earlier • Record Gaming revenue of $3.22 billion, up 42 percent from a year earlier SANTA CLARA, Calif.-Nov. 17, 2021- NVIDIA (NASDAQ: NVDA) today reported record revenue for the third quarter ended October 31, 2021, of $7.10 billion, up 50 percent from a year earlier and up 9 percent from the previous quarter, with record revenue from the company’s Gaming, Data Center and Professional Visualization market platforms. GAAP earnings per diluted share for the quarter were $0.97, up 83 percent from a year ago and up 3 percent from the previous quarter. Non-GAAP earnings per diluted share were $1.17, up 60 percent from a year ago and up 13 percent from the previous quarter. “The third quarter was outstanding, with record revenue,” said Jensen Huang, founder and CEO of NVIDIA. “Demand for NVIDIA AI is surging, driven by hyperscale and cloud scale-out, and broadening adoption by more than 25,000 companies. NVIDIA RTX has reinvented computer graphics with ray tracing and AI, and is the ideal upgrade for the large, growing market of gamers and creators, as well as designers and professionals building home workstations. “Our GTC event series showcases the expanding universe of NVIDIA accelerated computing. Last week’s event was our most successful yet, highlighting diverse applications, including supply-chain logistics, cybersecurity, natural language processing, quantum computing research, robotics, self-driving cars, climate science and digital biology. “Omniverse was a major theme at GTC. We showed what is possible when we can jump into virtual worlds. Omniverse will be used from collaborative design, customer service avatars and video conferencing, to digital twins of factories, processing plants, even entire cities. Omniverse brings together NVIDIA’s expertise in AI, simulation, graphics and computing infrastructure. This is the tip of the iceberg of what’s to come,” he said. NVIDIA paid quarterly cash dividends of $100 million in the third quarter. It will pay its next quarterly cash dividend of $0.04 per share on December 23, 2021, to all shareholders of record on December 2, 2021. Q3 Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) Q3 FY22 Q2 FY22 Q3 FY21 Q/Q Y/Y Revenue $7,103 $6,507 $4,726 Up 9% Up 50% Gross margin 65.2 % 64.8 % 62.6 % Up 40 bps Up 260 bps Operating expenses $1,960 $1,771 $1,562 Up 11% Up 25% Operating income $2,671 $2,444 $1,398 Up 9% Up 91% Net income $2,464 $2,374 $1,336 Up 4% Up 84% Diluted earnings per share* $0.97 $0.94 $0.53 Up 3% Up 83% Non-GAAP ($ in millions, except earnings per share) Q3 FY22 Q2 FY22 Q3 FY21 Q/Q Y/Y Revenue $7,103 $6,507 $4,726 Up 9% Up 50% Gross margin 67.0 % 66.7 % 65.5 % Up 30 bps Up 150 bps Operating expenses $1,375 $1,266 $1,101 Up 9% Up 25% Operating income $3,386 $3,071 $1,993 Up 10% Up 70% Net income $2,973 $2,623 $1,834 Up 13% Up 62% Diluted earnings per share* $1.17 $1.04 $0.73 Up 13% Up 60% *All per share amounts presented herein have been retroactively adjusted to reflect the four-for-one stock split which was effective July 19, 2021. NVIDIA’s outlook for the fourth quarter of fiscal 2022 is as follows: • Revenue is expected to be $7.40 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 65.3 percent and 67.0 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.02 billion and $1.43 billion, respectively. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $60 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are both expected to be 11 percent, plus or minus 1 percent, excluding any discrete items such as excess tax benefits or deficiencies related to stock-based compensation. Highlights At last week’s GTC, NVIDIA announced the following: AI Software • 65 new and updated software development kits -- bringing improved features and capabilities to data scientists, researchers and developers -- including NVIDIA Modulus, a framework for developing physics-ML models, NVIDIA ReOpt, an accelerated solver that optimizes vehicle route planning and logistics, and NVIDIA cuNumeric, which brings accelerated computing to the large and growing Python NumPy ecosystem. • Tools for developing and deploying large language models: NVIDIA NeMo Megatron, for training models with trillions of parameters; the Megatron 530B customizable LLM that can be trained for new domains and languages; and NVIDIA Triton Inference Server ™ with multi-GPU, multinode distributed inference functionality. • New capabilities in the open source NVIDIA Triton Inference Server software, which provides cross-platform inference on all AI models and frameworks, and NVIDIA TensorRT ™ , which optimizes AI models. • Zero-trust cybersecurity platform – comprising NVIDIA BlueField DPUs, NVIDIA DOCA and NVIDIA Morpheus cybersecurity platform – allowing the cybersecurity industry to build solutions that defend customer data centers in real time. • NVIDIA Riva Custom Voice, a feature in NVIDIA Riva AI software that makes custom text-to-speech practical for companies; NVIDIA Riva Enterprise will be commercially available for enterprises early next year, with applicability to a wide range of applications such as virtual assistants and video conferencing. Omniverse • NVIDIA Omniverse Avatar, a platform for generating interactive AI avatars, which connects the company’s technologies in speech AI, computer vision, natural language understanding, recommendation engines and simulation technologies. • NVIDIA Omniverse Replicator, a synthetic-data-generation engine that produces physically simulated synthetic data for training deep neural networks. Networking • NVIDIA Quantum-2, a 400Gbps InfiniBand end-to-end networking platform, with the extreme performance, broad accessibility and strong security needed by cloud computing providers and supercomputing centers. Automotive/Robotics/Healthcare • NVIDIA DRIVE Concierge and DRIVE Chauffeur, AI platforms built with NVIDIA DRIVE Orin, which are intelligent technologies that transform the digital experience inside the car with Omniverse Avatar, enabling safe autonomous driving on highways and urban streets. • NVIDIA DRIVE Hyperion 8, a computer architecture and sensor set for self-driving systems. • NVIDIA Jetson AGX Orin ™ , the world’s smallest, most powerful and energy-efficient AI supercomputer for robotics, autonomous machines, medical devices and more. • NVIDIA Clara Holoscan, an AI computing platform for medical-device makers to adopt software-as-a-service offerings with upgradable, scalable and end-to-end processing of streamed data. Additionally, the company achieved progress since its previous earnings announcement in these areas: Gaming • Third-quarter revenue was a record $3.22 billion, up 42 percent from a year earlier and up 5 percent from the previous quarter. • Announced RTX capabilities coming to blockbuster titles like Marvel’s Guardians of the Galaxy , Battlefield 2042 and Dying Light 2 , as well as Sony Interactive and Santa Monica Studio’s God of War . • Announced new RTX-accelerated AI features in Adobe applications at the Adobe MAX creativity conference, supported by the latest Studio Driver, and new Studio systems from partners, including Microsoft, HP and Asus. • Enhanced GeForce NOW ™ with a new high-performance membership tier providing access to GeForce RTX ™ 3080-class gaming, and with the introduction of more Electronic Arts hit games, including Battlefield 1 Revolution , Mirror’s Edge Catalyst , Unravel Two and Dragon Age: Inquisition . Data Center • Third-quarter revenue was a record $2.94 billion, up 55 percent from a year earlier and up 24 percent from the previous quarter. • Announced plans to build Earth-2, an AI supercomputer dedicated to addressing the global climate change crisis. • Announced the general availability of NVIDIA AI Enterprise, a comprehensive software suite of AI tools and frameworks that enables the hundreds of thousands of companies running VMware vSphere to virtualize AI workloads on NVIDIA-Certified Systems ™ . • Expanded NVIDIA LaunchPad, which provides immediate access to optimized software running on accelerated infrastructure, from North America to nine global locations. • Described a collaboration involving NVIDIA Megatron-LM and Microsoft DeepSpeed to create an efficient, scalable, 3D parallel system capable of combining data, pipeline and tensor-slicing-based parallelism. • Announced further collaboration with VMware, supporting trials of VMware vSphere with Tanzu on the NVIDIA AI Enterprise platform. • Shared news that the largest GPU-based supercomputer at the U.S. Department of Energy’s Argonne National Laboratory, Polaris, will run on NVIDIA’s accelerated computing platform, and be able to achieve almost 1.4 exaflops of AI performance. Professional Visualization • Third-quarter revenue was a record $577 million, up 144 percent from a year earlier and up 11 percent from the previous quarter. • Announced NVIDIA Omniverse Enterprise is in general availability, with the addition of AR, VR and multi-GPU rendering, as well as announced adoption by Bentley Systems and Esri for digital-twin applications. Automotive • Third-quarter revenue was $135 million, up 8 percent from a year earlier and down 11 percent from the previous quarter. • Announced that NVIDIA DRIVE Orin is being used by autonomous truck company Kodiak Robotics, automaker Lotus, autonomous driving-solutions provider QCraft and EV startup WM Motor. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Third Quarter Fiscal 2022
+•
+Record revenue of $7.10 billion, up 50 percent from a year earlier
+•
+Record Data Center revenue of $2.94 billion, up 55 percent from a year earlier
+•
+Record Gaming revenue of $3.22 billion, up 42 percent from a year earlier
+SANTA CLARA, Calif.-Nov. 17, 2021-
+NVIDIA (NASDAQ: NVDA) today reported record revenue for the third quarter ended October 31, 2021, of $7.10 billion, up 50 percent from a year earlier and up 9 percent from the previous quarter, with record revenue from the company’s Gaming, Data Center and Professional Visualization market platforms.
+GAAP earnings per diluted share for the quarter were $0.97, up 83 percent from a year ago and up 3 percent from the previous quarter. Non-GAAP earnings per diluted share were $1.17, up 60 percent from a year ago and up 13 percent from the previous quarter.
+“The third quarter was outstanding, with record revenue,” said Jensen Huang, founder and CEO of NVIDIA. “Demand for NVIDIA AI is surging, driven by hyperscale and cloud scale-out, and broadening adoption by more than 25,000 companies. NVIDIA RTX has reinvented computer graphics with ray tracing and AI, and is the ideal upgrade for the large, growing market of gamers and creators, as well as designers and professionals building home workstations.
+“Our GTC event series showcases the expanding universe of NVIDIA accelerated computing. Last week’s event was our most successful yet, highlighting diverse applications, including supply-chain logistics, cybersecurity, natural language processing, quantum computing research, robotics, self-driving cars, climate science and digital biology.
+“Omniverse was a major theme at GTC. We showed what is possible when we can jump into virtual worlds. Omniverse will be used from collaborative design, customer service avatars and video conferencing, to digital twins of factories, processing plants, even entire cities. Omniverse brings together NVIDIA’s expertise in AI, simulation, graphics and computing infrastructure. This is the tip of the iceberg of what’s to come,” he said.
+NVIDIA paid quarterly cash dividends of $100 million in the third quarter. It will pay its next quarterly cash dividend of $0.04 per share on December 23, 2021, to all shareholders of record on December 2, 2021.
+Q3 Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+Q3 FY22
+Q2 FY22
+Q3 FY21
+Q/Q
+Y/Y
+Revenue
+$7,103
+$6,507
+$4,726
+Up 9%
+Up 50%
+Gross margin
+65.2
+%
+64.8
+%
+62.6
+%
+Up 40 bps
+Up 260 bps
+Operating expenses
+$1,960
+$1,771
+$1,562
+Up 11%
+Up 25%
+Operating income
+$2,671
+$2,444
+$1,398
+Up 9%
+Up 91%
+Net income
+$2,464
+$2,374
+$1,336
+Up 4%
+Up 84%
+Diluted earnings per share*
+$0.97
+$0.94
+$0.53
+Up 3%
+Up 83%
+Non-GAAP
+($ in millions, except earnings per share)
+Q3 FY22
+Q2 FY22
+Q3 FY21
+Q/Q
+Y/Y
+Revenue
+$7,103
+$6,507
+$4,726
+Up 9%
+Up 50%
+Gross margin
+67.0
+%
+66.7
+%
+65.5
+%
+Up 30 bps
+Up 150 bps
+Operating expenses
+$1,375
+$1,266
+$1,101
+Up 9%
+Up 25%
+Operating income
+$3,386
+$3,071
+$1,993
+Up 10%
+Up 70%
+Net income
+$2,973
+$2,623
+$1,834
+Up 13%
+Up 62%
+Diluted earnings per share*
+$1.17
+$1.04
+$0.73
+Up 13%
+Up 60%
+*All per share amounts presented herein have been retroactively adjusted to reflect the four-for-one stock split which was effective July 19, 2021.
+NVIDIA’s outlook for the fourth quarter of fiscal 2022 is as follows:
+•
+Revenue is expected to be $7.40 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 65.3 percent and 67.0 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.02 billion and $1.43 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $60 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are both expected to be 11 percent, plus or minus 1 percent, excluding any discrete items such as excess tax benefits or deficiencies related to stock-based compensation.
+Highlights
+At last week’s GTC, NVIDIA announced the following:
+AI Software
+•
+65 new and updated software development kits -- bringing improved features and capabilities to data scientists, researchers and developers -- including NVIDIA Modulus, a framework for developing physics-ML models, NVIDIA ReOpt, an accelerated solver that optimizes vehicle route planning and logistics, and NVIDIA cuNumeric, which brings accelerated computing to the large and growing Python NumPy ecosystem.
+•
+Tools for developing and deploying large language models: NVIDIA NeMo Megatron, for training models with trillions of parameters; the Megatron 530B customizable LLM that can be trained for new domains and languages; and NVIDIA Triton Inference Server
+™
+with multi-GPU, multinode distributed inference functionality.
+•
+New capabilities in the open source NVIDIA Triton Inference Server software, which provides cross-platform inference on all AI models and frameworks, and NVIDIA TensorRT
+™
+, which optimizes AI models.
+•
+Zero-trust cybersecurity platform – comprising NVIDIA BlueField DPUs, NVIDIA DOCA and NVIDIA Morpheus cybersecurity platform – allowing the cybersecurity industry to build solutions that defend customer data centers in real time.
+•
+NVIDIA Riva Custom Voice, a feature in NVIDIA Riva AI software that makes custom text-to-speech practical for companies; NVIDIA Riva Enterprise will be commercially available for enterprises early next year, with applicability to a wide range of applications such as virtual assistants and video conferencing.
+Omniverse
+•
+NVIDIA Omniverse Avatar, a platform for generating interactive AI avatars, which connects the company’s technologies in speech AI, computer vision, natural language understanding, recommendation engines and simulation technologies.
+•
+NVIDIA Omniverse Replicator, a synthetic-data-generation engine that produces physically simulated synthetic data for training deep neural networks.
+Networking
+•
+NVIDIA Quantum-2, a 400Gbps InfiniBand end-to-end networking platform, with the extreme performance, broad accessibility and strong security needed by cloud computing providers and supercomputing centers.
+Automotive/Robotics/Healthcare
+•
+NVIDIA DRIVE Concierge and DRIVE Chauffeur, AI platforms built with NVIDIA DRIVE Orin, which are intelligent technologies that transform the digital experience inside the car with Omniverse Avatar, enabling safe autonomous driving on highways and urban streets.
+•
+NVIDIA DRIVE Hyperion 8, a computer architecture and sensor set for self-driving systems.
+•
+NVIDIA Jetson AGX Orin
+™
+, the world’s smallest, most powerful and energy-efficient AI supercomputer for robotics, autonomous machines, medical devices and more.
+•
+NVIDIA Clara Holoscan, an AI computing platform for medical-device makers to adopt software-as-a-service offerings with upgradable, scalable and end-to-end processing of streamed data.
+Additionally, the company achieved progress since its previous earnings announcement in these areas:
+Gaming
+•
+Third-quarter revenue was a record $3.22 billion, up 42 percent from a year earlier and up 5 percent from the previous quarter.
+•
+Announced RTX capabilities coming to blockbuster titles like Marvel’s
+Guardians of the Galaxy
+,
+Battlefield 2042
+and
+Dying Light 2
+, as well as Sony Interactive and Santa Monica Studio’s
+God of War
+.
+•
+Announced new RTX-accelerated AI features in Adobe applications at the Adobe MAX creativity conference, supported by the latest Studio Driver, and new Studio systems from partners, including Microsoft, HP and Asus.
+•
+Enhanced GeForce NOW
+™
+with a new high-performance membership tier providing access to GeForce RTX
+™
+3080-class gaming, and with the introduction of more Electronic Arts hit games, including
+Battlefield 1 Revolution
+,
+Mirror’s Edge Catalyst
+,
+Unravel Two and Dragon Age: Inquisition
+.
+Data Center
+•
+Third-quarter revenue was a record $2.94 billion, up 55 percent from a year earlier and up 24 percent from the previous quarter.
+•
+Announced plans to build Earth-2, an AI supercomputer dedicated to addressing the global climate change crisis.
+•
+Announced the general availability of NVIDIA AI Enterprise, a comprehensive software suite of AI tools and frameworks that enables the hundreds of thousands of companies running VMware vSphere to virtualize AI workloads on NVIDIA-Certified Systems
+™
+.
+•
+Expanded NVIDIA LaunchPad, which provides immediate access to optimized software running on accelerated infrastructure, from North America to nine global locations.
+•
+Described a collaboration involving NVIDIA Megatron-LM and Microsoft DeepSpeed to create an efficient, scalable, 3D parallel system capable of combining data, pipeline and tensor-slicing-based parallelism.
+•
+Announced further collaboration with VMware, supporting trials of VMware vSphere with Tanzu on the NVIDIA AI Enterprise platform.
+•
+Shared news that the largest GPU-based supercomputer at the U.S. Department of Energy’s Argonne National Laboratory, Polaris, will run on NVIDIA’s accelerated computing platform, and be able to achieve almost 1.4 exaflops of AI performance.
+Professional Visualization
+•
+Third-quarter revenue was a record $577 million, up 144 percent from a year earlier and up 11 percent from the previous quarter.
+•
+Announced NVIDIA Omniverse Enterprise is in general availability, with the addition of AR, VR and multi-GPU rendering, as well as announced adoption by Bentley Systems and Esri for digital-twin applications.
+Automotive
+•
+Third-quarter revenue was $135 million, up 8 percent from a year earlier and down 11 percent from the previous quarter.
+•
+Announced that NVIDIA DRIVE Orin is being used by autonomous truck company Kodiak Robotics, automaker Lotus, autonomous driving-solutions provider QCraft and EV startup WM Motor.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.

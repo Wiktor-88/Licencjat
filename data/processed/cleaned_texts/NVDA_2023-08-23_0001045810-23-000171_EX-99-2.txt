@@ -1,1 +1,211 @@
-Document CFO Commentary on Second Quarter Fiscal 2024 Results Q2 Fiscal 2024 Summary GAAP ($ in millions, except earnings per share) Q2 FY24 Q1 FY24 Q2 FY23 Q/Q Y/Y Revenue $13,507 $7,192 $6,704 Up 88% Up 101% Gross margin 70.1 % 64.6 % 43.5 % Up 5.5 pts Up 26.6 pts Operating expenses $2,662 $2,508 $2,416 Up 6% Up 10% Operating income $6,800 $2,140 $499 Up 218% Up 1,263% Net income $6,188 $2,043 $656 Up 203% Up 843% Diluted earnings per share $2.48 $0.82 $0.26 Up 202% Up 854% Non-GAAP ($ in millions, except earnings per share) Q2 FY24 Q1 FY24 Q2 FY23 Q/Q Y/Y Revenue $13,507 $7,192 $6,704 Up 88% Up 101% Gross margin 71.2 % 66.8 % 45.9 % Up 4.4 pts Up 25.3 pts Operating expenses $1,838 $1,750 $1,749 Up 5% Up 5% Operating income $7,776 $3,052 $1,325 Up 155% Up 487% Net income $6,740 $2,713 $1,292 Up 148% Up 422% Diluted earnings per share $2.70 $1.09 $0.51 Up 148% Up 429% Revenue by Reportable Segments ($ in millions) Q2 FY24 Q1 FY24 Q2 FY23 Q/Q Y/Y Compute & Networking $10,402 $4,460 $3,907 Up 133% Up 166% Graphics 3,105 2,732 2,797 Up 14% Up 11% Total $13,507 $7,192 $6,704 Up 88% Up 101% Revenue by Market Platform ($ in millions) Q2 FY24 Q1 FY24 Q2 FY23 Q/Q Y/Y Data Center $10,323 $4,284 $3,806 Up 141% Up 171% Gaming 2,486 2,240 2,042 Up 11% Up 22% Professional Visualization 379 295 496 Up 28% Down 24% Automotive 253 296 220 Down 15% Up 15% OEM and Other 66 77 140 Down 14% Down 53% Total $13,507 $7,192 $6,704 Up 88% Up 101% We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive. Revenue Revenue was $13.51 billion, up 101% from a year ago and up 88% sequentially. Data Center revenue was a record, up 171% from a year ago and up 141% sequentially, led by cloud service providers and large consumer internet companies. Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI. Data Center Compute grew 195% from a year ago and 157% sequentially, largely reflecting the strong ramp of our Hopper-based HGX platform. Networking was up 94% from a year ago and up 85% sequentially, primarily on strong growth in InfiniBand infrastructure to support our HGX platform. Gaming revenue was up 22% from a year ago and up 11% sequentially, primarily reflecting demand for our GeForce RTX 40 Series GPUs based on the NVIDIA Ada Lovelace architecture following normalization of channel inventory levels. Professional Visualization revenue was down 24% from a year ago and up 28% sequentially. The year-on-year decrease primarily reflects lower sell-in to partners following normalization of channel inventory levels. The sequential increase was primarily due to stronger enterprise workstation demand and the ramp of NVIDIA RTX products based on the Ada Lovelace Architecture. Automotive revenue was up 15% from a year ago and down 15% sequentially. The year-on-year increase was primarily driven by sales of self-driving platforms. The sequential decrease primarily reflects lower overall auto demand, particularly in China. Gross Margin GAAP and non-GAAP gross margins increased from a year ago and sequentially, primarily reflecting growth in Data Center sales. The year-on-year increase also reflects the impact on the year-ago gross margin from $1.34 billion in inventory provisions and related charges. Expenses GAAP operating expenses were up 10% from a year ago and up 6% sequentially, primarily driven by compensation and benefits, including stock-based compensation, reflecting growth in employees and compensation increases. Non-GAAP operating expenses were up 5% from a year ago and up 5% sequentially, primarily reflecting increased compensation and benefits. Other Income & Expense and Income Tax GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the gains or losses from non-affiliated investments and the portion of interest expense from the amortization of the debt discount. Interest income was $187 million, up from a year ago and sequentially, reflecting higher yields on investments. Net gains from non-affiliated investments were $62 million due to the mark-to-market of publicly traded equity investments. GAAP effective tax rate was 11.4%, which reflects tax benefits from the foreign-derived intangible income deduction, stock-based compensation, and the U.S. federal research tax credit. Non-GAAP effective tax rate was 14.6%. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities were $16.02 billion, down from $17.04 billion a year ago and up from $15.32 billion a quarter ago. The year-on-year decrease primarily reflects stock repurchases and repayment of debt at maturity, partially offset by higher revenue. The sequential increase reflects higher revenue, partially offset by stock repurchases and repayment of debt at maturity. Accounts receivable was $7.07 billion with a DSO of 48. The growth in accounts receivable reflects strong growth in revenue, timing of payments and the linearity of shipments. Inventory was $4.32 billion with a DSI of 97. Purchase commitments and obligations of inventory and capacity were $11.15 billion and prepaid supply agreements were $3.81 billion. Our commitment increases largely reflect our long-term supply needs for our Data Center products. Cash flow from operating activities was $6.35 billion, up from $1.27 billion a year ago and $2.91 billion a quarter ago, with both increases driven by higher revenue. Accounts receivable in the second quarter benefited by approximately $1.25 billion from customer payments received ahead of the invoice due date. In the third quarter, we expect to pay approximately $3.81 billion in cash taxes which were previously deferred due to the disaster relief made available by the Internal Revenue Service for certain California taxpayers. Depreciation and amortization expense was $365 million, including amortization of acquisition-related intangible assets. Starting in fiscal 2024, we extended the useful lives of most of our servers, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five to seven years. This change in useful lives drove a favorable impact to operating expenses of $28 million and to cost of goods sold of $5 million in the second quarter. During the second quarter, we returned $3.38 billion to shareholders in the form of 7.5 million shares repurchased for $3.28 billion, and cash dividends. As of the end of the second quarter, we had $3.95 billion remaining under our share repurchase authorization. On August 21, 2023, our Board of Directors approved an increase to our share repurchase program of an additional $25.00 billion, without expiration. We plan to continue share repurchases this fiscal year. Third Quarter of Fiscal 2024 Outlook Outlook for the third quarter of fiscal 2024 is as follows: • Revenue is expected to be $16.00 billion, plus or minus 2%. • GAAP and non-GAAP gross margins are expected to be 71.5% and 72.5%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.95 billion and $2.00 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an income of approximately $100 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 14.5%, plus or minus 1%, excluding any discrete items.
+Document
+CFO Commentary on Second Quarter Fiscal 2024 Results
+Q2 Fiscal 2024 Summary
+GAAP
+($ in millions, except earnings per share)
+Q2 FY24
+Q1 FY24
+Q2 FY23
+Q/Q
+Y/Y
+Revenue
+$13,507
+$7,192
+$6,704
+Up 88%
+Up 101%
+Gross margin
+70.1
+%
+64.6
+%
+43.5
+%
+Up 5.5 pts
+Up 26.6 pts
+Operating expenses
+$2,662
+$2,508
+$2,416
+Up 6%
+Up 10%
+Operating income
+$6,800
+$2,140
+$499
+Up 218%
+Up 1,263%
+Net income
+$6,188
+$2,043
+$656
+Up 203%
+Up 843%
+Diluted earnings per share
+$2.48
+$0.82
+$0.26
+Up 202%
+Up 854%
+Non-GAAP
+($ in millions, except earnings per share)
+Q2 FY24
+Q1 FY24
+Q2 FY23
+Q/Q
+Y/Y
+Revenue
+$13,507
+$7,192
+$6,704
+Up 88%
+Up 101%
+Gross margin
+71.2
+%
+66.8
+%
+45.9
+%
+Up 4.4 pts
+Up 25.3 pts
+Operating expenses
+$1,838
+$1,750
+$1,749
+Up 5%
+Up 5%
+Operating income
+$7,776
+$3,052
+$1,325
+Up 155%
+Up 487%
+Net income
+$6,740
+$2,713
+$1,292
+Up 148%
+Up 422%
+Diluted earnings per share
+$2.70
+$1.09
+$0.51
+Up 148%
+Up 429%
+Revenue by Reportable Segments
+($ in millions)
+Q2 FY24
+Q1 FY24
+Q2 FY23
+Q/Q
+Y/Y
+Compute & Networking
+$10,402
+$4,460
+$3,907
+Up 133%
+Up 166%
+Graphics
+3,105
+2,732
+2,797
+Up 14%
+Up 11%
+Total
+$13,507
+$7,192
+$6,704
+Up 88%
+Up 101%
+Revenue by Market Platform
+($ in millions)
+Q2 FY24
+Q1 FY24
+Q2 FY23
+Q/Q
+Y/Y
+Data Center
+$10,323
+$4,284
+$3,806
+Up 141%
+Up 171%
+Gaming
+2,486
+2,240
+2,042
+Up 11%
+Up 22%
+Professional Visualization
+379
+295
+496
+Up 28%
+Down 24%
+Automotive
+253
+296
+220
+Down 15%
+Up 15%
+OEM and Other
+66
+77
+140
+Down 14%
+Down 53%
+Total
+$13,507
+$7,192
+$6,704
+Up 88%
+Up 101%
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Data Center, Gaming, Professional Visualization, and Automotive.
+Revenue
+Revenue was $13.51 billion, up 101% from a year ago and up 88% sequentially.
+Data Center revenue was a record, up 171% from a year ago and up 141% sequentially, led by cloud service providers and large consumer internet companies. Strong demand for the NVIDIA HGX platform based on our Hopper and Ampere GPU architectures was primarily driven by the development of large language models and generative AI. Data Center Compute grew 195% from a year ago and 157% sequentially, largely reflecting the strong ramp of our Hopper-based HGX platform. Networking was up 94% from a year ago and up 85% sequentially, primarily on strong growth in InfiniBand infrastructure to support our HGX platform.
+Gaming revenue was up 22% from a year ago and up 11% sequentially, primarily reflecting demand for our GeForce RTX 40 Series GPUs based on the NVIDIA Ada Lovelace architecture following normalization of channel inventory levels.
+Professional Visualization revenue was down 24% from a year ago and up 28% sequentially. The year-on-year decrease primarily reflects lower sell-in to partners following normalization of channel inventory levels. The sequential increase was primarily due to stronger enterprise workstation demand and the ramp of NVIDIA RTX products based on the Ada Lovelace Architecture.
+Automotive revenue was up 15% from a year ago and down 15% sequentially. The year-on-year increase was primarily driven by sales of self-driving platforms. The sequential decrease primarily reflects lower overall auto demand, particularly in China.
+Gross Margin
+GAAP and non-GAAP gross margins increased from a year ago and sequentially, primarily reflecting growth in Data Center sales. The year-on-year increase also reflects the impact on the year-ago gross margin from $1.34 billion in inventory provisions and related charges.
+Expenses
+GAAP operating expenses were up 10% from a year ago and up 6% sequentially, primarily driven by compensation and benefits, including stock-based compensation, reflecting growth in employees and compensation increases.
+Non-GAAP operating expenses were up 5% from a year ago and up 5% sequentially, primarily reflecting increased compensation and benefits.
+Other Income & Expense and Income Tax
+GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the gains or losses from non-affiliated investments and the portion of interest expense from the amortization of the debt discount.
+Interest income was $187 million, up from a year ago and sequentially, reflecting higher yields on investments. Net gains from non-affiliated investments were $62 million due to the mark-to-market of publicly traded equity investments.
+GAAP effective tax rate was 11.4%, which reflects tax benefits from the foreign-derived intangible income deduction, stock-based compensation, and the U.S. federal research tax credit. Non-GAAP effective tax rate was 14.6%.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities were $16.02 billion, down from $17.04 billion a year ago and up from $15.32 billion a quarter ago. The year-on-year decrease primarily reflects stock repurchases and repayment of debt at maturity, partially offset by higher revenue. The sequential increase reflects higher revenue, partially offset by stock repurchases and repayment of debt at maturity.
+Accounts receivable was $7.07 billion with a DSO of 48. The growth in accounts receivable reflects strong growth in revenue, timing of payments and the linearity of shipments.
+Inventory was $4.32 billion with a DSI of 97. Purchase commitments and obligations of inventory and capacity were $11.15 billion and prepaid supply agreements were $3.81 billion. Our commitment increases largely reflect our long-term supply needs for our Data Center products.
+Cash flow from operating activities was $6.35 billion, up from $1.27 billion a year ago and $2.91 billion a quarter ago, with both increases driven by higher revenue. Accounts receivable in the second quarter benefited by approximately $1.25 billion from customer payments received ahead of the invoice due date. In the third quarter, we expect to pay approximately $3.81 billion in cash taxes which were previously deferred due to the disaster relief made available by the Internal Revenue Service for certain California taxpayers.
+Depreciation and amortization expense was $365 million, including amortization of acquisition-related intangible assets. Starting in fiscal 2024, we extended the useful lives of most of our servers, storage, and network equipment from three years to a range of four to five years, and assembly and test equipment from five to seven years. This change in useful lives drove a favorable impact to operating expenses of $28 million and to cost of goods sold of $5 million in the second quarter.
+During the second quarter, we returned $3.38 billion to shareholders in the form of 7.5 million shares repurchased for $3.28 billion, and cash dividends. As of the end of the second quarter, we had $3.95 billion remaining under our share repurchase authorization. On August 21, 2023, our Board of Directors approved an increase to our share repurchase program of an additional $25.00 billion, without expiration.  We plan to continue share repurchases this fiscal year.
+Third Quarter of Fiscal 2024 Outlook
+Outlook for the third quarter of fiscal 2024 is as follows:
+•
+Revenue is expected to be $16.00 billion, plus or minus 2%.
+•
+GAAP and non-GAAP gross margins are expected to be 71.5% and 72.5%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.95 billion and $2.00 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an income of approximately $100 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 14.5%, plus or minus 1%, excluding any discrete items.
+___________________________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude acquisition termination costs, stock-based compensation expense, acquisition-related and other costs, IP-related costs, legal settlement costs, contributions, other, losses from non-affiliated investments, interest expense related to amortization of debt discount, and the associated tax impact of these items where applicable. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases of property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: our computing platforms providing tremendous acceleration for applications and delivering unique value; our expected payment of previously deferred cash taxes; our plan to continue share repurchases; and our financial outlook and expected tax rates for the third quarter of fiscal 2024 are

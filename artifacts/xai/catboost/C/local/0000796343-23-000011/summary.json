@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "ADBE",
+    "Accession": "0000796343-23-000011",
+    "Filing_Date": "2023-01-26",
+    "Feature_Cutoff_Session": "2023-01-26",
+    "Event_Session": "2023-01-27T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2023,
+    "Target_Abnormal_1D": 1,
+    "XAI_Example_Type": "false_negative"
+  },
+  "prediction": {
+    "Base_Value": -0.21596687892502417,
+    "Raw_Margin": -1.9539006986972203,
+    "Probability_Class_1": 0.12412864923347591,
+    "Prediction": 0
+  }
+}

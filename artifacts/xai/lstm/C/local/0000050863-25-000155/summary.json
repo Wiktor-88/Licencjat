@@ -1,0 +1,18 @@
+{
+  "event": {
+    "Ticker": "INTC",
+    "Accession": "0000050863-25-000155",
+    "Filing_Date": "2025-09-18",
+    "Feature_Cutoff_Session": "2025-09-18",
+    "Event_Session": "2025-09-19T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "true_negative"
+  },
+  "prediction": {
+    "Logit": -0.9203653335571289,
+    "Probability_Class_1": 0.2848834693431854,
+    "Completeness_Error": 0.0013126730918884277
+  }
+}

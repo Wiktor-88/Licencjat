@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "AMZN",
+    "Accession": "0001018724-23-000014",
+    "Filing_Date": "2023-09-13",
+    "Feature_Cutoff_Session": "2023-09-13",
+    "Event_Session": "2023-09-14T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2023,
+    "Target_Abnormal_1D": 0,
+    "XAI_Example_Type": "true_negative"
+  },
+  "prediction": {
+    "Base_Value": -0.17476202547550201,
+    "Raw_Margin": -1.8771350383758545,
+    "Probability_Class_1": 0.1327182948589325,
+    "Prediction": 0
+  }
+}

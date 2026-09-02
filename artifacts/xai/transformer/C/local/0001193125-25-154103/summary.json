@@ -1,0 +1,18 @@
+{
+  "event": {
+    "Ticker": "MSFT",
+    "Accession": "0001193125-25-154103",
+    "Filing_Date": "2025-07-01",
+    "Feature_Cutoff_Session": "2025-07-01",
+    "Event_Session": "2025-07-02T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2025,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Logit": 0.5566908717155457,
+    "Probability_Class_1": 0.6356865167617798,
+    "Completeness_Error": 0.0029900670051574707
+  }
+}

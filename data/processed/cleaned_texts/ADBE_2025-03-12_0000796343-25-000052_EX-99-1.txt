@@ -1,1 +1,83 @@
-Document Exhibit 99.1
+Document
+Exhibit 99.1
+Investor Relations Contact
+Steve Day
+Adobe
+ir@adobe.com
+Public Relations Contact
+Ashley Levine
+Adobe
+adobepr@adobe.com
+FOR IMMEDIATE RELEASE
+Adobe Delivers Record Q1 Results
+•
+Record Q1 Operating Cash Flows of $2.48 billion
+•
+Reaffirms FY2025 Targets
+•
+Previews Customer-Focused Strategy Ahead of Its Investor Meeting at Adobe Summit
+SAN JOSE, Calif. – March 12, 2025 –
+Adobe (Nasdaq:ADBE) today reported financial results for its first quarter fiscal year 2025 ended Feb. 28, 2025, reaffirming its FY2025 targets, and previewed its customer-focused strategy ahead of Adobe’s Investor Meeting next week at Adobe Summit.
+“Adobe’s success over the next decade will be driven by customer-focused innovation and new offerings for creators, marketing professionals, business professionals and consumers,” said Shantanu Narayen, chair and CEO, Adobe. “Adobe is well-positioned to capitalize on the acceleration of the creative economy driven by AI and we are reaffirming our FY2025 financial targets.”
+“Our continued innovation and diversified go-to-market strategy drove a record Q1, with new AI-first standalone and add-on innovations exiting the quarter with over $125 million ending ARR book of business,” said Dan Durn, executive vice president and CFO, Adobe. “Our customer- focused strategy, leading product portfolio and strong cash flow position us for sustainable long-term growth and increased market share.”
+First Quarter Fiscal Year 2025 Financial Highlights
+•
+Adobe achieved record revenue of $5.71 billion in its first quarter of fiscal year 2025, which represents 10 percent year-over-year growth, or 11 percent in constant currency. Diluted earnings per share was $4.14 on a GAAP basis and $5.08 on a non-GAAP basis.
+•
+GAAP operating income in the first quarter was $2.16 billion and non-GAAP operating income was $2.72 billion. GAAP net income was $1.81 billion and non-GAAP net income was $2.22 billion.
+•
+Cash flows from operations were $2.48 billion.
+•
+Exiting the quarter, Remaining Performance Obligations (“RPO”) were $19.69 billion, and Current Remaining Performance Obligations (“cRPO”) were 67 percent.
+•
+Adobe repurchased approximately 7.0 million shares during the quarter.
+First Quarter Fiscal Year 2025 Business Segment Highlights
+•
+Digital Media segment revenue was $4.23 billion, which represents 11 percent year-over-year growth, or 12 percent in constant currency. Digital Media Annualized Recurring Revenue (“ARR”) exiting the quarter was $17.63 billion, representing 12.6 percent year-over-year growth.
+•
+Digital Experience segment revenue was $1.41 billion, representing 10 percent year-over-year growth as reported and in constant currency. Digital Experience subscription revenue was $1.30 billion, representing 11 percent year-over-year growth as reported and in constant currency.
+Supplemental Disclosure for Customer Groups
+Adobe will now disclose subscription revenue by both “Business Professionals and Consumers” and “Creative and Marketing Professionals” to provide additional insight. Business Professionals and Consumers Group will consist of all subscription revenue from Document Cloud, Acrobat subscription revenue in Creative Cloud, and Adobe Express subscription revenue in Creative Cloud, all of which are part of Digital Media. Creative and Marketing Professionals Group will consist of all subscription revenue from Digital Experience as well as all of the remaining subscription revenue from Creative Cloud in Digital Media.
+•
+Business Professionals and Consumers Group subscription revenue was $1.53 billion, which represents 15 percent year-over-year growth.
+•
+Creative and Marketing Professionals Group subscription revenue was $3.92 billion, which represents 10 percent year-over-year growth.
+Financial Targets
+The following table summarizes Adobe’s second quarter fiscal year 2025 targets
+1
+:
+Total revenue
+$5.77 billion to $5.82 billion
+Digital Media segment revenue
+$4.27 billion to $4.30 billion
+Digital Experience segment revenue
+$1.43 billion to $1.45 billion
+Digital Experience subscription revenue
+$1.315 billion to $1.325 billion
+Earnings per share
+GAAP: $3.80 to $3.85
+Non-GAAP: $4.95 to $5.00
+1
+Targets assume non-GAAP operating margin of ~45 percent, non-GAAP tax rate of ~18.5 percent and diluted share count of ~432 million for second quarter fiscal year 2025.
+The following table summarizes Adobe’s fiscal year 2025 targets, which assumes current macroeconomic conditions
+2
+:
+Total revenue
+$23.30 billion to $23.55 billion
+Digital Media segment revenue
+$17.25 billion to $17.40 billion
+Digital Media ending ARR growth
+11.0% year over year
+Digital Experience segment revenue
+$5.80 billion to $5.90 billion
+Digital Experience subscription revenue
+$5.375 billion to $5.425 billion
+Earnings per share
+GAAP: $15.80 to $16.10
+Non-GAAP: $20.20 to $20.50
+2
+Targets assume non-GAAP operating margin of ~46 percent, non-GAAP tax rate of ~18.5 percent and diluted share count of ~433 million for fiscal year 2025.
+Adobe to Host Conference Call
+Adobe will webcast its first quarter fiscal year 2025 earnings conference call today at 2:00 p.m. Pacific Time from its investor relations website: http://www.adobe.com/ADBE. Earnings documents, including Adobe management’s prepared conference call remarks with slides and an investor datasheet are posted to Adobe’s Investor Relations Website in advance of the conference call for reference.
+Adobe to Host Investor Meeting at Adobe Summit 2025
+Adobe will host its Investor Meeting with financial analysts and investors on Tuesday, March 18, 2025 at 2:00 p.m. Pacific Time at Adobe Summit in Las Vegas, Nevada. Adobe’s executive team will provide updates on Adobe’s strategy, innovation roadmap, market opportunity and financials. The event will be streamed live on the Adobe Investor Relations Website. Following the event, a recording and related materials will be available on the site.

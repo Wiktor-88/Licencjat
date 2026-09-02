@@ -1,1 +1,233 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Fourth Quarter and Fiscal 2022 Results
+Fiscal 2022 Revenues: $44.2 billion
+Fiscal 2022 EPS: GAAP $11.37, Non-GAAP $12.53
+—Record Fiscal Year Revenues and EPS—
+—QCT Diversification: Combined Fiscal Year IoT and Automotive Revenues Grew 38% Year-Over-Year—
+—QCT Delivered Strong Fiscal Year EBT Growth: 65% Year-Over-Year—
+SAN DIEGO - November 2, 2022
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 25, 2022.
+“We are pleased to report another strong year, despite the macroeconomic challenges, as we continue to execute our strategy of transforming Qualcomm from a wireless communications company for the mobile industry to a connected processor company for the intelligent edge,” said Cristiano Amon, President and CEO of Qualcomm Incorporated.  “While our financial outlook is being temporarily impacted by elevated channel inventory, our diversification strategy and long-term opportunities remain unchanged.”
+Fourth Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q4 Fiscal 2022
+Q4 Fiscal 2021
+Change
+Q4 Fiscal 2022
+Q4 Fiscal 2021
+Change
+Revenues
+$11,396
+$9,336
++22%
+$11,387
+$9,321
++22%
+Earnings before taxes (EBT)
+$3,470
+$3,285
++6%
+$4,142
+$3,278
++26%
+Net income
+$2,873
+$2,798
++3%
+$3,548
+$2,916
++22%
+Diluted earnings per share (EPS)
+$2.54
+$2.45
++4%
+$3.13
+$2.55
++23%
+Fiscal 2022 Results
+1, 2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Fiscal 2022
+Fiscal 2021
+Change
+Fiscal 2022
+Fiscal 2021
+Change
+Revenues
+$44,200
+$33,566
++32%
+$44,169
+$33,467
++32%
+EBT
+$14,998
+$10,274
++46%
+$16,598
+$11,263
++47%
+Net income
+$12,936
+$9,043
++43%
+$14,254
+$9,811
++45%
+EPS
+$11.37
+$7.87
++44%
+$12.53
+$8.54
++47%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+(2)  Fiscal 2022 GAAP results included a $1.1 billion benefit, or $0.97 per share, resulting from the reversal of the accrued fine imposed on us by the European Commission (EC) in fiscal 2018 (2018 EC fine) and the associated accrued interest.
+Qualcomm Announces Fourth Quarter and Fiscal 2022 Results
+Page 2 of 10
+Segment Results
+Fourth Quarter
+QCT
+QTL
+(in millions, except percentages)
+Q4 Fiscal 2022
+Q4 Fiscal 2021
+Change
+Q4 Fiscal 2022
+Q4 Fiscal 2021
+Change
+Revenues
+$9,904
+$7,733
++28%
+$1,441
+$1,558
+(8%)
+EBT
+$3,386
+$2,464
++37%
+$989
+$1,114
+(11%)
+EBT as % of revenues
+34%
+32%
++2 points
+69%
+72%
+-3 points
+Fiscal 2022
+QCT
+QTL
+(in millions, except percentages)
+Fiscal 2022
+Fiscal 2021
+Change
+Fiscal 2022
+Fiscal 2021
+Change
+Revenues
+$37,677
+$27,019
++39%
+$6,358
+$6,320
++1%
+EBT
+$12,837
+$7,763
++65%
+$4,628
+$4,627
+—
+EBT as % of revenues
+34%
+29%
++5 points
+73%
+73%
+—
+QCT Revenue Streams
+1
+Fourth Quarter
+Fiscal
+(in millions, except percentages)
+2022
+2021
+Change
+2022
+2021
+Change
+Handsets
+$6,570
+$4,686
++40%
+$25,027
+$16,830
++49%
+RF front-end
+992
+1,237
+(20%)
+4,330
+4,158
++4%
+Automotive
+427
+270
++58%
+1,372
+975
++41%
+IoT
+1,915
+1,540
++24%
+6,948
+5,056
++37%
+Total QCT revenues
+$9,904
+$7,733
++28%
+$37,677
+$27,019
++39%
+(1)  We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+Stock Repurchases
+Dividends Paid
+Total Amount
+(in millions, except per share data)
+Shares
+Amount
+Per Share
+Amount
+Q4 Fiscal 2022
+3
+$500
+$0.75
+$841
+$1,341
+Fiscal 2022
+21
+$3,129
+$2.86
+$3,212
+$6,341
+Qualcomm Announces Fourth Quarter and Fiscal 2022 Results
+Page 3 of 10
+Business Outlook
+The following statements are forward looking, and actual results may differ materially.  The “Note Regarding

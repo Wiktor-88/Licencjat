@@ -1,1 +1,484 @@
-Document Exhibit 99.2 Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations How We Organize Our Business We previously announced several organizational changes that would accelerate the execution and innovation of our Company by allowing us to capture growth in both large traditional markets and high-growth emerging markets. This includes the reorganization of our business units to capture this growth and to provide increased transparency, focus and accountability. As a result, we modified our segment reporting to align to the previously announced business reorganization. All prior-period segment data has been retrospectively adjusted to reflect the way we internally manage and monitor segment performance starting in fiscal year 2022. We now manage our business through the following primary operating segments: ■ Client Computing (CCG) - historical CCG business plus Workstation revenue ■ Datacenter and AI (DCAI) - datacenter CPU products plus our PSG business ■ Network and Edge (NEX) - IOTG business plus our networking focused products previously included in DCG ■ Accelerated Computing Systems and Graphics (AXG) - all discrete graphics products ■ Mobileye - unchanged ■ Intel Foundry Services (IFS) - revenue from our wafer and packaging We derive a substantial majority of our revenue from our principal products that incorporate various components and technologies, including a microprocessor and chipset, a stand-alone SoC (system-on-a-chip), or a multichip package, which is based on Intel ® architecture. CCG, DCAI and NEX are our reportable operating segments. AXG, Mobileye, and IFS do not meet the quantitative thresholds to qualify as reportable operating segments; however, we have elected to disclose the results of these non-reportable operating segments. AXG revenue includes integrated graphics royalties from our CCG and NEX operating segments and are recorded as if the sales or transfers were to third parties at prices that approximate market-based selling prices. When we enter into federal contracts, they are aligned to the sponsoring operating segment. Net revenue and operating income (loss) for each period were as follows: Years Ended (In Millions) Dec 25, 2021 Dec 26, 2020 Dec 28, 2019 Operating segment revenue: Client Computing Desktop $ 12,437 $ 11,179 $ 12,619 Notebook 25,443 24,897 20,773 Other 3,187 4,459 4,546 41,067 40,535 37,938 Datacenter and AI 22,691 23,413 21,696 Network and Edge 7,976 7,132 6,829 Accelerated Computing Systems and Graphics 774 651 606 Mobileye 1,386 967 879 Intel Foundry Services 786 715 461 All other 5,019 5,091 4,150 Total operating segment revenue $ 79,699 $ 78,504 $ 72,559 Operating income (loss): Client Computing $ 15,704 $ 15,800 $ 16,160 Datacenter and AI 8,439 11,076 9,927 Network and Edge 1,711 846 1,739 Accelerated Computing Systems and Graphics (1,207) (403) (353) Mobileye 554 323 318 Intel Foundry Services (23) 45 (213) All other (5,722) (4,009) (5,543) Total operating income $ 19,456 $ 23,678 $ 22,035 The following table presents intersegment revenue before eliminations: Total operating segment revenue $ 79,699 $ 78,504 $ 72,559 Less: Accelerated Computing Systems and Graphics intersegment revenue (675) (637) (594) Total net revenue $ 79,024 $ 77,867 $ 71,965 MD&A 1 Client Computing Market and Business Overview Overview We are committed to advancing PC experiences by delivering an annual cadence of leadership products and deepening our relationships with industry partners to co-engineer and deliver leading platform innovation. We focus on long-term operating systems, system architecture, hardware, and application integration that enables industry-leading PC experiences. We intend to embrace these opportunities by investing more heavily in the PC, ramping its capabilities even more aggressively, and designing the PC experience even more deliberately. By doing this, we believe we will continue to fuel innovation across Intel ® , providing a growing source of IP, scale, and cash flow. Market Trends and Strategy Since the onset of the COVID-19 pandemic, time spent on PCs has increased dramatically across all major usage categories—as did PCs per household—reinforcing the importance of bringing innovative platforms and form factors to market that unlock real-world experiences. This trend is expected to remain in a post-pandemic world, driving a year over year growth in revenue TAM 1 . The ecosystem is shipping over one million PC units a day, and we believe there is sustained strength in PC demand. In addition, the COVID-19 pandemic has driven significant behavior changes that have positioned the PC as an essential tool in people's lives. PC density, or PCs per household, is increasing as COVID-19 has irreversibly changed the way we focus, create, connect, and care for each other. In addition, we continue to see an increase in PCs per student. There is a significant opportunity in the commercial segment, driven by refresh of older Windows devices. Currently, there are approximately 140 million devices that are more than four years old 2 . The experience and capabilities delivered on new PCs are dramatically better today, reinforcing the opportunity to drive a refresh cycle among enterprise customers. Products and Competition We operate in a particularly competitive market. In processors, we compete with AMD and vendors who design applications processors based on ARM* architecture, such as Qualcomm Inc. (Qualcomm), and, increasingly, Apple Inc. (Apple) with its most recent launch of M1 Max and M1 Pro. We expect this competitive environment to intensify. Our role as a technology leader is more important than ever, and our commitment to creating an open ecosystem is critical to delivering on our ambition. That is why we embrace and collaborate with a vibrant ecosystem of OEM partners to identify innovation vectors. The breadth of a robust ecosystem like Windows/x86 is an incredibly powerful combination, bringing together hundreds of companies and creative and innovative advancements that are not possible for one company alone to deliver. We launched our 12th Gen Intel ® Core™ desktop processors based on our first performance hybrid architecture, which combines two all-new core microarchitectures instead of one and can scale across PC segments and out to the edge. The 12th Gen processor family is set to deliver superior computing performance for every PC segment and out to the edge. In total, we expect to deliver more than 60 processors and 500 desktop, workstation and mobile designs from partners across major multinational corporations and leading manufacturers. Unique to Intel, we innovate beyond the CPU to deliver premium PC experiences with Intel Evo™ and Intel vPro ® platforms. More than 100 advanced laptop designs have been built on the Intel Evo platform, which signals they are tested and verified in Intel labs. This ensures they deliver key experience indicators defined by real-world usage models and innovation across areas like responsiveness, battery life, instant wake, and connectivity. Intel vPro is designed for enterprise needs and delivers increased productivity improvements, connectivity, security features, and remote manageability. We are leading Intel as we embark on our new IDM 2.0 strategy to develop more competitive products and more capabilities for customers. As a result, we are designing our product roadmap to drive product leadership grounded in a philosophy of openness and choice. We deliver value to our customers by leveraging our engineering capabilities and working with our partners across an open, innovative ecosystem to deliver technology that drives every major vector of the computing experience, including performance, battery life, connectivity, graphics, and form factors to create the most advanced PC platforms. We continue to face industry-wide supply constraints, which are expected to persist into 2022. Given our unique position in the industry, we have taken major actions along the supply chain to eliminate bottlenecks—increasing substrate capacity, removing third-party component bottlenecks, increasing our own internal capacity, and obtaining more external capacity. We are also working with the industry to provide TAM forecasts that help our suppliers better deliver on industry needs. 1 Source: Intel calculated 2022 TAM derived from industry analyst reports. 2 Source: Intel calculated the volume of devices over four years old from industry analyst reports and internal data. MD&A 2 Financial Performance CCG Revenue $B CCG Operating Income $B ■ Notebook ■ Desktop ■ Other Revenue Summary 2021 vs. 2020 ▪ Notebook revenue increased $546 million. Notebook unit sales increased 8% driven by consumer and commercial recovery from COVID-19 lows offset by 6% lower ASPs due to strength in consumer and education market segments. ▪ Desktop revenue increased $1.3 billion. Desktop unit sales increased 8% driven by recovery in desktop demand driven by consumer and commercial recovery from COVID-19 lows and ASP increased 3% driven by commercial recovery from COVID-19. ▪ Other revenue decreased $1.3 billion primarily driven by the continued ramp down from the exit of our 5G smartphone modem and Home and Gateway Platform businesses, partially offset by strength in wireless and connectivity. 2020 vs. 2019 ▪ Notebook revenue increased $4.1 billion. Notebook unit sales increased 28% driven by strength in notebook demand, partially offset by 6% lower ASPs resulting from higher demand for consumer education PCs. ▪ Desktop revenue decreased $1.4 billion. Desktop unit sales decreased 12% due to lower desktop demand while ASP was flat. ▪ Other revenue decreased $87 million primarily driven by volume decline in our 5G smartphone modem and Home and Gateway Platform businesses, partially offset by strength in wireless and connectivity. Operating Income Summary Operating income decreased 1% year over year, and operating margin was 38% in 2021. (In Millions) $ 15,704 2021 Operating Income (840) Higher period charges primarily associated with ramp up of Intel 4 and subsequent ramp down of 14nm (675) Higher operating expenses driven by increased investment in leadership products (290) Lower gross margin from notebook revenue (140) Higher period charges driven by less sell-through of reserves on products in 2021 as compared to in 2020, and additional reserves taken in 2021 1,080 Higher gross margin from desktop revenue 660 Lower unit cost primarily due to cost improvements in 10nm SuperFin 165 Lower period charges primarily driven by an decrease in engineering samples (56) Other $ 15,800 2020 Operating Income (3,020) Higher unit cost primarily from increased mix of 10nm products (1,160) Lower gross margin from desktop revenue 2,605 Higher gross margin from notebook revenue 670 Lower operating expenses 325 Lower period charges due to lower start-up cost associated with 10nm products and sell-through of previously reserved platform products related to our 10nm process technology, partially offset by increased logistics expenses due to COVID-19 300 Higher gross margin from other CCG product revenue (80) Other $ 16,160 2019 Operating Income MD&A 3 Datacenter and AI Market and Business Overview Overview DCAI delivers workload-optimized platforms to empower datacenter and hyperscale solutions for diverse computing needs. We are focused on delivering the hardware and software portfolio our customers need to support the increased demand for high performance computing and processing of increasingly complex algorithms. DCAI offers a portfolio of leadership products, including CPUs, FPGAs, and AI accelerators, and Intel ® persistent memory together with a broad portfolio of software and solutions that enable our hardware’s differentiated features to deliver performance to customers. Our customers and partners include hyperscale customers, OEM/ODMs, enterprises, independent software vendors, system integrators, communications service providers, and governments. Market Trends and Strategy Data is a significant force in society and is being generated at an unprecedented pace. We expect growth in the demand for and application of data, and the desire to harness insights and develop new business models. For example, AI is quickly becoming pervasive in all applications, creating intelligence everywhere, and enabling powerful new uses of compute across all market segments. The installed base of Intel ® Xeon ® processors combined with integrated AI acceleration platform capabilities and AI Accelerators such as Habana Gaudi, position Intel to lead in this high growth area. Intel continues its growth in AI through deep investments in the AI ecosystem, developer tools, frameworks, technologies, and open standards to drive a scalable path forward. We take a system level approach to accelerating computing, developing silicon products, and producing the necessary supporting software to optimize products' accessibility and performance. This is enabled through an unmatched and comprehensive product portfolio, solutions at scale, and an expansive partner ecosystem of OEMs, ODMs, commercial software vendors and open-source communities that are built upon and optimized for the Intel Xeon platform. We partner with the ecosystem to help our customers to lower development costs, decrease time to market, and reduce their total cost of ownership. Our technology is differentiated at the system level and in high-growth workloads based on our integrated hardware acceleration engines and software. For example, architected into our Xeon processors are Intel ® Deep Learning Boost (Intel ® DL Boost) for AI acceleration, Intel ® Software Guard Extensions (Intel ® SGX) providing enclaves of protected memory to deliver enhanced security for sensitive data, and Intel ® Crypto Acceleration that delivers breakthrough performance across a host of important cryptographic algorithms. This is the type of acceleration and differentiated performance that we expect will continue to drive our growth across our customer base. Products and Competition We offer customers a broad portfolio of silicon and software designed to provide workload-optimized performance. Our hardware portfolio is composed of CPUs, domain specific accelerators, FPGAs and memory. Each of these has been constituted to support the performance, agility, and security that our customers demand. Our hardware portfolio strategy and investment in software enables users to execute their workloads with low latency and on the most appropriate hardware. As a leading provider of data center platforms, we have competitors such as AMD, providers of GPU products such as NVIDIA Corporation (NVIDIA), companies using ARM architecture, and new entrants developing products customized for specific data center workloads. We expect the competitive environment to continue. In 2021, we launched our 3rd Gen Intel Xeon Scalable processors (Ice Lake), and we shipped 1 million units faster than the previous Xeon generations. All of our OEM partners are currently shipping 3rd Gen Intel Xeon enabled systems. In addition, all major hyperscale customers have deployed services using 3rd Gen Intel Xeon processors. The Intel Xeon Scalable processor family delivers advanced CPUs for the datacenter, the network and edge, driving industry-leading performance, manageability, and security with differentiated features and capabilities. Intel’s Habana Gaudi AI training accelerator was launched in late 2020 after acquiring Habana Labs in December 2019 and is at the forefront of AI solutions for data centers. In 2021, Amazon Web Services launched the EC2 DL1 instance featuring Habana Gaudi in Amazon Elastic Compute Cloud for training deep learning models, delivering up to 40% better price-performance than current GPU-based instances. Our FPGA and structured ASIC portfolio enhance Intel’s ability to meet the needs of customers in the data center, across the network and at the edge. We are shipping our Intel ® Agilex™ FPGA family, featuring industry-leading FPGA fabric performance, power efficiency, and transceiver performance. In 2021, we released our Intel ® eASIC™ N5X device family (Diamond Mesa) for low latency 5G network acceleration, hyperscale acceleration, and storage, AI, and edge applications. We also introduced an FPGA-based IPU (Oak Springs Canyon) that enables superior security capabilities and allows our hyperscale customers to isolate the infrastructure from the tenant workloads running on Xeon. The persistent memory portfolio for storage and for new memory structures enable greater execution speeds while minimizing transfers of large data sets. In 2021, we introduced the Intel Optane Persistent Memory 200 Series and Intel Optane SSD P5800X. MD&A 4 Financial Performance DCAI Revenue $B DCAI Operating Income $B Revenue Summary 2021 vs. 2020 Revenue was $22.7 billion, down $722 million primarily due to lower server revenue, partially offset by increased revenue from other DCAI products. Server volume decreased 4% driven by an increasingly competitive environment, partially offset by recovery in government and broader market products. 2020 vs. 2019 Revenue was $23.4 billion, up $1.7 billion primarily due to higher server revenue. Server unit sales increased 10% driven by growth in hyperscale capacity to serve demand over the first three quarters of 2020, before entering a capacity digestion cycle in the fourth quarter. Demand for government and broader market products declined in the second half of the year on COVID-related macroeconomic weakness. Operating Income Summary Operating income decreased 24% year over year, and operating margin was 37% in 2021. (In Millions) $ 8,439 2021 Operating Income (1,050) Higher DCAI server unit cost primarily from increased mix of 10nm SuperFin products (820) Higher period charges primarily driven by ramp up of Intel 4 and subsequent ramp down of 14nm (725) Lower gross margin from server revenue (475) Higher operating expenses driven by investment in leadership products (65) Higher period charges driven by increased engineering samples 375 Higher gross margin from other DCAI product revenue 130 Lower period charges driven by absence of reserves taken in 2020, partially offset by reserves recorded in 2021 (7) Other $ 11,076 2020 Operating Income 1,475 Higher gross margin from server revenue 185 Lower period charges due to lower factory start-up costs associated with the initial ramp of 10nm 50 Lower server unit cost (295) Higher period charges due to product reserves taken as well as increased logistic expenses due to COVID-19 (145) Higher operating expenses (125) Lower gross margin from non-server related revenue 4 Other $ 9,927 2019 Operating Income MD&A 5 Network & Edge Market and Business Overview Overview NEX lifts the world's networks and edge systems from fixed function hardware into open software running on programmable hardware. We work with partners and customers to deliver and deploy intelligent edge platforms that allow software developers to continuously evolve, improve, and tailor systems to gain more control, security, and flexibility. We have a broad portfolio of hardware and software platforms, tools and ecosystem partnerships for the rapid digital transformation happening from edge to cloud. We are leveraging our core strengths in process, manufacturing at scale, and software, to grow traditional markets and to accelerate entry into emerging ones. Market Trends and Strategy The internet is undergoing a shift toward a cloud-to-edge infrastructure, combining unrivaled scale and capacity in the cloud with faster response times at nearby edges. As AI inference is transforming and automating every industry—factories, smart cities, and hospitals—the demand for high-performance computing at the edge has expanded exponentially. Networks are moving towards software, becoming more programmable and flexible. NEX network solutions aim to 1) move the world's networks to run in software on Intel technologies at the core of cloud data centers, the public Internet, and public and private 5G/6G networks; 2) deploy and run software that monitors and controls factories, cities, commerce, energy and healthcare on Intel technologies; and 3) run every workload at the edge, between the cloud and the end-user, whether deployed by a cloud service provider (CSP) or an alternative service provider. Products and Competition With a greater emphasis on systems and solutions designed to harness the growth of data processed at the edge to yield insights, our competitive landscape has shifted beyond application-specific standard product (ASSP) vendors to include cloud, network, and AI computing platform providers. Today, we speed the deployment of network and edge computing solutions based on our open software frameworks and broad silicon portfolio to address a broad range of applications in many markets. Cloud networking requires uncompromised data center network performance and reliability. Intel ® Intelligent Fabric allows customers to program network behavior from end to end, from one Xeon server—through Intel ® Ethernet NICs, IPUs, P4-programmable Intel ® Tofino™ 3 Intelligent Fabric Processors and Ethernet Switch ASICs—to the next Xeon server. This control gives customers the ability to advance and differentiate their cloud infrastructure based on the unique needs of their business. The IPU, a new class of product introduced by Intel, is an open and programmable compute platform that frees up more compute cycles for customers by running infrastructure workloads in a separate, secure, and isolated set of CPU cores. Our Intel ® Silicon Photonics Optical Transceivers are the backbone of the data center network, building reliable optical links on one of the industry’s best manufacturing processes. We helped lead the world's shift to running networking workloads in software and created network function virtualization (NFV) providing customers with more efficient, cost effective and programmable platforms. Now we are helping to lead the first wave of 5G core network deployments and demonstrating that 5G base stations can be almost entirely built from software running on Xeon processors with vRAN. Our growth comes from moving fixed function networks onto Intel Xeon-SP and Intel Xeon D processors running our FlexCore and Intel ® FlexRAN™ software. Our customers are primarily tier-one global communication service providers and their equipment suppliers. Our software-based cloud RAN platform is designed to allow operators to deploy the fastest cloud-native 5G infrastructure quickly and efficiently at scale to meet the needs of their end customers. In addition to providing silicon, on-premises edge partners with companies to design and deliver solutions to help a wide range of customers transform their businesses and take advantage of the rapidly increasing number of connected devices and customers. We develop high-performance compute platforms to solve for technology and business use cases that scale across vertical industries and embedded markets such as retail, banking, hospitality, education, manufacturing, energy, healthcare and medical. A common architecture from intelligent edge platforms based on our Xeon, Core, Atom ® and VPU silicon portfolio reduces complexity in the ecosystem and helps our customers create, store and process data at the edge, analyzing it faster and acting on it sooner. Software frameworks like OpenVINO™ enable software developers to deploy new automation solutions on Intel hardware, particularly for those running AI inference workloads. Our customers’ need for flexibility, programmability, and versatility drives workloads toward software and away from fixed-function hardware. As networking in the cloud, core network, 5G, and private networks move to software, and as our edge customers increasingly deploy AI inference applications, we aim to ease innovation on Intel hardware. We support our customers with open, containerized software frameworks, such as Intel ® Smart Edge, OpenVINO, and Infrastructure Programmer Developer Kit (IPDK), enabling the network to continue to improve and evolve without locking customers into a single solution. MD&A 6 Financial Performance NEX Revenue $B NEX Operating Income $B Revenue Summary 2021 vs. 2020 NEX revenue was $8.0 billion, up $844 million, primarily driven by higher demand for edge products amid recovery from the economic impacts of COVID-19 as well as a recovery in cloud networking revenue. These increases were partially offset by a reduction in the 5G networking volume from elevated levels in 2020. 2020 vs. 2019 NEX revenue was $7.1 billion, up $303 million, primarily driven by 5G networking deployment largely offset by a decline in edge product revenue as a result of economic impacts from COVID-19, with lower ASPs on weaker core mix and weaker demand for edge products. Revenue related to edge products was also negatively affected by considerations related to the U.S. government Entity List. Operating Income Summary Operating income increased 102% year over year, and operating margin was 21% in 2021. (In Millions) $ 1,711 2021 Operating Income 895 Lower NEX unit cost due to cost improvements in 10nm SuperFin process 285 Lower period charges due to reserve sell through and a decrease in engineering samples 215 Higher gross margin from NEX revenue, primarily driven by cloud networking and the edge (300) Higher operating expenses primarily due to roadmap investments (220) Higher period charges primarily associated with the ramp of Intel 4 (10) Other $ 846 2020 Operating Income (1,510) Higher NEX unit cost (110) Higher operating expenses primarily due to investing activities 420 Lower period charges due to reserve sell through and a decrease in investments 240 Higher gross margin from NEX revenue 67 Other $ 1,739 2019 Operating Income MD&A 7 Accelerated Computing Systems and Graphics Market and Business Overview Overview AXG delivers products and technologies designed to help our customers solve the toughest computational problems. Our vision is to enable persistent and immersive computing, at scale, and accessible by billions of people within milliseconds, which drives an incredible demand for compute - from endpoints to data centers. Our portfolio includes CPUs for high performance computing and GPUs targeted for a range of workloads and platforms from gaming and content creation on client devices to delivering media and gaming in the cloud, and the most demanding HPC and AI workload on supercomputers. To address new market opportunities and emerging workloads, we also develop custom accelerators with blockchain acceleration, as an example. Market Trends and Strategy We are surrounded by immersive and visual content. Technology has made great advances in computer graphics, gaming and media to AI supercomputing technologies that have enabled us to push towards simulating everything. The pursuit of simulating everything is driving the demand for accelerated computing. To address the opportunity, we are developing products that cover gaming, content creation, and that can enable consumers to experience immersive, photo-realistic virtual worlds. Our high-performance computing products are intended to power supercomputers that simulate our world from sub-micron levels to the entire galaxy. We are also building tailored products and have custom design services that we believe will unlock additional market opportunities. We leverage Intel’s expansive portfolio of IPs and technologies from our process and packaging to our x86 architecture and a rich set of open software tools, libraries, drivers and operating systems. We build upon the core foundation and combine our scalable Xe architecture and acceleration IPs to address the accelerated computing market. Our IDM 2.0 investments provide us with a flexible manufacturing strategy so that we can combine the power of our internal IP portfolio with the breadth of the external ecosystem. Products and Competition We operate in a very competitive market. NVIDIA is a competitor in the GPU and CPU market for high-performance computing and AI as well as graphics solutions for content creation and gaming. AMD is also a competitor in the client as well as server segments with their line of GPUs and CPUs. CSPs are both customers and indirect competitors as they integrate vertically. Our advanced and groundbreaking Xe architecture excels at rendering content and accelerating computing that scales from the client to the data center. We empower the industry with open and scalable toolkits and software libraries that enable heterogeneous compute through our oneAPI programming model. Intel Arc TM Graphics is our high-performance graphics for gaming, content creation, and emerging opportunities to enable persistent and immersive computing. To provide a valuable user experience and bring Intel Arc graphics to market, we work with hundreds of software partners to deliver games and applications that work seamlessly with our products. We also collaborate with the ecosystem to integrate new functionality and features that take advantage of both our hardware and software technologies to boost performance and enable high-quality rendering and fluid frame rates. High-performance computing takes advantage of our CPUs and GPUs to power supercomputers that tackle the most computationally challenging problems of our increasingly complex world. Today, many of the world’s supercomputers are based on Intel Xeon processors. Our CPU roadmap strategy is to build upon this foundation and extend to higher compute and memory bandwidth for workloads with increasingly large datasets. Our flagship data center GPU, Ponte Vecchio, is designed to take on the most demanding AI and HPC workloads. Combining Ponte Vecchio with Intel Xeon processors can supercharge a platform’s compute density. Our oneAPI cross architecture programming model is architected to leverage the broad software ecosystem of Intel Xeon processors so that software developers can work across a range of CPUs and accelerators with a single code base. With a rich portfolio and a strong roadmap for leadership in visual computing, supercomputing, and custom computing, we have a unique opportunity to define the future of computing and accelerate growth for Intel. MD&A 8 Financial Performance AXG revenue increased primarily due to the integrated graphics royalties generated from the increased sale of certain products from our CCG and NEX operating segments. In 2021, high performance compute incurred a charge on a federal contract of $333 million that generated revenue of $71 million. The remaining loss in 2021 reflects ongoing investments in the business, which we expect to continue through 2022. AXG Revenue $B AXG Operating Income (Loss) $B MD&A 9 Mobileye Market and Business Overview Overview Mobileye is a global leader in driving assistance and self-driving solutions. Our product portfolio covers the entire stack required for assisted and autonomous driving, including compute platforms, computer vision and machine learning-based sensing, mapping and localization, driving policy, and active sensors in development. Mobileye's unique assets in ADAS allow for building a scalable self-driving stack that meets the requirements for both Robotaxi and consumer-level autonomy. Our customers and strategic partners include major global OEMs, Tier 1 automotive system integrators, and public transportation operators. Market Trends and Strategy While the vehicle industry shows recovery from the COVID-19 pandemic with approximately 2% 1 growth year over year, production is still roughly 15% below 2019 levels. We expect ADAS volume to overcome the COVID-19 effects faster than overall global vehicle production, given the significant growth shown in 2021. We anticipate long-term ADAS growth from a strong build-up in L1-L2 ADAS fitment rates, increasing the number of vehicles that will have basic ADAS features from the factory. In addition, we expect increased demand for new generations of cloud-enhanced ADAS as OEMs continue to look to boost current L2 solutions by improving system fidelity, availability, and performance. A crucial building block for L4 autonomy, our REM high-definition maps with constant updates, global coverage, and crowd-based semantics provide a unique value proposition for enhanced L2 systems. We see great traction from leading OEMs (including VW and Ford, as recently announced) as REM-based enhancements can be achieved based on economical configuration. We believe the future of autonomous driving will unfold in two phases: commercial services like Robotaxi and cargo, followed by series-production passenger car consumer AVs. We expect consumer AVs to materialize only after the Robotaxi industry deploys and matures. The main inhibitors of a mass market product offering of consumer AV are the cost of AV technology, ability to scale at a low cost, regulatory framework, public acceptance, and the ability to scale geographically. Thus, we see the Robotaxi phase as a necessary corridor to consumer AV. Because of our scalable approach, Mobileye is well-positioned to play a significant role in both the Robotaxi market and the future consumer AV market. This is driven by three elements in our strategy: lean compute enabled by the tight co-design of hardware and software, REM crowdsourced maps that provide unparalleled global coverage and constant updates, and development of high-resolution imaging radars to reduce the use of costly LiDAR sensors. In Robotaxi, Mobileye is active via two major business models: First, we are positioning ourselves to be an end-to-end service provider together with Moovit's complementary go-to-market assets and service layers. Second, we are also engaging with various public transportation operators, goods delivery, and mobility providers via a Vehicle-as-a-Service business model in which we provide a fully integrated self-driving platform. Regulatory approval and framework are a prerequisite for AV proliferation. In 2021, Germany became the first country in the world to allow autonomous vehicles onto public roads without requiring a human backup safety driver behind the wheel. We anticipate one or more additional countries will soon provide similar regulation, enabling regular deployment and operation of MaaS fleets with self-driving vehicles starting in 2022. Products and Competition Our offering for ADAS and AV is propelled by our computer vision, AI expertise, and software assets, deployed on our EyeQ SoC family. The tight co-design of hardware and software gives the EyeQ SoC the ability to support complex and computationally intense tasks and sets it apart from competition because it is purpose-fit for high-compute, low-power, automotive-compliant mission profiles. Our 5th Gen EyeQ5 SoC is designed to act as the core building block of central compute for fully autonomous driving vehicles. We have been able to achieve power, performance, and cost targets by employing proprietary computational cores that are optimized for a wide variety of computer vision, signal processing, and machine learning tasks, including deep neural networks. Starting with EyeQ5, we are supporting an automotive-grade standard operating system and providing a complete software development kit to allow customers to differentiate their solutions by deploying their algorithms on EyeQ5. The EyeQ5 SoC is already available for commercial vehicles and is already operational in our autonomous test vehicles. EyeQ5 serves as the computational foundation for our scalable camera-only surround sensing system. The system consists of multiple independent computer vision engines and deep networks for algorithmic redundancy. The result is a robust and comprehensive model of the environment that allows end-to-end autonomous driving. The surround computer vision system is the backbone of Mobileye's AV architecture and the flagship offering for next-generation ADAS. We recently introduced EyeQ6L and EyeQ6H, which are designed to provide a scalable solution from entry level ADAS to L2+ and L4 systems. The EyeQ6 platform opens Mobileye to host and process parking and DMS data. EyeQ6L is expected to be deployed in 2023, while EyeQ6H will start production in 2024. 1 Source: IHS Markit. MD&A 10 The next significant building block in our complete offering is REM mapping technology, which compiles crowdsourced mapping data from EyeQ SoC-equipped vehicles. Together with our OEM partners, we are utilizing our strong presence in ADAS to gain crowd knowledge that is required for building AV maps. After five years of intense development, the REM technology is fully functional for L2/L2+ applications and provides a variety of advanced features, including predictive adaptive cruise control, lane-level localization in all weather and road conditions, hands-free driving application, and real-time alerts. REM also provides intelligent speed adaptation functionality for regulation required by GSR and EUNCAP starting in 2022. REM technology is one of our key differentiators. The third building block in our full stack offering is our unique formal model for AV safety (RSS). At its core, RSS is a pragmatic method to design and then efficiently validate the safety of an AV, serving as the governing safety layer for the decision-making system. RSS formalizes human decision making for safe driving. It acknowledges the need to balance safety with useful driving by making plausible worst-case scenario assumptions for other road users. By using induction and analytical calculations, the RSS model allows for a lean driving policy with high computational efficiency. The fourth building block is True Redundancy™, which manifests our approach to AV sensing. True Redundancy combines two independent perception sub-systems—one powered by cameras, and another by radar and LiDAR—and supports full end-to-end autonomous capabilities. Our Level 4 self-driving system, Mobileye Drive, incorporates both systems. Our last building block is active sensors development. Mobileye and Intel's combined competencies put us in a unique position to advance with the development of a software-defined imaging radar designed to deliver rich point cloud modeling capabilities to enable sensing-state and driving decisions solely on radar. Our imaging radars would replace most of the field of view covered by today's costly LiDARs. LiDAR would be retained only for the front-facing field of view, where it would operate in three-way redundancy with cameras and radar, enabling a major cost reduction for the entire sensor configuration. The proof of concept and modelling using this new radar technology has already been demonstrated. We are also developing a unique Frequency-Modulated Continuous Wave LiDAR designed to provide high point density with relative speed measurement and superior immunity for additional safety in time-critical decisions. Financial Performance Mobileye Revenue $B Mobileye Operating Income $B Revenue Summary 2021 vs. 2020 Mobileye revenue increased $419 million, driven by improvement in global vehicle production, recovery from the economic impacts of COVID-19, and increasing adoption of ADAS compared to 2020. 2020 vs. 2019 Mobileye revenue was $967 million, up $88 million, driven by higher demand from improved global vehicle production in the second half of 2020, offsetting the decline in production experienced in the first half of the year due to the effects of the COVID-19 pandemic. Operating Income Summary 2021 vs. 2020 Mobileye operating income increased $231 million, due to higher revenue driven by improvement in global vehicle production, recovery from the economic impacts of COVID-19, and increasing adoption of ADAS compared to 2020. 2020 vs. 2019 Mobileye operating income was $323 million, up $5 million, due to higher spending primarily driven by the Moovit acquisition, partially offset by growth in revenue. MD&A 11 Intel Foundry Services Market and Business Overview Overview IFS seeks to empower our customers by delivering industry-leading silicon and packaging with a differentiated IP portfolio via a secure and sustainable supply of semiconductors. We intend to leverage our decades-long investment in advancing Moore’s Law to spark innovation and customization for our customers on leading edge nodes and mature specialty processes, through support of an open multi-Intel System Architecture (ISA) ecosystem. Our early customers include traditional fabless customers, cloud service providers, automotive customers and aerospace firms. We offer a combination of leading-edge packaging and process technology, world-class differentiated internal IPs (ex. x86, graphics, AI), broad third party ecosystem and silicon design support. Additionally, our offerings include mask-making equipment for advanced lithography used by most of the world’s leading-edge foundries. Market Trends and Strategy Strong demand from the high-performance compute and mobile segments is leading to capacity shortages for key market segments worldwide. Automotive markets served mostly by mature technologies are also experiencing shortages. Components like power-management and display-driver integrated circuits manufactured with older 200mm equipment are also in short supply, leading to a gradual transition to 300mm manufacturing. Market analysts expect the supply constraints to persist at least through 2022 if not longer, creating a favorable environment for us to scale IFS. The COVID-19 pandemic highlighted the world’s dependence on semiconductors and the vulnerable supply chain that underpins the industry. We seek to secure the global supply chain for all semiconductor needs and rebalance the supply of silicon to provide assured and secure supply of semiconductors. We are the only U.S. headquartered foundry with leading and trailing manufacturing capabilities and we intend to be a key partner for securing the national supply of critical silicon components. Our business is expected to help countries and companies access a reliable silicon supply chain that will withstand geopolitical, economic, security, and climate challenges. We aim to win the foundry market growth segments of this decade, including Mobile, Compute, and Automotive, with our unique ability to combine open compute platform with customer IP, customized chiplets, x86 cores and advanced 3D packaging. The IFS Automotive group will provide an Auto grade open compute foundry platform combined with Mobileye solutions, specialty silicon, Intel LiDAR, and innovation through the IFS Accelerator program. Products and Competition The semiconductor foundry services market is primarily served by five major manufacturers: Taiwan Semiconductor Manufacturing Company (TSMC), Samsung, GlobalFoundries, UMC and SMIC - all of which are pure-play foundries except Samsung, which is an IDM and a foundry. TSMC and UMC are headquartered in Taiwan, Samsung in Korea, GlobalFoundries in the USA, and SMIC in China. TSMC is the market leader with more than 50% market share, followed by Samsung. Only TSMC and Samsung are investing in leading edge foundry technologies smaller than 10nm, allowing IFS a great opportunity to capitalize as markets transition from older nodes to leading edge technologies. We are building towards differentiated foundry service offerings based on a comprehensive portfolio of distinguished technology solutions designed to enable customers to win in their markets with leadership products. This portfolio includes process technology spanning from leading-edge up to half micron advanced 3D packaging, ISA support beyond x86 with ARM & RISC-V, broad vibrant IP, EDA and design services ecosystem. As part of the broader technology offering scope, we are also selling Multi-Beam Mask Writer (MBMW) tools, a key technology for the semiconductor industry. We are working to accelerate IFS growth and are making good progress. We have defined a competitive technology, IP and leadership packaging roadmap, grown the organization with key leaders internally and from the industry, engaged with marquee customers on Intel 18A, built a strong pipeline of customers on Intel 16, established early business success in packaging with customers like Amazon Web Services (AWS) and are engaged with CSPs as well as compute-intensive automotive customers using Intel’s x86 IP on Intel foundry. MD&A 12 Financial Performance IFS revenue increased primarily due to our automotive group in 2021 and custom ASIC in 2020, with operating income reflecting ongoing investments in the business. IFS Revenue $B IFS Operating Income (Loss) $B MD&A 13
+Document
+Exhibit 99.2
+Item 7.  Management's Discussion and Analysis of Financial Condition and Results of Operations
+How We Organize Our Business
+We previously announced several organizational changes that would accelerate the execution and innovation of our Company by allowing us to capture growth in both large traditional markets and high-growth emerging markets. This includes the reorganization of our business units to capture this growth and to provide increased transparency, focus and accountability. As a result, we modified our segment reporting to align to the previously announced business reorganization. All prior-period segment data has been retrospectively adjusted to reflect the way we internally manage and monitor segment performance starting in fiscal year 2022.
+We now manage our business through the following primary operating segments:
+■
+Client Computing (CCG) - historical CCG business plus Workstation revenue
+■
+Datacenter and AI (DCAI) - datacenter CPU products plus our PSG business
+■
+Network and Edge (NEX) - IOTG business plus our networking focused products previously included in DCG
+■
+Accelerated Computing Systems and Graphics (AXG) - all discrete graphics products
+■
+Mobileye - unchanged
+■
+Intel Foundry Services (IFS) - revenue from our wafer and packaging
+We derive a substantial majority of our revenue from our principal products that incorporate various components and technologies, including a microprocessor and chipset, a stand-alone SoC (system-on-a-chip), or a multichip package, which is based on Intel
+®
+architecture.
+CCG, DCAI and NEX are our reportable operating segments. AXG, Mobileye, and IFS do not meet the quantitative thresholds to qualify as reportable operating segments; however, we have elected to disclose the results of these non-reportable operating segments. AXG revenue includes integrated graphics royalties from our CCG and NEX operating segments and are recorded as if the sales or transfers were to third parties at prices that approximate market-based selling prices. When we enter into federal contracts, they are aligned to the sponsoring operating segment.
+Net revenue and operating income (loss) for each period were as follows:
+Years Ended (In Millions)
+Dec 25, 2021
+Dec 26, 2020
+Dec 28, 2019
+Operating segment revenue:
+Client Computing
+Desktop
+$
+12,437
+$
+11,179
+$
+12,619
+Notebook
+25,443
+24,897
+20,773
+Other
+3,187
+4,459
+4,546
+41,067
+40,535
+37,938
+Datacenter and AI
+22,691
+23,413
+21,696
+Network and Edge
+7,976
+7,132
+6,829
+Accelerated Computing Systems and Graphics
+774
+651
+606
+Mobileye
+1,386
+967
+879
+Intel Foundry Services
+786
+715
+461
+All other
+5,019
+5,091
+4,150
+Total operating segment revenue
+$
+79,699
+$
+78,504
+$
+72,559
+Operating income (loss):
+Client Computing
+$
+15,704
+$
+15,800
+$
+16,160
+Datacenter and AI
+8,439
+11,076
+9,927
+Network and Edge
+1,711
+846
+1,739
+Accelerated Computing Systems and Graphics
+(1,207)
+(403)
+(353)
+Mobileye
+554
+323
+318
+Intel Foundry Services
+(23)
+45
+(213)
+All other
+(5,722)
+(4,009)
+(5,543)
+Total operating income
+$
+19,456
+$
+23,678
+$
+22,035
+The following table presents intersegment revenue before eliminations:
+Total operating segment revenue
+$
+79,699
+$
+78,504
+$
+72,559
+Less: Accelerated Computing Systems and Graphics intersegment revenue
+(675)
+(637)
+(594)
+Total net revenue
+$
+79,024
+$
+77,867
+$
+71,965
+MD&A
+1
+Client Computing
+Market and Business Overview
+Overview
+We are committed to advancing PC experiences by delivering an annual cadence of leadership products and deepening our relationships with industry partners to co-engineer and deliver leading platform innovation. We focus on long-term operating systems, system architecture, hardware, and application integration that enables industry-leading PC experiences. We intend to embrace these opportunities by investing more heavily in the PC, ramping its capabilities even more aggressively, and designing the PC experience even more deliberately. By doing this, we believe we will continue to fuel innovation across Intel
+®
+, providing a growing source of IP, scale, and cash flow.
+Market Trends and Strategy
+Since the onset of the COVID-19 pandemic, time spent on PCs has increased dramatically across all major usage categories—as did PCs per household—reinforcing the importance of bringing innovative platforms and form factors to market that unlock real-world experiences. This trend is expected to remain in a post-pandemic world, driving a year over year growth in revenue TAM
+1
+. The ecosystem is shipping over one million PC units a day, and we believe there is sustained strength in PC demand. In addition, the COVID-19 pandemic has driven significant behavior changes that have positioned the PC as an essential tool in people's lives.
+PC density, or PCs per household, is increasing as COVID-19 has irreversibly changed the way we focus, create, connect, and care for each other. In addition, we continue to see an increase in PCs per student. There is a significant opportunity in the commercial segment, driven by refresh of older Windows devices. Currently, there are approximately 140 million devices that are more than four years old
+2
+. The experience and capabilities delivered on new PCs are dramatically better today, reinforcing the opportunity to drive a refresh cycle among enterprise customers.
+Products and Competition
+We operate in a particularly competitive market. In processors, we compete with AMD and vendors who design applications processors based on ARM* architecture, such as Qualcomm Inc. (Qualcomm), and, increasingly, Apple Inc. (Apple) with its most recent launch of M1 Max and M1 Pro. We expect this competitive environment to intensify.
+Our role as a technology leader is more important than ever, and our commitment to creating an open ecosystem is critical to delivering on our ambition. That is why we embrace and collaborate with a vibrant ecosystem of OEM partners to identify innovation vectors. The breadth of a robust ecosystem like Windows/x86 is an incredibly powerful combination, bringing together hundreds of companies and creative and innovative advancements that are not possible for one company alone to deliver.
+We launched our 12th Gen Intel
+®
+Core™ desktop processors based on our first performance hybrid architecture, which combines two all-new core microarchitectures instead of one and can scale across PC segments and out to the edge. The 12th Gen processor family is set to deliver superior computing performance for every PC segment and out to the edge. In total, we expect to deliver more than 60 processors and 500 desktop, workstation and mobile designs from partners across major multinational corporations and leading manufacturers.
+Unique to Intel, we innovate beyond the CPU to deliver premium PC experiences with Intel Evo™ and Intel vPro
+®
+platforms. More than 100 advanced laptop designs have been built on the Intel Evo platform, which signals they are tested and verified in Intel labs. This ensures they deliver key experience indicators defined by real-world usage models and innovation across areas like responsiveness, battery life, instant wake, and connectivity. Intel vPro is designed for enterprise needs and delivers increased productivity improvements, connectivity, security features, and remote manageability.
+We are leading Intel as we embark on our new IDM 2.0 strategy to develop more competitive products and more capabilities for customers. As a result, we are designing our product roadmap to drive product leadership grounded in a philosophy of openness and choice. We deliver value to our customers by leveraging our engineering capabilities and working with our partners across an open, innovative ecosystem to deliver technology that drives every major vector of the computing experience, including performance, battery life, connectivity, graphics, and form factors to create the most advanced PC platforms.
+We continue to face industry-wide supply constraints, which are expected to persist into 2022. Given our unique position in the industry, we have taken major actions along the supply chain to eliminate bottlenecks—increasing substrate capacity, removing third-party component bottlenecks, increasing our own internal capacity, and obtaining more external capacity. We are also working with the industry to provide TAM forecasts that help our suppliers better deliver on industry needs.
+1
+Source: Intel calculated 2022 TAM derived from industry analyst reports.
+2
+Source: Intel calculated the volume of devices over four years old from industry analyst reports and internal data.
+MD&A
+2
+Financial Performance
+CCG Revenue $B
+CCG Operating Income $B
+■
+Notebook
+■
+Desktop
+■
+Other
+Revenue Summary
+2021 vs. 2020
+▪
+Notebook revenue increased $546 million. Notebook unit sales increased 8% driven by consumer and commercial recovery from COVID-19 lows offset by 6% lower ASPs due to strength in consumer and education market segments.
+▪
+Desktop revenue increased $1.3 billion. Desktop unit sales increased 8% driven by recovery in desktop demand driven by consumer and commercial recovery from COVID-19 lows and ASP increased 3% driven by commercial recovery from COVID-19.
+▪
+Other revenue decreased $1.3 billion primarily driven by the continued ramp down from the exit of our 5G smartphone modem and Home and Gateway Platform businesses, partially offset by strength in wireless and connectivity.
+2020 vs. 2019
+▪
+Notebook revenue increased $4.1 billion. Notebook unit sales increased 28% driven by strength in notebook demand, partially offset by 6% lower ASPs resulting from higher demand for consumer education PCs.
+▪
+Desktop revenue decreased $1.4 billion. Desktop unit sales decreased 12% due to lower desktop demand while ASP was flat.
+▪
+Other revenue decreased $87 million primarily driven by volume decline in our 5G smartphone modem and Home and Gateway Platform businesses, partially offset by strength in wireless and connectivity.
+Operating Income Summary
+Operating income decreased 1% year over year, and operating margin was 38% in 2021.
+(In Millions)
+$
+15,704
+2021 Operating Income
+(840)
+Higher period charges primarily associated with ramp up of Intel 4 and subsequent ramp down of 14nm
+(675)
+Higher operating expenses driven by increased investment in leadership products
+(290)
+Lower gross margin from notebook revenue
+(140)
+Higher period charges driven by less sell-through of reserves on products in 2021 as compared to in 2020, and additional reserves taken in 2021
+1,080
+Higher gross margin from desktop revenue
+660
+Lower unit cost primarily due to cost improvements in 10nm SuperFin
+165
+Lower period charges primarily driven by an decrease in engineering samples
+(56)
+Other
+$
+15,800
+2020 Operating Income
+(3,020)
+Higher unit cost primarily from increased mix of 10nm products
+(1,160)
+Lower gross margin from desktop revenue
+2,605
+Higher gross margin from notebook revenue
+670
+Lower operating expenses
+325
+Lower period charges due to lower start-up cost associated with 10nm products and sell-through of previously reserved platform products related to our 10nm process technology, partially offset by increased logistics expenses due to COVID-19
+300
+Higher gross margin from other CCG product revenue
+(80)
+Other
+$
+16,160
+2019 Operating Income
+MD&A
+3
+Datacenter and AI
+Market and Business Overview
+Overview
+DCAI delivers workload-optimized platforms to empower datacenter and hyperscale solutions for diverse computing needs. We are focused on delivering the hardware and software portfolio our customers need to support the increased demand for high performance computing and processing of increasingly complex algorithms. DCAI offers a portfolio of leadership products, including CPUs, FPGAs, and AI accelerators, and Intel
+®
+persistent memory together with a broad portfolio of software and solutions that enable our hardware’s differentiated features to deliver performance to customers. Our customers and partners include hyperscale customers, OEM/ODMs, enterprises, independent software vendors, system integrators, communications service providers, and governments.
+Market Trends and Strategy
+Data is a significant force in society and is being generated at an unprecedented pace. We expect growth in the demand for and application of data, and the desire to harness insights and develop new business models. For example, AI is quickly becoming pervasive in all applications, creating intelligence everywhere, and enabling powerful new uses of compute across all market segments. The installed base of Intel
+®
+Xeon
+®
+processors combined with integrated AI acceleration platform capabilities and AI Accelerators such as Habana Gaudi, position Intel to lead in this high growth area. Intel continues its growth in AI through deep investments in the AI ecosystem, developer tools, frameworks, technologies, and open standards to drive a scalable path forward.
+We take a system level approach to accelerating computing, developing silicon products, and producing the necessary supporting software to optimize products' accessibility and performance. This is enabled through an unmatched and comprehensive product portfolio, solutions at scale, and an expansive partner ecosystem of OEMs, ODMs, commercial software vendors and open-source communities that are built upon and optimized for the Intel Xeon platform. We partner with the ecosystem to help our customers to lower development costs, decrease time to market, and reduce their total cost of ownership.
+Our technology is differentiated at the system level and in high-growth workloads based on our integrated hardware acceleration engines and software. For example, architected into our Xeon processors are Intel
+®
+Deep Learning Boost (Intel
+®
+DL Boost) for AI acceleration, Intel
+®
+Software Guard Extensions (Intel
+®
+SGX) providing enclaves of protected memory to deliver enhanced security for sensitive data, and Intel
+®
+Crypto Acceleration that delivers breakthrough performance across a host of important cryptographic algorithms. This is the type of acceleration and differentiated performance that we expect will continue to drive our growth across our customer base.
+Products and Competition
+We offer customers a broad portfolio of silicon and software designed to provide workload-optimized performance. Our hardware portfolio is composed of CPUs, domain specific accelerators, FPGAs and memory. Each of these has been constituted to support the performance, agility, and security that our customers demand. Our hardware portfolio strategy and investment in software enables users to execute their workloads with low latency and on the most appropriate hardware.
+As a leading provider of data center platforms, we have competitors such as AMD, providers of GPU products such as NVIDIA Corporation (NVIDIA), companies using ARM architecture, and new entrants developing products customized for specific data center workloads. We expect the competitive environment to continue.
+In 2021, we launched our 3rd Gen Intel Xeon Scalable processors (Ice Lake), and we shipped 1 million units faster than the previous Xeon generations. All of our OEM partners are currently shipping 3rd Gen Intel Xeon enabled systems. In addition, all major hyperscale customers have deployed services using 3rd Gen Intel Xeon processors. The Intel Xeon Scalable processor family delivers advanced CPUs for the datacenter, the network and edge, driving industry-leading performance, manageability, and security with differentiated features and capabilities.
+Intel’s Habana Gaudi AI training accelerator was launched in late 2020 after acquiring Habana Labs in December 2019 and is at the forefront of AI solutions for data centers. In 2021, Amazon Web Services launched the EC2 DL1 instance featuring Habana Gaudi in Amazon Elastic Compute Cloud for training deep learning models, delivering up to 40% better price-performance than current GPU-based instances.
+Our FPGA and structured ASIC portfolio enhance Intel’s ability to meet the needs of customers in the data center, across the network and at the edge. We are shipping our Intel
+®
+Agilex™ FPGA family, featuring industry-leading FPGA fabric performance, power efficiency, and transceiver performance. In 2021, we released our Intel
+®
+eASIC™ N5X device family (Diamond Mesa) for low latency 5G network acceleration, hyperscale acceleration, and storage, AI, and edge applications. We also introduced an FPGA-based IPU (Oak Springs Canyon) that enables superior security capabilities and allows our hyperscale customers to isolate the infrastructure from the tenant workloads running on Xeon.
+The persistent memory portfolio for storage and for new memory structures enable greater execution speeds while minimizing transfers of large data sets. In 2021, we introduced the Intel Optane Persistent Memory 200 Series and Intel Optane SSD P5800X.
+MD&A
+4
+Financial Performance
+DCAI Revenue $B
+DCAI Operating Income $B
+Revenue Summary
+2021 vs. 2020
+Revenue was $22.7 billion, down $722 million primarily due to lower server revenue, partially offset by increased revenue from other DCAI products. Server volume decreased 4% driven by an increasingly competitive environment, partially offset by recovery in government and broader market products.
+2020 vs. 2019
+Revenue was $23.4 billion, up $1.7 billion primarily due to higher server revenue. Server unit sales increased 10% driven by growth in hyperscale capacity to serve demand over the first three quarters of 2020, before entering a capacity digestion cycle in the fourth quarter. Demand for government and broader market products declined in the second half of the year on COVID-related macroeconomic weakness.
+Operating Income Summary
+Operating income decreased 24% year over year, and operating margin was 37% in 2021.
+(In Millions)
+$
+8,439
+2021 Operating Income
+(1,050)
+Higher DCAI server unit cost primarily from increased mix of 10nm SuperFin products
+(820)
+Higher period charges primarily driven by ramp up of Intel 4 and subsequent ramp down of 14nm
+(725)
+Lower gross margin from server revenue
+(475)
+Higher operating expenses driven by investment in leadership products
+(65)
+Higher period charges driven by increased engineering samples
+375
+Higher gross margin from other DCAI product revenue
+130
+Lower period charges driven by absence of reserves taken in 2020, partially offset by reserves recorded in 2021
+(7)
+Other
+$
+11,076
+2020 Operating Income
+1,475
+Higher gross margin from server revenue
+185
+Lower period charges due to lower factory start-up costs associated with the initial ramp of 10nm
+50
+Lower server unit cost
+(295)
+Higher period charges due to product reserves taken as well as increased logistic expenses due to COVID-19
+(145)
+Higher operating expenses
+(125)
+Lower gross margin from non-server related revenue
+4
+Other
+$
+9,927
+2019 Operating Income
+MD&A
+5
+Network & Edge
+Market and Business Overview
+Overview
+NEX lifts the world's networks and edge systems from fixed function hardware into open software running on programmable hardware. We work with partners and customers to deliver and deploy intelligent edge platforms that allow software developers to continuously evolve, improve, and tailor systems to gain more control, security, and flexibility. We have a broad portfolio of hardware and software platforms, tools and ecosystem partnerships for the rapid digital transformation happening from edge to cloud. We are leveraging our core strengths in process, manufacturing at scale, and software, to grow traditional markets and to accelerate entry into emerging ones.
+Market Trends and Strategy
+The internet is undergoing a shift toward a cloud-to-edge infrastructure, combining unrivaled scale and capacity in the cloud with faster response times at nearby edges. As AI inference is transforming and automating every industry—factories, smart cities, and hospitals—the demand for high-performance computing at the edge has expanded exponentially. Networks are moving towards software, becoming more programmable and flexible.
+NEX network solutions aim to 1) move the world's networks to run in software on Intel technologies at the core of cloud data centers, the public Internet, and public and private 5G/6G networks; 2) deploy and run software that monitors and controls factories, cities, commerce, energy and healthcare on Intel technologies; and 3) run every workload at the edge, between the cloud and the end-user, whether deployed by a cloud service provider (CSP) or an alternative service provider.
+Products and Competition
+With a greater emphasis on systems and solutions designed to harness the growth of data processed at the edge to yield insights, our competitive landscape has shifted beyond application-specific standard product (ASSP) vendors to include cloud, network, and AI computing platform providers.
+Today, we speed the deployment of network and edge computing solutions based on our open software frameworks and broad silicon portfolio to address a broad range of applications in many markets.
+Cloud networking requires uncompromised data center network performance and reliability. Intel
+®
+Intelligent Fabric allows customers to program network behavior from end to end, from one Xeon server—through Intel
+®
+Ethernet NICs, IPUs, P4-programmable Intel
+®
+Tofino™ 3 Intelligent Fabric Processors and Ethernet Switch ASICs—to the next Xeon server. This control gives customers the ability to advance and differentiate their cloud infrastructure based on the unique needs of their business. The IPU, a new class of product introduced by Intel, is an open and programmable compute platform that frees up more compute cycles for customers by running infrastructure workloads in a separate, secure, and isolated set of CPU cores. Our Intel
+®
+Silicon Photonics Optical Transceivers are the backbone of the data center network, building reliable optical links on one of the industry’s best manufacturing processes.
+We helped lead the world's shift to running networking workloads in software and created network function virtualization (NFV) providing customers with more efficient, cost effective and programmable platforms. Now we are helping to lead the first wave of 5G core network deployments and demonstrating that 5G base stations can be almost entirely built from software running on Xeon processors with vRAN.
+Our growth comes from moving fixed function networks onto Intel Xeon-SP and Intel Xeon D processors running our FlexCore and Intel
+®
+FlexRAN™ software. Our customers are primarily tier-one global communication service providers and their equipment suppliers. Our software-based cloud RAN platform is designed to allow operators to deploy the fastest cloud-native 5G infrastructure quickly and efficiently at scale to meet the needs of their end customers.
+In addition to providing silicon, on-premises edge partners with companies to design and deliver solutions to help a wide range of customers transform their businesses and take advantage of the rapidly increasing number of connected devices and customers. We develop high-performance compute platforms to solve for technology and business use cases that scale across vertical industries and embedded markets such as retail, banking, hospitality, education, manufacturing, energy, healthcare and medical.
+A common architecture from intelligent edge platforms based on our Xeon, Core, Atom
+®
+and VPU silicon portfolio reduces complexity in the ecosystem and helps our customers create, store and process data at the edge, analyzing it faster and acting on it sooner. Software frameworks like OpenVINO™ enable software developers to deploy new automation solutions on Intel hardware, particularly for those running AI inference workloads.
+Our customers’ need for flexibility, programmability, and versatility drives workloads toward software and away from fixed-function hardware. As networking in the cloud, core network, 5G, and private networks move to software, and as our edge customers increasingly deploy AI inference applications, we aim to ease innovation on Intel hardware. We support our customers with open, containerized software frameworks, such as Intel
+®
+Smart Edge, OpenVINO, and Infrastructure Programmer Developer Kit (IPDK), enabling the network to continue to improve and evolve without locking customers into a single solution.
+MD&A
+6
+Financial Performance
+NEX Revenue $B
+NEX Operating Income $B
+Revenue Summary
+2021 vs. 2020
+NEX revenue was $8.0 billion, up $844 million, primarily driven by higher demand for edge products amid recovery from the economic impacts of COVID-19 as well as a recovery in cloud networking revenue. These increases were partially offset by a reduction in the 5G networking volume from elevated levels in 2020.
+2020 vs. 2019
+NEX revenue was $7.1 billion, up $303 million, primarily driven by 5G networking deployment largely offset by a decline in edge product revenue as a result of economic impacts from COVID-19, with lower ASPs on weaker core mix and weaker demand for edge products. Revenue related to edge products was also negatively affected by considerations related to the U.S. government Entity List.
+Operating Income Summary
+Operating income increased 102% year over year, and operating margin was 21% in 2021.
+(In Millions)
+$
+1,711
+2021 Operating Income
+895
+Lower NEX unit cost due to cost improvements in 10nm SuperFin process
+285
+Lower period charges due to reserve sell through and a decrease in engineering samples
+215
+Higher gross margin from NEX revenue, primarily driven by cloud networking and the edge
+(300)
+Higher operating expenses primarily due to roadmap investments
+(220)
+Higher period charges primarily associated with the ramp of Intel 4
+(10)
+Other
+$
+846
+2020 Operating Income
+(1,510)
+Higher NEX unit cost
+(110)
+Higher operating expenses primarily due to investing activities
+420
+Lower period charges due to reserve sell through and a decrease in investments
+240
+Higher gross margin from NEX revenue
+67
+Other
+$
+1,739
+2019 Operating Income
+MD&A
+7
+Accelerated Computing Systems and Graphics
+Market and Business Overview
+Overview
+AXG delivers products and technologies designed to help our customers solve the toughest computational problems. Our vision is to enable persistent and immersive computing, at scale, and accessible by billions of people within milliseconds, which drives an incredible demand for compute - from endpoints to data centers.
+Our portfolio includes CPUs for high performance computing and GPUs targeted for a range of workloads and platforms from gaming and content creation on client devices to delivering media and gaming in the cloud, and the most demanding HPC and AI workload on supercomputers. To address new market opportunities and emerging workloads, we also develop custom accelerators with blockchain acceleration, as an example.
+Market Trends and Strategy
+We are surrounded by immersive and visual content.  Technology has made great advances in computer graphics, gaming and media to AI supercomputing technologies that have enabled us to push towards simulating everything. The pursuit of simulating everything is driving the demand for accelerated computing. To address the opportunity, we are developing products that cover gaming, content creation, and that can enable consumers to experience immersive, photo-realistic virtual worlds.  Our high-performance computing products are intended to power supercomputers that simulate our world from sub-micron levels to the entire galaxy.  We are also building tailored products and have custom design services that we believe will unlock additional market opportunities.
+We leverage Intel’s expansive portfolio of IPs and technologies from our process and packaging to our x86 architecture and a rich set of open software tools, libraries, drivers and operating systems. We build upon the core foundation and combine our scalable Xe architecture and acceleration IPs to address the accelerated computing market. Our IDM 2.0 investments provide us with a flexible manufacturing strategy so that we can combine the power of our internal IP portfolio with the breadth of the external ecosystem.
+Products and Competition
+We operate in a very competitive market. NVIDIA is a competitor in the GPU and CPU market for high-performance computing and AI as well as graphics solutions for content creation and gaming. AMD is also a competitor in the client as well as server segments with their line of GPUs and CPUs. CSPs are both customers and indirect competitors as they integrate vertically.
+Our advanced and groundbreaking Xe architecture excels at rendering content and accelerating computing that scales from the client to the data center. We empower the industry with open and scalable toolkits and software libraries that enable heterogeneous compute through our oneAPI programming model. Intel Arc
+TM
+Graphics is our high-performance graphics for gaming, content creation, and emerging opportunities to enable persistent and immersive computing. To provide a valuable user experience and bring Intel Arc graphics to market, we work with hundreds of software partners to deliver games and applications that work seamlessly with our products. We also collaborate with the ecosystem to integrate new functionality and features that take advantage of both our hardware and software technologies to boost performance and enable high-quality rendering and fluid frame rates.
+High-performance computing takes advantage of our CPUs and GPUs to power supercomputers that tackle the most computationally challenging problems of our increasingly complex world. Today, many of the world’s supercomputers are based on Intel Xeon processors. Our CPU roadmap strategy is to build upon this foundation and extend to higher compute and memory bandwidth for workloads with increasingly large datasets.
+Our flagship data center GPU, Ponte Vecchio, is designed to take on the most demanding AI and HPC workloads. Combining Ponte Vecchio with Intel Xeon processors can supercharge a platform’s compute density.  Our oneAPI cross architecture programming model is architected to leverage the broad software ecosystem of Intel Xeon processors so that software developers can work across a range of CPUs and accelerators with a single code base.
+With a rich portfolio and a strong roadmap for leadership in visual computing, supercomputing, and custom computing, we have a unique opportunity to define the future of computing and accelerate growth for Intel.
+MD&A
+8
+Financial Performance
+AXG revenue increased primarily due to the integrated graphics royalties generated from the increased sale of certain products from our CCG and NEX operating segments.
+In 2021, high performance compute incurred a charge on a federal contract of $333 million that generated revenue of $71 million. The remaining loss in 2021 reflects ongoing investments in the business, which we expect to continue through 2022.
+AXG Revenue $B
+AXG Operating Income (Loss) $B
+MD&A
+9
+Mobileye
+Market and Business Overview
+Overview
+Mobileye is a global leader in driving assistance and self-driving solutions. Our product portfolio covers the entire stack required for assisted and autonomous driving, including compute platforms, computer vision and machine learning-based sensing, mapping and localization, driving policy, and active sensors in development. Mobileye's unique assets in ADAS allow for building a scalable self-driving stack that meets the requirements for both Robotaxi and consumer-level autonomy. Our customers and strategic partners include major global OEMs, Tier 1 automotive system integrators, and public transportation operators.
+Market Trends and Strategy
+While the vehicle industry shows recovery from the COVID-19 pandemic with approximately 2%
+1
+growth year over year, production is still roughly 15% below 2019 levels. We expect ADAS volume to overcome the COVID-19 effects faster than overall global vehicle production, given the significant growth shown in 2021. We anticipate long-term ADAS growth from a strong build-up in L1-L2 ADAS fitment rates, increasing the number of vehicles that will have basic ADAS features from the factory. In addition, we expect increased demand for new generations of cloud-enhanced ADAS as OEMs continue to look to boost current L2 solutions by improving system fidelity, availability, and performance. A crucial building block for L4 autonomy, our REM high-definition maps with constant updates, global coverage, and crowd-based semantics provide a unique value proposition for enhanced L2 systems. We see great traction from leading OEMs (including VW and Ford, as recently announced) as REM-based enhancements can be achieved based on economical configuration.
+We believe the future of autonomous driving will unfold in two phases: commercial services like Robotaxi and cargo, followed by series-production passenger car consumer AVs. We expect consumer AVs to materialize only after the Robotaxi industry deploys and matures. The main inhibitors of a mass market product offering of consumer AV are the cost of AV technology, ability to scale at a low cost, regulatory framework, public acceptance, and the ability to scale geographically. Thus, we see the Robotaxi phase as a necessary corridor to consumer AV. Because of our scalable approach, Mobileye is well-positioned to play a significant role in both the Robotaxi market and the future consumer AV market. This is driven by three elements in our strategy: lean compute enabled by the tight co-design of hardware and software, REM crowdsourced maps that provide unparalleled global coverage and constant updates, and development of high-resolution imaging radars to reduce the use of costly LiDAR sensors.
+In Robotaxi, Mobileye is active via two major business models: First, we are positioning ourselves to be an end-to-end service provider together with Moovit's complementary go-to-market assets and service layers. Second, we are also engaging with various public transportation operators, goods delivery, and mobility providers via a Vehicle-as-a-Service business model in which we provide a fully integrated self-driving platform.
+Regulatory approval and framework are a prerequisite for AV proliferation. In 2021, Germany became the first country in the world to allow autonomous vehicles onto public roads without requiring a human backup safety driver behind the wheel. We anticipate one or more additional countries will soon provide similar regulation, enabling regular deployment and operation of MaaS fleets with self-driving vehicles starting in 2022.
+Products and Competition
+Our offering for ADAS and AV is propelled by our computer vision, AI expertise, and software assets, deployed on our EyeQ SoC family. The tight co-design of hardware and software gives the EyeQ SoC the ability to support complex and computationally intense tasks and sets it apart from competition because it is purpose-fit for high-compute, low-power, automotive-compliant mission profiles. Our 5th Gen EyeQ5 SoC is designed to act as the core building block of central compute for fully autonomous driving vehicles. We have been able to achieve power, performance, and cost targets by employing proprietary computational cores that are optimized for a wide variety of computer vision, signal processing, and machine learning tasks, including deep neural networks. Starting with EyeQ5, we are supporting an automotive-grade standard operating system and providing a complete software development kit to allow customers to differentiate their solutions by deploying their algorithms on EyeQ5. The EyeQ5 SoC is already available for commercial vehicles and is already operational in our autonomous test vehicles.
+EyeQ5 serves as the computational foundation for our scalable camera-only surround sensing system. The system consists of multiple independent computer vision engines and deep networks for algorithmic redundancy. The result is a robust and comprehensive model of the environment that allows end-to-end autonomous driving. The surround computer vision system is the backbone of Mobileye's AV architecture and the flagship offering for next-generation ADAS.
+We recently introduced EyeQ6L and EyeQ6H, which are designed to provide a scalable solution from entry level ADAS to L2+ and L4 systems. The EyeQ6 platform opens Mobileye to host and process parking and DMS data. EyeQ6L is expected to be deployed in 2023, while EyeQ6H will start production in 2024.
+1
+Source: IHS Markit.
+MD&A
+10
+The next significant building block in our complete offering is REM mapping technology, which compiles crowdsourced mapping data from EyeQ SoC-equipped vehicles. Together with our OEM partners, we are utilizing our strong presence in ADAS to gain crowd knowledge that is required for building AV maps. After five years of intense development, the REM technology is fully functional for L2/L2+ applications and provides a variety of advanced features, including predictive adaptive cruise control, lane-level localization in all weather and road conditions, hands-free driving application, and real-time alerts. REM also provides intelligent speed adaptation functionality for regulation required by GSR and EUNCAP starting in 2022. REM technology is one of our key differentiators.
+The third building block in our full stack offering is our unique formal model for AV safety (RSS). At its core, RSS is a pragmatic method to design and then efficiently validate the safety of an AV, serving as the governing safety layer for the decision-making system. RSS formalizes human decision making for safe driving. It acknowledges the need to balance safety with useful driving by making plausible worst-case scenario assumptions for other road users. By using induction and analytical calculations, the RSS model allows for a lean driving policy with high computational efficiency.
+The fourth building block is True Redundancy™, which manifests our approach to AV sensing. True Redundancy combines two independent perception sub-systems—one powered by cameras, and another by radar and LiDAR—and supports full end-to-end autonomous capabilities. Our Level 4 self-driving system, Mobileye Drive, incorporates both systems.
+Our last building block is active sensors development. Mobileye and Intel's combined competencies put us in a unique position to advance with the development of a software-defined imaging radar designed to deliver rich point cloud modeling capabilities to enable sensing-state and driving decisions solely on radar. Our imaging radars would replace most of the field of view covered by today's costly LiDARs. LiDAR would be retained only for the front-facing field of view, where it would operate in three-way redundancy with cameras and radar, enabling a major cost reduction for the entire sensor configuration. The proof of concept and modelling using this new radar technology has already been demonstrated. We are also developing a unique Frequency-Modulated Continuous Wave LiDAR designed to provide high point density with relative speed measurement and superior immunity for additional safety in time-critical decisions.
+Financial Performance
+Mobileye Revenue $B
+Mobileye Operating Income $B
+Revenue Summary
+2021 vs. 2020
+Mobileye revenue increased $419 million, driven by improvement in global vehicle production, recovery from the economic impacts of COVID-19, and increasing adoption of ADAS compared to 2020.
+2020 vs. 2019
+Mobileye revenue was $967 million, up $88 million, driven by higher demand from improved global vehicle production in the second half of 2020, offsetting the decline in production experienced in the first half of the year due to the effects of the COVID-19 pandemic.
+Operating Income Summary
+2021 vs. 2020
+Mobileye operating income increased $231 million, due to higher revenue driven by improvement in global vehicle production, recovery from the economic impacts of COVID-19, and increasing adoption of ADAS compared to 2020.
+2020 vs. 2019
+Mobileye operating income was $323 million, up $5 million, due to higher spending primarily driven by the Moovit acquisition, partially offset by growth in revenue.
+MD&A
+11
+Intel Foundry Services
+Market and Business Overview
+Overview
+IFS seeks to empower our customers by delivering industry-leading silicon and packaging with a differentiated IP portfolio via a secure and sustainable supply of semiconductors. We intend to leverage our decades-long investment in advancing Moore’s Law to spark innovation and customization for our customers on leading edge nodes and mature specialty processes, through support of an open multi-Intel System Architecture (ISA) ecosystem. Our early customers include traditional fabless customers, cloud service providers, automotive customers and aerospace firms. We offer a combination of leading-edge packaging and process technology, world-class differentiated internal IPs (ex. x86, graphics, AI), broad third party ecosystem and silicon design support. Additionally, our offerings include mask-making equipment for advanced lithography used by most of the world’s leading-edge foundries.
+Market Trends and Strategy
+Strong demand from the high-performance compute and mobile segments is leading to capacity shortages for key market segments worldwide. Automotive markets served mostly by mature technologies are also experiencing shortages. Components like power-management and display-driver integrated circuits manufactured with older 200mm equipment are also in short supply, leading to a gradual transition to 300mm manufacturing. Market analysts expect the supply constraints to persist at least through 2022 if not longer, creating a favorable environment for us to scale IFS.
+The COVID-19 pandemic highlighted the world’s dependence on semiconductors and the vulnerable supply chain that underpins the industry. We seek to secure the global supply chain for all semiconductor needs and rebalance the supply of silicon to provide assured and secure supply of semiconductors. We are the only U.S. headquartered foundry with leading and trailing manufacturing capabilities and we intend to be a key partner for securing the national supply of critical silicon components. Our business is expected to help countries and companies  access a reliable silicon supply chain that will withstand geopolitical, economic, security, and climate challenges.
+We aim to win the foundry market growth segments of this decade, including Mobile, Compute, and Automotive, with our unique ability to combine open compute platform with customer IP, customized chiplets, x86 cores and advanced 3D packaging. The IFS Automotive group will provide an Auto grade open compute foundry platform combined with Mobileye solutions, specialty silicon, Intel LiDAR, and innovation through the IFS Accelerator program.
+Products and Competition
+The semiconductor foundry services market is primarily served by five major manufacturers:  Taiwan Semiconductor Manufacturing Company (TSMC), Samsung, GlobalFoundries, UMC and SMIC - all of which are pure-play foundries except Samsung, which is an IDM and a foundry. TSMC and UMC are headquartered in Taiwan, Samsung in Korea, GlobalFoundries in the USA, and SMIC in China. TSMC is the market leader with more than 50% market share, followed by Samsung. Only TSMC and Samsung are investing in leading edge foundry technologies smaller than 10nm, allowing IFS a great opportunity to capitalize as markets transition from older nodes to leading edge technologies.
+We are building towards differentiated foundry service offerings based on a comprehensive portfolio of distinguished technology solutions designed to enable customers to win in their markets with leadership products. This portfolio includes process technology spanning from leading-edge up to half micron advanced 3D packaging, ISA support beyond x86 with ARM & RISC-V, broad vibrant IP, EDA and design services ecosystem. As part of the broader technology offering scope, we are also selling Multi-Beam Mask Writer (MBMW) tools, a key technology for the semiconductor industry.
+We are working to accelerate IFS growth and are making good progress. We have defined a competitive technology, IP and leadership packaging roadmap, grown the organization with key leaders internally and from the industry, engaged with marquee customers on Intel 18A, built a strong pipeline of customers on Intel 16, established early business success in packaging with customers like Amazon Web Services (AWS) and are engaged with CSPs as well as compute-intensive automotive customers using Intel’s x86 IP on Intel foundry.
+MD&A
+12
+Financial Performance
+IFS revenue increased primarily due to our automotive group in 2021 and custom ASIC in 2020, with operating income reflecting ongoing investments in the business.
+IFS Revenue $B
+IFS Operating Income (Loss) $B
+MD&A
+13

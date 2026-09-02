@@ -1,1 +1,285 @@
-Document CFO Commentary on First Quarter Fiscal 2022 Results Q1 Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Revenue $5,661 $5,003 $3,080 Up 13% Up 84% Gross margin 64.1 % 63.1 % 65.1 % Up 100 bps Down 100 bps Operating expenses $1,673 $1,650 $1,028 Up 1% Up 63% Operating income $1,956 $1,507 $976 Up 30% Up 100% Net income $1,912 $1,457 $917 Up 31% Up 109% Diluted earnings per share $3.03 $2.31 $1.47 Up 31% Up 106% Non-GAAP ($ in millions, except earnings per share) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Revenue $5,661 $5,003 $3,080 Up 13% Up 84% Gross margin 66.2 % 65.5 % 65.8 % Up 70 bps Up 40 bps Operating expenses $1,189 $1,187 $821 -- Up 45% Operating income $2,557 $2,089 $1,205 Up 22% Up 112% Net income $2,313 $1,957 $1,120 Up 18% Up 107% Diluted earnings per share $3.66 $3.10 $1.80 Up 18% Up 103% Revenue by Reportable Segments ($ in millions) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Graphics $3,451 $3,056 $1,906 Up 13% Up 81% Compute & Networking 2,210 1,947 1,174 Up 14% Up 88% Total $5,661 $5,003 $3,080 Up 13% Up 84% Revenue by Market Platform ($ in millions) Q1 FY22 Q4 FY21 Q1 FY21 Q/Q Y/Y Gaming $2,760 $2,495 $1,339 Up 11% Up 106% Data Center 2,048 1,903 1,141 Up 8% Up 79% Professional Visualization 372 307 307 Up 21% Up 21% Automotive 154 145 155 Up 6% Down 1% OEM and Other 327 153 138 Up 114% Up 137% Total $5,661 $5,003 $3,080 Up 13% Up 84% We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive. Revenue Revenue for the first quarter was a record $5.66 billion, up 84 percent from a year earlier. Revenue was up 13 percent sequentially with growth in all market platforms. Record quarterly revenue was achieved in Gaming, Data Center and Professional Visualization. Gaming revenue was up 106 percent from a year ago and up 11 percent sequentially, reflecting higher sales in GeForce GPUs, with both desktop and laptop setting records, as well as in game-console SOCs. We continued to benefit from strong sales of our GeForce RTX TM 30 Series based on the NVIDIA Ampere architecture. We believe Gaming also benefited from cryptocurrency mining demand, although it is hard to determine to what extent. Data Center revenue was up 79 percent from a year ago and up 8 percent sequentially. The year-on-year revenue growth was driven primarily by the Mellanox acquisition and the ramp of NVIDIA Ampere GPU architecture products into vertical industries and hyperscale customers. Sequentially, growth in Data Center came from both compute and networking products, primarily driven by hyperscale customers. Professional Visualization revenue was up 21 percent from both a year earlier and sequentially. The year-on-year increase was driven by record sales of notebook workstation GPUs. The sequential growth reflects sales of GPUs for both desktop and notebook workstations. Automotive revenue was down 1 percent from a year earlier and up 6 percent sequentially. OEM and Other revenue was up 137 percent from a year ago and up 114 percent sequentially, primarily reflecting the addition of Cryptocurrency Mining Processors (CMP), which generated revenue of $155 million. Gross Margin Reconciliation of GAAP to Non-GAAP Gross Margin ($ in millions) Q1 FY22 Q4 FY21 Q1 FY21 GAAP gross profit $3,629 $3,157 $2,004 GAAP gross margin 64.1 % 63.1 % 65.1 % Acquisition-related and other costs 87 92 1 Stock-based compensation expense 25 26 21 IP-related costs 5 1 -- Non-GAAP gross profit $3,746 $3,276 $2,026 Non-GAAP gross margin 66.2 % 65.5 % 65.8 % GAAP gross margin for the first quarter was down 100 basis points from a year earlier due to amortization of intangible assets related to the Mellanox acquisition and a shift in the mix of Data Center products, partially offset by a lower contribution from Automotive products. GAAP gross margin was up 100 basis points sequentially due to a more favorable mix within Data Center and the addition of CMP products. Non-GAAP gross margin was up 40 basis points from a year earlier and up 70 basis points sequentially. Expenses Reconciliation of GAAP to Non-GAAP Operating Expenses ($ in millions) Q1 FY22 Q4 FY21 Q1 FY21 GAAP operating expenses $1,673 $1,650 $1,028 Stock-based compensation expense (404) (391) (203) Acquisition-related and other costs (80) (72) (4) Non-GAAP operating expenses $1,189 $1,187 $821 GAAP operating expenses for the first quarter were up 63 percent from a year earlier and up 1 percent sequentially. Acquisition-related and other costs of $80 million include $44 million in recurring amortization of intangible assets and $35 million related to the pending acquisition of Arm. Non-GAAP operating expenses were up 45 percent from the year-earlier quarter, which did not include Mellanox, and flat sequentially. In addition to Mellanox, the year-on-year increase was primarily driven by compensation-related costs including employee growth and infrastructure costs. Sequential costs were relatively flat, with increased expenses from growth in employees offset by the additional week in the fourth quarter of fiscal 2021. Operating Income GAAP operating income for the first quarter was a record $1.96 billion, up 100 percent from a year earlier and up 30 percent sequentially. Non-GAAP operating income was $2.56 billion, up 112 percent from a year earlier and up 22 percent sequentially. Other Income & Expense and Income Tax GAAP other income and expense, or OI&E, includes interest income, interest expense, and other items. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from investments. GAAP OI&E for the first quarter was an income of $88 million, compared with an income of $5 million a year earlier and an expense of $37 million in the prior quarter. The year-on-year and sequential increases of income in GAAP OI&E primarily reflect a $124 million unrealized gain from an equity investment in a company that commenced public trading. Non-GAAP OI&E was an expense of $45 million, compared with an income of $9 million a year earlier and an expense of $45 million in the prior quarter. The year-on-year decrease primarily reflects higher interest expense due to our $5 billion note issuance in March 2020 and a decrease in interest income due to lower rates. GAAP effective tax rate was 6.5 percent, reflecting favorable jurisdictional mix of earnings, the U.S. research tax credit, and excess tax benefits related to stock-based compensation value increase. The non-GAAP effective tax rate was 7.9 percent. Net Income and EPS GAAP net income for the first quarter was a record $1.91 billion. GAAP earnings per diluted share for the first quarter were $3.03, up 106 percent from a year earlier and up 31 percent sequentially. Non-GAAP net income was $2.31 billion. Non-GAAP earnings per diluted share were $3.66, up 103 percent from a year earlier and up 18 percent sequentially. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities at the end of the first quarter were $12.67 billion, down from $16.35 billion a year earlier and up from $11.56 billion in the prior quarter. The year-on-year decrease primarily reflects payment for the Mellanox acquisition, while the sequential increase primarily reflects growth in operating income. Accounts receivable at the end of the quarter was $3.02 billion compared with $1.91 billion a year earlier and $2.43 billion in the prior quarter. DSO at quarter-end was 49 days, down from 56 days a year earlier and up from 48 days in the prior quarter. Inventory at the end of the quarter was $1.99 billion compared with $1.13 billion a year earlier and $1.83 billion in the prior quarter. Outstanding inventory purchase obligations at the end of the quarter were $3.46 billion, up from $1.76 billion a year earlier and up from $2.54 billion in the prior quarter, due to the longer lead-times for Data Center products and other component suppliers. DSI at quarter-end was 89 days, down from 95 days a year earlier and down from 97 days in the prior quarter. Cash flow from operating activities was $1.87 billion, up from $909 million a year earlier and down from $2.07 billion in the prior quarter. The year-on-year increase primarily reflects higher operating income. The sequential decrease primarily reflects higher accounts receivable due to shipment linearity, partially offset by higher operating income. Free cash flow was $1.56 billion, up from $754 million a year earlier and down from $1.77 billion in the previous quarter. Depreciation and amortization expense was $281 million, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $317 million. We paid quarterly cash dividends of $99 million in the first quarter. On May 21, 2021, the Board of Directors declared a four-for-one split of NVIDIA’s common stock payable in the form of a stock dividend, with the additional shares expected to be distributed on July 19, 2021. The stock dividend is conditioned on obtaining stockholder approval at our 2021 Annual Meeting of Stockholders on June 3, 2021 to increase the number of authorized shares of common stock from 2 billion to 4 billion. Second Quarter of Fiscal 2022 Outlook Our outlook for the second quarter of fiscal 2022 is as follows: • Revenue is expected to be $6.30 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 64.6 percent and 66.5 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $1.76 billion and $1.26 billion, respectively. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $50 million. • GAAP and non-GAAP tax rates are both expected to be 10 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis. • Capital expenditures are expected to be approximately $300 million to $325 million, including principal payments on property and equipment.
+Document
+CFO Commentary on First Quarter Fiscal 2022 Results
+Q1 Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Revenue
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+Gross margin
+64.1
+%
+63.1
+%
+65.1
+%
+Up 100 bps
+Down 100 bps
+Operating expenses
+$1,673
+$1,650
+$1,028
+Up 1%
+Up 63%
+Operating income
+$1,956
+$1,507
+$976
+Up 30%
+Up 100%
+Net income
+$1,912
+$1,457
+$917
+Up 31%
+Up 109%
+Diluted earnings per share
+$3.03
+$2.31
+$1.47
+Up 31%
+Up 106%
+Non-GAAP
+($ in millions, except earnings per share)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Revenue
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+Gross margin
+66.2
+%
+65.5
+%
+65.8
+%
+Up 70 bps
+Up 40 bps
+Operating expenses
+$1,189
+$1,187
+$821
+--
+Up 45%
+Operating income
+$2,557
+$2,089
+$1,205
+Up 22%
+Up 112%
+Net income
+$2,313
+$1,957
+$1,120
+Up 18%
+Up 107%
+Diluted earnings per share
+$3.66
+$3.10
+$1.80
+Up 18%
+Up 103%
+Revenue by Reportable Segments
+($ in millions)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Graphics
+$3,451
+$3,056
+$1,906
+Up 13%
+Up 81%
+Compute & Networking
+2,210
+1,947
+1,174
+Up 14%
+Up 88%
+Total
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+Revenue by Market Platform
+($ in millions)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+Q/Q
+Y/Y
+Gaming
+$2,760
+$2,495
+$1,339
+Up 11%
+Up 106%
+Data Center
+2,048
+1,903
+1,141
+Up 8%
+Up 79%
+Professional Visualization
+372
+307
+307
+Up 21%
+Up 21%
+Automotive
+154
+145
+155
+Up 6%
+Down 1%
+OEM and Other
+327
+153
+138
+Up 114%
+Up 137%
+Total
+$5,661
+$5,003
+$3,080
+Up 13%
+Up 84%
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive.
+Revenue
+Revenue for the first quarter was a record $5.66 billion, up 84 percent from a year earlier. Revenue was up 13 percent sequentially with growth in all market platforms. Record quarterly revenue was achieved in Gaming, Data Center and Professional Visualization.
+Gaming revenue was up 106 percent from a year ago and up 11 percent sequentially, reflecting higher sales in GeForce GPUs, with both desktop and laptop setting records, as well as in game-console SOCs. We continued to benefit from strong sales of our GeForce RTX
+TM
+30 Series based on the NVIDIA Ampere architecture. We believe Gaming also benefited from cryptocurrency mining demand, although it is hard to determine to what extent.
+Data Center revenue was up 79 percent from a year ago and up 8 percent sequentially. The year-on-year revenue growth was driven primarily by the Mellanox acquisition and the ramp of NVIDIA Ampere GPU architecture products into vertical industries and hyperscale customers. Sequentially, growth in Data Center came from both compute and networking products, primarily driven by hyperscale customers.
+Professional Visualization revenue was up 21 percent from both a year earlier and sequentially. The year-on-year increase was driven by record sales of notebook workstation GPUs. The sequential growth reflects sales of GPUs for both desktop and notebook workstations.
+Automotive revenue was down 1 percent from a year earlier and up 6 percent sequentially.
+OEM and Other revenue was up 137 percent from a year ago and up 114 percent sequentially, primarily reflecting the addition of Cryptocurrency Mining Processors (CMP), which generated revenue of $155 million.
+Gross Margin
+Reconciliation of GAAP to Non-GAAP Gross Margin
+($ in millions)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+GAAP gross profit
+$3,629
+$3,157
+$2,004
+GAAP gross margin
+64.1
+%
+63.1
+%
+65.1
+%
+Acquisition-related and other costs
+87
+92
+1
+Stock-based compensation expense
+25
+26
+21
+IP-related costs
+5
+1
+--
+Non-GAAP gross profit
+$3,746
+$3,276
+$2,026
+Non-GAAP gross margin
+66.2
+%
+65.5
+%
+65.8
+%
+GAAP gross margin for the first quarter was down 100 basis points from a year earlier due to amortization of intangible assets related to the Mellanox acquisition and a shift in the mix of Data Center products, partially offset by a lower contribution from Automotive products. GAAP gross margin was up 100 basis points sequentially due to a more favorable mix within Data Center and the addition of CMP products.
+Non-GAAP gross margin was up 40 basis points from a year earlier and up 70 basis points sequentially.
+Expenses
+Reconciliation of GAAP to Non-GAAP Operating Expenses
+($ in millions)
+Q1 FY22
+Q4 FY21
+Q1 FY21
+GAAP operating expenses
+$1,673
+$1,650
+$1,028
+Stock-based compensation expense
+(404)
+(391)
+(203)
+Acquisition-related and other costs
+(80)
+(72)
+(4)
+Non-GAAP operating expenses
+$1,189
+$1,187
+$821
+GAAP operating expenses for the first quarter were up 63 percent from a year earlier and up 1 percent sequentially. Acquisition-related and other costs of $80 million include $44 million in recurring amortization of intangible assets and $35 million related to the pending acquisition of Arm.
+Non-GAAP operating expenses were up 45 percent from the year-earlier quarter, which did not include Mellanox, and flat sequentially. In addition to Mellanox, the year-on-year increase was primarily driven by compensation-related costs including employee growth and infrastructure costs. Sequential costs were relatively flat, with increased expenses from growth in employees offset by the additional week in the fourth quarter of fiscal 2021.
+Operating Income
+GAAP operating income for the first quarter was a record $1.96 billion, up 100 percent from a year earlier and up 30 percent sequentially. Non-GAAP operating income was $2.56 billion, up 112 percent from a year earlier and up 22 percent sequentially.
+Other Income & Expense and Income Tax
+GAAP other income and expense, or OI&E, includes interest income, interest expense, and other items. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from investments.
+GAAP OI&E for the first quarter was an income of $88 million, compared with an income of $5 million a year earlier and an expense of $37 million in the prior quarter. The year-on-year and sequential increases of income in GAAP OI&E primarily reflect a $124 million unrealized gain from an equity investment in a company that commenced public trading. Non-GAAP OI&E was an expense of $45 million, compared with an income of $9 million a year earlier and an expense of $45 million in the prior quarter. The year-on-year decrease primarily reflects higher interest expense due to our $5 billion note issuance in March 2020 and a decrease in interest income due to lower rates.
+GAAP effective tax rate was 6.5 percent, reflecting favorable jurisdictional mix of earnings, the U.S. research tax credit, and excess tax benefits related to stock-based compensation value increase. The non-GAAP effective tax rate was 7.9 percent.
+Net Income and EPS
+GAAP net income for the first quarter was a record $1.91 billion. GAAP earnings per diluted share for the first quarter were $3.03, up 106 percent from a year earlier and up 31 percent sequentially.
+Non-GAAP net income was $2.31 billion. Non-GAAP earnings per diluted share were $3.66, up 103 percent from a year earlier and up 18 percent sequentially.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities at the end of the first quarter were $12.67 billion, down from $16.35 billion a year earlier and up from $11.56 billion in the prior quarter. The year-on-year decrease
+primarily reflects payment for the Mellanox acquisition, while the sequential increase primarily reflects growth in operating income.
+Accounts receivable at the end of the quarter was $3.02 billion compared with $1.91 billion a year earlier and $2.43 billion in the prior quarter. DSO at quarter-end was 49 days, down from 56 days a year earlier and up from 48 days in the prior quarter.
+Inventory at the end of the quarter was $1.99 billion compared with $1.13 billion a year earlier and $1.83 billion in the prior quarter. Outstanding inventory purchase obligations at the end of the quarter were $3.46 billion, up from $1.76 billion a year earlier and up from $2.54 billion in the prior quarter, due to the longer lead-times for Data Center products and other component suppliers. DSI at quarter-end was 89 days, down from 95 days a year earlier and down from 97 days in the prior quarter.
+Cash flow from operating activities was $1.87 billion, up from $909 million a year earlier and down from $2.07 billion in the prior quarter. The year-on-year increase primarily reflects higher operating income. The sequential decrease primarily reflects higher accounts receivable due to shipment linearity, partially offset by higher operating income.
+Free cash flow was $1.56 billion, up from $754 million a year earlier and down from $1.77 billion in the previous quarter.
+Depreciation and amortization expense was $281 million, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $317 million.
+We paid quarterly cash dividends of $99 million in the first quarter.
+On May 21, 2021, the Board of Directors declared a four-for-one split of NVIDIA’s common stock payable in the form of a stock dividend, with the additional shares expected to be distributed on July 19, 2021. The stock dividend is conditioned on obtaining stockholder approval at our 2021 Annual Meeting of Stockholders on June 3, 2021 to increase the number of authorized shares of common stock from 2 billion to 4 billion.
+Second Quarter of Fiscal 2022 Outlook
+Our outlook for the second quarter of fiscal 2022 is as follows:
+•
+Revenue is expected to be $6.30 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 64.6 percent and 66.5 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $1.76 billion and $1.26 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $50 million.
+•
+GAAP and non-GAAP tax rates are both expected to be 10 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis.
+•
+Capital expenditures are expected to be approximately $300 million to $325 million, including principal payments on property and equipment.
+___________________________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude stock-based compensation expense, acquisition-related and other costs, IP-related costs, gains and losses from non-affiliated investments, mark to market adjustments of our publicly traded equity securities, interest expense related to amortization of debt discount, and the associated tax impact of these items, where applicable. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases of property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: our computing platforms providing tremendous acceleration for applications in the markets in which we specialize; our tax benefits and rates; our financial outlook for the second quarter of fiscal 2022; our expected tax rates for the second quarter of fiscal 2022; our expectation to generate variability from excess tax benefits or deficiencies; our expected capital expenditures for the second quarter of fiscal 2022; the expected timing of our stock split; and our stock split being conditioned on stockholder approval of our charter amendment are

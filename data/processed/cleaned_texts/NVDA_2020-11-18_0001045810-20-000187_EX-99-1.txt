@@ -1,1 +1,204 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Third Quarter Fiscal 2021 • Record revenue of $4.73 billion, up 57 percent from a year earlier • Record Gaming revenue of $2.27 billion, up 37 percent from a year earlier • Record Data Center revenue of $1.90 billion, up 162 percent from a year earlier SANTA CLARA, Calif.-Nov. 18, 2020- NVIDIA (NASDAQ: NVDA) today reported record revenue for the third quarter ended October 25, 2020, of $4.73 billion, up 57 percent from $3.01 billion a year earlier, and up 22 percent from $3.87 billion in the previous quarter. GAAP earnings per diluted share for the quarter were $2.12, up 46 percent from $1.45 a year ago, and up 114 percent from $0.99 in the previous quarter. Non-GAAP earnings per diluted share were $2.91, up 63 percent from $1.78 a year earlier, and up 33 percent from $2.18 in the previous quarter. “NVIDIA is firing on all cylinders, achieving record revenues in Gaming, Data Center, and overall,” said Jensen Huang, founder and CEO of NVIDIA. “The new NVIDIA GeForce RTX GPU provides our largest-ever generational leap and demand is overwhelming. NVIDIA RTX has made ray tracing the new standard in gaming. “We are continuing to raise the bar with NVIDIA AI. Our A100 compute platform is ramping fast, with the top cloud companies deploying it globally. We swept the industry AI inference benchmark, and our customers are moving some of the world’s most popular AI services into production, powered by NVIDIA technology. “We announced the NVIDIA DPU programmable data center processor, and the planned acquisition of Arm, creator of the world’s most popular CPU. We are positioning NVIDIA for the age of AI, when computing will extend from the cloud to trillions of devices.” NVIDIA paid $99 million in quarterly cash dividends in the third quarter. It will pay its next quarterly cash dividend of $0.16 per share on December 29, 2020, to all shareholders of record on December 4, 2020. Q3 Fiscal 2021 Summary GAAP ($ in millions, except earnings per share) Q3 FY21 Q2 FY21 Q3 FY20 Q/Q Y/Y Revenue $4,726 $3,866 $3,014 Up 22% Up 57% Gross margin 62.6 % 58.8 % 63.6 % Up 380 bps Down 100 bps Operating expenses $1,562 $1,624 $989 Down 4% Up 58% Operating income $1,398 $651 $927 Up 115% Up 51% Net income $1,336 $622 $899 Up 115% Up 49% Diluted earnings per share $2.12 $0.99 $1.45 Up 114% Up 46% Non-GAAP ($ in millions, except earnings per share) Q3 FY21 Q2 FY21 Q3 FY20 Q/Q Y/Y Revenue $4,726 $3,866 $3,014 Up 22% Up 57% Gross margin 65.5 % 66.0 % 64.1 % Down 50 bps Up 140 bps Operating expenses $1,101 $1,035 $774 Up 6% Up 42% Operating income $1,993 $1,516 $1,156 Up 31% Up 72% Net income $1,834 $1,366 $1,103 Up 34% Up 66% Diluted earnings per share $2.91 $2.18 $1.78 Up 33% Up 63% NVIDIA’s outlook for the fourth quarter of fiscal 2021 is as follows: • Revenue is expected to be $4.80 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 62.8 percent and 65.5 percent, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $1.64 billion and $1.18 billion, respectively. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million. • GAAP and non-GAAP tax rates are both expected to be 8 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis. Highlights During the third quarter, NVIDIA announced a definitive agreement to acquire Arm Limited from SoftBank Capital Limited and SVF Holdco (UK) Limited in a transaction valued at $40 billion. The transaction will combine NVIDIA’s leading AI computing platform with Arm’s vast ecosystem to create the premier computing company for the age of AI. The transaction -- which is expected to be immediately accretive to NVIDIA’s non-GAAP gross margin and non-GAAP earnings per share -- is expected to close in the first quarter of calendar 2022. NVIDIA also announced plans to build a world-class AI lab in Cambridge, England -- including a powerful AI supercomputer based on NVIDIA and Arm technology -- and provide research fellowships and partnerships with local institutions and AI training courses. Separately, it plans to build Cambridge-1, the U.K.’s most powerful AI supercomputer, based on an NVIDIA DGX SuperPOD™ system and designed for AI research in healthcare and drug discovery. NVIDIA also achieved progress since its previous earnings announcement in these areas: Data Center • Third-quarter revenue was a record $1.90 billion, up 8 percent from the previous quarter and up 162 percent from a year earlier. • Shared news that Amazon Web Services and Oracle Cloud Infrastructure announced general availability of cloud computing instances based on the NVIDIA A100™ GPU, following Google Cloud Platform and Microsoft Azure. • Announced the NVIDIA DGX SuperPOD Solution for Enterprise -- the world’s first turnkey AI infrastructure -- which is expected to be installed by yearend in Korea, the U.K., India and Sweden. • Announced that five supercomputers backed by EuroHPC -- including “Leonardo,” the world’s fastest AI supercomputer built by the Italian inter-university consortium CINECA -- will use NVIDIA’s data center accelerators or networking. • Introduced the NVIDIA BlueField-2 DPU (data processing unit) -- supported by NVIDIA DOCA™, a novel data-center-infrastructure-on-a-chip architecture -- to bring breakthrough networking, storage and security performance to every data center. • Announced a broad partnership with VMware to create an end-to-end enterprise platform for AI and a new architecture for data center, cloud and edge using NVIDIA DPUs, benefiting 300,000-plus VMware customers. • Unveiled NVIDIA Maxine™, an AI video-streaming platform that enhances streaming quality and offers such AI-powered features as gaze correction, super-resolution, noise cancellation and face relighting. • Introduced the NVIDIA RTX™ A6000 and NVIDIA A40™ GPUs, built on the NVIDIA Ampere architecture and featuring new RT Cores, Tensor Cores and CUDA ® cores. • Extended its lead on MLPerf performance benchmarks for inference, winning every test across all six application areas for data center and edge computing systems. • Announced a partnership with GSK to integrate computing platforms for imaging, genomics and AI into the drug and vaccine discovery process. • Introduced at SC20, three powerful advances in AI technology: the NVIDIA ® A100 80GB GPU, powering the NVIDIA HGX™ AI supercomputing platform with twice the memory of its predecessor; the NVIDIA DGX Station™ A100, the world’s only petascale workgroup server, for machine learning and data science workloads; and the next generation of NVIDIA ® Mellanox ® InfiniBand, for the fastest networking performance. Gaming • Third-quarter revenue was a record $2.27 billion, up 37 percent from the previous quarter and up 37 percent from a year earlier. • Unveiled the GeForce RTX ® 30 Series GPUs, powered by the NVIDIA Ampere architecture and the second generation of RTX, with up to 2x the performance of the previous Turing-based generation. • Announced that Fortnite – the world’s most popular video game – will support NVIDIA RTX real-time ray tracing and DLSS AI super-resolution, joining more than two dozen other titles including Cyberpunk 2077 , Call of Duty: Black Ops , and Watch Dogs: Legion . • Introduced NVIDIA Reflex™, a suite of technologies that improves reaction time in games by reducing system latency, which is available in Fortnite , Valorant , Call of Duty: Warzone and Apex Legends among other titles. • Unveiled NVIDIA Broadcast™, a plugin that enhances microphone, speaker and webcam quality with RTX-accelerated AI effects. Professional Visualization • Third-quarter revenue was $236 million, up 16 percent from the previous quarter and down 27 percent from a year earlier. • Brought to open beta NVIDIA Omniverse™, the world’s first NVIDIA RTX-based 3D simulation and collaboration platform. • Announced NVIDIA Omniverse Machinima™, enabling creators with video game assets animated by NVIDIA AI technologies. • Collaborated with Adobe to bring GPU-accelerated neural filters to Adobe Photoshop AI-powered tools. Automotive • Third-quarter revenue was $125 million, up 13 percent from the previous quarter and down 23 percent from a year earlier. • Announced with Mercedes-Benz that NVIDIA is powering the next-generation MBUX AI cockpit system, to be featured first in the new S-class sedan, with such features as an augmented reality heads-up display, AI voice assistant and interactive graphics. • Announced with Hyundai Motor Group that the Korean automaker’s entire lineup of Hyundai, Kia and Genesis models will come standard with NVIDIA DRIVE™ in-vehicle infotainment systems, starting in 2022. • Announced that China’s Li Auto will develop its next generation of electric vehicles using NVIDIA DRIVE AGX Orin™, a software-defined platform for autonomous vehicles. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Third Quarter Fiscal 2021
+•
+Record revenue of $4.73 billion, up 57 percent from a year earlier
+•
+Record Gaming revenue of $2.27 billion, up 37 percent from a year earlier
+•
+Record Data Center revenue of $1.90 billion, up 162 percent from a year earlier
+SANTA CLARA, Calif.-Nov. 18, 2020-
+NVIDIA (NASDAQ: NVDA) today reported record revenue for the third quarter ended October 25, 2020, of $4.73 billion, up 57 percent from $3.01 billion a year earlier, and up 22 percent from $3.87 billion in the previous quarter.
+GAAP earnings per diluted share for the quarter were $2.12, up 46 percent from $1.45 a year ago, and up 114 percent from $0.99 in the previous quarter. Non-GAAP earnings per diluted share were $2.91, up 63 percent from $1.78 a year earlier, and up 33 percent from $2.18 in the previous quarter.
+“NVIDIA is firing on all cylinders, achieving record revenues in Gaming, Data Center, and overall,” said Jensen Huang, founder and CEO of NVIDIA. “The new NVIDIA GeForce RTX GPU provides our largest-ever generational leap and demand is overwhelming. NVIDIA RTX has made ray tracing the new standard in gaming.
+“We are continuing to raise the bar with NVIDIA AI. Our A100 compute platform is ramping fast, with the top cloud companies deploying it globally. We swept the industry AI inference benchmark, and our customers are moving some of the world’s most popular AI services into production, powered by NVIDIA technology.
+“We announced the NVIDIA DPU programmable data center processor, and the planned acquisition of Arm, creator of the world’s most popular CPU. We are positioning NVIDIA for the age of AI, when computing will extend from the cloud to trillions of devices.”
+NVIDIA paid $99 million in quarterly cash dividends in the third quarter. It will pay its next quarterly cash dividend of $0.16 per share on December 29, 2020, to all shareholders of record on December 4, 2020.
+Q3 Fiscal 2021 Summary
+GAAP
+($ in millions, except earnings per share)
+Q3 FY21
+Q2 FY21
+Q3 FY20
+Q/Q
+Y/Y
+Revenue
+$4,726
+$3,866
+$3,014
+Up 22%
+Up 57%
+Gross margin
+62.6
+%
+58.8
+%
+63.6
+%
+Up 380 bps
+Down 100 bps
+Operating expenses
+$1,562
+$1,624
+$989
+Down 4%
+Up 58%
+Operating income
+$1,398
+$651
+$927
+Up 115%
+Up 51%
+Net income
+$1,336
+$622
+$899
+Up 115%
+Up 49%
+Diluted earnings per share
+$2.12
+$0.99
+$1.45
+Up 114%
+Up 46%
+Non-GAAP
+($ in millions, except earnings per share)
+Q3 FY21
+Q2 FY21
+Q3 FY20
+Q/Q
+Y/Y
+Revenue
+$4,726
+$3,866
+$3,014
+Up 22%
+Up 57%
+Gross margin
+65.5
+%
+66.0
+%
+64.1
+%
+Down 50 bps
+Up 140 bps
+Operating expenses
+$1,101
+$1,035
+$774
+Up 6%
+Up 42%
+Operating income
+$1,993
+$1,516
+$1,156
+Up 31%
+Up 72%
+Net income
+$1,834
+$1,366
+$1,103
+Up 34%
+Up 66%
+Diluted earnings per share
+$2.91
+$2.18
+$1.78
+Up 33%
+Up 63%
+NVIDIA’s outlook for the fourth quarter of fiscal 2021 is as follows:
+•
+Revenue is expected to be $4.80 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 62.8 percent and 65.5 percent, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $1.64 billion and $1.18 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million.
+•
+GAAP and non-GAAP tax rates are both expected to be 8 percent, plus or minus 1 percent, excluding any discrete items. GAAP discrete items include excess tax benefits or deficiencies related to stock-based compensation, which are expected to generate variability on a quarter-by-quarter basis.
+Highlights
+During the third quarter, NVIDIA announced a definitive agreement to acquire Arm Limited from SoftBank Capital Limited and SVF Holdco (UK) Limited in a transaction valued at $40 billion. The transaction will combine NVIDIA’s leading AI computing platform with Arm’s vast ecosystem to create the premier computing company for the age of AI. The transaction -- which is expected to be immediately accretive to NVIDIA’s non-GAAP gross margin and non-GAAP earnings per share -- is expected to close in the first quarter of calendar 2022.
+NVIDIA also announced plans to build a world-class AI lab in Cambridge, England -- including a powerful AI supercomputer based on NVIDIA and Arm technology -- and provide research fellowships and partnerships with local institutions and AI training courses. Separately, it plans to build Cambridge-1, the U.K.’s most powerful AI supercomputer, based on an NVIDIA DGX SuperPOD™ system and designed for AI research in healthcare and drug discovery.
+NVIDIA also achieved progress since its previous earnings announcement in these areas:
+Data Center
+•
+Third-quarter revenue was a record $1.90 billion, up 8 percent from the previous quarter and up 162 percent from a year earlier.
+•
+Shared news that Amazon Web Services and Oracle Cloud Infrastructure announced general availability of cloud computing instances based on the NVIDIA A100™ GPU, following Google Cloud Platform and Microsoft Azure.
+•
+Announced the NVIDIA DGX SuperPOD Solution for Enterprise -- the world’s first turnkey AI infrastructure -- which is expected to be installed by yearend in Korea, the U.K., India and Sweden.
+•
+Announced that five supercomputers backed by EuroHPC -- including “Leonardo,” the world’s fastest AI supercomputer built by the Italian inter-university consortium CINECA -- will use NVIDIA’s data center accelerators or networking.
+•
+Introduced the NVIDIA BlueField-2 DPU (data processing unit) -- supported by NVIDIA DOCA™, a novel data-center-infrastructure-on-a-chip architecture -- to bring breakthrough networking, storage and security performance to every data center.
+•
+Announced a broad partnership with VMware to create an end-to-end enterprise platform for AI and a new architecture for data center, cloud and edge using NVIDIA DPUs, benefiting 300,000-plus VMware customers.
+•
+Unveiled NVIDIA Maxine™, an AI video-streaming platform that enhances streaming quality and offers such AI-powered features as gaze correction, super-resolution, noise cancellation and face relighting.
+•
+Introduced the NVIDIA RTX™ A6000 and NVIDIA A40™ GPUs, built on the NVIDIA Ampere architecture and featuring new RT Cores, Tensor Cores and CUDA
+®
+cores.
+•
+Extended its lead on MLPerf performance benchmarks for inference, winning every test across all six application areas for data center and edge computing systems.
+•
+Announced a partnership with GSK to integrate computing platforms for imaging, genomics and AI into the drug and vaccine discovery process.
+•
+Introduced at SC20, three powerful advances in AI technology: the NVIDIA
+®
+A100 80GB GPU, powering the NVIDIA HGX™ AI supercomputing platform with twice the memory of its predecessor; the NVIDIA DGX Station™ A100, the world’s only petascale workgroup server, for machine learning and data science workloads; and the next generation of NVIDIA
+®
+Mellanox
+®
+InfiniBand, for the fastest networking performance.
+Gaming
+•
+Third-quarter revenue was a record $2.27 billion, up 37 percent from the previous quarter and up 37 percent from a year earlier.
+•
+Unveiled the GeForce RTX
+®
+30 Series GPUs, powered by the NVIDIA Ampere architecture and the second generation of RTX, with up to 2x the performance of the previous Turing-based generation.
+•
+Announced that
+Fortnite
+– the world’s most popular video game – will support NVIDIA RTX real-time ray tracing and DLSS AI super-resolution, joining more than two dozen other titles including
+Cyberpunk 2077
+,
+Call of Duty: Black Ops
+, and
+Watch Dogs: Legion
+.
+•
+Introduced NVIDIA Reflex™, a suite of technologies that improves reaction time in games by reducing system latency, which is available in
+Fortnite
+,
+Valorant
+,
+Call of Duty: Warzone
+and
+Apex Legends
+among other titles.
+•
+Unveiled NVIDIA Broadcast™, a plugin that enhances microphone, speaker and webcam quality with RTX-accelerated AI effects.
+Professional Visualization
+•
+Third-quarter revenue was $236 million, up 16 percent from the previous quarter and down 27 percent from a year earlier.
+•
+Brought to open beta NVIDIA Omniverse™, the world’s first NVIDIA RTX-based 3D simulation and collaboration platform.
+•
+Announced NVIDIA Omniverse Machinima™, enabling creators with video game assets animated by NVIDIA AI technologies.
+•
+Collaborated with Adobe to bring GPU-accelerated neural filters to Adobe Photoshop AI-powered tools.
+Automotive
+•
+Third-quarter revenue was $125 million, up 13 percent from the previous quarter and down 23 percent from a year earlier.
+•
+Announced with Mercedes-Benz that NVIDIA is powering the next-generation MBUX AI cockpit system, to be featured first in the new S-class sedan, with such features as an augmented reality heads-up display, AI voice assistant and interactive graphics.
+•
+Announced with Hyundai Motor Group that the Korean automaker’s entire lineup of Hyundai, Kia and Genesis models will come standard with NVIDIA DRIVE™ in-vehicle infotainment systems, starting in 2022.
+•
+Announced that China’s Li Auto will develop its next generation of electric vehicles using NVIDIA DRIVE AGX Orin™, a software-defined platform for autonomous vehicles.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/.

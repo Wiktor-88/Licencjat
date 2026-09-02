@@ -1,1 +1,337 @@
-Document CFO Commentary on First Quarter Fiscal 2023 Results Q1 Fiscal 2023 Summary GAAP ($ in millions, except earnings per share) Q1 FY23 Q4 FY22 Q1 FY22 Q/Q Y/Y Revenue $8,288 $7,643 $5,661 Up 8% Up 46% Gross margin 65.5 % 65.4 % 64.1 % Up 10 bps Up 140 bps Operating expenses $3,563 $2,029 $1,673 Up 76% Up 113% Operating income $1,868 $2,970 $1,956 Down 37% Down 4% Net income $1,618 $3,003 $1,912 Down 46% Down 15% Diluted earnings per share $0.64 $1.18 $0.76 Down 46% Down 16% Non-GAAP ($ in millions, except earnings per share) Q1 FY23 Q4 FY22 Q1 FY22 Q/Q Y/Y Revenue $8,288 $7,643 $5,661 Up 8% Up 46% Gross margin 67.1 % 67.0 % 66.2 % Up 10 bps Up 90 bps Operating expenses $1,608 $1,447 $1,189 Up 11% Up 35% Operating income $3,955 $3,677 $2,557 Up 8% Up 55% Net income $3,443 $3,350 $2,313 Up 3% Up 49% Diluted earnings per share $1.36 $1.32 $0.91 Up 3% Up 49% Revenue by Reportable Segments ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 Q/Q Y/Y Graphics $4,616 $4,418 $3,451 Up 4% Up 34% Compute & Networking 3,672 3,225 2,210 Up 14% Up 66% Total $8,288 $7,643 $5,661 Up 8% Up 46% Revenue by Market Platform ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 Q/Q Y/Y Gaming $3,620 $3,420 $2,760 Up 6% Up 31% Data Center 3,750 3,263 2,048 Up 15% Up 83% Professional Visualization 622 643 372 Down 3% Up 67% Automotive 138 125 154 Up 10% Down 10% OEM and Other 158 192 327 Down 18% Down 52% Total $8,288 $7,643 $5,661 Up 8% Up 46% We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive. Revenue Revenue was a record $8.29 billion, up 46% from a year ago and up 8% sequentially, with record revenue achieved in Gaming and Data Center. Gaming revenue was up 31% from a year ago and up 6% sequentially. The year-on-year increase reflects higher sales of GeForce GPUs based on our NVIDIA Ampere architecture. The sequential increase was driven by higher sales of GeForce GPUs for laptops and SOCs for game consoles. Our GPUs are capable of cryptocurrency mining, though we have limited visibility into how much this impacts our overall GPU demand. Volatility in the cryptocurrency market – such as the recent declines in cryptocurrency prices or changes in method of verifying transactions, including proof of work or proof of stake – can impact demand for our products and our ability to accurately estimate it. Most desktop NVIDIA Ampere architecture GeForce GPU shipments were Lite Hash Rate to help direct GeForce GPUs to gamers. Data Center revenue was up 83% from a year ago and up 15% sequentially. These increases were primarily driven by sales of NVIDIA Ampere architecture GPUs and DGX systems used across both training and inference. Growth was led by cloud computing and hyperscale customers for workloads such as natural language processing and deep recommenders. Professional Visualization revenue was up 67% from a year ago and down 3% sequentially. The year-on-year increase was driven by sales of NVIDIA Ampere architecture products, with growth in workstations as enterprises supported hybrid work environments. The sequential decrease was due to lower sales of desktop workstation GPUs, partially offset by higher sales of notebook workstations GPUs. Automotive revenue was down 10% from a year ago and up 10% sequentially. The year-on-year decrease was due to automakers’ supply constraints and the decline of legacy cockpit revenue. The sequential increase was driven by AI cockpit revenue. OEM and Other revenue was down 52% from a year ago and down 18% sequentially. The year-on-year decrease was due to a decline in Cryptocurrency Mining Processor (CMP) revenue, which was nominal in the quarter compared with $155 million from a year ago. The sequential decrease was driven by lower entry level notebook GPU sales. Gross Margin Reconciliation of GAAP to Non-GAAP Gross Margin ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 GAAP gross profit $5,431 $4,999 $3,629 GAAP gross margin 65.5 % 65.4 % 64.1 % Acquisition-related and other costs 94 86 87 Stock-based compensation expense 38 39 25 IP-related costs -- -- 5 Non-GAAP gross profit $5,563 $5,124 $3,746 Non-GAAP gross margin 67.1 % 67.0 % 66.2 % GAAP gross margin was up 140 basis points from a year ago, primarily due to a higher-end mix of GeForce GPUs within Gaming and the reduced impact of acquisition-related costs. Sequentially, GAAP gross margin was up 10 basis points due to increased contribution of, and favorable product mix changes within, Data Center, partially offset by higher sales of SOCs for game consoles. Non-GAAP gross margin was up 90 basis points from a year ago and up 10 basis points sequentially. Expenses Reconciliation of GAAP to Non-GAAP Operating Expenses ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 GAAP operating expenses $3,563 $2,029 $1,673 Acquisition termination cost (1,353) -- -- Stock-based compensation expense (540) (512) (404) Acquisition-related and other costs (55) (70) (80) Legal settlement costs (7) -- -- Non-GAAP operating expenses $1,608 $1,447 $1,189 GAAP operating expenses were up 113% from a year ago and up 76% sequentially and include a $1.35 billion acquisition termination charge related to the Arm transaction. Non-GAAP operating expenses were up 35% from a year ago and up 11% sequentially. These increases were driven by employee growth, compensation-related costs and engineering development costs. We have been successful in hiring this year and expect to slow hiring in the second half of fiscal 2023 as we integrate our new employees. Operating Income GAAP operating income was $1.87 billion, down 4% from a year ago and down 37% sequentially. Non-GAAP operating income was $3.96 billion, up 55% from a year ago and up 8% sequentially. Other Income & Expense and Income Tax GAAP OI&E ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 Interest income $18 $9 $6 Interest expense (68) (61) (53) Gains (losses) from non-affiliated investments (17) (53) 134 Other 4 -- 1 Total ($63) ($105) $88 Non-GAAP OI&E ($ in millions) Q1 FY23 Q4 FY22 Q1 FY22 Interest income $18 $9 $6 Interest expense (67) (61) (52) Other 4 -- 1 Total ($45) ($52) ($45) GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments. Interest income was $18 million, up from a year ago and sequentially, due to higher interest rates earned on investments. Interest expense was $68 million, up from a year ago and sequentially. The year-on-year increase was primarily due to debt issuances and the sequential increase primarily relates to a reduction in capitalized interest. Loss from non-affiliated investments was $17 million, up from a year ago and down sequentially. These changes were primarily driven by the mark-to-market of public trading equity investments and changes in value from our non-affiliated private investments. GAAP effective tax rate for the first quarter was 10.3%. Discrete items affecting our tax rate included excess tax benefits related to stock-based compensation, partially offset by the impact of the Arm acquisition termination charge. Non-GAAP effective tax rate for the first quarter was 11.9%. Net Income and EPS GAAP net income was a $1.62 billion. GAAP earnings per diluted share were $0.64, down 16% from a year ago and down 46% sequentially, and include an after-tax impact of $0.52 related to the $1.35 billion Arm acquisition termination charge. Non-GAAP net income was $3.44 billion. Non-GAAP earnings per diluted share were $1.36, up 49% from a year ago and up 3% sequentially. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities were $20.34 billion, up from $12.67 billion a year ago and down from $21.21 billion a quarter ago. The year-on-year increase reflects free cash flow generation and $5.00 billion of debt issuance proceeds. The sequential decrease reflects share repurchases and advanced payments on supply agreements. Accounts receivable was $5.44 billion compared with $3.02 billion a year ago and $4.65 billion a quarter ago. DSO was 60 days, up from 49 days a year ago and up from 55 days a quarter ago. Inventory was $3.16 billion compared with $1.99 billion a year ago and $2.61 billion a quarter ago. Outstanding inventory purchase and long-term supply obligations were $9.59 billion, up from $3.46 billion a year ago and up from $9.00 billion a quarter ago, due to longer lead-times throughout the supply chain. Prepaid supply agreements were $3.06 billion, up from $1.84 billion a quarter ago. DSI was 101 days, up from 89 days a year ago and up from 90 days a quarter ago. Cash flow from operating activities was $1.73 billion, down from $1.87 billion a year ago and down from $3.03 billion a quarter ago. These decreases primarily reflect advanced payments on supply agreements. Free cash flow was $1.35 billion, down from $1.56 billion a year ago and down from $2.74 billion a quarter ago. Depreciation and amortization expense was $334 million, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $383 million. During the first quarter of fiscal 2023, NVIDIA returned $2.10 billion to shareholders in the form of share repurchases and cash dividends. On May 23, 2022, our board of directors increased and extended our share repurchase program to repurchase additional common stock up to a total of $15 billion through December 2023. Second Quarter of Fiscal 2023 Outlook Our outlook for the second quarter of fiscal 2023 is as follows: • Revenue is expected to be $8.10 billion, plus or minus 2%. This includes an estimated reduction of approximately $500 million relating to Russia and the COVID lockdowns in China. • GAAP and non-GAAP gross margins are expected to be 65.1% and 67.1%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.46 billion and $1.75 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an expense of approximately $40 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 12.5%, plus or minus 1%, excluding any discrete items. • Capital expenditures are expected to be approximately $400 million to $450 million, including principal payments on property and equipment.
+Document
+CFO Commentary on First Quarter Fiscal 2023 Results
+Q1 Fiscal 2023 Summary
+GAAP
+($ in millions, except earnings per share)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Q/Q
+Y/Y
+Revenue
+$8,288
+$7,643
+$5,661
+Up 8%
+Up 46%
+Gross margin
+65.5
+%
+65.4
+%
+64.1
+%
+Up 10 bps
+Up 140 bps
+Operating expenses
+$3,563
+$2,029
+$1,673
+Up 76%
+Up 113%
+Operating income
+$1,868
+$2,970
+$1,956
+Down 37%
+Down 4%
+Net income
+$1,618
+$3,003
+$1,912
+Down 46%
+Down 15%
+Diluted earnings per share
+$0.64
+$1.18
+$0.76
+Down 46%
+Down 16%
+Non-GAAP
+($ in millions, except earnings per share)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Q/Q
+Y/Y
+Revenue
+$8,288
+$7,643
+$5,661
+Up 8%
+Up 46%
+Gross margin
+67.1
+%
+67.0
+%
+66.2
+%
+Up 10 bps
+Up 90 bps
+Operating expenses
+$1,608
+$1,447
+$1,189
+Up 11%
+Up 35%
+Operating income
+$3,955
+$3,677
+$2,557
+Up 8%
+Up 55%
+Net income
+$3,443
+$3,350
+$2,313
+Up 3%
+Up 49%
+Diluted earnings per share
+$1.36
+$1.32
+$0.91
+Up 3%
+Up 49%
+Revenue by Reportable Segments
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Q/Q
+Y/Y
+Graphics
+$4,616
+$4,418
+$3,451
+Up 4%
+Up 34%
+Compute & Networking
+3,672
+3,225
+2,210
+Up 14%
+Up 66%
+Total
+$8,288
+$7,643
+$5,661
+Up 8%
+Up 46%
+Revenue by Market Platform
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Q/Q
+Y/Y
+Gaming
+$3,620
+$3,420
+$2,760
+Up 6%
+Up 31%
+Data Center
+3,750
+3,263
+2,048
+Up 15%
+Up 83%
+Professional Visualization
+622
+643
+372
+Down 3%
+Up 67%
+Automotive
+138
+125
+154
+Up 10%
+Down 10%
+OEM and Other
+158
+192
+327
+Down 18%
+Down 52%
+Total
+$8,288
+$7,643
+$5,661
+Up 8%
+Up 46%
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive.
+Revenue
+Revenue was a record $8.29 billion, up 46% from a year ago and up 8% sequentially, with record revenue achieved in Gaming and Data Center.
+Gaming revenue was up 31% from a year ago and up 6% sequentially. The year-on-year increase reflects higher sales of GeForce GPUs based on our NVIDIA Ampere architecture. The sequential increase was driven by higher sales of GeForce GPUs for laptops and SOCs for game consoles.
+Our GPUs are capable of cryptocurrency mining, though we have limited visibility into how much this impacts our overall GPU demand. Volatility in the cryptocurrency market – such as the recent declines in cryptocurrency prices or changes in method of verifying transactions, including proof of work or proof of stake – can impact demand for our products and our ability to accurately estimate it. Most desktop NVIDIA Ampere architecture GeForce GPU shipments were Lite Hash Rate to help direct GeForce GPUs to gamers.
+Data Center revenue was up 83% from a year ago and up 15% sequentially. These increases were primarily driven by sales of NVIDIA Ampere architecture GPUs and DGX systems used across both training and inference. Growth was led by cloud computing and hyperscale customers for workloads such as natural language processing and deep recommenders.
+Professional Visualization revenue was up 67% from a year ago and down 3% sequentially. The year-on-year increase was driven by sales of NVIDIA Ampere architecture products, with growth in workstations as enterprises supported hybrid work environments. The sequential decrease was due to lower sales of desktop workstation GPUs, partially offset by higher sales of notebook workstations GPUs.
+Automotive revenue was down 10% from a year ago and up 10% sequentially. The year-on-year decrease was due to automakers’ supply constraints and the decline of legacy cockpit revenue. The sequential increase was driven by AI cockpit revenue.
+OEM and Other revenue was down 52% from a year ago and down 18% sequentially. The year-on-year decrease was due to a decline in Cryptocurrency Mining Processor (CMP) revenue, which was nominal in the quarter compared with $155 million from a year ago. The sequential decrease was driven by lower entry level notebook GPU sales.
+Gross Margin
+Reconciliation of GAAP to Non-GAAP Gross Margin
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+GAAP gross profit
+$5,431
+$4,999
+$3,629
+GAAP gross margin
+65.5
+%
+65.4
+%
+64.1
+%
+Acquisition-related and other costs
+94
+86
+87
+Stock-based compensation expense
+38
+39
+25
+IP-related costs
+--
+--
+5
+Non-GAAP gross profit
+$5,563
+$5,124
+$3,746
+Non-GAAP gross margin
+67.1
+%
+67.0
+%
+66.2
+%
+GAAP gross margin was up 140 basis points from a year ago, primarily due to a higher-end mix of GeForce GPUs within Gaming and the reduced impact of acquisition-related costs. Sequentially, GAAP gross margin was up 10 basis points due to increased contribution of, and favorable product mix changes within, Data
+Center, partially offset by higher sales of SOCs for game consoles. Non-GAAP gross margin was up 90 basis points from a year ago and up 10 basis points sequentially.
+Expenses
+Reconciliation of GAAP to Non-GAAP Operating Expenses
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+GAAP operating expenses
+$3,563
+$2,029
+$1,673
+Acquisition termination cost
+(1,353)
+--
+--
+Stock-based compensation expense
+(540)
+(512)
+(404)
+Acquisition-related and other costs
+(55)
+(70)
+(80)
+Legal settlement costs
+(7)
+--
+--
+Non-GAAP operating expenses
+$1,608
+$1,447
+$1,189
+GAAP operating expenses were up 113% from a year ago and up 76% sequentially and include a $1.35 billion acquisition termination charge related to the Arm transaction.
+Non-GAAP operating expenses were up 35% from a year ago and up 11% sequentially. These increases were driven by employee growth, compensation-related costs and engineering development costs. We have been successful in hiring this year and expect to slow hiring in the second half of fiscal 2023 as we integrate our new employees.
+Operating Income
+GAAP operating income was $1.87 billion, down 4% from a year ago and down 37% sequentially. Non-GAAP operating income was $3.96 billion, up 55% from a year ago and up 8% sequentially.
+Other Income & Expense and Income Tax
+GAAP OI&E
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Interest income
+$18
+$9
+$6
+Interest expense
+(68)
+(61)
+(53)
+Gains (losses) from non-affiliated investments
+(17)
+(53)
+134
+Other
+4
+--
+1
+Total
+($63)
+($105)
+$88
+Non-GAAP OI&E
+($ in millions)
+Q1 FY23
+Q4 FY22
+Q1 FY22
+Interest income
+$18
+$9
+$6
+Interest expense
+(67)
+(61)
+(52)
+Other
+4
+--
+1
+Total
+($45)
+($52)
+($45)
+GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments.
+Interest income was $18 million, up from a year ago and sequentially, due to higher interest rates earned on investments. Interest expense was $68 million, up from a year ago and sequentially. The year-on-year increase was primarily due to debt issuances and the sequential increase primarily relates to a reduction in capitalized interest. Loss from non-affiliated investments was $17 million, up from a year ago and down sequentially. These changes were primarily driven by the mark-to-market of public trading equity investments and changes in value from our non-affiliated private investments.
+GAAP effective tax rate for the first quarter was 10.3%. Discrete items affecting our tax rate included excess tax benefits related to stock-based compensation, partially offset by the impact of the Arm acquisition termination charge. Non-GAAP effective tax rate for the first quarter was 11.9%.
+Net Income and EPS
+GAAP net income was a $1.62 billion. GAAP earnings per diluted share were $0.64, down 16% from a year ago and down 46% sequentially, and include an after-tax impact of $0.52 related to the $1.35 billion Arm acquisition termination charge.
+Non-GAAP net income was $3.44 billion. Non-GAAP earnings per diluted share were $1.36, up 49% from a year ago and up 3% sequentially.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities were $20.34 billion, up from $12.67 billion a year ago and down from $21.21 billion a quarter ago. The year-on-year increase reflects free cash flow generation and $5.00 billion of debt issuance proceeds. The sequential decrease reflects share repurchases and advanced payments on supply agreements.
+Accounts receivable was $5.44 billion compared with $3.02 billion a year ago and $4.65 billion a quarter ago. DSO was 60 days, up from 49 days a year ago and up from 55 days a quarter ago.
+Inventory was $3.16 billion compared with $1.99 billion a year ago and $2.61 billion a quarter ago. Outstanding inventory purchase and long-term supply obligations were $9.59 billion, up from $3.46 billion a year ago and up from $9.00 billion a quarter ago, due to longer lead-times throughout the supply chain. Prepaid supply agreements were $3.06 billion, up from $1.84 billion a quarter ago. DSI was 101 days, up from 89 days a year ago and up from 90 days a quarter ago.
+Cash flow from operating activities was $1.73 billion, down from $1.87 billion a year ago and down from $3.03 billion a quarter ago. These decreases primarily reflect advanced payments on supply agreements.
+Free cash flow was $1.35 billion, down from $1.56 billion a year ago and down from $2.74 billion a quarter ago.
+Depreciation and amortization expense was $334 million, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $383 million.
+During the first quarter of fiscal 2023, NVIDIA returned $2.10 billion to shareholders in the form of share repurchases and cash dividends.
+On May 23, 2022, our board of directors increased and extended our share repurchase program to repurchase additional common stock up to a total of $15 billion through December 2023.
+Second Quarter of Fiscal 2023 Outlook
+Our outlook for the second quarter of fiscal 2023 is as follows:
+•
+Revenue is expected to be $8.10 billion, plus or minus 2%. This includes an estimated reduction of approximately $500 million relating to Russia and the COVID lockdowns in China.
+•
+GAAP and non-GAAP gross margins are expected to be 65.1% and 67.1%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.46 billion and $1.75 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an expense of approximately $40 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 12.5%, plus or minus 1%, excluding any discrete items.
+•
+Capital expenditures are expected to be approximately $400 million to $450 million, including principal payments on property and equipment.
+___________________________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude acquisition termination costs, stock-based compensation expense, acquisition-related and other costs, IP-related costs, legal settlement costs, gains and losses from non-affiliated investments, interest expense related to amortization of debt discount, the associated tax impact of these items where applicable, domestication tax benefit, and foreign tax benefit. Free cash flow is calculated as GAAP net cash provided by operating activities less both purchases of property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: our computing platforms providing tremendous acceleration for applications; our limited visibility into the impact cryptocurrency mining has on overall GPU demand; volatility in the cryptocurrency market impacting demand for our products and our ability to accurately estimate demand for our products; our efforts to help direct GeForce to gamers; growth in workstations as enterprises support hybrid work environments; our expectation to slow hiring in the second half of fiscal 2023; our share repurchase program; our financial outlook for the second quarter of fiscal 2023, including the estimated impact on our revenue relating to Russia and the COVID lockdowns in China; our expected tax rates for the second quarter of fiscal 2023; and our expected capital expenditures for the second quarter of fiscal 2023 are

@@ -1,1 +1,646 @@
-Document Exhibit 99.1 April 21, 2020 Fellow Shareholders, In our 20+ year history, we have never seen a future more uncertain or unsettling. The coronavirus has reached every corner of the world and, in the absence of a widespread treatment or vaccine, no one knows how or when this terrible crisis will end. What’s clear is the escalating human cost in terms of lost lives and lost jobs, with tens of millions of people now out of work. At Netflix, we’re acutely aware that we are fortunate to have a service that is even more meaningful to people confined at home, and which we can operate remotely with minimal disruption in the short to medium term. Like other home entertainment services, we’re seeing temporarily higher viewing and increased membership growth. In our case, this is offset by a sharply stronger US dollar, depressing our international revenue, resulting in revenue-as-forecast. We expect viewing to decline and membership growth to decelerate as home confinement ends, which we hope is soon. By helping people connect with stories they love, we are able to provide comfort and escape as well as a sense of community during this pandemic. So our focus has been on maintaining the quality of our service while our employees around the world adapt to working from home. For the most part, this has gone smoothly. Our product teams, for example, have been relatively unaffected. As a precaution, we have temporarily reduced the number of product innovations we try, while continuing to release features that we know will add meaningful value for our members, such as improved parental controls. However, we have seen significant disruption when it comes to customer support and content production. On the customer support side, we’ve now fixed most of our work-from-home challenges. In addition, we’ve taken on another 2,000 agents (all working remotely), so our customer service levels are almost fully restored despite the increased demand. When it comes to production, almost all filming has now been stopped globally, with the exception of a few countries like Korea and Iceland. This has been devastating for millions of workers in the TV and film industry - electricians, hair and make-up artists, carpenters and drivers who are often paid hourly wages and work project-to-project. In March, we created a $100 million 1 fund to help with hardship in the industry, starting with the hardest hit workers on our productions, where Netflix has the greatest responsibility. We will have paid these crews for about seven weeks, with the goal of providing a bridge until government safety nets kick in. In addition, we’re donating $30 million to third parties and non-profits, providing emergency relief to out-of-work crew and cast across the broader TV and film industry in countries where we have a large production base. This includes donations of $1 million each to the SAG-AFTRA Foundation COVID-19 Disaster Fund 2 , the Motion Picture and Television Fund 3 and the Actors Fund Emergency Assistance 4 in the US, and $1 million between the AFC 5 and Fondation des Artistes 6 in Canada. These are all well established hardship funds. In other countries where no such funds exist, we’ve been working to set them up, including in the UK (£1 million) with the British Film Institute 7 , in Italy (€1 million) with the Italian Film Commission 8 , in France (€1 million) with Audiens 9 , in Brazil ___________________________________ 1 https://media.netflix.com/en/company-blog/emergency-support-for-workers-in-the-creative-community 2 https://sagaftra.foundation/assistance/disasterrelief/ 3 https://mptf.com/ 4 https://actorsfund.org/ 5 https://afchelps.ca/ 6 https://fondationdesartistes.ca/ 7 https://www.bfi.org.uk/news-opinion/news-bfi/announcements/covid-19-film-tv-emergency-relief-fund 8 http://www.filminginitaly.com/home 9 https://media.netflix.com/fr/press-releases/netflix-and-audiens-establish-new-covid-19-film-and-tv-emergency-fund 1 (R$5 million) with the Brazilian Institute of Audiovisual Content 10 , in Mexico ($1 million) with the Mexican Academy of Film Arts and Sciences 11 , in Spain (€1 million) with the Ministry of Culture and Sport, Accion Cultural and the Film Academy 12 and in the Netherlands (€1 million) with the Netherlands Film Fund 13 . In total, we have committed to spend $150 million supporting the industry through this crisis. Netflix’s culture is designed to empower decision making at all levels of the company. Throughout this crisis, our employees have been working tirelessly to maintain the quality of our service and to find quick, practical solutions to the problems Netflix and our partners face. For example, within two weeks of the shelter-in-place orders coming into effect in Los Angeles, most of our animation production team was back up and running, working from home. On the post production side, we’ve been able to get 200+ projects going remotely. Most of our series writers’ rooms are operating virtually. However, we’ve been unable to create dubs in Italian and some other languages due to home confinement of our voice talent for a handful of titles launching in April and May. But we hope that with the help of guilds around the world, voice actors can be set up from home, ensuring that they can stay safe and continue to earn a living. Similar efforts are underway for both music and visual effects. This pandemic has demonstrated the importance of a strong Internet like never before. Over the years, we’ve invested heavily in Open Connect, a pioneering caching system that puts our library of content as close to members’ homes as possible. This enables ISPs to run their networks more efficiently and at a lower cost. However, given the surge in internet use, networks in some countries have struggled to cope. In March, we were asked by a number of governments and ISPs to temporarily reduce the network traffic of our members. Using our Open Connect technology, our engineering team was able to respond immediately, reducing network use by 25 percent 14 virtually overnight in those countries, while also substantially maintaining the quality of our service, including in higher definition. We’re now working with ISPs to help increase capacity so that we can lift these limitations as conditions improve. Netflix employees have been outstanding and to help them support their local communities, we’ve doubled our charitable match giving program for 2020. So for every $1 donated by our employees to an organization, we now donate an additional $2 to that organization. Last, and most important of all, we want to say thank you on behalf of all our employees to the heroic doctors, nurses and first responders fighting this pandemic on the frontlines and the grocery, restaurant and other essential workers who take risks to make sure our families are fed and taken care of. We are truly inspired and humbled by you. __________________________________ 10 https://entretenimento.uol.com.br/noticias/redacao/2020/04/14/netflix-doa-r-5-milhoes-para-ajudar-trabalhadores-do-audiovisual-no-brasil.htm?utm_source=twitter&utm_medium=social-media&utm_content=geral&utm_campaign=geek 11 https://www.amacc.org.mx/prensa/2020/convocatoria-netflix-amacc-comunicado-de-prensa/ 12 https://media.netflix.com/es_es/press-releases/netflix-accion-cultural-espanola-the-spanish-film-academy-and-icaa-spanish-ministry-of-culture-and-sport-join-forces-to-establish-an-emergency-line-for-audiovisual-workers-hit-by-covid-19 13 https://www.filmfonds.nl/page/8647/netflix-en-nederlands-filmfonds-richten-een-steunfonds-op-voor 14 https://media.netflix.com/en/company-blog/reducing-netflix-traffic-where-its-needed 2 Our summary results for Q1 and our Q2 forecast can be found in the table below. (in millions except per share data and Streaming Content Obligations) Q1'19 Q2'19 Q3'19 Q4'19 Q1'20 Q2'20 Forecast Revenue $ 4,521 $ 4,923 $ 5,245 $ 5,467 $ 5,768 $ 6,048 Y/Y % Growth 22.2 % 26.0 % 31.1 % 30.6 % 27.6 % 22.8 % Operating Income $ 459 $ 706 $ 980 $ 459 $ 958 $ 1,080 Operating Margin 10.2 % 14.3 % 18.7 % 8.4 % 16.6 % 17.9 % Net Income $ 344 $ 271 $ 665 $ 587 $ 709 $ 820 Diluted EPS $ 0.76 $ 0.60 $ 1.47 $ 1.30 $ 1.57 $ 1.81 Global Streaming Paid Memberships 148.86 151.56 158.33 167.09 182.86 190.36 Y/Y % Growth 25.2 % 21.9 % 21.4 % 20.0 % 22.8 % 25.6 % Global Streaming Paid Net Additions 9.60 2.70 6.77 8.76 15.77 7.50 Net cash provided by (used in) operating activities $ (380) $ (544) $ (502) $ (1,462) $ 260 Free Cash Flow* $ (460) $ (594) $ (551) $ (1,670) $ 162 Adjusted EBITDA** $ 584 $ 836 $ 1,107 $ 586 $ 1,084 Shares (FD) 451.9 452.2 451.6 451.4 452.5 Streaming Content Obligations*** ($B) 18.9 18.5 19.1 19.5 19.2 Note: Figures are consolidated, including DVD. * Free cash flow represents Net Cash provided by (used in) operating and investing activities ** Adjusted EBITDA represents net income before interest expense and other income/expense, income taxes, depreciation and amortization of property and equipment and further adjusted to exclude other non-cash charges or non-recurring items *** Corresponds to our total known streaming content obligations as defined in our financial statements and related notes in our most recently filed SEC Form 10-K 3 Q1 Results and Q2 Forecast Despite paid net additions that were higher than forecast, revenue was in-line with our guidance due to the appreciation in the US dollar vs. other currencies. Excluding a -$115m impact from F/X, streaming ARPU grew 8% year over year. Operating margin of 16.6% (vs. 10.2% in the prior year quarter) was lower than our 18.0% forecast as we incurred $218m in incremental content costs due to paused productions and hardship fund commitments (a 3.8 percentage point impact to operating margin). There are three primary effects on our financial performance from the crisis. First, our membership growth has temporarily accelerated due to home confinement. Second, our international revenue will be less than previously forecast due to the dollar rising sharply. Third, due to the production shutdown, some cash spending on content will be delayed, improving our free cash flow, and some title releases will be delayed, typically by a quarter. More on each of these three effects below. During the first two months of Q1, our membership growth was similar to the prior two years, including in UCAN. Then, with lockdown orders in many countries starting in March, many more households joined Netflix to enjoy entertainment. This timing of paid membership additions also affected our Q1’20 global streaming ARPU; this was the primary driver of the sequential decline in streaming ARPU as the revenue impact from these additions late in the quarter will be mostly felt in Q2’20 and beyond. Hopefully, progress against the virus will allow governments to lift the home confinement soon. As that happens, we expect viewing and growth to decline. Our internal forecast and guidance is for 7.5 million global paid net additions in Q2. Given the uncertainty on home confinement timing, this is mostly guesswork. The actual Q2 numbers could end up well below or well above that, depending on many factors including when people can go back to their social lives in various countries and how much people take a break from television after the lockdown. Some of the lockdown growth will turn out to be pull-forward from the multi-year organic growth trend, resulting in slower growth after the lockdown is lifted country-by-country. Intuitively, the person who didn’t join Netflix during the entire confinement is not likely to join soon after the confinement. Plus, last year we had new seasons of Money Heist and Stranger Things in Q3, which were not planned for this year’s Q3. Therefore, we currently guess that Q3’20 and Q4’20 will have lower net additions than last year due to these effects. Second, partially due to the crisis, the US dollar has appreciated significantly, which creates a drag on international revenue growth. As an example, the price for our standard plan in Brazil is R$33, which used to be $8.5 last year but now is $6.5 based on April 2020 F/X rates, so we have a ~25% decline in US dollar average subscription price from Brazil, which offsets strong membership growth. Third, we’ve paused most of our productions across the world in response to government lockdowns and guidance from local public health officials. In Q2, there is only a modest impact on our new releases, which is primarily language dubbing. No one knows how long it will be until we can safely restart physical production in various countries, and, once we can, what international travel will be possible, and how negotiations for various resources (e.g., talent, stages, and post-production) will play out. The impact on us is less cash spending this year as some content projects are pushed out. We are working hard to complete the content we know our members want and we’re complementing this effort with additional licensed films and series. Our content competitors and suppliers will be impacted about as much as we are, in terms of new titles. Since we have a large library with thousands of titles for viewing and very strong recommendations, our member satisfaction may be less impacted than our peers’ by a shortage of new content, but it will take time to tell. 4 We continue to target a 16% operating margin for the full year 2020, despite the extra costs in Q1. As a reminder, more than half of our revenue is not denominated in US dollars and we don’t hedge our foreign exchange exposure. If the US dollar remains at these elevated levels (or strengthens further), we may target modestly slower growth in our annual operating margin progression next year. Given that lead time, we believe we can readjust our model to be appropriate in that new stronger US dollar world. Content As people shelter at home, our hope is that we can help make that experience more bearable by providing a diverse range of high quality content for our members. While our productions are largely paused around the world, we benefit from a large pipeline of content that was either complete and ready for launch or in post-production when filming stopped. For Q2, we’re looking forward to releasing all of our originally planned shows and films (with some language dubbing impacts on a few titles). We’re also finding ways to bolster our programming this year - including the recent acquisition of Paramount’s and Media Rights Capital’s The Lovebirds 15 , a comedy starring Issa Rae and Kumail Nanjiani, for Q2’20 and Legendary Pictures’ Enola Holmes 16 starring Millie Bobby Brown, Helena Bonham Carter, Henry Cavill, and Sam Claflin, for Q3 ‘20. So, while we’re certainly impacted by the global production pause, we expect to continue to be able to provide a terrific variety of new titles throughout 2020 and 2021. Our Q1 slate highlighted the variety of content that people enjoy en masse all over the world on Netflix: scripted English language series like Ozark season 3 (a projected 29m member households will have chosen to watch this season in its first four weeks), the riveting docu-series Tiger King: Murder, Mayhem and Madness (64m), our breakthrough unscripted dating show Love is Blind 17 (30m), original film Spenser Confidential (85m), and season four of the Spanish language hit La Casa de Papel , aka Money Heist (a projected 65m), which debuted in early April. In Q2, we are looking forward to the launch of Space Force , our new original comedy series created by Greg Daniels ( The Office ) and Steve Carell, starring Carell, John Malkovich and Lisa Kudrow. We just launched our latest buzzy unscripted series Too Hot to Handle , #BlackAF from Kenya Barris and, outside the US, the Michael Jordan documentary The Last Dance , which we co-produced with ESPN (launching on Netflix in the US on July 19). We will also premiere Hollywood 18 from Ryan Murphy, and, later this week, Extraction 19 , a large scale action film starring Chris Hemsworth and directed by Sam Hargrave, who was the stunt coordinator and choreographer on films like Avengers: Endgame , Avengers: Infinity War , Deadpool 2 , and Captain America: Civil War . Product In February, we rolled out our Top 10 most popular lists 20 to nearly 100 countries, after testing this feature last year in the UK and Mexico. In each of these countries, there are now three daily lists: Top 10 overall, Top 10 series and Top 10 films. Our goal with this feature is to help members find great TV shows and films and enable them to be part of the cultural zeitgeist in their country. ___________________________________ 15 https://www.youtube.com/watch?v=Y-rRtM7sC5A&feature=youtu.be 16 https://media.netflix.com/en/press-releases/netflix-acquires-legendary-entertainments-enola-holmes-starring-millie-bobby-brown 17 https://www.foxbusiness.com/lifestyle/netflix-love-is-blind-social-media 18 https://www.youtube.com/watch?v=Q3EASLgzOcM&feature=youtu.be 19 https://www.youtube.com/watch?v=L6P3nI6VnlY&feature=youtu.be 20 https://media.netflix.com/en/company-blog/see-whats-popular-on-netflix 5 Recently, we’ve also enhanced our parental controls for our service to improve the experience for family members of all ages. Updates 21 include (i) PIN-controlled access to content by maturity level; (ii) the ability to PIN protect specific titles as well as profiles; (iii) Profile-level content filtering; (iv) the ability to create kids’ experiences that can be customized for different age groups (‘teens and below,’ ‘older kids and below’ and ‘little kids’); and (v) the ability to disable post-play for kids from account settings. Cash Flow and Capital Structure In Q1, net cash used in operating activities was +$260 million vs. -$380 million in the prior year period. Free cash flow 22 totaled +$162 million compared with -$460 million in the year ago quarter. As we stated last quarter, our FCF profile is beginning to improve due to growing operating margin and profits and as we digest our big move into the production of Netflix originals (which requires more cash upfront vs. later-window content) that started five years ago. With our productions currently paused, this will shift out some cash spending on content to future years. As a result, we’re now expecting 2020 FCF of -$1 billion or better (compared with our prior 2020 expectation of -$2.5 billion and -$3.3 billion actual in 2019). This dynamic may result in more lumpiness in our path to sustained FCF profitability (as, prior to the pandemic, we had been planning for annual improvement in FCF). However, there has been no material change to our overall time table to reach consistent annual positive FCF and we believe that 2019 will still represent the peak in our annual FCF deficit. We finished the quarter with cash of $5.2 billion, while our $750m unsecured credit facility remains undrawn. Combined with our improved FCF outlook for 2020, we have more than 12 months of liquidity and substantial financial flexibility. Our financing strategy remains unchanged - our current plan is to continue to use debt to finance our investment needs. ___________________________________ 21 https://media.netflix.com/en/company-blog/more-choice-and-control-for-families 22 For a reconciliation of free cash flow to net cash (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto. 6 Reference For quick reference, our eight most recent investor letters are: January 2020, 23 October 2019 , 24 July 2019 , 25 April 2019 , 26 January 2019 , 27 October 2018 , 28 July 2018 , 29 April 2018. 30 Appendix (in millions) Q1'19 Q2'19 Q3'19 Q4'19 Q1'20 UCAN Streaming: Revenue $ 2,257 $ 2,501 $ 2,621 $ 2,672 $ 2,703 Paid Memberships 66.63 66.50 67.11 67.66 69.97 Paid Net Additions 1.88 (0.13) 0.61 0.55 2.31 ARPU $ 11.45 $ 12.52 $ 13.08 $ 13.22 $ 13.09 Y/Y % Growth 4 % 12 % 17 % 17 % 14 % F/X Neutral Y/Y % ARPU Growth 4 % 13 % 17 % 17 % 14 % EMEA: Revenue $ 1,233 $ 1,319 $ 1,428 $ 1,563 $ 1,723 Paid Memberships 42.54 44.23 47.36 51.78 58.73 Paid Net Additions 4.72 1.69 3.13 4.42 6.96 ARPU $ 10.23 $ 10.13 $ 10.40 $ 10.51 $ 10.40 Y/Y % Growth (4) % (6) % 1 % 3 % 2 % F/X Neutral Y/Y % ARPU Growth 2 % 3 % 6 % 7 % 4 % LATAM: Revenue $ 630 $ 677 $ 741 $ 746 $ 793 Paid Memberships 27.55 27.89 29.38 31.42 34.32 Paid Net Additions 1.47 0.34 1.49 2.04 2.90 ARPU $ 7.84 $ 8.14 $ 8.63 $ 8.18 $ 8.05 Y/Y % Growth (11) % (5) % 8 % 9 % 3 % F/X Neutral Y/Y % ARPU Growth 7 % 12 % 17 % 18 % 12 % APAC: Revenue $ 320 $ 349 $ 382 $ 418 $ 484 Paid Memberships 12.14 12.94 14.49 16.23 19.84 Paid Net Additions 1.53 0.80 1.54 1.75 3.60 ARPU $ 9.37 $ 9.29 $ 9.29 $ 9.07 $ 8.94 Y/Y % Growth (2) % (1) % — % (1) % (5) % F/X Neutral Y/Y % ARPU Growth 3 % 5 % 3 % — % (3) % ___________________________________ 23 https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf 24 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q3/FINAL-Q3-19-Shareholder-Letter.pdf 25 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q2/Q2-19-Shareholder-Letter-FINAL.pdf 26 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q1/FINAL-Q1-19-Shareholder-Letter.pdf 27 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q4/01/FINAL-Q4-18-Shareholder-Letter.pdf 28 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q3/FINAL-Q3-18-Shareholder-Letter.pdf 29 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q2/FINAL-Q2-18-Shareholder-Letter.pdf 30 https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q1/FINAL-Q1-18-Shareholder-Letter.pdf 7 April 21, 2020 Earnings Interview, 3pm PT Our video interview with Michael Morris of Guggenheim Securities will be on youtube/netflixir at 3pm PT today. Questions that investors would like to see asked should be sent to michael.morris@guggenheimpartners.com . Reed Hastings, CEO, Spence Neumann, CFO, Ted Sarandos, Chief Content Officer, Greg Peters, Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Michael’s questions. IR Contact: PR Contact: Spencer Wang Richard Siklos VP, Finance/IR & Corporate Development VP, Communications 408 809-5360 408 540-2629 8 Use of Non-GAAP Measures This shareholder letter and its attachments include reference to the non-GAAP financial measure of free cash flow and adjusted EBITDA. Management believes that free cash flow and adjusted EBITDA are important liquidity metrics because they measure, during a given period, the amount of cash generated that is available to repay debt obligations, make investments and for certain other activities or the amount of cash used in operations, including investments in global streaming content. However, these non-GAAP measures should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.
+Document
+Exhibit 99.1
+April 21, 2020
+Fellow Shareholders,
+In our 20+ year history, we have never seen a future more uncertain or unsettling. The coronavirus has reached every corner of the world and, in the absence of a widespread treatment or vaccine, no one knows how or when this terrible crisis will end. What’s clear is the escalating human cost in terms of lost lives and lost jobs, with tens of millions of people now out of work.
+At Netflix, we’re acutely aware that we are fortunate to have a service that is even more meaningful to people confined at home, and which we can operate remotely with minimal disruption in the short to medium term. Like other home entertainment services, we’re seeing temporarily higher viewing and increased membership growth. In our case, this is offset by a sharply stronger US dollar, depressing our international revenue, resulting in revenue-as-forecast. We expect viewing to decline and membership growth to decelerate as home confinement ends, which we hope is soon.
+By helping people connect with stories they love, we are able to provide comfort and escape as well as a sense of community during this pandemic. So our focus has been on maintaining the quality of our service while our employees around the world adapt to working from home.
+For the most part, this has gone smoothly. Our product teams, for example, have been relatively unaffected. As a precaution, we have temporarily reduced the number of product innovations we try, while continuing to release features that we know will add meaningful value for our members, such as improved parental controls.
+However, we have seen significant disruption when it comes to customer support and content production. On the customer support side, we’ve now fixed most of our work-from-home challenges. In addition, we’ve taken on another 2,000 agents (all working remotely), so our customer service levels are almost fully restored despite the increased demand.
+When it comes to production, almost all filming has now been stopped globally, with the exception of a few countries like Korea and Iceland. This has been devastating for millions of workers in the TV and film industry - electricians, hair and make-up artists, carpenters and drivers who are often paid hourly wages and work project-to-project.
+In March, we created a
+$100 million
+1
+fund to help with hardship in the industry, starting with the hardest hit workers on our productions, where Netflix has the greatest responsibility. We will have paid these crews for about seven weeks, with the goal of providing a bridge until government safety nets kick in. In addition, we’re donating $30 million to third parties and non-profits, providing emergency relief to out-of-work crew and cast across the broader TV and film industry in countries where we have a large production base.
+This includes donations of $1 million each to the
+SAG-AFTRA Foundation COVID-19 Disaster Fund
+2
+, the
+Motion Picture and Television Fund
+3
+and the
+Actors Fund Emergency Assistance
+4
+in the US, and $1 million between the
+AFC
+5
+and
+Fondation des Artistes
+6
+in Canada. These are all well established hardship funds. In other countries where no such funds exist, we’ve been working to set them up, including in the UK (£1 million) with the
+British Film Institute
+7
+, in Italy (€1 million) with the
+Italian Film Commission
+8
+, in France (€1 million) with
+Audiens
+9
+, in Brazil
+___________________________________
+1
+https://media.netflix.com/en/company-blog/emergency-support-for-workers-in-the-creative-community
+2
+https://sagaftra.foundation/assistance/disasterrelief/
+3
+https://mptf.com/
+4
+https://actorsfund.org/
+5
+https://afchelps.ca/
+6
+https://fondationdesartistes.ca/
+7
+https://www.bfi.org.uk/news-opinion/news-bfi/announcements/covid-19-film-tv-emergency-relief-fund
+8
+http://www.filminginitaly.com/home
+9
+https://media.netflix.com/fr/press-releases/netflix-and-audiens-establish-new-covid-19-film-and-tv-emergency-fund
+1
+(R$5 million) with the
+Brazilian Institute of Audiovisual Content
+10
+, in Mexico ($1 million) with the
+Mexican Academy of Film Arts and Sciences
+11
+, in Spain (€1 million) with the
+Ministry of Culture and Sport, Accion Cultural and the Film Academy
+12
+and in the Netherlands (€1 million) with the
+Netherlands Film Fund
+13
+.
+In total, we have committed to spend $150 million supporting the industry through this crisis.
+Netflix’s culture is designed to empower decision making at all levels of the company. Throughout this crisis, our employees have been working tirelessly to maintain the quality of our service and to find quick, practical solutions to the problems Netflix and our partners face.
+For example, within two weeks of the shelter-in-place orders coming into effect in Los Angeles, most of our animation production team was back up and running, working from home. On the post production side, we’ve been able to get 200+ projects going remotely. Most of our series writers’ rooms are operating virtually. However, we’ve been unable to create dubs in Italian and some other languages due to home confinement of our voice talent for a handful of titles launching in April and May. But we hope that with the help of guilds around the world, voice actors can be set up from home, ensuring that they can stay safe and continue to earn a living. Similar efforts are underway for both music and visual effects.
+This pandemic has demonstrated the importance of a strong Internet like never before. Over the years, we’ve invested heavily in Open Connect, a pioneering caching system that puts our library of content as close to members’ homes as possible. This enables ISPs to run their networks more efficiently and at a lower cost. However, given the surge in internet use, networks in some countries have struggled to cope.
+In March, we were asked by a number of governments and ISPs to temporarily reduce the network traffic of our members. Using our Open Connect technology, our engineering team was able to respond immediately,
+reducing network use by 25 percent
+14
+virtually overnight in those countries, while also substantially maintaining the quality of our service, including in higher definition. We’re now working with ISPs to help increase capacity so that we can lift these limitations as conditions improve.
+Netflix employees have been outstanding and to help them support their local communities, we’ve doubled our charitable match giving program for 2020. So for every $1 donated by our employees to an organization, we now donate an additional $2 to that organization.
+Last, and most important of all, we want to say thank you on behalf of all our employees to the heroic doctors, nurses and first responders fighting this pandemic on the frontlines and the grocery, restaurant and other essential workers who take risks to make sure our families are fed and taken care of. We are truly inspired and humbled by you.
+__________________________________
+10
+https://entretenimento.uol.com.br/noticias/redacao/2020/04/14/netflix-doa-r-5-milhoes-para-ajudar-trabalhadores-do-audiovisual-no-brasil.htm?utm_source=twitter&utm_medium=social-media&utm_content=geral&utm_campaign=geek
+11
+https://www.amacc.org.mx/prensa/2020/convocatoria-netflix-amacc-comunicado-de-prensa/
+12
+https://media.netflix.com/es_es/press-releases/netflix-accion-cultural-espanola-the-spanish-film-academy-and-icaa-spanish-ministry-of-culture-and-sport-join-forces-to-establish-an-emergency-line-for-audiovisual-workers-hit-by-covid-19
+13
+https://www.filmfonds.nl/page/8647/netflix-en-nederlands-filmfonds-richten-een-steunfonds-op-voor
+14
+https://media.netflix.com/en/company-blog/reducing-netflix-traffic-where-its-needed
+2
+Our summary results for Q1 and our Q2 forecast can be found in the table below.
+(in millions except per share data and Streaming Content Obligations)
+Q1'19
+Q2'19
+Q3'19
+Q4'19
+Q1'20
+Q2'20 Forecast
+Revenue
+$
+4,521
+$
+4,923
+$
+5,245
+$
+5,467
+$
+5,768
+$
+6,048
+Y/Y % Growth
+22.2
+%
+26.0
+%
+31.1
+%
+30.6
+%
+27.6
+%
+22.8
+%
+Operating Income
+$
+459
+$
+706
+$
+980
+$
+459
+$
+958
+$
+1,080
+Operating Margin
+10.2
+%
+14.3
+%
+18.7
+%
+8.4
+%
+16.6
+%
+17.9
+%
+Net Income
+$
+344
+$
+271
+$
+665
+$
+587
+$
+709
+$
+820
+Diluted EPS
+$
+0.76
+$
+0.60
+$
+1.47
+$
+1.30
+$
+1.57
+$
+1.81
+Global Streaming Paid Memberships
+148.86
+151.56
+158.33
+167.09
+182.86
+190.36
+Y/Y % Growth
+25.2
+%
+21.9
+%
+21.4
+%
+20.0
+%
+22.8
+%
+25.6
+%
+Global Streaming Paid Net Additions
+9.60
+2.70
+6.77
+8.76
+15.77
+7.50
+Net cash provided by (used in) operating activities
+$
+(380)
+$
+(544)
+$
+(502)
+$
+(1,462)
+$
+260
+Free Cash Flow*
+$
+(460)
+$
+(594)
+$
+(551)
+$
+(1,670)
+$
+162
+Adjusted EBITDA**
+$
+584
+$
+836
+$
+1,107
+$
+586
+$
+1,084
+Shares (FD)
+451.9
+452.2
+451.6
+451.4
+452.5
+Streaming Content Obligations*** ($B)
+18.9
+18.5
+19.1
+19.5
+19.2
+Note: Figures are consolidated, including DVD.
+* Free cash flow represents Net Cash provided by (used in) operating and investing activities
+** Adjusted EBITDA represents net income before interest expense and other income/expense, income taxes, depreciation and amortization of property and equipment and further adjusted to exclude other non-cash charges or non-recurring items
+*** Corresponds to our total known streaming content obligations as defined in our financial statements and related notes in our most recently filed SEC Form 10-K
+3
+Q1 Results and Q2 Forecast
+Despite paid net additions that were higher than forecast, revenue was in-line with our guidance due to the appreciation in the US dollar vs. other currencies. Excluding a -$115m impact from F/X, streaming ARPU grew 8% year over year. Operating margin of 16.6% (vs. 10.2% in the prior year quarter) was lower than our 18.0% forecast as we incurred $218m in incremental content costs due to paused productions and hardship fund commitments (a 3.8 percentage point impact to operating margin).
+There are three primary effects on our financial performance from the crisis. First, our membership growth has temporarily accelerated due to home confinement. Second, our international revenue will be less than previously forecast due to the dollar rising sharply. Third, due to the production shutdown, some cash spending on content will be delayed, improving our free cash flow, and some title releases will be delayed, typically by a quarter. More on each of these three effects below.
+During the first two months of Q1, our membership growth was similar to the prior two years, including in UCAN. Then, with lockdown orders in many countries starting in March, many more households joined Netflix to enjoy entertainment. This timing of paid membership additions also affected our Q1’20 global streaming ARPU; this was the primary driver of the sequential decline in streaming ARPU as the revenue impact from these additions late in the quarter will be mostly felt in Q2’20 and beyond.
+Hopefully, progress against the virus will allow governments to lift the home confinement soon. As that happens, we expect viewing and growth to decline. Our internal forecast and guidance is for 7.5 million global paid net additions in Q2. Given the uncertainty on home confinement timing, this is mostly guesswork. The actual Q2 numbers could end up well below or well above that, depending on many factors including when people can go back to their social lives in various countries and how much people take a break from television after the lockdown. Some of the lockdown growth will turn out to be pull-forward from the multi-year organic growth trend, resulting in slower growth after the lockdown is lifted country-by-country. Intuitively, the person who didn’t join Netflix during the entire confinement is not likely to join soon after the confinement. Plus, last year we had new seasons of Money Heist and Stranger Things in Q3, which were not planned for this year’s Q3. Therefore, we currently guess that Q3’20 and Q4’20 will have lower net additions than last year due to these effects.
+Second, partially due to the crisis, the US dollar has appreciated significantly, which creates a drag on international revenue growth. As an example, the price for our standard plan in Brazil is R$33, which used to be $8.5 last year but now is $6.5 based on April 2020 F/X rates, so we have a ~25% decline in US dollar average subscription price from Brazil, which offsets strong membership growth.
+Third, we’ve paused most of our productions across the world in response to government lockdowns and guidance from local public health officials. In Q2, there is only a modest impact on our new releases, which is primarily language dubbing. No one knows how long it will be until we can safely restart physical production in various countries, and, once we can, what international travel will be possible, and how negotiations for various resources (e.g., talent, stages, and post-production) will play out. The impact on us is less cash spending this year as some content projects are pushed out. We are working hard to complete the content we know our members want and we’re complementing this effort with additional licensed films and series.
+Our content competitors and suppliers will be impacted about as much as we are, in terms of new titles. Since we have a large library with thousands of titles for viewing and very strong recommendations, our member satisfaction may be less impacted than our peers’ by a shortage of new content, but it will take time to tell.
+4
+We continue to target a 16% operating margin for the full year 2020, despite the extra costs in Q1. As a reminder, more than half of our revenue is not denominated in US dollars and we don’t hedge our foreign exchange exposure. If the US dollar remains at these elevated levels (or strengthens further), we may target modestly slower growth in our annual operating margin progression next year. Given that lead time, we believe we can readjust our model to be appropriate in that new stronger US dollar world.
+Content
+As people shelter at home, our hope is that we can help make that experience more bearable by providing a diverse range of high quality content for our members. While our productions are largely paused around the world, we benefit from a large pipeline of content that was either complete and ready for launch or in post-production when filming stopped.
+For Q2, we’re looking forward to releasing all of our originally planned shows and films (with some language dubbing impacts on a few titles). We’re also finding ways to bolster our programming this year - including the recent acquisition of Paramount’s and Media Rights Capital’s
+The Lovebirds
+15
+, a comedy starring Issa Rae and Kumail Nanjiani, for Q2’20 and Legendary Pictures’
+Enola Holmes
+16
+starring Millie Bobby Brown, Helena Bonham Carter, Henry Cavill, and Sam Claflin, for Q3 ‘20. So, while we’re certainly impacted by the global production pause, we expect to continue to be able to provide a terrific variety of new titles throughout 2020 and 2021.
+Our Q1 slate highlighted the variety of content that people enjoy en masse all over the world on Netflix: scripted English language series like
+Ozark
+season 3 (a projected 29m member households will have chosen to watch this season in its first four weeks), the riveting docu-series
+Tiger King: Murder, Mayhem and Madness
+(64m), our breakthrough unscripted dating show
+Love is Blind
+17
+(30m), original film
+Spenser Confidential
+(85m), and season four of the Spanish language hit
+La Casa de Papel
+, aka
+Money Heist
+(a projected 65m), which debuted in early April.
+In Q2, we are looking forward to the launch of
+Space Force
+, our new original comedy series created by Greg Daniels (
+The Office
+) and Steve Carell, starring Carell, John Malkovich and Lisa Kudrow. We just launched our latest buzzy unscripted series
+Too Hot to Handle
+,
+#BlackAF
+from Kenya Barris and, outside the US, the Michael Jordan documentary
+The Last Dance
+, which we co-produced with ESPN (launching on Netflix in the US on July 19). We will also premiere
+Hollywood
+18
+from Ryan Murphy, and, later this week,
+Extraction
+19
+, a large scale action film starring Chris Hemsworth and directed by Sam Hargrave, who was the stunt coordinator and choreographer on films like
+Avengers: Endgame
+,
+Avengers: Infinity War
+,
+Deadpool 2
+, and
+Captain America: Civil War
+.
+Product
+In February, we rolled out our
+Top 10 most popular lists
+20
+to nearly 100 countries, after testing this feature last year in the UK and Mexico. In each of these countries, there are now three daily lists: Top 10 overall, Top 10 series and Top 10 films. Our goal with this feature is to help members find great TV shows and films and enable them to be part of the cultural zeitgeist in their country.
+___________________________________
+15
+https://www.youtube.com/watch?v=Y-rRtM7sC5A&feature=youtu.be
+16
+https://media.netflix.com/en/press-releases/netflix-acquires-legendary-entertainments-enola-holmes-starring-millie-bobby-brown
+17
+https://www.foxbusiness.com/lifestyle/netflix-love-is-blind-social-media
+18
+https://www.youtube.com/watch?v=Q3EASLgzOcM&feature=youtu.be
+19
+https://www.youtube.com/watch?v=L6P3nI6VnlY&feature=youtu.be
+20
+https://media.netflix.com/en/company-blog/see-whats-popular-on-netflix
+5
+Recently, we’ve also enhanced our parental controls for our service to improve the experience for family members of all ages.
+Updates
+21
+include (i) PIN-controlled access to content by maturity level; (ii) the ability to PIN protect specific titles as well as profiles; (iii) Profile-level content filtering; (iv) the ability to create kids’ experiences that can be customized for different age groups (‘teens and below,’ ‘older kids and below’ and ‘little kids’); and (v) the ability to disable post-play for kids from account settings.
+Cash Flow and Capital Structure
+In Q1, net cash used in operating activities was +$260 million vs. -$380 million in the prior year period. Free cash flow
+22
+totaled +$162 million compared with -$460 million in the year ago quarter. As we stated last quarter, our FCF profile is beginning to improve due to growing operating margin and profits and as we digest our big move into the production of Netflix originals (which requires more cash upfront vs. later-window content) that started five years ago.
+With our productions currently paused, this will shift out some cash spending on content to future years. As a result, we’re now expecting 2020 FCF of -$1 billion or better (compared with our prior 2020 expectation of -$2.5 billion and -$3.3 billion actual in 2019). This dynamic may result in more lumpiness in our path to sustained FCF profitability (as, prior to the pandemic, we had been planning for annual improvement in FCF). However, there has been no material change to our overall time table to reach consistent annual positive FCF and we believe that 2019 will still represent the peak in our annual FCF deficit.
+We finished the quarter with cash of $5.2 billion, while our $750m unsecured credit facility remains undrawn. Combined with our improved FCF outlook for 2020, we have more than 12 months of liquidity and substantial financial flexibility. Our financing strategy remains unchanged - our current plan is to continue to use debt to finance our investment needs.
+___________________________________
+21
+https://media.netflix.com/en/company-blog/more-choice-and-control-for-families
+22
+For a reconciliation of free cash flow to net cash (used in) operating activities, please refer to the reconciliation in tabular form on the attached unaudited financial statements and the footnotes thereto.
+6
+Reference
+For quick reference, our eight most recent investor letters are:
+January 2020,
+23
+October 2019
+,
+24
+July 2019
+,
+25
+April 2019
+,
+26
+January 2019
+,
+27
+October 2018
+,
+28
+July 2018
+,
+29
+April 2018.
+30
+Appendix
+(in millions)
+Q1'19
+Q2'19
+Q3'19
+Q4'19
+Q1'20
+UCAN Streaming:
+Revenue
+$
+2,257
+$
+2,501
+$
+2,621
+$
+2,672
+$
+2,703
+Paid Memberships
+66.63
+66.50
+67.11
+67.66
+69.97
+Paid Net Additions
+1.88
+(0.13)
+0.61
+0.55
+2.31
+ARPU
+$
+11.45
+$
+12.52
+$
+13.08
+$
+13.22
+$
+13.09
+Y/Y % Growth
+4
+%
+12
+%
+17
+%
+17
+%
+14
+%
+F/X Neutral Y/Y % ARPU Growth
+4
+%
+13
+%
+17
+%
+17
+%
+14
+%
+EMEA:
+Revenue
+$
+1,233
+$
+1,319
+$
+1,428
+$
+1,563
+$
+1,723
+Paid Memberships
+42.54
+44.23
+47.36
+51.78
+58.73
+Paid Net Additions
+4.72
+1.69
+3.13
+4.42
+6.96
+ARPU
+$
+10.23
+$
+10.13
+$
+10.40
+$
+10.51
+$
+10.40
+Y/Y % Growth
+(4)
+%
+(6)
+%
+1
+%
+3
+%
+2
+%
+F/X Neutral Y/Y % ARPU Growth
+2
+%
+3
+%
+6
+%
+7
+%
+4
+%
+LATAM:
+Revenue
+$
+630
+$
+677
+$
+741
+$
+746
+$
+793
+Paid Memberships
+27.55
+27.89
+29.38
+31.42
+34.32
+Paid Net Additions
+1.47
+0.34
+1.49
+2.04
+2.90
+ARPU
+$
+7.84
+$
+8.14
+$
+8.63
+$
+8.18
+$
+8.05
+Y/Y % Growth
+(11)
+%
+(5)
+%
+8
+%
+9
+%
+3
+%
+F/X Neutral Y/Y % ARPU Growth
+7
+%
+12
+%
+17
+%
+18
+%
+12
+%
+APAC:
+Revenue
+$
+320
+$
+349
+$
+382
+$
+418
+$
+484
+Paid Memberships
+12.14
+12.94
+14.49
+16.23
+19.84
+Paid Net Additions
+1.53
+0.80
+1.54
+1.75
+3.60
+ARPU
+$
+9.37
+$
+9.29
+$
+9.29
+$
+9.07
+$
+8.94
+Y/Y % Growth
+(2)
+%
+(1)
+%
+—
+%
+(1)
+%
+(5)
+%
+F/X Neutral Y/Y % ARPU Growth
+3
+%
+5
+%
+3
+%
+—
+%
+(3)
+%
+___________________________________
+23
+https://s22.q4cdn.com/959853165/files/doc_financials/2019/q4/FINAL-Q4-19-Shareholder-Letter.pdf
+24
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q3/FINAL-Q3-19-Shareholder-Letter.pdf
+25
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q2/Q2-19-Shareholder-Letter-FINAL.pdf
+26
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2019/q1/FINAL-Q1-19-Shareholder-Letter.pdf
+27
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q4/01/FINAL-Q4-18-Shareholder-Letter.pdf
+28
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q3/FINAL-Q3-18-Shareholder-Letter.pdf
+29
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q2/FINAL-Q2-18-Shareholder-Letter.pdf
+30
+https://s22.q4cdn.com/959853165/files/doc_financials/quarterly_reports/2018/q1/FINAL-Q1-18-Shareholder-Letter.pdf
+7
+April 21, 2020 Earnings Interview, 3pm PT
+Our video interview with Michael Morris of Guggenheim Securities will be on
+youtube/netflixir
+at 3pm PT today.
+Questions that investors would like to see asked should be sent to
+michael.morris@guggenheimpartners.com
+.
+Reed Hastings, CEO, Spence Neumann, CFO, Ted Sarandos, Chief Content Officer, Greg Peters, Chief Product Officer and Spencer Wang, VP of IR/Corporate Development will all be on the video to answer Michael’s questions.
+IR Contact:
+PR Contact:
+Spencer Wang
+Richard Siklos
+VP, Finance/IR & Corporate Development
+VP, Communications
+408 809-5360
+408 540-2629
+8
+Use of Non-GAAP Measures
+This shareholder letter and its attachments include reference to the non-GAAP financial measure of free cash flow and adjusted EBITDA. Management believes that free cash flow and adjusted EBITDA are important liquidity metrics because they measure, during a given period, the amount of cash generated that is available to repay debt obligations, make investments and for certain other activities or the amount of cash used in operations, including investments in global streaming content. However, these non-GAAP measures should be considered in addition to, not as a substitute for or superior to, net income, operating income, diluted earnings per share and net cash provided by operating activities, or other financial measures prepared in accordance with GAAP. Reconciliation to the GAAP equivalent of these non-GAAP measures are contained in tabular form on the attached unaudited financial statements.

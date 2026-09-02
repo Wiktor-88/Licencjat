@@ -1,1 +1,203 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Fourth Quarter and Fiscal 2020 Results
+Fourth Quarter EPS: GAAP $2.58, Non-GAAP $1.45
+Fiscal 2020 Revenues: GAAP $23.5 billion, Non-GAAP $21.7 billion
+Fiscal 2020 EPS: GAAP $4.52, Non-GAAP $4.19
+—Record Quarterly EPS Exceeded High End of Guidance Range—
+SAN DIEGO - November 4, 2020
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 27, 2020.
+“Our fiscal fourth quarter results demonstrate that our investments in 5G are coming to fruition and showing benefits in our licensing and product businesses,” said Steve Mollenkopf, CEO of Qualcomm Incorporated. “We concluded the year with exceptional fourth quarter results and are well positioned for growth in 2021 and beyond. As the pace of disruption in wireless technology accelerates, we will continue to drive growth and scale across our RF front-end, Automotive and IoT adjacencies.”
+Fourth Quarter Results
+1, 2
+GAAP
+Non-GAAP
+(in millions, except per share data
+and percentages)
+Q4 Fiscal 2020
+Q4 Fiscal 2019
+Change
+Q4 Fiscal 2020
+Q4 Fiscal 2019
+Change
+Revenues
+$8,346
+$4,814
++73%
+$6,502
+$4,804
++35%
+Earnings before taxes (EBT)
+$3,306
+$615
+N/M
+$1,862
+$1,049
++78%
+Net income
+$2,960
+$506
+N/M
+$1,669
+$947
++76%
+Diluted earnings per share (EPS)
+$2.58
+$0.42
+N/M
+$1.45
+$0.78
++86%
+Fiscal 2020 Results
+2, 3, 4
+GAAP
+Non-GAAP
+(in millions, except per share data
+and percentages)
+Fiscal 2020
+Fiscal 2019
+Change
+Fiscal 2020
+Fiscal 2019
+Change
+Revenues
+$23,531
+$24,273
+(3%)
+$21,654
+$19,398
++12%
+EBT
+$5,719
+$7,481
+(24%)
+$5,484
+$4,285
++28%
+Net income
+$5,198
+$4,386
++19%
+$4,816
+$4,323
++11%
+EPS
+$4.52
+$3.59
++26%
+$4.19
+$3.54
++18%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results is included at the end of this news release.
+(2)  Fourth quarter and fiscal 2020 GAAP results included $1.8 billion, or $1.37 per share, resulting from the settlement agreement with Huawei and royalties for sales made in the March 2020 and June 2020 quarters under the new global patent license agreement with Huawei.  GAAP and Non-GAAP results for the fourth quarter and fiscal 2020 included an estimate of royalties due from Huawei for sales made in the September 2020 quarter under the new global patent license agreement.  GAAP and Non-GAAP results in fiscal 2019 included $450 million of royalties due under a second interim agreement with Huawei that concluded in the third quarter of fiscal 2019.  We did not record any revenues in the fourth quarter of fiscal 2019 or the first three quarters of fiscal 2020 for royalties due on the sales of Huawei’s consumer wireless products.
+(3)  Fiscal 2019 GAAP results included $4.7 billion, or $3.23 per share, resulting from the settlement with Apple and its contract manufacturers in April 2019.  GAAP and Non-GAAP results for fiscal 2020 and the second half of fiscal 2019 included royalties from Apple and its contract manufactures.  Revenues in the first six months of fiscal 2019 did not include royalties from sales of Apple or other products by Apple’s contract manufacturers.
+(4)  Fiscal 2019 GAAP results included a $2.5 billion tax expense, or ($2.01) per share, due to the derecognition of a deferred tax asset as a result of an agreement with the Internal Revenue Service under which we forwent the federal tax basis step-up in certain distributed intellectual property.  Fiscal 2019 results included a $570 million tax benefit, or $0.47 per share, for GAAP and a $552 million tax benefit, or $0.45 per share, for Non-GAAP relating to certain tax elections made in the first quarter of fiscal 2019.
+N/M: Not meaningful
+Qualcomm Announces Fourth Quarter and Fiscal 2020 Results
+Page 2 of 10
+Segment Results
+Fourth Quarter
+QCT
+QTL
+(in millions, except percentages)
+Q4 Fiscal 2020
+Q4 Fiscal 2019
+Change
+Q4 Fiscal 2020
+Q4 Fiscal 2019
+Change
+Revenues
+$4,967
+$3,611
++38%
+$1,507
+$1,158
++30%
+EBT
+$1,015
+$499
++103%
+$1,107
+$792
++40%
+EBT as % of revenues
+20%
+14%
++6 points
+73%
+68%
++5 points
+MSM
+TM
+chip shipments
+162
+152
++7%
+Fiscal 2020
+QCT
+QTL
+(in millions, except percentages)
+Fiscal 2020
+Fiscal 2019
+Change
+Fiscal 2020
+Fiscal 2019
+Change
+Revenues
+$16,493
+$14,639
++13%
+$5,028
+$4,591
++10%
+EBT
+$2,763
+$2,143
++29%
+$3,442
+$2,954
++17%
+EBT as % of revenues
+17%
+15%
++2 points
+68%
+64%
++4 points
+MSM
+TM
+chip shipments
+575
+650
+(12%)
+Return of Capital to Stockholders
+The following table summarizes stock repurchases, before commissions, and dividends paid during the fourth quarter and fiscal 2020:
+Stock Repurchases
+Dividends
+Total Amount
+(in millions, except per share data)
+Shares
+Amount
+Per Share
+Amount
+Q4 fiscal 2020
+—
+—
+$0.65
+$734
+$734
+Fiscal 2020
+31
+$2,450
+$2.54
+$2,882
+$5,332
+Qualcomm Announces Fourth Quarter and Fiscal 2020 Results
+Page 3 of 10
+Business Outlook
+The following statements are forward looking, and actual results may differ materially.  The “Note Regarding

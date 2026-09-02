@@ -1,1 +1,71 @@
-AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs Exhibit 99.1 PRESS RELEASE Contacts: Phil Hughes AMD Communications 512-865-9697 phil.hughes@amd.com OpenAI press@OpenAI.com Investor Contact Liz Stine AMD
+AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs
+Exhibit 99.1
+PRESS RELEASE
+Contacts:
+Phil Hughes
+AMD Communications
+512-865-9697
+phil.hughes@amd.com
+OpenAI
+press@OpenAI.com
+Investor Contact
+Liz Stine
+AMD Investor Relations
+(720)
+652-3965
+liz.stine@amd.com
+AMD
+and OpenAI Announce Strategic Partnership
+to Deploy 6 Gigawatts of AMD GPUs
+News Highlights
+
+OpenAI to deploy 6 gigawatts of AMD GPUs based on a multi-year, multi-generation agreement
+
+Initial 1 gigawatt OpenAI deployment of AMD
+Instinct
+
+MI450 Series GPUs starting in 2H 2026
+SANTA CLARA, Calif. — October
+6, 2025 —
+AMD (NASDAQ: AMD) and OpenAI today announced a 6 gigawatt
+agreement to power OpenAI’s next-generation AI infrastructure across multiple generations of AMD Instinct GPUs. The first 1 gigawatt deployment of AMD Instinct MI450 GPUs is set to begin in the second half of 2026.
+AMD’s strong leadership in high-performance computing systems and OpenAI’s pioneering research and advancements in generative AI
+places the two companies at the forefront of this important and pivotal time for AI.
+Under this definitive agreement, OpenAI will work
+with AMD as a core strategic compute partner to drive large-scale deployments of AMD technology starting with the AMD Instinct MI450 series and rack-scale AI solutions and extending to future generations. By sharing technical expertise to optimize
+their product roadmaps, AMD and OpenAI are deepening their multi-generational hardware and software collaboration that began with the MI300X and continued with the MI350X series. This partnership creates a true
+win-win
+for both companies, enabling very large-scale AI deployments and advancing the entire ecosystem.
+As part of the agreement, to further align strategic interests, AMD has issued OpenAI a
+warrant for up to 160 million shares of AMD common stock, structured to vest as specific milestones are achieved. The first tranche vests with the initial 1 gigawatt deployment, with additional tranches vesting as purchases scale up to 6
+gigawatts. Vesting is further tied to AMD achieving certain share-price targets and to OpenAI achieving the technical and commercial milestones required to enable AMD deployments at scale.
+“We are thrilled to partner with OpenAI to deliver AI compute at massive scale,” said Dr. Lisa Su, chair and CEO,
+AMD. “This partnership brings the best of AMD and OpenAI together to create a true
+win-win
+enabling the world’s most ambitious AI buildout and advancing the entire AI ecosystem.”
+“This partnership is a major step in building the compute capacity needed to realize AI’s full potential,” said Sam Altman,
+co-founder
+and CEO of OpenAI. “AMD’s leadership in high-performance chips will enable us to accelerate progress and bring the benefits of advanced AI to everyone faster.”
+“Building the future of AI requires deep collaboration across every layer of the stack,” said Greg Brockman,
+co-founder
+and president of OpenAI. “Working alongside AMD will allow us to scale to deliver AI tools that benefit people everywhere.”
+“Our partnership with OpenAI is expected to deliver tens of billions of dollars in revenue for AMD while accelerating OpenAI’s AI
+infrastructure buildout,” said Jean Hu, EVP, CFO and treasurer, AMD. “This agreement creates significant strategic alignment and shareholder value for both AMD and OpenAI and is expected to be highly accretive to AMD’s
+non-GAAP
+earnings-per-share.”
+Through this partnership, AMD and OpenAI are building the infrastructure to meet the world’s growing AI demands, by combining
+world-class innovation and execution to accelerate the future of high-performance and AI computing.
+AMD Teleconference
+AMD will hold a conference call at 5:00 a.m. PT (8:00 a.m. ET) today to discuss today’s announcement. AMD will provide a real-time audio
+broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+AMD Third Quarter Financial Results
+AMD will report fiscal third quarter 2025 financial results on Tuesday, Nov. 4, 2025, after the market close. Management will conduct a
+conference call to discuss these results at 5:00 p.m. EDT / 2:00 p.m. PDT. Interested parties are invited to listen to the webcast of the conference call via the AMD Investor Relations website
+ir.amd.com
+at
+www.amd.com
+.

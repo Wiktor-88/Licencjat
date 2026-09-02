@@ -1,1 +1,226 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Fourth Quarter and Fiscal 2023 Results
+Fiscal 2023 Revenues: $35.8 billion
+Fiscal 2023 EPS: GAAP $6.42, Non-GAAP: $8.43
+—Quarterly Revenues Exceeded Midpoint of Guidance Range—
+—QCT Automotive: Record Quarterly and Fiscal Year Revenues—
+SAN DIEGO - November 1, 2023
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 24, 2023.
+“As we enter fiscal 2024, we are pleased with our roadmap and product execution, which position us well across our businesses,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “Our recent Snapdragon Summit announcements underscore our technology leadership, establishing Qualcomm as a leader in on-device generative AI and mobile computing performance.”
+Fourth Quarter Results
+1,2
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q4 Fiscal 2023
+Q4 Fiscal 2022
+Change
+Q4 Fiscal 2023
+Q4 Fiscal 2022
+Change
+Revenues
+$8,631
+$11,396
+(24%)
+$8,665
+$11,387
+(24%)
+Earnings before taxes (EBT)
+$1,420
+$3,470
+(59%)
+$2,617
+$4,142
+(37%)
+Net income
+$1,489
+$2,873
+(48%)
+$2,277
+$3,548
+(36%)
+Diluted earnings per share (EPS)
+$1.32
+$2.54
+(48%)
+$2.02
+$3.13
+(35%)
+Fiscal 2023 Results
+1,2,3
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Fiscal 2023
+Fiscal 2022
+Change
+Fiscal 2023
+Fiscal 2022
+Change
+Revenues
+$35,820
+$44,200
+(19%)
+$35,832
+$44,169
+(19%)
+EBT
+$7,443
+$14,998
+(50%)
+$11,070
+$16,598
+(33%)
+Net income
+$7,232
+$12,936
+(44%)
+$9,486
+$14,254
+(33%)
+EPS
+$6.42
+$11.37
+(44%)
+$8.43
+$12.53
+(33%)
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+(2)  Fourth quarter and fiscal 2023 GAAP results included $427 million and $723 million, or $0.30 and $0.53 per share, respectively, of restructuring and restructuring-related charges.
+(3)  Fiscal 2022 GAAP results included a $1.1 billion benefit, or $0.97 per share, resulting from the reversal of the accrued fine imposed by the European Commission (EC) in fiscal 2018 and the associated accrued interest.
+Qualcomm Announces Fourth Quarter and Fiscal 2023 Results
+Page 2 of 10
+Segment Results
+Fourth Quarter
+QCT
+QTL
+(in millions, except percentages)
+Q4 Fiscal 2023
+Q4 Fiscal 2022
+Change
+Q4 Fiscal 2023
+Q4 Fiscal 2022
+Change
+Revenues
+$7,374
+$9,904
+(26%)
+$1,262
+$1,441
+(12%)
+EBT
+$1,889
+$3,386
+(44%)
+$829
+$989
+(16%)
+EBT as % of revenues
+26%
+34%
+-8 points
+66%
+69%
+-3 points
+Fiscal 2023
+QCT
+QTL
+(in millions, except percentages)
+Fiscal 2023
+Fiscal 2022
+Change
+Fiscal 2023
+Fiscal 2022
+Change
+Revenues
+$30,382
+$37,677
+(19%)
+$5,306
+$6,358
+(17%)
+EBT
+$7,924
+$12,837
+(38%)
+$3,628
+$4,628
+(22%)
+EBT as % of revenues
+26%
+34%
+-8 points
+68%
+73%
+-5 points
+QCT Revenue Streams
+1
+Fourth Quarter
+Fiscal
+(in millions, except percentages)
+2023
+2022
+Change
+2023
+2022
+Change
+Handsets
+$5,456
+$7,431
+(27%)
+$22,570
+$28,815
+(22%)
+Automotive
+535
+465
++15%
+1,872
+1,509
++24%
+IoT
+1,383
+2,008
+(31%)
+5,940
+7,353
+(19%)
+Total QCT revenues
+$7,374
+$9,904
+(26%)
+$30,382
+$37,677
+(19%)
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold. Beginning in the first quarter of fiscal 2023, QCT RFFE (radio frequency front-end) revenues, which were previously presented as a separate revenue stream, are now included within our Handsets, Automotive and internet of things (IoT) revenue streams, as applicable. Prior period information has been recast to reflect this change.
+Return of Capital to Stockholders
+Stock Repurchases
+Dividends Paid
+Total Amount
+(in millions, except per share data)
+Shares
+Amount
+Per Share
+Amount
+Q4 Fiscal 2023
+4
+$400
+$0.80
+$893
+$1,293
+Fiscal 2023
+25
+$2,973
+$3.10
+$3,462
+$6,435
+Qualcomm Announces Fourth Quarter and Fiscal 2023 Results
+Page 3 of 10
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

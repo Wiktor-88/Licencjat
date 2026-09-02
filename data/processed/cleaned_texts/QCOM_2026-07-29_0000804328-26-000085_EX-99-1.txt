@@ -1,1 +1,118 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Brett Simpson Senior Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Brett Simpson
+Senior Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Third Quarter Fiscal 2026 Results
+Revenues: $9.9 billion
+GAAP EPS: $1.87, Non-GAAP EPS: $2.21
+—Combined QCT Automotive and IoT Revenues Grew 28% Year-Over-Year—
+—QCT Automotive Revenues: 23 Consecutive Quarters of Double-Digit Year-Over-Year Growth—
+—Completed Acquisition of Modular Inc Creating an Open Software Foundation for Generative and Agentic AI—
+SAN DIEGO - July 29, 2026
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal third quarter ended June 28, 2026.
+“Despite a challenging memory and supply environment, our third quarter results reflect solid execution of our growth strategy, with quarterly revenues at the high end of guidance,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “We are well positioned to execute on the vision we outlined at our recent Investor Day, with total non-handset revenues growing to $40 billion by fiscal 2029 – nearly double the target we shared in November 2024. In the near term, we expect year-over-year growth in non-handset revenues, including Data Center, to accelerate from 24% in fiscal 2026 to greater than 60% in fiscal 2027 – a significant inflection point in the execution of our growth strategy.”
+Third Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q3 Fiscal 2026
+Q3 Fiscal 2025
+Change
+Q3 Fiscal 2026
+Q3 Fiscal 2025
+Change
+Revenues
+$9,947
+$10,365
+(4%)
+$9,947
+$10,365
+(4%)
+Earnings before taxes (EBT)
+$2,462
+$2,952
+(17%)
+$2,693
+$3,544
+(24%)
+Net income
+$2,002
+$2,666
+(25%)
+$2,356
+$3,040
+(23%)
+Diluted earnings per share (EPS)
+$1.87
+$2.43
+(23%)
+$2.21
+$2.77
+(20%)
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q3 Fiscal 2026
+Q3 Fiscal 2025
+Change
+Q3 Fiscal 2026
+Q3 Fiscal 2025
+Change
+Revenues
+$8,504
+$8,993
+(5%)
+$1,278
+$1,318
+(3%)
+EBT
+$2,192
+$2,671
+(18%)
+$881
+$942
+(6%)
+EBT as % of revenues
+26%
+30%
+-4 points
+69%
+71%
+-2 points
+Qualcomm Announces Third Quarter Fiscal 2026 Results
+Page 2 of 8
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q3 Fiscal 2026
+Q3 Fiscal 2025
+Change
+Handsets
+$5,086
+$6,328
+(20%)
+Automotive
+1,588
+984
++61%
+IoT (internet of things)
+1,830
+1,681
++9%
+Total QCT revenues
+$8,504
+$8,993
+(5%)
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the third quarter of fiscal 2026, we returned $2.3 billion to stockholders, including $973 million, or $0.92 per share, of cash dividends paid and $1.4 billion
+through repurchases of
+8 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

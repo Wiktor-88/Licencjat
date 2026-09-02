@@ -1,1 +1,693 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Matt Ramsay
+AMD Investor Relations
+512-602-0113
+matthew.ramsay@amd.com
+AMD Reports Fourth Quarter and Full Year 2024 Financial Results
+SANTA CLARA, Calif. ― February 4, 2025 ―
+AMD (NASDAQ:AMD) today announced financial results for the fourth quarter and full year of 2024. Fourth quarter revenue was a record $7.7 billion, gross margin was 51%, operating income was $871 million, net income was $
+482 million
+and diluted earnings per share was
+$0.29.
+On a non-GAAP(*) basis, gross margin was 54%, operating income was a record $2.0 billion, net income was a record $1.8 billion and diluted earnings per share was $1.09.
+For the full year 2024, AMD reported record revenue of $25.8 billion, gross margin of 49%, operating income of $1.9 billion, net income of $1.6 billion, and diluted earnings per share of $1.00. On a non-GAAP(*) basis, gross margin was a record 53%, operating income was $6.1 billion, net income was $5.4 billion and diluted earnings per share was $3.31.
+“2024 was a transformative year for AMD as we delivered record annual revenue and strong earnings growth,” said AMD Chair and CEO Dr. Lisa Su. “Data Center segment annual revenue nearly doubled as EPYC processor adoption accelerated and we delivered more than $5 billion of AMD Instinct accelerator revenue. Looking into 2025, we see clear opportunities for continued growth based on the strength of our product portfolio and growing demand for high-performance and adaptive computing.”
+“We closed 2024 with a strong fourth quarter, delivering record revenue up 24% year-over-year, and accelerated earnings expansion while investing aggressively in AI and innovation to position us for long-term growth and value creation,” said AMD EVP, CFO and Treasurer Jean Hu.
+1
+GAAP Quarterly Financial Results
+Q4 2024
+Q4 2023
+Y/Y
+Q3 2024
+Q/Q
+Revenue ($M)
+$7,658
+$6,168
+Up 24%
+$6,819
+Up 12%
+Gross profit ($M)
+$3,882
+$2,911
+Up 33%
+$3,419
+Up 14%
+Gross margin
+51%
+47%
+Up 4 ppts
+50%
+Up 1%
+Operating expenses ($M)
+$3,022
+$2,575
+Up 17%
+$2,709
+Up 12%
+Operating income ($M)
+$871
+$342
+Up 155%
+$724
+Up 20%
+Operating margin
+11%
+6%
+Up 5 ppts
+11%
+Flat
+Net income ($M)
+$482
+$667
+Down 28%
+$771
+Down 37%
+Diluted earnings per share
+$0.29
+$0.41
+Down 29%
+$0.47
+Down 38%
+Non-GAAP(*) Quarterly Financial Results
+Q4 2024
+Q4 2023
+Y/Y
+Q3 2024
+Q/Q
+Revenue ($M)
+$7,658
+$6,168
+Up 24%
+$6,819
+Up 12%
+Gross profit ($M)
+$4,140
+$3,133
+Up 32%
+$3,657
+Up 13%
+Gross margin
+54%
+51%
+Up 3 ppts
+54%
+Flat
+Operating expenses ($M)
+$2,125
+$1,727
+Up 23%
+$1,956
+Up 9%
+Operating income ($M)
+$2,026
+$1,412
+Up 43%
+$1,715
+Up 18%
+Operating margin
+26%
+23%
+Up 3 ppts
+25%
+Up 1 ppt
+Net income ($M)
+$1,777
+$1,249
+Up 42%
+$1,504
+Up 18%
+Diluted earnings per share
+$1.09
+$0.77
+Up 42%
+$0.92
+Up 18%
+Annual Financial Results
+GAAP
+Non-GAAP
+(*)
+2024
+2023
+Y/Y
+2024
+2023
+Y/Y
+Revenue ($M)
+$25,785
+$22,680
+Up 14%
+$25,785
+$22,680
+Up 14%
+Gross profit ($M)
+$12,725
+$10,460
+Up 22%
+$13,759
+$11,436
+Up 20%
+Gross margin %
+49%
+46%
+Up 3 ppts
+53%
+50%
+Up 3 ppts
+Operating expenses ($M)
+$10,873
+$10,093
+Up 8%
+$7,669
+$6,616
+Up 16%
+Operating income ($M)
+$1,900
+$401
+Up 374%
+$6,138
+$4,854
+Up 26%
+Operating margin %
+7%
+2%
+Up 5 ppts
+24%
+21%
+Up 3 ppts
+Net income ($M)
+$1,641
+$854
+Up 92%
+$5,420
+$4,302
+Up 26%
+Diluted earnings per share
+$1.00
+$0.53
+Up 89%
+$3.31
+$2.65
+Up 25%
+Segment Summary
+•
+Data Center segment revenue in the quarter was a record $3.9 billion, up 69% year-over-year primarily driven by the strong ramp of AMD Instinct™ GPU shipments and growth in AMD EPYC™ CPU sales.
+◦
+For 2024, Data Center segment revenue was a record $12.6 billion, an increase of 94% compared to the prior year, driven by growth in both AMD Instinct and EPYC processors.
+2
+•
+Client segment revenue in the quarter was a record $2.3 billion, up 58% year-over-year primarily driven by strong demand for AMD Ryzen™ processors.
+◦
+For 2024, Client segment revenue was a record $7.1 billion, up 52% compared to the prior year, due to strong demand for AMD Ryzen processors in desktop and mobile.
+•
+Gaming segment revenue in the quarter was $563 million, down 59% year-over-year, primarily due to a decrease in semi-custom revenue.
+◦
+For 2024, Gaming segment revenue was $2.6 billion, down 58% compared to the prior year, primarily due to a decrease in semi-custom revenue.
+•
+Embedded segment revenue in the quarter was $923 million, down 13% year-over-year, as end market demand continues to be mixed.
+◦
+For 2024, Embedded segment revenue was $3.6 billion, down 33% from the prior year, primarily due to customers normalizing their inventory levels.
+Recent PR Highlights
+•
+AMD continues expanding its partnerships to deliver highly performant AI infrastructure at scale:
+◦
+IBM announced plans to
+deploy
+AMD Instinct MI300X accelerators to power generative AI and HPC applications on IBM Cloud.
+◦
+Vultr and AMD
+announced
+a strategic collaboration to leverage AMD Instinct MI300X accelerators and AMD ROCm™ open software to power Vultr’s cloud infrastructure for enterprise AI development and deployment.
+◦
+Aleph Alpha
+announced
+that it will leverage AMD Instinct MI300 Series accelerators and ROCm software to enable its tokenizer-free LLM architecture, a new approach to generative AI that aims to simplify the development of sovereign AI solutions for governments and enterprises.
+◦
+Fujitsu and AMD
+announce
+d a strategic partnership to develop more sustainable computing infrastructure to accelerate open source AI.
+◦
+AMD expanded strategic investments to advance the AI ecosystem and solutions, including investments in LiquidAI, Vultr and Absci.
+•
+AMD is accelerating its AI software roadmap to deliver a robust open AI stack for the ecosystem:
+◦
+AMD
+released
+ROCm 6.3 with numerous performance enhancements enabling faster inferencing on AMD Instinct accelerators as well as additional compiler tools and libraries.
+◦
+AMD
+shared
+an update on its 2025 plans for the ROCm software stack to enable easier adoption of and improved out of box support for both inferencing and training applications.
+3
+•
+Dell and AMD
+announced
+that AMD Ryzen AI PRO processors will power new Dell Pro notebook and desktop PCs, bringing exceptional battery life, on-device AI, Copilot+ experiences and dependable productivity to enterprise users. For the first time, Dell will offer a full portfolio of commercial PCs based on Ryzen processors, marking a significant milestone in the companies’ collaboration.
+•
+AMD
+expanded
+its broad consumer and commercial AI PC portfolio:
+◦
+New AMD Ryzen AI Max and Ryzen AI Max PRO Series processors deliver workstation-level performance and next-gen AI performance for gaming, content creation and complex AI-accelerated workloads.
+◦
+Expanded Ryzen AI 300 and Ryzen AI 300 PRO Series processors bring premium AI capabilities to mainstream and entry-level notebooks, as well as enhanced security, manageability and support for Microsoft Copilot+ experiences tailored for business users.
+◦
+Additional Ryzen 200 and Ryzen 200 PRO Series processors offer incredible AI experiences, performance and battery life for everyday users and professionals.
+◦
+More than 150 Ryzen AI platforms are expected to be available from leading OEMs this year.
+•
+AMD extended its leadership in high performance computing (HPC), enabling the most powerful and many of the most energy efficient supercomputers in the world:
+◦
+The El Capitan supercomputer at Lawrence Livermore National Laboratory
+became
+the second AMD supercomputer to surpass the exascale barrier, placing #1 on the latest Top500 list.
+◦
+The
+Hunter supercomputer
+at the High-Performance Computing Center of the University of Stuttgart (HLRS), powered by AMD Instinct MI300A APUs, began service, delivering HPC and AI resources for scientists, researchers, industry and the public sector.
+◦
+AMD EPYC processors and AMD Instinct accelerators
+power
+many new supercomputing projects and AI deployments, including the Eni HPC 6 system, the University of Paderborn’s latest supercomputer and the Sigma2 AS system which is slated to be the fastest system in Norway.
+•
+AMD powers incredible experiences for gamers across a broad range of devices:
+◦
+At CES 2025, AMD
+announced
+new AMD Ryzen 9000X3D, Ryzen Z2 and Ryzen 9000HX processors, extending its leadership in desktop, mobile and handheld gaming.
+◦
+AMD
+shared
+the latest version of AMD Software: Adrenalin Edition™, 24.9.1, continuing to enhance gaming experiences with AMD Fluid Motion Frames 2 and AMD HYPR-RX.
+•
+AMD continues to deliver leadership compute performance and capabilities at the edge with an expanded portfolio of solutions:
+4
+◦
+New
+AMD Versal™ Gen 2
+portfolio with next-generation interface and memory technologies for data-intensive applications in the data center, communications, test and measurement and aerospace and defense markets.
+◦
+AMD Versal RF Series
+adaptive SoCs, combining high-resolution radio frequency data converters, dedicated DSP hard IP, AI engines and programmable logic in a single chip.
+◦
+Vodafone and AMD
+announced
+they are collaborating on mobile base station silicon chip designs to enable higher-capacity AI and digital services.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2025, AMD expects revenue to be approximately $7.1 billion, plus or minus $300 million. At the mid-point of the revenue range, this represents year-over-year growth of approximately 30% and a sequential decline of approximately 7%. Non-GAAP gross margin is expected to be approximately 54%.
+AMD Teleconference
+AMD will hold a conference call at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its fourth quarter and full year 2024 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+5
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 28,
+2024
+September 28,
+2024
+December 30,
+2023
+December 28,
+2024
+December 30,
+2023
+GAAP gross profit
+$
+3,882
+$
+3,419
+$
+2,911
+$
+12,725
+$
+10,460
+GAAP gross margin
+51
+%
+50
+%
+47
+%
+49
+%
+46
+%
+Stock-based compensation
+6
+5
+6
+22
+30
+Amortization of acquisition-related intangibles
+252
+233
+215
+946
+942
+Acquisition-related and other costs
+(1)
+—
+—
+1
+1
+4
+Inventory loss at contract manufacturer
+(2)
+—
+—
+—
+65
+—
+Non-GAAP gross profit
+$
+4,140
+$
+3,657
+$
+3,133
+$
+13,759
+$
+11,436
+Non-GAAP gross margin
+54
+%
+54
+%
+51
+%
+53
+%
+50
+%
+GAAP operating expenses
+$
+3,022
+$
+2,709
+$
+2,575
+$
+10,873
+$
+10,093
+GAAP operating expenses/revenue %
+39
+%
+40
+%
+42
+%
+42
+%
+45
+%
+Stock-based compensation
+333
+346
+368
+1,385
+1,350
+Amortization of acquisition-related intangibles
+332
+352
+420
+1,448
+1,869
+Acquisition-related and other costs
+(1)
+46
+55
+60
+185
+258
+Restructuring charges
+(3)
+186
+—
+—
+186
+—
+Non-GAAP operating expenses
+$
+2,125
+$
+1,956
+$
+1,727
+$
+7,669
+$
+6,616
+Non-GAAP operating expenses/revenue %
+28
+%
+29
+%
+28
+%
+30
+%
+29
+%
+GAAP operating income
+$
+871
+$
+724
+$
+342
+$
+1,900
+$
+401
+GAAP operating margin
+11
+%
+11
+%
+6
+%
+7
+%
+2
+%
+Stock-based compensation
+339
+351
+374
+1,407
+1,380
+Amortization of acquisition-related intangibles
+584
+585
+635
+2,394
+2,811
+Acquisition-related and other costs
+(1)
+46
+55
+61
+186
+262
+Inventory loss at contract manufacturer
+(2)
+—
+—
+—
+65
+—
+Restructuring charges
+(3)
+186
+—
+—
+186
+—
+Non-GAAP operating income
+$
+2,026
+$
+1,715
+$
+1,412
+$
+6,138
+$
+4,854
+Non-GAAP operating margin
+26
+%
+25
+%
+23
+%
+24
+%
+21
+%
+Three Months Ended
+Year Ended
+December 28,
+2024
+September 28, 2024
+December 30,
+2023
+December 28,
+2024
+December 30,
+2023
+GAAP net income / earnings per share
+$
+482
+$
+0.29
+$
+771
+$
+0.47
+$
+667
+$
+0.41
+$
+1,641
+$
+1.00
+$
+854
+$
+0.53
+(Gains) losses on equity investments, net
+—
+—
+(1)
+—
+1
+—
+2
+—
+(1)
+—
+Stock-based compensation
+339
+0.21
+351
+0.21
+374
+0.23
+1,407
+0.86
+1,380
+0.85
+Equity income in investee
+(12)
+(0.01)
+(7)
+—
+(6)
+—
+(33)
+(0.02)
+(16)
+(0.01)
+Amortization of acquisition-related intangibles
+584
+0.36
+585
+0.36
+635
+0.39
+2,394
+1.46
+2,811
+1.73
+Acquisition-related and other costs
+(1)
+46
+0.03
+56
+0.03
+61
+0.04
+187
+0.11
+262
+0.16
+Inventory loss at contract manufacturer
+(2)
+—
+—
+—
+—
+—
+—
+65
+0.04
+—
+—
+Restructuring charges
+(3)
+186
+0.11
+—
+—
+—
+—
+186
+0.11
+—
+—
+Income tax provision
+152
+0.10
+(251)
+(0.15)
+(483)
+(0.30)
+(429)
+(0.25)
+(988)
+(0.61)
+Non-GAAP net income / earnings per share
+$
+1,777
+$
+1.09
+$
+1,504
+$
+0.92
+$
+1,249
+$
+0.77
+$
+5,420
+$
+3.31
+$
+4,302
+$
+2.65
+6
+(1)
+Acquisition-related and other costs primarily include transaction costs, purchase price fair value adjustments for inventory, certain compensation charges, contract termination costs and workforce rebalancing charges.
+(2)
+Inventory loss at contract manufacturer is related to an incident at a third-party contract manufacturing facility.
+(3)
+Restructuring charges are related to the 2024 Restructuring Plan which comprised of employee severance charges and non-cash asset impairments.

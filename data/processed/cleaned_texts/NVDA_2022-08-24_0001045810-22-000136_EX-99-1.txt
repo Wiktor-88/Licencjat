@@ -1,1 +1,167 @@
-Document FOR IMMEDIATE RELEASE: NVIDIA Announces Financial Results for Second Quarter Fiscal 2023 • Quarterly revenue of $6.70 billion, up 3% from a year ago • Data Center revenue of $3.81 billion, up 61% from a year ago • Quarterly return to shareholders of $3.44 billion SANTA CLARA, Calif.-Aug. 24, 2022- NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 31, 2022, of $6.70 billion, up 3% from a year ago and down 19% from the previous quarter. GAAP earnings per diluted share for the quarter were $0.26, down 72% from a year ago and down 59% from the previous quarter. Non-GAAP earnings per diluted share were $0.51, down 51% from a year ago and down 63% from the previous quarter. “We are navigating our supply chain transitions in a challenging macro environment and we will get through this,” said Jensen Huang, founder and CEO of NVIDIA. “Accelerated computing and AI, the pioneering work of our company, are transforming industries. Automotive is becoming a tech industry and is on track to be our next billion-dollar business. Advances in AI are driving our Data Center business while accelerating breakthroughs in fields from drug discovery to climate science to robotics. “I look forward to next month’s GTC conference, where we will share new advances in RTX, as well as breakthroughs in AI and the metaverse, the next evolution of the internet. Join us,” he said. During the second quarter of fiscal 2023, NVIDIA returned to shareholders $3.44 billion in share repurchases and cash dividends, following a return of $2.10 billion in the first quarter. The company has $11.93 billion remaining under its share repurchase authorization through December 2023. NVIDIA plans to continue share repurchases this fiscal year. NVIDIA will pay its next quarterly cash dividend of $0.04 per share on September 29, 2022, to all shareholders of record on September 8, 2022. Q2 Fiscal 2023 Summary GAAP ($ in millions, except earnings per share) Q2 FY23 Q1 FY23 Q2 FY22 Q/Q Y/Y Revenue $6,704 $8,288 $6,507 Down 19% Up 3% Gross margin 43.5 % 65.5 % 64.8 % Down 22.0 pts Down 21.3 pts Operating expenses $2,416 $3,563 $1,771 Down 32% Up 36% Operating income $499 $1,868 $2,444 Down 73% Down 80% Net income $656 $1,618 $2,374 Down 59% Down 72% Diluted earnings per share $0.26 $0.64 $0.94 Down 59% Down 72% Non-GAAP ($ in millions, except earnings per share) Q2 FY23 Q1 FY23 Q2 FY22 Q/Q Y/Y Revenue $6,704 $8,288 $6,507 Down 19% Up 3% Gross margin 45.9 % 67.1 % 66.7 % Down 21.2 pts Down 20.8 pts Operating expenses $1,749 $1,608 $1,266 Up 9% Up 38% Operating income $1,325 $3,955 $3,071 Down 66% Down 57% Net income $1,292 $3,443 $2,623 Down 62% Down 51% Diluted earnings per share $0.51 $1.36 $1.04 Down 63% Down 51% Outlook NVIDIA’s outlook for the third quarter of fiscal 2023 is as follows: • Revenue is expected to be $5.90 billion, plus or minus 2%. Gaming and Professional Visualization revenue are expected to decline sequentially, as OEMs and channel partners reduce inventory levels to align with current levels of demand and prepare for NVIDIA’s new product generation. The company expects that decline to be partially offset by sequential growth in Data Center and Automotive. • GAAP and non-GAAP gross margins are expected to be 62.4% and 65.0%, respectively, plus or minus 50 basis points. • GAAP and non-GAAP operating expenses are expected to be approximately $2.59 billion and $1.82 billion, respectively. • GAAP and non-GAAP other income and expense are expected to be an expense of approximately $10 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 9.5%, plus or minus 1%, excluding any discrete items. Highlights NVIDIA achieved progress since its previous earnings announcement in these areas: Data Center • Second-quarter revenue was $3.81 billion, up 61% from a year ago and up 1% from the previous quarter. • Announced that NVIDIA Grace™ superchips are being used to create HGX™ systems by some of the world’s leading computer makers — including Atos, Dell Technologies, GIGABYTE, HPE, Inspur, Lenovo and Supermicro. • Unveiled QODA™, the NVIDIA Quantum Optimized Device Architecture, a unified computing platform for speeding breakthroughs in quantum research and development across AI, HPC, health, finance and other disciplines. • Provided updates for the NeMo™ Megatron large language model framework that enable training speedups of up to 30%. • Expanded NVIDIA Fleet Command™ — a cloud service for deploying, managing and scaling AI applications at the edge — with features that enhance the seamless management of edge AI deployments. • Shared that, in the latest MLPerf training benchmark submissions, NVIDIA and its partners continued to provide the best overall AI training performance and the most submissions across all benchmarks. Gaming • Second-quarter revenue was $2.04 billion, down 33% from a year ago and down 44% from the previous quarter. • Added 30 RTX ON games and apps — including A Plague Tale: Requiem, Evil Dead: The Game and F1 22 — bringing the total available to 280+. • Increased the number of GeForce® RTX™ and NVIDIA Studio™ laptops to a record 180+, including introduction of the fastest-ever laptops with GeForce RTX 3080 Ti, 2-in-1 convertible gaming laptops and a broad range of Studio laptops. • Expanded the GeForce NOW™ library with 80 additional games — including Genshin Impact, Evil Dead the Game, Mass Effect Legendary Edition and Loopmancer with RTX — bringing the total to over 1,350. Professional Visualization • Second-quarter revenue was $496 million, down 4% from a year ago and down 20% from the previous quarter. • Expanded its partnership with Siemens to enable the industrial metaverse and increase use of AI-driven digital twin technology. • Announced Omniverse™ Avatar Cloud Engine, a suite of cloud-native AI models and services that make it easier to build and customize lifelike virtual assistants and digital humans. • Launched a broad initiative to evolve Universal Scene Description, the open-source and extensible language of 3D worlds, to become a foundation of the open metaverse. • Announced a major release of Omniverse with new frameworks, tools, apps and plugins, including 11 new connectors to the Omniverse USD ecosystem that bring the total to 112. • Co-founded the Metaverse Standards Forum to align with other members on the best ways to build the foundations of the metaverse. Automotive • Second-quarter revenue was $220 million, up 45% from a year ago and up 59% from the previous quarter. • Announced rollout plans of new model vehicles using the DRIVE Orin™ compute platform by partners NIO, Li Auto, JIDU, and Human Horizons, as well as Pony.ai’s use of DRIVE Orin across its line of self-driving trucks and robotaxis. CFO Commentary Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/ .
+Document
+FOR IMMEDIATE RELEASE:
+NVIDIA Announces Financial Results for Second Quarter Fiscal 2023
+•
+Quarterly revenue of $6.70 billion, up 3% from a year ago
+•
+Data Center revenue of $3.81 billion, up 61% from a year ago
+•
+Quarterly return to shareholders of $3.44 billion
+SANTA CLARA, Calif.-Aug. 24, 2022-
+NVIDIA (NASDAQ: NVDA) today reported revenue for the second quarter ended July 31, 2022, of $6.70 billion, up 3% from a year ago and down 19% from the previous quarter.
+GAAP earnings per diluted share for the quarter were $0.26, down 72% from a year ago and down 59% from the previous quarter. Non-GAAP earnings per diluted share were $0.51, down 51% from a year ago and down 63% from the previous quarter.
+“We are navigating our supply chain transitions in a challenging macro environment and we will get through this,” said Jensen Huang, founder and CEO of NVIDIA.
+“Accelerated computing and AI, the pioneering work of our company, are transforming industries. Automotive is becoming a tech industry and is on track to be our next billion-dollar business. Advances in AI are driving our Data Center business while accelerating breakthroughs in fields from drug discovery to climate science to robotics.
+“I look forward to next month’s GTC conference, where we will share new advances in RTX, as well as breakthroughs in AI and the metaverse, the next evolution of the internet. Join us,” he said.
+During the second quarter of fiscal 2023, NVIDIA returned to shareholders $3.44 billion in share repurchases and cash dividends, following a return of $2.10 billion in the first quarter. The company has $11.93 billion remaining under its share repurchase authorization through December 2023. NVIDIA plans to continue share repurchases this fiscal year.
+NVIDIA will pay its next quarterly cash dividend of $0.04 per share on September 29, 2022, to all shareholders of record on September 8, 2022.
+Q2 Fiscal 2023 Summary
+GAAP
+($ in millions, except earnings per share)
+Q2 FY23
+Q1 FY23
+Q2 FY22
+Q/Q
+Y/Y
+Revenue
+$6,704
+$8,288
+$6,507
+Down 19%
+Up 3%
+Gross margin
+43.5
+%
+65.5
+%
+64.8
+%
+Down 22.0 pts
+Down 21.3 pts
+Operating expenses
+$2,416
+$3,563
+$1,771
+Down 32%
+Up 36%
+Operating income
+$499
+$1,868
+$2,444
+Down 73%
+Down 80%
+Net income
+$656
+$1,618
+$2,374
+Down 59%
+Down 72%
+Diluted earnings per share
+$0.26
+$0.64
+$0.94
+Down 59%
+Down 72%
+Non-GAAP
+($ in millions, except earnings per share)
+Q2 FY23
+Q1 FY23
+Q2 FY22
+Q/Q
+Y/Y
+Revenue
+$6,704
+$8,288
+$6,507
+Down 19%
+Up 3%
+Gross margin
+45.9
+%
+67.1
+%
+66.7
+%
+Down 21.2 pts
+Down 20.8 pts
+Operating expenses
+$1,749
+$1,608
+$1,266
+Up 9%
+Up 38%
+Operating income
+$1,325
+$3,955
+$3,071
+Down 66%
+Down 57%
+Net income
+$1,292
+$3,443
+$2,623
+Down 62%
+Down 51%
+Diluted earnings per share
+$0.51
+$1.36
+$1.04
+Down 63%
+Down 51%
+Outlook
+NVIDIA’s outlook for the third quarter of fiscal 2023 is as follows:
+•
+Revenue is expected to be $5.90 billion, plus or minus 2%. Gaming and Professional Visualization revenue are expected to decline sequentially, as OEMs and channel partners reduce inventory levels to align with current levels of demand and prepare for NVIDIA’s new product generation. The company expects that decline to be partially offset by sequential growth in Data Center and Automotive.
+•
+GAAP and non-GAAP gross margins are expected to be 62.4% and 65.0%, respectively, plus or minus 50 basis points.
+•
+GAAP and non-GAAP operating expenses are expected to be approximately $2.59 billion and $1.82 billion, respectively.
+•
+GAAP and non-GAAP other income and expense are expected to be an expense of approximately $10 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 9.5%, plus or minus 1%, excluding any discrete items.
+Highlights
+NVIDIA achieved progress since its previous earnings announcement in these areas:
+Data Center
+•
+Second-quarter revenue was $3.81 billion, up 61% from a year ago and up 1% from the previous quarter.
+•
+Announced that NVIDIA Grace™ superchips are being used to create HGX™ systems by some of the world’s leading computer makers — including Atos, Dell Technologies, GIGABYTE, HPE, Inspur, Lenovo and Supermicro.
+•
+Unveiled QODA™, the NVIDIA Quantum Optimized Device Architecture, a unified computing platform for speeding breakthroughs in quantum research and development across AI, HPC, health, finance and other disciplines.
+•
+Provided updates for the NeMo™ Megatron large language model framework that enable training speedups of up to 30%.
+•
+Expanded NVIDIA Fleet Command™ — a cloud service for deploying, managing and scaling AI applications at the edge — with features that enhance the seamless management of edge AI deployments.
+•
+Shared that, in the latest MLPerf training benchmark submissions, NVIDIA and its partners continued to provide the best overall AI training performance and the most submissions across all benchmarks.
+Gaming
+•
+Second-quarter revenue was $2.04 billion, down 33% from a year ago and down 44% from the previous quarter.
+•
+Added 30 RTX ON games and apps — including A Plague Tale: Requiem, Evil Dead: The Game and F1 22 — bringing the total available to 280+.
+•
+Increased the number of GeForce® RTX™ and NVIDIA Studio™ laptops to a record 180+, including introduction of the fastest-ever laptops with GeForce RTX 3080 Ti, 2-in-1 convertible gaming laptops and a broad range of Studio laptops.
+•
+Expanded the GeForce NOW™ library with 80 additional games — including Genshin Impact, Evil Dead the Game, Mass Effect Legendary Edition and Loopmancer with RTX — bringing the total to over 1,350.
+Professional Visualization
+•
+Second-quarter revenue was $496 million, down 4% from a year ago and down 20% from the previous quarter.
+•
+Expanded its partnership with Siemens to enable the industrial metaverse and increase use of AI-driven digital twin technology.
+•
+Announced Omniverse™ Avatar Cloud Engine, a suite of cloud-native AI models and services that make it easier to build and customize lifelike virtual assistants and digital humans.
+•
+Launched a broad initiative to evolve Universal Scene Description, the open-source and extensible language of 3D worlds, to become a foundation of the open metaverse.
+•
+Announced a major release of Omniverse with new frameworks, tools, apps and plugins, including 11 new connectors to the Omniverse USD ecosystem that bring the total to 112.
+•
+Co-founded the Metaverse Standards Forum to align with other members on the best ways to build the foundations of the metaverse.
+Automotive
+•
+Second-quarter revenue was $220 million, up 45% from a year ago and up 59% from the previous quarter.
+•
+Announced rollout plans of new model vehicles using the DRIVE Orin™ compute platform by partners NIO, Li Auto, JIDU, and Human Horizons, as well as Pony.ai’s use of DRIVE Orin across its line of self-driving trucks and robotaxis.
+CFO Commentary
+Commentary on the quarter by Colette Kress, NVIDIA’s executive vice president and chief financial officer, is available at https://investor.nvidia.com/
+.

@@ -1,1 +1,116 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Second Quarter Fiscal 2025 Results
+GAAP Revenues: $11.0 billion
+GAAP EPS: $2.52, Non-GAAP EPS: $2.85
+—QCT EBT: 25% Year-Over-Year Growth—
+—QCT Diversification: Combined Automotive and IoT Revenues Grew 38% Year-Over-Year—
+SAN DIEGO - April 30, 2025
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal second quarter ended March 30, 2025.
+"We are pleased to report another quarter of strong results,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “As we navigate the current macroeconomic and trade environment, we remain focused on the critical factors we can control – our leading technology roadmap, best-in-class product portfolio, strong customer relationships and operational efficiencies. Our top priorities remain executing our diversification strategy and continuing to invest in areas that drive long-term value.”
+Second Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q2 Fiscal 2025
+Q2 Fiscal 2024
+Change
+Q2 Fiscal 2025
+Q2 Fiscal 2024
+Change
+Revenues
+$10,979
+$9,389
++17%
+$10,836
+$9,386
++15%
+Earnings before taxes (EBT)
+$3,105
+$2,498
++24%
+$3,694
+$3,175
++16%
+Net income
+$2,812
+$2,326
++21%
+$3,172
+$2,761
++15%
+Diluted earnings per share (EPS)
+$2.52
+$2.06
++22%
+$2.85
+$2.44
++17%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q2 Fiscal 2025
+Q2 Fiscal 2024
+Change
+Q2 Fiscal 2025
+Q2 Fiscal 2024
+Change
+Revenues
+$9,469
+$8,026
++18%
+$1,319
+$1,318
+—
+EBT
+$2,857
+$2,288
++25%
+$929
+$933
+—
+EBT as % of revenues
+30%
+29%
++1 point
+70%
+71%
+-1 point
+Qualcomm Announces Second Quarter Fiscal 2025 Results
+Page 2 of 8
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q2 Fiscal 2025
+Q2 Fiscal 2024
+Change
+Handsets
+$6,929
+$6,180
++12%
+Automotive
+959
+603
++59%
+IoT (internet of things)
+1,581
+1,243
++27%
+Total QCT revenues
+$9,469
+$8,026
++18%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the second quarter of fiscal 2025, we returned $2.7 billion to stockholders, including $938 million, or $0.85 per share, of cash dividends paid and $1.7 billion
+through repurchases of 11 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

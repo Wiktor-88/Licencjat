@@ -1,4 +1,4 @@
-# Drugi plik - pobieranie danych finanosywch z Yahoo Finance (yfinance)
+# Drugi plik - pobieranie historycznych danych finansowych z Yahoo Finance
 
 
 import logging
@@ -15,7 +15,7 @@ OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "market_data.csv"
 
 def download_market_data(tickers: list[str], start_date: str, end_date: str) -> pd.DataFrame:
     """
-    Pobiera dane z yfinanse z zadanej daty dla danych tickerów i
+    Pobiera dane z yfinance z zadanego zakresu dla wybranych tickerów
     zapiuje je w ramce danych
     """
 
@@ -94,7 +94,8 @@ def download_market_data(tickers: list[str], start_date: str, end_date: str) -> 
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+    logging.basicConfig(level=logging.INFO,
+                        format="%(asctime)s - %(levelname)s - %(message)s")
 
     tickers = [
         "AAPL",

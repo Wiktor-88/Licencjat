@@ -14,11 +14,10 @@ from pathlib import Path
 
 from src.models.model_utils import (add_confusion_metrics, calculate_metrics,
     create_summary, log_repeated_events, prepare_model_dataset, select_sec_features,
-    validate_target, add_sentiment_context)
+    validate_target)
 
 from src.models.model_config import (
-    CATEGORICAL_FEATURES, MARKET_COMPACT_FEATURES, MARKET_FEATURES, MARKET_Z_FEATURES,
-    MIN_SEC_COUNT, SEC_BINARY_CANDIDATES, SENTIMENT_CONTEXT_FEATURES, SENTIMENT_FEATURES,
+    CATEGORICAL_FEATURES, MARKET_FEATURES, MIN_SEC_COUNT, SEC_BINARY_CANDIDATES, SENTIMENT_FEATURES,
     SENTIMENT_HISTORY_FLAG, TARGET, TEST_YEARS)
 
 
@@ -38,21 +37,13 @@ COEFFICIENTS_FILE = OUTPUT_DIR / "logistic_coefficients.csv"
 
 
 def validate_market_features(df: pd.DataFrame) -> None:
-    feature_sets = {"MARKET": MARKET_FEATURES,
-                    "MARKET_Z60": MARKET_Z_FEATURES,
-                    "MARKET_COMPACT": MARKET_COMPACT_FEATURES}
-
-    for name, features in feature_sets.items():
-        values = df[features].apply(pd.to_numeric, errors="coerce")
-
-        missing = values.isna().sum()
-        missing = missing[missing > 0]
-
-        if not missing.empty:
-            raise ValueError(f"Braki w {name}:\n{missing}")
-
-        if not np.isfinite(values.to_numpy()).all():
-            raise ValueError(f"{name} zawiera wartości inf lub -inf")
+    values = df[MARKET_FEATURES].apply(pd.to_numeric, errors="coerce")
+    missing = values.isna().sum()
+    missing = missing[missing > 0]
+    if not missing.empty:
+        raise ValueError(f"Braki w MARKET:\n{missing}")
+    if not np.isfinite(values.to_numpy()).all():
+        raise ValueError("MARKET zawiera wartości inf lub -inf")
 
 
 def validate_sec_features(df: pd.DataFrame) -> None:
@@ -170,7 +161,8 @@ def evaluate_logistic_model(
     coefficients["Abs_Coefficient"] = coefficients["Coefficient"].abs()
 
     predictions = test_df[
-        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+            "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = model_name
@@ -227,7 +219,8 @@ def evaluate_dummy(train_df: pd.DataFrame, test_df: pd.DataFrame, test_year: int
     add_confusion_metrics(result=result, y_true=y_test, y_pred=y_pred)
 
     predictions = test_df[
-        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D"]].copy()
+        ["Ticker", "Event_Session", "Accession", "Abnormal_Event_Return_1D",
+            "Tradable_Abnormal_Return_1D"]].copy()
 
     predictions["Test_Year"] = test_year
     predictions["Model"] = "DUMMY"
@@ -238,47 +231,20 @@ def evaluate_dummy(train_df: pd.DataFrame, test_df: pd.DataFrame, test_year: int
     return result, predictions
 
 
-# Konfiguracja modeli
+# Finalne warianty A/B/C. Zestawy Z60 i COMPACT zostają tylko w analizie VIF.
 def build_model_configs(selected_sec: list[str]) -> list[dict]:
     return [{"name": "MODEL A - MARKET",
-            "numeric": MARKET_FEATURES,
-            "binary": [],
-            "sentiment": []},
-
-            {"name": "MODEL A2 - MARKET Z60",
-            "numeric": MARKET_Z_FEATURES,
-            "binary": [],
-            "sentiment": []},
-
-            {"name": "MODEL A3 - MARKET COMPACT",
-            "numeric": MARKET_COMPACT_FEATURES,
-            "binary": [],
-            "sentiment": []},
-
+             "numeric": MARKET_FEATURES,
+             "binary": [],
+             "sentiment": []},
             {"name": "MODEL B - MARKET + SEC",
-            "numeric": MARKET_FEATURES,
-            "binary": selected_sec,
-            "sentiment": []},
-
-            {"name": "MODEL B3 - COMPACT + SEC",
-            "numeric": MARKET_COMPACT_FEATURES,
-            "binary": selected_sec,
-            "sentiment": []},
-
+             "numeric": MARKET_FEATURES,
+             "binary": selected_sec,
+             "sentiment": []},
             {"name": "MODEL C - MARKET + SEC + FINBERT",
-            "numeric": MARKET_FEATURES,
-            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
-            "sentiment": SENTIMENT_FEATURES},
-
-            {"name": "MODEL C2 - MARKET + SEC + FINBERT CONTEXT",
-            "numeric": MARKET_FEATURES,
-            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
-            "sentiment": SENTIMENT_CONTEXT_FEATURES},
-
-            {"name": "MODEL C3 - COMPACT + SEC + FINBERT",
-            "numeric": MARKET_COMPACT_FEATURES,
-            "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
-            "sentiment": SENTIMENT_FEATURES}]
+             "numeric": MARKET_FEATURES,
+             "binary": selected_sec + [SENTIMENT_HISTORY_FLAG],
+             "sentiment": SENTIMENT_FEATURES}]
 
 
 # Main
@@ -288,8 +254,6 @@ def main() -> None:
 
     df = pd.read_csv(DATA_FILE)
     df = prepare_model_dataset(df, TARGET)
-    df = add_sentiment_context(df)
-
     validate_target(df, TARGET)
     validate_market_features(df)
     validate_sec_features(df)

@@ -1,1 +1,8 @@
-Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers. (b) On September 20, 2021, Mike Schroepfer informed Facebook, Inc. ("Facebook") of his intention to resign from his position as Chief Technology Officer of Facebook after a transition period. In 2022, Mr. Schroepfer will become a Senior Fellow at Facebook, in which role he will work on initiatives such as recruiting and developing technical talent and fostering the company's artificial intelligence investments. The effective date of the transition and the compensation terms of such arrangement have not yet been determined. Item 9.01 Financial Statements and Exhibits. (d) Exhibits Exhibit Number Exhibit Title or Description 104 Cover Page Interactive Data File (the cover page XBRL tags are embedded within the inline XBRL document)
+Item 5.02 Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+(b) On September 20, 2021, Mike Schroepfer informed Facebook, Inc. ("Facebook") of his intention to resign from his position as Chief Technology Officer of Facebook after a transition period. In 2022, Mr. Schroepfer will become a Senior Fellow at Facebook, in which role he will work on initiatives such as recruiting and developing technical talent and fostering the company's artificial intelligence investments. The effective date of the transition and the compensation terms of such arrangement have not yet been determined.
+Item 9.01 Financial Statements and Exhibits.
+(d) Exhibits
+Exhibit Number
+Exhibit Title or Description
+104
+Cover Page Interactive Data File (the cover page XBRL tags are embedded within the inline XBRL document)

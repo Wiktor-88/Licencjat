@@ -1,1 +1,627 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Suresh Bhaskaran
+AMD Investor Relations
+408-749-2845
+suresh.bhaskaran@amd.com
+AMD Reports Fourth Quarter and Full Year 2022 Financial Results
+― Record full year revenue of $23.6 Billion up 44% year-over-year ―
+SANTA CLARA, Calif. ― Jan. 31, 2023 ―
+AMD
+(NASDAQ:AMD) today announced revenue for the fourth quarter of 2022 of $5.6 billion, gross margin of 43%, operating loss of $149 million, net income of $
+21 million
+and diluted earnings per share of
+$0.01
+. On a non-GAAP
+(*)
+basis, gross margin was 51%, operating income was $1.3 billion, net income was $1.1 billion and diluted earnings per share was $0.69.
+For full year 2022, the company reported revenue of $23.6 billion, gross margin of 45%, operating income of $1.3 billion, net income of $
+1.3
+billion and diluted earnings per share of $
+0.84
+. On a non-GAAP
+(*)
+basis, gross margin was 52%, operating income was $6.3 billion, net income was $5.5 billion and diluted earnings per share was $3.50.
+GAAP Quarterly Financial Results
+Q4 2022
+Q4 2021
+Y/Y
+Revenue ($M)
+$5,599
+$4,826
+Up  16%
+Gross profit ($M)
+$2,403
+$2,426
+Flat
+Gross margin %
+43%
+50%
+Down 740 bps
+Operating expenses ($M)
+$2,557
+$1,223
+Up 109%
+Operating income (loss) ($M)
+$(149)
+$1,207
+Down 112%
+Operating margin %
+(3)%
+25%
+Down 28pp
+Net income ($M)
+$21
+$974
+Down 98%
+Earnings per share
+$0.01
+$0.80
+Down 99%
+1
+Non-GAAP(*) Quarterly Financial Results
+Q4 2022
+Q4 2021
+Y/Y
+Revenue ($M)
+$5,599
+$4,826
+Up 16%
+Gross profit ($M)
+$2,859
+$2,427
+Up 18%
+Gross margin %
+51%
+50%
+Up 70 bps
+Operating expenses ($M)
+$1,602
+$1,103
+Up 45%
+Operating income ($M)
+$1,262
+$1,328
+Down 5%
+Operating margin %
+23%
+27%
+Down 4pp
+Net income ($M)
+$1,113
+$1,122
+Flat
+Earnings per share
+$0.69
+$0.92
+Down 25%
+Annual Financial Results
+GAAP
+Non-GAAP
+(*)
+2022
+2021
+Y/Y
+2022
+2021
+Y/Y
+Revenue ($M)
+$23,601
+$16,434
+Up 44%
+$23,601
+$16,434
+Up 44%
+Gross profit ($M)
+$10,603
+$7,929
+Up 34%
+$12,273
+$7,934
+Up 55%
+Gross margin %
+45%
+48%
+Down 330bps
+52%
+48%
+Up 370bps
+Operating expenses ($M)
+$9,441
+$4,293
+Up 120%
+$6,030
+$3,877
+Up 56%
+Operating income ($M)
+$1,264
+$3,648
+Down 65%
+$6,345
+$4,069
+Up 56%
+Operating margin %
+5%
+22%
+Down 17pp
+27%
+25%
+Up 2pp
+Net income ($M)
+$1,320
+$3,162
+Down 58%
+$5,504
+$3,435
+Up 60%
+Earnings per share
+$0.84
+$2.57
+Down 67%
+$3.50
+$2.79
+Up 25%
+“2022 was a strong year for AMD as we delivered best-in-class growth and record revenue despite the weak PC environment in the second half of the year," said AMD Chair and CEO Dr. Lisa Su. "We accelerated our data center momentum and closed our strategic acquisition of Xilinx, significantly diversifying our business and strengthening our financial model. Although the demand environment is mixed, we are confident in our ability to gain market share in 2023 and deliver long-term growth based on our differentiated product portfolio.”
+Q4 2022 Results
+•
+Revenue of $5.6 billion increased 16% year-over-year primarily driven by growth across the Embedded and Data Center segments, partially offset by lower Client and Gaming segment revenue.
+•
+Gross margin was 43%, a decrease of 7 percentage points year-over-year, primarily due to amortization of intangible assets associated with the Xilinx acquisition. Non-GAAP gross margin was 51%, an increase of 1 percentage point year-over-year, primarily driven by a richer product mix with higher Embedded and Data Center segment revenue, partially offset by lower Client segment revenue.
+•
+Operating loss was $149 million, compared to operating income of $1.2 billion, or
+25
+% of revenue a year ago. The loss was primarily due to the amortization of intangible assets associated with the Xilinx acquisition. Non
+-GAAP operating income was $1.3 billion, or 23% of
+2
+revenue, compared to $1.3 billion or 27
+% a year ago. The non-GAAP operating margin decline was primarily due to lower Client segment operating income.
+•
+Net income was $
+21
+million compared to net income of $974 million a year ago primarily due to the amortization of intangible assets associated with the Xilinx acquisition
+, partially offset by a $154 million tax benefit in the quarter
+. Non-GAAP net income was $1.1 billion, flat from a year ago.
+•
+Diluted earnings per share was $0.
+01
+compared to $0.80 a year ago primarily due to the amortization of intangible assets associated with the Xilinx acquisition
+, partially offset by a $154 million tax benefit in the quarter
+. Non-GAAP diluted earnings per share was $0.69 compared to $0.92 a year ago primarily due to lower Client segment operating income.
+•
+Cash, cash equivalents and short-term investments were $5.9 billion at the end of the quarter. The company returned $250 million to shareholders through share repurchases in the quarter.
+•
+Cash from operations was $567 million in the quarter, compared to $822 million a year ago.
+Free cash flow was $443 million in the quarter compared to $736 million a year ago.
+•
+Goodwill and acquisition-related intangible assets associated with the acquisitions of Xilinx and Pensando were $
+48.3
+billion at the end of the quarter.
+Quarterly Financial Segment Summary
+•
+Prior period results have been conformed to the current reporting segments for comparison purposes.
+•
+Data Center segment revenue was $1.7 billion, up 42% year-over-year primarily driven by strong sales of EPYC™ server processors. Operating income was $444 million, or 27% of revenue, compared to $369 million or 32% a year ago. The operating income increase was primarily driven by higher revenue, partially offset by higher R&D investments to support growth. The operating margin decrease was primarily due to higher R&D investments to support growth.
+•
+Client segment revenue was $903 million, down 51% year-over-year due to reduced processor shipments resulting from a weak PC market and a significant inventory correction across the PC supply chain. Client processor ASP was flat year-over-year. Operating loss was $152 million, compared to operating income of $530 million or 29% of revenue a year ago primarily due to lower revenue.
+•
+Gaming segment revenue was $1.6 billion, down 7% year-over-year driven by lower gaming graphics sales partially offset by higher semi-custom product revenue. Operating income was $266 million, or 16% of revenue, compared to $407 million or 23% a year ago. The operating income and margin decreases were primarily due to lower graphics revenue.
+3
+•
+Embedded segment revenue was $1.4 billion, up 1,868% year-over-year primarily driven by the inclusion of Xilinx embedded revenue. Operating income was $699 million, or 50% of revenue, compared to $18 million or 25% a year ago. The operating income and margin increases were primarily driven by higher revenue.
+•
+All Other operating loss was $1.4 billion as compared to $117 million a year ago primarily due to amortization of intangible assets largely associated with the Xilinx acquisition.
+2022 Annual Results
+•
+Revenue of $23.6 billion was up 44% over 2021 driven by higher Embedded, Data Center, and Gaming segment revenue, partially offset by lower Client segment revenue. On a combined AMD and Xilinx company basis, 2022 pro forma revenue was $24.1 billion, up 20% compared to $20.1 billion in 2021.
+•
+Gross margin was 45%, a decrease of 3 percentage points over 2021 primarily due to amortization of intangible assets associated with the Xilinx acquisition.  Non-GAAP gross margin was 52%, an increase of 4 percentage points compared to a year ago, primarily driven by a richer product mix with higher Embedded and Data Center segment revenue, partially offset by lower Client segment revenue.
+•
+Operating income was $1.3 billion compared to $3.6 billion in the prior year. The decrease was primarily due to the amortization of intangible assets associated with the Xilinx acquisition. Non-GAAP operating income was $6.3 billion compared to $4.1 billion in the prior year primarily driven by higher revenue and gross margin expansion.
+•
+Net income was
+$1.3
+billion compared to $3.2 billion in the prior year. Non-GAAP net income was $5.5 billion compared to $3.4 billion in the prior year.
+•
+Diluted earnings per share was $
+0.
+84 compared to $2.57 in the prior year. Non-GAAP diluted earnings per share was $3.50 compared to $2.79 in the prior year
+.
+•
+Cash
+,
+cash equivalents and short-term investments were $5.9 billion at the end of the year. The company returned a total of $
+3.7
+billion to shareholders through share repurchases in 2022.
+•
+Cash from operations was $3.6 billion, compared to $3.5 billion in the prior year.
+Free cash flow was $3.1 billion compared to $3.2 billion in the prior year.
+Recent PR Highlights
+•
+AMD showcased continued growth and momentum in the data center with AMD EPYC processors powering the modern data center and critical cloud workloads.
+◦
+AMD
+announced
+the availability of 4
+th
+Gen AMD EPYC CPUs, delivering leadership performance and energy efficiency. The latest AMD EPYC processors, built on the “Zen 4” core, deliver next-generation architecture, technology and features to power the modern data center. Cloud service providers including Google Cloud, Microsoft and
+4
+Oracle Cloud Infrastructure announced planned solutions leveraging the performance and security features of 4
+th
+Gen AMD EPYC CPUs.
+◦
+AMD
+powers
+101 supercomputers in the latest Top500 list of the most powerful supercomputers in the world and 75% of the top 20 systems on the Green500 list of the world’s most energy efficient supercomputers.
+•
+AMD delivered the opening keynote at CES 2023 alongside partners Microsoft, HP, Lenovo, Magic Leap and Intuitive Surgical highlighting next-generation AMD technologies advancing AI, hybrid work, gaming, healthcare, aerospace and sustainable computing. During the keynote, AMD announced:
+◦
+The
+broadest portfolio
+of high-performance PC products for mobile and desktop applications, including Ryzen™ 7000X3D Series Desktop processors that bring the power of AMD 3D V-Cache™ technology to gamers and creators and Ryzen 7000 Series Mobile processors that deliver unparalleled performance for demanding workloads with up to 16 powerful “Zen 4” cores and bring new Ryzen AI technology to select laptop devices.
+◦
+AMD
+Radeon™ RX 7000
+Series Graphics for laptop PCs, built on AMD RDNA™ 3 architecture and designed to deliver exceptional energy efficiency and performance to power 1080p gaming at ultra-settings and advanced content creation applications on next-generation premium laptops.
+◦
+The AMD Alveo™ V70 AI Accelerator with industry-leading performance and energy efficiency for multiple AI inference workloads.
+◦
+A preview of the world’s first integrated data center CPU and GPU, the AMD Instinct™ MI300. Designed for leadership HPC and AI performance, MI300 accelerators leverage chiplet design combining AMD CDNA™ 3 GPU architecture, “Zen 4” CPU cores, and HBM.
+◦
+AMD Vitis™ Medical Imaging libraries to bring premium medical imaging products to market faster by reducing development times. These software libraries accelerate premium medical imaging on AMD Versal™ SoC devices with AI Engines to deliver healthcare providers and their patients high-quality, low-latency imaging.
+•
+AMD continued to showcase its embedded market leadership.
+◦
+AMD
+announced
+its collaboration with the Energy Sciences Network on the launch of ESnet6, the newest generation of the U.S. Department of Energy’s high-performance network dedicated to science.
+◦
+AMD
+announced
+it completed Class B qualification for the company’s first space-grade Versal adaptive SoCs.
+◦
+AMD
+shared
+that the AMD Xilinx Automotive (XA) Zynq™ UltraScale+™
+MPSoC platform has been selected to power the Aisin Automated Parking-Assist (APA) system.
+5
+◦
+AMD
+unveiled
+the new Alveo X3 series network cards, the first AMD network cards designed with screened FPGAs and optimized specifically for low latency trading.
+◦
+AMD and Viettel High Tech
+announced
+a collaboration on a 5G mobile network expansion.
+◦
+AMD
+announced
+that its adaptive computing technology is powering leading mobility supplier DENSO Corporation’s next-generation LiDAR platform.
+•
+AMD announced the
+Radeon RX 7900 series graphics cards
+, the world’s first gaming graphics cards to feature an advanced AMD chiplet design, delivering exceptional performance and energy efficiency to power high-framerate 4K and higher resolution gaming in the most demanding titles.
+•
+AMD
+announced
+changes to its senior leadership team, including the retirement of executive vice president, chief financial officer and treasurer Devinder Kumar after 39 years with the company. The company appointed Jean Hu as AMD executive vice president, chief financial officer and treasurer, effective January 23, 2023 and
+announced
+the promotion of Forrest Norrod to executive vice president and general manager of the Data Center Solutions business group.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2023, AMD expects revenue to be approximately $5.3 billion, plus or minus $300 million, a decrease of approximately 10% year-over-year. Year-over-year the Client and Gaming segments are expected to decline, partially offset by Embedded and Data Center segment growth.
+AMD expects non-GAAP gross margin to be approximately 50% in the first quarter of 2023.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its fourth quarter and full-year 2022 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+6
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 31,
+2022
+December 25,
+2021
+December 31,
+2022
+December 25,
+2021
+GAAP gross profit
+$
+2,403
+$
+2,426
+$
+10,603
+$
+7,929
+GAAP gross margin %
+43
+%
+50
+%
+45
+%
+48
+%
+Stock-based compensation
+9
+1
+29
+5
+Acquisition-related costs
+(1)
+4
+—
+193
+—
+Amortization of acquired intangible assets
+443
+—
+1,448
+—
+Non-GAAP gross profit
+$
+2,859
+$
+2,427
+$
+12,273
+$
+7,934
+Non-GAAP gross margin %
+51
+%
+50
+%
+52
+%
+48
+%
+GAAP operating expenses
+$
+2,557
+$
+1,223
+$
+9,441
+$
+4,293
+GAAP operating expenses/revenue %
+46
+%
+25
+%
+40
+%
+26
+%
+Stock-based compensation
+301
+111
+983
+374
+Acquisition-related costs
+(1)
+53
+9
+328
+42
+Amortization of acquired intangible assets
+601
+—
+2,100
+—
+Non-GAAP operating expenses
+$
+1,602
+$
+1,103
+$
+6,030
+$
+3,877
+Non-GAAP operating expenses/revenue %
+29
+%
+23
+%
+26
+%
+24
+%
+GAAP operating income (loss)
+$
+(149)
+$
+1,207
+$
+1,264
+$
+3,648
+GAAP operating margin %
+(3)
+%
+25
+%
+5
+%
+22
+%
+Stock-based compensation
+310
+112
+1,012
+379
+Acquisition-related costs
+(1)
+57
+9
+521
+42
+Amortization of acquired intangible assets
+1,044
+—
+3,548
+—
+Non-GAAP operating income
+$
+1,262
+$
+1,328
+$
+6,345
+$
+4,069
+Non-GAAP operating margin %
+23
+%
+27
+%
+27
+%
+25
+%
+Three Months Ended
+Year Ended
+December 31,
+2022
+December 25,
+2021
+December 31,
+2022
+December 25,
+2021
+GAAP net income / earnings per share
+$
+21
+$
+0.01
+$
+974
+$
+0.80
+$
+1,320
+$
+0.84
+$
+3,162
+$
+2.57
+Loss on debt redemption/conversion
+—
+—
+—
+—
+—
+—
+7
+—
+(Gains) losses on equity investments, net
+5
+—
+(4)
+—
+62
+0.04
+(56)
+(0.04)
+Stock-based compensation
+310
+0.19
+112
+0.09
+1,012
+0.64
+379
+0.31
+Equity income in investee
+(3)
+—
+—
+—
+(14)
+(0.01)
+(6)
+—
+Acquisition-related costs
+(1)
+57
+0.04
+9
+—
+521
+0.33
+42
+0.03
+Amortization of acquired intangible assets
+1,044
+0.65
+—
+—
+3,548
+2.26
+—
+—
+Income tax provision
+(321)
+(0.20)
+31
+0.03
+(945)
+(0.60)
+(93)
+(0.08)
+Non-GAAP net income / earnings per share
+$
+1,113
+$
+0.69
+$
+1,122
+$
+0.92
+$
+5,504
+$
+3.50
+$
+3,435
+$
+2.79
+(1)
+Acquisition-related costs primarily comprised of transaction costs, purchase price adjustments for inventory and certain compensation charges
+7
+RECONCILIATION OF AMD AS-REPORTED REVENUE TO PRO FORMA REVENUE
+(in billions) (Unaudited)
+Year Ended
+December 31,
+2022
+December 25,
+2021
+AMD Net Revenue - As reported
+23.6
+16.4
+Pre-Acquisition Revenue
+(1)
+0.5
+3.7
+AMD Net Revenue - Pro forma
+(2)
+24.1
+20.1
+(1)
+Pre-acquisition revenue for the year ended December 31, 2022 includes unaudited Xilinx revenue from January 2, 2022 to February 13, 2022. Pre-acquisition revenue for the year ended December 25, 2021 includes unaudited Xilinx revenue for the twelve months ended January 1, 2022.
+(2)
+The unaudited AMD net revenue prepared on a pro forma basis represents the Company's consolidated revenue for the year ended December 31, 2022 and December 25, 2021, as if the acquisitions had been consummated as of the beginning of the fiscal year 2021 (i.e., December 27, 2020). The unaudited pro forma revenue is presented on the basis of the Company’s fiscal year and combines the historical results of the fiscal periods of the Company with the following historical results of Xilinx: the year ended December 31, 2022 includes Xilinx revenue for the twelve-month period beginning January 2, 2022 through December 31, 2022; and the year ended December 25, 2021 includes Xilinx revenue for the twelve months ended January 1, 2022.
+The unaudited pro forma financial revenue presented is for informational purposes only and is not necessarily indicative of the results of operations that would have been achieved if the Xilinx acquisitions were completed at the beginning of fiscal year 2021 and are not indicative of the future operating results of the combined company.

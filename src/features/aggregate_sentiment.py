@@ -1,5 +1,6 @@
 # Piąty plik - odpoiwada za połączneie analizy sentymentów z danymi SEC
 
+import re
 from pathlib import Path
 
 import numpy as np
@@ -14,6 +15,11 @@ INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "sentiment_blocks.csv"
 METADATA_FILE = PROJECT_ROOT / "data" / "processed" / "sec_document_metadata.csv"
 OUTPUT_FILE = PROJECT_ROOT/ "data" / "processed" / "sentiment_filing_features.csv"
 
+EVENT_PATTERNS = {
+    "Has_Event_Earnings": re.compile(r"\b(?:earnings|financial results|quarterly results|results for the (?:first|second|third|fourth) quarter)\b", re.IGNORECASE),
+    "Has_Event_Guidance": re.compile(r"\b(?:guidance|financial outlook|revenue outlook|earnings outlook|updates? its (?:financial )?guidance)\b", re.IGNORECASE),
+    "Has_Event_Buyback": re.compile(r"\b(?:share repurchase|stock repurchase|repurchase (?:program|authorization)|buyback)\b", re.IGNORECASE)}
+
 
 # Wymagane kolumny z sentiment
 REQUIRED_COLUMNS = [
@@ -23,6 +29,7 @@ REQUIRED_COLUMNS = [
     "Source_Type",
     "Item_Number",
     "Block_ID",
+    "Text_Snippet",
     "Predicted_Label",
     "Prob_Positive",
     "Prob_Negative",
@@ -38,6 +45,21 @@ def validate_dataframe(df: pd.DataFrame) -> None:
 
     if missing_columns:
         raise ValueError(f"Brakuje wymaganych kolumn w sentiment_blocks.csv: {missing_columns}")
+
+
+def create_block_weights(df: pd.DataFrame) -> pd.Series:
+    """Używa liczby tokenów, a dla starszego pliku liczby słów w zapisanym fragmencie."""
+    word_count = df["Text_Snippet"].fillna("").str.findall(r"\S+").str.len().clip(lower=1)
+    if "Token_Count" not in df.columns:
+        return word_count.astype(float)
+
+    token_count = pd.to_numeric(df["Token_Count"], errors="coerce")
+    return token_count.where(token_count.gt(0), word_count).astype(float)
+
+
+def create_event_features(filing_df: pd.DataFrame) -> dict[str, int]:
+    text = " ".join(filing_df["Text_Snippet"].dropna().astype(str))
+    return {feature: int(bool(pattern.search(text))) for feature, pattern in EVENT_PATTERNS.items()}
 
 
 # Agregacja pojedyńczego filingu
@@ -93,6 +115,7 @@ def aggregate_single_filing(filing_df: pd.DataFrame) -> dict:
         "Item_Numbers": "|".join(item_numbers),
         "Source_Types": "|".join(source_types),
     }
+    result.update(create_event_features(filing_df))
 
 
     # Liczebność klas
@@ -124,6 +147,9 @@ def aggregate_single_filing(filing_df: pd.DataFrame) -> dict:
     if sentiment_blocks[probability_columns].isna().any().any():
         raise ValueError(f"Brakujące wartości sentymentu dla filingu {accession}")
 
+    weights = create_block_weights(sentiment_blocks)
+    total_weight = float(weights.sum())
+
     # Najbardziej pozytywny blok
     most_positive_index = sentiment_blocks["Prob_Positive"].idxmax()
 
@@ -142,18 +168,25 @@ def aggregate_single_filing(filing_df: pd.DataFrame) -> dict:
         "Negative_Block_Count": negative_count,
         "Neutral_Block_Count": neutral_count,
 
-        "Positive_Ratio": positive_count / sentiment_block_count,
-        "Negative_Ratio": negative_count / sentiment_block_count,
-        "Neutral_Ratio": neutral_count / sentiment_block_count,
+        "Positive_Ratio": float(weights[labels == "positive"].sum() / total_weight),
+        "Negative_Ratio": float(weights[labels == "negative"].sum() / total_weight),
+        "Neutral_Ratio": float(weights[labels == "neutral"].sum() / total_weight),
 
-        "Mean_Positive": sentiment_blocks["Prob_Positive"].mean(),
-        "Mean_Negative": sentiment_blocks["Prob_Negative"].mean(),
-        "Mean_Neutral": sentiment_blocks["Prob_Neutral"].mean(),
+        "Mean_Positive": float(np.average(sentiment_blocks["Prob_Positive"], weights=weights)),
+        "Mean_Negative": float(np.average(sentiment_blocks["Prob_Negative"], weights=weights)),
+        "Mean_Neutral": float(np.average(sentiment_blocks["Prob_Neutral"], weights=weights)),
 
-        "Mean_Net_Sentiment": sentiment_blocks["Net_Sentiment"].mean(),
+        "Mean_Net_Sentiment": float(np.average(sentiment_blocks["Net_Sentiment"], weights=weights)),
         "Median_Net_Sentiment": sentiment_blocks["Net_Sentiment"].median(),
         "Min_Net_Sentiment": sentiment_blocks["Net_Sentiment"].min(),
         "Max_Net_Sentiment": sentiment_blocks["Net_Sentiment"].max(),
+
+        "Unweighted_Mean_Positive": sentiment_blocks["Prob_Positive"].mean(),
+        "Unweighted_Mean_Negative": sentiment_blocks["Prob_Negative"].mean(),
+        "Unweighted_Mean_Neutral": sentiment_blocks["Prob_Neutral"].mean(),
+        "Unweighted_Mean_Net_Sentiment": sentiment_blocks["Net_Sentiment"].mean(),
+        "Sentiment_Total_Tokens": total_weight,
+        "Sentiment_Weighting": "token_count" if "Token_Count" in sentiment_blocks.columns else "word_count_fallback",
 
         "Max_Positive_Probability": sentiment_blocks["Prob_Positive"].max(),
         "Max_Negative_Probability": sentiment_blocks["Prob_Negative"].max(),

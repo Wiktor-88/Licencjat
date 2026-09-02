@@ -1,1 +1,640 @@
-Exhibit NEWS RELEASE
+Exhibit
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact
+Laura Graves
+AMD Investor Relations
+408-749-5467
+laura.graves@amd.com
+AMD Reports Fourth Quarter and Annual 2019 Financial Results
+- Record quarterly revenue of $2.13 billion; record annual revenue of $6.73 billion -
+- Gross margin expanded to 45 percent in Q4 2019 and 43 percent for 2019 -
+SANTA CLARA, Calif. - Jan. 28, 2020 -
+AMD
+(NASDAQ:AMD) today announced revenue for the fourth quarter of 2019 of $2.13 billion, operating income of $348 million, net income of $170 million and diluted earnings per share of $0.15. On a non-GAAP
+(*)
+basis, operating income was $405 million, net income was $383 million and diluted earnings per share was $0.32.
+For fiscal year 2019, the company reported revenue of $6.73 billion, operating income of $631 million, net income of $341 million and diluted earnings per share of $0.30. On a non-GAAP
+(*)
+basis, operating income was $840 million, net income was $756 million and diluted earnings per share was $0.64.
+GAAP Quarterly Financial Results
+Q4 2019
+Q4 2018
+Y/Y
+Q3 2019
+Q/Q
+Revenue ($B)
+$2.13
+$1.42
+Up 50%
+$1.80
+Up 18%
+Gross margin
+45%
+38%
+Up 7pp
+43%
+Up 2pp
+Operating expense ($M)
+$601
+$509
+Up $92
+$591
+Up $10
+Operating income ($M)
+$348
+$28
+Up $320
+$186
+Up $162
+Net income ($M)
+$170
+$38
+Up $132
+$120
+Up $50
+Earnings per share
+$0.15
+$0.04
+Up $0.11
+$0.11
+Up $0.04
+Non-GAAP
+(*)
+Quarterly
+Financial Results
+Q4 2019
+Q4 2018
+Y/Y
+Q3 2019
+Q/Q
+Revenue ($B)
+$2.13
+$1.42
+Up 50%
+$1.80
+Up 18%
+Gross margin
+45%
+41%
+Up 4pp
+43%
+Up 2pp
+Operating expense ($M)
+$545
+$474
+Up $71
+$539
+Up $6
+Operating income ($M)
+$405
+$109
+Up $296
+$240
+Up $165
+Net income ($M)
+$383
+$87
+Up $296
+$219
+Up $164
+Earnings per share
+$0.32
+$0.08
+Up $0.24
+$0.18
+Up $0.14
+1
+Annual Financial
+Results
+GAAP
+Non-GAAP
+(*)
+2019
+2018
+Y/Y
+2019
+2018
+Y/Y
+Revenue ($B)
+$6.73
+$6.48
+Up 4%
+$6.73
+$6.48
+Up 4%
+Gross margin
+43%
+38%
+Up 5pp
+43%
+39%
+Up 4pp
+Operating expense ($B)
+$2.30
+$2.00
+Up $0.30
+$2.09
+$1.86
+Up $0.23
+Operating income ($M)
+$631
+$451
+Up $180
+$840
+$633
+Up $207
+Net income ($M)
+$341
+$337
+Up $4
+$756
+$514
+Up $242
+Earnings per share
+$0.30
+$0.32
+Down $0.02
+$0.64
+$0.46
+Up $0.18
+“2019 marked a significant milestone in our multi-year journey as we successfully launched and ramped the strongest product portfolio in our 50-year history,” said Dr. Lisa Su, AMD president and CEO.  “We delivered significant margin expansion and increased profitability as we gained market share with our Ryzen and EPYC processors. Our focused execution and the investments we made in our high-performance computing roadmaps position us well for continued growth in 2020 and beyond.”
+Q4 2019 Results
+•
+Revenue of $2.13 billion was up 50 percent year-over-year primarily driven by the Computing and Graphics segment. Revenue was up 18 percent compared to the prior quarter as a result of higher revenue in the Computing and Graphics segment partially offset by lower revenue in the Enterprise, Embedded and Semi-Custom segment.
+•
+Gross margin was 45 percent compared to 38 percent a year ago and 43 percent in the prior quarter. Non-GAAP gross margin was 45 percent compared to 41 percent a year ago and 43 percent in the prior quarter. Gross margin improvements were primarily driven by the ramp of 7nm products
+.
+•
+Operating income was $348 million compared to $28 million a year ago and operating income of $186 million in the prior quarter. Non-GAAP operating income was $405 million compared to $109 million a year ago and $240 million in the prior quarter. Operating income improvements were primarily driven by revenue growth and the ramp of higher margin products.
+•
+Net income was $170 million compared to $38 million a year ago and net income of $120 million in the prior quarter. Non-GAAP net income was $383 million compared to $87 million a year ago and $219 million in the prior quarter.
+2
+•
+Diluted earnings per share was $0.15 compared to $0.04 a year ago and $0.11 in the prior quarter.  Non-GAAP diluted earnings per share was $0.32 compared to $0.08 a year ago and $0.18 in the prior quarter.
+•
+Cash
+,
+cash equivalents and marketable securities were $1.50 billion at the end of the quarter as compared to $1.21 billion at the end of the prior quarter.
+•
+Principal debt was reduced by $524 million resulting in a GAAP loss of $128 million.
+•
+Free cash flow was $400 million in the quarter compared to $79 million a year ago and $179 million in the prior quarter.
+Quarterly Financial Segment Summary
+•
+Computing and Graphics segment revenue was $1.66 billion, up 69 percent year-over-year and 30 percent compared to the prior quarter driven primarily by strong sales of Ryzen™ processors and Radeon™ gaming GPUs.
+•
+Operating income was $360 million compared to $115 million a year ago and $179 million in the prior quarter. Operating income improvements were primarily driven by higher revenue from Ryzen processor sales.
+•
+Client processor average selling price (ASP) was up year-over-year and sequentially driven by Ryzen processor sales.
+•
+GPU ASP was up year-over-year and sequentially primarily driven by higher channel sales.
+•
+Enterprise, Embedded and Semi-Custom segment revenue was $465 million, up 7 percent year-over-year driven by significantly higher EPYC™ processor sales, partially offset by lower semi-custom sales.  Revenue declined 11 percent compared to the prior quarter due to lower semi-custom sales, partially offset by strong EPYC processor sales
+.
+•
+Operating income was $45 million compared to an operating loss of $6 million a year ago and operating income of $61 million in the prior quarter. The year-over-year improvement was primarily driven by higher EPYC processor revenue. The decrease compared to the prior quarter was due to lower semi-custom sales.
+3
+•
+All Other operating loss was $57 million compared to operating losses of $81 million year-over-year and $54 million in the prior quarter.
+2019 Annual Results
+•
+Revenue of $6.73 billion was up 4 percent year-over-year driven by higher revenue in the Computing and Graphics segment partially offset by lower revenue in the Enterprise, Embedded and Semi-Custom segment.
+•
+Gross margin was 43 percent compared to 38 percent and non-GAAP gross margin was 43 percent compared to 39 percent in the prior year. Gross margin expansion was primarily driven by Ryzen
+and EPYC
+products.
+•
+Operating income was $631 million compared to $451 million and non-GAAP operating income was $840 million compared to $633 million in the prior year. The operating income improvement was primarily driven by higher revenue and gross margin expansion.
+•
+Net income was $341 million compared to $337 million and non-GAAP net income was $756 million compared to $514 million in the prior year.
+•
+Diluted earnings per share was $0.30 compared to $0.32 in 2018. Non-GAAP diluted earnings per share was $0.64 compared to $0.46 in the prior year
+.
+•
+Cash
+,
+cash equivalents and marketable securities were $1.50 billion at the end of the year compared to $1.16 billion at the end of 2018.
+•
+Principal debt was reduced by $965 million resulting in a GAAP loss of $176 million.
+•
+Free cash flow was $276 million for the year compared to negative $129 million in 2018.
+Recent PR Highlights
+•
+AMD
+announced
+new mobile processors for upcoming ultrathin, gaming and mainstream laptops from Acer, Asus, Dell, HP, Lenovo and other OEMs
+.
+◦
+The AMD Ryzen™ 4000 Series Mobile Processor family includes the world’s highest performance and only 8 core processor available for ultrathin laptops. Built on the
+4
+groundbreaking 7nm-based “Zen 2” architecture and featuring optimized high-performance Radeon™ graphics, the 4000 Series provides incredible performance and power efficiency.
+◦
+AMD announced the AMD Athlon™ 3000 Series Mobile Processor family, bringing consumers more choice and enabling modern computing experiences for mainstream notebooks.
+◦
+The first AMD Ryzen 4000 Series and Athlon 3000 Series powered laptops are expected to be available starting in Q1 2020, with more than 100 systems expected to launch throughout 2020.
+•
+AMD unveiled new high-performance desktop processors designed to deliver the best experiences for gamers and creators.
+◦
+AMD introduced the world’s most powerful desktop processors, the 3
+rd
+Gen AMD Ryzen™ Threadripper™ family,
+including
+the 24-core AMD Ryzen™ Threadripper™ 3960X, 32-core AMD Ryzen™ Threadripper™ 3970X and the world’s first 64-core desktop processor, the
+AMD Ryzen™ Threadripper™ 3990X
+.
+◦
+AMD
+launched
+the AMD Ryzen™ 9 3950X, the fastest and most powerful 16-core consumer desktop processor.
+•
+AMD
+continued to expand
+its presence in the data center and high-performance computing markets with new AMD EPYC™ processor customers and platforms.
+◦
+AWS and Microsoft Azure announced new cloud instances for high-performance computing powered by 2
+nd
+Gen EPYC processors.
+◦
+New supercomputers powered by 2
+nd
+Gen AMD EPYC processors include the Expanse system at the San Diego Supercomputer Center and the latest extension of France’s GENCI Joliot-Curie supercomputer.
+◦
+Fujitsu, Gigabyte, HPE, Penguin, Synopsys and Tyan announced new platforms based on 2
+nd
+Gen AMD EPYC processors, bringing the total number of AMD EPYC processor-powered platforms to more than 100.
+•
+AMD expanded its gaming and professional graphics card offerings:
+◦
+AMD
+unveiled
+the AMD Radeon™ RX 5600 Series for ultimate 1080p gaming, including the AMD Radeon™ RX 5600 XT, the AMD Radeon™ RX 5600 and the AMD Radeon™ RX
+5
+5600M for laptop PCs. The AMD Radeon™ RX 5600 Series offers up to 20 percent faster performance on average across select AAA games compared to competitive offerings.
+◦
+AMD
+announced
+the AMD Radeon™ RX 5500 XT graphics card. Built on the AMD RDNA architecture and industry-leading 7nm process technology, the AMD Radeon RX 5500 XT provides up to 13 percent faster performance on average in today’s top AAA games than the competition.
+◦
+Apple
+announced
+the latest Apple MacBook Pro, featuring the new AMD Radeon™ Pro 5500M and 5300M mobile GPUs. Leveraging the powerful AMD RDNA architecture, AMD Radeon™ Pro 5000M series GPUs deliver groundbreaking levels of graphics performance for video editing, 3D content creation and macOS-based game development.
+◦
+AMD
+launched
+the world’s first 7nm professional PC workstation graphics card for 3D designers, architects and engineers, the AMD Radeon™ Pro W5700 graphics card. The Radeon Pro W5700 harnesses the high-performance, energy-efficient AMD RDNA architecture to deliver new levels of performance.
+◦
+AMD
+announced
+that the AMD Radeon™ Pro W5700X GPU is a configuration option in the latest Apple Mac Pro, alongside the AMD Radeon™ Pro Vega II and AMD Radeon™ Pro 580X GPUs.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the first quarter of 2020, AMD expects revenue to be approximately $1.8 billion, plus or minus $50 million, an increase of approximately 42 percent year-over-year and a decrease of approximately 15 percent sequentially. The year-over-year increase is expected to be driven by strong growth of Ryzen, EPYC and Radeon product sales. The sequential decrease is driven primarily by negligible semi-custom revenue which continues to soften in advance of the ramp of next generation products, in addition to
+6
+seasonality. AMD expects non-GAAP gross margin to be approximately 46 percent in the first quarter of 2020.
+For the full year 2020, AMD expects revenue growth of approximately 28 to 30 percent over 2019 driven by strength across all businesses. AMD expects non-GAAP gross margin to be approximately 45 percent for 2020.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:30 p.m. PT (5:30 p.m. ET) today to discuss its fourth quarter and fiscal year 2019 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+. The webcast will be available for 12 months after the conference call.
+7
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(In millions, except per share data) (Unaudited)
+Three Months Ended
+Year Ended
+December 28,
+2019
+September 28,
+2019
+December 29,
+2018
+December 28,
+2019
+December 29,
+2018
+GAAP gross margin
+$
+949
+$
+777
+$
+537
+$
+2,868
+$
+2,447
+GAAP gross margin %
+45
+%
+43
+%
+38
+%
+43
+%
+38
+%
+Impairment of technology licenses
+—
+—
+45
+—
+45
+Stock-based compensation
+1
+2
+1
+6
+4
+Non-GAAP gross margin
+$
+950
+$
+779
+$
+583
+$
+2,874
+$
+2,496
+Non-GAAP gross margin %
+45
+%
+43
+%
+41
+%
+43
+%
+39
+%
+GAAP operating expenses
+$
+601
+$
+591
+$
+509
+$
+2,297
+$
+1,996
+Stock-based compensation
+56
+52
+35
+191
+133
+Loss contingency on legal matter
+—
+—
+—
+12
+—
+Non-GAAP operating expenses
+$
+545
+$
+539
+$
+474
+$
+2,094
+$
+1,863
+GAAP operating income
+$
+348
+$
+186
+$
+28
+$
+631
+$
+451
+Impairment of technology licenses
+—
+—
+45
+—
+45
+Stock-based compensation
+57
+54
+36
+197
+137
+Loss contingency on legal matter
+—
+—
+—
+12
+—
+Non-GAAP operating income
+$
+405
+$
+240
+$
+109
+$
+840
+$
+633
+Three Months Ended
+Year Ended
+December 28,
+2019
+September 28,
+2019
+December 29,
+2018
+December 28,
+2019
+December 29,
+2018
+GAAP net income/ earnings per share
+$
+170
+$
+0.15
+$
+120
+$
+0.11
+$
+38
+$
+0.04
+$
+341
+$
+0.30
+$
+337
+$
+0.32
+Loss on debt redemption/conversion
+128
+0.10
+40
+0.03
+5
+—
+176
+0.15
+12
+0.01
+Non-cash interest expense related to convertible debt
+4
+—
+6
+—
+6
+0.01
+22
+0.02
+24
+0.02
+Stock-based compensation
+57
+0.05
+54
+0.04
+36
+0.03
+197
+0.16
+137
+0.11
+Impairment of technology licenses
+—
+—
+—
+—
+45
+0.04
+—
+—
+45
+0.04
+Equity (income) loss in investee
+—
+—
+(1
+)
+—
+—
+—
+—
+—
+2
+—
+Loss contingency on legal matter
+—
+—
+—
+—
+—
+—
+12
+0.01
+—
+—
+Provision for income taxes
+24
+0.02
+—
+—
+—
+—
+8
+—
+—
+—
+Withholding tax refund including interest
+—
+—
+—
+—
+(43
+)
+(0.04
+)
+—
+—
+(43
+)
+(0.04
+)
+Non-GAAP net income / earnings per share
+$
+383
+$
+0.32
+$
+219
+$
+0.18
+$
+87
+$
+0.08
+$
+756
+$
+0.64
+$
+514
+$
+0.46
+Shares used and net income adjustment in earnings per share calculation
+Shares used in per share calculation (GAAP)
+1,188
+1,117
+1,079
+1,120
+1,064
+Interest expense add-back to GAAP net income
+$
+4
+$
+—
+$
+—
+$
+—
+$
+—
+Shares used in per share calculation (Non-GAAP)
+(1)
+1,216
+1,212
+1,180
+1,209
+1,165
+Interest expense add-back to Non-GAAP net income
+(1)
+$
+2
+$
+4
+$
+5
+$
+16
+$
+18
+(1)
+The three months ended December 28, 2019, GAAP diluted EPS calculation includes the 31 million shares related to the Company's 2026 Convertible Notes and the associated $4 million interest expense add-back to net income under the "if converted" method.
+The three months and year ended December 28, 2019, Non-GAAP diluted EPS calculation includes the 59 million and 89 million shares, respectively, related to the Company's 2026 Convertible Notes and the associated $2 million and $16 million interest expense add-back to net income, respectively, under the "if converted" method.
+The three months ended September 28, 2019, Non-GAAP diluted EPS calculation includes the 95 million shares related to the Company's 2026 Convertible Notes and the associated $4 million interest expense add-back to net income under the "if converted" method.
+The three months and year ended December 29, 2018, Non-GAAP diluted EPS calculation includes the 100.6 million shares related to the Company's 2026 Convertible Notes and the associated $5 million and $18 million, respectively, interest expense add-back to net income under the "if converted" method.
+8

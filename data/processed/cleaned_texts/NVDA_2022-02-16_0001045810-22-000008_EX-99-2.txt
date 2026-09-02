@@ -1,1 +1,492 @@
-Document CFO Commentary on Fourth Quarter and Fiscal 2022 Results Q4 Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Revenue $7,643 $7,103 $5,003 Up 8% Up 53% Gross margin 65.4 % 65.2 % 63.1 % Up 20 bps Up 230 bps Operating expenses $2,029 $1,960 $1,650 Up 4% Up 23% Operating income $2,970 $2,671 $1,507 Up 11% Up 97% Net income $3,003 $2,464 $1,457 Up 22% Up 106% Diluted earnings per share $1.18 $0.97 $0.58 Up 22% Up 103% Non-GAAP ($ in millions, except earnings per share) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Revenue $7,643 $7,103 $5,003 Up 8% Up 53% Gross margin 67.0 % 67.0 % 65.5 % -- Up 150 bps Operating expenses $1,447 $1,375 $1,187 Up 5% Up 22% Operating income $3,677 $3,386 $2,089 Up 9% Up 76% Net income $3,350 $2,973 $1,957 Up 13% Up 71% Diluted earnings per share $1.32 $1.17 $0.78 Up 13% Up 69% Revenue by Reportable Segments ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Graphics $4,418 $4,092 $3,056 Up 8% Up 45% Compute & Networking 3,225 3,011 1,947 Up 7% Up 66% Total $7,643 $7,103 $5,003 Up 8% Up 53% Revenue by Market Platform ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 Q/Q Y/Y Gaming $3,420 $3,221 $2,495 Up 6% Up 37% Data Center 3,263 2,936 1,903 Up 11% Up 71% Professional Visualization 643 577 307 Up 11% Up 109% Automotive 125 135 145 Down 7% Down 14% OEM and Other 192 234 153 Down 18% Up 25% Total $7,643 $7,103 $5,003 Up 8% Up 53% Fiscal 2022 Summary GAAP ($ in millions, except earnings per share) FY22 FY21 Y/Y Revenue $26,914 $16,675 Up 61% Gross margin 64.9 % 62.3 % Up 260 bps Operating expenses $7,434 $5,864 Up 27% Operating income $10,041 $4,532 Up 122% Net income $9,752 $4,332 Up 125% Diluted earnings per share $3.85 $1.73 Up 123% Non-GAAP ($ in millions, except earnings per share) FY22 FY21 Y/Y Revenue $26,914 $16,675 Up 61% Gross margin 66.8 % 65.6 % Up 120 bps Operating expenses $5,279 $4,144 Up 27% Operating income $12,690 $6,803 Up 87% Net income $11,259 $6,277 Up 79% Diluted earnings per share $4.44 $2.50 Up 78% Revenue by Reportable Segments ($ in millions) FY22 FY21 Y/Y Graphics $15,868 $9,834 Up 61% Compute & Networking 11,046 6,841 Up 61% Total $26,914 $16,675 Up 61% Revenue by Market Platform ($ in millions) FY22 FY21 Y/Y Gaming $12,462 $7,759 Up 61% Data Center 10,613 6,696 Up 58% Professional Visualization 2,111 1,053 Up 100% Automotive 566 536 Up 6% OEM and Other 1,162 631 Up 84% Total $26,914 $16,675 Up 61% We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive. All per-share amounts presented herein have been adjusted to reflect our four-for-one stock split, which was effective July 2021. Revenue Revenue for the fourth quarter was a record $7.64 billion, up 53 percent from a year ago and up 8 percent sequentially. Fiscal-year revenue was a record $26.91 billion, up 61 percent. Record revenue was achieved in Gaming, Data Center, and Professional Visualization for both the quarter and fiscal year. Gaming revenue was up 37 percent from a year ago and up 6 percent sequentially. Fiscal-year revenue was up 61 percent. The year-on-year increases for the quarter and fiscal year reflect higher sales of GeForce GPUs. We continue to benefit from strong demand for our NVIDIA Ampere architecture products. The sequential increase for the quarter from GeForce GPUs was partially offset by a seasonal decrease in game-console SOCs. Our GPUs are capable of cryptocurrency mining, though we have limited visibility into how much this impacts our overall GPU demand. Volatility in the cryptocurrency market including changes in the prices of cryptocurrencies or method of verifying transactions, such as proof of work or proof of stake, can impact demand for our products and our ability to accurately estimate it. Nearly all desktop NVIDIA Ampere architecture GeForce GPU shipments are Lite Hash Rate to help direct GeForce GPUs to gamers. Data Center revenue was up 71 percent from a year ago and up 11 percent sequentially. Fiscal-year revenue was up 58 percent. These increases were primarily driven by sales of NVIDIA Ampere architecture GPUs across both training and inference for cloud computing and AI workloads such as natural language processing and deep recommender models. Professional Visualization revenue was up 109 percent from a year ago and up 11 percent sequentially. Fiscal-year revenue was up 100 percent. The increases were driven by the ramp of NVIDIA Ampere architecture products and strong demand for workstations as enterprises support hybrid work environments, as well as growth in workloads such as 3D design, AI and rendering. Automotive revenue was down 14 percent from a year ago and down 7 percent sequentially. Fiscal-year revenue was up 6 percent. The year-on-year and sequential decreases for the quarter were due to the continued decline of legacy cockpit revenue, as well as automotive makers’ supply constraints, partially offset by the ramp of self-driving programs. The fiscal-year increase was due to self-driving and AI cockpit solutions offset by a decline in legacy cockpit revenue. OEM and Other revenue was up 25 percent from a year ago and down 18 percent sequentially. Fiscal-year revenue was up 84 percent. Cryptocurrency Mining Processor (CMP) revenue was $24 million in the quarter, down from $105 million in the prior quarter, and was $550 million for the fiscal year. There was nominal CMP revenue in the prior year. Gross Margin Reconciliation of GAAP to Non-GAAP Gross Margin ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 FY22 FY21 GAAP gross profit $4,999 $4,631 $3,157 $17,475 $10,396 GAAP gross margin 65.4 % 65.2 % 63.1 % 64.9 % 62.3 % Acquisition-related and other costs 86 86 92 344 425 Stock-based compensation expense 39 44 26 141 88 IP-related costs -- -- 1 9 38 Non-GAAP gross profit $5,124 $4,761 $3,276 $17,969 $10,947 Non-GAAP gross margin 67.0 % 67.0 % 65.5 % 66.8 % 65.6 % GAAP gross margin for the fourth quarter was up 230 basis points from a year earlier, primarily due to a higher-end mix within Gaming, as well as lower acquisition-related costs. Sequentially, GAAP gross margin was up 20 basis points due to favorable mix within Gaming, partially offset by less favorable product mix changes in Data Center. Non-GAAP gross margin was up 150 basis points from a year earlier and flat sequentially. Fiscal-year GAAP gross margin was up 260 basis points from a year ago, driven by lower Mellanox acquisition-related charges, including a non-recurring inventory step-up charge of $161 million in fiscal 2021. Margins also benefited from a higher-end mix within Gaming, partially offset by a mix shift within Data Center. Fiscal-year non-GAAP gross margin was up 120 basis points from a year ago. Expenses Reconciliation of GAAP to Non-GAAP Operating Expenses ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 FY22 FY21 GAAP operating expenses $2,029 $1,960 $1,650 $7,434 $5,864 Stock-based compensation expense (512) (515) (391) (1,863) (1,309) Acquisition-related and other costs (70) (70) (72) (292) (411) Non-GAAP operating expenses $1,447 $1,375 $1,187 $5,279 $4,144 GAAP operating expenses for the fourth quarter were up 23 percent from a year ago and up 4 percent sequentially. Fiscal-year GAAP operating expenses were up 27 percent from a year ago. These increases were primarily driven by stock-based compensation, compensation-related costs associated with employee growth and higher infrastructure costs. Non-GAAP operating expenses were up 22 percent from a year ago and up 5 percent sequentially. Fiscal-year non-GAAP operating expenses were up 27 percent from a year ago. Operating Income GAAP operating income for the fourth quarter was a record $2.97 billion, up 97 percent from a year ago and up 11 percent sequentially. Non-GAAP operating income was $3.68 billion, up 76 percent from a year ago and up 9 percent sequentially. For the fiscal year, GAAP operating income was $10.04 billion and non-GAAP operating income was $12.69 billion. Other Income & Expense and Income Tax GAAP OI&E ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 FY22 FY21 Interest income $9 $7 $6 $29 $57 Interest expense (61) (62) (53) (236) (184) Gains (losses) from non-affiliated investments (53) 20 9 99 -- Other -- 2 1 8 4 Total ($105) ($33) ($37) ($100) ($123) Non-GAAP OI&E ($ in millions) Q4 FY22 Q3 FY22 Q4 FY21 FY22 FY21 Interest income $9 $7 $6 $29 $57 Interest expense (61) (61) (52) (233) (181) Other -- 2 1 8 4 Total ($52) ($52) ($45) ($196) ($120) GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments. GAAP effective tax rate for the fourth quarter was a 4.8 percent benefit, primarily reflecting excess tax benefits related to stock-based compensation and a discrete benefit from a one-time foreign tax reduction on foreign earnings. GAAP effective tax rate for the fiscal year was 1.9 percent, also reflecting a discrete benefit from repatriating the economic rights of certain intellectual property. The non-GAAP effective tax rate for the fourth quarter was 7.6 percent and for the fiscal year was 9.9 percent. Net Income and EPS GAAP net income for the fourth quarter was a record $3.00 billion and for the fiscal year was a record $9.75 billion. GAAP earnings per diluted share for the fourth quarter were $1.18, up 103 percent from a year ago and up 22 percent sequentially. Fiscal-year GAAP earnings per diluted share were $3.85, up 123 percent from a year ago. Non-GAAP net income for the fourth quarter was $3.35 billion and for the fiscal year was $11.26 billion. Non-GAAP earnings per diluted share for the fourth quarter were $1.32, up 69 percent from a year ago and up 13 percent sequentially. Fiscal-year non-GAAP earnings per diluted share were $4.44, up 78 percent from a year ago. Balance Sheet and Cash Flow Cash, cash equivalents and marketable securities were $21.21 billion, up from $11.56 billion a year ago and up from $19.30 billion a quarter ago. The year-on-year increase reflects free cash flow generation and $5.00 billion of debt issuance proceeds. Accounts receivable was $4.65 billion compared with $2.43 billion a year ago and $3.95 billion a quarter ago. DSO was 55 days, up from 48 days a year ago and up from 51 days a quarter ago. Inventory was $2.61 billion compared with $1.83 billion a year ago and $2.23 billion a quarter ago. Outstanding inventory purchase and long-term supply obligations were $9.00 billion, up from $2.54 billion a year ago and up from $6.90 billion a quarter ago, due to longer lead-times throughout the supply chain. Prepaid supply agreements were $1.84 billion, up from $1.63 billion a quarter ago. DSI was 90 days, down from 97 days a year ago and up from 82 days a quarter ago. Cash flow from operating activities in the fourth quarter was a record $3.03 billion, up from $2.07 billion a year ago and up from $1.52 billion a quarter ago. Fiscal-year cash flow from operating activities was a record $9.11 billion, up from $5.82 billion a year ago. The year-on-year increase for the quarter primarily reflects higher operating income, partially offset by increases in accounts receivable. The sequential increase reflects reduced long-term supply payments and higher operating income. The fiscal-year increase reflects higher operating income, partially offset by increases in accounts receivable and long-term supply payments. Free cash flow was $2.74 billion in the fourth quarter, up from $1.77 billion a year ago and up from $1.28 billion a quarter ago. Free cash flow for the fiscal year was $8.05 billion, up from $4.68 billion a year ago. Depreciation and amortization expense was $309 million for the fourth quarter and $1.17 billion for the fiscal year, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $294 million for the fourth quarter and $1.06 billion for the fiscal year. We paid quarterly cash dividends of $100 million in the fourth quarter and $399 million in fiscal 2022. Termination of the Arm Share Purchase Agreement On February 8, 2022, NVIDIA and SoftBank Group Corp. (SoftBank) announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the consummation of the transaction. We intend to record in operating expenses a $1.36 billion charge (the Arm Write-off) in the first quarter of fiscal 2023 reflecting the write-off of the prepayment provided at signing in September 2020. First Quarter of Fiscal 2023 Outlook Our outlook for the first quarter of fiscal 2023 is as follows: • Revenue is expected to be $8.10 billion, plus or minus 2 percent. • GAAP and non-GAAP gross margins are expected to be 65.2 percent and 67.0 percent, respectively, plus or minus 50 basis points. • GAAP operating expenses are expected to be $3.55 billion, including the Arm Write-off of $1.36 billion. Non-GAAP operating expenses are expected to be $1.60 billion. • GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million, excluding gains and losses from non-affiliated investments. • GAAP and non-GAAP tax rates are expected to be 11 percent and 13 percent, respectively, plus or minus 1 percent, excluding any discrete items. • Capital expenditures are expected to be approximately $350 million to $400 million, including principal payments on property and equipment.
+Document
+CFO Commentary on Fourth Quarter and Fiscal 2022 Results
+Q4 Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Revenue
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Gross margin
+65.4
+%
+65.2
+%
+63.1
+%
+Up 20 bps
+Up 230 bps
+Operating expenses
+$2,029
+$1,960
+$1,650
+Up 4%
+Up 23%
+Operating income
+$2,970
+$2,671
+$1,507
+Up 11%
+Up 97%
+Net income
+$3,003
+$2,464
+$1,457
+Up 22%
+Up 106%
+Diluted earnings per share
+$1.18
+$0.97
+$0.58
+Up 22%
+Up 103%
+Non-GAAP
+($ in millions, except earnings per share)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Revenue
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Gross margin
+67.0
+%
+67.0
+%
+65.5
+%
+--
+Up 150 bps
+Operating expenses
+$1,447
+$1,375
+$1,187
+Up 5%
+Up 22%
+Operating income
+$3,677
+$3,386
+$2,089
+Up 9%
+Up 76%
+Net income
+$3,350
+$2,973
+$1,957
+Up 13%
+Up 71%
+Diluted earnings per share
+$1.32
+$1.17
+$0.78
+Up 13%
+Up 69%
+Revenue by Reportable Segments
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Graphics
+$4,418
+$4,092
+$3,056
+Up 8%
+Up 45%
+Compute & Networking
+3,225
+3,011
+1,947
+Up 7%
+Up 66%
+Total
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Revenue by Market Platform
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+Q/Q
+Y/Y
+Gaming
+$3,420
+$3,221
+$2,495
+Up 6%
+Up 37%
+Data Center
+3,263
+2,936
+1,903
+Up 11%
+Up 71%
+Professional Visualization
+643
+577
+307
+Up 11%
+Up 109%
+Automotive
+125
+135
+145
+Down 7%
+Down 14%
+OEM and Other
+192
+234
+153
+Down 18%
+Up 25%
+Total
+$7,643
+$7,103
+$5,003
+Up 8%
+Up 53%
+Fiscal 2022 Summary
+GAAP
+($ in millions, except earnings per share)
+FY22
+FY21
+Y/Y
+Revenue
+$26,914
+$16,675
+Up 61%
+Gross margin
+64.9
+%
+62.3
+%
+Up 260 bps
+Operating expenses
+$7,434
+$5,864
+Up 27%
+Operating income
+$10,041
+$4,532
+Up 122%
+Net income
+$9,752
+$4,332
+Up 125%
+Diluted earnings per share
+$3.85
+$1.73
+Up 123%
+Non-GAAP
+($ in millions, except earnings per share)
+FY22
+FY21
+Y/Y
+Revenue
+$26,914
+$16,675
+Up 61%
+Gross margin
+66.8
+%
+65.6
+%
+Up 120 bps
+Operating expenses
+$5,279
+$4,144
+Up 27%
+Operating income
+$12,690
+$6,803
+Up 87%
+Net income
+$11,259
+$6,277
+Up 79%
+Diluted earnings per share
+$4.44
+$2.50
+Up 78%
+Revenue by Reportable Segments
+($ in millions)
+FY22
+FY21
+Y/Y
+Graphics
+$15,868
+$9,834
+Up 61%
+Compute & Networking
+11,046
+6,841
+Up 61%
+Total
+$26,914
+$16,675
+Up 61%
+Revenue by Market Platform
+($ in millions)
+FY22
+FY21
+Y/Y
+Gaming
+$12,462
+$7,759
+Up 61%
+Data Center
+10,613
+6,696
+Up 58%
+Professional Visualization
+2,111
+1,053
+Up 100%
+Automotive
+566
+536
+Up 6%
+OEM and Other
+1,162
+631
+Up 84%
+Total
+$26,914
+$16,675
+Up 61%
+We specialize in markets where our computing platforms can provide tremendous acceleration for applications. These platforms incorporate processors, interconnects, software, algorithms, systems, and services to deliver unique value. Our platforms address four large markets where our expertise is critical: Gaming, Data Center, Professional Visualization, and Automotive.
+All per-share amounts presented herein have been adjusted to reflect our four-for-one stock split, which was effective July 2021.
+Revenue
+Revenue for the fourth quarter was a record $7.64 billion, up 53 percent from a year ago and up 8 percent sequentially. Fiscal-year revenue was a record $26.91 billion, up 61 percent. Record revenue was achieved in Gaming, Data Center, and Professional Visualization for both the quarter and fiscal year.
+Gaming revenue was up 37 percent from a year ago and up 6 percent sequentially. Fiscal-year revenue was up 61 percent. The year-on-year increases for the quarter and fiscal year reflect higher sales of GeForce GPUs. We continue to benefit from strong demand for our NVIDIA Ampere architecture products. The sequential increase for the quarter from GeForce GPUs was partially offset by a seasonal decrease in game-console SOCs.
+Our GPUs are capable of cryptocurrency mining, though we have limited visibility into how much this impacts our overall GPU demand. Volatility in the cryptocurrency market including changes in the prices of cryptocurrencies or method of verifying transactions, such as proof of work or proof of stake, can impact demand for our products and our ability to accurately estimate it. Nearly all desktop NVIDIA Ampere architecture GeForce GPU shipments are Lite Hash Rate to help direct GeForce GPUs to gamers.
+Data Center revenue was up 71 percent from a year ago and up 11 percent sequentially. Fiscal-year revenue was up 58 percent. These increases were primarily driven by sales of NVIDIA Ampere architecture GPUs across both training and inference for cloud computing and AI workloads such as natural language processing and deep recommender models.
+Professional Visualization revenue was up 109 percent from a year ago and up 11 percent sequentially. Fiscal-year revenue was up 100 percent. The increases were driven by the ramp of NVIDIA Ampere architecture products and strong demand for workstations as enterprises support hybrid work environments, as well as growth in workloads such as 3D design, AI and rendering.
+Automotive revenue was down 14 percent from a year ago and down 7 percent sequentially. Fiscal-year revenue was up 6 percent. The year-on-year and sequential decreases for the quarter were due to the continued decline of legacy cockpit revenue, as well as automotive makers’ supply constraints, partially offset by the ramp of self-driving programs. The fiscal-year increase was due to self-driving and AI cockpit solutions offset by a decline in legacy cockpit revenue.
+OEM and Other revenue was up 25 percent from a year ago and down 18 percent sequentially. Fiscal-year revenue was up 84 percent. Cryptocurrency Mining Processor (CMP) revenue was $24 million in the quarter, down from $105 million in the prior quarter, and was $550 million for the fiscal year. There was nominal CMP revenue in the prior year.
+Gross Margin
+Reconciliation of GAAP to Non-GAAP Gross Margin
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+FY22
+FY21
+GAAP gross profit
+$4,999
+$4,631
+$3,157
+$17,475
+$10,396
+GAAP gross margin
+65.4
+%
+65.2
+%
+63.1
+%
+64.9
+%
+62.3
+%
+Acquisition-related and other costs
+86
+86
+92
+344
+425
+Stock-based compensation expense
+39
+44
+26
+141
+88
+IP-related costs
+--
+--
+1
+9
+38
+Non-GAAP gross profit
+$5,124
+$4,761
+$3,276
+$17,969
+$10,947
+Non-GAAP gross margin
+67.0
+%
+67.0
+%
+65.5
+%
+66.8
+%
+65.6
+%
+GAAP gross margin for the fourth quarter was up 230 basis points from a year earlier, primarily due to a higher-end mix within Gaming, as well as lower acquisition-related costs. Sequentially, GAAP gross margin was up 20 basis points due to favorable mix within Gaming, partially offset by less favorable product mix changes in Data Center. Non-GAAP gross margin was up 150 basis points from a year earlier and flat sequentially.
+Fiscal-year GAAP gross margin was up 260 basis points from a year ago, driven by lower Mellanox acquisition-related charges, including a non-recurring inventory step-up charge of $161 million in fiscal 2021. Margins also benefited from a higher-end mix within Gaming, partially offset by a mix shift within Data Center. Fiscal-year non-GAAP gross margin was up 120 basis points from a year ago.
+Expenses
+Reconciliation of GAAP to Non-GAAP Operating Expenses
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+FY22
+FY21
+GAAP operating expenses
+$2,029
+$1,960
+$1,650
+$7,434
+$5,864
+Stock-based compensation expense
+(512)
+(515)
+(391)
+(1,863)
+(1,309)
+Acquisition-related and other costs
+(70)
+(70)
+(72)
+(292)
+(411)
+Non-GAAP operating expenses
+$1,447
+$1,375
+$1,187
+$5,279
+$4,144
+GAAP operating expenses for the fourth quarter were up 23 percent from a year ago and up 4 percent sequentially. Fiscal-year GAAP operating expenses were up 27 percent from a year ago. These increases were primarily driven by stock-based compensation, compensation-related costs associated with employee growth and higher infrastructure costs.
+Non-GAAP operating expenses were up 22 percent from a year ago and up 5 percent sequentially. Fiscal-year non-GAAP operating expenses were up 27 percent from a year ago.
+Operating Income
+GAAP operating income for the fourth quarter was a record $2.97 billion, up 97 percent from a year ago and up 11 percent sequentially. Non-GAAP operating income was $3.68 billion, up 76 percent from a year ago and up 9 percent sequentially. For the fiscal year, GAAP operating income was $10.04 billion and non-GAAP operating income was $12.69 billion.
+Other Income & Expense and Income Tax
+GAAP OI&E
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+FY22
+FY21
+Interest income
+$9
+$7
+$6
+$29
+$57
+Interest expense
+(61)
+(62)
+(53)
+(236)
+(184)
+Gains (losses) from non-affiliated investments
+(53)
+20
+9
+99
+--
+Other
+--
+2
+1
+8
+4
+Total
+($105)
+($33)
+($37)
+($100)
+($123)
+Non-GAAP OI&E
+($ in millions)
+Q4 FY22
+Q3 FY22
+Q4 FY21
+FY22
+FY21
+Interest income
+$9
+$7
+$6
+$29
+$57
+Interest expense
+(61)
+(61)
+(52)
+(233)
+(181)
+Other
+--
+2
+1
+8
+4
+Total
+($52)
+($52)
+($45)
+($196)
+($120)
+GAAP other income and expense (OI&E) includes interest income, interest expense, gains and losses from non-affiliated investments and other. Non-GAAP OI&E excludes the portion of interest expense from the amortization of the debt discount and the gains or losses from non-affiliated investments.
+GAAP effective tax rate for the fourth quarter was a 4.8 percent benefit, primarily reflecting excess tax benefits related to stock-based compensation and a discrete benefit from a one-time foreign tax reduction on foreign earnings. GAAP effective tax rate for the fiscal year was 1.9 percent, also reflecting a discrete benefit from repatriating the economic rights of certain intellectual property. The non-GAAP effective tax rate for the fourth quarter was 7.6 percent and for the fiscal year was 9.9 percent.
+Net Income and EPS
+GAAP net income for the fourth quarter was a record $3.00 billion and for the fiscal year was a record $9.75 billion. GAAP earnings per diluted share for the fourth quarter were $1.18, up 103 percent from a year ago and up 22 percent sequentially. Fiscal-year GAAP earnings per diluted share were $3.85, up 123 percent from a year ago.
+Non-GAAP net income for the fourth quarter was $3.35 billion and for the fiscal year was $11.26 billion. Non-GAAP earnings per diluted share for the fourth quarter were $1.32, up 69 percent from a year ago and up 13 percent sequentially. Fiscal-year non-GAAP earnings per diluted share were $4.44, up 78 percent from a year ago.
+Balance Sheet and Cash Flow
+Cash, cash equivalents and marketable securities were $21.21 billion, up from $11.56 billion a year ago and up from $19.30 billion a quarter ago. The year-on-year increase reflects free cash flow generation and $5.00 billion of debt issuance proceeds.
+Accounts receivable was $4.65 billion compared with $2.43 billion a year ago and $3.95 billion a quarter ago. DSO was 55 days, up from 48 days a year ago and up from 51 days a quarter ago.
+Inventory was $2.61 billion compared with $1.83 billion a year ago and $2.23 billion a quarter ago. Outstanding inventory purchase and long-term supply obligations were $9.00 billion, up from $2.54 billion a year ago and up from $6.90 billion a quarter ago, due to longer lead-times throughout the supply chain. Prepaid supply agreements were $1.84 billion, up from $1.63 billion a quarter ago. DSI was 90 days, down from 97 days a year ago and up from 82 days a quarter ago.
+Cash flow from operating activities in the fourth quarter was a record $3.03 billion, up from $2.07 billion a year ago and up from $1.52 billion a quarter ago. Fiscal-year cash flow from operating activities was a record $9.11 billion, up from $5.82 billion a year ago. The year-on-year increase for the quarter primarily reflects higher operating income, partially offset by increases in accounts receivable. The sequential increase reflects reduced long-term supply payments and higher operating income. The fiscal-year increase reflects higher operating income, partially offset by increases in accounts receivable and long-term supply payments.
+Free cash flow was $2.74 billion in the fourth quarter, up from $1.77 billion a year ago and up from $1.28 billion a quarter ago. Free cash flow for the fiscal year was $8.05 billion, up from $4.68 billion a year ago.
+Depreciation and amortization expense was $309 million for the fourth quarter and $1.17 billion for the fiscal year, including amortization of intangible assets related to the Mellanox acquisition. Capital expenditures including principal payments on property and equipment were $294 million for the fourth quarter and $1.06 billion for the fiscal year.
+We paid quarterly cash dividends of $100 million in the fourth quarter and $399 million in fiscal 2022.
+Termination of the Arm Share Purchase Agreement
+On February 8, 2022, NVIDIA and SoftBank Group Corp. (SoftBank) announced the termination of the Share Purchase Agreement whereby NVIDIA would have acquired Arm Limited from SoftBank. The parties agreed to terminate because of significant regulatory challenges preventing the consummation of the transaction. We intend to record in operating expenses a $1.36 billion charge (the Arm Write-off) in the first quarter of fiscal 2023 reflecting the write-off of the prepayment provided at signing in September 2020.
+First Quarter of Fiscal 2023 Outlook
+Our outlook for the first quarter of fiscal 2023 is as follows:
+•
+Revenue is expected to be $8.10 billion, plus or minus 2 percent.
+•
+GAAP and non-GAAP gross margins are expected to be 65.2 percent and 67.0 percent, respectively, plus or minus 50 basis points.
+•
+GAAP operating expenses are expected to be $3.55 billion, including the Arm Write-off of $1.36 billion. Non-GAAP operating expenses are expected to be $1.60 billion.
+•
+GAAP and non-GAAP other income and expense are both expected to be an expense of approximately $55 million, excluding gains and losses from non-affiliated investments.
+•
+GAAP and non-GAAP tax rates are expected to be 11 percent and 13 percent, respectively, plus or minus 1 percent, excluding any discrete items.
+•
+Capital expenditures are expected to be approximately $350 million to $400 million, including principal payments on property and equipment.
+___________________________
+For further information, contact:
+Simona Jankowski
+Robert Sherbin
+Investor Relations
+Corporate Communications
+NVIDIA Corporation
+NVIDIA Corporation
+sjankowski@nvidia.com
+rsherbin@nvidia.com
+Non-GAAP Measures
+To supplement NVIDIA’s condensed consolidated financial statements presented in accordance with GAAP, the company uses non-GAAP measures of certain components of financial performance. These non-GAAP measures include non-GAAP gross profit, non-GAAP gross margin, non-GAAP operating expenses, non-GAAP income from operations, non-GAAP other income (expense), net, non-GAAP net income, non-GAAP net income, or earnings, per diluted share, and free cash flow. In order for NVIDIA’s investors to be better able to compare its current results with those of previous periods, the company has shown a reconciliation of GAAP to non-GAAP financial measures. These reconciliations adjust the related GAAP financial measures to exclude stock-based compensation expense, acquisition-related and other costs, IP-related costs, gains and losses from non-affiliated investments, interest expense related to amortization of debt discount, the associated tax impact of these items where applicable, domestication tax benefit, and foreign tax benefit. Free cash flow is
+calculated as GAAP net cash provided by operating activities less both purchases of property and equipment and intangible assets and principal payments on property and equipment and intangible assets. NVIDIA believes the presentation of its non-GAAP financial measures enhances the user's overall understanding of the company’s historical financial performance. The presentation of the company’s non-GAAP financial measures is not meant to be considered in isolation or as a substitute for the company’s financial results prepared in accordance with GAAP, and the company’s non-GAAP measures may be different from non-GAAP measures used by other companies.
+Certain statements in this CFO Commentary including, but not limited to, statements as to: our computing platforms providing tremendous acceleration for applications; our limited visibility into the impact cryptocurrency mining has on overall GPU demand; volatility in the cryptocurrency market impacting demand for our products and our ability to accurately estimate demand for our products; our efforts to help direct GeForce to gamers; strong demand for workstations as enterprises support hybrid work environments; our intention to record a charge in connection with the termination of the Share Purchase Agreement related to Arm Limited; our financial outlook for the first quarter of fiscal 2023; our expected tax rates for the first quarter of fiscal 2023; and our expected capital expenditures for the first quarter of fiscal 2023 are

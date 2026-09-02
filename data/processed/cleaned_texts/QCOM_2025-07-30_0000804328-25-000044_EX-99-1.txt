@@ -1,1 +1,117 @@
-Document Exhibit 99.1 FOR IMMEDIATE RELEASE Qualcomm Contact: Mauricio Lopez-Hodoyan Vice President,
+Document
+Exhibit 99.1
+FOR IMMEDIATE RELEASE
+Qualcomm Contact:
+Mauricio Lopez-Hodoyan
+Vice President, Investor Relations
+Phone: 1-858-658-4813 | e-mail: ir@qualcomm.com
+Qualcomm Announces Third Quarter Fiscal 2025 Results
+Revenues: $10.4 billion
+GAAP EPS: $2.43, Non-GAAP EPS: $2.77
+—QCT Diversification: Combined Automotive and IoT Revenues Grew 23% Year-Over-Year—
+—QCT Automotive: Record Quarterly Revenues—
+—On track to meet our accelerated buyback commitment in FY25—
+SAN DIEGO - July 30, 2025
+- Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal third quarter ended June 29, 2025.
+“Another quarter of strong growth in QCT Automotive and IoT revenues further validates our diversification strategy and confidence in achieving our long-term revenue targets,” said Cristiano Amon, President and CEO of Qualcomm Incorporated. “Our leadership in AI processing, high-performance and low-power computing and advanced connectivity positions us to become the industry platform of choice as AI gains scale at the edge.”
+Third Quarter Results
+1
+GAAP
+Non-GAAP
+(in millions, except per share data and percentages)
+Q3 Fiscal 2025
+Q3 Fiscal 2024
+Change
+Q3 Fiscal 2025
+Q3 Fiscal 2024
+Change
+Revenues
+$10,365
+$9,393
++10%
+$10,365
+$9,391
++10%
+Earnings before taxes (EBT)
+$2,952
+$2,279
++30%
+$3,544
+$3,034
++17%
+Net income
+$2,666
+$2,129
++25%
+$3,040
+$2,648
++15%
+Diluted earnings per share (EPS)
+$2.43
+$1.88
++29%
+$2.77
+$2.33
++19%
+(1)  Discussion regarding our use of Non-GAAP financial measures and reconciliations between GAAP and Non-GAAP results are included at the end of this news release in the sections labeled “Note Regarding Use of Non-GAAP Financial Measures” and “Reconciliations of GAAP Results to Non-GAAP Results.”
+Segment Results
+QCT
+QTL
+(in millions, except percentages)
+Q3 Fiscal 2025
+Q3 Fiscal 2024
+Change
+Q3 Fiscal 2025
+Q3 Fiscal 2024
+Change
+Revenues
+$8,993
+$8,069
++11%
+$1,318
+$1,273
++4%
+EBT
+$2,671
+$2,181
++22%
+$942
+$894
++5%
+EBT as % of revenues
+30%
+27%
++3 points
+71%
+70%
++1 point
+Qualcomm Announces Third Quarter Fiscal 2025 Results
+Page 2 of 8
+QCT Revenue Streams
+1
+(in millions, except percentages)
+Q3 Fiscal 2025
+Q3 Fiscal 2024
+Change
+Handsets
+$6,328
+$5,899
++7%
+Automotive
+984
+811
++21%
+IoT (internet of things)
+1,681
+1,359
++24%
+Total QCT revenues
+$8,993
+$8,069
++11%
+(1) We disaggregate QCT revenues based on the industries and applications in which our products are sold.
+Return of Capital to Stockholders
+During the third quarter of fiscal 2025, we returned $3.8 billion to stockholders, including $967 million, or $0.89 per share, of cash dividends paid and $2.8 billion
+through repurchases of 19 million shares of common stock.
+Business Outlook
+The following statements are forward looking, and actual results may differ materially. The “Note Regarding

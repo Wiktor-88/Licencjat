@@ -1,1 +1,2 @@
-Item 8.01. Other Events. On August 5, 2024, Judge Amit P. Mehta of U.S. District Court for the District of Columbia ruled that Google LLC ("Google"), a subsidiary of Alphabet Inc., violated antitrust laws related to online search. Judge Mehta has indicated that he will determine remedies in a separate proceeding in the coming months. Google plans to appeal the ruling.
+Item 8.01.     Other Events.
+On August 5, 2024, Judge Amit P. Mehta of U.S. District Court for the District of Columbia ruled that Google LLC ("Google"), a subsidiary of Alphabet Inc., violated antitrust laws related to online search. Judge Mehta has indicated that he will determine remedies in a separate proceeding in the coming months. Google plans to appeal the ruling.

@@ -8,15 +8,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
+from src.models.model_config import TARGET
+from src.models.model_utils import prepare_model_dataset, validate_target
+
 
 logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = PROJECT_ROOT / "data" / "processed" / "model_dataset.csv"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "eda"
-
-TARGET = "Target_Abnormal_1D"
-
 
 # Sprawdzenie poprawności
 def validate_dataset(df: pd.DataFrame) -> None:
@@ -73,7 +73,8 @@ def run_eda(df: pd.DataFrame) -> None:
     df["Filing_Date"] = pd.to_datetime(df["Filing_Date"], errors="raise")
     df["Year"] = df["Filing_Date"].dt.year
 
-    primary = df[df["Use_In_Primary_Model"] == 1].copy()
+    primary_filings = df[df["Use_In_Primary_Model"] == 1].copy()
+    primary = prepare_model_dataset(df, TARGET)
 
     if primary.empty:
         raise ValueError("Brak obserwacji primary model")
@@ -82,12 +83,16 @@ def run_eda(df: pd.DataFrame) -> None:
         raise ValueError("Primary dataset zawiera brakujące wartości targetu")
 
     primary[TARGET] = primary[TARGET].astype(int)
+    validate_target(primary, TARGET)
+    primary["Year"] = primary["Event_Session"].dt.year
 
     # Podstawowe informacje
     summary = {
         "rows_all": len(df),
-        "rows_primary": len(primary),
-        "rows_excluded": len(df) - len(primary),
+        "rows_primary_filings": len(primary_filings),
+        "rows_primary_events": len(primary),
+        "aggregated_filings": len(primary_filings) - len(primary),
+        "rows_excluded": len(df) - len(primary_filings),
         "tickers": int(df["Ticker"].nunique()),
         "duplicates": int(df.duplicated(["Ticker", "Accession"]).sum()),
         "target_0": int((primary[TARGET] == 0).sum()),
@@ -133,13 +138,23 @@ def run_eda(df: pd.DataFrame) -> None:
     leakage_columns = {
         "Target_Event_1D",
         "Target_Abnormal_1D",
-        "Event_Return_1D", 
+        "Target_Tradable_Abnormal_1D",
+        "Event_Return_1D",
         "QQQ_Event_Return_1D",
-        "Abnormal_Event_Return_1D", 
+        "Abnormal_Event_Return_1D",
+        "Event_Return_Open_Close",
+        "QQQ_Event_Return_Open_Close",
+        "Tradable_Abnormal_Return_1D",
         "Use_In_Primary_Model",
-        "Cutoff_Adj_Close", 
+        "Signal_Lead_Minutes",
+        "Signal_Available_Before_Open",
+        "Cutoff_Adj_Close",
+        "Event_Open",
+        "Event_Close",
         "Event_Adj_Close",
-        "QQQ_Cutoff_Adj_Close", 
+        "QQQ_Cutoff_Adj_Close",
+        "QQQ_Event_Open",
+        "QQQ_Event_Close",
         "QQQ_Event_Adj_Close",
     }
 
@@ -156,7 +171,7 @@ def run_eda(df: pd.DataFrame) -> None:
     correlations.to_csv(OUTPUT_DIR / "feature_target_correlations.csv")
 
     # Wykresy
-    save_plot(target_counts, "Rozkład Target_Abnormal_1D", "Liczba obserwacji", "target_distribution.png")
+    save_plot(target_counts, f"Rozkład {TARGET}", "Liczba obserwacji", "target_distribution.png")
     save_plot(primary["Ticker"].value_counts().sort_index(), "Liczba obserwacji per ticker", "Liczba obserwacji", "rows_by_ticker.png")
     save_plot(primary["Year"].value_counts().sort_index(), "Liczba obserwacji per rok", "Liczba obserwacji", "rows_by_year.png")
     save_plot(primary["Sentiment_Source"].value_counts(), "Źródło sentymentu", "Liczba obserwacji", "sentiment_source.png")

@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "TSLA",
+    "Accession": "0000950170-23-033544",
+    "Filing_Date": "2023-07-19",
+    "Feature_Cutoff_Session": "2023-07-19",
+    "Event_Session": "2023-07-20T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2023,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Leaf_Node": 20,
+    "Probability_Class_1": 1.0,
+    "Prediction": 1,
+    "Path_Length": 4
+  }
+}

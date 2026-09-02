@@ -1,1 +1,431 @@
-Document NEWS RELEASE
+Document
+NEWS RELEASE
+Media Contact:
+Drew Prairie
+AMD Communications
+512-602-4425
+drew.prairie@amd.com
+Investor Contact:
+Mitch Haws
+AMD Investor Relations
+408-749-3124
+mitch.haws@amd.com
+AMD Reports Third Quarter 2024 Financial Results
+SANTA CLARA, Calif. ― October 29, 2024 ―
+AMD (NASDAQ:AMD) today announced revenue for the third quarter of 2024 of $6.8 billion, gross margin of 50%, operating income of $724 million, net income of $
+771 million
+and diluted earnings per share of
+$0.47.
+On a non-GAAP
+(*)
+basis, gross margin was 54%, operating income was $1.7 billion, net income was $1.5 billion and diluted earnings per share was $0.92.
+“We delivered strong third quarter financial results with record revenue led by higher sales of EPYC and Instinct data center products and robust demand for our Ryzen PC processors,” said AMD Chair and CEO Dr. Lisa Su. “Looking forward, we see significant growth opportunities across our data center, client and embedded businesses driven by the insatiable demand for more compute.”
+“We are pleased with our execution in the third quarter, delivering strong year-over-year expansion in gross margin and earnings per share,” said AMD EVP, CFO and Treasurer Jean Hu. "We are on-track to deliver record annual revenue for 2024 based on significant growth in our Data Center and Client segments.”
+1
+GAAP Quarterly Financial Results
+Q3 2024
+Q3 2023
+Y/Y
+Q2 2024
+Q/Q
+Revenue ($M)
+$6,819
+$5,800
+Up 18%
+$5,835
+Up 17%
+Gross profit ($M)
+$3,419
+$2,747
+Up 24%
+$2,864
+Up 19%
+Gross margin
+50%
+47%
+Up 3 ppts
+49%
+Up 1 ppt
+Operating expenses ($M)
+$2,709
+$2,533
+Up 7%
+$2,605
+Up 4%
+Operating income ($M)
+$724
+$224
+Up 223%
+$269
+Up 169%
+Operating margin
+11%
+4%
+Up 7 ppts
+5%
+Up 6 ppts
+Net income ($M)
+$771
+$299
+Up 158%
+$265
+Up 191%
+Diluted earnings per share
+$0.47
+$0.18
+Up 161%
+$0.16
+Up 194%
+Non-GAAP(*) Quarterly Financial Results
+Q3 2024
+Q3 2023
+Y/Y
+Q2 2024
+Q/Q
+Revenue ($M)
+$6,819
+$5,800
+Up 18%
+$5,835
+Up 17%
+Gross profit ($M)
+$3,657
+$2,963
+Up 23%
+$3,101
+Up 18%
+Gross margin
+54%
+51%
+Up 3 ppts
+53%
+Up 1 ppt
+Operating expenses ($M)
+$1,956
+$1,697
+Up 15%
+$1,847
+Up 6%
+Operating income ($M)
+$1,715
+$1,276
+Up 34%
+$1,264
+Up 36%
+Operating margin
+25%
+22%
+Up 3 ppts
+22%
+Up 3 ppts
+Net income ($M)
+$1,504
+$1,135
+Up 33%
+$1,126
+Up 34%
+Diluted earnings per share
+$0.92
+$0.70
+Up 31%
+$0.69
+Up 33%
+Segment Summary
+•
+Record Data Center segment revenue of $3.5 billion was up 122% year-over-year and 25% sequentially primarily driven by the strong ramp of AMD Instinct™ GPU shipments and growth in AMD EPYC™ CPU sales.
+•
+Client segment revenue was $1.9 billion, up 29% year-over-year and 26% sequentially primarily driven by strong demand for “Zen 5” AMD Ryzen™ processors.
+•
+Gaming segment revenue was $462 million, down 69% year-over-year and 29% sequentially primarily due to a decrease in semi-custom revenue.
+•
+Embedded segment revenue was $927 million, down 25% year-over-year as customers normalized their inventory levels. On a sequential basis, revenue increased 8% as demand improved in several end markets.
+Recent PR Highlights
+•
+At the Advancing AI 2024 event this month, AMD and strategic partners including Dell, Google Cloud, HPE, Lenovo, Meta, Microsoft, Oracle Cloud Infrastructure, Supermicro and AI leaders Databricks, Essential AI, Fireworks AI, Luma AI and Reka AI
+unveiled
+a broad portfolio of solutions delivering enterprise AI at scale based on the latest AMD Instinct accelerators, EPYC CPUs, AMD networking solutions and Ryzen PRO CPUs:
+◦
+New
+AMD EPYC 9005 Series processors
+, with record-breaking performance and energy efficiency for diverse data center needs, available in a wide range of platforms from leading OEMs and ODMs.
+2
+◦
+AMD Instinct MI325X accelerators
+, delivering leadership performance and memory capabilities for the most demanding AI workloads. AMD also shared new details on next-gen AMD Instinct accelerators planned to launch in 2025 and 2026.
+◦
+An expanded high performance networking portfolio to maximize performance, scalability and efficiency for AI systems, with the new AMD Pensando™ Salina DPU and
+AMD Pensando Pollara 400 NIC
+.
+◦
+New
+Ryzen AI PRO 300 Series mobile processors
+, powering next-gen AI PCs for the enterprise with 50+ AI TOPS and leadership performance, battery life, security and manageability features.
+•
+AMD continues to extend leadership AI performance, optimizations and customer adoption for AMD Instinct accelerators and AMD ROCm™ open software:
+◦
+Oracle Cloud Infrastructure
+selected
+AMD Instinct MI300X accelerators with AMD ROCm open software to power its latest OCI Compute Supercluster designed for demanding AI workloads.
+◦
+AMD
+unveiled
+its first results on leading AI benchmark MLPerf, revealing excellent performance for AMD Instinct MI300X accelerators advanced by the AMD ROCm software platform, on-par with NVIDIA H100.
+◦
+AMD
+highlighted
+support for the latest Llama 3.2 release from Meta, enabling developers to build new agentic applications and personalized AI experiences on AMD accelerators and processors from cloud to edge and AI PCs.
+•
+AMD and ecosystem partners are enabling new AI PC platforms and capabilities:
+◦
+In partnership with Microsoft,
+AMD announced
+that Copilot+ will be enabled on AMD CPU-powered AI PCs via a free upgrade planned to be available starting in November 2024.
+◦
+OEM partners including
+Acer, HP, Lenovo and Asus
+announced new systems powered by AMD Ryzen AI 300 Series mobile processors, leveraging the leadership gaming, content creation and everyday performance of the new “Zen 5” architecture.
+•
+AMD expanded its embedded portfolio for a range of applications, including:
+◦
+New
+AMD EPYC Embedded 8004 Series processors
+, designed to deliver outstanding performance and power efficiency for demanding workloads.
+◦
+The smaller form factor, cost-optimized
+AMD Alveo™ UL3422 Accelerator Card
+, a fintech accelerator for ultra-low latency electronic trading applications.
+◦
+The
+AMD Artix™ UltraScale+™ XA AU7P
+, a cost-optimized, automotive-qualified FPGA for ADAS sensor applications and in-vehicle infotainment.
+•
+AMD announced
+an agreement to acquire ZT Systems, a leading provider of AI and general purpose compute infrastructure for the world’s largest hyperscale providers, to expand the company’s data center AI systems capabilities and accelerate deployment
+3
+of AMD AI rack scale systems with cloud and enterprise customers. The acquisition is subject to regulatory clearance and other customary closing conditions and is expected to close in the first half of 2025.
+•
+AMD
+completed
+the acquisition of Silo AI to accelerate development and deployment of AI models on AMD hardware.
+•
+AMD and Intel
+announced
+the creation of an x86 ecosystem advisory group with Broadcom, Dell, Google, HPE, HP, Lenovo, Meta, Microsoft, Oracle, Red Hat and industry luminaries Linus Torvalds and Tim Sweeney to collaborate on architectural interoperability and simplify software development.
+Current Outlook
+AMD’s outlook statements are based on current expectations. The following statements are forward-looking and actual results could differ materially depending on market conditions and the factors set forth under “Cautionary Statement” below.
+For the fourth quarter of 2024, AMD expects revenue to be approximately $7.5 billion, plus or minus $300 million. At the mid-point of the revenue range, this represents year-over-year growth of approximately 22% and sequential growth of approximately 10%. Non-GAAP gross margin is expected to be approximately 54%.
+AMD Teleconference
+AMD will hold a conference call for the financial community at 2:00 p.m. PT (5:00 p.m. ET) today to discuss its third quarter 2024 financial results. AMD will provide a real-time audio broadcast of the teleconference on the
+Investor Relations
+page of its website at
+www.amd.com
+.
+4
+RECONCILIATION OF GAAP TO NON-GAAP FINANCIAL MEASURES
+(in millions, except per share data) (Unaudited)
+Three Months Ended
+September 28,
+2024
+June 29,
+2024
+September 30,
+2023
+GAAP gross profit
+$
+3,419
+$
+2,864
+$
+2,747
+GAAP gross margin
+50
+%
+49
+%
+47
+%
+Stock-based compensation
+5
+5
+6
+Amortization of acquisition-related intangibles
+233
+231
+210
+Acquisition-related and other costs
+(1)
+—
+1
+—
+Non-GAAP gross profit
+$
+3,657
+$
+3,101
+$
+2,963
+Non-GAAP gross margin
+54
+%
+53
+%
+51
+%
+GAAP operating expenses
+$
+2,709
+$
+2,605
+$
+2,533
+GAAP operating expenses/revenue %
+40
+%
+45
+%
+44
+%
+Stock-based compensation
+346
+341
+347
+Amortization of acquisition-related intangibles
+352
+372
+450
+Acquisition-related and other costs
+(1)
+55
+45
+39
+Non-GAAP operating expenses
+$
+1,956
+$
+1,847
+$
+1,697
+Non-GAAP operating expenses/revenue %
+29
+%
+32
+%
+29
+%
+GAAP operating income
+$
+724
+$
+269
+$
+224
+GAAP operating margin
+11
+%
+5
+%
+4
+%
+Stock-based compensation
+351
+346
+353
+Amortization of acquisition-related intangibles
+585
+603
+660
+Acquisition-related and other costs
+(1)
+55
+46
+39
+Non-GAAP operating income
+$
+1,715
+$
+1,264
+$
+1,276
+Non-GAAP operating margin
+25
+%
+22
+%
+22
+%
+Three Months Ended
+September 28, 2024
+June 29, 2024
+September 30, 2023
+GAAP net income / earnings per share
+$
+771
+$
+0.47
+$
+265
+$
+0.16
+$
+299
+$
+0.18
+(Gains) losses on equity investments, net
+(1)
+—
+—
+—
+(4)
+—
+Stock-based compensation
+351
+0.21
+346
+0.21
+353
+0.22
+Equity income in investee
+(7)
+—
+(7)
+—
+(3)
+—
+Amortization of acquisition-related intangibles
+585
+0.36
+603
+0.37
+660
+0.41
+Acquisition-related and other costs
+(1)
+56
+0.03
+46
+0.03
+39
+0.02
+Income tax provision
+(251)
+(0.15)
+(127)
+(0.08)
+(209)
+(0.13)
+Non-GAAP net income / earnings per share
+$
+1,504
+$
+0.92
+$
+1,126
+$
+0.69
+$
+1,135
+$
+0.70
+(1)
+Acquisition-related and other costs primarily comprised of transaction costs, purchase price adjustments for inventory, certain compensation charges, contract termination and workforce rebalancing charges.
+5

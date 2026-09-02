@@ -1,1 +1,103 @@
-Document Exhibit 99.1
+Document
+Exhibit 99.1
+Investor Relations Contact
+Jonathan Vaas
+Adobe
+ir@adobe.com
+Public Relations Contact
+Ramona Redlingshafer
+Adobe
+redlings@adobe.com
+FOR IMMEDIATE RELEASE
+Adobe Reports Record Q4 and Fiscal 2020 Revenue
+Company Generates Record $1.8 Billion in Operating Cash Flows During Q4; Surpasses $10 Billion in Digital Media ARR
+SAN JOSE, Calif. - Dec. 10, 2020 -
+Adobe (Nasdaq:ADBE) today reported financial results for its fourth quarter and fiscal year ended Nov. 27, 2020. In its fourth quarter of fiscal year 2020, Adobe achieved record quarterly revenue of $3.42 billion, which represents 14 percent year-over-year growth. In fiscal year 2020, Adobe achieved record annual revenue of $12.87 billion, which represents 15 percent year-over-year growth.
+“Adobe delivered record Q4 and FY20 revenue performance amidst an unprecedented macroeconomic environment,” said Shantanu Narayen, president and CEO, Adobe. “As the undisputed leader in three growing categories - creativity, digital documents and customer experience management - we are well-positioned to capture the massive market opportunity ahead of us in 2021 and beyond.”
+“The resilience of our business, our operational discipline and ability to derive insights from real-time data has enabled us to thrive in 2020,” said John Murphy, executive vice president and CFO, Adobe. “Our record Q4 cash flow demonstrates the strength of our operating model, and we look forward to delivering strong top- and bottom-line growth in 2021.”
+Segment Reporting Update
+In its fourth quarter of fiscal year 2020, Adobe created a new segment called “Publishing and Advertising,” which combines the Publishing segment with Advertising Cloud, which was previously included in the Digital Experience segment. This realignment resulted from a change Adobe made in the fourth quarter to the way the company manages its Digital Experience business to better reflect the strategic shift related to Advertising Cloud and to align with our overall core value proposition of delivering on customer experience management. Advertising Cloud revenue and cost of revenue has been reclassified on the income statement from “Subscription” to “Services and other.” Financial information for fiscal years 2018, 2019 and 2020 has been revised to maintain comparability.
+Fourth Quarter Fiscal Year 2020 Financial Highlights
+•
+Adobe achieved record quarterly revenue of $3.42 billion in its fourth quarter of fiscal year 2020, which represents 14 percent year-over-year growth. Diluted earnings per share was $4.64 on a GAAP basis, and $2.81 on a non-GAAP basis.
+•
+Digital Media segment revenue was $2.50 billion, which represents 20 percent year-over-year growth. Creative revenue grew to $2.08 billion and Document Cloud revenue grew to $411 million. Digital Media Annualized Recurring Revenue (“ARR”) grew to $10.18 billion exiting the quarter, a quarter-over-quarter increase of $548 million. Creative ARR grew to $8.72 billion, and Document Cloud ARR grew to $1.46 billion.
+•
+Digital Experience segment revenue, including Advertising Cloud revenue, was $877 million.
+•
+Following the segment reporting change, Digital Experience segment revenue was $819 million, representing 10 percent year-over-year growth. Digital Experience subscription revenue grew 14 percent year-over-year.
+•
+GAAP operating income in the fourth quarter was $1.22 billion, and non-GAAP operating income was $1.54 billion. GAAP net income was $2.25 billion, and non-GAAP net income was $1.36 billion.
+•
+Cash flows from operations were a record $1.78 billion.
+•
+Remaining Performance Obligation (“RPO”) exiting the quarter was $11.34 billion.
+•
+Adobe repurchased approximately 1.6 million shares during the quarter.
+Fiscal Year 2020 Financial Highlights
+•
+Adobe achieved record annual revenue of $12.87 billion in fiscal year 2020, representing 15 percent year-over-year growth.
+•
+The company reported annual GAAP diluted earnings per share of $10.83 and non-GAAP diluted earnings per share of $10.10.
+•
+Digital Media segment revenue was $9.23 billion, representing 20 percent year-over-year growth. Creative and Document Cloud achieved record annual revenue of $7.74 billion and $1.50 billion, respectively. Digital Media ARR grew by $1.85 billion during the year.
+•
+Digital Experience segment revenue, including Advertising Cloud, was $3.40 billion.
+•
+Following the segment reporting change, Digital Experience segment revenue was $3.13 billion, representing 12 percent year-over-year growth. Digital Experience subscription revenue grew 17 percent year-over-year.
+•
+Operating income grew 30 percent and net income grew 78 percent year-over-year on a GAAP-basis; operating income grew 24 percent and net income grew 27 percent year-over-year on a non-GAAP basis.
+•
+Adobe generated a record $5.73 billion in operating cash flows during the year.
+•
+The company repurchased 8.0 million shares during the year, returning $3.0 billion of cash to stockholders.
+A reconciliation between GAAP and non-GAAP results is provided at the end of this press release and on Adobe’s website.
+Adobe Provides Fiscal Year and First Quarter 2021 Financial Targets
+The following table summarizes Adobe’s fiscal year 2021 targets:
+Total revenue
+~$15.15 billion
+Digital Media segment revenue
+~19 percent year-over-year growth
+Digital Media annualized recurring revenue (ARR)
+~$1.75 billion of net new ARR
+Digital Experience segment revenue
+~19 percent year-over-year growth
+Digital Experience subscription revenue
+~22 percent year-over-year growth
+Tax rate
+GAAP: ~19 percent
+Non-GAAP: ~17.5 percent
+Share count
+~482 million shares
+Earnings per share
+GAAP: ~$8.57
+Non-GAAP: ~$11.20
+The table below summarizes Adobe’s first quarter fiscal year 2021 targets, which factor in the following:
+•
+The financial impacts of the Workfront acquisition, which closed on Dec. 7 and is expected to contribute approximately $25 million to Adobe’s revenue during the first quarter, following estimated purchase accounting adjustments; and
+•
+The impacts of a 53-week fiscal year, with an additional week in Q1 expected to contribute approximately $240 million of total Adobe revenue and approximately $25 million of net new Digital Media ARR in the quarter.
+Total revenue
+~$3.75 billion
+Digital Media segment revenue
+~26 percent year-over-year growth
+Digital Media annualized recurring revenue (ARR)
+~$410 million of net new ARR
+Digital Experience segment revenue
+~19 percent year-over-year growth
+Digital Experience subscription revenue
+~22 percent year-over-year growth
+Tax rate
+GAAP: ~15.5 percent
+Non-GAAP: ~17.5 percent
+Share count
+~484 million shares
+Earnings per share
+GAAP: ~$2.19
+Non-GAAP: ~$2.78
+A reconciliation between GAAP and non-GAAP targets is provided at the end of this press release.
+2
+Adobe to Webcast Earnings Conference Call
+Adobe will webcast its fourth quarter fiscal year 2020 earnings conference call, together with an online financial analyst meeting, today at 8:00 a.m. Pacific Time from its investor relations website:
+www.adobe.com/ADBE
+. Earnings documents, including Adobe management’s prepared slides and an investor datasheet are posted to Adobe’s investor relations website in advance of the conference call for reference. A reconciliation between GAAP and non-GAAP earnings results and financial targets is also provided on the website.

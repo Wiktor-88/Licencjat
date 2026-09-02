@@ -1,1 +1,17 @@
-Item 2.02 Results of Operations and Financial Condition. On January 22, 2026, Intel Corporation (“Intel” or the "Company") issued a press release announcing the financial results of its fourth quarter ended December 27, 2025 and forward-looking statements relating to its first quarter of 2026. A copy of this press release is attached hereto as Exhibit 99.1 and is incorporated by reference herein. The attached press release includes non-GAAP financial measures relating to our operations and forecasted outlook. Certain of these non-GAAP measures will be used in Intel’s earnings conference for the fourth quarter of 2025. In addition, the attached press release includes reconciliations of these non-GAAP measures to GAAP measures, as well as an explanation of how management uses these non-GAAP measures and the reasons why management views these measures as providing useful information for investors. These non-GAAP financial measures should not be considered a substitute for, or superior to, financial measures calculated in accordance with GAAP, and the financial results calculated in accordance with GAAP and reconciliations to these results should be carefully evaluated. The information in Item 2.02 of this Report and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended. Item 9.01 Financial Statements and Exhibits. (d) Exhibits. The following exhibits are provided as part of this Report: Exhibit Number Description 99.1 Press Release entitled “Intel Reports Fourth-Quarter 2025 Financial Results” dated January 22, 2026 . 104 Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.
+Item 2.02
+Results of Operations and Financial Condition.
+On January 22, 2026, Intel Corporation (“Intel” or the "Company") issued a press release announcing the financial results of its fourth quarter ended December 27, 2025 and forward-looking statements relating to its first quarter of 2026.  A copy of this press release is attached hereto as Exhibit 99.1 and is incorporated by reference herein.
+The attached press release includes non-GAAP financial measures relating to our operations and forecasted outlook. Certain of these non-GAAP measures will be used in Intel’s earnings conference for the fourth quarter of 2025. In addition, the attached press release includes reconciliations of these non-GAAP measures to GAAP measures, as well as an explanation of how management uses these non-GAAP measures and the reasons why management views these measures as providing useful information for investors. These non-GAAP financial measures should not be considered a substitute for, or superior to, financial measures calculated in accordance with GAAP, and the financial results calculated in accordance with GAAP and reconciliations to these results should be carefully evaluated.
+The information in Item 2.02 of this Report and the press release attached hereto as Exhibit 99.1 are furnished and shall not be treated as filed for purposes of the Securities Exchange Act of 1934, as amended.
+Item 9.01
+Financial Statements and Exhibits.
+(d)
+Exhibits.
+The following exhibits are provided as part of this Report:
+Exhibit Number
+Description
+99.1
+Press Release entitled “Intel Reports Fourth-Quarter 2025 Financial Results” dated January 22, 2026
+.
+104
+Cover Page Interactive Data File, formatted in Inline XBRL and included as Exhibit 101.

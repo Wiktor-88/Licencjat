@@ -1,1 +1,30 @@
-Item 5.07. Submission of Matters to a Vote of Security Holders On April 7, 2021, Advanced Micro Devices, Inc. (the “Company”) held a special meeting of stockholders (the “Special Meeting”). At the Special Meeting, the Company’s stockholders voted on the following two proposals, each of which is described in detail in the definitive joint proxy statement filed by each of the Company and Xilinx, Inc. (“Xilinx”) with the Securities and Exchange Commission on March 5, 2021 (the “Proxy Statement”), in connection with the merger contemplated by the Agreement and Plan of Merger, dated October 26, 2020, as may be amended from time to time (the “Merger Agreement”), by and among the Company, Thrones Merger Sub, Inc., a wholly owned subsidiary of the Company, and Xilinx. A summary of the voting results for the matters proposed at the Special Meeting is set forth below. Proposal No. 1: Approval of the issuance of shares of the Company’s common stock to Xilinx stockholders. At the Special Meeting, the Company’s stockholders approved a proposal to approve the issuance of shares of the Company’s common stock to the stockholders of Xilinx in connection with the merger contemplated by the Merger Agreement. The voting results for this proposal were as follows: For Against Abstain 760,494,308 1,885,084 625,090 Proposal No. 2: Adjournment of the Special Meeting. At the Special Meeting, the Company’s stockholders approved a proposal to adjourn the Special Meeting, if necessary or appropriate, to solicit additional proxies if there are insufficient votes at the time of the Special Meeting, to approve the Company’s share issuance proposal or to ensure that any supplement or amendment to the Proxy Statement is timely provided to the Company’s stockholders. The voting results for this proposal were as follows: For Against Abstain 663,484,646 98,603,766 916,070 Item 8.01 Other Events. On April 7, 2021, the Company and Xilinx issued a joint press release announcing the voting results of the Special Meeting and the special meeting of Xilinx shareholders. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated by reference herein. Item 9.01 Financial Statements and Exhibits. (d) Exhibits: Exhibit No. Description 99.1 Joint Press Release of Advanced Micro Devices, Inc. and Xilinx, Inc., dated April 7 , 2021 104 Cover Page Interactive Data File (embedded within the Inline XBRL document)
+Item 5.07. Submission of Matters to a Vote of Security Holders
+On April  7, 2021, Advanced Micro Devices, Inc. (the “Company”) held a special meeting of stockholders (the “Special Meeting”). At the Special Meeting, the Company’s stockholders voted on the following two proposals, each of which is described in detail in the definitive joint proxy statement filed by each of the Company and Xilinx, Inc. (“Xilinx”) with the Securities and Exchange Commission on March 5, 2021 (the “Proxy Statement”), in connection with the merger contemplated by the Agreement and Plan of Merger, dated October 26, 2020, as may be amended from time to time (the “Merger Agreement”), by and among the Company, Thrones Merger Sub, Inc., a wholly owned subsidiary of the Company, and Xilinx. A summary of the voting results for the matters proposed at the Special Meeting is set forth below.
+Proposal No. 1:
+Approval of the issuance of shares of the Company’s common stock to Xilinx stockholders.  At the Special Meeting, the Company’s stockholders approved a proposal to approve the issuance of shares of the Company’s common stock to the stockholders of Xilinx in connection with the merger contemplated by the Merger Agreement. The voting results for this proposal were as follows:
+For
+Against
+Abstain
+760,494,308
+1,885,084
+625,090
+Proposal No. 2: Adjournment of the Special Meeting.
+At the Special Meeting, the Company’s stockholders approved a proposal to adjourn the Special Meeting, if necessary or appropriate, to solicit additional proxies if there are insufficient votes at the time of the Special Meeting, to approve the Company’s share issuance proposal or to ensure that any supplement or amendment to the Proxy Statement is timely provided to the Company’s stockholders. The voting results for this proposal were as follows:
+For
+Against
+Abstain
+663,484,646
+98,603,766
+916,070
+Item 8.01    Other Events.
+On April 7, 2021, the Company and Xilinx issued a joint press release announcing the voting results of the Special Meeting and the special meeting of Xilinx shareholders. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated by reference herein.
+Item 9.01    Financial Statements and Exhibits.
+(d) Exhibits:
+Exhibit
+No.
+Description
+99.1
+Joint Press Release of Advanced Micro Devices, Inc. and Xilinx, Inc., dated April
+7
+, 2021
+104          Cover Page Interactive Data File (embedded within the Inline XBRL document)

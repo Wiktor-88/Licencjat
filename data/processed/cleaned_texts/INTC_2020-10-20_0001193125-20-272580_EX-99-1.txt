@@ -1,1 +1,70 @@
-EX-99.1 Exhibit 99.1 SK hynix to Acquire Intel NAND Memory Business NEWS HIGHLIGHTS • SK hynix will pay US $9 billion for the Intel NAND memory and storage business, which includes the NAND SSD business, the NAND component and wafer business, and the Dalian NAND memory manufacturing facility in China. • SK hynix aims to enhance the competitiveness of its NAND flash solutions as one of the leading global semiconductor companies and grow the memory ecosystem to the benefit of customers, partners, employees and shareholders. • Intel will retain its Intel ® Optane ™ business and intends to invest transaction proceeds in long-term growth priorities. SEOUL, Republic of Korea and SANTA CLARA, Calif., Oct. 20, 2020 — SK hynix and Intel today announced that they have signed an agreement on Oct. 20, Korea Standard Time, under which SK hynix would acquire Intel’s NAND memory and storage business for US $9 billion. The transaction includes the NAND SSD business, the NAND component and wafer business, and the Dalian NAND memory manufacturing facility in China. Intel will retain its distinct Intel ® Optane TM business. SK hynix and Intel will endeavor to obtain required governmental approvals, expected in late 2021. Following receipt of these approvals, SK hynix will acquire from Intel the NAND SSD business (including NAND SSD-associated IP and employees), as well as the Dalian facility, with the first payment of US $7 billion. SK hynix will acquire from Intel the remaining assets, including IP related to the manufacture and design of NAND flash wafers, R&D employees, and the Dalian fab workforce, upon a final closing, expected to occur in March 2025 with the remaining payment of US $2 billion. Per the agreement, Intel will continue to manufacture NAND wafers at the Dalian Memory Manufacturing Facility and retain all IP related to the manufacture and design of NAND flash wafers until the final closing. With this acquisition, SK hynix aims to enhance the competitiveness of its storage solutions, including enterprise SSDs, in the rapidly growing NAND flash space, and further aims to leap forward as one of the leading global semiconductor companies in the industry. SK hynix expects that the transaction would enable SK hynix to grow the memory ecosystem to the benefit of customers, partners, employees and shareholders. As the global leader in the semiconductor industry, Intel possesses industry-leading NAND SSD technology and quadruple level cell (QLC) NAND flash products. For the six months ended June 27, 2020, NAND businesses represented approximately US $2.8 billion of the revenue for Intel`s Non-volatile Memory Solutions Group (NSG) and contributed approximately US $600 million to NSG operating income. SK hynix developed the world’s first Charge Trap Flash (CTF)-based, 96-layer 4D NAND flash in 2018 and 128-layer 4D NAND flash in 2019. SK hynix will combine Intel’s solutions technology and manufacturing capability in order to establish a higher value-added 3D NAND solutions portfolio including enterprise SSDs. Intel intends to invest transaction proceeds to deliver leadership products and advance its long-term growth priorities, including artificial intelligence, 5G networking and the intelligent, autonomous edge. Intel and SK hynix will work together to ensure a seamless transition for customers, suppliers and employees. The two companies will work collaboratively as they did recently with DDR5, to better serve the growing demand from the memory-based semiconductor ecosystem. “I am pleased to see SK hynix and Intel’s NAND division, which have led the NAND flash technology innovation, work to build the new future together,” said Seok-Hee Lee, Chief Executive Officer (CEO) of SK hynix. “By taking each other’s strengths and technologies, SK hynix will proactively respond to various needs from customers and optimize our business structure, expanding our innovative portfolio in the NAND flash market segment, which will be comparable with what we achieved in DRAM.” Bob Swan, Intel CEO said, “I am proud of the NAND memory business we have built and believe this combination with SK hynix will grow the memory ecosystem for the benefit of customers, partners and employees. For Intel, this transaction will allow us to further prioritize our investments in differentiated technology where we can play a bigger role in the success of our customers and deliver attractive returns to our stockholders.” Advisors Citi served as financial advisor and Skadden, Arps, Slate, Meagher & Flom LLP, K&C and Fangda Partners served as legal counsel to SK hynix. BofA Securities served as financial advisor and Munger, Tolles & Olson LLP, Wilmer Cutler Pickering Hale and Dorr LLP, Linklaters LLP and Bae, Kim & Lee LLC served as legal counsel to Intel. About SK hynix SK hynix, headquartered in Korea, is the world’s top tier semiconductor supplier offering Dynamic Random Access Memory chips (“DRAM”), flash memory chips (“NAND flash”) and CMOS Image Sensors (“CIS”) for a wide range of distinguished customers globally. SK hynix’s shares are traded on the Korea Exchange, and the Global Depository shares are listed on the Luxembourg Stock Exchange. Further information about SK hynix is available at www.skhynix.com , news.skhynix.com . About Intel Intel (Nasdaq: INTC) is an industry leader, creating world-changing technology that enables global progress and enriches lives. Inspired by Moore’s Law, we continuously work to advance the design and manufacturing of semiconductors to help address our customers’ greatest challenges. By embedding intelligence in the cloud, network, edge and every kind of computing device, we unleash the potential of data to transform business and society for the better. To learn more about Intel’s innovations, go to newsroom.Intel.com and Intel.com . © Intel Corporation. Intel, the Intel logo and other Intel marks are trademarks of Intel Corporation or its subsidiaries. Other names and brands may be claimed as the property of others. CONTACTS: For SK hynix Global Public Relations Jaehwan Kevin Kim E-Mail: global_newsroom@skhynix.com Sejin Julia Yoo E-Mail: global_newsroom@skhynix.com Eun Suk Yixi Lee E-Mail: global_newsroom@skhynix.com For Intel Tony Balow Cara Walker
+EX-99.1
+Exhibit 99.1
+SK hynix to Acquire Intel NAND Memory Business
+NEWS HIGHLIGHTS
+
+SK hynix will pay US $9 billion for the Intel NAND memory and storage business, which includes the NAND SSD business,
+the NAND component and wafer business, and the Dalian NAND memory manufacturing facility in China.
+
+SK hynix aims to enhance the competitiveness of its NAND flash solutions as one of the leading global semiconductor
+companies and grow the memory ecosystem to the benefit of customers, partners, employees and shareholders.
+
+Intel will retain its Intel
+®
+Optane
+
+business and intends to invest transaction proceeds in long-term growth priorities.
+SEOUL, Republic of Korea and SANTA CLARA, Calif., Oct. 20, 2020  SK hynix and Intel today announced that they have signed an agreement on Oct. 20, Korea
+Standard Time, under which SK hynix would acquire Intels NAND memory and storage business for US $9 billion.
+The transaction includes the NAND SSD
+business, the NAND component and wafer business, and the Dalian NAND memory manufacturing facility in China. Intel will retain its distinct Intel
+®
+Optane
+TM
+business.
+SK hynix and Intel will endeavor to obtain required governmental approvals, expected in late 2021.
+Following receipt of these approvals, SK hynix will acquire from Intel the NAND SSD business (including NAND
+SSD-associated
+IP and employees), as well as the Dalian facility, with the first payment of US
+$7 billion. SK hynix will acquire from Intel the remaining assets, including IP related to the manufacture and design of NAND flash wafers, R&D employees, and the Dalian fab workforce, upon a final closing, expected to occur in March 2025
+with the remaining payment of US $2 billion. Per the agreement, Intel will continue to manufacture NAND wafers at the Dalian Memory Manufacturing Facility and retain all IP related to the manufacture and design of NAND flash wafers until the
+final closing.
+With this acquisition, SK hynix aims to enhance the competitiveness of its storage solutions, including enterprise
+SSDs, in the rapidly growing NAND flash space, and further aims to leap forward as one of the leading global semiconductor companies in the industry. SK hynix expects that the transaction would enable SK hynix to grow the memory ecosystem to the
+benefit of customers, partners, employees and shareholders.
+As the global leader in the semiconductor industry, Intel possesses industry-leading NAND SSD
+technology and quadruple level cell (QLC) NAND flash products. For the six months ended June 27, 2020, NAND businesses represented approximately US $2.8 billion of the revenue for Intel`s
+Non-volatile
+Memory Solutions Group (NSG) and contributed approximately US $600 million to NSG operating income.
+SK
+hynix developed the worlds first Charge Trap Flash (CTF)-based,
+96-layer
+4D NAND flash in 2018 and
+128-layer
+4D NAND flash in 2019. SK hynix will combine
+Intels solutions technology and manufacturing capability in order to establish a higher value-added 3D NAND solutions portfolio including enterprise SSDs.
+Intel intends to invest transaction proceeds to deliver leadership products and advance its long-term growth priorities, including artificial intelligence, 5G
+networking and the intelligent, autonomous edge.
+Intel and SK hynix will work together to ensure a seamless transition for customers, suppliers and employees. The
+two companies will work collaboratively as they did recently with DDR5, to better serve the growing demand from the memory-based semiconductor ecosystem.
+I
+am pleased to see SK hynix and Intels NAND division, which have led the NAND flash technology innovation, work to build the new future together, said
+Seok-Hee
+Lee, Chief Executive Officer (CEO) of
+SK hynix. By taking each others strengths and technologies, SK hynix will proactively respond to various needs from customers and optimize our business structure, expanding our innovative portfolio in the NAND flash market segment, which
+will be comparable with what we achieved in DRAM.
+Bob Swan, Intel CEO said, I am proud of the NAND memory business we have built and believe this
+combination with SK hynix will grow the memory ecosystem for the benefit of customers, partners and employees. For Intel, this transaction will allow us to further prioritize our investments in differentiated technology where we can play a bigger
+role in the success of our customers and deliver attractive returns to our stockholders.
+Advisors
+Citi served as
+financial advisor and Skadden, Arps, Slate, Meagher & Flom LLP, K&C and Fangda Partners served as legal counsel to SK hynix. BofA Securities served as financial advisor and Munger, Tolles & Olson LLP, Wilmer Cutler Pickering
+Hale and Dorr LLP, Linklaters LLP and Bae, Kim & Lee LLC served as legal counsel to Intel.
+About SK hynix
+SK hynix, headquartered in Korea, is the worlds top tier semiconductor supplier offering Dynamic Random Access Memory chips (DRAM), flash memory chips
+(NAND flash) and CMOS Image Sensors (CIS) for a wide range of distinguished customers globally. SK hynixs shares are traded on the Korea Exchange, and the Global Depository shares are listed on the Luxembourg
+Stock Exchange. Further information about SK hynix is available at
+www.skhynix.com
+,
+news.skhynix.com
+.
