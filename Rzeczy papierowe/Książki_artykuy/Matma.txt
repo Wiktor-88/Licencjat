@@ -1,6 +1,0 @@
-Matma jak to wygląda:
-1) Statyka - testy do Regresji Logistycznej
-2) Teoria gier - współczynnik SHAP
-3) Równania różniczkowe - sieci neuronowe
-4) Analiza zespolona - transformata Furiera dla szeregów czasowych
-5) Procesy Stochastyczne
