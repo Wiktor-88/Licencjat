@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "GOOGL",
+    "Accession": "0001652044-24-000076",
+    "Filing_Date": "2024-07-23",
+    "Feature_Cutoff_Session": "2024-07-23",
+    "Event_Session": "2024-07-24T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2024,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "false_negative"
+  },
+  "prediction": {
+    "Base_Value": -0.286272376327195,
+    "Raw_Margin": -2.2892388716848924,
+    "Probability_Class_1": 0.0920181230573532,
+    "Prediction": 0
+  }
+}

@@ -11,9 +11,9 @@
     "XAI_Example_Type": "true_positive"
   },
   "prediction": {
-    "Base_Value": -0.21471349895000458,
-    "Raw_Margin": 1.5712761878967285,
-    "Probability_Class_1": 0.8279654383659363,
+    "Base_Value": -0.21879321336746216,
+    "Raw_Margin": 1.609410285949707,
+    "Probability_Class_1": 0.8333294987678528,
     "Prediction": 1
   }
 }

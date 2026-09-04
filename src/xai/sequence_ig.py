@@ -133,8 +133,9 @@ def summarize_static_ig(df: pd.DataFrame) -> pd.DataFrame:
 
 def plot_sequence_heatmap(df: pd.DataFrame,
                           output_file: Path,
-                          value_column: str = "Mean_Abs_IG",
-                          title: str = "Integrated Gradients – cecha × krok",) -> None:
+                          value_column: str = "Mean_IG",
+                          title: str = "Integrated Gradients – kierunek i siła wpływu",
+                          colorbar_label: str = "Średnia wartość IG") -> None:
     matrix = (df.pivot_table(index="Feature",
                             columns="Sequence_Step",
                             values=value_column,
@@ -142,7 +143,11 @@ def plot_sequence_heatmap(df: pd.DataFrame,
 
     fig, ax = plt.subplots(figsize=(14, max(5, 0.55 * len(matrix))))
 
-    image = ax.imshow(matrix.to_numpy(), aspect="auto")
+    values = matrix.to_numpy(dtype=float)
+    limit = float(np.nanmax(np.abs(values)))
+    limit = limit if np.isfinite(limit) and limit > 0 else 1.0
+
+    image = ax.imshow(values, aspect="auto", cmap="RdBu_r", vmin=-limit, vmax=limit)
 
     ax.set_xticks(np.arange(len(matrix.columns)))
     ax.set_xticklabels(matrix.columns)
@@ -153,7 +158,7 @@ def plot_sequence_heatmap(df: pd.DataFrame,
     ax.set_ylabel("Cecha")
     ax.set_title(title)
 
-    fig.colorbar(image, ax=ax, label=value_column)
+    fig.colorbar(image, ax=ax, label=colorbar_label)
     fig.tight_layout()
 
     output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -258,7 +263,8 @@ def run_local_sequence_ig(model,
     plot_sequence_heatmap(local_plot,
                           output_dir / "sequence_ig_heatmap.png",
                           value_column="Mean_IG",
-                          title="Local Integrated Gradients – cecha × krok")
+                          title="Lokalne Integrated Gradients – kierunek i siła wpływu",
+                          colorbar_label="Wartość IG")
 
     event = build_event_metadata(event_row)
 

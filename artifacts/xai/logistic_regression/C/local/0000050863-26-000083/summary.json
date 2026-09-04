@@ -11,9 +11,9 @@
     "XAI_Example_Type": "false_negative"
   },
   "prediction": {
-    "Intercept_Log_Odds": 0.7977635952985661,
-    "Final_Log_Odds": -3.2918615187937825,
-    "Probability_Class_1": 0.03585144477787453,
+    "Intercept_Log_Odds": 0.8070431801959763,
+    "Final_Log_Odds": -3.286426232353856,
+    "Probability_Class_1": 0.03603979623971669,
     "Prediction": 0
   }
 }

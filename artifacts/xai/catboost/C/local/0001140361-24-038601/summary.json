@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "AAPL",
+    "Accession": "0001140361-24-038601",
+    "Filing_Date": "2024-08-26",
+    "Feature_Cutoff_Session": "2024-08-26",
+    "Event_Session": "2024-08-27T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2024,
+    "Target_Tradable_Abnormal_1D": 1,
+    "XAI_Example_Type": "true_positive"
+  },
+  "prediction": {
+    "Base_Value": -0.286272376327195,
+    "Raw_Margin": 2.078612031559243,
+    "Probability_Class_1": 0.8888069355309876,
+    "Prediction": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "event": {
+    "Ticker": "NFLX",
+    "Accession": "0001065280-26-000139",
+    "Filing_Date": "2026-04-22",
+    "Feature_Cutoff_Session": "2026-04-22",
+    "Event_Session": "2026-04-23T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2026,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Probability_Class_1": 0.7909415364265442,
+    "Prediction": 1
+  }
+}

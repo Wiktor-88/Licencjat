@@ -11,8 +11,8 @@
     "XAI_Example_Type": "false_positive"
   },
   "prediction": {
-    "Logit": 0.5566908717155457,
-    "Probability_Class_1": 0.6356865167617798,
-    "Completeness_Error": 0.0029900670051574707
+    "Logit": 0.5566899180412292,
+    "Probability_Class_1": 0.6356862783432007,
+    "Completeness_Error": 0.00298917293548584
   }
 }

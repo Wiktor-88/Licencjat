@@ -1,13 +1,10 @@
 from __future__ import annotations
 
 from pathlib import Path
-import json
 import logging
 
 import pandas as pd
 import streamlit as st
-
-from src.app.theme import apply_theme
 
 
 logger = logging.getLogger(__name__)
@@ -52,7 +49,9 @@ def first_value(row: pd.Series, *columns: str | None) -> str:
             value = row[column]
             if "date" in column.lower() or "session" in column.lower():
                 date = pd.to_datetime(value, errors="coerce")
-                return date.strftime("%Y-%m-%d %H:%M") if pd.notna(date) else str(value)
+                if pd.notna(date):
+                    return date.strftime("%Y-%m-%d") if date.hour == date.minute == date.second == 0 else date.strftime("%Y-%m-%d %H:%M")
+                return str(value)
             return str(value)
     return "—"
 
@@ -60,7 +59,6 @@ def first_value(row: pd.Series, *columns: str | None) -> str:
 class ProjectData:
     def __init__(self, data_dir: Path, xai_dir: Path) -> None:
         self.data_dir, self.xai_dir = data_dir, xai_dir
-        apply_theme()
 
     @staticmethod
     def column(frame: pd.DataFrame, *names: str) -> str | None:
@@ -197,7 +195,8 @@ class ProjectData:
         root = self._xai_model_dir(model)
         if year is not None:
             return self._artifact_files(root / variant / f"test_{year}")
-        common = [path for path in root.iterdir() if path.is_file() and not path.name.startswith("local_")]
+        common = [path for path in root.iterdir() if path.is_file() and path.suffix.lower() != ".json"
+                  and not path.name.startswith("local_")]
         variant_files = [path for path in common if path.stem.endswith(f"_{variant}")]
         stability = [path for path in common if "stability" in path.stem or "by_fold" in path.stem]
         return sorted(set(variant_files + stability))
@@ -207,7 +206,7 @@ class ProjectData:
 
     @staticmethod
     def _artifact_files(folder: Path) -> list[Path]:
-        extensions = {".png", ".jpg", ".jpeg", ".svg", ".csv", ".json", ".txt", ".md", ".html"}
+        extensions = {".png", ".jpg", ".jpeg", ".svg", ".csv", ".txt", ".md", ".html"}
         return sorted(path for path in folder.rglob("*") if path.is_file() and path.suffix.lower() in extensions) if folder.exists() else []
 
     def render_artifact(self, path: Path) -> None:
@@ -217,11 +216,6 @@ class ProjectData:
             st.image(str(path), width="stretch")
         elif suffix == ".csv":
             st.dataframe(self._read_csv(path), width="stretch", hide_index=True)
-        elif suffix == ".json":
-            try:
-                st.json(json.loads(path.read_text(encoding="utf-8")))
-            except (OSError, json.JSONDecodeError) as error:
-                st.error(f"Nie udało się odczytać JSON: {error}")
         elif suffix == ".html":
             st.components.v1.html(path.read_text(encoding="utf-8"), height=650, scrolling=True)
         else:

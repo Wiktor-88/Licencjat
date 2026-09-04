@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "AMD",
+    "Accession": "0001193125-26-226746",
+    "Filing_Date": "2026-05-15",
+    "Feature_Cutoff_Session": "2026-05-15",
+    "Event_Session": "2026-05-18T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2026,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "false_positive"
+  },
+  "prediction": {
+    "Base_Value": -0.28121133942128707,
+    "Raw_Margin": 1.7808835501469582,
+    "Probability_Class_1": 0.8558059321675309,
+    "Prediction": 1
+  }
+}

@@ -11,7 +11,7 @@
     "XAI_Example_Type": "true_negative"
   },
   "prediction": {
-    "Probability_Class_1": 0.030413195490837097,
+    "Probability_Class_1": 0.00011898115189978853,
     "Prediction": 0
   }
 }

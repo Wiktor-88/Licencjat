@@ -163,7 +163,7 @@ def plot_coefficients(coefficients_df: pd.DataFrame,
     ax.barh(plot_df["Feature"], plot_df["Coefficient_Log_Odds"])
     ax.axvline(0, linewidth=1)
 
-    ax.set_xlabel("Współczynnik log-odds")
+    ax.set_xlabel(r"Współczynnik $\beta_j=\log(\mathrm{OR}_j)$")
     ax.set_ylabel("Cecha")
     ax.set_title("Regresja logistyczna – współczynniki modelu")
     ax.grid(axis="x", alpha=0.25)

@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Ticker": "QCOM",
+    "Accession": "0000804328-24-000074",
+    "Filing_Date": "2024-11-06",
+    "Feature_Cutoff_Session": "2024-11-06",
+    "Event_Session": "2024-11-07T00:00:00",
+    "Publication_Period": "AFTER_HOURS",
+    "Test_Year": 2024,
+    "Target_Tradable_Abnormal_1D": 0,
+    "XAI_Example_Type": "true_negative"
+  },
+  "prediction": {
+    "Base_Value": -0.286272376327195,
+    "Raw_Margin": -2.2858842284587015,
+    "Probability_Class_1": 0.0922987900096724,
+    "Prediction": 0
+  }
+}
