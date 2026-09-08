@@ -78,5 +78,6 @@ xgboost>=2.0
 catboost>=1.2
 optuna>=3.0
 pytorch-tabnet>=4.1
+PyALE==1.2.0
 shap>=0.45
 matplotlib>=3.8

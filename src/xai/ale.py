@@ -6,9 +6,25 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from PyALE import ale
 
 
 logger = logging.getLogger(__name__)
+
+
+class PositiveClassProbability:
+    """Adapter zwracający PyALE prawdopodobieństwo klasy dodatniej."""
+
+    def __init__(self, model) -> None:
+        self.model = model
+
+    def predict(self, X: pd.DataFrame) -> np.ndarray:
+        probabilities = np.asarray(self.model.predict_proba(X))
+
+        if probabilities.ndim != 2 or probabilities.shape[1] != 2:
+            raise ValueError("ALE wymaga klasyfikatora binarnego z predict_proba")
+
+        return probabilities[:, 1]
 
 
 def select_ale_features(pfi_df: pd.DataFrame, 
@@ -36,72 +52,35 @@ def calculate_ale_1d(model,
         raise ValueError("n_bins musi być >= 2")
 
     values = pd.to_numeric(X[feature], errors="coerce")
-    valid = values.notna()
+    X_valid = X.loc[values.notna()].copy()
+    X_valid[feature] = values.loc[values.notna()].astype(float)
 
-    X_valid = X.loc[valid].copy()
-    values = values.loc[valid].to_numpy(dtype=float)
-
-    if len(values) < n_bins:
+    if len(X_valid) < n_bins:
         raise ValueError(f"Za mało obserwacji dla ALE cechy {feature}")
 
-    edges = np.unique(np.quantile(values, np.linspace(0, 1, n_bins + 1)))
-
-    if len(edges) < 3:
+    if X_valid[feature].nunique() < 2:
         raise ValueError(f"Cecha {feature} ma za mało różnych wartości")
 
-    bin_ids = np.searchsorted(edges[1:-1], values, side="right")
+    result = ale(X=X_valid,
+                 model=PositiveClassProbability(model),
+                 feature=[feature],
+                 feature_type="continuous",
+                 grid_size=n_bins,
+                 include_CI=False,
+                 plot=False)
 
-    rows = []
-
-    for bin_id in range(len(edges) - 1):
-        mask = bin_ids == bin_id
-        count = int(mask.sum())
-
-        if count == 0:
-            continue
-
-        lower = float(edges[bin_id])
-        upper = float(edges[bin_id + 1])
-
-        X_bin = X_valid.iloc[np.where(mask)[0]].copy()
-
-        X_lower = X_bin.copy()
-        X_upper = X_bin.copy()
-
-        X_lower[feature] = lower
-        X_upper[feature] = upper
-
-        p_lower = model.predict_proba(X_lower)[:, 1]
-        p_upper = model.predict_proba(X_upper)[:, 1]
-
-        local_effect = float(np.mean(p_upper - p_lower))
-
-        rows.append({"Feature": feature,
-                     "Bin": bin_id,
-                     "Bin_Lower": lower,
-                     "Bin_Upper": upper,
-                     "Bin_Center": (lower + upper) / 2,
-                     "Local_Effect": local_effect,
-                     "Count": count})
-
-    result = pd.DataFrame(rows)
+    result = (result.reset_index()
+        .rename(columns={feature: "Feature_Value", "eff": "ALE", "size": "Count"}))
+    result.insert(0, "Feature", feature)
+    result["Count"] = result["Count"].fillna(0).astype(int)
 
     if result.empty:
         raise ValueError(f"Nie udało się obliczyć ALE dla {feature}")
 
-    # Wartość w środku przedziału
-    cumulative = result["Local_Effect"].cumsum()
-    result["ALE"] = cumulative - 0.5 * result["Local_Effect"]
-
-    # ALE centrujemy względem zera
-    center = np.average(result["ALE"], weights=result["Count"])
-
-    result["ALE"] -= center
-
-    logger.info("Obliczono ALE | %s | n=%d | bins=%d",
+    logger.info("Obliczono ALE przez PyALE | %s | n=%d | grid=%d",
                 feature,
-                len(values),
-                len(result))
+                len(X_valid),
+                len(result) - 1)
 
     return result
 
@@ -117,9 +96,9 @@ def plot_ale_by_fold(ale_df: pd.DataFrame,
     fig, ax = plt.subplots(figsize=(9, 6))
 
     for test_year, year_df in plot_df.groupby("Test_Year"):
-        year_df = year_df.sort_values("Bin_Center")
+        year_df = year_df.sort_values("Feature_Value")
 
-        ax.plot(year_df["Bin_Center"], year_df["ALE"],
+        ax.plot(year_df["Feature_Value"], year_df["ALE"],
                 marker="o",
                 label=str(test_year))
 
